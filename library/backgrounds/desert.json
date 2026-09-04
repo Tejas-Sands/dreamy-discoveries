@@ -1,0 +1,60 @@
+{
+  "name": "desert",
+  "gradient": [
+    "#ffd98a",
+    "#ffe9c9"
+  ],
+  "palette": "sunshine",
+  "description": "a sunny desert with cactuses and sand dunes",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1600,
+      "y": 200,
+      "r": 80
+    },
+    {
+      "part": "hill",
+      "cx": 400,
+      "top": 640,
+      "rx": 1000,
+      "color": "#f5c66b"
+    },
+    {
+      "part": "hill",
+      "cx": 1500,
+      "top": 600,
+      "rx": 1100,
+      "color": "#f0b95a"
+    },
+    {
+      "part": "hill",
+      "cx": 960,
+      "top": 850,
+      "rx": 1500,
+      "color": "#e6a94a"
+    },
+    {
+      "part": "cactus",
+      "x": 300,
+      "s": 1
+    },
+    {
+      "part": "cactus",
+      "x": 1650,
+      "s": 0.8
+    },
+    {
+      "part": "rock",
+      "x": 1200,
+      "y": 910,
+      "s": 0.8,
+      "color": "#c9895a"
+    },
+    {
+      "part": "sparkleDust",
+      "count": 8,
+      "color": "#fff6c8"
+    }
+  ]
+}

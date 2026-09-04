@@ -1,0 +1,2221 @@
+{
+  "type": "story",
+  "slug": "sample-share",
+  "title": "Benny Shares His Carrots",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Benny"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Benny the bunny! I have a story for you. Are you ready? Hop, hop, hooray!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave",
+    "audio": "line-b4117e57c8.wav",
+    "durationSec": 5.975,
+    "words": [
+      {
+        "text": "Hi",
+        "start": 0.12,
+        "end": 0.321
+      },
+      {
+        "text": "friends!",
+        "start": 0.321,
+        "end": 0.878
+      },
+      {
+        "text": "I'm",
+        "start": 0.878,
+        "end": 1.078
+      },
+      {
+        "text": "Benny",
+        "start": 1.078,
+        "end": 1.452
+      },
+      {
+        "text": "the",
+        "start": 1.452,
+        "end": 1.71
+      },
+      {
+        "text": "bunny!",
+        "start": 1.71,
+        "end": 2.152
+      },
+      {
+        "text": "I",
+        "start": 2.152,
+        "end": 2.295
+      },
+      {
+        "text": "have",
+        "start": 2.295,
+        "end": 2.611
+      },
+      {
+        "text": "a",
+        "start": 2.611,
+        "end": 2.754
+      },
+      {
+        "text": "story",
+        "start": 2.754,
+        "end": 3.127
+      },
+      {
+        "text": "for",
+        "start": 3.127,
+        "end": 3.386
+      },
+      {
+        "text": "you.",
+        "start": 3.386,
+        "end": 3.713
+      },
+      {
+        "text": "Are",
+        "start": 3.713,
+        "end": 3.971
+      },
+      {
+        "text": "you",
+        "start": 3.971,
+        "end": 4.229
+      },
+      {
+        "text": "ready?",
+        "start": 4.229,
+        "end": 4.671
+      },
+      {
+        "text": "Hop,",
+        "start": 4.671,
+        "end": 4.999
+      },
+      {
+        "text": "hop,",
+        "start": 4.999,
+        "end": 5.326
+      },
+      {
+        "text": "hooray!",
+        "start": 5.326,
+        "end": 5.825
+      }
+    ]
+  },
+  "outro": {
+    "text": "Thank you for listening, friends! Remember to share. Bye bye!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave",
+    "audio": "line-36da218783.wav",
+    "durationSec": 4.175,
+    "words": [
+      {
+        "text": "Thank",
+        "start": 0.12,
+        "end": 0.494
+      },
+      {
+        "text": "you",
+        "start": 0.494,
+        "end": 0.754
+      },
+      {
+        "text": "for",
+        "start": 0.754,
+        "end": 1.013
+      },
+      {
+        "text": "listening,",
+        "start": 1.013,
+        "end": 1.687
+      },
+      {
+        "text": "friends!",
+        "start": 1.687,
+        "end": 2.245
+      },
+      {
+        "text": "Remember",
+        "start": 2.245,
+        "end": 2.792
+      },
+      {
+        "text": "to",
+        "start": 2.792,
+        "end": 2.994
+      },
+      {
+        "text": "share.",
+        "start": 2.994,
+        "end": 3.438
+      },
+      {
+        "text": "Bye",
+        "start": 3.438,
+        "end": 3.697
+      },
+      {
+        "text": "bye!",
+        "start": 3.697,
+        "end": 4.025
+      }
+    ]
+  },
+  "moral": "Sharing makes everyone happy.",
+  "moralRhyme": [
+    "Share, share, it's only fair!",
+    "Sharing shows how much we care!"
+  ],
+  "targetMinutes": 4,
+  "youtube": {
+    "title": "Benny Shares His Carrots 🥕 A Story About Sharing for Kids",
+    "description": "Benny the bunny finds a big basket of carrots — but will he share with his friend Bella? A warm, funny story about sharing and friendship, with questions for your little one to answer along the way.\n#kidsstories #sharing #bedtimestories #toddlers #moralstories",
+    "tags": [
+      "kids stories",
+      "moral stories for kids",
+      "sharing",
+      "bedtime stories",
+      "toddler stories",
+      "preschool",
+      "friendship",
+      "bunny story",
+      "animated stories",
+      "learning for kids",
+      "kindness",
+      "story time"
+    ]
+  },
+  "scenes": [
+    {
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "calm",
+      "prop": "🥕",
+      "lines": [
+        {
+          "text": "Benny the bunny loved carrots more than anything.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "eat",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-45de7c01e6.wav",
+          "durationSec": 3.25,
+          "words": [
+            {
+              "text": "Benny",
+              "start": 0.12,
+              "end": 0.477
+            },
+            {
+              "text": "the",
+              "start": 0.477,
+              "end": 0.725
+            },
+            {
+              "text": "bunny",
+              "start": 0.725,
+              "end": 1.082
+            },
+            {
+              "text": "loved",
+              "start": 1.082,
+              "end": 1.44
+            },
+            {
+              "text": "carrots",
+              "start": 1.44,
+              "end": 1.907
+            },
+            {
+              "text": "more",
+              "start": 1.907,
+              "end": 2.209
+            },
+            {
+              "text": "than",
+              "start": 2.209,
+              "end": 2.512
+            },
+            {
+              "text": "anything.",
+              "start": 2.512,
+              "end": 3.1
+            }
+          ]
+        },
+        {
+          "text": "Crunch, crunch, munch! Yummy carrots!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "eat",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-68a967b3b5.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Crunch,",
+              "start": 0.12,
+              "end": 0.69
+            },
+            {
+              "text": "crunch,",
+              "start": 0.69,
+              "end": 1.26
+            },
+            {
+              "text": "munch!",
+              "start": 1.26,
+              "end": 1.764
+            },
+            {
+              "text": "Yummy",
+              "start": 1.764,
+              "end": 2.19
+            },
+            {
+              "text": "carrots!",
+              "start": 2.19,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-181898596f.wav",
+          "durationSec": 1.825,
+          "words": [
+            {
+              "text": "Hop,",
+              "start": 0.091,
+              "end": 0.54
+            },
+            {
+              "text": "hop,",
+              "start": 0.54,
+              "end": 0.989
+            },
+            {
+              "text": "hooray!",
+              "start": 0.989,
+              "end": 1.675
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "pop",
+      "camera": "zoom-in",
+      "question": null,
+      "secondCharacter": null,
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "calm",
+      "prop": "🥕",
+      "lines": [
+        {
+          "text": "One sunny morning, Benny found a big basket of carrots.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "🧺"
+          },
+          "sfx": [
+            "pop"
+          ],
+          "audio": "line-01655791e4.wav",
+          "durationSec": 3.925,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.12,
+              "end": 0.388
+            },
+            {
+              "text": "sunny",
+              "start": 0.388,
+              "end": 0.775
+            },
+            {
+              "text": "morning,",
+              "start": 0.775,
+              "end": 1.352
+            },
+            {
+              "text": "Benny",
+              "start": 1.352,
+              "end": 1.739
+            },
+            {
+              "text": "found",
+              "start": 1.739,
+              "end": 2.126
+            },
+            {
+              "text": "a",
+              "start": 2.126,
+              "end": 2.275
+            },
+            {
+              "text": "big",
+              "start": 2.275,
+              "end": 2.543
+            },
+            {
+              "text": "basket",
+              "start": 2.543,
+              "end": 2.989
+            },
+            {
+              "text": "of",
+              "start": 2.989,
+              "end": 3.198
+            },
+            {
+              "text": "carrots.",
+              "start": 3.198,
+              "end": 3.775
+            }
+          ]
+        },
+        {
+          "text": "Wow! Ten carrots, all for me!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": {
+            "kind": "number",
+            "text": "10",
+            "emoji": "🥕"
+          },
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-6366ee1771.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Wow!",
+              "start": 0.12,
+              "end": 0.498
+            },
+            {
+              "text": "Ten",
+              "start": 0.498,
+              "end": 0.797
+            },
+            {
+              "text": "carrots,",
+              "start": 0.797,
+              "end": 1.441
+            },
+            {
+              "text": "all",
+              "start": 1.441,
+              "end": 1.739
+            },
+            {
+              "text": "for",
+              "start": 1.739,
+              "end": 2.038
+            },
+            {
+              "text": "me!",
+              "start": 2.038,
+              "end": 2.35
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "slide",
+      "camera": "pan",
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "Then Bella the bear came by. Her tummy was rumbling.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-0c2ee6908a.wav",
+          "durationSec": 3.8,
+          "words": [
+            {
+              "text": "Then",
+              "start": 0.12,
+              "end": 0.452
+            },
+            {
+              "text": "Bella",
+              "start": 0.452,
+              "end": 0.845
+            },
+            {
+              "text": "the",
+              "start": 0.845,
+              "end": 1.117
+            },
+            {
+              "text": "bear",
+              "start": 1.117,
+              "end": 1.45
+            },
+            {
+              "text": "came",
+              "start": 1.45,
+              "end": 1.782
+            },
+            {
+              "text": "by.",
+              "start": 1.782,
+              "end": 2.066
+            },
+            {
+              "text": "Her",
+              "start": 2.066,
+              "end": 2.338
+            },
+            {
+              "text": "tummy",
+              "start": 2.338,
+              "end": 2.731
+            },
+            {
+              "text": "was",
+              "start": 2.731,
+              "end": 3.003
+            },
+            {
+              "text": "rumbling.",
+              "start": 3.003,
+              "end": 3.65
+            }
+          ]
+        },
+        {
+          "text": "Hello Benny! Those carrots look so yummy.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-2ee81f1143.wav",
+          "durationSec": 3.175,
+          "words": [
+            {
+              "text": "Hello",
+              "start": 0.12,
+              "end": 0.531
+            },
+            {
+              "text": "Benny!",
+              "start": 0.531,
+              "end": 1.019
+            },
+            {
+              "text": "Those",
+              "start": 1.019,
+              "end": 1.43
+            },
+            {
+              "text": "carrots",
+              "start": 1.43,
+              "end": 1.968
+            },
+            {
+              "text": "look",
+              "start": 1.968,
+              "end": 2.316
+            },
+            {
+              "text": "so",
+              "start": 2.316,
+              "end": 2.538
+            },
+            {
+              "text": "yummy.",
+              "start": 2.538,
+              "end": 3.025
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "prop": null,
+      "question": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "question": {
+        "answer": {
+          "text": "Share!",
+          "emoji": "🥕"
+        }
+      },
+      "lines": [
+        {
+          "text": "What should Benny do? Share his carrots, or keep them all?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-99e9e2605d.wav",
+          "durationSec": 3.65,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.12,
+              "end": 0.406
+            },
+            {
+              "text": "should",
+              "start": 0.406,
+              "end": 0.795
+            },
+            {
+              "text": "Benny",
+              "start": 0.795,
+              "end": 1.132
+            },
+            {
+              "text": "do?",
+              "start": 1.132,
+              "end": 1.376
+            },
+            {
+              "text": "Share",
+              "start": 1.376,
+              "end": 1.714
+            },
+            {
+              "text": "his",
+              "start": 1.714,
+              "end": 1.948
+            },
+            {
+              "text": "carrots,",
+              "start": 1.948,
+              "end": 2.451
+            },
+            {
+              "text": "or",
+              "start": 2.451,
+              "end": 2.633
+            },
+            {
+              "text": "keep",
+              "start": 2.633,
+              "end": 2.918
+            },
+            {
+              "text": "them",
+              "start": 2.918,
+              "end": 3.204
+            },
+            {
+              "text": "all?",
+              "start": 3.204,
+              "end": 3.5
+            }
+          ]
+        },
+        {
+          "text": "Yes! Sharing is kind! Let's see what Benny does.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-5c9e5a8e03.wav",
+          "durationSec": 3.65,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.483
+            },
+            {
+              "text": "Sharing",
+              "start": 0.483,
+              "end": 1.024
+            },
+            {
+              "text": "is",
+              "start": 1.024,
+              "end": 1.247
+            },
+            {
+              "text": "kind!",
+              "start": 1.247,
+              "end": 1.673
+            },
+            {
+              "text": "Let's",
+              "start": 1.673,
+              "end": 2.023
+            },
+            {
+              "text": "see",
+              "start": 2.023,
+              "end": 2.31
+            },
+            {
+              "text": "what",
+              "start": 2.31,
+              "end": 2.66
+            },
+            {
+              "text": "Benny",
+              "start": 2.66,
+              "end": 3.074
+            },
+            {
+              "text": "does.",
+              "start": 3.074,
+              "end": 3.5
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "prop": null,
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "But Benny held the basket tight.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ],
+          "audio": "line-02721cbf09.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "But",
+              "start": 0.12,
+              "end": 0.388
+            },
+            {
+              "text": "Benny",
+              "start": 0.388,
+              "end": 0.775
+            },
+            {
+              "text": "held",
+              "start": 0.775,
+              "end": 1.102
+            },
+            {
+              "text": "the",
+              "start": 1.102,
+              "end": 1.37
+            },
+            {
+              "text": "basket",
+              "start": 1.37,
+              "end": 1.817
+            },
+            {
+              "text": "tight.",
+              "start": 1.817,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "No! These carrots are all mine!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-3c3913f4a2.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "No!",
+              "start": 0.12,
+              "end": 0.423
+            },
+            {
+              "text": "These",
+              "start": 0.423,
+              "end": 0.841
+            },
+            {
+              "text": "carrots",
+              "start": 0.841,
+              "end": 1.389
+            },
+            {
+              "text": "are",
+              "start": 1.389,
+              "end": 1.679
+            },
+            {
+              "text": "all",
+              "start": 1.679,
+              "end": 1.968
+            },
+            {
+              "text": "mine!",
+              "start": 1.968,
+              "end": 2.4
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "prop": null,
+      "question": null,
+      "gag": null
+    },
+    {
+      "background": "forest",
+      "character": "bear",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "Bella walked away with a sad, sad face.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "walk",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-e0b4be6ad7.wav",
+          "durationSec": 3,
+          "words": [
+            {
+              "text": "Bella",
+              "start": 0.12,
+              "end": 0.52
+            },
+            {
+              "text": "walked",
+              "start": 0.52,
+              "end": 0.981
+            },
+            {
+              "text": "away",
+              "start": 0.981,
+              "end": 1.319
+            },
+            {
+              "text": "with",
+              "start": 1.319,
+              "end": 1.657
+            },
+            {
+              "text": "a",
+              "start": 1.657,
+              "end": 1.811
+            },
+            {
+              "text": "sad,",
+              "start": 1.811,
+              "end": 2.161
+            },
+            {
+              "text": "sad",
+              "start": 2.161,
+              "end": 2.438
+            },
+            {
+              "text": "face.",
+              "start": 2.438,
+              "end": 2.85
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "slide",
+      "camera": "pan",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "calm",
+      "prop": "🥕",
+      "lines": [
+        {
+          "text": "Benny ate one carrot. Then two. Then three.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "eat",
+          "callout": {
+            "kind": "count",
+            "emoji": "🥕",
+            "count": 3
+          },
+          "sfx": [],
+          "audio": "line-2d41f1d1b8.wav",
+          "durationSec": 3.55,
+          "words": [
+            {
+              "text": "Benny",
+              "start": 0.12,
+              "end": 0.559
+            },
+            {
+              "text": "ate",
+              "start": 0.559,
+              "end": 0.862
+            },
+            {
+              "text": "one",
+              "start": 0.862,
+              "end": 1.166
+            },
+            {
+              "text": "carrot.",
+              "start": 1.166,
+              "end": 1.753
+            },
+            {
+              "text": "Then",
+              "start": 1.753,
+              "end": 2.124
+            },
+            {
+              "text": "two.",
+              "start": 2.124,
+              "end": 2.509
+            },
+            {
+              "text": "Then",
+              "start": 2.509,
+              "end": 2.88
+            },
+            {
+              "text": "three.",
+              "start": 2.88,
+              "end": 3.4
+            }
+          ]
+        },
+        {
+          "text": "Hmm. Eating alone is not much fun.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-e7a990aaae.wav",
+          "durationSec": 2.9,
+          "words": [
+            {
+              "text": "Hmm.",
+              "start": 0.12,
+              "end": 0.505
+            },
+            {
+              "text": "Eating",
+              "start": 0.505,
+              "end": 1.012
+            },
+            {
+              "text": "alone",
+              "start": 1.012,
+              "end": 1.452
+            },
+            {
+              "text": "is",
+              "start": 1.452,
+              "end": 1.689
+            },
+            {
+              "text": "not",
+              "start": 1.689,
+              "end": 1.993
+            },
+            {
+              "text": "much",
+              "start": 1.993,
+              "end": 2.365
+            },
+            {
+              "text": "fun.",
+              "start": 2.365,
+              "end": 2.75
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "Benny looked at the big basket. His heart felt heavy.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-1c3e7da48e.wav",
+          "durationSec": 3.85,
+          "words": [
+            {
+              "text": "Benny",
+              "start": 0.12,
+              "end": 0.512
+            },
+            {
+              "text": "looked",
+              "start": 0.512,
+              "end": 0.964
+            },
+            {
+              "text": "at",
+              "start": 0.964,
+              "end": 1.175
+            },
+            {
+              "text": "the",
+              "start": 1.175,
+              "end": 1.446
+            },
+            {
+              "text": "big",
+              "start": 1.446,
+              "end": 1.717
+            },
+            {
+              "text": "basket.",
+              "start": 1.717,
+              "end": 2.241
+            },
+            {
+              "text": "His",
+              "start": 2.241,
+              "end": 2.513
+            },
+            {
+              "text": "heart",
+              "start": 2.513,
+              "end": 2.904
+            },
+            {
+              "text": "felt",
+              "start": 2.904,
+              "end": 3.236
+            },
+            {
+              "text": "heavy.",
+              "start": 3.236,
+              "end": 3.7
+            }
+          ]
+        },
+        {
+          "text": "I miss my friend Bella.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "cry",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-71c340453c.wav",
+          "durationSec": 2.025,
+          "words": [
+            {
+              "text": "I",
+              "start": 0.101,
+              "end": 0.267
+            },
+            {
+              "text": "miss",
+              "start": 0.267,
+              "end": 0.633
+            },
+            {
+              "text": "my",
+              "start": 0.633,
+              "end": 0.865
+            },
+            {
+              "text": "friend",
+              "start": 0.865,
+              "end": 1.363
+            },
+            {
+              "text": "Bella.",
+              "start": 1.363,
+              "end": 1.875
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "Suddenly, Benny had an idea!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "jump",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": [
+            "magic"
+          ],
+          "audio": "line-768570e1b5.wav",
+          "durationSec": 2.45,
+          "words": [
+            {
+              "text": "Suddenly,",
+              "start": 0.12,
+              "end": 0.851
+            },
+            {
+              "text": "Benny",
+              "start": 0.851,
+              "end": 1.295
+            },
+            {
+              "text": "had",
+              "start": 1.295,
+              "end": 1.603
+            },
+            {
+              "text": "an",
+              "start": 1.603,
+              "end": 1.842
+            },
+            {
+              "text": "idea!",
+              "start": 1.842,
+              "end": 2.3
+            }
+          ]
+        },
+        {
+          "text": "Carrots taste better with a friend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-bc3bc97310.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Carrots",
+              "start": 0.119,
+              "end": 0.575
+            },
+            {
+              "text": "taste",
+              "start": 0.575,
+              "end": 0.925
+            },
+            {
+              "text": "better",
+              "start": 0.925,
+              "end": 1.328
+            },
+            {
+              "text": "with",
+              "start": 1.328,
+              "end": 1.623
+            },
+            {
+              "text": "a",
+              "start": 1.623,
+              "end": 1.758
+            },
+            {
+              "text": "friend!",
+              "start": 1.758,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-181898596f.wav",
+          "durationSec": 1.825,
+          "words": [
+            {
+              "text": "Hop,",
+              "start": 0.091,
+              "end": 0.54
+            },
+            {
+              "text": "hop,",
+              "start": 0.54,
+              "end": 0.989
+            },
+            {
+              "text": "hooray!",
+              "start": 0.989,
+              "end": 1.675
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "transition": "slide",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "Benny hopped to Bella as fast as he could.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-7cd68cb7d6.wav",
+          "durationSec": 3.05,
+          "words": [
+            {
+              "text": "Benny",
+              "start": 0.12,
+              "end": 0.499
+            },
+            {
+              "text": "hopped",
+              "start": 0.499,
+              "end": 0.936
+            },
+            {
+              "text": "to",
+              "start": 0.936,
+              "end": 1.14
+            },
+            {
+              "text": "Bella",
+              "start": 1.14,
+              "end": 1.519
+            },
+            {
+              "text": "as",
+              "start": 1.519,
+              "end": 1.723
+            },
+            {
+              "text": "fast",
+              "start": 1.723,
+              "end": 2.043
+            },
+            {
+              "text": "as",
+              "start": 2.043,
+              "end": 2.247
+            },
+            {
+              "text": "he",
+              "start": 2.247,
+              "end": 2.451
+            },
+            {
+              "text": "could.",
+              "start": 2.451,
+              "end": 2.9
+            }
+          ]
+        },
+        {
+          "text": "Bella! Let's share my carrots!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "wave",
+          "callout": {
+            "kind": "word",
+            "text": "SHARE",
+            "emoji": "🥕"
+          },
+          "sfx": [],
+          "audio": "line-9992082883.wav",
+          "durationSec": 2.25,
+          "words": [
+            {
+              "text": "Bella!",
+              "start": 0.113,
+              "end": 0.578
+            },
+            {
+              "text": "Let's",
+              "start": 0.578,
+              "end": 0.91
+            },
+            {
+              "text": "share",
+              "start": 0.91,
+              "end": 1.303
+            },
+            {
+              "text": "my",
+              "start": 1.303,
+              "end": 1.514
+            },
+            {
+              "text": "carrots!",
+              "start": 1.514,
+              "end": 2.1
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "wipe",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "gag": null
+    },
+    {
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "Bella smiled the biggest smile.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-7b9224cf87.wav",
+          "durationSec": 2.35,
+          "words": [
+            {
+              "text": "Bella",
+              "start": 0.118,
+              "end": 0.508
+            },
+            {
+              "text": "smiled",
+              "start": 0.508,
+              "end": 0.958
+            },
+            {
+              "text": "the",
+              "start": 0.958,
+              "end": 1.228
+            },
+            {
+              "text": "biggest",
+              "start": 1.228,
+              "end": 1.738
+            },
+            {
+              "text": "smile.",
+              "start": 1.738,
+              "end": 2.2
+            }
+          ]
+        },
+        {
+          "text": "Thank you, Benny! You are a great friend!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ],
+          "audio": "line-b8952f6676.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Thank",
+              "start": 0.12,
+              "end": 0.466
+            },
+            {
+              "text": "you,",
+              "start": 0.466,
+              "end": 0.769
+            },
+            {
+              "text": "Benny!",
+              "start": 0.769,
+              "end": 1.179
+            },
+            {
+              "text": "You",
+              "start": 1.179,
+              "end": 1.419
+            },
+            {
+              "text": "are",
+              "start": 1.419,
+              "end": 1.658
+            },
+            {
+              "text": "a",
+              "start": 1.658,
+              "end": 1.791
+            },
+            {
+              "text": "great",
+              "start": 1.791,
+              "end": 2.137
+            },
+            {
+              "text": "friend!",
+              "start": 2.137,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Crunch, crunch, munch! Yummy carrots!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "eat",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-68a967b3b5.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Crunch,",
+              "start": 0.12,
+              "end": 0.69
+            },
+            {
+              "text": "crunch,",
+              "start": 0.69,
+              "end": 1.26
+            },
+            {
+              "text": "munch!",
+              "start": 1.26,
+              "end": 1.764
+            },
+            {
+              "text": "Yummy",
+              "start": 1.764,
+              "end": 2.19
+            },
+            {
+              "text": "carrots!",
+              "start": 2.19,
+              "end": 2.825
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "fade",
+      "camera": "pan",
+      "prop": null,
+      "question": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2.5,
+      "question": {
+        "answer": {
+          "text": "Orange",
+          "emoji": "🥕",
+          "color": "#ff8c1a"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color are Benny's carrots?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-efa26c2c3f.wav",
+          "durationSec": 2.25,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.113,
+              "end": 0.437
+            },
+            {
+              "text": "color",
+              "start": 0.437,
+              "end": 0.82
+            },
+            {
+              "text": "are",
+              "start": 0.82,
+              "end": 1.086
+            },
+            {
+              "text": "Benny's",
+              "start": 1.086,
+              "end": 1.528
+            },
+            {
+              "text": "carrots?",
+              "start": 1.528,
+              "end": 2.1
+            }
+          ]
+        },
+        {
+          "text": "Yes! Orange carrots! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-a8f2f599c3.wav",
+          "durationSec": 2.875,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.543
+            },
+            {
+              "text": "Orange",
+              "start": 0.543,
+              "end": 1.1
+            },
+            {
+              "text": "carrots!",
+              "start": 1.1,
+              "end": 1.82
+            },
+            {
+              "text": "Great",
+              "start": 1.82,
+              "end": 2.302
+            },
+            {
+              "text": "job!",
+              "start": 2.302,
+              "end": 2.725
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "prop": null,
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "Sharing made two friends very, very happy.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "hug",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": [
+            "heart"
+          ],
+          "audio": "line-829a59c04d.wav",
+          "durationSec": 3.15,
+          "words": [
+            {
+              "text": "Sharing",
+              "start": 0.12,
+              "end": 0.642
+            },
+            {
+              "text": "made",
+              "start": 0.642,
+              "end": 0.98
+            },
+            {
+              "text": "two",
+              "start": 0.98,
+              "end": 1.256
+            },
+            {
+              "text": "friends",
+              "start": 1.256,
+              "end": 1.778
+            },
+            {
+              "text": "very,",
+              "start": 1.778,
+              "end": 2.189
+            },
+            {
+              "text": "very",
+              "start": 2.189,
+              "end": 2.527
+            },
+            {
+              "text": "happy.",
+              "start": 2.527,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-181898596f.wav",
+          "durationSec": 1.825,
+          "words": [
+            {
+              "text": "Hop,",
+              "start": 0.091,
+              "end": 0.54
+            },
+            {
+              "text": "hop,",
+              "start": 0.54,
+              "end": 0.989
+            },
+            {
+              "text": "hooray!",
+              "start": 0.989,
+              "end": 1.675
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "kind": "story",
+      "transition": "slide",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2.5,
+      "question": {
+        "answer": {
+          "text": "Yes!",
+          "emoji": "🤗"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should we share with our friends? Say yes!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-89f6f4b918.wav",
+          "durationSec": 2.875,
+          "words": [
+            {
+              "text": "Should",
+              "start": 0.12,
+              "end": 0.532
+            },
+            {
+              "text": "we",
+              "start": 0.532,
+              "end": 0.725
+            },
+            {
+              "text": "share",
+              "start": 0.725,
+              "end": 1.082
+            },
+            {
+              "text": "with",
+              "start": 1.082,
+              "end": 1.384
+            },
+            {
+              "text": "our",
+              "start": 1.384,
+              "end": 1.631
+            },
+            {
+              "text": "friends?",
+              "start": 1.631,
+              "end": 2.164
+            },
+            {
+              "text": "Say",
+              "start": 2.164,
+              "end": 2.412
+            },
+            {
+              "text": "yes!",
+              "start": 2.412,
+              "end": 2.725
+            }
+          ]
+        },
+        {
+          "text": "Yes! Sharing is caring! High five!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-433ce0b15a.wav",
+          "durationSec": 2.9,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.508
+            },
+            {
+              "text": "Sharing",
+              "start": 0.508,
+              "end": 1.088
+            },
+            {
+              "text": "is",
+              "start": 1.088,
+              "end": 1.326
+            },
+            {
+              "text": "caring!",
+              "start": 1.326,
+              "end": 1.919
+            },
+            {
+              "text": "High",
+              "start": 1.919,
+              "end": 2.293
+            },
+            {
+              "text": "five!",
+              "start": 2.293,
+              "end": 2.75
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "prop": null,
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Benny learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null,
+          "audio": "line-76c6e26d59.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Benny",
+              "start": 0.12,
+              "end": 0.498
+            },
+            {
+              "text": "learned",
+              "start": 0.498,
+              "end": 0.991
+            },
+            {
+              "text": "something",
+              "start": 0.991,
+              "end": 1.601
+            },
+            {
+              "text": "very",
+              "start": 1.601,
+              "end": 1.92
+            },
+            {
+              "text": "important!",
+              "start": 1.92,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Sharing makes everyone happy.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": [],
+          "audio": "line-a19264cdee.wav",
+          "durationSec": 2.325,
+          "words": [
+            {
+              "text": "Sharing",
+              "start": 0.116,
+              "end": 0.66
+            },
+            {
+              "text": "makes",
+              "start": 0.66,
+              "end": 1.075
+            },
+            {
+              "text": "everyone",
+              "start": 1.075,
+              "end": 1.683
+            },
+            {
+              "text": "happy.",
+              "start": 1.683,
+              "end": 2.175
+            }
+          ]
+        }
+      ],
+      "secondCharacter": null,
+      "gag": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Share, share, it's only fair!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-1cc607ea0d.wav",
+          "durationSec": 2.125,
+          "words": [
+            {
+              "text": "Share,",
+              "start": 0.106,
+              "end": 0.555
+            },
+            {
+              "text": "share,",
+              "start": 0.555,
+              "end": 1.003
+            },
+            {
+              "text": "it's",
+              "start": 1.003,
+              "end": 1.265
+            },
+            {
+              "text": "only",
+              "start": 1.265,
+              "end": 1.585
+            },
+            {
+              "text": "fair!",
+              "start": 1.585,
+              "end": 1.975
+            }
+          ]
+        },
+        {
+          "text": "Sharing shows how much we care!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-7523658195.wav",
+          "durationSec": 2.25,
+          "words": [
+            {
+              "text": "Sharing",
+              "start": 0.113,
+              "end": 0.592
+            },
+            {
+              "text": "shows",
+              "start": 0.592,
+              "end": 0.959
+            },
+            {
+              "text": "how",
+              "start": 0.959,
+              "end": 1.214
+            },
+            {
+              "text": "much",
+              "start": 1.214,
+              "end": 1.524
+            },
+            {
+              "text": "we",
+              "start": 1.524,
+              "end": 1.722
+            },
+            {
+              "text": "care!",
+              "start": 1.722,
+              "end": 2.1
+            }
+          ]
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-944d4bbc7c.wav",
+          "durationSec": 1.825,
+          "words": [
+            {
+              "text": "Can",
+              "start": 0.091,
+              "end": 0.353
+            },
+            {
+              "text": "you",
+              "start": 0.353,
+              "end": 0.615
+            },
+            {
+              "text": "say",
+              "start": 0.615,
+              "end": 0.877
+            },
+            {
+              "text": "it",
+              "start": 0.877,
+              "end": 1.081
+            },
+            {
+              "text": "with",
+              "start": 1.081,
+              "end": 1.401
+            },
+            {
+              "text": "me?",
+              "start": 1.401,
+              "end": 1.675
+            }
+          ]
+        }
+      ],
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Share, share, it's only fair!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-1cc607ea0d.wav",
+          "durationSec": 2.125,
+          "words": [
+            {
+              "text": "Share,",
+              "start": 0.106,
+              "end": 0.555
+            },
+            {
+              "text": "share,",
+              "start": 0.555,
+              "end": 1.003
+            },
+            {
+              "text": "it's",
+              "start": 1.003,
+              "end": 1.265
+            },
+            {
+              "text": "only",
+              "start": 1.265,
+              "end": 1.585
+            },
+            {
+              "text": "fair!",
+              "start": 1.585,
+              "end": 1.975
+            }
+          ]
+        },
+        {
+          "text": "Sharing shows how much we care!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-7523658195.wav",
+          "durationSec": 2.25,
+          "words": [
+            {
+              "text": "Sharing",
+              "start": 0.113,
+              "end": 0.592
+            },
+            {
+              "text": "shows",
+              "start": 0.592,
+              "end": 0.959
+            },
+            {
+              "text": "how",
+              "start": 0.959,
+              "end": 1.214
+            },
+            {
+              "text": "much",
+              "start": 1.214,
+              "end": 1.524
+            },
+            {
+              "text": "we",
+              "start": 1.524,
+              "end": 1.722
+            },
+            {
+              "text": "care!",
+              "start": 1.722,
+              "end": 2.1
+            }
+          ]
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null,
+          "audio": "line-573b127af8.wav",
+          "durationSec": 1.825,
+          "words": [
+            {
+              "text": "Hooray!",
+              "start": 0.091,
+              "end": 0.706
+            },
+            {
+              "text": "You",
+              "start": 0.706,
+              "end": 1.025
+            },
+            {
+              "text": "did",
+              "start": 1.025,
+              "end": 1.343
+            },
+            {
+              "text": "it!",
+              "start": 1.343,
+              "end": 1.675
+            }
+          ]
+        }
+      ],
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "prop": null,
+      "question": null
+    }
+  ],
+  "version": 2,
+  "stars": {
+    "total": 3
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "voice": "af_heart"
+}

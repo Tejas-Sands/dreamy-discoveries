@@ -1,0 +1,53 @@
+{
+  "name": "circus",
+  "gradient": [
+    "#ffe98a",
+    "#ffc46b"
+  ],
+  "palette": "sunshine",
+  "description": "a big striped circus tent with balloons",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 300,
+      "y": 190
+    },
+    {
+      "part": "clouds",
+      "count": 3
+    },
+    {
+      "part": "balloons",
+      "colors": [
+        "#ff5d9e",
+        "#ffd23f",
+        "#5db9ff",
+        "#7ed957"
+      ]
+    },
+    {
+      "part": "hill",
+      "cx": 960,
+      "top": 640,
+      "rx": 1400,
+      "color": "#bdeaa2"
+    },
+    {
+      "part": "tent",
+      "x": 1300,
+      "a": "#ff5d5d",
+      "b": "#ffffff"
+    },
+    {
+      "part": "ground",
+      "color": "#7fd35a",
+      "top": 860,
+      "shade": "#56a83f"
+    },
+    {
+      "part": "sparkleDust",
+      "count": 10,
+      "color": "#ffd23f"
+    }
+  ]
+}

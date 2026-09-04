@@ -1,0 +1,52 @@
+{
+  "name": "giraffe",
+  "emoji": "🦒",
+  "rig": "longNeck",
+  "colors": {
+    "body": "#f5c66b",
+    "belly": "#fff1c9",
+    "limb": "#e0ad4f",
+    "accent": "#c98a3c",
+    "dark": "#a8702c"
+  },
+  "ears": "round",
+  "earOptions": {
+    "r": 13,
+    "y": 46,
+    "x": 54
+  },
+  "tail": "thin",
+  "tailOptions": {
+    "tuft": "#a8702c"
+  },
+  "features": [
+    {
+      "kind": "horns",
+      "y": 22,
+      "color": "#a8702c"
+    },
+    {
+      "kind": "snout",
+      "y": 122,
+      "rx": 22,
+      "ry": 14,
+      "nostrils": true
+    }
+  ],
+  "markings": [
+    "spots"
+  ],
+  "face": {
+    "mouthY": 132
+  },
+  "words": {
+    "name": "Gigi",
+    "one": "giraffe",
+    "plural": "giraffes",
+    "verb": "stretch",
+    "verbs": "stretches",
+    "verbing": "stretching",
+    "home": "meadow",
+    "sound": null
+  }
+}

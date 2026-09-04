@@ -1,0 +1,32 @@
+{
+  "name": "elephant",
+  "emoji": "🐘",
+  "rig": "biped",
+  "colors": {
+    "body": "#aab8e6",
+    "belly": "#dfe6fb",
+    "limb": "#95a5da",
+    "inner": "#ffc6d9",
+    "dark": "#7d8fc9"
+  },
+  "ears": "big",
+  "tail": "stub",
+  "features": [
+    "trunk"
+  ],
+  "face": {
+    "mouthDx": -22,
+    "mouthY": 136
+  },
+  "legWidth": 32,
+  "words": {
+    "name": "Ellie",
+    "one": "elephant",
+    "plural": "elephants",
+    "verb": "stomp",
+    "verbs": "stomps",
+    "verbing": "stomping",
+    "home": "meadow",
+    "sound": "toot"
+  }
+}

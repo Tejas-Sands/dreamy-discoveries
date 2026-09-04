@@ -1,0 +1,47 @@
+{
+  "name": "horse",
+  "emoji": "🐴",
+  "rig": "biped",
+  "colors": {
+    "body": "#b97a42",
+    "belly": "#e6c39c",
+    "limb": "#a06630",
+    "dark": "#5a3a20",
+    "accent": "#4a2e15"
+  },
+  "ears": "pointy",
+  "earOptions": {
+    "size": 0.7
+  },
+  "tail": "long",
+  "tailOptions": {
+    "color": "#4a2e15",
+    "width": 14
+  },
+  "features": [
+    {
+      "kind": "hair",
+      "color": "#4a2e15"
+    },
+    {
+      "kind": "snout",
+      "y": 124,
+      "rx": 24,
+      "ry": 16,
+      "nostrils": true
+    }
+  ],
+  "face": {
+    "mouthY": 134
+  },
+  "words": {
+    "name": "Harry",
+    "one": "horse",
+    "plural": "horses",
+    "verb": "gallop",
+    "verbs": "gallops",
+    "verbing": "galloping",
+    "home": "farm",
+    "sound": "neigh"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "meadow",
+  "gradient": [
+    "#7fd4ff",
+    "#dffbc8"
+  ],
+  "palette": "meadow",
+  "description": "sunny green meadow with flowers and butterflies",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 300,
+      "y": 210
+    },
+    {
+      "part": "clouds",
+      "count": 5
+    },
+    {
+      "part": "birds",
+      "count": 3
+    },
+    {
+      "part": "hill",
+      "cx": 300,
+      "top": 640,
+      "rx": 900,
+      "color": "#a9e58f"
+    },
+    {
+      "part": "hill",
+      "cx": 1500,
+      "top": 600,
+      "rx": 1000,
+      "color": "#bdeaa2"
+    },
+    {
+      "part": "roundTree",
+      "x": 1720,
+      "base": 880,
+      "s": 1.15
+    },
+    {
+      "part": "roundTree",
+      "x": 170,
+      "base": 880,
+      "s": 0.9,
+      "leaf": "#4faf4a"
+    },
+    {
+      "part": "hill",
+      "cx": 960,
+      "top": 850,
+      "rx": 1500,
+      "color": "#7fd35a"
+    },
+    {
+      "part": "hill",
+      "cx": -200,
+      "top": 890,
+      "rx": 900,
+      "color": "#6cc954"
+    },
+    {
+      "part": "hill",
+      "cx": 2100,
+      "top": 900,
+      "rx": 900,
+      "color": "#6cc954"
+    },
+    {
+      "part": "flowers",
+      "count": 7
+    },
+    {
+      "part": "butterflies"
+    }
+  ]
+}

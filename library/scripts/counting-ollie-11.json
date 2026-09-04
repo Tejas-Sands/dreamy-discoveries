@@ -1,0 +1,649 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "counting",
+  "seed": 11,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "counting-ollie-11",
+  "title": "Count With Ollie!",
+  "palette": "night",
+  "mainCharacter": {
+    "kind": "owl",
+    "name": "Ollie"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Ollie the owl! Let's count together! Are you ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Great counting, friends! See you next time! Bye bye!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Count With Ollie 🦉 Counting Song 1 to 5 for Toddlers",
+    "description": "Count to five with Ollie the owl! A happy sing-along counting song with questions for your little one to answer. Perfect for toddlers and preschoolers learning numbers.\n#countingsong #kidssongs #nurseryrhymes #toddlerlearning #numbers",
+    "tags": [
+      "counting song",
+      "count to 5",
+      "numbers for kids",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "preschool learning",
+      "sing along",
+      "owl song",
+      "learning numbers",
+      "baby songs",
+      "counting for toddlers"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🦉",
+      "question": null,
+      "lines": [
+        {
+          "text": "One little owl hooting in the sun,",
+          "speaker": "character",
+          "action": "idle",
+          "emotion": "happy",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hooting and playing, having so much fun.",
+          "speaker": "character",
+          "action": "nod",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look, another friend is coming to play!",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "love",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Two little owls, hip hip hooray!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🦉",
+      "question": null,
+      "lines": [
+        {
+          "text": "Two little owls in the night sky today,",
+          "speaker": "character",
+          "action": "wave",
+          "emotion": "happy",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🦉"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Along comes another one to play!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's count them all, ready, set, go!",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Three little owls all in a row!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🦉"
+          },
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "3",
+          "emoji": "🦉"
+        }
+      },
+      "lines": [
+        {
+          "text": "How many little owls can you count with me?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Three little owls! Great counting!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Count with me, one, two, three!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Count with me, owls and me!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Four and five, now stomp your feet!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Counting with you is so sweet!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🦉",
+      "question": null,
+      "lines": [
+        {
+          "text": "Three little owls in the night sky today,",
+          "speaker": "character",
+          "action": "wave",
+          "emotion": "happy",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🦉"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Along comes another one to play!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's count them all, ready, set, go!",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Four little owls all in a row!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "4",
+            "emoji": "🦉"
+          },
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🦉",
+      "question": null,
+      "lines": [
+        {
+          "text": "Four little owls hooting in the sun,",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "happy",
+          "callout": {
+            "kind": "number",
+            "text": "4",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hooting and playing, having so much fun.",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Look, another friend is coming to play!",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "love",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Five little owls, hip hip hooray!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "🙂"
+          },
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "5",
+          "emoji": "🦉"
+        }
+      },
+      "lines": [
+        {
+          "text": "How many little owls can you count with me?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Five little owls! Great counting!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Count with me, one, two, three!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Count with me, owls and me!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Four and five, now stomp your feet!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Counting with you is so sweet!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🦉",
+      "question": null,
+      "lines": [
+        {
+          "text": "Five little owls, what a happy crew!",
+          "action": "cheer",
+          "speaker": "character",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "🙂"
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "They hoot and they giggle, just like you!",
+          "action": "jump",
+          "speaker": "character",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "One, two, three, four, five!",
+          "action": "clap",
+          "speaker": "character",
+          "emotion": "happy",
+          "callout": {
+            "kind": "count",
+            "emoji": "🙂",
+            "count": 5
+          },
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Counting with friends feels so alive!",
+          "action": "dance",
+          "speaker": "character",
+          "emotion": "love",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Count with me, one, two, three!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Count with me, owls and me!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Four and five, now stomp your feet!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Counting with you is so sweet!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Now the little owls wave goodbye,",
+          "action": "wave",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Under the moon up in the sky.",
+          "action": "look",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We counted to five, we did it together!",
+          "action": "nod",
+          "emotion": "love",
+          "speaker": "character",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "🦉"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Counting with you is the best fun ever!",
+          "action": "hug",
+          "emotion": "love",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": null,
+  "stars": {
+    "total": 2
+  },
+  "directed": true
+}

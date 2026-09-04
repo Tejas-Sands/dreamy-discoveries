@@ -1,0 +1,32 @@
+{
+  "name": "duck",
+  "emoji": "🦆",
+  "rig": "biped",
+  "colors": {
+    "body": "#ffd93d",
+    "belly": "#fff0a8",
+    "limb": "#ff9f1a"
+  },
+  "ears": "none",
+  "tail": "feathers",
+  "features": [
+    "tuftTop"
+  ],
+  "face": {
+    "beak": true,
+    "mouthY": 122,
+    "eyeGap": 44
+  },
+  "arm": "wing",
+  "foot": "duck",
+  "words": {
+    "name": "Daisy",
+    "one": "duckling",
+    "plural": "ducklings",
+    "verb": "waddle",
+    "verbs": "waddles",
+    "verbing": "waddling",
+    "home": "farm",
+    "sound": "quack"
+  }
+}

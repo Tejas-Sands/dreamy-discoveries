@@ -1,0 +1,35 @@
+{
+  "name": "mouse",
+  "emoji": "🐭",
+  "rig": "biped",
+  "colors": {
+    "body": "#b9b9c9",
+    "belly": "#e8e8f0",
+    "limb": "#a5a5b5",
+    "inner": "#ffc6d9"
+  },
+  "ears": "round",
+  "earOptions": {
+    "r": 24,
+    "y": 60,
+    "x": 44
+  },
+  "tail": "thin",
+  "features": [
+    "pinkNose",
+    "whiskers"
+  ],
+  "face": {
+    "eyeGap": 44
+  },
+  "words": {
+    "name": "Millie",
+    "one": "mouse",
+    "plural": "mice",
+    "verb": "scurry",
+    "verbs": "scurries",
+    "verbing": "scurrying",
+    "home": "bedroom",
+    "sound": "squeak"
+  }
+}

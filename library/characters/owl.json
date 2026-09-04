@@ -1,0 +1,37 @@
+{
+  "name": "owl",
+  "emoji": "🦉",
+  "rig": "bird",
+  "colors": {
+    "body": "#a97c50",
+    "belly": "#f1dcb8",
+    "limb": "#ff9f1a",
+    "inner": "#f1dcb8"
+  },
+  "ears": "tuft",
+  "tail": "feathers",
+  "features": [
+    {
+      "kind": "beakSmall",
+      "y": 126
+    }
+  ],
+  "face": {
+    "eyeSize": 1.35,
+    "eyeGap": 54,
+    "eyeY": 116,
+    "mouthY": 150
+  },
+  "arm": "wing",
+  "foot": "duck",
+  "words": {
+    "name": "Ollie",
+    "one": "owl",
+    "plural": "owls",
+    "verb": "hoot",
+    "verbs": "hoots",
+    "verbing": "hooting",
+    "home": "night",
+    "sound": "hoot"
+  }
+}

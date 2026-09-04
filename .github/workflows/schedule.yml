@@ -1,0 +1,62 @@
+name: Scheduled video
+
+# Every day: take the next topic from library/queue.yml, or (autopilot) invent one
+# — an AI-free template rhyme most of the time, an LLM story otherwise.
+
+on:
+  schedule:
+    - cron: "30 3 * * *" # 09:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  pick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      empty: ${{ steps.pick.outputs.empty }}
+      id: ${{ steps.pick.outputs.id }}
+      topic: ${{ steps.pick.outputs.topic }}
+      template: ${{ steps.pick.outputs.template }}
+      type: ${{ steps.pick.outputs.type }}
+      hero: ${{ steps.pick.outputs.hero }}
+      minutes: ${{ steps.pick.outputs.minutes }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Next from the queue, or autopilot
+        id: pick
+        run: |
+          node scripts/queue.mjs pop
+          if grep -q '^empty=true' "$GITHUB_OUTPUT"; then
+            sed -i '/^empty=true/d' "$GITHUB_OUTPUT"
+            node scripts/autopilot.mjs
+          fi
+      - name: Commit queue state
+        run: |
+          git config user.name "dreamy-discoveries[bot]"
+          git config user.email "bot@users.noreply.github.com"
+          git add library
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "queue: start ${{ steps.pick.outputs.id }} [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep $((i * 5)); done
+
+  make:
+    needs: pick
+    if: needs.pick.outputs.empty != 'true'
+    uses: ./.github/workflows/make-video.yml
+    secrets: inherit
+    with:
+      topic: ${{ needs.pick.outputs.topic }}
+      template: ${{ needs.pick.outputs.template }}
+      type: ${{ needs.pick.outputs.type }}
+      hero: ${{ needs.pick.outputs.hero }}
+      minutes: ${{ needs.pick.outputs.minutes }}
+      queue_id: ${{ needs.pick.outputs.id }}

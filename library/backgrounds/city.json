@@ -1,0 +1,75 @@
+{
+  "name": "city",
+  "gradient": [
+    "#8fdcff",
+    "#e0f4ff"
+  ],
+  "palette": "ocean",
+  "description": "a colorful city street with buildings and a street lamp",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 300,
+      "y": 180,
+      "r": 60
+    },
+    {
+      "part": "clouds",
+      "count": 4,
+      "yBase": 40
+    },
+    {
+      "part": "building",
+      "x": 60,
+      "w": 260,
+      "h": 520,
+      "color": "#ffb3c6"
+    },
+    {
+      "part": "building",
+      "x": 360,
+      "w": 220,
+      "h": 380,
+      "color": "#7fd0ff"
+    },
+    {
+      "part": "building",
+      "x": 620,
+      "w": 300,
+      "h": 460,
+      "color": "#ffd23f"
+    },
+    {
+      "part": "building",
+      "x": 1000,
+      "w": 240,
+      "h": 560,
+      "color": "#c9a2ff"
+    },
+    {
+      "part": "building",
+      "x": 1280,
+      "w": 280,
+      "h": 420,
+      "color": "#7ed957"
+    },
+    {
+      "part": "building",
+      "x": 1600,
+      "w": 300,
+      "h": 500,
+      "color": "#ff8c42"
+    },
+    {
+      "part": "road"
+    },
+    {
+      "part": "streetLamp",
+      "x": 1500
+    },
+    {
+      "part": "birds",
+      "count": 2
+    }
+  ]
+}

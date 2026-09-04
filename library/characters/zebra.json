@@ -1,0 +1,51 @@
+{
+  "name": "zebra",
+  "emoji": "🦓",
+  "rig": "biped",
+  "colors": {
+    "body": "#f4f4f8",
+    "belly": "#ffffff",
+    "limb": "#e0e0e8",
+    "dark": "#2f2438",
+    "accent": "#2f2438"
+  },
+  "ears": "pointy",
+  "earOptions": {
+    "size": 0.7
+  },
+  "tail": "thin",
+  "tailOptions": {
+    "tuft": "#2f2438"
+  },
+  "features": [
+    {
+      "kind": "hair",
+      "color": "#2f2438"
+    },
+    "tigerStripes",
+    {
+      "kind": "snout",
+      "color": "#d6d6de",
+      "y": 124,
+      "rx": 24,
+      "ry": 16,
+      "nostrils": true
+    }
+  ],
+  "markings": [
+    "stripes"
+  ],
+  "face": {
+    "mouthY": 134
+  },
+  "words": {
+    "name": "Zoe",
+    "one": "zebra",
+    "plural": "zebras",
+    "verb": "prance",
+    "verbs": "prances",
+    "verbing": "prancing",
+    "home": "meadow",
+    "sound": null
+  }
+}

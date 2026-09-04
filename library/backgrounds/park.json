@@ -1,0 +1,65 @@
+{
+  "name": "park",
+  "gradient": [
+    "#8fdcff",
+    "#dffbc8"
+  ],
+  "palette": "meadow",
+  "description": "a park with a bench, a path and trees",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 320,
+      "y": 200
+    },
+    {
+      "part": "clouds",
+      "count": 4
+    },
+    {
+      "part": "birds",
+      "count": 3
+    },
+    {
+      "part": "hill",
+      "cx": 800,
+      "top": 600,
+      "rx": 1300,
+      "color": "#b5e58a"
+    },
+    {
+      "part": "roundTree",
+      "x": 180,
+      "base": 880,
+      "s": 1.1
+    },
+    {
+      "part": "roundTree",
+      "x": 1100,
+      "base": 880,
+      "s": 0.9,
+      "leaf": "#4faf4a"
+    },
+    {
+      "part": "ground",
+      "color": "#7fd35a",
+      "top": 860,
+      "shade": "#56a83f"
+    },
+    {
+      "part": "bench",
+      "x": 1550
+    },
+    {
+      "part": "streetLamp",
+      "x": 1800
+    },
+    {
+      "part": "flowers",
+      "count": 5
+    },
+    {
+      "part": "butterflies"
+    }
+  ]
+}

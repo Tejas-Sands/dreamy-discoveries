@@ -1,0 +1,30 @@
+{
+  "name": "kitchen",
+  "gradient": [
+    "#fff4e0",
+    "#fff4e0"
+  ],
+  "palette": "sunshine",
+  "description": "a warm kitchen with a stove, a pot and a fridge",
+  "parts": [
+    {
+      "part": "tiles"
+    },
+    {
+      "part": "fridge",
+      "x": 1600
+    },
+    {
+      "part": "stove",
+      "x": 320
+    },
+    {
+      "part": "counter"
+    },
+    {
+      "part": "steam",
+      "x": 400,
+      "y": 550
+    }
+  ]
+}

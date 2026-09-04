@@ -1,0 +1,36 @@
+{
+  "name": "chick",
+  "emoji": "🐥",
+  "rig": "bird",
+  "colors": {
+    "body": "#ffe45c",
+    "belly": "#fff5b3",
+    "limb": "#ff9f1a"
+  },
+  "ears": "none",
+  "tail": "none",
+  "features": [
+    "tuftTop",
+    {
+      "kind": "beakSmall",
+      "y": 122
+    }
+  ],
+  "face": {
+    "eyeY": 110,
+    "eyeGap": 44,
+    "mouthY": 146
+  },
+  "arm": "wing",
+  "foot": "duck",
+  "words": {
+    "name": "Chirpy",
+    "one": "chick",
+    "plural": "chicks",
+    "verb": "peep",
+    "verbs": "peeps",
+    "verbing": "peeping",
+    "home": "farm",
+    "sound": "peep"
+  }
+}

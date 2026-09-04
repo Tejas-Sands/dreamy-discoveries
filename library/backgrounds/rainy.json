@@ -1,0 +1,55 @@
+{
+  "name": "rainy",
+  "gradient": [
+    "#a9b8d6",
+    "#dfe6f5"
+  ],
+  "palette": "ocean",
+  "description": "a rainy day with grey clouds and puddles",
+  "parts": [
+    {
+      "part": "rainClouds",
+      "count": 5
+    },
+    {
+      "part": "hill",
+      "cx": 600,
+      "top": 640,
+      "rx": 1100,
+      "color": "#9fcf8f"
+    },
+    {
+      "part": "roundTree",
+      "x": 1700,
+      "base": 880,
+      "s": 1.1,
+      "leaf": "#4faf4a"
+    },
+    {
+      "part": "house",
+      "x": 300,
+      "s": 0.8
+    },
+    {
+      "part": "ground",
+      "color": "#7fc95a",
+      "top": 860,
+      "shade": "#56a83f"
+    },
+    {
+      "part": "puddle",
+      "x": 700,
+      "y": 930
+    },
+    {
+      "part": "puddle",
+      "x": 1300,
+      "y": 970,
+      "rx": 90
+    },
+    {
+      "part": "rain",
+      "count": 60
+    }
+  ]
+}

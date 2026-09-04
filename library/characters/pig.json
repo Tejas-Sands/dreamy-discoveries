@@ -1,0 +1,34 @@
+{
+  "name": "pig",
+  "emoji": "🐷",
+  "rig": "biped",
+  "colors": {
+    "body": "#ffb6c9",
+    "belly": "#ffdbe5",
+    "limb": "#f7a0b8",
+    "inner": "#ff8fb0",
+    "accent": "#ff9db7",
+    "dark": "#c94f74"
+  },
+  "ears": "pointy",
+  "earOptions": {
+    "size": 0.8
+  },
+  "tail": "curly",
+  "features": [
+    "pigSnout"
+  ],
+  "face": {
+    "mouthY": 138
+  },
+  "words": {
+    "name": "Poppy",
+    "one": "piggy",
+    "plural": "piggies",
+    "verb": "roll",
+    "verbs": "rolls",
+    "verbing": "rolling",
+    "home": "farm",
+    "sound": "oink"
+  }
+}

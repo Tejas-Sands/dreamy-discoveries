@@ -1,0 +1,34 @@
+{
+  "name": "koala",
+  "emoji": "🐨",
+  "rig": "biped",
+  "colors": {
+    "body": "#a9b0bd",
+    "belly": "#e6e9ef",
+    "limb": "#8f97a5",
+    "inner": "#f5c6d0"
+  },
+  "ears": "round",
+  "earOptions": {
+    "r": 28,
+    "y": 60,
+    "x": 42
+  },
+  "tail": "none",
+  "features": [
+    "koalaNose"
+  ],
+  "face": {
+    "mouthY": 136
+  },
+  "words": {
+    "name": "Kobi",
+    "one": "koala",
+    "plural": "koalas",
+    "verb": "climb",
+    "verbs": "climbs",
+    "verbing": "climbing",
+    "home": "forest",
+    "sound": null
+  }
+}

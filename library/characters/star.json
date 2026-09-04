@@ -1,0 +1,25 @@
+{
+  "name": "star",
+  "emoji": "⭐",
+  "rig": "star",
+  "colors": {
+    "body": "#ffd23f",
+    "belly": "#ffe27a",
+    "limb": "#ffc41a"
+  },
+  "face": {
+    "eyeY": 124,
+    "eyeGap": 44,
+    "mouthY": 158
+  },
+  "words": {
+    "name": "Twinkle",
+    "one": "star",
+    "plural": "stars",
+    "verb": "twinkle",
+    "verbs": "twinkles",
+    "verbing": "twinkling",
+    "home": "night",
+    "sound": null
+  }
+}

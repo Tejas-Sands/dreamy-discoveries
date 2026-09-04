@@ -1,0 +1,46 @@
+{
+  "name": "space",
+  "gradient": [
+    "#0f1240",
+    "#2c2a6b"
+  ],
+  "palette": "night",
+  "description": "outer space with planets and a rocket",
+  "parts": [
+    {
+      "part": "twinkles",
+      "count": 60,
+      "maxY": 900,
+      "color": "#ffffff"
+    },
+    {
+      "part": "shootingStar"
+    },
+    {
+      "part": "planet",
+      "x": 1560,
+      "y": 260,
+      "r": 110,
+      "color": "#ff9f43",
+      "ring": "#ffd9a8"
+    },
+    {
+      "part": "planet",
+      "x": 330,
+      "y": 300,
+      "r": 70,
+      "color": "#7fd0ff",
+      "land": "#7ed957"
+    },
+    {
+      "part": "rocket",
+      "x": 1100,
+      "y": 180
+    },
+    {
+      "part": "curvedGround",
+      "color": "#b9b3d8",
+      "craters": "#9f98c6"
+    }
+  ]
+}

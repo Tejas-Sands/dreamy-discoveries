@@ -1,0 +1,69 @@
+{
+  "name": "garden",
+  "gradient": [
+    "#8fdcff",
+    "#e4f7c9"
+  ],
+  "palette": "meadow",
+  "description": "a flower garden with a fence and a little house",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1600,
+      "y": 190
+    },
+    {
+      "part": "clouds",
+      "count": 4
+    },
+    {
+      "part": "birds",
+      "count": 2
+    },
+    {
+      "part": "hill",
+      "cx": 800,
+      "top": 600,
+      "rx": 1300,
+      "color": "#b5e58a"
+    },
+    {
+      "part": "house",
+      "x": 1500,
+      "s": 0.9,
+      "color": "#fff1d6",
+      "roof": "#e0463a"
+    },
+    {
+      "part": "roundTree",
+      "x": 200,
+      "base": 880,
+      "s": 1
+    },
+    {
+      "part": "ground",
+      "color": "#7fd35a",
+      "top": 860,
+      "shade": "#56a83f"
+    },
+    {
+      "part": "fence",
+      "x": 900,
+      "w": 980
+    },
+    {
+      "part": "flowers",
+      "count": 9,
+      "colors": [
+        "#ff5d9e",
+        "#ffd23f",
+        "#c9a2ff",
+        "#ff8c42",
+        "#5db9ff"
+      ]
+    },
+    {
+      "part": "butterflies"
+    }
+  ]
+}

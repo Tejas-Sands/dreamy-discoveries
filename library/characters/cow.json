@@ -1,0 +1,53 @@
+{
+  "name": "cow",
+  "emoji": "🐮",
+  "rig": "biped",
+  "colors": {
+    "body": "#ffffff",
+    "belly": "#ffd9e6",
+    "limb": "#dcdcdc",
+    "accent": "#ffb3c6",
+    "dark": "#3b3b46"
+  },
+  "ears": "round",
+  "earOptions": {
+    "r": 17,
+    "y": 86,
+    "x": 34,
+    "inner": "#ffb3c6"
+  },
+  "tail": "thin",
+  "tailOptions": {
+    "tuft": "#3b3b46"
+  },
+  "features": [
+    {
+      "kind": "horns",
+      "color": "#e8d3a4"
+    },
+    {
+      "kind": "snout",
+      "color": "#ffb3c6",
+      "y": 124,
+      "rx": 26,
+      "ry": 16,
+      "nostrils": true
+    }
+  ],
+  "markings": [
+    "spots"
+  ],
+  "face": {
+    "mouthY": 134
+  },
+  "words": {
+    "name": "Clara",
+    "one": "cow",
+    "plural": "cows",
+    "verb": "munch",
+    "verbs": "munches",
+    "verbing": "munching",
+    "home": "farm",
+    "sound": "moo"
+  }
+}

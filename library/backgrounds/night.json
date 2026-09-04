@@ -1,0 +1,71 @@
+{
+  "name": "night",
+  "gradient": [
+    "#1c2160",
+    "#4b3585"
+  ],
+  "palette": "night",
+  "description": "calm starry night with a big moon",
+  "parts": [
+    {
+      "part": "twinkles",
+      "count": 45
+    },
+    {
+      "part": "shootingStar"
+    },
+    {
+      "part": "moon",
+      "x": 1560,
+      "y": 220
+    },
+    {
+      "part": "hill",
+      "cx": 500,
+      "top": 700,
+      "rx": 1000,
+      "color": "#3d3a8a"
+    },
+    {
+      "part": "hill",
+      "cx": 1500,
+      "top": 740,
+      "rx": 900,
+      "color": "#45418f"
+    },
+    {
+      "part": "pine",
+      "x": 220,
+      "base": 890,
+      "color": "#2c3a6e"
+    },
+    {
+      "part": "pine",
+      "x": 1700,
+      "base": 890,
+      "color": "#2c3a6e"
+    },
+    {
+      "part": "hill",
+      "cx": 960,
+      "top": 850,
+      "rx": 1500,
+      "color": "#4c4a9c"
+    },
+    {
+      "part": "ground",
+      "color": "#4c4a9c",
+      "top": 910
+    },
+    {
+      "part": "flowers",
+      "count": 5,
+      "colors": [
+        "#8fa4ff",
+        "#c9a2ff",
+        "#7fd0ff"
+      ],
+      "base": 980
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "forest",
+  "gradient": [
+    "#a5e4ff",
+    "#c4eeb0"
+  ],
+  "palette": "forest",
+  "description": "friendly forest with pines, mushrooms and fireflies",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1500,
+      "y": 190,
+      "r": 60
+    },
+    {
+      "part": "clouds",
+      "count": 3,
+      "yBase": 60,
+      "opacity": 0.8
+    },
+    {
+      "part": "hill",
+      "cx": 700,
+      "top": 560,
+      "rx": 1100,
+      "color": "#8fd68a"
+    },
+    {
+      "part": "hill",
+      "cx": 1700,
+      "top": 620,
+      "rx": 900,
+      "color": "#7dcc79"
+    },
+    {
+      "part": "pine",
+      "x": 120,
+      "base": 890,
+      "s": 0.9
+    },
+    {
+      "part": "pine",
+      "x": 420,
+      "base": 890,
+      "s": 1.2,
+      "color": "#3aa35c"
+    },
+    {
+      "part": "pine",
+      "x": 1500,
+      "base": 890,
+      "s": 1
+    },
+    {
+      "part": "pine",
+      "x": 1800,
+      "base": 890,
+      "s": 1.3,
+      "color": "#3aa35c"
+    },
+    {
+      "part": "roundTree",
+      "x": 1250,
+      "base": 890,
+      "s": 1.05,
+      "leaf": "#5cb85c"
+    },
+    {
+      "part": "ground",
+      "color": "#5fb548",
+      "top": 860,
+      "shade": "#3f8f33"
+    },
+    {
+      "part": "mushroom",
+      "x": 300,
+      "y": 1000
+    },
+    {
+      "part": "mushroom",
+      "x": 900,
+      "y": 1000
+    },
+    {
+      "part": "mushroom",
+      "x": 1400,
+      "y": 1000
+    },
+    {
+      "part": "fireflies",
+      "count": 12
+    }
+  ]
+}

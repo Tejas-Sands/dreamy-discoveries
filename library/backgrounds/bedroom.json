@@ -1,0 +1,42 @@
+{
+  "name": "bedroom",
+  "gradient": [
+    "#f7e9ff",
+    "#f7e9ff"
+  ],
+  "palette": "berry",
+  "description": "cozy bedroom at night with a bed, a lamp and a window",
+  "parts": [
+    {
+      "part": "wallDots"
+    },
+    {
+      "part": "window",
+      "x": 1440,
+      "y": 130
+    },
+    {
+      "part": "ground",
+      "color": "#d7b58a",
+      "top": 860,
+      "shade": "#b48f63"
+    },
+    {
+      "part": "rug",
+      "x": 760
+    },
+    {
+      "part": "bed",
+      "x": 240
+    },
+    {
+      "part": "lamp",
+      "x": 1700
+    },
+    {
+      "part": "lampGlow",
+      "x": 1700,
+      "y": 620
+    }
+  ]
+}

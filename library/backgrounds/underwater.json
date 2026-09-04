@@ -1,0 +1,75 @@
+{
+  "name": "underwater",
+  "gradient": [
+    "#8fe0fb",
+    "#1f6ea6"
+  ],
+  "palette": "ocean",
+  "description": "under the sea with bubbles, seaweed and coral",
+  "parts": [
+    {
+      "part": "lightRays"
+    },
+    {
+      "part": "smallFish"
+    },
+    {
+      "part": "seaweed",
+      "x": 80,
+      "h": 300,
+      "color": "#3cb371"
+    },
+    {
+      "part": "seaweed",
+      "x": 380,
+      "h": 240,
+      "color": "#2e8b57"
+    },
+    {
+      "part": "seaweed",
+      "x": 1080,
+      "h": 330,
+      "color": "#3cb371"
+    },
+    {
+      "part": "seaweed",
+      "x": 1520,
+      "h": 260,
+      "color": "#2e8b57"
+    },
+    {
+      "part": "seaweed",
+      "x": 1840,
+      "h": 290,
+      "color": "#3cb371"
+    },
+    {
+      "part": "ground",
+      "color": "#e8d8a0",
+      "top": 890,
+      "shade": "#cbb77a"
+    },
+    {
+      "part": "coral",
+      "x": 600
+    },
+    {
+      "part": "coral",
+      "x": 1300,
+      "color": "#ffb347",
+      "light": "#ffd08a"
+    },
+    {
+      "part": "shell",
+      "x": 300
+    },
+    {
+      "part": "shell",
+      "x": 1650
+    },
+    {
+      "part": "bubbles",
+      "count": 12
+    }
+  ]
+}

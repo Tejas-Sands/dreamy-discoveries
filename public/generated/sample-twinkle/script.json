@@ -1,0 +1,1404 @@
+{
+  "type": "rhyme",
+  "slug": "sample-twinkle",
+  "title": "Twinkle Twinkle Little Star",
+  "palette": "night",
+  "voice": "af_heart",
+  "music": {
+    "file": "lullaby.wav",
+    "bpm": 72,
+    "mood": "lullaby"
+  },
+  "moral": null,
+  "youtube": {
+    "title": "Twinkle Twinkle Little Star 🌟 Bedtime Rhyme for Kids",
+    "description": "Sing along with our little star! A calm, cozy nursery rhyme for bedtime. Perfect for toddlers and preschoolers.\n#nurseryrhymes #kidssongs #bedtime",
+    "tags": [
+      "nursery rhymes",
+      "kids songs",
+      "twinkle twinkle little star",
+      "bedtime songs",
+      "toddler songs",
+      "preschool",
+      "sing along",
+      "baby songs",
+      "lullaby",
+      "rhymes for kids"
+    ]
+  },
+  "scenes": [
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "bunny",
+      "lines": [
+        {
+          "text": "Up above the world so high,",
+          "audio": "line-b218352c3a.wav",
+          "durationSec": 2.3,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.115,
+              "end": 0.343
+            },
+            {
+              "text": "above",
+              "start": 0.343,
+              "end": 0.767
+            },
+            {
+              "text": "the",
+              "start": 0.767,
+              "end": 1.061
+            },
+            {
+              "text": "world",
+              "start": 1.061,
+              "end": 1.485
+            },
+            {
+              "text": "so",
+              "start": 1.485,
+              "end": 1.713
+            },
+            {
+              "text": "high,",
+              "start": 1.713,
+              "end": 2.15
+            }
+          ],
+          "speaker": "character",
+          "action": "wave",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Like a diamond in the sky.",
+          "audio": "line-8a4f651c8d.wav",
+          "durationSec": 2.225,
+          "words": [
+            {
+              "text": "Like",
+              "start": 0.111,
+              "end": 0.469
+            },
+            {
+              "text": "a",
+              "start": 0.469,
+              "end": 0.631
+            },
+            {
+              "text": "diamond",
+              "start": 0.631,
+              "end": 1.184
+            },
+            {
+              "text": "in",
+              "start": 1.184,
+              "end": 1.412
+            },
+            {
+              "text": "the",
+              "start": 1.412,
+              "end": 1.704
+            },
+            {
+              "text": "sky.",
+              "start": 1.704,
+              "end": 2.075
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "calm",
+      "holdSec": 0,
+      "kind": "verse",
+      "transition": "slide",
+      "camera": "zoom-in",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "One more time!",
+          "audio": "line-490a645a76.wav",
+          "durationSec": 1.8,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.09,
+              "end": 0.51
+            },
+            {
+              "text": "more",
+              "start": 0.51,
+              "end": 1.024
+            },
+            {
+              "text": "time!",
+              "start": 1.024,
+              "end": 1.65
+            }
+          ],
+          "speaker": "character",
+          "action": "idle",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "holdSec": 0,
+      "kind": "verse",
+      "transition": "wipe",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "bunny",
+      "lines": [
+        {
+          "text": "Up above the world so high,",
+          "audio": "line-b218352c3a.wav",
+          "durationSec": 2.3,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.115,
+              "end": 0.343
+            },
+            {
+              "text": "above",
+              "start": 0.343,
+              "end": 0.767
+            },
+            {
+              "text": "the",
+              "start": 0.767,
+              "end": 1.061
+            },
+            {
+              "text": "world",
+              "start": 1.061,
+              "end": 1.485
+            },
+            {
+              "text": "so",
+              "start": 1.485,
+              "end": 1.713
+            },
+            {
+              "text": "high,",
+              "start": 1.713,
+              "end": 2.15
+            }
+          ],
+          "speaker": "character",
+          "action": "look",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Like a diamond in the sky.",
+          "audio": "line-8a4f651c8d.wav",
+          "durationSec": 2.225,
+          "words": [
+            {
+              "text": "Like",
+              "start": 0.111,
+              "end": 0.469
+            },
+            {
+              "text": "a",
+              "start": 0.469,
+              "end": 0.631
+            },
+            {
+              "text": "diamond",
+              "start": 0.631,
+              "end": 1.184
+            },
+            {
+              "text": "in",
+              "start": 1.184,
+              "end": 1.412
+            },
+            {
+              "text": "the",
+              "start": 1.412,
+              "end": 1.704
+            },
+            {
+              "text": "sky.",
+              "start": 1.704,
+              "end": 2.075
+            }
+          ],
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "energy": "calm",
+      "holdSec": 0,
+      "kind": "verse",
+      "transition": "fade",
+      "camera": "pan",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "One more time!",
+          "audio": "line-490a645a76.wav",
+          "durationSec": 1.8,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.09,
+              "end": 0.51
+            },
+            {
+              "text": "more",
+              "start": 0.51,
+              "end": 1.024
+            },
+            {
+              "text": "time!",
+              "start": 1.024,
+              "end": 1.65
+            }
+          ],
+          "speaker": "character",
+          "action": "wave",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "holdSec": 0,
+      "kind": "verse",
+      "transition": "slide",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "bunny",
+      "lines": [
+        {
+          "text": "Up above the world so high,",
+          "audio": "line-b218352c3a.wav",
+          "durationSec": 2.3,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.115,
+              "end": 0.343
+            },
+            {
+              "text": "above",
+              "start": 0.343,
+              "end": 0.767
+            },
+            {
+              "text": "the",
+              "start": 0.767,
+              "end": 1.061
+            },
+            {
+              "text": "world",
+              "start": 1.061,
+              "end": 1.485
+            },
+            {
+              "text": "so",
+              "start": 1.485,
+              "end": 1.713
+            },
+            {
+              "text": "high,",
+              "start": 1.713,
+              "end": 2.15
+            }
+          ],
+          "speaker": "character",
+          "action": "idle",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Like a diamond in the sky.",
+          "audio": "line-8a4f651c8d.wav",
+          "durationSec": 2.225,
+          "words": [
+            {
+              "text": "Like",
+              "start": 0.111,
+              "end": 0.469
+            },
+            {
+              "text": "a",
+              "start": 0.469,
+              "end": 0.631
+            },
+            {
+              "text": "diamond",
+              "start": 0.631,
+              "end": 1.184
+            },
+            {
+              "text": "in",
+              "start": 1.184,
+              "end": 1.412
+            },
+            {
+              "text": "the",
+              "start": 1.412,
+              "end": 1.704
+            },
+            {
+              "text": "sky.",
+              "start": 1.704,
+              "end": 2.075
+            }
+          ],
+          "speaker": "character",
+          "action": "nod",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "calm",
+      "holdSec": 0,
+      "kind": "verse",
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "One more time!",
+          "audio": "line-490a645a76.wav",
+          "durationSec": 1.8,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.09,
+              "end": 0.51
+            },
+            {
+              "text": "more",
+              "start": 0.51,
+              "end": 1.024
+            },
+            {
+              "text": "time!",
+              "start": 1.024,
+              "end": 1.65
+            }
+          ],
+          "speaker": "character",
+          "action": "look",
+          "emotion": "excited",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "holdSec": 0,
+      "kind": "verse",
+      "transition": "fade",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "bunny",
+      "lines": [
+        {
+          "text": "Up above the world so high,",
+          "audio": "line-b218352c3a.wav",
+          "durationSec": 2.3,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.115,
+              "end": 0.343
+            },
+            {
+              "text": "above",
+              "start": 0.343,
+              "end": 0.767
+            },
+            {
+              "text": "the",
+              "start": 0.767,
+              "end": 1.061
+            },
+            {
+              "text": "world",
+              "start": 1.061,
+              "end": 1.485
+            },
+            {
+              "text": "so",
+              "start": 1.485,
+              "end": 1.713
+            },
+            {
+              "text": "high,",
+              "start": 1.713,
+              "end": 2.15
+            }
+          ],
+          "speaker": "character",
+          "action": "wave",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Like a diamond in the sky.",
+          "audio": "line-8a4f651c8d.wav",
+          "durationSec": 2.225,
+          "words": [
+            {
+              "text": "Like",
+              "start": 0.111,
+              "end": 0.469
+            },
+            {
+              "text": "a",
+              "start": 0.469,
+              "end": 0.631
+            },
+            {
+              "text": "diamond",
+              "start": 0.631,
+              "end": 1.184
+            },
+            {
+              "text": "in",
+              "start": 1.184,
+              "end": 1.412
+            },
+            {
+              "text": "the",
+              "start": 1.412,
+              "end": 1.704
+            },
+            {
+              "text": "sky.",
+              "start": 1.704,
+              "end": 2.075
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "calm",
+      "holdSec": 0,
+      "kind": "verse",
+      "transition": "slide",
+      "camera": "zoom-in",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "background": "night",
+      "character": "star",
+      "lines": [
+        {
+          "text": "Twinkle, twinkle, little star,",
+          "audio": "line-1071e29d10.wav",
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Twinkle,",
+              "start": 0.12,
+              "end": 0.778
+            },
+            {
+              "text": "twinkle,",
+              "start": 0.778,
+              "end": 1.436
+            },
+            {
+              "text": "little",
+              "start": 1.436,
+              "end": 1.945
+            },
+            {
+              "text": "star,",
+              "start": 1.945,
+              "end": 2.4
+            }
+          ],
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How I wonder what you are!",
+          "audio": "line-87286807cc.wav",
+          "durationSec": 2,
+          "words": [
+            {
+              "text": "How",
+              "start": 0.1,
+              "end": 0.361
+            },
+            {
+              "text": "I",
+              "start": 0.361,
+              "end": 0.506
+            },
+            {
+              "text": "wonder",
+              "start": 0.506,
+              "end": 0.94
+            },
+            {
+              "text": "what",
+              "start": 0.94,
+              "end": 1.259
+            },
+            {
+              "text": "you",
+              "start": 1.259,
+              "end": 1.52
+            },
+            {
+              "text": "are!",
+              "start": 1.52,
+              "end": 1.85
+            }
+          ],
+          "speaker": "character",
+          "action": "think",
+          "emotion": "thinking",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "energy": "upbeat",
+      "holdSec": 0,
+      "kind": "chorus",
+      "transition": "pop",
+      "camera": "still",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    }
+  ],
+  "version": 2,
+  "mainCharacter": {
+    "kind": "star",
+    "name": "Twinkle"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Twinkle! Are you ready to sing? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave",
+    "audio": "line-bdfd2a6a49.wav",
+    "durationSec": 4.125,
+    "words": [
+      {
+        "text": "Hi",
+        "start": 0.12,
+        "end": 0.337
+      },
+      {
+        "text": "friends!",
+        "start": 0.337,
+        "end": 0.937
+      },
+      {
+        "text": "I'm",
+        "start": 0.937,
+        "end": 1.153
+      },
+      {
+        "text": "Twinkle!",
+        "start": 1.153,
+        "end": 1.754
+      },
+      {
+        "text": "Are",
+        "start": 1.754,
+        "end": 2.032
+      },
+      {
+        "text": "you",
+        "start": 2.032,
+        "end": 2.31
+      },
+      {
+        "text": "ready",
+        "start": 2.31,
+        "end": 2.713
+      },
+      {
+        "text": "to",
+        "start": 2.713,
+        "end": 2.929
+      },
+      {
+        "text": "sing?",
+        "start": 2.929,
+        "end": 3.344
+      },
+      {
+        "text": "Let's",
+        "start": 3.344,
+        "end": 3.684
+      },
+      {
+        "text": "go!",
+        "start": 3.684,
+        "end": 3.975
+      }
+    ]
+  },
+  "outro": {
+    "text": "That was so much fun! Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave",
+    "audio": "line-0b91c350fa.wav",
+    "durationSec": 3.175,
+    "words": [
+      {
+        "text": "That",
+        "start": 0.12,
+        "end": 0.478
+      },
+      {
+        "text": "was",
+        "start": 0.478,
+        "end": 0.771
+      },
+      {
+        "text": "so",
+        "start": 0.771,
+        "end": 0.999
+      },
+      {
+        "text": "much",
+        "start": 0.999,
+        "end": 1.358
+      },
+      {
+        "text": "fun!",
+        "start": 1.358,
+        "end": 1.729
+      },
+      {
+        "text": "Bye",
+        "start": 1.729,
+        "end": 2.022
+      },
+      {
+        "text": "bye,",
+        "start": 2.022,
+        "end": 2.393
+      },
+      {
+        "text": "friends!",
+        "start": 2.393,
+        "end": 3.025
+      }
+    ]
+  },
+  "moralRhyme": null,
+  "stars": null,
+  "directed": true
+}

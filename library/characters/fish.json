@@ -1,0 +1,26 @@
+{
+  "name": "fish",
+  "emoji": "🐟",
+  "rig": "fish",
+  "colors": {
+    "body": "#ff9f43",
+    "belly": "#ffd08a",
+    "limb": "#ff7f2a"
+  },
+  "face": {
+    "eyeY": 138,
+    "eyeGap": 46,
+    "mouthY": 172,
+    "eyeSize": 1.05
+  },
+  "words": {
+    "name": "Finn",
+    "one": "fishy",
+    "plural": "fishies",
+    "verb": "swim",
+    "verbs": "swims",
+    "verbing": "swimming",
+    "home": "underwater",
+    "sound": "blub"
+  }
+}

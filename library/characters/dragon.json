@@ -1,0 +1,42 @@
+{
+  "name": "dragon",
+  "emoji": "🐲",
+  "rig": "biped",
+  "colors": {
+    "body": "#6fd36a",
+    "belly": "#ffe27a",
+    "limb": "#5cc257",
+    "accent": "#ff5d5d",
+    "dark": "#3ea354"
+  },
+  "ears": "none",
+  "tail": "long",
+  "tailOptions": {
+    "width": 16
+  },
+  "features": [
+    "spikes",
+    {
+      "kind": "horns",
+      "color": "#ffd23f"
+    },
+    "nostrils",
+    {
+      "kind": "wingsBack",
+      "color": "#4fb34a"
+    }
+  ],
+  "face": {
+    "mouthY": 134
+  },
+  "words": {
+    "name": "Draco",
+    "one": "dragon",
+    "plural": "dragons",
+    "verb": "fly",
+    "verbs": "flies",
+    "verbing": "flying",
+    "home": "sky",
+    "sound": "roar"
+  }
+}

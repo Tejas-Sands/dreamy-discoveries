@@ -1,0 +1,63 @@
+{
+  "name": "castle",
+  "gradient": [
+    "#b6c8ff",
+    "#ffd1e8"
+  ],
+  "palette": "berry",
+  "description": "a fairy-tale castle with towers and flags",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 300,
+      "y": 200,
+      "r": 60
+    },
+    {
+      "part": "clouds",
+      "count": 4
+    },
+    {
+      "part": "birds",
+      "count": 2
+    },
+    {
+      "part": "hill",
+      "cx": 700,
+      "top": 600,
+      "rx": 1100,
+      "color": "#b5e58a"
+    },
+    {
+      "part": "castle",
+      "x": 1400,
+      "color": "#d9d0f5",
+      "roof": "#8f6fe0"
+    },
+    {
+      "part": "ground",
+      "color": "#7fd35a",
+      "top": 860,
+      "shade": "#56a83f"
+    },
+    {
+      "part": "roundTree",
+      "x": 200,
+      "base": 880,
+      "s": 1
+    },
+    {
+      "part": "flowers",
+      "count": 5,
+      "colors": [
+        "#ff5d9e",
+        "#c9a2ff",
+        "#ffd23f"
+      ]
+    },
+    {
+      "part": "sparkleDust",
+      "count": 10
+    }
+  ]
+}

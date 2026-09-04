@@ -1,0 +1,42 @@
+{
+  "name": "penguin",
+  "emoji": "🐧",
+  "rig": "bird",
+  "colors": {
+    "body": "#2f2f3d",
+    "belly": "#ffffff",
+    "limb": "#ff9f1a"
+  },
+  "ears": "none",
+  "tail": "none",
+  "features": [
+    {
+      "kind": "mask",
+      "color": "#ffffff",
+      "rx": 40,
+      "ry": 34,
+      "y": 118
+    },
+    {
+      "kind": "beakSmall",
+      "y": 122
+    }
+  ],
+  "face": {
+    "eyeY": 110,
+    "eyeGap": 42,
+    "mouthY": 146
+  },
+  "arm": "wing",
+  "foot": "duck",
+  "words": {
+    "name": "Pip",
+    "one": "penguin",
+    "plural": "penguins",
+    "verb": "waddle",
+    "verbs": "waddles",
+    "verbing": "waddling",
+    "home": "snow",
+    "sound": null
+  }
+}

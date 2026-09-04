@@ -1,0 +1,29 @@
+{
+  "name": "bear",
+  "emoji": "🐻",
+  "rig": "biped",
+  "colors": {
+    "body": "#b98352",
+    "belly": "#eccb9f",
+    "limb": "#a8733f",
+    "inner": "#e6b888"
+  },
+  "ears": "round",
+  "tail": "pom",
+  "features": [
+    "snout"
+  ],
+  "face": {
+    "mouthY": 130
+  },
+  "words": {
+    "name": "Bella",
+    "one": "bear",
+    "plural": "bears",
+    "verb": "stomp",
+    "verbs": "stomps",
+    "verbing": "stomping",
+    "home": "forest",
+    "sound": "grr"
+  }
+}

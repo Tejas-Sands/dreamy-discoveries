@@ -1,0 +1,77 @@
+{
+  "name": "pond",
+  "gradient": [
+    "#8fdcff",
+    "#c8f2d0"
+  ],
+  "palette": "forest",
+  "description": "a quiet pond with lily pads and reeds",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1600,
+      "y": 190,
+      "r": 60
+    },
+    {
+      "part": "clouds",
+      "count": 3
+    },
+    {
+      "part": "hill",
+      "cx": 600,
+      "top": 600,
+      "rx": 1100,
+      "color": "#8fd68a"
+    },
+    {
+      "part": "roundTree",
+      "x": 1750,
+      "base": 880,
+      "s": 1.1,
+      "leaf": "#5cb85c"
+    },
+    {
+      "part": "sea",
+      "top": 700,
+      "color": "#5fb8c9",
+      "colors": [
+        "#7fcbd9",
+        "#9bd8e3",
+        "#b7e5ec"
+      ]
+    },
+    {
+      "part": "wavyGround",
+      "color": "#7fd35a",
+      "top": 860
+    },
+    {
+      "part": "reeds",
+      "x": 250
+    },
+    {
+      "part": "reeds",
+      "x": 1500
+    },
+    {
+      "part": "lilyPad",
+      "x": 700,
+      "y": 930,
+      "flower": true
+    },
+    {
+      "part": "lilyPad",
+      "x": 1200,
+      "y": 960,
+      "s": 0.8
+    },
+    {
+      "part": "butterflies",
+      "colors": [
+        "#5db9ff",
+        "#7fd0ff"
+      ]
+    }
+  ]
+}

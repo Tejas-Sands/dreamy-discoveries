@@ -1,0 +1,30 @@
+{
+  "name": "bunny",
+  "emoji": "🐰",
+  "rig": "biped",
+  "colors": {
+    "body": "#fdf6ff",
+    "belly": "#ffffff",
+    "limb": "#f1e6f8",
+    "inner": "#ffc6d9"
+  },
+  "ears": "long",
+  "tail": "pom",
+  "tailOptions": {
+    "color": "#ffffff"
+  },
+  "features": [
+    "pinkNose",
+    "whiskers"
+  ],
+  "words": {
+    "name": "Benny",
+    "one": "bunny",
+    "plural": "bunnies",
+    "verb": "hop",
+    "verbs": "hops",
+    "verbing": "hopping",
+    "home": "meadow",
+    "sound": null
+  }
+}

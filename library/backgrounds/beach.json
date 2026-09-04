@@ -1,0 +1,60 @@
+{
+  "name": "beach",
+  "gradient": [
+    "#79c9ff",
+    "#cfefff"
+  ],
+  "palette": "ocean",
+  "description": "sunny beach with waves, a sandcastle and a palm tree",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1560,
+      "y": 190,
+      "r": 75
+    },
+    {
+      "part": "clouds",
+      "count": 3,
+      "yBase": 80,
+      "speed": 18
+    },
+    {
+      "part": "birds",
+      "count": 2
+    },
+    {
+      "part": "sea",
+      "top": 560
+    },
+    {
+      "part": "wavyGround",
+      "color": "#ffe6a8",
+      "top": 860
+    },
+    {
+      "part": "palm",
+      "x": 1650,
+      "s": 1.1
+    },
+    {
+      "part": "sandcastle",
+      "x": 300
+    },
+    {
+      "part": "shell",
+      "x": 700,
+      "y": 930
+    },
+    {
+      "part": "shell",
+      "x": 1150,
+      "y": 960,
+      "color": "#ffb3c6"
+    },
+    {
+      "part": "foam",
+      "top": 866
+    }
+  ]
+}

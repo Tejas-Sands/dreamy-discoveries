@@ -1,0 +1,38 @@
+{
+  "name": "hedgehog",
+  "emoji": "🦔",
+  "rig": "biped",
+  "colors": {
+    "body": "#c9a27a",
+    "belly": "#ffe9cf",
+    "limb": "#a8865f",
+    "accent": "#6b4a2e"
+  },
+  "ears": "round",
+  "earOptions": {
+    "r": 12,
+    "y": 54,
+    "x": 58
+  },
+  "tail": "none",
+  "features": [
+    {
+      "kind": "spikes",
+      "dense": 1
+    },
+    "blackNose"
+  ],
+  "face": {
+    "mouthY": 130
+  },
+  "words": {
+    "name": "Henry",
+    "one": "hedgehog",
+    "plural": "hedgehogs",
+    "verb": "roll",
+    "verbs": "rolls",
+    "verbing": "rolling",
+    "home": "forest",
+    "sound": null
+  }
+}

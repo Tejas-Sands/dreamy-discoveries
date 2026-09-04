@@ -1,0 +1,34 @@
+{
+  "name": "sheep",
+  "emoji": "🐑",
+  "rig": "biped",
+  "colors": {
+    "body": "#f7f2e8",
+    "belly": "#ffffff",
+    "limb": "#4a4a55",
+    "dark": "#4a4a55"
+  },
+  "ears": "round",
+  "earOptions": {
+    "r": 14,
+    "y": 72,
+    "x": 40
+  },
+  "tail": "pom",
+  "features": [
+    "wool"
+  ],
+  "face": {
+    "mouthY": 130
+  },
+  "words": {
+    "name": "Sammy",
+    "one": "sheep",
+    "plural": "sheep",
+    "verb": "skip",
+    "verbs": "skips",
+    "verbing": "skipping",
+    "home": "farm",
+    "sound": "baa"
+  }
+}

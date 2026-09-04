@@ -1,0 +1,31 @@
+{
+  "name": "cat",
+  "emoji": "🐱",
+  "rig": "biped",
+  "colors": {
+    "body": "#ffb457",
+    "belly": "#ffe6bd",
+    "limb": "#f5a548",
+    "inner": "#ffc6d9"
+  },
+  "ears": "pointy",
+  "tail": "curved",
+  "features": [
+    {
+      "kind": "headStripe",
+      "color": "#e08a2e"
+    },
+    "pinkNose",
+    "whiskers"
+  ],
+  "words": {
+    "name": "Kiki",
+    "one": "kitten",
+    "plural": "kittens",
+    "verb": "pounce",
+    "verbs": "pounces",
+    "verbing": "pouncing",
+    "home": "bedroom",
+    "sound": "meow"
+  }
+}

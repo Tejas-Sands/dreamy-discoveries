@@ -1,0 +1,64 @@
+{
+  "name": "campfire",
+  "gradient": [
+    "#1c2160",
+    "#5a3d9a"
+  ],
+  "palette": "night",
+  "description": "a campfire under the stars with a tent",
+  "parts": [
+    {
+      "part": "twinkles",
+      "count": 40
+    },
+    {
+      "part": "moon",
+      "x": 300,
+      "y": 200
+    },
+    {
+      "part": "hill",
+      "cx": 600,
+      "top": 700,
+      "rx": 1100,
+      "color": "#3d3a8a"
+    },
+    {
+      "part": "pine",
+      "x": 150,
+      "base": 890,
+      "color": "#2c3a6e"
+    },
+    {
+      "part": "pine",
+      "x": 1850,
+      "base": 890,
+      "color": "#2c3a6e",
+      "s": 1.2
+    },
+    {
+      "part": "campTent",
+      "x": 1450
+    },
+    {
+      "part": "hill",
+      "cx": 960,
+      "top": 850,
+      "rx": 1500,
+      "color": "#4c4a9c"
+    },
+    {
+      "part": "logs",
+      "x": 960
+    },
+    {
+      "part": "fire",
+      "x": 960,
+      "y": 890
+    },
+    {
+      "part": "fireflies",
+      "count": 10
+    }
+  ]
+}

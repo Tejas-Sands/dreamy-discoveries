@@ -1,0 +1,66 @@
+{
+  "name": "mountain",
+  "gradient": [
+    "#8fdcff",
+    "#e8f4ff"
+  ],
+  "palette": "ocean",
+  "description": "big snowy mountains with pines and rocks",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 320,
+      "y": 200
+    },
+    {
+      "part": "clouds",
+      "count": 4,
+      "yBase": 60
+    },
+    {
+      "part": "mountains",
+      "color": "#9fb4d6"
+    },
+    {
+      "part": "hill",
+      "cx": 960,
+      "top": 780,
+      "rx": 1500,
+      "color": "#8fd68a"
+    },
+    {
+      "part": "pine",
+      "x": 200,
+      "base": 890,
+      "s": 1.1
+    },
+    {
+      "part": "pine",
+      "x": 1750,
+      "base": 890,
+      "s": 1.2,
+      "color": "#3aa35c"
+    },
+    {
+      "part": "ground",
+      "color": "#7fd35a",
+      "top": 860,
+      "shade": "#56a83f"
+    },
+    {
+      "part": "rock",
+      "x": 1300,
+      "y": 900
+    },
+    {
+      "part": "rock",
+      "x": 500,
+      "y": 920,
+      "s": 0.7
+    },
+    {
+      "part": "birds",
+      "count": 3
+    }
+  ]
+}

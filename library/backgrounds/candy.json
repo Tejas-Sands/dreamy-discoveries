@@ -1,0 +1,43 @@
+{
+  "name": "candy",
+  "gradient": [
+    "#ffd6e8",
+    "#ffe9c9"
+  ],
+  "palette": "candy",
+  "description": "candy land with lollipops and cupcakes",
+  "parts": [
+    {
+      "part": "floatingCandy"
+    },
+    {
+      "part": "lollipop",
+      "x": 260,
+      "color": "#5db9ff"
+    },
+    {
+      "part": "lollipop",
+      "x": 1660,
+      "color": "#ff5d9e"
+    },
+    {
+      "part": "cupcake",
+      "x": 760,
+      "color": "#c9a2ff"
+    },
+    {
+      "part": "cupcake",
+      "x": 1180,
+      "color": "#ffb3c6"
+    },
+    {
+      "part": "ground",
+      "color": "#ffc3da",
+      "top": 860,
+      "shade": "#ff8fb8"
+    },
+    {
+      "part": "sprinkles"
+    }
+  ]
+}

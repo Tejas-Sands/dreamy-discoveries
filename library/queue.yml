@@ -1,0 +1,5 @@
+# Topics waiting to be produced. status: pending | running | done
+# Add lines like:
+#   - { id: q1, status: pending, topic: "a little fish who learns to be brave", type: story, minutes: 5.5 }
+#   - { id: q2, status: pending, template: counting, hero: duck, place: farm, type: rhyme }
+items: []

@@ -1,0 +1,38 @@
+{
+  "name": "dog",
+  "emoji": "🐶",
+  "rig": "biped",
+  "colors": {
+    "body": "#e4b078",
+    "belly": "#fbe6c8",
+    "limb": "#d49c62",
+    "dark": "#b97a42"
+  },
+  "ears": "floppy",
+  "tail": "curved",
+  "tailOptions": {
+    "width": 12,
+    "wag": 1.6
+  },
+  "features": [
+    {
+      "kind": "snout",
+      "y": 122,
+      "rx": 24,
+      "ry": 17
+    }
+  ],
+  "face": {
+    "mouthY": 132
+  },
+  "words": {
+    "name": "Max",
+    "one": "puppy",
+    "plural": "puppies",
+    "verb": "run",
+    "verbs": "runs",
+    "verbing": "running",
+    "home": "farm",
+    "sound": "woof"
+  }
+}

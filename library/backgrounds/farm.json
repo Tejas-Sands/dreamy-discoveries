@@ -1,0 +1,57 @@
+{
+  "name": "farm",
+  "gradient": [
+    "#8fdcff",
+    "#e4f7c9"
+  ],
+  "palette": "sunshine",
+  "description": "a farm with a red barn, a fence and sunflowers",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 280,
+      "y": 200
+    },
+    {
+      "part": "clouds",
+      "count": 4
+    },
+    {
+      "part": "hill",
+      "cx": 600,
+      "top": 600,
+      "rx": 1100,
+      "color": "#b5e58a"
+    },
+    {
+      "part": "hill",
+      "cx": 1600,
+      "top": 640,
+      "rx": 900,
+      "color": "#a4dd7c"
+    },
+    {
+      "part": "barn",
+      "x": 1480
+    },
+    {
+      "part": "ground",
+      "color": "#7fd35a",
+      "top": 860,
+      "shade": "#56a83f"
+    },
+    {
+      "part": "fence",
+      "x": 40,
+      "w": 820
+    },
+    {
+      "part": "sunflowers",
+      "xs": [
+        "1000",
+        "1120",
+        "1240"
+      ]
+    }
+  ]
+}

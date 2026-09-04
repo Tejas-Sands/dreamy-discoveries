@@ -1,0 +1,40 @@
+{
+  "name": "lion",
+  "emoji": "🦁",
+  "rig": "biped",
+  "colors": {
+    "body": "#f6c04a",
+    "belly": "#ffe5a8",
+    "limb": "#e9ad3a",
+    "inner": "#ffd48a",
+    "accent": "#e2802b"
+  },
+  "ears": "round",
+  "earOptions": {
+    "r": 15,
+    "y": 44,
+    "x": 58
+  },
+  "tail": "curved",
+  "tailOptions": {
+    "width": 8,
+    "tuft": "#e2802b"
+  },
+  "features": [
+    "mane",
+    "snout"
+  ],
+  "face": {
+    "mouthY": 130
+  },
+  "words": {
+    "name": "Leo",
+    "one": "lion",
+    "plural": "lions",
+    "verb": "prowl",
+    "verbs": "prowls",
+    "verbing": "prowling",
+    "home": "meadow",
+    "sound": "roar"
+  }
+}

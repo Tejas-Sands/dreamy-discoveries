@@ -1,0 +1,38 @@
+{
+  "name": "dreamy-discoveries",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dreamy Discoveries \u2014 a self-running studio for kids' sing-along rhymes and moral stories: templates or one LLM call -> Director -> local TTS -> Remotion on GitHub Actions -> Telegram",
+  "scripts": {
+    "studio": "remotion studio",
+    "generate": "node scripts/generate-script.mjs",
+    "direct": "node scripts/direct.mjs",
+    "tts": "node scripts/generate-audio.mjs",
+    "render": "node scripts/render.mjs",
+    "telegram": "node scripts/send-telegram.mjs",
+    "video": "node scripts/pipeline.mjs",
+    "audio-assets": "node scripts/build-audio-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "registry": "node scripts/build-registry.mjs",
+    "prestudio": "node scripts/build-registry.mjs && node scripts/bake-backgrounds.mjs",
+    "bake": "node scripts/bake-backgrounds.mjs",
+    "compile": "node scripts/compile.mjs",
+    "plan": "node scripts/plan.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "kokoro-js": "^1.2.1",
+    "music-metadata": "^10.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0",
+    "yaml": "^2.9.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.5.0"
+  }
+}

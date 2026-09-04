@@ -1,0 +1,44 @@
+{
+  "name": "raccoon",
+  "emoji": "🦝",
+  "rig": "biped",
+  "colors": {
+    "body": "#9a9aa8",
+    "belly": "#e0e0e8",
+    "limb": "#6c6c7a",
+    "dark": "#2f2438",
+    "inner": "#e0e0e8"
+  },
+  "ears": "pointy",
+  "earOptions": {
+    "size": 0.8
+  },
+  "tail": "curved",
+  "tailOptions": {
+    "width": 16,
+    "rings": "#2f2438"
+  },
+  "features": [
+    {
+      "kind": "mask",
+      "rx": 36,
+      "ry": 26,
+      "y": 122
+    },
+    "eyePatches",
+    "blackNose"
+  ],
+  "face": {
+    "mouthY": 132
+  },
+  "words": {
+    "name": "Rocky",
+    "one": "raccoon",
+    "plural": "raccoons",
+    "verb": "sneak",
+    "verbs": "sneaks",
+    "verbing": "sneaking",
+    "home": "forest",
+    "sound": null
+  }
+}

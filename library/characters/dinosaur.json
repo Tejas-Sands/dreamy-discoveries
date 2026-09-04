@@ -1,0 +1,34 @@
+{
+  "name": "dinosaur",
+  "emoji": "🦕",
+  "rig": "biped",
+  "colors": {
+    "body": "#7ed957",
+    "belly": "#d9f7c0",
+    "limb": "#6bc548",
+    "accent": "#3ea354"
+  },
+  "ears": "none",
+  "tail": "long",
+  "tailOptions": {
+    "width": 16
+  },
+  "features": [
+    "spikes",
+    "nostrils"
+  ],
+  "face": {
+    "mouthY": 134
+  },
+  "legWidth": 30,
+  "words": {
+    "name": "Dino",
+    "one": "dinosaur",
+    "plural": "dinosaurs",
+    "verb": "stomp",
+    "verbs": "stomps",
+    "verbing": "stomping",
+    "home": "forest",
+    "sound": "rawr"
+  }
+}

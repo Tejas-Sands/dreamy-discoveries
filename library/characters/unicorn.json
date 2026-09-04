@@ -1,0 +1,49 @@
+{
+  "name": "unicorn",
+  "emoji": "🦄",
+  "rig": "biped",
+  "colors": {
+    "body": "#fdf3ff",
+    "belly": "#ffffff",
+    "limb": "#f3e2fb",
+    "accent": "#ff7fb8",
+    "dark": "#c9a2ff"
+  },
+  "ears": "pointy",
+  "earOptions": {
+    "size": 0.7
+  },
+  "tail": "bushy",
+  "tailOptions": {
+    "color": "#c9a2ff",
+    "tip": "#7fd0ff"
+  },
+  "features": [
+    {
+      "kind": "hair",
+      "colors": "#ff7fb8,#c9a2ff,#7fd0ff,#ffd23f"
+    },
+    "hornUnicorn",
+    {
+      "kind": "snout",
+      "color": "#ffe4f2",
+      "y": 124,
+      "rx": 22,
+      "ry": 14,
+      "nostrils": true
+    }
+  ],
+  "face": {
+    "mouthY": 134
+  },
+  "words": {
+    "name": "Una",
+    "one": "unicorn",
+    "plural": "unicorns",
+    "verb": "prance",
+    "verbs": "prances",
+    "verbing": "prancing",
+    "home": "sky",
+    "sound": null
+  }
+}

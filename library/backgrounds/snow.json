@@ -1,0 +1,60 @@
+{
+  "name": "snow",
+  "gradient": [
+    "#b9d9ff",
+    "#eef6ff"
+  ],
+  "palette": "berry",
+  "description": "snowy day with a snowman and snowy pines",
+  "parts": [
+    {
+      "part": "hill",
+      "cx": 400,
+      "top": 620,
+      "rx": 1000,
+      "color": "#e8f1ff"
+    },
+    {
+      "part": "hill",
+      "cx": 1500,
+      "top": 660,
+      "rx": 1000,
+      "color": "#f2f7ff"
+    },
+    {
+      "part": "pine",
+      "x": 150,
+      "base": 890,
+      "s": 0.9,
+      "snow": true
+    },
+    {
+      "part": "pine",
+      "x": 1720,
+      "base": 890,
+      "s": 1.1,
+      "snow": true
+    },
+    {
+      "part": "pine",
+      "x": 1900,
+      "base": 890,
+      "s": 1,
+      "snow": true
+    },
+    {
+      "part": "ground",
+      "color": "#ffffff",
+      "top": 860,
+      "shade": "#cfe0f5"
+    },
+    {
+      "part": "snowman",
+      "x": 1450
+    },
+    {
+      "part": "snowflakes",
+      "count": 28
+    }
+  ]
+}

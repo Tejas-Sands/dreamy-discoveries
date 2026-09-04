@@ -1,0 +1,28 @@
+{
+  "name": "whale",
+  "emoji": "🐳",
+  "rig": "fish",
+  "colors": {
+    "body": "#5db9ff",
+    "belly": "#d6efff",
+    "limb": "#3d9de6"
+  },
+  "features": [
+    "spout"
+  ],
+  "face": {
+    "eyeY": 140,
+    "eyeGap": 48,
+    "mouthY": 176
+  },
+  "words": {
+    "name": "Wally",
+    "one": "whale",
+    "plural": "whales",
+    "verb": "swim",
+    "verbs": "swims",
+    "verbing": "swimming",
+    "home": "underwater",
+    "sound": "whoosh"
+  }
+}

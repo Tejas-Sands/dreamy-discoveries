@@ -1,0 +1,39 @@
+{
+  "name": "bird",
+  "emoji": "🐦",
+  "rig": "bird",
+  "colors": {
+    "body": "#5db9ff",
+    "belly": "#d6efff",
+    "limb": "#ff9f1a"
+  },
+  "ears": "none",
+  "tail": "feathers",
+  "features": [
+    {
+      "kind": "tuftTop",
+      "color": "#3d9de6"
+    },
+    {
+      "kind": "beakSmall",
+      "y": 122
+    }
+  ],
+  "face": {
+    "eyeY": 110,
+    "eyeGap": 44,
+    "mouthY": 146
+  },
+  "arm": "wing",
+  "foot": "duck",
+  "words": {
+    "name": "Bluey",
+    "one": "bird",
+    "plural": "birds",
+    "verb": "fly",
+    "verbs": "flies",
+    "verbing": "flying",
+    "home": "sky",
+    "sound": "tweet"
+  }
+}

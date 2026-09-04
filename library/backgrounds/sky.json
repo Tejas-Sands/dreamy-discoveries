@@ -1,0 +1,38 @@
+{
+  "name": "sky",
+  "gradient": [
+    "#6fc6ff",
+    "#dff5ff"
+  ],
+  "palette": "sunshine",
+  "description": "up in the clouds with a rainbow and balloons",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1620,
+      "y": 180
+    },
+    {
+      "part": "clouds",
+      "count": 6,
+      "yBase": 100,
+      "speed": 30
+    },
+    {
+      "part": "birds",
+      "count": 4
+    },
+    {
+      "part": "balloons"
+    },
+    {
+      "part": "rainbow",
+      "x": 760,
+      "y": 880,
+      "r": 720
+    },
+    {
+      "part": "cloudFloor"
+    }
+  ]
+}

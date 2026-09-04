@@ -1,0 +1,30 @@
+{
+  "name": "turtle",
+  "emoji": "🐢",
+  "rig": "shell",
+  "colors": {
+    "body": "#7dcf7a",
+    "belly": "#d6f0c2",
+    "limb": "#6bbd68",
+    "accent": "#4e8f4b",
+    "dark": "#3e7a3c"
+  },
+  "ears": "none",
+  "tail": "stub",
+  "features": [
+    "nostrils"
+  ],
+  "face": {
+    "mouthY": 130
+  },
+  "words": {
+    "name": "Tilly",
+    "one": "turtle",
+    "plural": "turtles",
+    "verb": "crawl",
+    "verbs": "crawls",
+    "verbing": "crawling",
+    "home": "beach",
+    "sound": null
+  }
+}

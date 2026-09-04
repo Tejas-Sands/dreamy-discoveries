@@ -1,0 +1,99 @@
+{
+  "name": "jungle",
+  "gradient": [
+    "#9be3ff",
+    "#bde9a8"
+  ],
+  "palette": "forest",
+  "description": "lush jungle with big trees, vines and butterflies",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1600,
+      "y": 170,
+      "r": 60
+    },
+    {
+      "part": "clouds",
+      "count": 2,
+      "opacity": 0.7
+    },
+    {
+      "part": "birds",
+      "count": 3
+    },
+    {
+      "part": "hill",
+      "cx": 400,
+      "top": 520,
+      "rx": 1100,
+      "color": "#6cc06a"
+    },
+    {
+      "part": "hill",
+      "cx": 1600,
+      "top": 560,
+      "rx": 1000,
+      "color": "#5db35b"
+    },
+    {
+      "part": "palm",
+      "x": 120,
+      "s": 1.2
+    },
+    {
+      "part": "roundTree",
+      "x": 560,
+      "base": 890,
+      "s": 1.3,
+      "leaf": "#3ea354"
+    },
+    {
+      "part": "roundTree",
+      "x": 1750,
+      "base": 890,
+      "s": 1.25,
+      "leaf": "#4faf4a"
+    },
+    {
+      "part": "palm",
+      "x": 1350,
+      "s": 1
+    },
+    {
+      "part": "ground",
+      "color": "#4faf4a",
+      "top": 860,
+      "shade": "#2f8f4e"
+    },
+    {
+      "part": "mushroom",
+      "x": 900,
+      "y": 1000,
+      "color": "#ffd23f"
+    },
+    {
+      "part": "rock",
+      "x": 1200,
+      "y": 900,
+      "s": 0.8
+    },
+    {
+      "part": "flowers",
+      "count": 5,
+      "colors": [
+        "#ff5d9e",
+        "#ffd23f",
+        "#ff8c42"
+      ]
+    },
+    {
+      "part": "butterflies",
+      "colors": [
+        "#5db9ff",
+        "#ffd23f",
+        "#ff8fb8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+name: Make video
+
+# One video, end to end, on GitHub's machines:
+#   plan ──► voice ──► render (N parallel chunks) + audio ──► stitch / release / Telegram
+# Everything already done before (voice lines, Chrome, model, bundler cache) comes from caches.
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Topic for the LLM (leave blank when using template or slug)"
+        required: false
+        type: string
+      type:
+        description: "Video type (for topic)"
+        required: false
+        default: rhyme
+        type: choice
+        options: [rhyme, story]
+      template:
+        description: "AI-free template id (counting, colors, actions, animal-sounds, body-parts, shapes, lullaby, opposites)"
+        required: false
+        type: string
+      hero:
+        description: "Hero for templates, e.g. duck (blank = auto)"
+        required: false
+        type: string
+      slug:
+        description: "Existing slug from library/scripts to re-run (skips generation)"
+        required: false
+        type: string
+      minutes:
+        description: "Target length in minutes"
+        required: false
+        default: "5.5"
+        type: string
+      voice:
+        description: "TTS voice (blank = af_heart)"
+        required: false
+        type: string
+      preview:
+        description: "Fast 540p preview instead of the final render"
+        required: false
+        default: false
+        type: boolean
+  workflow_call:
+    inputs:
+      topic: { required: false, type: string, default: "" }
+      type: { required: false, type: string, default: "rhyme" }
+      template: { required: false, type: string, default: "" }
+      hero: { required: false, type: string, default: "" }
+      slug: { required: false, type: string, default: "" }
+      minutes: { required: false, type: string, default: "5.5" }
+      voice: { required: false, type: string, default: "" }
+      preview: { required: false, type: boolean, default: false }
+      queue_id: { required: false, type: string, default: "" }
+
+permissions:
+  contents: write
+  models: read
+
+env:
+  NODE_VERSION: 22
+  TTS_ENGINE: ${{ vars.TTS_ENGINE || 'kokoro' }}
+  TTS_SPEED: ${{ vars.TTS_SPEED || '0.95' }}
+
+jobs:
+  plan:
+    name: 1. Plan (script + Director + what's needed)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      slug: ${{ steps.plan.outputs.slug }}
+      title: ${{ steps.plan.outputs.title }}
+      voice_needed: ${{ steps.plan.outputs.voice_needed }}
+      chunk_count: ${{ steps.plan.outputs.chunk_count }}
+      chunks: ${{ steps.plan.outputs.chunks }}
+      preview: ${{ steps.plan.outputs.preview }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+
+      - name: Restore the global voice store (to know which lines are missing)
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/voice
+          key: voice-${{ env.TTS_ENGINE }}-${{ github.run_id }}
+          restore-keys: voice-${{ env.TTS_ENGINE }}-
+
+      - name: Plan
+        id: plan
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_MINUTES: ${{ inputs.minutes }}
+          IN_TOPIC: ${{ inputs.topic }}
+          IN_TYPE: ${{ inputs.type }}
+          IN_TEMPLATE: ${{ inputs.template }}
+          IN_HERO: ${{ inputs.hero }}
+          IN_SLUG: ${{ inputs.slug }}
+          IN_VOICE: ${{ inputs.voice }}
+          IN_PREVIEW: ${{ inputs.preview }}
+        run: |
+          ARGS=(--library --minutes "${TARGET_MINUTES:-5.5}")
+          if [ -n "$IN_SLUG" ]; then ARGS+=(--slug "$IN_SLUG")
+          elif [ -n "$IN_TEMPLATE" ]; then ARGS+=(--template "$IN_TEMPLATE"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
+          elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-rhyme}")
+          else echo "Give a topic, a template, or a slug"; exit 1; fi
+          [ -n "$IN_VOICE" ] && ARGS+=(--voice "$IN_VOICE")
+          [ "$IN_PREVIEW" = "true" ] && ARGS+=(--preview)
+          node scripts/plan.mjs "${ARGS[@]}"
+
+      - name: Commit the script (and any new recipes) to the library
+        run: |
+          git config user.name "dreamy-discoveries[bot]"
+          git config user.email "bot@users.noreply.github.com"
+          git add library
+          if git diff --cached --quiet; then echo "library unchanged"; exit 0; fi
+          git commit -m "library: ${{ steps.plan.outputs.slug }} [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep $((i * 5)); done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: script-${{ steps.plan.outputs.slug }}
+          path: |
+            public/generated/${{ steps.plan.outputs.slug }}/script.json
+            library
+          retention-days: 7
+
+  voice:
+    name: 2. Voice (only lines the store doesn't have)
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SLUG: ${{ needs.plan.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: script-${{ env.SLUG }}
+          path: .
+
+      - name: Restore the global voice store
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/voice
+          key: voice-${{ env.TTS_ENGINE }}-${{ github.run_id }}
+          restore-keys: voice-${{ env.TTS_ENGINE }}-
+
+      - name: Cache the Kokoro model
+        if: needs.plan.outputs.voice_needed == 'true'
+        uses: actions/cache@v4
+        with:
+          path: .cache/models
+          key: kokoro-82m-v1.0-q8
+
+      - name: Synthesize missing lines, assemble the video's audio folder
+        env:
+          TARGET_MINUTES: ${{ inputs.minutes }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate-audio.mjs --slug "$SLUG"
+
+      - name: Save the voice store (grows every run)
+        if: needs.plan.outputs.voice_needed == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/voice
+          key: voice-${{ env.TTS_ENGINE }}-${{ github.run_id }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voiced-${{ env.SLUG }}
+          path: public/generated/${{ env.SLUG }}
+          retention-days: 7
+
+  audio:
+    name: 3a. Audio track
+    needs: [plan, voice]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SLUG: ${{ needs.plan.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: script-${{ env.SLUG }}
+          path: .
+      - uses: actions/download-artifact@v4
+        with:
+          name: voiced-${{ env.SLUG }}
+          path: public/generated/${{ env.SLUG }}
+      - name: Cache Chrome Headless Shell + bundler cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.remotion
+            node_modules/.cache/webpack
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**') }}
+          restore-keys: |
+            remotion-${{ hashFiles('package-lock.json') }}-
+      - run: npx remotion browser ensure
+      - run: node scripts/render.mjs --slug "$SLUG" --audio-only --out "out/$SLUG.aac"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio-${{ env.SLUG }}
+          path: out/${{ env.SLUG }}.aac
+          retention-days: 7
+
+  render:
+    name: 3b. Render chunk
+    needs: [plan, voice]
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: true
+      matrix:
+        chunk: ${{ fromJSON(needs.plan.outputs.chunks) }}
+    env:
+      SLUG: ${{ needs.plan.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - name: Install emoji font (callouts, props)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
+      - uses: actions/download-artifact@v4
+        with:
+          name: script-${{ env.SLUG }}
+          path: .
+      - uses: actions/download-artifact@v4
+        with:
+          name: voiced-${{ env.SLUG }}
+          path: public/generated/${{ env.SLUG }}
+      - name: Cache Chrome Headless Shell + bundler cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.remotion
+            node_modules/.cache/webpack
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**') }}
+          restore-keys: |
+            remotion-${{ hashFiles('package-lock.json') }}-
+      - run: npx remotion browser ensure
+      - name: Cache baked background stills
+        uses: actions/cache@v4
+        with:
+          path: public/baked
+          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**') }}
+      - run: node scripts/bake-backgrounds.mjs --slug "$SLUG"
+      - name: Render frames ${{ matrix.chunk }}/${{ needs.plan.outputs.chunk_count }}
+        run: |
+          RANGE=$(node scripts/plan.mjs --slug "$SLUG" --range "${{ matrix.chunk }}/${{ needs.plan.outputs.chunk_count }}")
+          echo "chunk ${{ matrix.chunk }} = frames $RANGE"
+          EXTRA=""
+          [ "${{ needs.plan.outputs.preview }}" = "true" ] && EXTRA="--scale 0.5"
+          node scripts/render.mjs --slug "$SLUG" --frames "$RANGE" --muted --out "out/chunks/$SLUG/chunk-${{ matrix.chunk }}.mp4" $EXTRA
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ env.SLUG }}-${{ matrix.chunk }}
+          path: out/chunks/${{ env.SLUG }}/chunk-${{ matrix.chunk }}.mp4
+          retention-days: 3
+
+  stitch:
+    name: 4. Stitch, release, deliver
+    needs: [plan, voice, audio, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SLUG: ${{ needs.plan.outputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
+      - uses: actions/download-artifact@v4
+        with:
+          name: script-${{ env.SLUG }}
+          path: .
+      - uses: actions/download-artifact@v4
+        with:
+          name: voiced-${{ env.SLUG }}
+          path: public/generated/${{ env.SLUG }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: audio-${{ env.SLUG }}
+          path: out
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-${{ env.SLUG }}-*
+          path: out/chunks/${{ env.SLUG }}
+          merge-multiple: true
+      - name: Cache Chrome Headless Shell + bundler cache (thumbnail)
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.remotion
+            node_modules/.cache/webpack
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**') }}
+          restore-keys: |
+            remotion-${{ hashFiles('package-lock.json') }}-
+      - run: npx remotion browser ensure
+      - name: Cache baked background stills
+        uses: actions/cache@v4
+        with:
+          path: public/baked
+          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**') }}
+      - run: node scripts/bake-backgrounds.mjs --slug "$SLUG"
+
+      - name: Stitch chunks + audio, thumbnail, metadata
+        run: node scripts/stitch.mjs --slug "$SLUG"
+
+      - name: Publish as a GitHub Release (durable storage)
+        id: release
+        if: needs.plan.outputs.preview != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/publish-release.mjs --slug "$SLUG"
+
+      - name: Send to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          RELEASE_URL: ${{ steps.release.outputs.release_url }}
+        run: node scripts/send-telegram.mjs --slug "$SLUG"
+
+      - name: Record in the catalog
+        if: needs.plan.outputs.preview != 'true'
+        env:
+          RELEASE_URL: ${{ steps.release.outputs.release_url }}
+          QUEUE_ID: ${{ inputs.queue_id }}
+        run: |
+          node -e '
+            import("./scripts/lib/catalog.mjs").then(async ({ upsertEpisode, summarizeScript }) => {
+              const fs = await import("node:fs");
+              const slug = process.env.SLUG;
+              const script = JSON.parse(fs.readFileSync(`public/generated/${slug}/script.json`, "utf8"));
+              const { estimateVideoSec } = await import("./scripts/lib/estimate.mjs");
+              upsertEpisode(summarizeScript(script, { durationSec: Math.round(estimateVideoSec(script)), renderedAt: new Date().toISOString(), release: process.env.RELEASE_URL || null, run: process.env.GITHUB_RUN_ID }));
+            })'
+          if [ -n "$QUEUE_ID" ]; then node scripts/queue.mjs done "$QUEUE_ID"; fi
+          git config user.name "dreamy-discoveries[bot]"
+          git config user.email "bot@users.noreply.github.com"
+          git add library
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "catalog: $SLUG [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep $((i * 5)); done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ env.SLUG }}
+          path: |
+            out/${{ env.SLUG }}.mp4
+            out/${{ env.SLUG }}.png
+            out/${{ env.SLUG }}.metadata.txt
+            public/generated/${{ env.SLUG }}/script.json
+          retention-days: 14

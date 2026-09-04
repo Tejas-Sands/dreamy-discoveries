@@ -1,0 +1,38 @@
+{
+  "name": "fox",
+  "emoji": "🦊",
+  "rig": "biped",
+  "colors": {
+    "body": "#ff8c42",
+    "belly": "#fff1e0",
+    "limb": "#f27a2f",
+    "inner": "#fff1e0"
+  },
+  "ears": "pointy",
+  "earOptions": {
+    "size": 1.05
+  },
+  "tail": "bushy",
+  "features": [
+    {
+      "kind": "mask",
+      "rx": 34,
+      "ry": 26,
+      "y": 122
+    },
+    "blackNose"
+  ],
+  "face": {
+    "mouthY": 130
+  },
+  "words": {
+    "name": "Felix",
+    "one": "fox",
+    "plural": "foxes",
+    "verb": "trot",
+    "verbs": "trots",
+    "verbing": "trotting",
+    "home": "forest",
+    "sound": null
+  }
+}

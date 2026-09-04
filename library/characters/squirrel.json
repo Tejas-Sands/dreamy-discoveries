@@ -1,0 +1,35 @@
+{
+  "name": "squirrel",
+  "emoji": "🐿️",
+  "rig": "biped",
+  "colors": {
+    "body": "#c97b3a",
+    "belly": "#ffe6c7",
+    "limb": "#b5692e"
+  },
+  "ears": "pointy",
+  "earOptions": {
+    "size": 0.7
+  },
+  "tail": "bushy",
+  "tailOptions": {
+    "big": 1.25
+  },
+  "features": [
+    "blackNose",
+    "whiskers"
+  ],
+  "face": {
+    "mouthY": 130
+  },
+  "words": {
+    "name": "Sunny",
+    "one": "squirrel",
+    "plural": "squirrels",
+    "verb": "scamper",
+    "verbs": "scampers",
+    "verbing": "scampering",
+    "home": "forest",
+    "sound": null
+  }
+}

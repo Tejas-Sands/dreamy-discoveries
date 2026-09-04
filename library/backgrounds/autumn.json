@@ -1,0 +1,74 @@
+{
+  "name": "autumn",
+  "gradient": [
+    "#ffd98a",
+    "#ffe6c2"
+  ],
+  "palette": "sunshine",
+  "description": "golden autumn with falling leaves and pumpkins",
+  "parts": [
+    {
+      "part": "sun",
+      "x": 1600,
+      "y": 200,
+      "r": 60
+    },
+    {
+      "part": "clouds",
+      "count": 3
+    },
+    {
+      "part": "birds",
+      "count": 2
+    },
+    {
+      "part": "hill",
+      "cx": 500,
+      "top": 620,
+      "rx": 1100,
+      "color": "#e8c46b"
+    },
+    {
+      "part": "hill",
+      "cx": 1600,
+      "top": 660,
+      "rx": 1000,
+      "color": "#dbb35a"
+    },
+    {
+      "part": "roundTree",
+      "x": 250,
+      "base": 880,
+      "s": 1.1,
+      "leaf": "#ff8c1a"
+    },
+    {
+      "part": "roundTree",
+      "x": 1720,
+      "base": 880,
+      "s": 1.2,
+      "leaf": "#e0463a"
+    },
+    {
+      "part": "ground",
+      "color": "#c9a44a",
+      "top": 860,
+      "shade": "#a8862c"
+    },
+    {
+      "part": "pumpkin",
+      "x": 700,
+      "y": 900
+    },
+    {
+      "part": "pumpkin",
+      "x": 1300,
+      "y": 920,
+      "s": 0.7
+    },
+    {
+      "part": "leaves",
+      "count": 18
+    }
+  ]
+}
