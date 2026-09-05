@@ -1,0 +1,634 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "opposites",
+  "seed": 286427872,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "opposites-una-286427",
+  "title": "Opposites With Una!",
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "unicorn",
+    "name": "Una"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Una the unicorn! Let's learn about opposites! Ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Big and small, up and down, you did it! Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Opposites With Una 🦄 Big and Small, Up and Down Song for Kids",
+    "description": "Big and small, fast and slow, loud and quiet! Learn opposites with Una the unicorn in this fun sing-along for toddlers and preschoolers.\n#opposites #kidssongs #nurseryrhymes #toddlerlearning #preschool",
+    "tags": [
+      "opposites for kids",
+      "opposites song",
+      "big and small",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "preschool learning",
+      "unicorn song",
+      "sing along",
+      "learning words"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Big, big, big like a house so tall,",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "BIG",
+            "emoji": "🐘"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Small, small, small like a tiny ball!",
+          "action": "hug",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "SMALL",
+            "emoji": "🐭"
+          },
+          "speaker": "character",
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Big and small, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "candy",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Happy, happy, happy with a great big smile,",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "HAPPY",
+            "emoji": "😊"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Sad, sad, sad, just for a little while!",
+          "action": "cry",
+          "emotion": "sad",
+          "callout": {
+            "kind": "word",
+            "text": "SAD",
+            "emoji": "😢"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Happy and sad, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "candy",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Sad!",
+          "emoji": "😢"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of happy?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The opposite of happy is sad! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "candy",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "beach",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Hot, hot, hot like the summer sun,",
+          "action": "look",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "HOT",
+            "emoji": "☀️"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Cold, cold, cold, brr, snowy fun!",
+          "action": "shake",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "COLD",
+            "emoji": "❄️"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Hot and cold, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Up, up, up, we reach up high,",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "UP",
+            "emoji": "⬆️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Down, down, down, we touch the ground, oh my!",
+          "action": "stomp",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "DOWN",
+            "emoji": "⬇️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Up and down, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Down!",
+          "emoji": "⬇️"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of up?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The opposite of up is down! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Loud, loud, loud like a lion's roar,",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "LOUD",
+            "emoji": "🦁"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Quiet, quiet, quiet, tiptoe on the floor!",
+          "action": "think",
+          "emotion": "sleepy",
+          "callout": {
+            "kind": "word",
+            "text": "QUIET",
+            "emoji": "🤫"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Loud and quiet, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fast, fast, fast like a zooming car,",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "FAST",
+            "emoji": "🚗"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Slow, slow, slow like a sleepy star!",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": {
+            "kind": "word",
+            "text": "SLOW",
+            "emoji": "🐢"
+          },
+          "speaker": "character",
+          "sfx": [
+            "yawn"
+          ]
+        },
+        {
+          "text": "Fast and slow, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Slow!",
+          "emoji": "🐢"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of fast?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The opposite of fast is slow! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "meadow",
+      "character": "unicorn",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": null,
+  "stars": {
+    "total": 3
+  },
+  "directed": true
+}
