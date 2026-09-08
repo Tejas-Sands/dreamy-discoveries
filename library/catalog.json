@@ -21,6 +21,26 @@
       "renderedAt": "2026-09-05T08:01:58.789Z",
       "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-opposites-una-286427",
       "run": "33953548468"
+    },
+    {
+      "slug": "lullaby-max-630933",
+      "title": "Goodnight, Max",
+      "type": "rhyme",
+      "template": "lullaby",
+      "topic": null,
+      "hero": "dog",
+      "heroName": "Max",
+      "palette": "night",
+      "backgrounds": [
+        "bedroom",
+        "night",
+        "space"
+      ],
+      "lines": 107,
+      "durationSec": 343,
+      "renderedAt": "2026-09-08T08:31:11.466Z",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-lullaby-max-630933",
+      "run": "34203542011"
     }
   ],
   "compilations": []
