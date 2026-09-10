@@ -1,0 +1,714 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "animal-sounds",
+  "seed": 598996738,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "animal-sounds-ollie-598996",
+  "title": "Animal Sounds With Ollie!",
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "owl",
+    "name": "Ollie"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Ollie the owl! Let's visit my animal friends and hear what they say! Ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "What fun! You know all the animal sounds! Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Animal Sounds With Ollie 🦉 What Does the Animal Say? Song for Kids",
+    "description": "Quack, woof, oink, roar! Sing along with Ollie the owl and learn what the animals say. With questions for your little one to answer.\n#animalsounds #kidssongs #nurseryrhymes #toddlerlearning #animals",
+    "tags": [
+      "animal sounds",
+      "animal sounds for kids",
+      "what does the animal say",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "farm animals",
+      "preschool learning",
+      "owl song",
+      "sing along"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": "dinosaur",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Here comes a dinosaur, what does it say?",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "surprised",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Rawr, rawr, rawr, all day!",
+          "speaker": "friend",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Rawr, rawr, can you say it too?",
+          "speaker": "character",
+          "action": "point",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Rawr, rawr, rawr, from me to you!",
+          "speaker": "friend",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "forest",
+      "character": "owl",
+      "secondCharacter": "monkey",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Here comes a monkey, what does it say?",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "surprised",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Ooh ooh, ooh ooh, ooh ooh, all day!",
+          "speaker": "friend",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Ooh ooh, ooh ooh, can you say it too?",
+          "speaker": "character",
+          "action": "point",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ooh ooh, ooh ooh, ooh ooh, from me to you!",
+          "speaker": "friend",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "owl",
+      "secondCharacter": "monkey",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Ooh ooh!",
+          "emoji": "🐵"
+        }
+      },
+      "lines": [
+        {
+          "text": "What does the monkey say?",
+          "action": "point",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The monkey says ooh ooh! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "forest",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Animal sounds, loud and clear,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds for everyone to hear!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack and woof and oink and roar,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds, let's sing some more!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": "lion",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Here comes a lion, what does it say?",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "surprised",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Roar, roar, roar, all day!",
+          "speaker": "friend",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Roar, roar, can you say it too?",
+          "speaker": "character",
+          "action": "point",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Roar, roar, roar, from me to you!",
+          "speaker": "friend",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "bedroom",
+      "character": "owl",
+      "secondCharacter": "cat",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Here comes a cat, what does it say?",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "surprised",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Meow, meow, meow, all day!",
+          "speaker": "friend",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Meow, meow, can you say it too?",
+          "speaker": "character",
+          "action": "point",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Meow, meow, meow, from me to you!",
+          "speaker": "friend",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "owl",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Meow!",
+          "emoji": "🐱"
+        }
+      },
+      "lines": [
+        {
+          "text": "What does the cat say?",
+          "action": "point",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The cat says meow! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "bedroom",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Animal sounds, loud and clear,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds for everyone to hear!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack and woof and oink and roar,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds, let's sing some more!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "underwater",
+      "character": "owl",
+      "secondCharacter": "fish",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Here comes a fish, what does it say?",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "surprised",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Blub, blub, blub, all day!",
+          "speaker": "friend",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Blub, blub, can you say it too?",
+          "speaker": "character",
+          "action": "point",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Blub, blub, blub, from me to you!",
+          "speaker": "friend",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "owl",
+      "secondCharacter": "dragon",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Here comes a dragon, what does it say?",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "surprised",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Roar, roar, roar, all day!",
+          "speaker": "friend",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Roar, roar, can you say it too?",
+          "speaker": "character",
+          "action": "point",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Roar, roar, roar, from me to you!",
+          "speaker": "friend",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "owl",
+      "secondCharacter": "dragon",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Roar!",
+          "emoji": "🐲"
+        }
+      },
+      "lines": [
+        {
+          "text": "What does the dragon say?",
+          "action": "point",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The dragon says roar! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Animal sounds, loud and clear,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds for everyone to hear!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack and woof and oink and roar,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds, let's sing some more!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "All the animals sing together, what a sound!",
+          "action": "cheer",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Rawr, Ooh ooh, Roar, Meow! All around!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Animal sounds, loud and clear,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds for everyone to hear!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack and woof and oink and roar,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Animal sounds, let's sing some more!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "gag": null
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": null,
+  "stars": {
+    "total": 3
+  },
+  "directed": true
+}
