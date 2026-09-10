@@ -41,6 +41,30 @@
       "renderedAt": "2026-09-08T08:31:11.466Z",
       "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-lullaby-max-630933",
       "run": "34203542011"
+    },
+    {
+      "slug": "animal-sounds-ollie-598996",
+      "title": "Animal Sounds With Ollie!",
+      "type": "rhyme",
+      "template": "animal-sounds",
+      "topic": null,
+      "hero": "owl",
+      "heroName": "Ollie",
+      "palette": "sunshine",
+      "backgrounds": [
+        "night",
+        "forest",
+        "meadow",
+        "bedroom",
+        "underwater",
+        "sky",
+        "farm"
+      ],
+      "lines": 97,
+      "durationSec": 346,
+      "renderedAt": "2026-09-10T08:31:23.807Z",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-animal-sounds-ollie-598996",
+      "run": "34454508011"
     }
   ],
   "compilations": []
