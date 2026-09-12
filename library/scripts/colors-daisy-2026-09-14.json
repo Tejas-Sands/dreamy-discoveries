@@ -1,0 +1,4930 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "colors",
+  "seed": 20260914,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "colors-daisy-2026-09-14",
+  "title": "Colors With Daisy!",
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "duck",
+    "name": "Daisy"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Daisy the duck! Let's learn the colors! Are you ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave",
+    "audio": "line-539493adb0.wav",
+    "durationSec": 5.375,
+    "words": [
+      {
+        "text": "Hi",
+        "start": 0.12,
+        "end": 0.327
+      },
+      {
+        "text": "friends!",
+        "start": 0.327,
+        "end": 0.899
+      },
+      {
+        "text": "I'm",
+        "start": 0.899,
+        "end": 1.106
+      },
+      {
+        "text": "Daisy",
+        "start": 1.106,
+        "end": 1.489
+      },
+      {
+        "text": "the",
+        "start": 1.489,
+        "end": 1.755
+      },
+      {
+        "text": "duck!",
+        "start": 1.755,
+        "end": 2.15
+      },
+      {
+        "text": "Let's",
+        "start": 2.15,
+        "end": 2.475
+      },
+      {
+        "text": "learn",
+        "start": 2.475,
+        "end": 2.858
+      },
+      {
+        "text": "the",
+        "start": 2.858,
+        "end": 3.124
+      },
+      {
+        "text": "colors!",
+        "start": 3.124,
+        "end": 3.637
+      },
+      {
+        "text": "Are",
+        "start": 3.637,
+        "end": 3.903
+      },
+      {
+        "text": "you",
+        "start": 3.903,
+        "end": 4.169
+      },
+      {
+        "text": "ready?",
+        "start": 4.169,
+        "end": 4.623
+      },
+      {
+        "text": "Let's",
+        "start": 4.623,
+        "end": 4.948
+      },
+      {
+        "text": "go!",
+        "start": 4.948,
+        "end": 5.225
+      }
+    ]
+  },
+  "outro": {
+    "text": "Wonderful! You know your colors! Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave",
+    "audio": "line-578c2684b0.wav",
+    "durationSec": 3.525,
+    "words": [
+      {
+        "text": "Wonderful!",
+        "start": 0.12,
+        "end": 0.802
+      },
+      {
+        "text": "You",
+        "start": 0.802,
+        "end": 1.065
+      },
+      {
+        "text": "know",
+        "start": 1.065,
+        "end": 1.386
+      },
+      {
+        "text": "your",
+        "start": 1.386,
+        "end": 1.707
+      },
+      {
+        "text": "colors!",
+        "start": 1.707,
+        "end": 2.214
+      },
+      {
+        "text": "Bye",
+        "start": 2.214,
+        "end": 2.477
+      },
+      {
+        "text": "bye,",
+        "start": 2.477,
+        "end": 2.809
+      },
+      {
+        "text": "friends!",
+        "start": 2.809,
+        "end": 3.375
+      }
+    ]
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Colors With Daisy 🦆 Learn Colors Song for Toddlers",
+    "description": "Learn red, yellow, green, blue and more with Daisy the duck! A bright sing-along with questions for your little one.\n#colorsforkids #kidssongs #nurseryrhymes #toddlerlearning #learncolors",
+    "tags": [
+      "colors for kids",
+      "learn colors",
+      "color song",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "preschool learning",
+      "sing along",
+      "duck song",
+      "rainbow song",
+      "baby songs"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Green is the grass and the leaves on the tree,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": [],
+          "audio": "line-9f5bd3b578.wav",
+          "durationSec": 3.1,
+          "words": [
+            {
+              "text": "Green",
+              "start": 0.12,
+              "end": 0.472
+            },
+            {
+              "text": "is",
+              "start": 0.472,
+              "end": 0.662
+            },
+            {
+              "text": "the",
+              "start": 0.662,
+              "end": 0.906
+            },
+            {
+              "text": "grass",
+              "start": 0.906,
+              "end": 1.259
+            },
+            {
+              "text": "and",
+              "start": 1.259,
+              "end": 1.502
+            },
+            {
+              "text": "the",
+              "start": 1.502,
+              "end": 1.746
+            },
+            {
+              "text": "leaves",
+              "start": 1.746,
+              "end": 2.153
+            },
+            {
+              "text": "on",
+              "start": 2.153,
+              "end": 2.343
+            },
+            {
+              "text": "the",
+              "start": 2.343,
+              "end": 2.587
+            },
+            {
+              "text": "tree,",
+              "start": 2.587,
+              "end": 2.95
+            }
+          ]
+        },
+        {
+          "text": "Green are the leaves waving gently at me!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": [],
+          "audio": "line-ea83fe90e5.wav",
+          "durationSec": 3.075,
+          "words": [
+            {
+              "text": "Green",
+              "start": 0.12,
+              "end": 0.515
+            },
+            {
+              "text": "are",
+              "start": 0.515,
+              "end": 0.788
+            },
+            {
+              "text": "the",
+              "start": 0.788,
+              "end": 1.061
+            },
+            {
+              "text": "leaves",
+              "start": 1.061,
+              "end": 1.516
+            },
+            {
+              "text": "waving",
+              "start": 1.516,
+              "end": 1.972
+            },
+            {
+              "text": "gently",
+              "start": 1.972,
+              "end": 2.427
+            },
+            {
+              "text": "at",
+              "start": 2.427,
+              "end": 2.64
+            },
+            {
+              "text": "me!",
+              "start": 2.64,
+              "end": 2.925
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves green! Can you say green?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": [],
+          "audio": "line-edf2e487ae.wav",
+          "durationSec": 3.075,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.555
+            },
+            {
+              "text": "loves",
+              "start": 0.555,
+              "end": 0.99
+            },
+            {
+              "text": "green!",
+              "start": 0.99,
+              "end": 1.506
+            },
+            {
+              "text": "Can",
+              "start": 1.506,
+              "end": 1.807
+            },
+            {
+              "text": "you",
+              "start": 1.807,
+              "end": 2.108
+            },
+            {
+              "text": "say",
+              "start": 2.108,
+              "end": 2.41
+            },
+            {
+              "text": "green?",
+              "start": 2.41,
+              "end": 2.925
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🔵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Blue is the sky and blue is the sea,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🔵",
+            "color": "#2f8cff"
+          },
+          "sfx": [],
+          "audio": "line-8c7f36cbe0.wav",
+          "durationSec": 2.8,
+          "words": [
+            {
+              "text": "Blue",
+              "start": 0.12,
+              "end": 0.454
+            },
+            {
+              "text": "is",
+              "start": 0.454,
+              "end": 0.666
+            },
+            {
+              "text": "the",
+              "start": 0.666,
+              "end": 0.939
+            },
+            {
+              "text": "sky",
+              "start": 0.939,
+              "end": 1.212
+            },
+            {
+              "text": "and",
+              "start": 1.212,
+              "end": 1.485
+            },
+            {
+              "text": "blue",
+              "start": 1.485,
+              "end": 1.819
+            },
+            {
+              "text": "is",
+              "start": 1.819,
+              "end": 2.031
+            },
+            {
+              "text": "the",
+              "start": 2.031,
+              "end": 2.304
+            },
+            {
+              "text": "sea,",
+              "start": 2.304,
+              "end": 2.65
+            }
+          ]
+        },
+        {
+          "text": "Blue is the sky, smiling down at me!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🔵",
+            "color": "#2f8cff"
+          },
+          "sfx": [],
+          "audio": "line-78181d1b07.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Blue",
+              "start": 0.12,
+              "end": 0.479
+            },
+            {
+              "text": "is",
+              "start": 0.479,
+              "end": 0.708
+            },
+            {
+              "text": "the",
+              "start": 0.708,
+              "end": 1.002
+            },
+            {
+              "text": "sky,",
+              "start": 1.002,
+              "end": 1.374
+            },
+            {
+              "text": "smiling",
+              "start": 1.374,
+              "end": 1.93
+            },
+            {
+              "text": "down",
+              "start": 1.93,
+              "end": 2.289
+            },
+            {
+              "text": "at",
+              "start": 2.289,
+              "end": 2.518
+            },
+            {
+              "text": "me!",
+              "start": 2.518,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves blue! Can you say blue?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🔵",
+            "color": "#2f8cff"
+          },
+          "sfx": [],
+          "audio": "line-6bd500ed54.wav",
+          "durationSec": 2.875,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.544
+            },
+            {
+              "text": "loves",
+              "start": 0.544,
+              "end": 0.969
+            },
+            {
+              "text": "blue!",
+              "start": 0.969,
+              "end": 1.406
+            },
+            {
+              "text": "Can",
+              "start": 1.406,
+              "end": 1.7
+            },
+            {
+              "text": "you",
+              "start": 1.7,
+              "end": 1.994
+            },
+            {
+              "text": "say",
+              "start": 1.994,
+              "end": 2.288
+            },
+            {
+              "text": "blue?",
+              "start": 2.288,
+              "end": 2.725
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Blue",
+          "emoji": "🔵",
+          "color": "#2f8cff"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color is the sky?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-806aed80b9.wav",
+          "durationSec": 1.975,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.099,
+              "end": 0.468
+            },
+            {
+              "text": "color",
+              "start": 0.468,
+              "end": 0.905
+            },
+            {
+              "text": "is",
+              "start": 0.905,
+              "end": 1.14
+            },
+            {
+              "text": "the",
+              "start": 1.14,
+              "end": 1.442
+            },
+            {
+              "text": "sky?",
+              "start": 1.442,
+              "end": 1.825
+            }
+          ]
+        },
+        {
+          "text": "Yes! The sky is blue! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-574818228d.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.536
+            },
+            {
+              "text": "The",
+              "start": 0.536,
+              "end": 0.864
+            },
+            {
+              "text": "sky",
+              "start": 0.864,
+              "end": 1.192
+            },
+            {
+              "text": "is",
+              "start": 1.192,
+              "end": 1.447
+            },
+            {
+              "text": "blue!",
+              "start": 1.447,
+              "end": 1.935
+            },
+            {
+              "text": "Great",
+              "start": 1.935,
+              "end": 2.409
+            },
+            {
+              "text": "job!",
+              "start": 2.409,
+              "end": 2.825
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "turtle",
+        "owl"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍎",
+      "question": null,
+      "lines": [
+        {
+          "text": "Red is the apple, red is the rose,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🍎",
+            "color": "#ff3b3b"
+          },
+          "sfx": [],
+          "audio": "line-007a234a92.wav",
+          "durationSec": 2.875,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.418
+            },
+            {
+              "text": "is",
+              "start": 0.418,
+              "end": 0.649
+            },
+            {
+              "text": "the",
+              "start": 0.649,
+              "end": 0.946
+            },
+            {
+              "text": "apple,",
+              "start": 0.946,
+              "end": 1.456
+            },
+            {
+              "text": "red",
+              "start": 1.456,
+              "end": 1.753
+            },
+            {
+              "text": "is",
+              "start": 1.753,
+              "end": 1.984
+            },
+            {
+              "text": "the",
+              "start": 1.984,
+              "end": 2.282
+            },
+            {
+              "text": "rose,",
+              "start": 2.282,
+              "end": 2.725
+            }
+          ]
+        },
+        {
+          "text": "Red is the little rose under my nose!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🍎",
+            "color": "#ff3b3b"
+          },
+          "sfx": [],
+          "audio": "line-d0b21888e0.wav",
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.395
+            },
+            {
+              "text": "is",
+              "start": 0.395,
+              "end": 0.609
+            },
+            {
+              "text": "the",
+              "start": 0.609,
+              "end": 0.884
+            },
+            {
+              "text": "little",
+              "start": 0.884,
+              "end": 1.343
+            },
+            {
+              "text": "rose",
+              "start": 1.343,
+              "end": 1.679
+            },
+            {
+              "text": "under",
+              "start": 1.679,
+              "end": 2.076
+            },
+            {
+              "text": "my",
+              "start": 2.076,
+              "end": 2.29
+            },
+            {
+              "text": "nose!",
+              "start": 2.29,
+              "end": 2.7
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves red! Can you say red?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🍎",
+            "color": "#ff3b3b"
+          },
+          "sfx": [],
+          "audio": "line-761836fe9c.wav",
+          "durationSec": 2.825,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.558
+            },
+            {
+              "text": "loves",
+              "start": 0.558,
+              "end": 0.996
+            },
+            {
+              "text": "red!",
+              "start": 0.996,
+              "end": 1.381
+            },
+            {
+              "text": "Can",
+              "start": 1.381,
+              "end": 1.684
+            },
+            {
+              "text": "you",
+              "start": 1.684,
+              "end": 1.987
+            },
+            {
+              "text": "say",
+              "start": 1.987,
+              "end": 2.291
+            },
+            {
+              "text": "red?",
+              "start": 2.291,
+              "end": 2.675
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "beach",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "☀️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Yellow is the sun up high in the sky,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🍌",
+            "color": "#ffd60a"
+          },
+          "sfx": [],
+          "audio": "line-bcd7a45a38.wav",
+          "durationSec": 2.725,
+          "words": [
+            {
+              "text": "Yellow",
+              "start": 0.12,
+              "end": 0.551
+            },
+            {
+              "text": "is",
+              "start": 0.551,
+              "end": 0.752
+            },
+            {
+              "text": "the",
+              "start": 0.752,
+              "end": 1.011
+            },
+            {
+              "text": "sun",
+              "start": 1.011,
+              "end": 1.27
+            },
+            {
+              "text": "up",
+              "start": 1.27,
+              "end": 1.471
+            },
+            {
+              "text": "high",
+              "start": 1.471,
+              "end": 1.787
+            },
+            {
+              "text": "in",
+              "start": 1.787,
+              "end": 1.989
+            },
+            {
+              "text": "the",
+              "start": 1.989,
+              "end": 2.247
+            },
+            {
+              "text": "sky,",
+              "start": 2.247,
+              "end": 2.575
+            }
+          ]
+        },
+        {
+          "text": "Yellow is a banana and a butterfly!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🍌",
+            "color": "#ffd60a"
+          },
+          "sfx": [],
+          "audio": "line-714b0e4e58.wav",
+          "durationSec": 3,
+          "words": [
+            {
+              "text": "Yellow",
+              "start": 0.12,
+              "end": 0.636
+            },
+            {
+              "text": "is",
+              "start": 0.636,
+              "end": 0.876
+            },
+            {
+              "text": "a",
+              "start": 0.876,
+              "end": 1.048
+            },
+            {
+              "text": "banana",
+              "start": 1.048,
+              "end": 1.564
+            },
+            {
+              "text": "and",
+              "start": 1.564,
+              "end": 1.874
+            },
+            {
+              "text": "a",
+              "start": 1.874,
+              "end": 2.045
+            },
+            {
+              "text": "butterfly!",
+              "start": 2.045,
+              "end": 2.85
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves yellow! Can you say yellow?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🍌",
+            "color": "#ffd60a"
+          },
+          "sfx": [],
+          "audio": "line-4528e9732d.wav",
+          "durationSec": 3.025,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.528
+            },
+            {
+              "text": "loves",
+              "start": 0.528,
+              "end": 0.936
+            },
+            {
+              "text": "yellow!",
+              "start": 0.936,
+              "end": 1.482
+            },
+            {
+              "text": "Can",
+              "start": 1.482,
+              "end": 1.764
+            },
+            {
+              "text": "you",
+              "start": 1.764,
+              "end": 2.047
+            },
+            {
+              "text": "say",
+              "start": 2.047,
+              "end": 2.329
+            },
+            {
+              "text": "yellow?",
+              "start": 2.329,
+              "end": 2.875
+            }
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Yellow",
+          "emoji": "☀️",
+          "color": "#ffd60a"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color is the sun?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-29360bbfc5.wav",
+          "durationSec": 1.975,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.099,
+              "end": 0.468
+            },
+            {
+              "text": "color",
+              "start": 0.468,
+              "end": 0.905
+            },
+            {
+              "text": "is",
+              "start": 0.905,
+              "end": 1.14
+            },
+            {
+              "text": "the",
+              "start": 1.14,
+              "end": 1.442
+            },
+            {
+              "text": "sun?",
+              "start": 1.442,
+              "end": 1.825
+            }
+          ]
+        },
+        {
+          "text": "Yes! The sun is yellow! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-bef42b1488.wav",
+          "durationSec": 3.075,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.529
+            },
+            {
+              "text": "The",
+              "start": 0.529,
+              "end": 0.852
+            },
+            {
+              "text": "sun",
+              "start": 0.852,
+              "end": 1.175
+            },
+            {
+              "text": "is",
+              "start": 1.175,
+              "end": 1.426
+            },
+            {
+              "text": "yellow!",
+              "start": 1.426,
+              "end": 2.05
+            },
+            {
+              "text": "Great",
+              "start": 2.05,
+              "end": 2.516
+            },
+            {
+              "text": "job!",
+              "start": 2.516,
+              "end": 2.925
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "beach",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "spin",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "candy",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🥕",
+      "question": null,
+      "lines": [
+        {
+          "text": "Orange is a carrot, crunchy and sweet,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "🥕",
+            "color": "#ff8c1a"
+          },
+          "sfx": [],
+          "audio": "line-f3a8af4e82.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Orange",
+              "start": 0.12,
+              "end": 0.593
+            },
+            {
+              "text": "is",
+              "start": 0.593,
+              "end": 0.814
+            },
+            {
+              "text": "a",
+              "start": 0.814,
+              "end": 0.971
+            },
+            {
+              "text": "carrot,",
+              "start": 0.971,
+              "end": 1.52
+            },
+            {
+              "text": "crunchy",
+              "start": 1.52,
+              "end": 2.056
+            },
+            {
+              "text": "and",
+              "start": 2.056,
+              "end": 2.339
+            },
+            {
+              "text": "sweet,",
+              "start": 2.339,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Orange is a pumpkin sitting by my feet!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "🥕",
+            "color": "#ff8c1a"
+          },
+          "sfx": [],
+          "audio": "line-591b26ec19.wav",
+          "durationSec": 3,
+          "words": [
+            {
+              "text": "Orange",
+              "start": 0.12,
+              "end": 0.583
+            },
+            {
+              "text": "is",
+              "start": 0.583,
+              "end": 0.799
+            },
+            {
+              "text": "a",
+              "start": 0.799,
+              "end": 0.954
+            },
+            {
+              "text": "pumpkin",
+              "start": 0.954,
+              "end": 1.479
+            },
+            {
+              "text": "sitting",
+              "start": 1.479,
+              "end": 2.004
+            },
+            {
+              "text": "by",
+              "start": 2.004,
+              "end": 2.22
+            },
+            {
+              "text": "my",
+              "start": 2.22,
+              "end": 2.436
+            },
+            {
+              "text": "feet!",
+              "start": 2.436,
+              "end": 2.85
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves orange! Can you say orange?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "🥕",
+            "color": "#ff8c1a"
+          },
+          "sfx": [],
+          "audio": "line-4897facdd9.wav",
+          "durationSec": 3.225,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.558
+            },
+            {
+              "text": "loves",
+              "start": 0.558,
+              "end": 0.995
+            },
+            {
+              "text": "orange!",
+              "start": 0.995,
+              "end": 1.581
+            },
+            {
+              "text": "Can",
+              "start": 1.581,
+              "end": 1.884
+            },
+            {
+              "text": "you",
+              "start": 1.884,
+              "end": 2.186
+            },
+            {
+              "text": "say",
+              "start": 2.186,
+              "end": 2.489
+            },
+            {
+              "text": "orange?",
+              "start": 2.489,
+              "end": 3.075
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍇",
+      "question": null,
+      "lines": [
+        {
+          "text": "Purple is the grape, purple is the plum,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "emoji": "🍇",
+            "color": "#a55eea"
+          },
+          "sfx": [],
+          "audio": "line-ffef4a865c.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Purple",
+              "start": 0.12,
+              "end": 0.567
+            },
+            {
+              "text": "is",
+              "start": 0.567,
+              "end": 0.775
+            },
+            {
+              "text": "the",
+              "start": 0.775,
+              "end": 1.044
+            },
+            {
+              "text": "grape,",
+              "start": 1.044,
+              "end": 1.502
+            },
+            {
+              "text": "purple",
+              "start": 1.502,
+              "end": 1.949
+            },
+            {
+              "text": "is",
+              "start": 1.949,
+              "end": 2.158
+            },
+            {
+              "text": "the",
+              "start": 2.158,
+              "end": 2.426
+            },
+            {
+              "text": "plum,",
+              "start": 2.426,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Purple is so pretty, yum yum yum!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "emoji": "🍇",
+            "color": "#a55eea"
+          },
+          "sfx": [],
+          "audio": "line-6081c34ac7.wav",
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "Purple",
+              "start": 0.12,
+              "end": 0.631
+            },
+            {
+              "text": "is",
+              "start": 0.631,
+              "end": 0.869
+            },
+            {
+              "text": "so",
+              "start": 0.869,
+              "end": 1.107
+            },
+            {
+              "text": "pretty,",
+              "start": 1.107,
+              "end": 1.699
+            },
+            {
+              "text": "yum",
+              "start": 1.699,
+              "end": 2.006
+            },
+            {
+              "text": "yum",
+              "start": 2.006,
+              "end": 2.312
+            },
+            {
+              "text": "yum!",
+              "start": 2.312,
+              "end": 2.7
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves purple! Can you say purple?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "emoji": "🍇",
+            "color": "#a55eea"
+          },
+          "sfx": [],
+          "audio": "line-c3fd55cbc8.wav",
+          "durationSec": 3.1,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.539
+            },
+            {
+              "text": "loves",
+              "start": 0.539,
+              "end": 0.958
+            },
+            {
+              "text": "purple!",
+              "start": 0.958,
+              "end": 1.519
+            },
+            {
+              "text": "Can",
+              "start": 1.519,
+              "end": 1.809
+            },
+            {
+              "text": "you",
+              "start": 1.809,
+              "end": 2.099
+            },
+            {
+              "text": "say",
+              "start": 2.099,
+              "end": 2.389
+            },
+            {
+              "text": "purple?",
+              "start": 2.389,
+              "end": 2.95
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Purple",
+          "emoji": "🍇",
+          "color": "#a55eea"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color is the grape?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-53f83aafa6.wav",
+          "durationSec": 2.025,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.101,
+              "end": 0.453
+            },
+            {
+              "text": "color",
+              "start": 0.453,
+              "end": 0.87
+            },
+            {
+              "text": "is",
+              "start": 0.87,
+              "end": 1.094
+            },
+            {
+              "text": "the",
+              "start": 1.094,
+              "end": 1.382
+            },
+            {
+              "text": "grape?",
+              "start": 1.382,
+              "end": 1.875
+            }
+          ]
+        },
+        {
+          "text": "Yes! The grape is purple! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-9288250e8b.wav",
+          "durationSec": 3.125,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.516
+            },
+            {
+              "text": "The",
+              "start": 0.516,
+              "end": 0.829
+            },
+            {
+              "text": "grape",
+              "start": 0.829,
+              "end": 1.28
+            },
+            {
+              "text": "is",
+              "start": 1.28,
+              "end": 1.523
+            },
+            {
+              "text": "purple!",
+              "start": 1.523,
+              "end": 2.128
+            },
+            {
+              "text": "Great",
+              "start": 2.128,
+              "end": 2.579
+            },
+            {
+              "text": "job!",
+              "start": 2.579,
+              "end": 2.975
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "bear",
+        "fox"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Red, yellow, green and blue, orange, purple, pink too!",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "🌈"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-06aa86ea38.wav",
+          "durationSec": 3.95,
+          "words": [
+            {
+              "text": "Red,",
+              "start": 0.12,
+              "end": 0.466
+            },
+            {
+              "text": "yellow,",
+              "start": 0.466,
+              "end": 0.993
+            },
+            {
+              "text": "green",
+              "start": 0.993,
+              "end": 1.387
+            },
+            {
+              "text": "and",
+              "start": 1.387,
+              "end": 1.66
+            },
+            {
+              "text": "blue,",
+              "start": 1.66,
+              "end": 2.066
+            },
+            {
+              "text": "orange,",
+              "start": 2.066,
+              "end": 2.594
+            },
+            {
+              "text": "purple,",
+              "start": 2.594,
+              "end": 3.121
+            },
+            {
+              "text": "pink",
+              "start": 3.121,
+              "end": 3.454
+            },
+            {
+              "text": "too!",
+              "start": 3.454,
+              "end": 3.8
+            }
+          ]
+        },
+        {
+          "text": "A rainbow of colors, just for you!",
+          "action": "dance",
+          "emotion": "love",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-7e6792412b.wav",
+          "durationSec": 2.675,
+          "words": [
+            {
+              "text": "A",
+              "start": 0.12,
+              "end": 0.275
+            },
+            {
+              "text": "rainbow",
+              "start": 0.275,
+              "end": 0.8
+            },
+            {
+              "text": "of",
+              "start": 0.8,
+              "end": 1.016
+            },
+            {
+              "text": "colors,",
+              "start": 1.016,
+              "end": 1.554
+            },
+            {
+              "text": "just",
+              "start": 1.554,
+              "end": 1.894
+            },
+            {
+              "text": "for",
+              "start": 1.894,
+              "end": 2.173
+            },
+            {
+              "text": "you!",
+              "start": 2.173,
+              "end": 2.525
+            }
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-out",
+      "extras": [
+        "turtle",
+        "owl"
+      ],
+      "gag": null
+    },
+    {
+      "kind": "bridge",
+      "background": "farm",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "camera": "still",
+      "holdSec": 0,
+      "secondCharacter": null,
+      "gag": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "One more time!",
+          "role": "bridge",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "sfx": [
+            "tada"
+          ],
+          "callout": null,
+          "audio": "line-490a645a76.wav",
+          "durationSec": 1.8,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.09,
+              "end": 0.51
+            },
+            {
+              "text": "more",
+              "start": 0.51,
+              "end": 1.024
+            },
+            {
+              "text": "time!",
+              "start": 1.024,
+              "end": 1.65
+            }
+          ]
+        }
+      ],
+      "prop": null,
+      "extras": null
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Green is the grass and the leaves on the tree,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": [],
+          "audio": "line-9f5bd3b578.wav",
+          "durationSec": 3.1,
+          "words": [
+            {
+              "text": "Green",
+              "start": 0.12,
+              "end": 0.472
+            },
+            {
+              "text": "is",
+              "start": 0.472,
+              "end": 0.662
+            },
+            {
+              "text": "the",
+              "start": 0.662,
+              "end": 0.906
+            },
+            {
+              "text": "grass",
+              "start": 0.906,
+              "end": 1.259
+            },
+            {
+              "text": "and",
+              "start": 1.259,
+              "end": 1.502
+            },
+            {
+              "text": "the",
+              "start": 1.502,
+              "end": 1.746
+            },
+            {
+              "text": "leaves",
+              "start": 1.746,
+              "end": 2.153
+            },
+            {
+              "text": "on",
+              "start": 2.153,
+              "end": 2.343
+            },
+            {
+              "text": "the",
+              "start": 2.343,
+              "end": 2.587
+            },
+            {
+              "text": "tree,",
+              "start": 2.587,
+              "end": 2.95
+            }
+          ]
+        },
+        {
+          "text": "Green are the leaves waving gently at me!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": [],
+          "audio": "line-ea83fe90e5.wav",
+          "durationSec": 3.075,
+          "words": [
+            {
+              "text": "Green",
+              "start": 0.12,
+              "end": 0.515
+            },
+            {
+              "text": "are",
+              "start": 0.515,
+              "end": 0.788
+            },
+            {
+              "text": "the",
+              "start": 0.788,
+              "end": 1.061
+            },
+            {
+              "text": "leaves",
+              "start": 1.061,
+              "end": 1.516
+            },
+            {
+              "text": "waving",
+              "start": 1.516,
+              "end": 1.972
+            },
+            {
+              "text": "gently",
+              "start": 1.972,
+              "end": 2.427
+            },
+            {
+              "text": "at",
+              "start": 2.427,
+              "end": 2.64
+            },
+            {
+              "text": "me!",
+              "start": 2.64,
+              "end": 2.925
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves green! Can you say green?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": [],
+          "audio": "line-edf2e487ae.wav",
+          "durationSec": 3.075,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.555
+            },
+            {
+              "text": "loves",
+              "start": 0.555,
+              "end": 0.99
+            },
+            {
+              "text": "green!",
+              "start": 0.99,
+              "end": 1.506
+            },
+            {
+              "text": "Can",
+              "start": 1.506,
+              "end": 1.807
+            },
+            {
+              "text": "you",
+              "start": 1.807,
+              "end": 2.108
+            },
+            {
+              "text": "say",
+              "start": 2.108,
+              "end": 2.41
+            },
+            {
+              "text": "green?",
+              "start": 2.41,
+              "end": 2.925
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🔵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Blue is the sky and blue is the sea,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🔵",
+            "color": "#2f8cff"
+          },
+          "sfx": [],
+          "audio": "line-8c7f36cbe0.wav",
+          "durationSec": 2.8,
+          "words": [
+            {
+              "text": "Blue",
+              "start": 0.12,
+              "end": 0.454
+            },
+            {
+              "text": "is",
+              "start": 0.454,
+              "end": 0.666
+            },
+            {
+              "text": "the",
+              "start": 0.666,
+              "end": 0.939
+            },
+            {
+              "text": "sky",
+              "start": 0.939,
+              "end": 1.212
+            },
+            {
+              "text": "and",
+              "start": 1.212,
+              "end": 1.485
+            },
+            {
+              "text": "blue",
+              "start": 1.485,
+              "end": 1.819
+            },
+            {
+              "text": "is",
+              "start": 1.819,
+              "end": 2.031
+            },
+            {
+              "text": "the",
+              "start": 2.031,
+              "end": 2.304
+            },
+            {
+              "text": "sea,",
+              "start": 2.304,
+              "end": 2.65
+            }
+          ]
+        },
+        {
+          "text": "Blue is the sky, smiling down at me!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🔵",
+            "color": "#2f8cff"
+          },
+          "sfx": [],
+          "audio": "line-78181d1b07.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Blue",
+              "start": 0.12,
+              "end": 0.479
+            },
+            {
+              "text": "is",
+              "start": 0.479,
+              "end": 0.708
+            },
+            {
+              "text": "the",
+              "start": 0.708,
+              "end": 1.002
+            },
+            {
+              "text": "sky,",
+              "start": 1.002,
+              "end": 1.374
+            },
+            {
+              "text": "smiling",
+              "start": 1.374,
+              "end": 1.93
+            },
+            {
+              "text": "down",
+              "start": 1.93,
+              "end": 2.289
+            },
+            {
+              "text": "at",
+              "start": 2.289,
+              "end": 2.518
+            },
+            {
+              "text": "me!",
+              "start": 2.518,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves blue! Can you say blue?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🔵",
+            "color": "#2f8cff"
+          },
+          "sfx": [],
+          "audio": "line-6bd500ed54.wav",
+          "durationSec": 2.875,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.544
+            },
+            {
+              "text": "loves",
+              "start": 0.544,
+              "end": 0.969
+            },
+            {
+              "text": "blue!",
+              "start": 0.969,
+              "end": 1.406
+            },
+            {
+              "text": "Can",
+              "start": 1.406,
+              "end": 1.7
+            },
+            {
+              "text": "you",
+              "start": 1.7,
+              "end": 1.994
+            },
+            {
+              "text": "say",
+              "start": 1.994,
+              "end": 2.288
+            },
+            {
+              "text": "blue?",
+              "start": 2.288,
+              "end": 2.725
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Blue",
+          "emoji": "🔵",
+          "color": "#2f8cff"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color is the sky?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-806aed80b9.wav",
+          "durationSec": 1.975,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.099,
+              "end": 0.468
+            },
+            {
+              "text": "color",
+              "start": 0.468,
+              "end": 0.905
+            },
+            {
+              "text": "is",
+              "start": 0.905,
+              "end": 1.14
+            },
+            {
+              "text": "the",
+              "start": 1.14,
+              "end": 1.442
+            },
+            {
+              "text": "sky?",
+              "start": 1.442,
+              "end": 1.825
+            }
+          ]
+        },
+        {
+          "text": "Yes! The sky is blue! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-574818228d.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.536
+            },
+            {
+              "text": "The",
+              "start": 0.536,
+              "end": 0.864
+            },
+            {
+              "text": "sky",
+              "start": 0.864,
+              "end": 1.192
+            },
+            {
+              "text": "is",
+              "start": 1.192,
+              "end": 1.447
+            },
+            {
+              "text": "blue!",
+              "start": 1.447,
+              "end": 1.935
+            },
+            {
+              "text": "Great",
+              "start": 1.935,
+              "end": 2.409
+            },
+            {
+              "text": "job!",
+              "start": 2.409,
+              "end": 2.825
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 3,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "turtle",
+        "owl"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍎",
+      "question": null,
+      "lines": [
+        {
+          "text": "Red is the apple, red is the rose,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🍎",
+            "color": "#ff3b3b"
+          },
+          "sfx": [],
+          "audio": "line-007a234a92.wav",
+          "durationSec": 2.875,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.418
+            },
+            {
+              "text": "is",
+              "start": 0.418,
+              "end": 0.649
+            },
+            {
+              "text": "the",
+              "start": 0.649,
+              "end": 0.946
+            },
+            {
+              "text": "apple,",
+              "start": 0.946,
+              "end": 1.456
+            },
+            {
+              "text": "red",
+              "start": 1.456,
+              "end": 1.753
+            },
+            {
+              "text": "is",
+              "start": 1.753,
+              "end": 1.984
+            },
+            {
+              "text": "the",
+              "start": 1.984,
+              "end": 2.282
+            },
+            {
+              "text": "rose,",
+              "start": 2.282,
+              "end": 2.725
+            }
+          ]
+        },
+        {
+          "text": "Red is the little rose under my nose!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🍎",
+            "color": "#ff3b3b"
+          },
+          "sfx": [],
+          "audio": "line-d0b21888e0.wav",
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.395
+            },
+            {
+              "text": "is",
+              "start": 0.395,
+              "end": 0.609
+            },
+            {
+              "text": "the",
+              "start": 0.609,
+              "end": 0.884
+            },
+            {
+              "text": "little",
+              "start": 0.884,
+              "end": 1.343
+            },
+            {
+              "text": "rose",
+              "start": 1.343,
+              "end": 1.679
+            },
+            {
+              "text": "under",
+              "start": 1.679,
+              "end": 2.076
+            },
+            {
+              "text": "my",
+              "start": 2.076,
+              "end": 2.29
+            },
+            {
+              "text": "nose!",
+              "start": 2.29,
+              "end": 2.7
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves red! Can you say red?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🍎",
+            "color": "#ff3b3b"
+          },
+          "sfx": [],
+          "audio": "line-761836fe9c.wav",
+          "durationSec": 2.825,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.558
+            },
+            {
+              "text": "loves",
+              "start": 0.558,
+              "end": 0.996
+            },
+            {
+              "text": "red!",
+              "start": 0.996,
+              "end": 1.381
+            },
+            {
+              "text": "Can",
+              "start": 1.381,
+              "end": 1.684
+            },
+            {
+              "text": "you",
+              "start": 1.684,
+              "end": 1.987
+            },
+            {
+              "text": "say",
+              "start": 1.987,
+              "end": 2.291
+            },
+            {
+              "text": "red?",
+              "start": 2.291,
+              "end": 2.675
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "beach",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "☀️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Yellow is the sun up high in the sky,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🍌",
+            "color": "#ffd60a"
+          },
+          "sfx": [],
+          "audio": "line-bcd7a45a38.wav",
+          "durationSec": 2.725,
+          "words": [
+            {
+              "text": "Yellow",
+              "start": 0.12,
+              "end": 0.551
+            },
+            {
+              "text": "is",
+              "start": 0.551,
+              "end": 0.752
+            },
+            {
+              "text": "the",
+              "start": 0.752,
+              "end": 1.011
+            },
+            {
+              "text": "sun",
+              "start": 1.011,
+              "end": 1.27
+            },
+            {
+              "text": "up",
+              "start": 1.27,
+              "end": 1.471
+            },
+            {
+              "text": "high",
+              "start": 1.471,
+              "end": 1.787
+            },
+            {
+              "text": "in",
+              "start": 1.787,
+              "end": 1.989
+            },
+            {
+              "text": "the",
+              "start": 1.989,
+              "end": 2.247
+            },
+            {
+              "text": "sky,",
+              "start": 2.247,
+              "end": 2.575
+            }
+          ]
+        },
+        {
+          "text": "Yellow is a banana and a butterfly!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🍌",
+            "color": "#ffd60a"
+          },
+          "sfx": [],
+          "audio": "line-714b0e4e58.wav",
+          "durationSec": 3,
+          "words": [
+            {
+              "text": "Yellow",
+              "start": 0.12,
+              "end": 0.636
+            },
+            {
+              "text": "is",
+              "start": 0.636,
+              "end": 0.876
+            },
+            {
+              "text": "a",
+              "start": 0.876,
+              "end": 1.048
+            },
+            {
+              "text": "banana",
+              "start": 1.048,
+              "end": 1.564
+            },
+            {
+              "text": "and",
+              "start": 1.564,
+              "end": 1.874
+            },
+            {
+              "text": "a",
+              "start": 1.874,
+              "end": 2.045
+            },
+            {
+              "text": "butterfly!",
+              "start": 2.045,
+              "end": 2.85
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves yellow! Can you say yellow?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🍌",
+            "color": "#ffd60a"
+          },
+          "sfx": [],
+          "audio": "line-4528e9732d.wav",
+          "durationSec": 3.025,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.528
+            },
+            {
+              "text": "loves",
+              "start": 0.528,
+              "end": 0.936
+            },
+            {
+              "text": "yellow!",
+              "start": 0.936,
+              "end": 1.482
+            },
+            {
+              "text": "Can",
+              "start": 1.482,
+              "end": 1.764
+            },
+            {
+              "text": "you",
+              "start": 1.764,
+              "end": 2.047
+            },
+            {
+              "text": "say",
+              "start": 2.047,
+              "end": 2.329
+            },
+            {
+              "text": "yellow?",
+              "start": 2.329,
+              "end": 2.875
+            }
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Yellow",
+          "emoji": "☀️",
+          "color": "#ffd60a"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color is the sun?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-29360bbfc5.wav",
+          "durationSec": 1.975,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.099,
+              "end": 0.468
+            },
+            {
+              "text": "color",
+              "start": 0.468,
+              "end": 0.905
+            },
+            {
+              "text": "is",
+              "start": 0.905,
+              "end": 1.14
+            },
+            {
+              "text": "the",
+              "start": 1.14,
+              "end": 1.442
+            },
+            {
+              "text": "sun?",
+              "start": 1.442,
+              "end": 1.825
+            }
+          ]
+        },
+        {
+          "text": "Yes! The sun is yellow! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-bef42b1488.wav",
+          "durationSec": 3.075,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.529
+            },
+            {
+              "text": "The",
+              "start": 0.529,
+              "end": 0.852
+            },
+            {
+              "text": "sun",
+              "start": 0.852,
+              "end": 1.175
+            },
+            {
+              "text": "is",
+              "start": 1.175,
+              "end": 1.426
+            },
+            {
+              "text": "yellow!",
+              "start": 1.426,
+              "end": 2.05
+            },
+            {
+              "text": "Great",
+              "start": 2.05,
+              "end": 2.516
+            },
+            {
+              "text": "job!",
+              "start": 2.516,
+              "end": 2.925
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 4,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "beach",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "spin",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "candy",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🥕",
+      "question": null,
+      "lines": [
+        {
+          "text": "Orange is a carrot, crunchy and sweet,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "🥕",
+            "color": "#ff8c1a"
+          },
+          "sfx": [],
+          "audio": "line-f3a8af4e82.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Orange",
+              "start": 0.12,
+              "end": 0.593
+            },
+            {
+              "text": "is",
+              "start": 0.593,
+              "end": 0.814
+            },
+            {
+              "text": "a",
+              "start": 0.814,
+              "end": 0.971
+            },
+            {
+              "text": "carrot,",
+              "start": 0.971,
+              "end": 1.52
+            },
+            {
+              "text": "crunchy",
+              "start": 1.52,
+              "end": 2.056
+            },
+            {
+              "text": "and",
+              "start": 2.056,
+              "end": 2.339
+            },
+            {
+              "text": "sweet,",
+              "start": 2.339,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Orange is a pumpkin sitting by my feet!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "🥕",
+            "color": "#ff8c1a"
+          },
+          "sfx": [],
+          "audio": "line-591b26ec19.wav",
+          "durationSec": 3,
+          "words": [
+            {
+              "text": "Orange",
+              "start": 0.12,
+              "end": 0.583
+            },
+            {
+              "text": "is",
+              "start": 0.583,
+              "end": 0.799
+            },
+            {
+              "text": "a",
+              "start": 0.799,
+              "end": 0.954
+            },
+            {
+              "text": "pumpkin",
+              "start": 0.954,
+              "end": 1.479
+            },
+            {
+              "text": "sitting",
+              "start": 1.479,
+              "end": 2.004
+            },
+            {
+              "text": "by",
+              "start": 2.004,
+              "end": 2.22
+            },
+            {
+              "text": "my",
+              "start": 2.22,
+              "end": 2.436
+            },
+            {
+              "text": "feet!",
+              "start": 2.436,
+              "end": 2.85
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves orange! Can you say orange?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "🥕",
+            "color": "#ff8c1a"
+          },
+          "sfx": [],
+          "audio": "line-4897facdd9.wav",
+          "durationSec": 3.225,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.558
+            },
+            {
+              "text": "loves",
+              "start": 0.558,
+              "end": 0.995
+            },
+            {
+              "text": "orange!",
+              "start": 0.995,
+              "end": 1.581
+            },
+            {
+              "text": "Can",
+              "start": 1.581,
+              "end": 1.884
+            },
+            {
+              "text": "you",
+              "start": 1.884,
+              "end": 2.186
+            },
+            {
+              "text": "say",
+              "start": 2.186,
+              "end": 2.489
+            },
+            {
+              "text": "orange?",
+              "start": 2.489,
+              "end": 3.075
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍇",
+      "question": null,
+      "lines": [
+        {
+          "text": "Purple is the grape, purple is the plum,",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "emoji": "🍇",
+            "color": "#a55eea"
+          },
+          "sfx": [],
+          "audio": "line-ffef4a865c.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Purple",
+              "start": 0.12,
+              "end": 0.567
+            },
+            {
+              "text": "is",
+              "start": 0.567,
+              "end": 0.775
+            },
+            {
+              "text": "the",
+              "start": 0.775,
+              "end": 1.044
+            },
+            {
+              "text": "grape,",
+              "start": 1.044,
+              "end": 1.502
+            },
+            {
+              "text": "purple",
+              "start": 1.502,
+              "end": 1.949
+            },
+            {
+              "text": "is",
+              "start": 1.949,
+              "end": 2.158
+            },
+            {
+              "text": "the",
+              "start": 2.158,
+              "end": 2.426
+            },
+            {
+              "text": "plum,",
+              "start": 2.426,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Purple is so pretty, yum yum yum!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "emoji": "🍇",
+            "color": "#a55eea"
+          },
+          "sfx": [],
+          "audio": "line-6081c34ac7.wav",
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "Purple",
+              "start": 0.12,
+              "end": 0.631
+            },
+            {
+              "text": "is",
+              "start": 0.631,
+              "end": 0.869
+            },
+            {
+              "text": "so",
+              "start": 0.869,
+              "end": 1.107
+            },
+            {
+              "text": "pretty,",
+              "start": 1.107,
+              "end": 1.699
+            },
+            {
+              "text": "yum",
+              "start": 1.699,
+              "end": 2.006
+            },
+            {
+              "text": "yum",
+              "start": 2.006,
+              "end": 2.312
+            },
+            {
+              "text": "yum!",
+              "start": 2.312,
+              "end": 2.7
+            }
+          ]
+        },
+        {
+          "text": "Daisy loves purple! Can you say purple?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "emoji": "🍇",
+            "color": "#a55eea"
+          },
+          "sfx": [],
+          "audio": "line-c3fd55cbc8.wav",
+          "durationSec": 3.1,
+          "words": [
+            {
+              "text": "Daisy",
+              "start": 0.12,
+              "end": 0.539
+            },
+            {
+              "text": "loves",
+              "start": 0.539,
+              "end": 0.958
+            },
+            {
+              "text": "purple!",
+              "start": 0.958,
+              "end": 1.519
+            },
+            {
+              "text": "Can",
+              "start": 1.519,
+              "end": 1.809
+            },
+            {
+              "text": "you",
+              "start": 1.809,
+              "end": 2.099
+            },
+            {
+              "text": "say",
+              "start": 2.099,
+              "end": 2.389
+            },
+            {
+              "text": "purple?",
+              "start": 2.389,
+              "end": 2.95
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Purple",
+          "emoji": "🍇",
+          "color": "#a55eea"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color is the grape?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-53f83aafa6.wav",
+          "durationSec": 2.025,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.101,
+              "end": 0.453
+            },
+            {
+              "text": "color",
+              "start": 0.453,
+              "end": 0.87
+            },
+            {
+              "text": "is",
+              "start": 0.87,
+              "end": 1.094
+            },
+            {
+              "text": "the",
+              "start": 1.094,
+              "end": 1.382
+            },
+            {
+              "text": "grape?",
+              "start": 1.382,
+              "end": 1.875
+            }
+          ]
+        },
+        {
+          "text": "Yes! The grape is purple! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-9288250e8b.wav",
+          "durationSec": 3.125,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.516
+            },
+            {
+              "text": "The",
+              "start": 0.516,
+              "end": 0.829
+            },
+            {
+              "text": "grape",
+              "start": 0.829,
+              "end": 1.28
+            },
+            {
+              "text": "is",
+              "start": 1.28,
+              "end": 1.523
+            },
+            {
+              "text": "purple!",
+              "start": 1.523,
+              "end": 2.128
+            },
+            {
+              "text": "Great",
+              "start": 2.128,
+              "end": 2.579
+            },
+            {
+              "text": "job!",
+              "start": 2.579,
+              "end": 2.975
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 5,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "bear",
+        "fox"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Red, yellow, green and blue, orange, purple, pink too!",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "🌈"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-06aa86ea38.wav",
+          "durationSec": 3.95,
+          "words": [
+            {
+              "text": "Red,",
+              "start": 0.12,
+              "end": 0.466
+            },
+            {
+              "text": "yellow,",
+              "start": 0.466,
+              "end": 0.993
+            },
+            {
+              "text": "green",
+              "start": 0.993,
+              "end": 1.387
+            },
+            {
+              "text": "and",
+              "start": 1.387,
+              "end": 1.66
+            },
+            {
+              "text": "blue,",
+              "start": 1.66,
+              "end": 2.066
+            },
+            {
+              "text": "orange,",
+              "start": 2.066,
+              "end": 2.594
+            },
+            {
+              "text": "purple,",
+              "start": 2.594,
+              "end": 3.121
+            },
+            {
+              "text": "pink",
+              "start": 3.121,
+              "end": 3.454
+            },
+            {
+              "text": "too!",
+              "start": 3.454,
+              "end": 3.8
+            }
+          ]
+        },
+        {
+          "text": "A rainbow of colors, just for you!",
+          "action": "dance",
+          "emotion": "love",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-7e6792412b.wav",
+          "durationSec": 2.675,
+          "words": [
+            {
+              "text": "A",
+              "start": 0.12,
+              "end": 0.275
+            },
+            {
+              "text": "rainbow",
+              "start": 0.275,
+              "end": 0.8
+            },
+            {
+              "text": "of",
+              "start": 0.8,
+              "end": 1.016
+            },
+            {
+              "text": "colors,",
+              "start": 1.016,
+              "end": 1.554
+            },
+            {
+              "text": "just",
+              "start": 1.554,
+              "end": 1.894
+            },
+            {
+              "text": "for",
+              "start": 1.894,
+              "end": 2.173
+            },
+            {
+              "text": "you!",
+              "start": 2.173,
+              "end": 2.525
+            }
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Colors, colors, all around!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-499d707f8e.wav",
+          "durationSec": 2.375,
+          "words": [
+            {
+              "text": "Colors,",
+              "start": 0.119,
+              "end": 0.718
+            },
+            {
+              "text": "colors,",
+              "start": 0.718,
+              "end": 1.316
+            },
+            {
+              "text": "all",
+              "start": 1.316,
+              "end": 1.626
+            },
+            {
+              "text": "around!",
+              "start": 1.626,
+              "end": 2.225
+            }
+          ]
+        },
+        {
+          "text": "Up in the sky and on the ground!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-03b1c3ae34.wav",
+          "durationSec": 2.475,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.327
+            },
+            {
+              "text": "in",
+              "start": 0.327,
+              "end": 0.535
+            },
+            {
+              "text": "the",
+              "start": 0.535,
+              "end": 0.802
+            },
+            {
+              "text": "sky",
+              "start": 0.802,
+              "end": 1.068
+            },
+            {
+              "text": "and",
+              "start": 1.068,
+              "end": 1.335
+            },
+            {
+              "text": "on",
+              "start": 1.335,
+              "end": 1.543
+            },
+            {
+              "text": "the",
+              "start": 1.543,
+              "end": 1.809
+            },
+            {
+              "text": "ground!",
+              "start": 1.809,
+              "end": 2.325
+            }
+          ]
+        },
+        {
+          "text": "Red and yellow, green and blue,",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-c44e130798.wav",
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "Red",
+              "start": 0.12,
+              "end": 0.403
+            },
+            {
+              "text": "and",
+              "start": 0.403,
+              "end": 0.687
+            },
+            {
+              "text": "yellow,",
+              "start": 0.687,
+              "end": 1.235
+            },
+            {
+              "text": "green",
+              "start": 1.235,
+              "end": 1.644
+            },
+            {
+              "text": "and",
+              "start": 1.644,
+              "end": 1.928
+            },
+            {
+              "text": "blue,",
+              "start": 1.928,
+              "end": 2.35
+            }
+          ]
+        },
+        {
+          "text": "Colors are for me and you!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-0aa074c3f9.wav",
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Colors",
+              "start": 0.107,
+              "end": 0.577
+            },
+            {
+              "text": "are",
+              "start": 0.577,
+              "end": 0.859
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.141
+            },
+            {
+              "text": "me",
+              "start": 1.141,
+              "end": 1.361
+            },
+            {
+              "text": "and",
+              "start": 1.361,
+              "end": 1.643
+            },
+            {
+              "text": "you!",
+              "start": 1.643,
+              "end": 2
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-out",
+      "extras": [
+        "turtle",
+        "owl"
+      ],
+      "gag": null
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": "af_heart",
+  "stars": {
+    "total": 6
+  },
+  "directed": true
+}
