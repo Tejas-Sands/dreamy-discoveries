@@ -1,7 +1,9 @@
 {
   "researched_at": "2026-09-12",
   "timezone": "Asia/Kolkata",
-  "audience_assumption": "Global English-speaking families, ages 2–5, with selected India-specific dates; unconfirmed preference.",
+  "audience": "Global English-speaking families, with some India-specific dates.",
+  "audience_confirmed": true,
+  "age_range_assumption": "2–5",
   "coverage_start": "2026-09-13",
   "coverage_end": "2026-12-31",
   "schedule_version": 1,

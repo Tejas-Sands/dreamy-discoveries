@@ -1,6 +1,6 @@
 # What to make next
 
-Research date: **12 September 2026**. Planning window: **13 September–31 December 2026**. Assumption: English-speaking families with children aged 2–5, globally, with a small India-focused seasonal strand. Audience geography has not yet been confirmed.
+Research date: **12 September 2026**. Planning window: **13 September–31 December 2026**. Confirmed audience: global English-speaking families, with some India-specific dates. The plan retains ages 2–5 as its working age range.
 
 **Recommendation: build repeatable preschool learning series, add useful routine/feelings stories, publish seasonal episodes before the event, and retain a weekly flexible slot.** The evidence supports these content families. It does not establish that any individual title will go viral. This is a research-backed editorial calendar, not a forecast of views.
 
