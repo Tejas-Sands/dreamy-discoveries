@@ -1,0 +1,4855 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "opposites",
+  "seed": 20260912,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "opposites-ozzy-2026-09-12",
+  "title": "Opposites With Ozzy!",
+  "palette": "night",
+  "mainCharacter": {
+    "kind": "owl",
+    "name": "Ozzy"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Ozzy the owl! Let's learn about opposites! Ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave",
+    "audio": "line-9f079323c8.wav",
+    "durationSec": 5.425,
+    "words": [
+      {
+        "text": "Hi",
+        "start": 0.12,
+        "end": 0.344
+      },
+      {
+        "text": "friends!",
+        "start": 0.344,
+        "end": 0.965
+      },
+      {
+        "text": "I'm",
+        "start": 0.965,
+        "end": 1.189
+      },
+      {
+        "text": "Ozzy",
+        "start": 1.189,
+        "end": 1.542
+      },
+      {
+        "text": "the",
+        "start": 1.542,
+        "end": 1.83
+      },
+      {
+        "text": "owl!",
+        "start": 1.83,
+        "end": 2.195
+      },
+      {
+        "text": "Let's",
+        "start": 2.195,
+        "end": 2.547
+      },
+      {
+        "text": "learn",
+        "start": 2.547,
+        "end": 2.963
+      },
+      {
+        "text": "about",
+        "start": 2.963,
+        "end": 3.379
+      },
+      {
+        "text": "opposites!",
+        "start": 3.379,
+        "end": 4.129
+      },
+      {
+        "text": "Ready?",
+        "start": 4.129,
+        "end": 4.622
+      },
+      {
+        "text": "Let's",
+        "start": 4.622,
+        "end": 4.974
+      },
+      {
+        "text": "go!",
+        "start": 4.974,
+        "end": 5.275
+      }
+    ]
+  },
+  "outro": {
+    "text": "Big and small, up and down, you did it! Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave",
+    "audio": "line-daf86fc390.wav",
+    "durationSec": 4.2,
+    "words": [
+      {
+        "text": "Big",
+        "start": 0.12,
+        "end": 0.392
+      },
+      {
+        "text": "and",
+        "start": 0.392,
+        "end": 0.664
+      },
+      {
+        "text": "small,",
+        "start": 0.664,
+        "end": 1.13
+      },
+      {
+        "text": "up",
+        "start": 1.13,
+        "end": 1.341
+      },
+      {
+        "text": "and",
+        "start": 1.341,
+        "end": 1.613
+      },
+      {
+        "text": "down,",
+        "start": 1.613,
+        "end": 2.018
+      },
+      {
+        "text": "you",
+        "start": 2.018,
+        "end": 2.291
+      },
+      {
+        "text": "did",
+        "start": 2.291,
+        "end": 2.563
+      },
+      {
+        "text": "it!",
+        "start": 2.563,
+        "end": 2.847
+      },
+      {
+        "text": "Bye",
+        "start": 2.847,
+        "end": 3.119
+      },
+      {
+        "text": "bye,",
+        "start": 3.119,
+        "end": 3.464
+      },
+      {
+        "text": "friends!",
+        "start": 3.464,
+        "end": 4.05
+      }
+    ]
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Opposites With Ozzy 🦉 Big and Small, Up and Down Song for Kids",
+    "description": "Big and small, fast and slow, loud and quiet! Learn opposites with Ozzy the owl in this fun sing-along for toddlers and preschoolers.\n#opposites #kidssongs #nurseryrhymes #toddlerlearning #preschool",
+    "tags": [
+      "opposites for kids",
+      "opposites song",
+      "big and small",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "preschool learning",
+      "owl song",
+      "sing along",
+      "learning words"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Up, up, up, we reach up high,",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "UP",
+            "emoji": "⬆️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-b5c9ac7879.wav",
+          "durationSec": 2.35,
+          "words": [
+            {
+              "text": "Up,",
+              "start": 0.118,
+              "end": 0.403
+            },
+            {
+              "text": "up,",
+              "start": 0.403,
+              "end": 0.688
+            },
+            {
+              "text": "up,",
+              "start": 0.688,
+              "end": 0.974
+            },
+            {
+              "text": "we",
+              "start": 0.974,
+              "end": 1.186
+            },
+            {
+              "text": "reach",
+              "start": 1.186,
+              "end": 1.581
+            },
+            {
+              "text": "up",
+              "start": 1.581,
+              "end": 1.793
+            },
+            {
+              "text": "high,",
+              "start": 1.793,
+              "end": 2.2
+            }
+          ]
+        },
+        {
+          "text": "Down, down, down, we touch the ground, oh my!",
+          "action": "stomp",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "DOWN",
+            "emoji": "⬇️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-4ac69c2afb.wav",
+          "durationSec": 3.55,
+          "words": [
+            {
+              "text": "Down,",
+              "start": 0.12,
+              "end": 0.547
+            },
+            {
+              "text": "down,",
+              "start": 0.547,
+              "end": 0.973
+            },
+            {
+              "text": "down,",
+              "start": 0.973,
+              "end": 1.4
+            },
+            {
+              "text": "we",
+              "start": 1.4,
+              "end": 1.623
+            },
+            {
+              "text": "touch",
+              "start": 1.623,
+              "end": 2.037
+            },
+            {
+              "text": "the",
+              "start": 2.037,
+              "end": 2.324
+            },
+            {
+              "text": "ground,",
+              "start": 2.324,
+              "end": 2.878
+            },
+            {
+              "text": "oh",
+              "start": 2.878,
+              "end": 3.101
+            },
+            {
+              "text": "my!",
+              "start": 3.101,
+              "end": 3.4
+            }
+          ]
+        },
+        {
+          "text": "Up and down, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-243bd3f97b.wav",
+          "durationSec": 2.7,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.313
+            },
+            {
+              "text": "and",
+              "start": 0.313,
+              "end": 0.561
+            },
+            {
+              "text": "down,",
+              "start": 0.561,
+              "end": 0.93
+            },
+            {
+              "text": "they're",
+              "start": 0.93,
+              "end": 1.343
+            },
+            {
+              "text": "opposites,",
+              "start": 1.343,
+              "end": 1.988
+            },
+            {
+              "text": "you",
+              "start": 1.988,
+              "end": 2.236
+            },
+            {
+              "text": "see!",
+              "start": 2.236,
+              "end": 2.55
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Big, big, big like a house so tall,",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "BIG",
+            "emoji": "🐘"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-817a371130.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Big,",
+              "start": 0.12,
+              "end": 0.496
+            },
+            {
+              "text": "big,",
+              "start": 0.496,
+              "end": 0.873
+            },
+            {
+              "text": "big",
+              "start": 0.873,
+              "end": 1.17
+            },
+            {
+              "text": "like",
+              "start": 1.17,
+              "end": 1.533
+            },
+            {
+              "text": "a",
+              "start": 1.533,
+              "end": 1.698
+            },
+            {
+              "text": "house",
+              "start": 1.698,
+              "end": 2.127
+            },
+            {
+              "text": "so",
+              "start": 2.127,
+              "end": 2.358
+            },
+            {
+              "text": "tall,",
+              "start": 2.358,
+              "end": 2.8
+            }
+          ]
+        },
+        {
+          "text": "Small, small, small like a tiny ball!",
+          "action": "hug",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "SMALL",
+            "emoji": "🐭"
+          },
+          "speaker": "character",
+          "sfx": [
+            "heart"
+          ],
+          "audio": "line-06de5267e5.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Small,",
+              "start": 0.12,
+              "end": 0.61
+            },
+            {
+              "text": "small,",
+              "start": 0.61,
+              "end": 1.1
+            },
+            {
+              "text": "small",
+              "start": 1.1,
+              "end": 1.514
+            },
+            {
+              "text": "like",
+              "start": 1.514,
+              "end": 1.864
+            },
+            {
+              "text": "a",
+              "start": 1.864,
+              "end": 2.023
+            },
+            {
+              "text": "tiny",
+              "start": 2.023,
+              "end": 2.373
+            },
+            {
+              "text": "ball!",
+              "start": 2.373,
+              "end": 2.8
+            }
+          ]
+        },
+        {
+          "text": "Big and small, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-1f7adeb4b9.wav",
+          "durationSec": 2.925,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.379
+            },
+            {
+              "text": "and",
+              "start": 0.379,
+              "end": 0.638
+            },
+            {
+              "text": "small,",
+              "start": 0.638,
+              "end": 1.082
+            },
+            {
+              "text": "they're",
+              "start": 1.082,
+              "end": 1.514
+            },
+            {
+              "text": "opposites,",
+              "start": 1.514,
+              "end": 2.188
+            },
+            {
+              "text": "you",
+              "start": 2.188,
+              "end": 2.447
+            },
+            {
+              "text": "see!",
+              "start": 2.447,
+              "end": 2.775
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Small!",
+          "emoji": "🐭"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of big?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-5979ac17a8.wav",
+          "durationSec": 2.175,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.109,
+              "end": 0.436
+            },
+            {
+              "text": "is",
+              "start": 0.436,
+              "end": 0.644
+            },
+            {
+              "text": "the",
+              "start": 0.644,
+              "end": 0.912
+            },
+            {
+              "text": "opposite",
+              "start": 0.912,
+              "end": 1.477
+            },
+            {
+              "text": "of",
+              "start": 1.477,
+              "end": 1.686
+            },
+            {
+              "text": "big?",
+              "start": 1.686,
+              "end": 2.025
+            }
+          ]
+        },
+        {
+          "text": "Yes! The opposite of big is small! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-15dbdacc70.wav",
+          "durationSec": 3.35,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.489
+            },
+            {
+              "text": "The",
+              "start": 0.489,
+              "end": 0.78
+            },
+            {
+              "text": "opposite",
+              "start": 0.78,
+              "end": 1.395
+            },
+            {
+              "text": "of",
+              "start": 1.395,
+              "end": 1.621
+            },
+            {
+              "text": "big",
+              "start": 1.621,
+              "end": 1.912
+            },
+            {
+              "text": "is",
+              "start": 1.912,
+              "end": 2.139
+            },
+            {
+              "text": "small!",
+              "start": 2.139,
+              "end": 2.637
+            },
+            {
+              "text": "Clever!",
+              "start": 2.637,
+              "end": 3.2
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-e44e6b64b7.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Opposites,",
+              "start": 0.12,
+              "end": 0.844
+            },
+            {
+              "text": "opposites,",
+              "start": 0.844,
+              "end": 1.567
+            },
+            {
+              "text": "this",
+              "start": 1.567,
+              "end": 1.907
+            },
+            {
+              "text": "and",
+              "start": 1.907,
+              "end": 2.186
+            },
+            {
+              "text": "that,",
+              "start": 2.186,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-d586d44787.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.354
+            },
+            {
+              "text": "and",
+              "start": 0.354,
+              "end": 0.655
+            },
+            {
+              "text": "down",
+              "start": 0.655,
+              "end": 1.023
+            },
+            {
+              "text": "like",
+              "start": 1.023,
+              "end": 1.392
+            },
+            {
+              "text": "an",
+              "start": 1.392,
+              "end": 1.626
+            },
+            {
+              "text": "acrobat!",
+              "start": 1.626,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-591edcc695.wav",
+          "durationSec": 2.625,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.409
+            },
+            {
+              "text": "and",
+              "start": 0.409,
+              "end": 0.698
+            },
+            {
+              "text": "small",
+              "start": 0.698,
+              "end": 1.115
+            },
+            {
+              "text": "and",
+              "start": 1.115,
+              "end": 1.403
+            },
+            {
+              "text": "fast",
+              "start": 1.403,
+              "end": 1.756
+            },
+            {
+              "text": "and",
+              "start": 1.756,
+              "end": 2.045
+            },
+            {
+              "text": "slow,",
+              "start": 2.045,
+              "end": 2.475
+            }
+          ]
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-6c1565f463.wav",
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Opposites",
+              "start": 0.114,
+              "end": 0.813
+            },
+            {
+              "text": "everywhere",
+              "start": 0.813,
+              "end": 1.579
+            },
+            {
+              "text": "we",
+              "start": 1.579,
+              "end": 1.812
+            },
+            {
+              "text": "go!",
+              "start": 1.812,
+              "end": 2.125
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "candy",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Happy, happy, happy with a great big smile,",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "HAPPY",
+            "emoji": "😊"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-767111d885.wav",
+          "durationSec": 3.225,
+          "words": [
+            {
+              "text": "Happy,",
+              "start": 0.12,
+              "end": 0.588
+            },
+            {
+              "text": "happy,",
+              "start": 0.588,
+              "end": 1.056
+            },
+            {
+              "text": "happy",
+              "start": 1.056,
+              "end": 1.452
+            },
+            {
+              "text": "with",
+              "start": 1.452,
+              "end": 1.786
+            },
+            {
+              "text": "a",
+              "start": 1.786,
+              "end": 1.938
+            },
+            {
+              "text": "great",
+              "start": 1.938,
+              "end": 2.333
+            },
+            {
+              "text": "big",
+              "start": 2.333,
+              "end": 2.607
+            },
+            {
+              "text": "smile,",
+              "start": 2.607,
+              "end": 3.075
+            }
+          ]
+        },
+        {
+          "text": "Sad, sad, sad, just for a little while!",
+          "action": "cry",
+          "emotion": "sad",
+          "callout": {
+            "kind": "word",
+            "text": "SAD",
+            "emoji": "😢"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-d6e6f52630.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Sad,",
+              "start": 0.12,
+              "end": 0.464
+            },
+            {
+              "text": "sad,",
+              "start": 0.464,
+              "end": 0.808
+            },
+            {
+              "text": "sad,",
+              "start": 0.808,
+              "end": 1.152
+            },
+            {
+              "text": "just",
+              "start": 1.152,
+              "end": 1.485
+            },
+            {
+              "text": "for",
+              "start": 1.485,
+              "end": 1.756
+            },
+            {
+              "text": "a",
+              "start": 1.756,
+              "end": 1.907
+            },
+            {
+              "text": "little",
+              "start": 1.907,
+              "end": 2.36
+            },
+            {
+              "text": "while!",
+              "start": 2.36,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Happy and sad, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-ce5c4fc9b4.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Happy",
+              "start": 0.12,
+              "end": 0.498
+            },
+            {
+              "text": "and",
+              "start": 0.498,
+              "end": 0.759
+            },
+            {
+              "text": "sad,",
+              "start": 0.759,
+              "end": 1.091
+            },
+            {
+              "text": "they're",
+              "start": 1.091,
+              "end": 1.527
+            },
+            {
+              "text": "opposites,",
+              "start": 1.527,
+              "end": 2.207
+            },
+            {
+              "text": "you",
+              "start": 2.207,
+              "end": 2.469
+            },
+            {
+              "text": "see!",
+              "start": 2.469,
+              "end": 2.8
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Loud, loud, loud like a lion's roar,",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "LOUD",
+            "emoji": "🦁"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-f82d76c197.wav",
+          "durationSec": 3.15,
+          "words": [
+            {
+              "text": "Loud,",
+              "start": 0.12,
+              "end": 0.601
+            },
+            {
+              "text": "loud,",
+              "start": 0.601,
+              "end": 1.082
+            },
+            {
+              "text": "loud",
+              "start": 1.082,
+              "end": 1.477
+            },
+            {
+              "text": "like",
+              "start": 1.477,
+              "end": 1.872
+            },
+            {
+              "text": "a",
+              "start": 1.872,
+              "end": 2.052
+            },
+            {
+              "text": "lion's",
+              "start": 2.052,
+              "end": 2.519
+            },
+            {
+              "text": "roar,",
+              "start": 2.519,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Quiet, quiet, quiet, tiptoe on the floor!",
+          "action": "think",
+          "emotion": "sleepy",
+          "callout": {
+            "kind": "word",
+            "text": "QUIET",
+            "emoji": "🤫"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-f92ed6c8ff.wav",
+          "durationSec": 3.15,
+          "words": [
+            {
+              "text": "Quiet,",
+              "start": 0.12,
+              "end": 0.599
+            },
+            {
+              "text": "quiet,",
+              "start": 0.599,
+              "end": 1.078
+            },
+            {
+              "text": "quiet,",
+              "start": 1.078,
+              "end": 1.557
+            },
+            {
+              "text": "tiptoe",
+              "start": 1.557,
+              "end": 2.023
+            },
+            {
+              "text": "on",
+              "start": 2.023,
+              "end": 2.241
+            },
+            {
+              "text": "the",
+              "start": 2.241,
+              "end": 2.521
+            },
+            {
+              "text": "floor!",
+              "start": 2.521,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Loud and quiet, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-ee05be1e11.wav",
+          "durationSec": 3.05,
+          "words": [
+            {
+              "text": "Loud",
+              "start": 0.12,
+              "end": 0.445
+            },
+            {
+              "text": "and",
+              "start": 0.445,
+              "end": 0.71
+            },
+            {
+              "text": "quiet,",
+              "start": 0.71,
+              "end": 1.165
+            },
+            {
+              "text": "they're",
+              "start": 1.165,
+              "end": 1.607
+            },
+            {
+              "text": "opposites,",
+              "start": 1.607,
+              "end": 2.298
+            },
+            {
+              "text": "you",
+              "start": 2.298,
+              "end": 2.564
+            },
+            {
+              "text": "see!",
+              "start": 2.564,
+              "end": 2.9
+            }
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Quiet!",
+          "emoji": "🤫"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of loud?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-c445de943c.wav",
+          "durationSec": 2.2,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.11,
+              "end": 0.431
+            },
+            {
+              "text": "is",
+              "start": 0.431,
+              "end": 0.636
+            },
+            {
+              "text": "the",
+              "start": 0.636,
+              "end": 0.899
+            },
+            {
+              "text": "opposite",
+              "start": 0.899,
+              "end": 1.454
+            },
+            {
+              "text": "of",
+              "start": 1.454,
+              "end": 1.658
+            },
+            {
+              "text": "loud?",
+              "start": 1.658,
+              "end": 2.05
+            }
+          ]
+        },
+        {
+          "text": "Yes! The opposite of loud is quiet! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-6f3c20cf30.wav",
+          "durationSec": 3.45,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.493
+            },
+            {
+              "text": "The",
+              "start": 0.493,
+              "end": 0.787
+            },
+            {
+              "text": "opposite",
+              "start": 0.787,
+              "end": 1.409
+            },
+            {
+              "text": "of",
+              "start": 1.409,
+              "end": 1.638
+            },
+            {
+              "text": "loud",
+              "start": 1.638,
+              "end": 1.998
+            },
+            {
+              "text": "is",
+              "start": 1.998,
+              "end": 2.227
+            },
+            {
+              "text": "quiet!",
+              "start": 2.227,
+              "end": 2.731
+            },
+            {
+              "text": "Clever!",
+              "start": 2.731,
+              "end": 3.3
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "spin",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ],
+          "audio": "line-e44e6b64b7.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Opposites,",
+              "start": 0.12,
+              "end": 0.844
+            },
+            {
+              "text": "opposites,",
+              "start": 0.844,
+              "end": 1.567
+            },
+            {
+              "text": "this",
+              "start": 1.567,
+              "end": 1.907
+            },
+            {
+              "text": "and",
+              "start": 1.907,
+              "end": 2.186
+            },
+            {
+              "text": "that,",
+              "start": 2.186,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-d586d44787.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.354
+            },
+            {
+              "text": "and",
+              "start": 0.354,
+              "end": 0.655
+            },
+            {
+              "text": "down",
+              "start": 0.655,
+              "end": 1.023
+            },
+            {
+              "text": "like",
+              "start": 1.023,
+              "end": 1.392
+            },
+            {
+              "text": "an",
+              "start": 1.392,
+              "end": 1.626
+            },
+            {
+              "text": "acrobat!",
+              "start": 1.626,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-591edcc695.wav",
+          "durationSec": 2.625,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.409
+            },
+            {
+              "text": "and",
+              "start": 0.409,
+              "end": 0.698
+            },
+            {
+              "text": "small",
+              "start": 0.698,
+              "end": 1.115
+            },
+            {
+              "text": "and",
+              "start": 1.115,
+              "end": 1.403
+            },
+            {
+              "text": "fast",
+              "start": 1.403,
+              "end": 1.756
+            },
+            {
+              "text": "and",
+              "start": 1.756,
+              "end": 2.045
+            },
+            {
+              "text": "slow,",
+              "start": 2.045,
+              "end": 2.475
+            }
+          ]
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-6c1565f463.wav",
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Opposites",
+              "start": 0.114,
+              "end": 0.813
+            },
+            {
+              "text": "everywhere",
+              "start": 0.813,
+              "end": 1.579
+            },
+            {
+              "text": "we",
+              "start": 1.579,
+              "end": 1.812
+            },
+            {
+              "text": "go!",
+              "start": 1.812,
+              "end": 2.125
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "duck",
+        "fox"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "beach",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Hot, hot, hot like the summer sun,",
+          "action": "look",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "HOT",
+            "emoji": "☀️"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-850aeffc81.wav",
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "Hot,",
+              "start": 0.12,
+              "end": 0.496
+            },
+            {
+              "text": "hot,",
+              "start": 0.496,
+              "end": 0.872
+            },
+            {
+              "text": "hot",
+              "start": 0.872,
+              "end": 1.169
+            },
+            {
+              "text": "like",
+              "start": 1.169,
+              "end": 1.532
+            },
+            {
+              "text": "the",
+              "start": 1.532,
+              "end": 1.829
+            },
+            {
+              "text": "summer",
+              "start": 1.829,
+              "end": 2.324
+            },
+            {
+              "text": "sun,",
+              "start": 2.324,
+              "end": 2.7
+            }
+          ]
+        },
+        {
+          "text": "Cold, cold, cold, brr, snowy fun!",
+          "action": "shake",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "COLD",
+            "emoji": "❄️"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-78121a537d.wav",
+          "durationSec": 3.6,
+          "words": [
+            {
+              "text": "Cold,",
+              "start": 0.12,
+              "end": 0.707
+            },
+            {
+              "text": "cold,",
+              "start": 0.707,
+              "end": 1.294
+            },
+            {
+              "text": "cold,",
+              "start": 1.294,
+              "end": 1.881
+            },
+            {
+              "text": "brr,",
+              "start": 1.881,
+              "end": 2.381
+            },
+            {
+              "text": "snowy",
+              "start": 2.381,
+              "end": 2.95
+            },
+            {
+              "text": "fun!",
+              "start": 2.95,
+              "end": 3.45
+            }
+          ]
+        },
+        {
+          "text": "Hot and cold, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-02e98bc697.wav",
+          "durationSec": 2.925,
+          "words": [
+            {
+              "text": "Hot",
+              "start": 0.12,
+              "end": 0.385
+            },
+            {
+              "text": "and",
+              "start": 0.385,
+              "end": 0.65
+            },
+            {
+              "text": "cold,",
+              "start": 0.65,
+              "end": 1.044
+            },
+            {
+              "text": "they're",
+              "start": 1.044,
+              "end": 1.486
+            },
+            {
+              "text": "opposites,",
+              "start": 1.486,
+              "end": 2.175
+            },
+            {
+              "text": "you",
+              "start": 2.175,
+              "end": 2.439
+            },
+            {
+              "text": "see!",
+              "start": 2.439,
+              "end": 2.775
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fast, fast, fast like a zooming car,",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "FAST",
+            "emoji": "🚗"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-8a5d7dce44.wav",
+          "durationSec": 3.05,
+          "words": [
+            {
+              "text": "Fast,",
+              "start": 0.12,
+              "end": 0.573
+            },
+            {
+              "text": "fast,",
+              "start": 0.573,
+              "end": 1.026
+            },
+            {
+              "text": "fast",
+              "start": 1.026,
+              "end": 1.398
+            },
+            {
+              "text": "like",
+              "start": 1.398,
+              "end": 1.77
+            },
+            {
+              "text": "a",
+              "start": 1.77,
+              "end": 1.94
+            },
+            {
+              "text": "zooming",
+              "start": 1.94,
+              "end": 2.514
+            },
+            {
+              "text": "car,",
+              "start": 2.514,
+              "end": 2.9
+            }
+          ]
+        },
+        {
+          "text": "Slow, slow, slow like a sleepy star!",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": {
+            "kind": "word",
+            "text": "SLOW",
+            "emoji": "🐢"
+          },
+          "speaker": "character",
+          "sfx": [
+            "yawn"
+          ],
+          "audio": "line-9f1df91e99.wav",
+          "durationSec": 3.15,
+          "words": [
+            {
+              "text": "Slow,",
+              "start": 0.12,
+              "end": 0.589
+            },
+            {
+              "text": "slow,",
+              "start": 0.589,
+              "end": 1.059
+            },
+            {
+              "text": "slow",
+              "start": 1.059,
+              "end": 1.444
+            },
+            {
+              "text": "like",
+              "start": 1.444,
+              "end": 1.83
+            },
+            {
+              "text": "a",
+              "start": 1.83,
+              "end": 2.005
+            },
+            {
+              "text": "sleepy",
+              "start": 2.005,
+              "end": 2.531
+            },
+            {
+              "text": "star!",
+              "start": 2.531,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Fast and slow, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-5e0dee968a.wav",
+          "durationSec": 3.025,
+          "words": [
+            {
+              "text": "Fast",
+              "start": 0.12,
+              "end": 0.449
+            },
+            {
+              "text": "and",
+              "start": 0.449,
+              "end": 0.718
+            },
+            {
+              "text": "slow,",
+              "start": 0.718,
+              "end": 1.118
+            },
+            {
+              "text": "they're",
+              "start": 1.118,
+              "end": 1.566
+            },
+            {
+              "text": "opposites,",
+              "start": 1.566,
+              "end": 2.265
+            },
+            {
+              "text": "you",
+              "start": 2.265,
+              "end": 2.534
+            },
+            {
+              "text": "see!",
+              "start": 2.534,
+              "end": 2.875
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Slow!",
+          "emoji": "🐢"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of fast?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-0da0c77354.wav",
+          "durationSec": 2.2,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.11,
+              "end": 0.431
+            },
+            {
+              "text": "is",
+              "start": 0.431,
+              "end": 0.636
+            },
+            {
+              "text": "the",
+              "start": 0.636,
+              "end": 0.899
+            },
+            {
+              "text": "opposite",
+              "start": 0.899,
+              "end": 1.454
+            },
+            {
+              "text": "of",
+              "start": 1.454,
+              "end": 1.658
+            },
+            {
+              "text": "fast?",
+              "start": 1.658,
+              "end": 2.05
+            }
+          ]
+        },
+        {
+          "text": "Yes! The opposite of fast is slow! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-076eaccf26.wav",
+          "durationSec": 3.425,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.498
+            },
+            {
+              "text": "The",
+              "start": 0.498,
+              "end": 0.796
+            },
+            {
+              "text": "opposite",
+              "start": 0.796,
+              "end": 1.426
+            },
+            {
+              "text": "of",
+              "start": 1.426,
+              "end": 1.658
+            },
+            {
+              "text": "fast",
+              "start": 1.658,
+              "end": 2.022
+            },
+            {
+              "text": "is",
+              "start": 2.022,
+              "end": 2.254
+            },
+            {
+              "text": "slow!",
+              "start": 2.254,
+              "end": 2.698
+            },
+            {
+              "text": "Clever!",
+              "start": 2.698,
+              "end": 3.275
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-e44e6b64b7.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Opposites,",
+              "start": 0.12,
+              "end": 0.844
+            },
+            {
+              "text": "opposites,",
+              "start": 0.844,
+              "end": 1.567
+            },
+            {
+              "text": "this",
+              "start": 1.567,
+              "end": 1.907
+            },
+            {
+              "text": "and",
+              "start": 1.907,
+              "end": 2.186
+            },
+            {
+              "text": "that,",
+              "start": 2.186,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-d586d44787.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.354
+            },
+            {
+              "text": "and",
+              "start": 0.354,
+              "end": 0.655
+            },
+            {
+              "text": "down",
+              "start": 0.655,
+              "end": 1.023
+            },
+            {
+              "text": "like",
+              "start": 1.023,
+              "end": 1.392
+            },
+            {
+              "text": "an",
+              "start": 1.392,
+              "end": 1.626
+            },
+            {
+              "text": "acrobat!",
+              "start": 1.626,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-591edcc695.wav",
+          "durationSec": 2.625,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.409
+            },
+            {
+              "text": "and",
+              "start": 0.409,
+              "end": 0.698
+            },
+            {
+              "text": "small",
+              "start": 0.698,
+              "end": 1.115
+            },
+            {
+              "text": "and",
+              "start": 1.115,
+              "end": 1.403
+            },
+            {
+              "text": "fast",
+              "start": 1.403,
+              "end": 1.756
+            },
+            {
+              "text": "and",
+              "start": 1.756,
+              "end": 2.045
+            },
+            {
+              "text": "slow,",
+              "start": 2.045,
+              "end": 2.475
+            }
+          ]
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-6c1565f463.wav",
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Opposites",
+              "start": 0.114,
+              "end": 0.813
+            },
+            {
+              "text": "everywhere",
+              "start": 0.813,
+              "end": 1.579
+            },
+            {
+              "text": "we",
+              "start": 1.579,
+              "end": 1.812
+            },
+            {
+              "text": "go!",
+              "start": 1.812,
+              "end": 2.125
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "bear",
+        "duck"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "bridge",
+      "background": "night",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "camera": "still",
+      "holdSec": 0,
+      "secondCharacter": null,
+      "gag": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "One more time!",
+          "role": "bridge",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "sfx": [
+            "tada"
+          ],
+          "callout": null,
+          "audio": "line-490a645a76.wav",
+          "durationSec": 1.8,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.09,
+              "end": 0.51
+            },
+            {
+              "text": "more",
+              "start": 0.51,
+              "end": 1.024
+            },
+            {
+              "text": "time!",
+              "start": 1.024,
+              "end": 1.65
+            }
+          ]
+        }
+      ],
+      "prop": null,
+      "extras": null
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Up, up, up, we reach up high,",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "UP",
+            "emoji": "⬆️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-b5c9ac7879.wav",
+          "durationSec": 2.35,
+          "words": [
+            {
+              "text": "Up,",
+              "start": 0.118,
+              "end": 0.403
+            },
+            {
+              "text": "up,",
+              "start": 0.403,
+              "end": 0.688
+            },
+            {
+              "text": "up,",
+              "start": 0.688,
+              "end": 0.974
+            },
+            {
+              "text": "we",
+              "start": 0.974,
+              "end": 1.186
+            },
+            {
+              "text": "reach",
+              "start": 1.186,
+              "end": 1.581
+            },
+            {
+              "text": "up",
+              "start": 1.581,
+              "end": 1.793
+            },
+            {
+              "text": "high,",
+              "start": 1.793,
+              "end": 2.2
+            }
+          ]
+        },
+        {
+          "text": "Down, down, down, we touch the ground, oh my!",
+          "action": "stomp",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "DOWN",
+            "emoji": "⬇️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-4ac69c2afb.wav",
+          "durationSec": 3.55,
+          "words": [
+            {
+              "text": "Down,",
+              "start": 0.12,
+              "end": 0.547
+            },
+            {
+              "text": "down,",
+              "start": 0.547,
+              "end": 0.973
+            },
+            {
+              "text": "down,",
+              "start": 0.973,
+              "end": 1.4
+            },
+            {
+              "text": "we",
+              "start": 1.4,
+              "end": 1.623
+            },
+            {
+              "text": "touch",
+              "start": 1.623,
+              "end": 2.037
+            },
+            {
+              "text": "the",
+              "start": 2.037,
+              "end": 2.324
+            },
+            {
+              "text": "ground,",
+              "start": 2.324,
+              "end": 2.878
+            },
+            {
+              "text": "oh",
+              "start": 2.878,
+              "end": 3.101
+            },
+            {
+              "text": "my!",
+              "start": 3.101,
+              "end": 3.4
+            }
+          ]
+        },
+        {
+          "text": "Up and down, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-243bd3f97b.wav",
+          "durationSec": 2.7,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.313
+            },
+            {
+              "text": "and",
+              "start": 0.313,
+              "end": 0.561
+            },
+            {
+              "text": "down,",
+              "start": 0.561,
+              "end": 0.93
+            },
+            {
+              "text": "they're",
+              "start": 0.93,
+              "end": 1.343
+            },
+            {
+              "text": "opposites,",
+              "start": 1.343,
+              "end": 1.988
+            },
+            {
+              "text": "you",
+              "start": 1.988,
+              "end": 2.236
+            },
+            {
+              "text": "see!",
+              "start": 2.236,
+              "end": 2.55
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Big, big, big like a house so tall,",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "BIG",
+            "emoji": "🐘"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-817a371130.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Big,",
+              "start": 0.12,
+              "end": 0.496
+            },
+            {
+              "text": "big,",
+              "start": 0.496,
+              "end": 0.873
+            },
+            {
+              "text": "big",
+              "start": 0.873,
+              "end": 1.17
+            },
+            {
+              "text": "like",
+              "start": 1.17,
+              "end": 1.533
+            },
+            {
+              "text": "a",
+              "start": 1.533,
+              "end": 1.698
+            },
+            {
+              "text": "house",
+              "start": 1.698,
+              "end": 2.127
+            },
+            {
+              "text": "so",
+              "start": 2.127,
+              "end": 2.358
+            },
+            {
+              "text": "tall,",
+              "start": 2.358,
+              "end": 2.8
+            }
+          ]
+        },
+        {
+          "text": "Small, small, small like a tiny ball!",
+          "action": "hug",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "SMALL",
+            "emoji": "🐭"
+          },
+          "speaker": "character",
+          "sfx": [
+            "heart"
+          ],
+          "audio": "line-06de5267e5.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Small,",
+              "start": 0.12,
+              "end": 0.61
+            },
+            {
+              "text": "small,",
+              "start": 0.61,
+              "end": 1.1
+            },
+            {
+              "text": "small",
+              "start": 1.1,
+              "end": 1.514
+            },
+            {
+              "text": "like",
+              "start": 1.514,
+              "end": 1.864
+            },
+            {
+              "text": "a",
+              "start": 1.864,
+              "end": 2.023
+            },
+            {
+              "text": "tiny",
+              "start": 2.023,
+              "end": 2.373
+            },
+            {
+              "text": "ball!",
+              "start": 2.373,
+              "end": 2.8
+            }
+          ]
+        },
+        {
+          "text": "Big and small, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-1f7adeb4b9.wav",
+          "durationSec": 2.925,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.379
+            },
+            {
+              "text": "and",
+              "start": 0.379,
+              "end": 0.638
+            },
+            {
+              "text": "small,",
+              "start": 0.638,
+              "end": 1.082
+            },
+            {
+              "text": "they're",
+              "start": 1.082,
+              "end": 1.514
+            },
+            {
+              "text": "opposites,",
+              "start": 1.514,
+              "end": 2.188
+            },
+            {
+              "text": "you",
+              "start": 2.188,
+              "end": 2.447
+            },
+            {
+              "text": "see!",
+              "start": 2.447,
+              "end": 2.775
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Small!",
+          "emoji": "🐭"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of big?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-5979ac17a8.wav",
+          "durationSec": 2.175,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.109,
+              "end": 0.436
+            },
+            {
+              "text": "is",
+              "start": 0.436,
+              "end": 0.644
+            },
+            {
+              "text": "the",
+              "start": 0.644,
+              "end": 0.912
+            },
+            {
+              "text": "opposite",
+              "start": 0.912,
+              "end": 1.477
+            },
+            {
+              "text": "of",
+              "start": 1.477,
+              "end": 1.686
+            },
+            {
+              "text": "big?",
+              "start": 1.686,
+              "end": 2.025
+            }
+          ]
+        },
+        {
+          "text": "Yes! The opposite of big is small! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-15dbdacc70.wav",
+          "durationSec": 3.35,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.489
+            },
+            {
+              "text": "The",
+              "start": 0.489,
+              "end": 0.78
+            },
+            {
+              "text": "opposite",
+              "start": 0.78,
+              "end": 1.395
+            },
+            {
+              "text": "of",
+              "start": 1.395,
+              "end": 1.621
+            },
+            {
+              "text": "big",
+              "start": 1.621,
+              "end": 1.912
+            },
+            {
+              "text": "is",
+              "start": 1.912,
+              "end": 2.139
+            },
+            {
+              "text": "small!",
+              "start": 2.139,
+              "end": 2.637
+            },
+            {
+              "text": "Clever!",
+              "start": 2.637,
+              "end": 3.2
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 3,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-e44e6b64b7.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Opposites,",
+              "start": 0.12,
+              "end": 0.844
+            },
+            {
+              "text": "opposites,",
+              "start": 0.844,
+              "end": 1.567
+            },
+            {
+              "text": "this",
+              "start": 1.567,
+              "end": 1.907
+            },
+            {
+              "text": "and",
+              "start": 1.907,
+              "end": 2.186
+            },
+            {
+              "text": "that,",
+              "start": 2.186,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-d586d44787.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.354
+            },
+            {
+              "text": "and",
+              "start": 0.354,
+              "end": 0.655
+            },
+            {
+              "text": "down",
+              "start": 0.655,
+              "end": 1.023
+            },
+            {
+              "text": "like",
+              "start": 1.023,
+              "end": 1.392
+            },
+            {
+              "text": "an",
+              "start": 1.392,
+              "end": 1.626
+            },
+            {
+              "text": "acrobat!",
+              "start": 1.626,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-591edcc695.wav",
+          "durationSec": 2.625,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.409
+            },
+            {
+              "text": "and",
+              "start": 0.409,
+              "end": 0.698
+            },
+            {
+              "text": "small",
+              "start": 0.698,
+              "end": 1.115
+            },
+            {
+              "text": "and",
+              "start": 1.115,
+              "end": 1.403
+            },
+            {
+              "text": "fast",
+              "start": 1.403,
+              "end": 1.756
+            },
+            {
+              "text": "and",
+              "start": 1.756,
+              "end": 2.045
+            },
+            {
+              "text": "slow,",
+              "start": 2.045,
+              "end": 2.475
+            }
+          ]
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-6c1565f463.wav",
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Opposites",
+              "start": 0.114,
+              "end": 0.813
+            },
+            {
+              "text": "everywhere",
+              "start": 0.813,
+              "end": 1.579
+            },
+            {
+              "text": "we",
+              "start": 1.579,
+              "end": 1.812
+            },
+            {
+              "text": "go!",
+              "start": 1.812,
+              "end": 2.125
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "candy",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Happy, happy, happy with a great big smile,",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "HAPPY",
+            "emoji": "😊"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-767111d885.wav",
+          "durationSec": 3.225,
+          "words": [
+            {
+              "text": "Happy,",
+              "start": 0.12,
+              "end": 0.588
+            },
+            {
+              "text": "happy,",
+              "start": 0.588,
+              "end": 1.056
+            },
+            {
+              "text": "happy",
+              "start": 1.056,
+              "end": 1.452
+            },
+            {
+              "text": "with",
+              "start": 1.452,
+              "end": 1.786
+            },
+            {
+              "text": "a",
+              "start": 1.786,
+              "end": 1.938
+            },
+            {
+              "text": "great",
+              "start": 1.938,
+              "end": 2.333
+            },
+            {
+              "text": "big",
+              "start": 2.333,
+              "end": 2.607
+            },
+            {
+              "text": "smile,",
+              "start": 2.607,
+              "end": 3.075
+            }
+          ]
+        },
+        {
+          "text": "Sad, sad, sad, just for a little while!",
+          "action": "cry",
+          "emotion": "sad",
+          "callout": {
+            "kind": "word",
+            "text": "SAD",
+            "emoji": "😢"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-d6e6f52630.wav",
+          "durationSec": 2.975,
+          "words": [
+            {
+              "text": "Sad,",
+              "start": 0.12,
+              "end": 0.464
+            },
+            {
+              "text": "sad,",
+              "start": 0.464,
+              "end": 0.808
+            },
+            {
+              "text": "sad,",
+              "start": 0.808,
+              "end": 1.152
+            },
+            {
+              "text": "just",
+              "start": 1.152,
+              "end": 1.485
+            },
+            {
+              "text": "for",
+              "start": 1.485,
+              "end": 1.756
+            },
+            {
+              "text": "a",
+              "start": 1.756,
+              "end": 1.907
+            },
+            {
+              "text": "little",
+              "start": 1.907,
+              "end": 2.36
+            },
+            {
+              "text": "while!",
+              "start": 2.36,
+              "end": 2.825
+            }
+          ]
+        },
+        {
+          "text": "Happy and sad, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-ce5c4fc9b4.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Happy",
+              "start": 0.12,
+              "end": 0.498
+            },
+            {
+              "text": "and",
+              "start": 0.498,
+              "end": 0.759
+            },
+            {
+              "text": "sad,",
+              "start": 0.759,
+              "end": 1.091
+            },
+            {
+              "text": "they're",
+              "start": 1.091,
+              "end": 1.527
+            },
+            {
+              "text": "opposites,",
+              "start": 1.527,
+              "end": 2.207
+            },
+            {
+              "text": "you",
+              "start": 2.207,
+              "end": 2.469
+            },
+            {
+              "text": "see!",
+              "start": 2.469,
+              "end": 2.8
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Loud, loud, loud like a lion's roar,",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "LOUD",
+            "emoji": "🦁"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-f82d76c197.wav",
+          "durationSec": 3.15,
+          "words": [
+            {
+              "text": "Loud,",
+              "start": 0.12,
+              "end": 0.601
+            },
+            {
+              "text": "loud,",
+              "start": 0.601,
+              "end": 1.082
+            },
+            {
+              "text": "loud",
+              "start": 1.082,
+              "end": 1.477
+            },
+            {
+              "text": "like",
+              "start": 1.477,
+              "end": 1.872
+            },
+            {
+              "text": "a",
+              "start": 1.872,
+              "end": 2.052
+            },
+            {
+              "text": "lion's",
+              "start": 2.052,
+              "end": 2.519
+            },
+            {
+              "text": "roar,",
+              "start": 2.519,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Quiet, quiet, quiet, tiptoe on the floor!",
+          "action": "think",
+          "emotion": "sleepy",
+          "callout": {
+            "kind": "word",
+            "text": "QUIET",
+            "emoji": "🤫"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-f92ed6c8ff.wav",
+          "durationSec": 3.15,
+          "words": [
+            {
+              "text": "Quiet,",
+              "start": 0.12,
+              "end": 0.599
+            },
+            {
+              "text": "quiet,",
+              "start": 0.599,
+              "end": 1.078
+            },
+            {
+              "text": "quiet,",
+              "start": 1.078,
+              "end": 1.557
+            },
+            {
+              "text": "tiptoe",
+              "start": 1.557,
+              "end": 2.023
+            },
+            {
+              "text": "on",
+              "start": 2.023,
+              "end": 2.241
+            },
+            {
+              "text": "the",
+              "start": 2.241,
+              "end": 2.521
+            },
+            {
+              "text": "floor!",
+              "start": 2.521,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Loud and quiet, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-ee05be1e11.wav",
+          "durationSec": 3.05,
+          "words": [
+            {
+              "text": "Loud",
+              "start": 0.12,
+              "end": 0.445
+            },
+            {
+              "text": "and",
+              "start": 0.445,
+              "end": 0.71
+            },
+            {
+              "text": "quiet,",
+              "start": 0.71,
+              "end": 1.165
+            },
+            {
+              "text": "they're",
+              "start": 1.165,
+              "end": 1.607
+            },
+            {
+              "text": "opposites,",
+              "start": 1.607,
+              "end": 2.298
+            },
+            {
+              "text": "you",
+              "start": 2.298,
+              "end": 2.564
+            },
+            {
+              "text": "see!",
+              "start": 2.564,
+              "end": 2.9
+            }
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Quiet!",
+          "emoji": "🤫"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of loud?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-c445de943c.wav",
+          "durationSec": 2.2,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.11,
+              "end": 0.431
+            },
+            {
+              "text": "is",
+              "start": 0.431,
+              "end": 0.636
+            },
+            {
+              "text": "the",
+              "start": 0.636,
+              "end": 0.899
+            },
+            {
+              "text": "opposite",
+              "start": 0.899,
+              "end": 1.454
+            },
+            {
+              "text": "of",
+              "start": 1.454,
+              "end": 1.658
+            },
+            {
+              "text": "loud?",
+              "start": 1.658,
+              "end": 2.05
+            }
+          ]
+        },
+        {
+          "text": "Yes! The opposite of loud is quiet! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-6f3c20cf30.wav",
+          "durationSec": 3.45,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.493
+            },
+            {
+              "text": "The",
+              "start": 0.493,
+              "end": 0.787
+            },
+            {
+              "text": "opposite",
+              "start": 0.787,
+              "end": 1.409
+            },
+            {
+              "text": "of",
+              "start": 1.409,
+              "end": 1.638
+            },
+            {
+              "text": "loud",
+              "start": 1.638,
+              "end": 1.998
+            },
+            {
+              "text": "is",
+              "start": 1.998,
+              "end": 2.227
+            },
+            {
+              "text": "quiet!",
+              "start": 2.227,
+              "end": 2.731
+            },
+            {
+              "text": "Clever!",
+              "start": 2.731,
+              "end": 3.3
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 4,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "farm",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "spin",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ],
+          "audio": "line-e44e6b64b7.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Opposites,",
+              "start": 0.12,
+              "end": 0.844
+            },
+            {
+              "text": "opposites,",
+              "start": 0.844,
+              "end": 1.567
+            },
+            {
+              "text": "this",
+              "start": 1.567,
+              "end": 1.907
+            },
+            {
+              "text": "and",
+              "start": 1.907,
+              "end": 2.186
+            },
+            {
+              "text": "that,",
+              "start": 2.186,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-d586d44787.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.354
+            },
+            {
+              "text": "and",
+              "start": 0.354,
+              "end": 0.655
+            },
+            {
+              "text": "down",
+              "start": 0.655,
+              "end": 1.023
+            },
+            {
+              "text": "like",
+              "start": 1.023,
+              "end": 1.392
+            },
+            {
+              "text": "an",
+              "start": 1.392,
+              "end": 1.626
+            },
+            {
+              "text": "acrobat!",
+              "start": 1.626,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-591edcc695.wav",
+          "durationSec": 2.625,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.409
+            },
+            {
+              "text": "and",
+              "start": 0.409,
+              "end": 0.698
+            },
+            {
+              "text": "small",
+              "start": 0.698,
+              "end": 1.115
+            },
+            {
+              "text": "and",
+              "start": 1.115,
+              "end": 1.403
+            },
+            {
+              "text": "fast",
+              "start": 1.403,
+              "end": 1.756
+            },
+            {
+              "text": "and",
+              "start": 1.756,
+              "end": 2.045
+            },
+            {
+              "text": "slow,",
+              "start": 2.045,
+              "end": 2.475
+            }
+          ]
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-6c1565f463.wav",
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Opposites",
+              "start": 0.114,
+              "end": 0.813
+            },
+            {
+              "text": "everywhere",
+              "start": 0.813,
+              "end": 1.579
+            },
+            {
+              "text": "we",
+              "start": 1.579,
+              "end": 1.812
+            },
+            {
+              "text": "go!",
+              "start": 1.812,
+              "end": 2.125
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "duck",
+        "fox"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "beach",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Hot, hot, hot like the summer sun,",
+          "action": "look",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "HOT",
+            "emoji": "☀️"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-850aeffc81.wav",
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "Hot,",
+              "start": 0.12,
+              "end": 0.496
+            },
+            {
+              "text": "hot,",
+              "start": 0.496,
+              "end": 0.872
+            },
+            {
+              "text": "hot",
+              "start": 0.872,
+              "end": 1.169
+            },
+            {
+              "text": "like",
+              "start": 1.169,
+              "end": 1.532
+            },
+            {
+              "text": "the",
+              "start": 1.532,
+              "end": 1.829
+            },
+            {
+              "text": "summer",
+              "start": 1.829,
+              "end": 2.324
+            },
+            {
+              "text": "sun,",
+              "start": 2.324,
+              "end": 2.7
+            }
+          ]
+        },
+        {
+          "text": "Cold, cold, cold, brr, snowy fun!",
+          "action": "shake",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "COLD",
+            "emoji": "❄️"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-78121a537d.wav",
+          "durationSec": 3.6,
+          "words": [
+            {
+              "text": "Cold,",
+              "start": 0.12,
+              "end": 0.707
+            },
+            {
+              "text": "cold,",
+              "start": 0.707,
+              "end": 1.294
+            },
+            {
+              "text": "cold,",
+              "start": 1.294,
+              "end": 1.881
+            },
+            {
+              "text": "brr,",
+              "start": 1.881,
+              "end": 2.381
+            },
+            {
+              "text": "snowy",
+              "start": 2.381,
+              "end": 2.95
+            },
+            {
+              "text": "fun!",
+              "start": 2.95,
+              "end": 3.45
+            }
+          ]
+        },
+        {
+          "text": "Hot and cold, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-02e98bc697.wav",
+          "durationSec": 2.925,
+          "words": [
+            {
+              "text": "Hot",
+              "start": 0.12,
+              "end": 0.385
+            },
+            {
+              "text": "and",
+              "start": 0.385,
+              "end": 0.65
+            },
+            {
+              "text": "cold,",
+              "start": 0.65,
+              "end": 1.044
+            },
+            {
+              "text": "they're",
+              "start": 1.044,
+              "end": 1.486
+            },
+            {
+              "text": "opposites,",
+              "start": 1.486,
+              "end": 2.175
+            },
+            {
+              "text": "you",
+              "start": 2.175,
+              "end": 2.439
+            },
+            {
+              "text": "see!",
+              "start": 2.439,
+              "end": 2.775
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fast, fast, fast like a zooming car,",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "FAST",
+            "emoji": "🚗"
+          },
+          "speaker": "character",
+          "sfx": [],
+          "audio": "line-8a5d7dce44.wav",
+          "durationSec": 3.05,
+          "words": [
+            {
+              "text": "Fast,",
+              "start": 0.12,
+              "end": 0.573
+            },
+            {
+              "text": "fast,",
+              "start": 0.573,
+              "end": 1.026
+            },
+            {
+              "text": "fast",
+              "start": 1.026,
+              "end": 1.398
+            },
+            {
+              "text": "like",
+              "start": 1.398,
+              "end": 1.77
+            },
+            {
+              "text": "a",
+              "start": 1.77,
+              "end": 1.94
+            },
+            {
+              "text": "zooming",
+              "start": 1.94,
+              "end": 2.514
+            },
+            {
+              "text": "car,",
+              "start": 2.514,
+              "end": 2.9
+            }
+          ]
+        },
+        {
+          "text": "Slow, slow, slow like a sleepy star!",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": {
+            "kind": "word",
+            "text": "SLOW",
+            "emoji": "🐢"
+          },
+          "speaker": "character",
+          "sfx": [
+            "yawn"
+          ],
+          "audio": "line-9f1df91e99.wav",
+          "durationSec": 3.15,
+          "words": [
+            {
+              "text": "Slow,",
+              "start": 0.12,
+              "end": 0.589
+            },
+            {
+              "text": "slow,",
+              "start": 0.589,
+              "end": 1.059
+            },
+            {
+              "text": "slow",
+              "start": 1.059,
+              "end": 1.444
+            },
+            {
+              "text": "like",
+              "start": 1.444,
+              "end": 1.83
+            },
+            {
+              "text": "a",
+              "start": 1.83,
+              "end": 2.005
+            },
+            {
+              "text": "sleepy",
+              "start": 2.005,
+              "end": 2.531
+            },
+            {
+              "text": "star!",
+              "start": 2.531,
+              "end": 3
+            }
+          ]
+        },
+        {
+          "text": "Fast and slow, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-5e0dee968a.wav",
+          "durationSec": 3.025,
+          "words": [
+            {
+              "text": "Fast",
+              "start": 0.12,
+              "end": 0.449
+            },
+            {
+              "text": "and",
+              "start": 0.449,
+              "end": 0.718
+            },
+            {
+              "text": "slow,",
+              "start": 0.718,
+              "end": 1.118
+            },
+            {
+              "text": "they're",
+              "start": 1.118,
+              "end": 1.566
+            },
+            {
+              "text": "opposites,",
+              "start": 1.566,
+              "end": 2.265
+            },
+            {
+              "text": "you",
+              "start": 2.265,
+              "end": 2.534
+            },
+            {
+              "text": "see!",
+              "start": 2.534,
+              "end": 2.875
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Slow!",
+          "emoji": "🐢"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of fast?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-0da0c77354.wav",
+          "durationSec": 2.2,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.11,
+              "end": 0.431
+            },
+            {
+              "text": "is",
+              "start": 0.431,
+              "end": 0.636
+            },
+            {
+              "text": "the",
+              "start": 0.636,
+              "end": 0.899
+            },
+            {
+              "text": "opposite",
+              "start": 0.899,
+              "end": 1.454
+            },
+            {
+              "text": "of",
+              "start": 1.454,
+              "end": 1.658
+            },
+            {
+              "text": "fast?",
+              "start": 1.658,
+              "end": 2.05
+            }
+          ]
+        },
+        {
+          "text": "Yes! The opposite of fast is slow! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-076eaccf26.wav",
+          "durationSec": 3.425,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.498
+            },
+            {
+              "text": "The",
+              "start": 0.498,
+              "end": 0.796
+            },
+            {
+              "text": "opposite",
+              "start": 0.796,
+              "end": 1.426
+            },
+            {
+              "text": "of",
+              "start": 1.426,
+              "end": 1.658
+            },
+            {
+              "text": "fast",
+              "start": 1.658,
+              "end": 2.022
+            },
+            {
+              "text": "is",
+              "start": 2.022,
+              "end": 2.254
+            },
+            {
+              "text": "slow!",
+              "start": 2.254,
+              "end": 2.698
+            },
+            {
+              "text": "Clever!",
+              "start": 2.698,
+              "end": 3.275
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 5,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ],
+          "audio": "line-e44e6b64b7.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Opposites,",
+              "start": 0.12,
+              "end": 0.844
+            },
+            {
+              "text": "opposites,",
+              "start": 0.844,
+              "end": 1.567
+            },
+            {
+              "text": "this",
+              "start": 1.567,
+              "end": 1.907
+            },
+            {
+              "text": "and",
+              "start": 1.907,
+              "end": 2.186
+            },
+            {
+              "text": "that,",
+              "start": 2.186,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-d586d44787.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.354
+            },
+            {
+              "text": "and",
+              "start": 0.354,
+              "end": 0.655
+            },
+            {
+              "text": "down",
+              "start": 0.655,
+              "end": 1.023
+            },
+            {
+              "text": "like",
+              "start": 1.023,
+              "end": 1.392
+            },
+            {
+              "text": "an",
+              "start": 1.392,
+              "end": 1.626
+            },
+            {
+              "text": "acrobat!",
+              "start": 1.626,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-591edcc695.wav",
+          "durationSec": 2.625,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.409
+            },
+            {
+              "text": "and",
+              "start": 0.409,
+              "end": 0.698
+            },
+            {
+              "text": "small",
+              "start": 0.698,
+              "end": 1.115
+            },
+            {
+              "text": "and",
+              "start": 1.115,
+              "end": 1.403
+            },
+            {
+              "text": "fast",
+              "start": 1.403,
+              "end": 1.756
+            },
+            {
+              "text": "and",
+              "start": 1.756,
+              "end": 2.045
+            },
+            {
+              "text": "slow,",
+              "start": 2.045,
+              "end": 2.475
+            }
+          ]
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-6c1565f463.wav",
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Opposites",
+              "start": 0.114,
+              "end": 0.813
+            },
+            {
+              "text": "everywhere",
+              "start": 0.813,
+              "end": 1.579
+            },
+            {
+              "text": "we",
+              "start": 1.579,
+              "end": 1.812
+            },
+            {
+              "text": "go!",
+              "start": 1.812,
+              "end": 2.125
+            }
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "bear",
+        "duck"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "bridge",
+      "background": "night",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "camera": "still",
+      "holdSec": 0,
+      "secondCharacter": null,
+      "gag": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "One more time!",
+          "role": "bridge",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "sfx": [
+            "tada"
+          ],
+          "callout": null,
+          "audio": "line-490a645a76.wav",
+          "durationSec": 1.8,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.09,
+              "end": 0.51
+            },
+            {
+              "text": "more",
+              "start": 0.51,
+              "end": 1.024
+            },
+            {
+              "text": "time!",
+              "start": 1.024,
+              "end": 1.65
+            }
+          ]
+        }
+      ],
+      "prop": null,
+      "extras": null
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Up, up, up, we reach up high,",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "UP",
+            "emoji": "⬆️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-b5c9ac7879.wav",
+          "durationSec": 2.35,
+          "words": [
+            {
+              "text": "Up,",
+              "start": 0.118,
+              "end": 0.403
+            },
+            {
+              "text": "up,",
+              "start": 0.403,
+              "end": 0.688
+            },
+            {
+              "text": "up,",
+              "start": 0.688,
+              "end": 0.974
+            },
+            {
+              "text": "we",
+              "start": 0.974,
+              "end": 1.186
+            },
+            {
+              "text": "reach",
+              "start": 1.186,
+              "end": 1.581
+            },
+            {
+              "text": "up",
+              "start": 1.581,
+              "end": 1.793
+            },
+            {
+              "text": "high,",
+              "start": 1.793,
+              "end": 2.2
+            }
+          ]
+        },
+        {
+          "text": "Down, down, down, we touch the ground, oh my!",
+          "action": "stomp",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "DOWN",
+            "emoji": "⬇️"
+          },
+          "speaker": "character",
+          "sfx": [
+            "stomp"
+          ],
+          "audio": "line-4ac69c2afb.wav",
+          "durationSec": 3.55,
+          "words": [
+            {
+              "text": "Down,",
+              "start": 0.12,
+              "end": 0.547
+            },
+            {
+              "text": "down,",
+              "start": 0.547,
+              "end": 0.973
+            },
+            {
+              "text": "down,",
+              "start": 0.973,
+              "end": 1.4
+            },
+            {
+              "text": "we",
+              "start": 1.4,
+              "end": 1.623
+            },
+            {
+              "text": "touch",
+              "start": 1.623,
+              "end": 2.037
+            },
+            {
+              "text": "the",
+              "start": 2.037,
+              "end": 2.324
+            },
+            {
+              "text": "ground,",
+              "start": 2.324,
+              "end": 2.878
+            },
+            {
+              "text": "oh",
+              "start": 2.878,
+              "end": 3.101
+            },
+            {
+              "text": "my!",
+              "start": 3.101,
+              "end": 3.4
+            }
+          ]
+        },
+        {
+          "text": "Up and down, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-243bd3f97b.wav",
+          "durationSec": 2.7,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.313
+            },
+            {
+              "text": "and",
+              "start": 0.313,
+              "end": 0.561
+            },
+            {
+              "text": "down,",
+              "start": 0.561,
+              "end": 0.93
+            },
+            {
+              "text": "they're",
+              "start": 0.93,
+              "end": 1.343
+            },
+            {
+              "text": "opposites,",
+              "start": 1.343,
+              "end": 1.988
+            },
+            {
+              "text": "you",
+              "start": 1.988,
+              "end": 2.236
+            },
+            {
+              "text": "see!",
+              "start": 2.236,
+              "end": 2.55
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Big, big, big like a house so tall,",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": {
+            "kind": "word",
+            "text": "BIG",
+            "emoji": "🐘"
+          },
+          "speaker": "character",
+          "sfx": [
+            "tada"
+          ],
+          "audio": "line-817a371130.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Big,",
+              "start": 0.12,
+              "end": 0.496
+            },
+            {
+              "text": "big,",
+              "start": 0.496,
+              "end": 0.873
+            },
+            {
+              "text": "big",
+              "start": 0.873,
+              "end": 1.17
+            },
+            {
+              "text": "like",
+              "start": 1.17,
+              "end": 1.533
+            },
+            {
+              "text": "a",
+              "start": 1.533,
+              "end": 1.698
+            },
+            {
+              "text": "house",
+              "start": 1.698,
+              "end": 2.127
+            },
+            {
+              "text": "so",
+              "start": 2.127,
+              "end": 2.358
+            },
+            {
+              "text": "tall,",
+              "start": 2.358,
+              "end": 2.8
+            }
+          ]
+        },
+        {
+          "text": "Small, small, small like a tiny ball!",
+          "action": "hug",
+          "emotion": "happy",
+          "callout": {
+            "kind": "word",
+            "text": "SMALL",
+            "emoji": "🐭"
+          },
+          "speaker": "character",
+          "sfx": [
+            "heart"
+          ],
+          "audio": "line-06de5267e5.wav",
+          "durationSec": 2.95,
+          "words": [
+            {
+              "text": "Small,",
+              "start": 0.12,
+              "end": 0.61
+            },
+            {
+              "text": "small,",
+              "start": 0.61,
+              "end": 1.1
+            },
+            {
+              "text": "small",
+              "start": 1.1,
+              "end": 1.514
+            },
+            {
+              "text": "like",
+              "start": 1.514,
+              "end": 1.864
+            },
+            {
+              "text": "a",
+              "start": 1.864,
+              "end": 2.023
+            },
+            {
+              "text": "tiny",
+              "start": 2.023,
+              "end": 2.373
+            },
+            {
+              "text": "ball!",
+              "start": 2.373,
+              "end": 2.8
+            }
+          ]
+        },
+        {
+          "text": "Big and small, they're opposites, you see!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-1f7adeb4b9.wav",
+          "durationSec": 2.925,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.379
+            },
+            {
+              "text": "and",
+              "start": 0.379,
+              "end": 0.638
+            },
+            {
+              "text": "small,",
+              "start": 0.638,
+              "end": 1.082
+            },
+            {
+              "text": "they're",
+              "start": 1.082,
+              "end": 1.514
+            },
+            {
+              "text": "opposites,",
+              "start": 1.514,
+              "end": 2.188
+            },
+            {
+              "text": "you",
+              "start": 2.188,
+              "end": 2.447
+            },
+            {
+              "text": "see!",
+              "start": 2.447,
+              "end": 2.775
+            }
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Small!",
+          "emoji": "🐭"
+        }
+      },
+      "lines": [
+        {
+          "text": "What is the opposite of big?",
+          "action": "think",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-5979ac17a8.wav",
+          "durationSec": 2.175,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.109,
+              "end": 0.436
+            },
+            {
+              "text": "is",
+              "start": 0.436,
+              "end": 0.644
+            },
+            {
+              "text": "the",
+              "start": 0.644,
+              "end": 0.912
+            },
+            {
+              "text": "opposite",
+              "start": 0.912,
+              "end": 1.477
+            },
+            {
+              "text": "of",
+              "start": 1.477,
+              "end": 1.686
+            },
+            {
+              "text": "big?",
+              "start": 1.686,
+              "end": 2.025
+            }
+          ]
+        },
+        {
+          "text": "Yes! The opposite of big is small! Clever!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "audio": "line-15dbdacc70.wav",
+          "durationSec": 3.35,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.489
+            },
+            {
+              "text": "The",
+              "start": 0.489,
+              "end": 0.78
+            },
+            {
+              "text": "opposite",
+              "start": 0.78,
+              "end": 1.395
+            },
+            {
+              "text": "of",
+              "start": 1.395,
+              "end": 1.621
+            },
+            {
+              "text": "big",
+              "start": 1.621,
+              "end": 1.912
+            },
+            {
+              "text": "is",
+              "start": 1.912,
+              "end": 2.139
+            },
+            {
+              "text": "small!",
+              "start": 2.139,
+              "end": 2.637
+            },
+            {
+              "text": "Clever!",
+              "start": 2.637,
+              "end": 3.2
+            }
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 6,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "meadow",
+      "character": "owl",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Opposites, opposites, this and that,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-e44e6b64b7.wav",
+          "durationSec": 2.75,
+          "words": [
+            {
+              "text": "Opposites,",
+              "start": 0.12,
+              "end": 0.844
+            },
+            {
+              "text": "opposites,",
+              "start": 0.844,
+              "end": 1.567
+            },
+            {
+              "text": "this",
+              "start": 1.567,
+              "end": 1.907
+            },
+            {
+              "text": "and",
+              "start": 1.907,
+              "end": 2.186
+            },
+            {
+              "text": "that,",
+              "start": 2.186,
+              "end": 2.6
+            }
+          ]
+        },
+        {
+          "text": "Up and down like an acrobat!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-d586d44787.wav",
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "Up",
+              "start": 0.12,
+              "end": 0.354
+            },
+            {
+              "text": "and",
+              "start": 0.354,
+              "end": 0.655
+            },
+            {
+              "text": "down",
+              "start": 0.655,
+              "end": 1.023
+            },
+            {
+              "text": "like",
+              "start": 1.023,
+              "end": 1.392
+            },
+            {
+              "text": "an",
+              "start": 1.392,
+              "end": 1.626
+            },
+            {
+              "text": "acrobat!",
+              "start": 1.626,
+              "end": 2.275
+            }
+          ]
+        },
+        {
+          "text": "Big and small and fast and slow,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-591edcc695.wav",
+          "durationSec": 2.625,
+          "words": [
+            {
+              "text": "Big",
+              "start": 0.12,
+              "end": 0.409
+            },
+            {
+              "text": "and",
+              "start": 0.409,
+              "end": 0.698
+            },
+            {
+              "text": "small",
+              "start": 0.698,
+              "end": 1.115
+            },
+            {
+              "text": "and",
+              "start": 1.115,
+              "end": 1.403
+            },
+            {
+              "text": "fast",
+              "start": 1.403,
+              "end": 1.756
+            },
+            {
+              "text": "and",
+              "start": 1.756,
+              "end": 2.045
+            },
+            {
+              "text": "slow,",
+              "start": 2.045,
+              "end": 2.475
+            }
+          ]
+        },
+        {
+          "text": "Opposites everywhere we go!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-6c1565f463.wav",
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Opposites",
+              "start": 0.114,
+              "end": 0.813
+            },
+            {
+              "text": "everywhere",
+              "start": 0.813,
+              "end": 1.579
+            },
+            {
+              "text": "we",
+              "start": 1.579,
+              "end": 1.812
+            },
+            {
+              "text": "go!",
+              "start": 1.812,
+              "end": 2.125
+            }
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6
+      }
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": "af_heart",
+  "stars": {
+    "total": 7
+  },
+  "directed": true
+}

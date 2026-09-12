@@ -1,5 +1,23 @@
 # Topics waiting to be produced. status: pending | running | done
-# Add lines like:
-#   - { id: q1, status: pending, topic: "a little fish who learns to be brave", type: story, minutes: 5.5 }
-#   - { id: q2, status: pending, template: counting, hero: duck, place: farm, type: rhyme }
-items: []
+items:
+  - id: qmtyjw1qn
+    status: pending
+    addedAt: 2026-09-12
+    template: colors
+    type: rhyme
+    hero: duck
+    minutes: 5.5
+  - id: qmtyjw23y
+    status: pending
+    addedAt: 2026-09-12
+    template: actions
+    type: rhyme
+    hero: bunny
+    minutes: 5.5
+  - id: qmtyjw2jk
+    status: pending
+    addedAt: 2026-09-12
+    template: shapes
+    type: rhyme
+    hero: bear
+    minutes: 5.5
