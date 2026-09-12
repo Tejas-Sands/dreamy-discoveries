@@ -136,7 +136,7 @@
       "publish_at": "2026-09-14T18:00:00+05:30",
       "production_not_before": "2026-09-13T03:30:00Z",
       "review_by": "2026-09-12",
-      "status": "planned",
+      "status": "rendered",
       "priority": 50,
       "format": "template",
       "type": "rhyme",
@@ -155,13 +155,13 @@
         "catalog"
       ],
       "evidence": "established_format",
-      "readiness": "existing_template",
+      "readiness": "rendered_locally",
       "llm_calls_max": 0,
       "existing_queue_id": "qmtyjw1qn",
-      "existing_slug": "",
+      "existing_slug": "colors-daisy-2026-09-14",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template."
+      "notes": "Rendered locally at 1080p, 30 fps, approximately 5:12, with six question rewards. Reuse the saved slug; do not regenerate. Human review/upload remains; GitHub Release and Telegram delivery are blocked by existing access/credential gaps."
     },
     {
       "schedule_id": "dd-2026-09-15",

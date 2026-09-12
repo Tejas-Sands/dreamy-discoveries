@@ -10,7 +10,7 @@ The current schema in [`scripts/lib/db.mjs`](../../../scripts/lib/db.mjs) has an
 
 ## Data contract
 
-`schedule.json` is the authoritative copy: metadata, a source registry, and `entries`. `schedule.csv` contains exactly the same entry fields; array-valued cells are JSON strings. Empty strings mean not applicable, not a missing topic to generate. All rows start `planned`, which deliberately does not match today's `pending` selector.
+`schedule.json` is the authoritative copy: metadata, a source registry, and `entries`. `schedule.csv` contains exactly the same entry fields; array-valued cells are JSON strings. Empty strings mean not applicable, not a missing topic to generate. Unproduced rows start `planned`, which deliberately does not match today's `pending` selector. Locally completed entries may be `rendered`; preserve that status and reuse their saved slug.
 
 | Field | Meaning / future storage |
 |---|---|

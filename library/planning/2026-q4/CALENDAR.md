@@ -7,7 +7,7 @@ Publication target: 18:00 IST. Production: normally 09:00 IST the previous day. 
 | Publish date | Format | Episode / candidate | Hero | Gate |
 |---|---|---|---|---|
 | 2026-09-13 | existing_episode | Opposites With Ozzy! | ozzy | rendered_locally |
-| 2026-09-14 | template | Colors With Daisy! | daisy | existing_template |
+| 2026-09-14 | template | Colors With Daisy! | daisy | rendered_locally |
 | 2026-09-15 | template | Move With Taffy! | taffy | existing_template |
 | 2026-09-16 | template | Shapes With Ben! | ben | existing_template |
 | 2026-09-17 | template | Opposites With Fiona! | fiona | existing_template |
