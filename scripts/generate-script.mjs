@@ -2,8 +2,9 @@
  * Step 1: topic -> validated script.json, written to public/generated/<slug>/script.json
  *
  * Usage: node scripts/generate-script.mjs --topic "a shy turtle who learns to share" --type story
- * Provider is auto-detected from env keys (GROQ_API_KEY / GEMINI_API_KEY /
- * OPENROUTER_API_KEY / GITHUB_TOKEN) or set explicitly via LLM_BASE_URL + LLM_API_KEY + LLM_MODEL.
+ * Provider is auto-detected from env keys (GEMINI_API_KEY / GROK_API_KEY /
+ * GROQ_API_KEY / OPENROUTER_API_KEY / GITHUB_TOKEN) or set explicitly via
+ * LLM_BASE_URL + LLM_API_KEY + LLM_MODEL.
  *
  * The LLM only writes CONTENT (words, emotions, actions, questions). Everything
  * that makes the video engaging is enforced afterwards by the Director
@@ -70,11 +71,19 @@ function resolveProvider() {
   if (env.LLM_BASE_URL && env.LLM_API_KEY) {
     return { name: "custom", baseUrl: env.LLM_BASE_URL, apiKey: env.LLM_API_KEY, model: env.LLM_MODEL || "llama-3.3-70b-versatile" };
   }
-  if (env.GROQ_API_KEY) {
-    return { name: "groq", baseUrl: "https://api.groq.com/openai/v1", apiKey: env.GROQ_API_KEY, model: env.LLM_MODEL || "llama-3.3-70b-versatile" };
-  }
   if (env.GEMINI_API_KEY) {
     return { name: "gemini", baseUrl: "https://generativelanguage.googleapis.com/v1beta/openai", apiKey: env.GEMINI_API_KEY, model: env.LLM_MODEL || "gemini-2.0-flash" };
+  }
+  if (env.GROK_API_KEY) {
+    return {
+      name: "grok",
+      baseUrl: env.GROK_BASE_URL || env.GROK_API_BASE_URL || "https://api.x.ai/v1",
+      apiKey: env.GROK_API_KEY,
+      model: env.GROK_MODEL || env.LLM_MODEL || "grok-beta",
+    };
+  }
+  if (env.GROQ_API_KEY) {
+    return { name: "groq", baseUrl: "https://api.groq.com/openai/v1", apiKey: env.GROQ_API_KEY, model: env.LLM_MODEL || "llama-3.3-70b-versatile" };
   }
   if (env.OPENROUTER_API_KEY) {
     return { name: "openrouter", baseUrl: "https://openrouter.ai/api/v1", apiKey: env.OPENROUTER_API_KEY, model: env.LLM_MODEL || "meta-llama/llama-3.3-70b-instruct:free" };
@@ -82,7 +91,7 @@ function resolveProvider() {
   if (env.GITHUB_TOKEN) {
     return { name: "github-models", baseUrl: "https://models.github.ai/inference", apiKey: env.GITHUB_TOKEN, model: env.LLM_MODEL || "openai/gpt-4o-mini" };
   }
-  throw new Error("No LLM key found. Set one of GROQ_API_KEY, GEMINI_API_KEY, OPENROUTER_API_KEY, GITHUB_TOKEN (see .env.example).");
+  throw new Error("No LLM key found. Set one of GEMINI_API_KEY, GROK_API_KEY, GROQ_API_KEY, OPENROUTER_API_KEY, GITHUB_TOKEN (see .env.example).");
 }
 
 async function chat(messages, { useJsonMode = true } = {}) {
