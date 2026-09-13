@@ -1,23 +1,25 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-12T17:07:59.525Z",
+  "updatedAt": "2026-09-13T16:49:22.888Z",
   "counts": {
-    "stories": 1,
+    "stories": 2,
     "rhymes": 2,
-    "episodes": 3,
-    "stars": 15
+    "episodes": 4,
+    "stars": 18
   },
   "usage": {
     "tilly": 1,
     "ozzy": 1,
-    "daisy": 1
+    "daisy": 1,
+    "taffy": 1
   },
   "appeared": {
-    "tilly": 1,
+    "tilly": 2,
     "daisy": 2,
-    "fiona": 1,
-    "ozzy": 1
+    "fiona": 2,
+    "ozzy": 1,
+    "taffy": 1
   },
   "canon": [
     {
@@ -39,6 +41,11 @@
       "event": "First appearance: Professor Ozzy the owl.",
       "story": "opposites-ozzy-2026-09-12",
       "at": "2026-09-12"
+    },
+    {
+      "event": "First appearance: Taffy the bunny.",
+      "story": "taffys-clever-river-adventure-2026-09-13",
+      "at": "2026-09-13"
     }
   ],
   "stories": [
@@ -150,6 +157,53 @@
         "released": null
       },
       "release": null
+    },
+    {
+      "id": "taffys-clever-river-adventure-2026-09-13",
+      "type": "story",
+      "title": "Taffy's Clever River Adventure",
+      "hero": "taffy",
+      "heroName": "Taffy",
+      "cast": [
+        "taffy",
+        "fiona",
+        "tilly"
+      ],
+      "moral": "Being clever and kind helps us solve big problems together.",
+      "moralRhyme": [
+        "Think so smart and be so kind!",
+        "The best solutions you will find!"
+      ],
+      "catchphrases": [
+        "Hop, hop, hooray!",
+        "Fast and clever!",
+        "Slow and steady!"
+      ],
+      "questions": 3,
+      "stars": 3,
+      "backgrounds": [
+        "meadow",
+        "pond",
+        "beach",
+        "garden",
+        "park"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "A clever monkey outwits a crocodile who tries to eat his heart.",
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-13"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffys-clever-river-adventure-2026-09-13",
+        "tag": "video-taffys-clever-river-adventure-2026-09-13"
+      }
     }
   ]
 }
