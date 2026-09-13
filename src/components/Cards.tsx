@@ -14,6 +14,7 @@ import { COUNTDOWN_SEC, INTRO_SPEAK_AT_SEC, toFrames } from "../lib/timing";
 import { easeOutBack, easeOutCubic, hop } from "../lib/anim";
 import type { BakedMap } from "../lib/baked";
 import { VoxAudio, laughMouth, voxAt, voxEvents } from "./Vox";
+import { episodeOverview } from "../lib/overview";
 
 const OUT = "#2f2438";
 
@@ -136,6 +137,8 @@ export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: s
   const hopT = frame / fps;
   const { dx, dy } = hopIn(hopT, 1, 1100, 0.8);
   const speaking = t >= 0 && t <= (script.intro?.durationSec ?? 0);
+  const topics = episodeOverview(script);
+  const previewOpacity = Math.max(0, Math.min(1, (countdownFrom - frame) / 10));
   const action = inCountdown ? (mood === "countdown" ? "jump" : mood === "story" ? "cheer" : "wave") : speaking ? (script.intro?.action ?? "wave") : hopT < 0.8 ? "jump" : "wave";
   return (
     <AbsoluteFill>
@@ -151,6 +154,22 @@ export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: s
       </div>
       <div style={{ position: "absolute", ...box, transform: `translate(${dx}px, ${dy}px)` }}>
         <Character kind={script.mainCharacter.kind} emotion={inCountdown ? "excited" : script.intro?.emotion ?? "excited"} action={action} mouth={mouth} width={470} seed={1} actionT={inCountdown ? cdT : hopT} bpm={bpm} groove={mood === "countdown"} />
+      </div>
+      <div style={{ position: "absolute", left: 960, top: 375, width: 770, textAlign: "center", opacity: previewOpacity }}>
+        <div style={{ fontSize: 44, color: "#58446f", fontWeight: 600, marginBottom: 26, textShadow: "0 2px 0 #fff9eb" }}>Today, let's discover...</div>
+        {topics.length ? <div style={{ display: "flex", justifyContent: "center", gap: 22 }}>
+          {topics.map((c, i) => {
+            const appear = spring({ frame: frame - 18 - i * 8, fps, config: { damping: 18, stiffness: 100 } });
+            return <div key={i} style={{ width: 225, minHeight: 260, boxSizing: "border-box", padding: "24px 12px", borderRadius: 38, background: "linear-gradient(145deg, #fffdf2, #f2e7f4)", border: "5px solid #fff9ef", boxShadow: "0 10px 24px #67538730", transform: `translateY(${(1-appear)*35}px) scale(${appear})` }}>
+              <div style={{ height: 140, display: "flex", justifyContent: "center", alignItems: "center", fontSize: 95, color: "#6b5685" }}>
+                {c.kind === "color" ? <div style={{ width: 116, height: 116, borderRadius: "43% 57% 55% 45%", background: c.color ?? palette.accent, boxShadow: "inset 7px 9px 0 #ffffff33, inset -6px -7px 0 #58446f15", transform: `rotate(${i*12-10}deg)` }} /> : c.count ?? c.emoji ?? (c.kind === "number" ? c.text : "✦")}
+              </div>
+              <div style={{ fontSize: (c.text?.length ?? 0) > 10 ? 27 : 35, color: "#685378", fontWeight: 600, overflowWrap: "anywhere" }}>{c.text ?? (c.count ? "Let's count!" : "Explore!")}</div>
+            </div>;
+          })}
+        </div> : <div style={{ padding: "32px 38px", borderRadius: 38, background: "linear-gradient(135deg, #fff4d8, #f4dfef 50%, #dceff2)", border: "5px solid #fff9ef", boxShadow: "0 10px 24px #67538730", color: "#685378", fontSize: (script.intro?.text.length ?? 0) > 160 ? 32 : 42, lineHeight: 1.35 }}>
+          {script.intro?.text || script.title}
+        </div>}
       </div>
     </AbsoluteFill>
   );

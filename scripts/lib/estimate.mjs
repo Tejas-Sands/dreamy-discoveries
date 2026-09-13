@@ -5,7 +5,7 @@
  * `node scripts/plan.mjs --verify-timing`).
  */
 export const FPS = 30;
-export const T = { INTRO_MIN: 3.4, INTRO_SPEAK_AT: 1.0, COUNTDOWN: 1.9, LINE_GAP: 0.3, SCENE_PAD: 0.55, REVEAL: 1.7, END_MIN: 5, DEFAULT_LINE: 2.2 };
+export const T = { INTRO_MIN: 3.4, INTRO_SPEAK_AT: 1.0, COUNTDOWN: 1.9, LINE_GAP: 0.3, SCENE_PAD: 0.55, REVEAL: 1.7, END_MIN: 5, BRAND_OUTRO: 6, DEFAULT_LINE: 2.2 };
 const toFrames = (sec) => Math.round(sec * FPS);
 const lineFrames = (line) => toFrames((line.voxPreSec ?? 0) + (line.durationSec ?? T.DEFAULT_LINE) + T.LINE_GAP + (line.voxPostSec ?? 0));
 
@@ -31,6 +31,7 @@ export function estimateFrames(script) {
   }
   const outroSpeech = script.outro?.durationSec ?? 0;
   cursor += toFrames(Math.max(T.END_MIN, 0.8 + outroSpeech + 1.6));
+  cursor += toFrames(T.BRAND_OUTRO);
   return cursor;
 }
 

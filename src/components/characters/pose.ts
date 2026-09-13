@@ -1,5 +1,6 @@
 import type { Action } from "../../lib/types";
 import { hop, easeOutBack } from "../../lib/anim";
+import { jumpPhase, JUMP_LAND, clapAmount, stompPhase, impactAt } from "../../lib/actionMotion";
 
 /**
  * A pose is everything the rig needs to draw one frame of an action.
@@ -71,6 +72,8 @@ export interface PoseInput {
   /** seconds since the action started */
   t: number;
   bpm: number;
+  /** Absolute episode music clock; gestures retain their own local t. */
+  musicT?: number;
   /** de-syncs characters standing next to each other */
   seed?: number;
   /** fish swim instead of standing; ducks flap when they fly */
@@ -83,7 +86,7 @@ export function computePose(input: PoseInput): Pose {
   const p = poseAt(input);
   // follow-through: how fast is the body moving right now? (ears/tails drag behind)
   const dt = 1 / 30;
-  const prev = poseAt({ ...input, t: input.t - dt });
+  const prev = poseAt({ ...input, t: input.t - dt, musicT: input.musicT === undefined ? undefined : input.musicT - dt });
   p.vy = (p.y - prev.y) / dt;
   p.vx = (p.x - prev.x) / dt;
   // lean into lateral motion (dance steps, slides) — sells the momentum
@@ -94,10 +97,10 @@ export function computePose(input: PoseInput): Pose {
 /** actions that keep a gentle bob on the beat in upbeat scenes (the others have their own strong motion) */
 const GROOVERS = new Set<Action>(["idle", "look", "nod", "point", "walk", "eat"]);
 
-function poseAt({ action, t, bpm, seed = 0, legless = false, groove = false }: PoseInput): Pose {
+function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = false }: PoseInput): Pose {
   const p = base();
   const s = seed * 1.7;
-  const beat = (t * bpm) / 60; // beats elapsed
+  const beat = ((musicT ?? t) * bpm) / 60; // beats elapsed
   const bph = beat - Math.floor(beat); // phase within the beat
   const TAU = Math.PI * 2;
 
@@ -152,10 +155,9 @@ function poseAt({ action, t, bpm, seed = 0, legless = false, groove = false }: P
       break;
     case "jump": {
       // anticipation (crouch) → stretch on take-off → hang → squash on landing
-      const period = 0.72;
-      const ph = ((t + 0.08) / period) % 1;
+      const ph = jumpPhase(t);
       const CROUCH = 0.18;
-      const LAND = 0.82;
+      const LAND = JUMP_LAND;
       if (ph < CROUCH) {
         const k = ph / CROUCH; // sink then spring
         const c = Math.sin(Math.PI * k);
@@ -193,14 +195,14 @@ function poseAt({ action, t, bpm, seed = 0, legless = false, groove = false }: P
       break;
     }
     case "clap": {
-      const c = 0.5 + 0.5 * Math.sin(t * TAU * 2.6 - Math.PI / 2); // 0 open .. 1 together
+      const c = clapAmount(t); // 0 open .. 1 together
       p.armL = -(58 + 48 * c);
       p.armR = -(58 + 48 * c);
       p.armBendL = 0.55;
       p.armBendR = 0.55;
       p.y += -4 * c;
       p.head.dy = 2 * c;
-      p.clapSpark = c > 0.93 ? (c - 0.93) / 0.07 : 0;
+      p.clapSpark = impactAt("clap", t);
       break;
     }
     case "dance": {
@@ -239,7 +241,7 @@ function poseAt({ action, t, bpm, seed = 0, legless = false, groove = false }: P
         p.eyes.mode = h > 0.9 ? "happy" : "open";
       } else if (style === 2) {
         // the twist: hips turn, one arm up one down, little hops
-        p.flip = 0.72 + 0.28 * Math.cos(beat * Math.PI);
+        p.flip = 0.9 + 0.1 * Math.cos(beat * Math.PI);
         p.lean = -6 * sw;
         p.y = -8 * hop(beat * 2) - 2;
         p.armL = 110 + 50 * sw;
@@ -334,7 +336,7 @@ function poseAt({ action, t, bpm, seed = 0, legless = false, groove = false }: P
       break;
     }
     case "stomp": {
-      const ph = Math.sin(t * TAU * 1.6);
+      const ph = stompPhase(t);
       p.legL = -16 * Math.max(0, ph);
       p.legR = -16 * Math.max(0, -ph);
       p.y = -3 * Math.abs(ph);
@@ -416,4 +418,20 @@ function poseAt({ action, t, bpm, seed = 0, legless = false, groove = false }: P
     p.legSwR += -5 * sw;
   }
   return p;
+}
+
+/** Blend numeric rig channels, retaining signed spin width and discrete eye states. */
+export function blendPoses(from: Pose, to: Pose, progress: number): Pose {
+  const k = Math.max(0, Math.min(1, progress));
+  const mix = (a: number, b: number) => k === 0 ? a : k === 1 ? b : a + (b - a) * k;
+  const result: Pose = {
+    ...from,
+    head: { tilt: mix(from.head.tilt, to.head.tilt), dx: mix(from.head.dx, to.head.dx), dy: mix(from.head.dy, to.head.dy) },
+    eyes: { dx: mix(from.eyes.dx, to.eyes.dx), dy: mix(from.eyes.dy, to.eyes.dy), mode: k < 0.5 ? from.eyes.mode : to.eyes.mode },
+  };
+  type NumericKey = { [K in keyof Pose]: Pose[K] extends number ? K : never }[keyof Pose];
+  for (const key of Object.keys(from) as Array<keyof Pose>) {
+    if (key !== "head" && key !== "eyes") result[key as NumericKey] = mix(from[key], to[key]);
+  }
+  return result;
 }

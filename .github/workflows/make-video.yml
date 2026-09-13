@@ -272,7 +272,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: public/baked
-          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**') }}
+          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}
       - run: node scripts/bake-backgrounds.mjs --slug "$SLUG"
       - name: Render frames ${{ matrix.chunk }}/${{ needs.plan.outputs.chunk_count }}
         run: |
@@ -339,7 +339,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: public/baked
-          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**') }}
+          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}
       - run: node scripts/bake-backgrounds.mjs --slug "$SLUG"
 
       - name: Stitch chunks + audio, thumbnail, metadata

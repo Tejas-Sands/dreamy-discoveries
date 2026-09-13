@@ -417,6 +417,17 @@ function sweep(sec, f0, f1, { curve = 6, wobbleHz = 0, wobbleAmt = 0, harmonics 
 }
 
 const SFX = {
+  "dreamy-outro": () => {
+    const t = new Track(6);
+    // One original, resolved music-box phrase, shared by every episode.
+    [72, 76, 79, 83, 84, 79, 76, 72].forEach((m, i) => {
+      t.add(musicBox(midiHz(m), 2), 0.18 + i * 0.43, 0.42);
+    });
+    [48, 55, 64].forEach(m => t.add(softPad(midiHz(m), 4.7), 0.2, 0.11));
+    const audio = delay(t.buf, 0.23, 0.25, 0.22);
+    for (let i = secs(4.8); i < audio.length; i++) audio[i] *= (audio.length - i) / secs(1.2);
+    return audio;
+  },
   pop: () => mul(sweep(0.16, 380, 950, { curve: 10 }), env(secs(0.16), 0.002, 22)),
   bubble: () => mul(sweep(0.22, 300, 760, { curve: 4 }), env(secs(0.22), 0.004, 16)),
   boing: () =>
@@ -564,7 +575,7 @@ function main() {
   }
   if (!only || only === "sfx") {
     for (const [name, make] of Object.entries(SFX)) {
-      writeWav(path.join(ROOT, "public", "sfx", `${name}.wav`), finalize(make(), 0.9));
+      if (!args.name || args.name === name) writeWav(path.join(ROOT, "public", "sfx", `${name}.wav`), finalize(make(), 0.9));
     }
   }
 }

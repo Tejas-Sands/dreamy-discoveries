@@ -15,7 +15,9 @@ const OUT = path.join(ROOT, "public", "baked");
 const MANIFEST = path.join(OUT, "manifest.json");
 
 function hashFor(name) {
-  const parts = ["src/components/backgrounds/parts.tsx", "src/components/backgrounds/Background.tsx", "src/lib/palettes.ts", "src/Bake.tsx"].map((file) => fs.readFileSync(path.join(ROOT, file), "utf8")).join("\n");
+  const sources = fs.readdirSync(path.join(ROOT, "src/components/backgrounds"))
+    .filter(file => /\.tsx?$/.test(file)).sort().map(file => `src/components/backgrounds/${file}`);
+  const parts = [...sources, "src/lib/palettes.ts", "src/lib/random.ts", "src/lib/layout.ts", "src/Bake.tsx", "scripts/bake-backgrounds.mjs"].map((file) => fs.readFileSync(path.join(ROOT, file), "utf8")).join("\n");
   return crypto.createHash("sha1").update(JSON.stringify(BACKGROUND_RECIPES[name]) + parts).digest("hex").slice(0, 8);
 }
 

@@ -1,8 +1,8 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig, type CalculateMetadataFunction } from "remotion";
 import { loadFont } from "@remotion/google-fonts/Fredoka";
-import type { Action, Emotion, KidsScript, Scene, SfxName } from "./lib/types";
-import { COUNTDOWN_SEC, computeSchedule, musicVolume, toFrames, TRANSITION_FRAMES, type SceneSlot } from "./lib/timing";
+import type { Emotion, KidsScript, Scene, SfxName } from "./lib/types";
+import { BRAND_OUTRO_SEC, COUNTDOWN_SEC, computeSchedule, musicVolume, toFrames, TRANSITION_FRAMES, type SceneSlot } from "./lib/timing";
 import { getPalette, type Palette } from "./lib/palettes";
 import { CENTER_X, FRIEND_X, GROUND_Y, MAIN_X } from "./lib/layout";
 import { mouthAt } from "./lib/speech";
@@ -20,6 +20,10 @@ import { Countdown, EndCard, TitleCard, hopIn } from "./components/Cards";
 import { MoralChant } from "./components/MoralChant";
 import { VoxAudio, laughMouth, voxAt, voxEvents } from "./components/Vox";
 import { fetchBaked, type BakedMap } from "./lib/baked";
+import { BrandOutro } from "./components/BrandOutro";
+import { sceneDirection } from "./lib/sceneDirection.mjs";
+import { actionTrack, sampleAction, gagFrame, motionProfile, contactSounds, CONTACT_SFX } from "./lib/sceneMotion";
+import { impactAt } from "./lib/actionMotion";
 
 const { fontFamily } = loadFont();
 
@@ -60,13 +64,13 @@ const EXTRA_W = 270;
 const EXTRA_X = [230, 1700] as const;
 /** seconds a character takes to hop in from the edge at the start of a scene */
 const ENTER_SEC = 0.9;
-/** per-line "shot" zoom for story scenes (odd lines are a closer shot on the speaker) */
+/** Maximum story close-up, reduced by the scene's motion profile. */
 const SHOT_ZOOM = 1.13;
 
 /** the scene is a "cut" (new place or new people) — characters hop in instead of just being there */
 function isCut(scene: Scene, prev: Scene | undefined): boolean {
   if (!prev) return true;
-  return prev.background !== scene.background || prev.character !== scene.character || scene.kind === "chorus" || scene.kind === "question";
+  return prev.background !== scene.background || prev.character !== scene.character;
 }
 
 /** flyby emoji that fits the place, unless the gag names one */
@@ -96,12 +100,19 @@ const SceneView: React.FC<{
   const { fps } = useVideoConfig();
   const frame = rawFrame - lead; // true scene clock (negative during the transition overlap)
   const sceneT = Math.max(0, frame) / fps;
+  const musicT = Math.max(0, slot.from + frame) / fps;
+  const direction = sceneDirection(scene, script);
+  const profile = motionProfile(direction);
   const bpm = script.music?.bpm ?? 120;
   const isQuestion = !!scene.question;
   const compact = script.type === "story";
   const upbeat = scene.energy === "upbeat";
-  const party = scene.kind === "chorus" || scene.kind === "moral";
-  const beat = beatPhase(sceneT, bpm);
+  const party = profile.celebrate;
+  const beat = beatPhase(musicT, bpm);
+  const mainTrack = useMemo(() => actionTrack({...scene,direction}, slot, 'character', fps), [scene, direction, slot, fps]);
+  const friendTrack = useMemo(() => actionTrack({...scene,direction}, slot, 'friend', fps), [scene, direction, slot, fps]);
+  const mainMotion = sampleAction(mainTrack, frame, fps);
+  const friendMotion = sampleAction(friendTrack, frame, fps);
 
   // ── which line is live, and is the character speaking right now? ──
   // (a slot starts `pre` frames before its speech when a recorded laugh leads into it)
@@ -112,7 +123,7 @@ const SceneView: React.FC<{
   const lineIdx = ref ? slot.lines.indexOf(ref) : -1;
   const lineT = ref ? (frame - ref.from) / fps : 0; // negative while the lead-in recording plays
   const speechT = Math.max(0, lineT);
-  const talking = !!ref && lineT <= (ref.line.durationSec ?? 0);
+  const talking = !!ref && lineT >= 0 && lineT <= (ref.line.durationSec ?? 0);
   const friendSpeaks = talking && ref!.line.speaker === "friend";
   let mouth = talking && ref!.line.speaker === "character" ? mouthAt(ref!.line, lineT) : 0;
   let friendMouth = friendSpeaks ? mouthAt(ref!.line, lineT) : 0;
@@ -132,34 +143,24 @@ const SceneView: React.FC<{
 
   const inHold = isQuestion && frame >= slot.holdFrom && frame < slot.revealFrom;
   const inReveal = isQuestion && frame >= slot.revealFrom && frame < slot.praiseFrom;
-  const danceBreak = !isQuestion && !active && frame >= slot.holdFrom && upbeat;
+  const danceBreak = !isQuestion && !active && frame >= slot.holdFrom && upbeat && !['tender','lullaby','thinking'].includes(direction);
 
   let emotion: Emotion = ref?.line.emotion ?? scene.emotion ?? (upbeat ? "excited" : "happy");
-  let action: Action = ref?.line.action ?? scene.action ?? (upbeat ? "dance" : "idle");
-  let actionT = ref ? lineT : sceneT;
-  if (frame < 0 || (!ref && !danceBreak)) {
-    action = upbeat ? "dance" : "idle";
-    actionT = sceneT;
-  }
+  const speakingMotion = friendSpeaks ? friendMotion : mainMotion;
+  const action = speakingMotion.action;
   if (danceBreak) {
-    action = "dance";
     emotion = "excited";
   }
   if (inHold) {
     emotion = "thinking";
-    action = "think";
-    actionT = (frame - slot.holdFrom) / fps;
   }
   if (inReveal) {
     const rt = (frame - slot.revealFrom) / fps;
     emotion = rt < 0.45 ? "surprised" : "excited";
-    action = rt < 0.45 ? "idle" : "cheer";
-    actionT = rt;
   }
-  if (action === "dance") actionT = sceneT; // stay on the beat across lines
   let mainEmotion: Emotion = friendSpeaks ? (emotion === "sad" || emotion === "worried" ? "worried" : "happy") : emotion;
   if (laugh !== null && !voxFriend) mainEmotion = "excited";
-  const mainAction: Action = friendSpeaks ? "look" : action;
+  const mainAction = mainMotion.action;
 
   // ── layout ──
   const hasCallouts = isQuestion || scene.lines.some((l) => l.callout);
@@ -175,36 +176,38 @@ const SceneView: React.FC<{
   // alternate the side the hero comes from (always from the left when a friend is waiting on the right)
   const enterDir: 1 | -1 = friend || index % 2 === 0 ? 1 : -1;
   const enterDistance = enterDir === 1 ? mainX + 320 : 1920 - mainX + 320;
-  const mainEnter = cut && scene.transition !== "slide" ? hopIn(sceneT, enterDir, enterDistance, ENTER_SEC) : { dx: 0, dy: 0 };
+  const mainEnter = profile.entrance && cut && scene.transition !== "slide" ? hopIn(sceneT, enterDir, enterDistance, ENTER_SEC) : { dx: 0, dy: 0 };
   const friendCut = !!friend && (!prev || prev.secondCharacter !== friend || cut);
-  const friendEnter = friendCut ? hopIn(sceneT - 0.12, -1, 1920 - FRIEND_X + 300, ENTER_SEC) : { dx: 0, dy: 0 };
+  const friendEnter = profile.entrance && friendCut ? hopIn(sceneT - 0.12, -1, 1920 - FRIEND_X + 300, ENTER_SEC) : { dx: 0, dy: 0 };
 
-  // ── camera: per-line shots + a punch on each new line + a gentle pulse on the beat in party scenes ──
-  const shotFor = (i: number) => (compact && !isQuestion && i >= 0 && i % 2 === 1 ? SHOT_ZOOM : 1);
+  // ── camera: eased speaker framing, praise accents and musical celebration pulses ──
+  const shotFor = (i: number) => (compact && !isQuestion && i >= 0 ? 1 + (SHOT_ZOOM-1)*profile.camera : 1);
   const target = shotFor(lineIdx);
   const before = shotFor(lineIdx - 1);
-  const shotK = ref ? easeInOutSine(Math.min(1, lineT / 0.45)) : 0;
+  const shotK = ref ? easeInOutSine(Math.max(0,Math.min(1, lineT / 0.45))) : 0;
   const shotZoom = ref && !inHold && !inReveal && !danceBreak ? before + (target - before) * shotK : 1;
-  const zoomLine = lineIdx % 2 === 1 ? lineIdx : lineIdx - 1;
-  const zoomSpeaker = zoomLine >= 0 ? slot.lines[zoomLine]?.line.speaker : undefined;
-  const origin = zoomSpeaker === "friend" && friend ? { x: FRIEND_X, y: friendHeadY + 40 } : { x: mainX, y: headY + 60 };
-  const linePunch = active ? 0.018 * Math.exp(-speechT * 8) : 0;
+  const speakerOrigin = (i:number) => slot.lines[i]?.line.speaker === 'friend' && friend ? {x:FRIEND_X,y:friendHeadY+40} : {x:mainX,y:headY+60};
+  const fromOrigin=speakerOrigin(lineIdx-1), toOrigin=speakerOrigin(lineIdx);
+  const origin={x:fromOrigin.x+(toOrigin.x-fromOrigin.x)*shotK,y:fromOrigin.y+(toOrigin.y-fromOrigin.y)*shotK};
+  const linePunch = active?.line.role === 'praise' ? 0.012 * Math.exp(-speechT * 8)*profile.camera : 0;
   const beatPulse = party && upbeat ? 0.008 * hop(beat.beats) : 0;
 
   // ── impact shake & reveal punch ──
-  let shake = 0;
-  if (ref && active && (action === "stomp" || action === "jump")) {
-    const period = action === "stomp" ? 0.3125 : 0.66;
-    const ph = (speechT + (action === "jump" ? 0.08 : 0)) % period;
-    shake = 6 * Math.exp(-ph * 14);
-  }
+  const motionImpact = (motion:typeof mainMotion) => {
+    const current = ['jump','stomp'].includes(motion.action) ? impactAt(motion.action,motion.t)*motion.blend : 0;
+    const previous = motion.previousAction;
+    const landing = previous && ['jump','stomp'].includes(previous.action) ? impactAt(previous.action,previous.t+motion.t)*(1-motion.blend) : 0;
+    return Math.max(current,landing);
+  };
+  const shake = 4 * Math.max(motionImpact(mainMotion),friend ? motionImpact(friendMotion) : 0)*profile.camera;
   const punch = inReveal ? 0.04 * Math.exp(-((frame - slot.revealFrom) / fps) * 5) : 0;
 
   // ── gags: peek-a-boo from an edge, or an emoji flying past ──
   const gag = scene.gag;
-  const gagStart = gag ? toFrames(gag.atSec) : -1;
+  const scheduledGag = gagFrame(gag,slot,fps);
+  const gagStart = scheduledGag ?? -1;
   const gagT = gag ? (frame - gagStart) / fps : -1;
-  const gagFits = !!gag && slot.duration / fps > gag.atSec + 3;
+  const gagFits = !!gag && scheduledGag !== null;
   const peek = gag?.kind === "peek" && gagFits && gagT >= 0 && gagT < 2.6;
   const peekSide = gag?.side === "left" ? -1 : 1;
   const peekSlide = 340 * (1 - easeOutBack(Math.min(1, gagT / 0.45))) + (gagT > 1.9 ? 400 * easeOutCubic((gagT - 1.9) / 0.7) : 0);
@@ -232,14 +235,10 @@ const SceneView: React.FC<{
   const promptT = sayItSlot ? (frame - (sayItSlot.from + sayItSlot.duration)) / fps : 0;
 
   // clap/pop sound timings depend only on the scene's lines, not on the frame
-  const { claps, pops } = useMemo(() => {
-    const claps: number[] = [];
+  const { contacts, pops } = useMemo(() => {
+    const contacts = [...contactSounds(mainTrack,slot,'character',fps), ...contactSounds(friendTrack,slot,'friend',fps)];
     const pops: number[] = [];
     for (const l of slot.lines) {
-      if (l.line.action === "clap") {
-        const dur = l.line.durationSec ?? 2;
-        for (let k = 0; k < 6 && 0.19 + k * 0.385 < dur; k++) claps.push(l.from + toFrames(0.19 + k * 0.385));
-      }
       const co = l.line.callout;
       if (co && co.kind === "count") {
         for (const sec of countTimes(co, l.line.words, l.line.durationSec ?? 2)) pops.push(l.from + toFrames(sec));
@@ -247,9 +246,9 @@ const SceneView: React.FC<{
         pops.push(l.from + 4);
       }
     }
-    return { claps, pops };
-  }, [slot]);
-  const transitionSfx = TRANSITION_SFX[scene.transition ?? "pop"];
+    return { contacts, pops };
+  }, [slot,mainTrack,friendTrack,fps]);
+  const transitionSfx = profile.entrance ? TRANSITION_SFX[scene.transition ?? "pop"] : null;
 
   const renderExtra = (kind: string, i: number) => {
     const x = EXTRA_X[i];
@@ -258,51 +257,56 @@ const SceneView: React.FC<{
     const { dx, dy } = hopIn(sceneT - 0.2 - i * 0.1, dir, 700, ENTER_SEC);
     return (
       <div key={`extra${i}`} style={{ position: "absolute", ...characterBox(x, GROUND_Y + 30, EXTRA_W), transform: `translate(${dx}px, ${dy}px)` }}>
-        <Character kind={kind} emotion="excited" action={upbeat ? "dance" : "nod"} width={EXTRA_W} flip={dir === -1} seed={index * 3 + 40 + i} actionT={sceneT} bpm={bpm} groove />
+        <Character kind={kind} emotion={party ? 'excited' : 'happy'} action={party ? "dance" : "idle"} width={EXTRA_W} flip={dir === -1} actionT={sceneT} musicT={musicT} clockT={musicT} motionScale={profile.amplitude} bpm={bpm} groove={party} />
       </div>
     );
   };
 
   return (
     <AbsoluteFill>
-      <Camera kind={scene.camera ?? "still"} duration={slot.duration} shake={shake} punch={punch} zoom={shotZoom + linePunch + beatPulse} origin={origin}>
-        <Background kind={scene.background} palette={palette} frameOffset={slot.from} baked={baked} />
+      <Camera kind={scene.camera ?? "still"} duration={slot.duration} frameOffset={-lead} shake={shake} punch={punch} zoom={shotZoom + linePunch + beatPulse} origin={origin}>
+        <Background kind={scene.background} palette={palette} frameOffset={slot.from-lead} motion={profile.ambient} baked={baked} />
         {sadK > 0 ? <AbsoluteFill style={{ background: "#3b4fa0", opacity: 0.16 * sadK }} /> : null}
-        {upbeat ? (
+        {party ? (
           // a soft spotlight behind the hero, breathing on the beat
           <div style={{ position: "absolute", left: mainX - 520, top: headY - 260, width: 1040, height: 1040, borderRadius: 999, background: "radial-gradient(circle, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.06) 35%, rgba(255,255,255,0) 68%)", transform: `scale(${0.92 + 0.1 * hop(beat.beats)})`, pointerEvents: "none" }} />
         ) : null}
-        {upbeat && !hasCallouts ? <Sparkles count={6} seed={index} /> : null}
+        {party && !hasCallouts ? <Sparkles count={6} seed={index} /> : null}
         {extras.map(renderExtra)}
         {friend ? (
           <div style={{ position: "absolute", ...characterBox(FRIEND_X, GROUND_Y, FRIEND_W), transform: `translate(${friendEnter.dx}px, ${friendEnter.dy}px)` }}>
             <Character
               kind={friend}
               emotion={laugh !== null && voxFriend ? "excited" : friendSpeaks ? emotion : emotion === "thinking" ? "happy" : emotion === "sad" || emotion === "worried" ? "happy" : emotion}
-              action={friendSpeaks ? action : action === "cheer" ? "cheer" : action === "dance" ? "dance" : action === "hug" ? "hug" : action === "walk" ? "walk" : "nod"}
+              action={friendMotion.action}
               mouth={friendMouth}
               width={FRIEND_W}
               flip
-              seed={index + 7}
-              actionT={friendSpeaks ? lineT : sceneT}
+              actionT={friendMotion.t}
+              previousAction={friendMotion.previousAction}
+              blend={friendMotion.blend}
+              musicT={musicT}
+              clockT={musicT}
+              motionScale={profile.amplitude}
+              gaze={!friendSpeaks && !inHold && !inReveal ? {x:-4,y:0} : {x:0,y:0}}
               bpm={bpm}
-              groove={upbeat}
+              groove={party}
             />
           </div>
         ) : null}
         <div style={{ position: "absolute", ...mainBox, transform: `translate(${mainEnter.dx}px, ${mainEnter.dy}px)` }}>
-          <Character kind={scene.character} emotion={mainEmotion} action={mainAction} mouth={mouth} actionT={actionT} bpm={bpm} width={MAIN_W} seed={index} groove={upbeat} />
+          <Character kind={scene.character} emotion={mainEmotion} action={mainAction} mouth={mouth} actionT={mainMotion.t} previousAction={mainMotion.previousAction} blend={mainMotion.blend} musicT={musicT} clockT={musicT} motionScale={profile.amplitude} gaze={friendSpeaks ? {x:4,y:0} : inHold ? {x:0,y:-2} : {x:0,y:0}} bpm={bpm} width={MAIN_W} groove={party} />
         </div>
         {peek ? (
           <div style={{ position: "absolute", ...characterBox(peekX, GROUND_Y + 10, 300) }}>
-            <Character kind={gag!.character ?? "monkey"} emotion="excited" action="wave" width={300} flip={peekSide === 1} seed={index + 99} actionT={gagT} bpm={bpm} />
+            <Character kind={gag!.character ?? "bear"} emotion="excited" action="wave" width={300} flip={peekSide === 1} actionT={gagT} clockT={musicT} musicT={musicT} bpm={bpm} />
           </div>
         ) : null}
         {flyby ? <FlyBy emoji={flybyEmoji(scene)} from={lead + gagStart} dir={gag?.side === "left" ? 1 : -1} y={scene.kind === "chorus" ? 150 : 230} size={140} /> : null}
         {!isQuestion
           ? slot.lines.filter((l) => l.line.role === "praise").map((l, i) => <Confetti key={`pc${i}`} from={lead + l.from + 2} x={mainX} y={headY} count={40} />)
           : null}
-        {floaters ? <Floaters emoji={floaters} x={mainX} y={action === "cry" ? headY + 120 : headY} count={5} seed={index} dir={action === "cry" ? -1 : 1} size={action === "cry" ? 44 : 64} /> : null}
+        {floaters && !inHold && !hasCallouts ? <Floaters emoji={floaters} x={mainX} y={action === "cry" ? headY + 120 : headY} count={party ? 5 : 2} seed={index} dir={action === "cry" ? -1 : 1} size={action === "cry" ? 44 : 64} /> : null}
       </Camera>
 
       {active && active.line.callout && !inHold ? (
@@ -344,9 +348,9 @@ const SceneView: React.FC<{
       <VoxAudio events={vox} />
       {transitionSfx ? <Sfx name={transitionSfx} at={0} volume={0.45} /> : null}
       {slot.lines.flatMap((l, i) =>
-        (l.line.sfx ?? []).filter((s) => s !== "clap").map((s, k) => <Sfx key={`${i}-${k}`} name={s} at={lead + l.from + (s === "applause" ? 6 : 2)} volume={s === "applause" ? 0.55 : s === "tada" ? 0.7 : 0.65} />)
+        (l.line.sfx ?? []).filter((s) => s !== (l.line.action && CONTACT_SFX[l.line.action])).map((s, k) => <Sfx key={`${i}-${k}`} name={s} at={lead + l.from + (s === "applause" ? 6 : 2)} volume={s === "applause" ? 0.55 : s === "tada" ? 0.7 : 0.65} />)
       )}
-      {claps.map((at, i) => <Sfx key={`clap${i}`} name="clap" at={lead + at} volume={0.6} />)}
+      {contacts.map(({at,name}, i) => <Sfx key={`contact${i}`} name={name} at={lead + at} volume={0.48} />)}
       {pops.map((at, i) => <Sfx key={`pop${i}`} name="pop" at={lead + at} volume={0.5} />)}
       {isQuestion ? (
         <>
@@ -385,7 +389,9 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
   return (
     <AbsoluteFill style={{ fontFamily, background: palette.bgB }}>
       {script.music?.file ? (
-        <Audio loop src={staticFile(`music/${script.music.file}`)} volume={(f) => musicVolume(f, schedule)} name="music" />
+        <Sequence durationInFrames={schedule.brandFrom} name="Episode music">
+          <Audio loop loopVolumeCurveBehavior="extend" src={staticFile(`music/${script.music.file}`)} volume={(f) => musicVolume(f, schedule)} name="music" />
+        </Sequence>
       ) : null}
 
       <Sequence durationInFrames={schedule.intro + T} name="Title">
@@ -414,6 +420,10 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
       {/* "Ready… set… GO!" sits above the title card AND the first scene popping in */}
       <Sequence from={schedule.countdownFrom} durationInFrames={toFrames(COUNTDOWN_SEC) + 24} name="Countdown">
         <Countdown script={script} palette={palette} />
+      </Sequence>
+
+      <Sequence from={schedule.brandFrom} durationInFrames={toFrames(BRAND_OUTRO_SEC)} name="Dreamy Discoveries">
+        <BrandOutro />
       </Sequence>
 
       {starsTotal > 0 ? (

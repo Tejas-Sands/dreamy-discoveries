@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useId} from "react";
 import { AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { getPalette } from "../../lib/palettes";
 import type { Palette } from "../../lib/palettes";
@@ -7,32 +7,41 @@ import { BACKGROUND_RECIPES } from "../../generated/registry";
 import type { BackgroundRecipe, PartGroup } from "./recipe";
 import { PARTS, SceneryFrame } from "./parts";
 import type { BakedMap } from "../../lib/baked";
+import {sceneryColor, StorybookDetails, StorybookDistance} from "./StorybookScenery";
 
 export const getBackgroundRecipe = (kind: string): BackgroundRecipe => BACKGROUND_RECIPES[kind] ?? BACKGROUND_RECIPES.meadow;
 
 /** renders every part of one group, in recipe order; `uid` uniques any defs/gradients */
-export const BackgroundLayer: React.FC<{ recipe: BackgroundRecipe; group: PartGroup; t: number; palette: Palette }> = ({ recipe, group, t, palette }) => (
+export const BackgroundLayer: React.FC<{ recipe: BackgroundRecipe; group: PartGroup; t: number; palette: Palette }> = ({ recipe, group, t, palette }) => {
+  const uid = `scenery-${useId().replace(/:/g, "")}`;
+  return (
   <>
+    {group === "static" ? <StorybookDistance kind={recipe.name}/> : null}
     {recipe.parts.map((spec, i) => {
       const def = PARTS[spec.part];
       if (!def || def.group !== group) return null;
       const P = def.Part;
-      return <P key={`${spec.part}${i}`} t={t} o={{ ...spec, uid: `${recipe.name}-${group}-${i}` } as Record<string, unknown>} p={palette} />;
+      const options = Object.fromEntries(Object.entries(spec).map(([key,value]) => [key,
+        typeof value === "string" ? sceneryColor(value) : Array.isArray(value) ? value.map(item => typeof item === "string" ? sceneryColor(item) : item) : value]));
+      return <P key={`${spec.part}${i}`} t={t} o={{ ...options, scene:recipe.name, uid: `${uid}-${i}` }} p={{...palette,ground:sceneryColor(palette.ground)}} />;
     })}
     {group === "static" ? <SceneryFrame kind={recipe.name} /> : null}
+    {group === "static" ? <StorybookDetails kind={recipe.name}/> : null}
   </>
 );
+};
 
 /**
  * A scene background: gradient → animated back layer → scenery (a baked PNG when
  * available, else drawn live) → animated front layer.
  */
-export const Background: React.FC<{ kind: string; palette: Palette; frameOffset?: number; baked?: BakedMap }> = ({ kind, palette, frameOffset = 0, baked }) => {
+export const Background: React.FC<{ kind: string; palette: Palette; frameOffset?: number; motion?: number; baked?: BakedMap }> = ({ kind, palette, frameOffset = 0, motion = 0.55, baked }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = (frame + frameOffset) / fps;
+  const drift = Math.sin(t * 0.16) * Math.max(0,Math.min(1,motion));
   const recipe = getBackgroundRecipe(kind);
-  const [a, b] = recipe.gradient;
+  const [a, b] = recipe.gradient.map(sceneryColor);
   const bakedFile = baked?.[recipe.name];
   const sceneryPalette = getPalette(recipe.palette);
   // Scenery uses its recipe palette in both cached and live renders.
@@ -41,10 +50,8 @@ export const Background: React.FC<{ kind: string; palette: Palette; frameOffset?
     <AbsoluteFill style={{
       background: `linear-gradient(${a}, ${b})`,
     }}>
-      {!night && recipe.parts.some((part) => part.part === "sun") ? <AbsoluteFill style={{ background: parseInt(a.slice(5, 7), 16) > parseInt(a.slice(1, 3), 16)
-        ? "linear-gradient(rgba(0,158,225,0.30), transparent 68%)"
-        : "linear-gradient(rgba(255,182,48,0.22), transparent 68%)", pointerEvents: "none" }} /> : null}
-      <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{ position: "absolute", left: 0, top: 0 }}>
+      {!night ? <AbsoluteFill style={{ background: "radial-gradient(ellipse at 70% 30%, #fff2d94a, transparent 60%)", pointerEvents: "none" }} /> : null}
+      <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{ position: "absolute", left: 0, top: 0, transform:`translateX(${drift*5}px) scale(1.012)` }}>
         <BackgroundLayer recipe={recipe} group="back" t={t} palette={sceneryPalette} />
       </svg>
       {bakedFile ? (
@@ -54,7 +61,7 @@ export const Background: React.FC<{ kind: string; palette: Palette; frameOffset?
           <BackgroundLayer recipe={recipe} group="static" t={0} palette={sceneryPalette} />
         </svg>
       )}
-      <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{ position: "absolute", left: 0, top: 0 }}>
+      <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{ position: "absolute", left: 0, top: 0, transform:`translateX(${-drift*9}px) scale(1.015)` }}>
         <BackgroundLayer recipe={recipe} group="front" t={t} palette={sceneryPalette} />
       </svg>
       {/* Static colored light adds depth without extra animation or cache invalidation. */}

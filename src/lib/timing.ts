@@ -11,6 +11,7 @@ export const SCENE_PAD_SEC = 0.55;
 /** answer reveal (bubble pops, big answer, confetti) between the thinking pause and the praise line */
 export const REVEAL_SEC = 1.7;
 export const END_MIN_SEC = 5;
+export const BRAND_OUTRO_SEC = 6;
 /** scenes overlap the previous scene by this many frames so transitions can animate on top of it */
 export const TRANSITION_FRAMES = 12;
 /** Fallback when a line has no measured audio duration (e.g. in the Studio before TTS ran) */
@@ -46,6 +47,8 @@ export interface Schedule {
   scenes: SceneSlot[];
   endFrom: number;
   endDuration: number;
+  /** fixed channel signature after the episode's spoken goodbye */
+  brandFrom: number;
   total: number;
   /** absolute frame ranges where a voice is speaking (music ducks here) */
   voice: Array<[number, number]>;
@@ -131,8 +134,10 @@ export function computeSchedule(script: KidsScript): Schedule {
   const endDuration = toFrames(Math.max(END_MIN_SEC, 0.8 + outroSpeech + 1.6));
   if (outroSpeech > 0) voice.push([endFrom + toFrames(0.8), endFrom + toFrames(0.8 + outroSpeech)]);
   cursor += endDuration;
+  const brandFrom = cursor;
+  cursor += toFrames(BRAND_OUTRO_SEC);
 
-  return { intro, scenes, endFrom, endDuration, total: cursor, voice, countdownFrom: intro - toFrames(COUNTDOWN_SEC) };
+  return { intro, scenes, endFrom, endDuration, brandFrom, total: cursor, voice, countdownFrom: intro - toFrames(COUNTDOWN_SEC) };
 }
 
 /** music gain for a frame: ducks under speech, fades in/out at the ends */
@@ -146,6 +151,6 @@ export function musicVolume(frame: number, schedule: Schedule, base = 0.36, duck
     }
   }
   const fadeIn = Math.min(1, frame / 20);
-  const fadeOut = Math.min(1, Math.max(0, (schedule.total - frame) / 45));
+  const fadeOut = Math.min(1, Math.max(0, (schedule.brandFrom - frame) / 45));
   return v * fadeIn * fadeOut;
 }

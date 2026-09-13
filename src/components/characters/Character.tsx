@@ -1,21 +1,31 @@
-import React from "react";
+import React, { useId } from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import type { Action, Emotion } from "../../lib/types";
 import { rand } from "../../lib/random";
-import { computePose, type Pose } from "./pose";
+import { computePose, blendPoses, type Pose } from "./pose";
 import { Face, OUTLINE } from "./Face";
-import type { CharacterRecipe, FeatureSpec, RecipeColors } from "./recipe";
+import type { CharacterRecipe, FeatureSpec } from "./recipe";
 import { toSpec } from "./recipe";
 import { ACCESSORIES, EARS, FEATURES, MARKINGS, TAILS } from "./parts";
 import { SpeciesBody, SPECIES_RIGS } from "./SpeciesBody";
 import { MammalDetails } from "./MammalDetails";
 import { CHARACTER_RECIPES } from "../../generated/registry";
+import { STORYBOOK_KINDS, StorybookBody } from "./StorybookBody";
+import { StorybookPaint } from "./StorybookPaint";
+import cast from "../../../library/cast.json";
 
 /** The rig lives in this viewBox; feet at y=250, head top around y=-32 (bunny ears) */
 export const RIG_VB = { x: -20, y: -50, w: 240, h: 310 };
 
-/** any recipe name from library/characters; unknown names fall back to the bunny */
-export const getRecipe = (kind: string): CharacterRecipe => CHARACTER_RECIPES[kind] ?? CHARACTER_RECIPES.bunny;
+const CAST_KINDS: Record<string, string> = Object.fromEntries(cast.members.map(member => [member.id, member.kind]));
+/** Cast IDs and permanent recipe names share the same artwork. */
+export const getRecipe = (kind: string): CharacterRecipe => CHARACTER_RECIPES[CAST_KINDS[kind] ?? kind] ?? CHARACTER_RECIPES.bunny;
+/** Recipe identity keeps cast aliases and legacy names in the same motion family. */
+export const characterSeed = (kind: string): number => {
+  let seed = 0;
+  for (const char of getRecipe(kind).name) seed = (seed * 31 + char.charCodeAt(0)) >>> 0;
+  return seed % 65536;
+};
 export const characterEmoji = (kind: string): string => (kind === "none" ? "⭐" : getRecipe(kind).emoji);
 
 export interface CharacterProps {
@@ -26,6 +36,16 @@ export interface CharacterProps {
   mouth?: number;
   /** seconds since the current action started (defaults to the frame clock) */
   actionT?: number;
+  /** Outgoing gesture frozen at the transition boundary. */
+  previousAction?: { action: Action; t: number };
+  /** 0 = outgoing pose; 1 = incoming pose. */
+  blend?: number;
+  musicT?: number;
+  /** Absolute clock for blinking across line/scene Sequence boundaries. */
+  clockT?: number;
+  motionScale?: number;
+  /** Look offset in rig pixels, applied to both storybook and legacy eyes. */
+  gaze?: { x: number; y: number };
   bpm?: number;
   /** rendered width in px */
   width?: number;
@@ -136,28 +156,6 @@ const Sheen: React.FC<{ cx: number; cy: number; rx: number; ry: number; rot?: nu
   <ellipse cx={cx} cy={cy} rx={rx} ry={ry} fill="#ffffff" opacity={opacity} transform={`rotate(${rot} ${cx} ${cy})`} />
 );
 
-/** darken/lighten a #rrggbb fill by amt in [-1, 1] */
-const shade = (hex: string, amt: number): string => {
-  const n = parseInt(hex.slice(1), 16);
-  const f = (v: number) => Math.max(0, Math.min(255, Math.round(amt >= 0 ? v + (255 - v) * amt : v * (1 + amt))));
-  const to = (v: number) => v.toString(16).padStart(2, "0");
-  return `#${to(f((n >> 16) & 255))}${to(f((n >> 8) & 255))}${to(f(n & 255))}`;
-};
-
-/** soft round-the-body shading so characters look storybook, not clip-art */
-const BodyShade: React.FC<{ name: string; c: RecipeColors }> = ({ name, c }) => (
-  <defs>
-    <radialGradient id={`cbody-${name}`} cx="0.34" cy="0.28" r="0.95">
-      <stop offset="0" stopColor={shade(c.body, 0.16)} />
-      <stop offset="1" stopColor={shade(c.body, -0.18)} />
-    </radialGradient>
-    <radialGradient id={`cbelly-${name}`} cx="0.5" cy="0.3" r="0.9">
-      <stop offset="0" stopColor={shade(c.belly, 0.08)} />
-      <stop offset="1" stopColor={shade(c.belly, -0.14)} />
-    </radialGradient>
-  </defs>
-);
-
 const ClapSpark: React.FC<{ amount: number; x: number; y: number }> = ({ amount, x, y }) =>
   amount <= 0 ? null : (
     <g opacity={amount}>
@@ -172,15 +170,35 @@ function partList<T extends string>(items: Array<T | FeatureSpec> | undefined): 
   return (items ?? []).map((f) => toSpec(f));
 }
 
-export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", action = "idle", mouth = 0, actionT, bpm = 120, width = 400, flip = false, seed = 0, still = false, groove = false, shadow = true, style }) => {
+export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", action = "idle", mouth = 0, actionT, previousAction, blend = 1, musicT, clockT, motionScale = 1, gaze, bpm = 120, width = 400, flip = false, seed: seedProp, still = false, groove = false, shadow = true, style }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const uid = `character-${useId().replace(/:/g, "")}`;
   if (kind === "none") return null;
   const recipe = getRecipe(kind);
   const c = recipe.colors;
+  const seed = seedProp ?? characterSeed(kind);
   const t = still ? 0.35 : (actionT ?? frame / fps);
   const legless = recipe.rig === "fish" || recipe.rig === "whale";
-  const pose: Pose = computePose({ action, t, bpm, seed, legless, groove });
+  const input = { action, t, bpm, seed, legless, groove, musicT: still ? 0.35 : musicT };
+  const incoming = computePose(input);
+  const pose: Pose = previousAction && !still && blend < 1
+    ? blendPoses(computePose({ ...input, action: previousAction.action, t: previousAction.t, musicT: musicT === undefined ? undefined : musicT - t }), incoming, blend)
+    : incoming;
+  // Quiet direction reduces body travel without erasing the readable hand gesture.
+  const amplitude = Math.max(0, Math.min(1.3, motionScale));
+  pose.x *= amplitude;
+  pose.y = (legless ? -70 : 0) + (pose.y - (legless ? -70 : 0)) * amplitude;
+  pose.lean *= amplitude;
+  pose.vx *= amplitude;
+  pose.vy *= amplitude;
+  pose.sx = 1 + (pose.sx - 1) * amplitude;
+  pose.sy = 1 + (pose.sy - 1) * amplitude;
+  pose.tail *= amplitude;
+  if (gaze) {
+    pose.eyes.dx = Math.max(-7, Math.min(7, gaze.x)) * (flip ? -1 : 1);
+    pose.eyes.dy = Math.max(-7, Math.min(7, gaze.y));
+  }
   if (still) {
     pose.y = 0;
     pose.lean = 0;
@@ -197,9 +215,8 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   const airborne = Math.max(0, Math.min(1, (legless ? -pose.y - 60 : -pose.y) / 90));
   const shadowScale = 1 - 0.45 * airborne;
   const shadowOpacity = (0.22 - 0.12 * airborne) * (legless ? 0.6 : 1);
-  const blink = still ? 0 : blinkAmount(frame, seed);
+  const blink = still ? 0 : blinkAmount(clockT === undefined ? frame : clockT * fps, seed);
   const height = (width * RIG_VB.h) / RIG_VB.w;
-  const uid = `c${recipe.name}${seed}`;
   const showFace = pose.flip >= -0.05;
   const f = recipe.face ?? {};
   const features = partList(recipe.features);
@@ -252,20 +269,22 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   );
 
   const body = (() => {
+    if (STORYBOOK_KINDS.has(recipe.name)) {
+      return <StorybookBody recipe={recipe} pose={pose} emotion={emotion} mouth={mouth} blink={blink} showFace={showFace} />;
+    }
     if (SPECIES_RIGS.has(recipe.rig)) {
       return <SpeciesBody recipe={recipe} pose={pose} face={face} headFront={headFront} clothes={renderAccessories(true)} />;
     }
     if (recipe.rig === "bird") {
       const penguin = recipe.name === "penguin";
       return <g>
-        <BodyShade name={recipe.name} c={c} />
         <Tail {...pp(tailO)} />
         <Leg x={80} lift={pose.legL} swing={pose.legSwL} color={c.limb} width={14} foot="duck" />
         <Leg x={120} lift={pose.legR} swing={pose.legSwR} color={c.limb} width={14} foot="duck" />
         <g transform={`translate(${pose.head.dx} ${pose.head.dy * .5 + talkDy * .5}) rotate(${pose.head.tilt * .5 + talkTilt} 100 200)`}>
           <g transform="translate(0 26)">{headDecor}</g>
-          <ellipse cx={100} cy={150} rx={penguin ? 61 : 65} ry={92} fill={`url(#cbody-${recipe.name})`} {...O} />
-          <ellipse cx={100} cy={179} rx={43} ry={53} fill={`url(#cbelly-${recipe.name})`} />
+          <ellipse cx={100} cy={150} rx={penguin ? 61 : 65} ry={92} fill={c.body} {...O} />
+          <ellipse cx={100} cy={179} rx={43} ry={53} fill={c.belly} />
           {penguin ? <path d="M 100 88 C 65 49 43 81 53 117 L 68 164 Q 100 181 132 164 L 147 117 C 157 81 135 49 100 88 Z" fill={c.belly} /> : null}
           {bodyMarkings}{headFront}
         </g>
@@ -282,7 +301,6 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
       <g>
         {renderFeatures("back")}
         <MammalDetails recipe={recipe} pose={pose} layer="back" />
-        <BodyShade name={recipe.name} c={c} />
         <g transform={`translate(0 ${lag * 0.6})`}>
           <Tail {...pp(tailO)} />
         </g>
@@ -298,8 +316,8 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
         ) : null}
         <Leg x={78} lift={pose.legL} swing={pose.legSwL} color={c.limb} width={recipe.legWidth ?? 26} foot={recipe.foot ?? "round"} />
         <Leg x={122} lift={pose.legR} swing={pose.legSwR} color={c.limb} width={recipe.legWidth ?? 26} foot={recipe.foot ?? "round"} />
-        <ellipse cx={100} cy={192} rx={bodyWidth} ry={50} fill={`url(#cbody-${recipe.name})`} {...O} />
-        <ellipse cx={100} cy={200} rx={38} ry={32} fill={`url(#cbelly-${recipe.name})`} />
+        <ellipse cx={100} cy={192} rx={bodyWidth} ry={50} fill={c.body} {...O} />
+        <ellipse cx={100} cy={200} rx={38} ry={32} fill={c.belly} />
         <Sheen cx={76} cy={172} rx={20} ry={28} rot={-16} />
         {bodyMarkings}
         {recipe.rig === "shell" ? (
@@ -308,8 +326,8 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
         <g transform={`translate(${pose.head.dx} ${pose.head.dy + talkDy}) rotate(${pose.head.tilt + talkTilt} 100 150)`}>
           {headDecor}
           {HEAD_SHAPES[recipe.name]
-            ? <path d={HEAD_SHAPES[recipe.name]} fill={`url(#cbody-${recipe.name})`} {...O} />
-            : <circle cx={100} cy={96} r={68} fill={`url(#cbody-${recipe.name})`} {...O} />}
+            ? <path d={HEAD_SHAPES[recipe.name]} fill={c.body} {...O} />
+            : <circle cx={100} cy={96} r={68} fill={c.body} {...O} />}
           <Sheen cx={72} cy={76} rx={17} ry={24} rot={-18} />
           {showFace && recipe.name === "bunny" ? (
             <path d="M 100 114 C 84 104 69 114 75 128 C 80 141 92 140 100 136 C 108 140 120 141 125 128 C 131 114 116 104 100 114 Z" fill={c.belly} opacity={0.8} />
@@ -335,7 +353,7 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
         <div style={{ position: "absolute", left: (120 + pose.x) * k - shadowRx, top: 304 * k - shadowRy, width: shadowRx * 2, height: shadowRy * 2, borderRadius: "50%", background: "#2f2438", opacity: shadowOpacity }} />
       ) : null}
       <svg viewBox={`${RIG_VB.x} ${RIG_VB.y} ${RIG_VB.w} ${RIG_VB.h}`} width={width} height={height} style={{ overflow: "visible", position: "absolute", left: 0, top: 0 }}>
-        <g transform={`translate(${100 + pose.x} 250) rotate(${pose.lean}) scale(${flipX * pose.sx} ${pose.sy}) translate(-100 -250) translate(0 ${pose.y})`}>{body}</g>
+        <g transform={`translate(${100 + pose.x} 250) rotate(${pose.lean}) scale(${flipX * pose.sx} ${pose.sy}) translate(-100 -250) translate(0 ${pose.y})`}>{STORYBOOK_KINDS.has(recipe.name) ? body : <StorybookPaint recipe={recipe} uid={uid}>{body}</StorybookPaint>}</g>
       </svg>
     </div>
   );

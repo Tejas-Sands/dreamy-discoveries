@@ -59,6 +59,7 @@ export type SceneKind =
 
 export type TransitionKind = "pop" | "slide" | "iris" | "wipe" | "fade";
 export type CameraKind = "still" | "zoom-in" | "zoom-out" | "pan";
+export type SceneDirection = "dialogue" | "demonstration" | "thinking" | "celebration" | "lullaby" | "tender";
 
 export type SfxName =
   | "pop"
@@ -145,10 +146,13 @@ export interface Gag {
   side?: "left" | "right";
   /** seconds after the scene starts */
   atSec: number;
+  /** Director-generated timing may move into a speech gap; authored timing stays fixed. */
+  auto?: boolean;
 }
 
 export interface Scene {
   kind?: SceneKind;
+  direction?: SceneDirection;
   background: BackgroundKind;
   character: CharacterKind;
   /** an optional friend standing on the right */

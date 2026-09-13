@@ -25,7 +25,7 @@ interface FaceParams {
   wavy?: boolean;
 }
 
-const FACES: Record<Emotion, FaceParams> = {
+export const FACES: Record<Emotion, FaceParams> = {
   happy: { eyeScale: 1, pupil: 1, lid: 0, browShow: false, browDy: 0, browAngle: 0, mouthW: 34, curve: 16, open: 0.05, blush: 1 },
   excited: { eyeScale: 1.1, pupil: 1.1, lid: 0, browShow: true, browDy: -7, browAngle: 0, mouthW: 38, curve: 18, open: 0.45, blush: 1.1, sparkle: true },
   sad: { eyeScale: 0.95, pupil: 1, lid: 0.28, browShow: true, browDy: -2, browAngle: 18, mouthW: 26, curve: -10, open: 0.02, blush: 0.4, tear: true },
@@ -83,9 +83,9 @@ export const Face: React.FC<FaceProps> = ({
   uid,
 }) => {
   const f = FACES[emotion] ?? FACES.happy;
-  const rx = 14 * f.eyeScale * eyeSize;
-  const ry = 16 * f.eyeScale * eyeSize;
-  const pr = 9 * f.pupil * eyeSize;
+  const rx = 15 * f.eyeScale * eyeSize;
+  const ry = 19 * f.eyeScale * eyeSize;
+  const pr = 12 * f.pupil * eyeSize;
   const lx = (f.lookX ?? 0) + look.dx;
   const ly = (f.lookY ?? 0) + look.dy;
   const cx = 100 + mouthDx;
@@ -124,9 +124,9 @@ export const Face: React.FC<FaceProps> = ({
             <Heart x={ex + lx * 0.4} y={eyeY + ly * 0.4} r={pr * 1.05} />
           ) : (
             <>
-              <circle cx={ex + lx * 0.5 + side * 0} cy={eyeY + 2 + ly * 0.5} r={pr} fill={OUTLINE} />
-              <circle cx={ex + lx * 0.5 - pr * 0.35} cy={eyeY + 2 + ly * 0.5 - pr * 0.4} r={pr * 0.32} fill="#ffffff" />
-              <circle cx={ex + lx * 0.5 + pr * 0.35} cy={eyeY + 2 + ly * 0.5 + pr * 0.4} r={pr * 0.14} fill="#ffffff" />
+              <ellipse cx={ex + lx * 0.5} cy={eyeY + 1 + ly * 0.5} rx={pr} ry={pr * 1.3} fill={`url(#${uid}-iris)`} />
+              <circle cx={ex + lx * 0.5 - pr * 0.35} cy={eyeY + 2 + ly * 0.5 - pr * 0.4} r={pr * 0.34} fill="#ffffff" />
+              <circle cx={ex + lx * 0.5 + pr * 0.35} cy={eyeY + 2 + ly * 0.5 + pr * 0.4} r={pr * 0.16} fill="#ffffff" />
               {sockets ? <circle cx={ex + lx * 0.5} cy={eyeY + 2 + ly * 0.5} r={pr + 2} fill="none" stroke={OUTLINE} strokeWidth={4.5} /> : null}
             </>
           )}
@@ -190,8 +190,8 @@ export const Face: React.FC<FaceProps> = ({
             <path d={path} />
           </clipPath>
         </defs>
-        <path d={path} fill="#5a2340" stroke={OUTLINE} strokeWidth={4} strokeLinejoin="round" />
-        <ellipse cx={cx} cy={bottom - 2} rx={w * 0.32} ry={open * 11 + 3} fill="#ff7c9c" clipPath={`url(#${clipId})`} />
+        <path d={path} fill="#765066" stroke={OUTLINE} strokeWidth={4} strokeLinejoin="round" />
+        <ellipse cx={cx} cy={bottom - 2} rx={w * 0.32} ry={open * 11 + 3} fill="#e9a0af" clipPath={`url(#${clipId})`} />
         {/* tiny rounded upper teeth — only when mouth is open enough and not for every emotion */}
         {open > 0.25 && emotion !== "surprised" ? (
           <>
@@ -206,10 +206,14 @@ export const Face: React.FC<FaceProps> = ({
   const exL = 100 - eyeGap / 2;
   const exR = 100 + eyeGap / 2;
   return (
-    <g>
+    <g aria-label={`${emotion} face`}>
+      <defs>
+        <radialGradient id={`${uid}-iris`} cx=".35" cy=".2"><stop stopColor="#867397"/><stop offset=".45" stopColor="#55445f"/><stop offset="1" stopColor="#342e49"/></radialGradient>
+        <radialGradient id={`${uid}-blush`}><stop stopColor="#ec9ca4" stopOpacity=".72"/><stop offset="1" stopColor="#efb39c" stopOpacity="0"/></radialGradient>
+      </defs>
       {/* blush */}
-      {eyeGap !== 0 ? <ellipse cx={exL - 18} cy={mouthY - 10} rx={13} ry={8} fill="#ff8fa8" opacity={0.6 * f.blush} /> : null}
-      <ellipse cx={exR + 18} cy={mouthY - 10} rx={13} ry={8} fill="#ff8fa8" opacity={0.6 * f.blush} />
+      {eyeGap !== 0 ? <ellipse cx={exL - 10} cy={mouthY - 10} rx={14} ry={10} fill={`url(#${uid}-blush)`} opacity={f.blush} /> : null}
+      <ellipse cx={exR + 10} cy={mouthY - 10} rx={14} ry={10} fill={`url(#${uid}-blush)`} opacity={f.blush} />
       {eyeGap !== 0 ? eye(exL, -1) : null}
       {eye(exR, 1)}
       {eyeGap !== 0 ? brow(exL, -1) : null}

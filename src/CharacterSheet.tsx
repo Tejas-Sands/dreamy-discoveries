@@ -1,9 +1,10 @@
 import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { loadFont } from "@remotion/google-fonts/Fredoka";
 import type { Action, Emotion } from "./lib/types";
-import { Character, getRecipe } from "./components/characters/Character";
+import { Character, characterBox } from "./components/characters/Character";
 import { CHARACTER_NAMES } from "./generated/registry";
+import cast from "../library/cast.json";
 
 const { fontFamily } = loadFont();
 
@@ -15,29 +16,42 @@ const ACTIONS: Action[] = ["idle", "wave", "jump", "clap", "dance", "spin", "poi
 const DANCE_RIGS = ["bear", "owl", "fish", "star", "turtle", "giraffe"];
 
 /** A reusable visual check of the main cast's clothing, gestures and speaking faces. */
-export const CastPreview: React.FC = () => {
+export const CastPreview: React.FC<{page?: number; still?: boolean}> = ({page, still = false}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const beat = Math.floor(frame / (3 * fps)) % 4;
   const action: Action = (["idle", "wave", "idle", "dance"] as const)[beat];
   const actionT = (frame % (3 * fps)) / fps;
   const mouth = beat === 2 ? Math.max(0, Math.sin(actionT * 19)) * 0.7 : 0;
+  const library = page !== undefined;
+  const mainKinds = new Set(cast.members.map(member => member.kind));
+  const members = library ? KINDS.filter(kind => !mainKinds.has(kind))
+    .slice(page * 8, (page + 1) * 8).map(kind => ({kind, name: kind[0].toUpperCase() + kind.slice(1)})) : cast.members;
   return (
-    <AbsoluteFill style={{ background: "#e6f1f5", fontFamily, padding: "28px 48px", color: "#3d3542" }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-        <div style={{ fontSize: 40, fontWeight: 600 }}>Sunny Meadow · character studio</div>
-        <div style={{ fontSize: 25 }}>{["Resting pose", "Wave", "Talking", "Dance"][beat]}</div>
+    <AbsoluteFill style={{ background: "#e6f1f5", fontFamily, padding: "28px 48px", color: "#6a577d" }}>
+      <Img src={staticFile("brand/sunny-meadow.png")} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity: .55 }}/>
+      <div style={{ position: "relative", display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+        <div style={{ fontSize: 44, fontWeight: 600 }}>{library ? `The storybook library · ${(page ?? 0) + 1} / 4` : "Meet your Sunny Meadow friends"}</div>
+        <div style={{ fontSize: 28 }}>{["A little hello", "Wave with us!", "Let's tell a story", "Time to dance!"][beat]}</div>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridTemplateRows: "repeat(2, 1fr)", gap: 18, flex: 1, marginTop: 20 }}>
-        {["bunny", "bear", "duck", "fox", "turtle", "owl"].map((kind, seed) => (
-          <div key={kind} style={{ background: "#fffaf2", borderRadius: 28, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-end", paddingBottom: 12 }}>
-            <Character kind={kind} action={action} actionT={actionT} emotion={beat === 3 ? "excited" : "happy"} mouth={mouth} width={250} seed={seed} />
-            <div style={{ fontSize: 26 }}>{getRecipe(kind).words?.name} <span style={{ opacity: 0.55 }}>· {kind}</span></div>
+      <div style={{ position: "relative", display: "grid", gridTemplateColumns: `repeat(${library ? 4 : 3}, 1fr)`, gridTemplateRows: "repeat(2, 1fr)", gap: 18, flex: 1, marginTop: 20 }}>
+        {members.map(({kind,name}, seed) => (
+          <div key={kind} style={{ position: "relative", background: "linear-gradient(145deg, #fffaf3e8, #f1e5f2c9)", border: "3px solid #fffaf0", borderRadius: 32 }}>
+            <div style={{position:"absolute", ...characterBox(library ? 217 : 295, 386, library ? 285 : 340)}}>
+              <Character kind={kind} action={action} actionT={actionT} emotion={beat === 3 ? "excited" : "happy"} mouth={mouth} width={library ? 285 : 340} seed={seed} still={still} />
+            </div>
+            <div style={{ position: "absolute", bottom: 17, left: 0, right: 0, textAlign: "center", fontSize: 32, fontWeight: 500 }}>{name}</div>
           </div>
         ))}
       </div>
     </AbsoluteFill>
   );
+};
+
+export const LibraryPreview: React.FC<{still?: boolean}> = ({still}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  return <CastPreview page={Math.floor(frame / (12 * fps))} still={still}/>;
 };
 
 export const CharacterSheet: React.FC<{ mode: "species" | "emotions" | "actions" | "dances"; kind: string; animate?: boolean }> = ({ mode, kind, animate = false }) => {

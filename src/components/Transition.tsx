@@ -39,14 +39,15 @@ export const SceneTransition: React.FC<{ kind: TransitionKind; frames: number; c
 export const Camera: React.FC<{
   kind: CameraKind;
   duration: number;
+  frameOffset?: number;
   shake?: number;
   punch?: number;
   /** extra zoom (1 = none) around `origin` (px) */
   zoom?: number;
   origin?: { x: number; y: number };
   children: React.ReactNode;
-}> = ({ kind, duration, shake = 0, punch = 0, zoom = 1, origin = { x: 960, y: 620 }, children }) => {
-  const frame = useCurrentFrame();
+}> = ({ kind, duration, frameOffset = 0, shake = 0, punch = 0, zoom = 1, origin = { x: 960, y: 620 }, children }) => {
+  const frame = Math.max(0,useCurrentFrame()+frameOffset);
   const k = Math.min(1, frame / Math.max(1, duration));
   let scale = 1;
   let tx = 0;

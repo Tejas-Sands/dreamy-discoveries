@@ -28,6 +28,7 @@ import { extractVox, normalizeVox, VOX_PRE_SEC, VOX_POST_SEC } from "./vox.mjs";
 import { hintCharacter, hintBackground } from "./hints.mjs";
 import { saveRecipe } from "./library.mjs";
 import { castMembers, castKinds, castOrder } from "./cast.mjs";
+import { sceneDirection } from "../../src/lib/sceneDirection.mjs";
 
 /** the Sunny Meadow universe — the species that may appear on screen (plus the legacy zoo for old samples) */
 const UNIVERSE_KINDS = castKinds();
@@ -298,12 +299,14 @@ function normalizeScene(raw, main) {
     scene.extras = undefined; // the Director decides below
   }
   if (scene.gag && typeof scene.gag === "object") {
+    const auto = scene.gag.auto;
     const kind = scene.gag.kind === "flyby" ? "flyby" : "peek";
     const side = scene.gag.side === "left" ? "left" : "right";
-    const atSec = Math.max(0.5, Math.min(20, Number(scene.gag.atSec) || 2.2));
+    const atSec = typeof scene.gag.atSec === "number" && Number.isFinite(scene.gag.atSec) && scene.gag.atSec >= 0 ? scene.gag.atSec : 2.2;
     scene.gag = kind === "flyby"
       ? { kind, emoji: typeof scene.gag.emoji === "string" && scene.gag.emoji.trim() ? scene.gag.emoji.trim().slice(0, 4) : flybyFor(scene.background), side, atSec }
       : { kind, character: resolveCharacter(scene.gag.character, "monkey"), side, atSec };
+    if (typeof auto === "boolean") scene.gag.auto = auto;
   }
   if (scene.question && typeof scene.question === "object") {
     const a = scene.question.answer;
@@ -378,7 +381,7 @@ function partyGuests(script, scene, si, count, main) {
   for (const s of script.scenes.slice(0, si)) {
     for (const k of [s.secondCharacter, s.character, s.gag?.character]) if (k && !onScreen.has(k) && !seen.includes(k)) seen.push(k);
   }
-  const pool = [...seen, ...castOrder()].filter((k, i, arr) => !onScreen.has(k) && arr.indexOf(k) === i);
+  const pool = [...seen, ...castOrder()].filter((k, i, arr) => UNIVERSE_KINDS.includes(k) && !onScreen.has(k) && arr.indexOf(k) === i);
   // rotate so consecutive parties don't always show the same guests
   const start = pool.length ? si % pool.length : 0;
   return [...pool.slice(start), ...pool.slice(0, start)].slice(0, count);
@@ -503,12 +506,14 @@ export function directScript(input, opts = {}) {
   script.scenes.forEach((scene, si) => {
     scene.kind = inferKind(scene, script, choruses);
     const isQuestion = scene.kind === "question";
+    scene.direction = sceneDirection(scene, script);
+    const quiet = ["thinking", "lullaby", "tender"].includes(scene.direction);
     // reprise number of this chorus (0 = first time): the moves change every time it comes back
     const chorusKey = scene.kind === "chorus" ? scene.lines.map((l) => norm(l.text)).join("|") : null;
     const reprise = chorusKey ? chorusSeen.get(chorusKey) ?? 0 : 0;
     if (chorusKey) chorusSeen.set(chorusKey, reprise + 1);
     const upbeatKind = isQuestion || scene.kind === "chorus" || scene.kind === "moral";
-    if (!scene.energy) scene.energy = upbeatKind ? "upbeat" : "calm";
+    if (!scene.energy) scene.energy = !quiet && upbeatKind ? "upbeat" : "calm";
 
     // a friend mentioned by species OR by cast name ("Taffy asked Ben…") gets to stand on the right
     if (script.type === "story" && scene.secondCharacter === undefined && scene.character !== "none") {
@@ -577,13 +582,12 @@ export function directScript(input, opts = {}) {
       if (!line.action) {
         line.action =
           isPraise ? "cheer"
-          : isQuestion ? (inferAction(line.text) ?? "point")
-          : inferAction(line.text) ??
-            scene.action ??
+          : scene.action ?? (quiet ? (scene.direction === "lullaby" ? "sleep" : scene.direction === "thinking" ? "think" : "idle") : null) ??
+          inferAction(line.text) ??
             (scene.kind === "chorus" || scene.kind === "moral" ? "dance"
               : script.type === "story" ? STORY_CYCLE[(si + li) % STORY_CYCLE.length]
               : VERSE_CYCLE[(si * 2 + li) % VERSE_CYCLE.length]);
-        if (reprise > 0) {
+        if (reprise > 0 && !quiet && !scene.action) {
           // same words, new moves: a chorus that comes back is danced differently each time
           if (line.action === "dance") line.action = DANCE_MOVES[(reprise + li) % DANCE_MOVES.length];
           else if (line.action === "think") line.action = ["think", "look", "point"][reprise % 3];
@@ -618,7 +622,8 @@ export function directScript(input, opts = {}) {
     // transitions + camera
     if (!scene.transition) {
       scene.transition =
-        si === 0 ? "pop"
+        quiet ? "fade"
+        : si === 0 ? "pop"
         : scene.kind === "moral" ? "pop"
         : scene.kind === "chorus" ? ["pop", "iris", "wipe"][chorusTransitionAlt++ % 3]
         : isQuestion ? "iris"
@@ -626,27 +631,27 @@ export function directScript(input, opts = {}) {
     }
     if (!scene.camera) {
       scene.camera = scene.energy === "upbeat" ? ["still", "pan", "still", "zoom-out"][upbeatCameraAlt++ % 4] : ["zoom-in", "pan", "zoom-out"][cameraAlt++ % 3];
-      if (isQuestion) scene.camera = "zoom-in";
+      if (quiet) scene.camera = "still";
     }
 
     // pattern interrupts every few scenes: a peek-a-boo from one edge, or something flying past
     // (set "gag": false to switch it off for a scene)
     if (scene.gag && typeof scene.gag === "object") {
       lastGagScene = si;
-    } else if (scene.gag === false) {
+    } else if (scene.gag !== undefined) {
       scene.gag = null;
     } else {
       const longEnough = scene.lines.length >= 3 || scene.lines.reduce((a, l) => a + (l.durationSec ?? 2.2), 0) >= 6;
       const eligible =
-        longEnough && scene.character !== "none" && si - lastGagScene >= 3 &&
+        !quiet && longEnough && scene.character !== "none" && si - lastGagScene >= 3 &&
         scene.kind !== "lesson" && scene.kind !== "moral" && scene.kind !== "question";
       if (eligible) {
         const peekOk = scene.energy === "calm" && !scene.secondCharacter;
         const flybyTurn = gagAlt++ % 2 === 1;
         scene.gag =
           peekOk && !flybyTurn
-            ? { kind: "peek", character: otherSpecies([scene.character, main.kind, scene.secondCharacter], peekCount++), side: peekCount % 2 ? "right" : "left", atSec: 2.2 }
-            : { kind: "flyby", emoji: flybyFor(scene.background, flybyCount++), side: si % 2 ? "left" : "right", atSec: 1.6 };
+            ? { kind: "peek", character: otherSpecies([scene.character, main.kind, scene.secondCharacter], peekCount++), side: peekCount % 2 ? "right" : "left", atSec: 2.2, auto: true }
+            : { kind: "flyby", emoji: flybyFor(scene.background, flybyCount++), side: si % 2 ? "left" : "right", atSec: 1.6, auto: true };
         lastGagScene = si;
       } else {
         scene.gag = null;
@@ -659,14 +664,14 @@ export function directScript(input, opts = {}) {
       const chantScene = scene.kind === "moral" && scene.energy === "upbeat";
       const partyScene = scene.kind === "chorus" || chantScene || (finale && scene.energy === "upbeat" && !isQuestion);
       const calloutFree = !scene.lines.some((l) => l.callout);
-      scene.extras = partyScene && scene.character !== "none" ? partyGuests(script, scene, si, calloutFree && !scene.secondCharacter ? 2 : 1, main) : null;
+      scene.extras = !quiet && partyScene && scene.character !== "none" ? partyGuests(script, scene, si, calloutFree && !scene.secondCharacter ? 2 : 1, main) : null;
     }
   });
 
   script.stars = starIndex > 0 ? { total: starIndex } : null;
 
   // ── music ──
-  if (script.music === "none" || script.music === false) {
+  if (script.music === "none" || script.music === false || script.music === null) {
     script.music = null;
   } else if (typeof script.music === "string") {
     const MOODS = { bouncy: { file: "bouncy.wav", bpm: 120, mood: "bouncy" }, story: { file: "story.wav", bpm: 96, mood: "story" }, lullaby: { file: "lullaby.wav", bpm: 72, mood: "lullaby" } };
