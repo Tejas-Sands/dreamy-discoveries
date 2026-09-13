@@ -5,14 +5,14 @@
  * `node scripts/plan.mjs --verify-timing`).
  */
 export const FPS = 30;
-export const T = { INTRO_MIN: 3.4, LINE_GAP: 0.3, SCENE_PAD: 0.55, REVEAL: 1.7, END_MIN: 5, DEFAULT_LINE: 2.2 };
+export const T = { INTRO_MIN: 3.4, INTRO_SPEAK_AT: 1.0, COUNTDOWN: 1.9, LINE_GAP: 0.3, SCENE_PAD: 0.55, REVEAL: 1.7, END_MIN: 5, DEFAULT_LINE: 2.2 };
 const toFrames = (sec) => Math.round(sec * FPS);
-const lineFrames = (line) => toFrames((line.durationSec ?? T.DEFAULT_LINE) + T.LINE_GAP);
+const lineFrames = (line) => toFrames((line.voxPreSec ?? 0) + (line.durationSec ?? T.DEFAULT_LINE) + T.LINE_GAP + (line.voxPostSec ?? 0));
 
 /** total frames of the composition for this script (same as computeSchedule(script).total) */
 export function estimateFrames(script) {
   const introSpeech = script.intro?.durationSec ?? 0;
-  let cursor = toFrames(Math.max(T.INTRO_MIN, 1.0 + introSpeech + 0.9));
+  let cursor = toFrames(Math.max(T.INTRO_MIN, T.INTRO_SPEAK_AT + introSpeech + 0.4 + T.COUNTDOWN));
   for (const scene of script.scenes ?? []) {
     const asked = scene.lines.filter((l) => l.role !== "praise");
     const praise = scene.lines.filter((l) => l.role === "praise");

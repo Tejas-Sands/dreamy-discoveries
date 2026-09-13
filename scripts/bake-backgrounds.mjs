@@ -15,7 +15,7 @@ const OUT = path.join(ROOT, "public", "baked");
 const MANIFEST = path.join(OUT, "manifest.json");
 
 function hashFor(name) {
-  const parts = fs.readFileSync(path.join(ROOT, "src", "components", "backgrounds", "parts.tsx"), "utf8");
+  const parts = ["src/components/backgrounds/parts.tsx", "src/components/backgrounds/Background.tsx", "src/lib/palettes.ts", "src/Bake.tsx"].map((file) => fs.readFileSync(path.join(ROOT, file), "utf8")).join("\n");
   return crypto.createHash("sha1").update(JSON.stringify(BACKGROUND_RECIPES[name]) + parts).digest("hex").slice(0, 8);
 }
 
@@ -46,10 +46,7 @@ async function main() {
       console.log(`[bake] ${file}`);
     }
   }
-  // drop stale files
-  for (const f of fs.readdirSync(OUT)) {
-    if (f.endsWith(".png") && !Object.values(manifest).includes(f)) fs.unlinkSync(path.join(OUT, f));
-  }
+  // Keep previous content-addressed scenery; existing cached assets are permanent.
   fs.writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2));
   console.log(`[bake] ${baked} baked, ${names.length - baked} cached → public/baked/manifest.json`);
 }

@@ -3,32 +3,52 @@
   "emoji": "🐨",
   "rig": "biped",
   "colors": {
-    "body": "#a9b0bd",
-    "belly": "#e6e9ef",
-    "limb": "#8f97a5",
-    "inner": "#f5c6d0"
+    "body": "#a2abb5",
+    "belly": "#d5dbe0",
+    "limb": "#a2abb5",
+    "accent": "#58626e",
+    "dark": "#40333b"
   },
-  "ears": "round",
-  "earOptions": {
-    "r": 28,
-    "y": 60,
-    "x": 42
-  },
+  "ears": "big",
   "tail": "none",
   "features": [
     "koalaNose"
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "bow",
+      "color": "#7fa661",
+      "x": 100,
+      "y": 160
+    }
+  ],
   "face": {
-    "mouthY": 136
+    "eyeGap": 65,
+    "eyeY": 92,
+    "mouthY": 144,
+    "eyeSize": 0.9
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Kobi",
+    "name": "Kevin",
     "one": "koala",
     "plural": "koalas",
     "verb": "climb",
     "verbs": "climbs",
     "verbing": "climbing",
-    "home": "forest",
+    "home": "eucalyptus tree",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#a2abb5"
+  },
+  "earOptions": {
+    "rx": 29,
+    "ry": 30,
+    "x": 59,
+    "y": 64,
+    "inner": "#d8d7df"
   }
 }

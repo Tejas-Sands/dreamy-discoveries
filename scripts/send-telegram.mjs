@@ -9,21 +9,17 @@
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { readCalendar, readPublicationState, findSlot, publicationFor, uploadKeyboard } from "./lib/calendar.mjs";
+import { createTelegramClient } from "./lib/telegram-api.mjs";
+import { estimateVideoSec } from "./lib/estimate.mjs";
 import { loadDotEnv, parseArgs, readScript, resolveSlug, OUT_DIR, ROOT } from "./lib/common.mjs";
 
 loadDotEnv();
 
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-const API = `https://api.telegram.org/bot${TOKEN}`;
-const MAX_UPLOAD_BYTES = 49 * 1024 * 1024;
-
-async function tg(method, form) {
-  const res = await fetch(`${API}/${method}`, { method: "POST", body: form });
-  const data = await res.json();
-  if (!data.ok) throw new Error(`[telegram] ${method} failed: ${JSON.stringify(data).slice(0, 300)}`);
-  return data;
-}
+const MAX_UPLOAD_BYTES = 47 * 1024 * 1024;
+const tg = TOKEN ? createTelegramClient(TOKEN) : null;
 
 function fileBlob(filePath, type) {
   return new Blob([fs.readFileSync(filePath)], { type });
@@ -32,6 +28,7 @@ function fileBlob(filePath, type) {
 async function main() {
   if (!TOKEN || !CHAT_ID) {
     console.log("[telegram] TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set — skipping delivery");
+    if (process.env.GITHUB_ACTIONS) throw new Error("Telegram delivery requires both configured secrets");
     return;
   }
   const args = parseArgs();
@@ -43,10 +40,17 @@ async function main() {
   const metaPath = path.join(OUT_DIR, `${slug}.metadata.txt`);
 
   const yt = script.youtube ?? {};
+  const slot = findSlot(readCalendar(), {slug});
+  const keyboard = slot && !args.preview && process.env.PREVIEW !== "true"
+    ? uploadKeyboard(slot.schedule_id, publicationFor(slot, readPublicationState()).publication_status === "uploaded", slug) : null;
+  const addButtons = form => { if (keyboard) form.append("reply_markup", JSON.stringify(keyboard)); };
+  const uploadNote = keyboard ? "\n\nAfter uploading to YouTube, tap the button below. Calendar sync usually takes about 5 minutes once enabled." : "";
   if (args["link-only"]) {
     const form = new FormData();
     form.append("chat_id", CHAT_ID);
     form.append("text", `🎞️ ${script.title}\n\nReady: ${args["release-url"] || process.env.RELEASE_URL || process.env.RUN_URL || "(see workflow artifacts)"}`);
+    if (keyboard) form.set("text", form.get("text") + uploadNote);
+    addButtons(form);
     await tg("sendMessage", form);
     if (fs.existsSync(thumbPath)) {
       const photo = new FormData();
@@ -66,14 +70,16 @@ async function main() {
 
   // Telegram's Bot API caps uploads at 50 MB. If the full render is bigger,
   // transcode a 720p review copy (Remotion bundles ffmpeg) and send that —
-  // the pristine 1080p stays in out/ and in the workflow artifacts.
+  // the pristine 1080p stays in out/episodes/ and in the workflow artifacts.
   if (size > MAX_UPLOAD_BYTES) {
     const previewPath = path.join(OUT_DIR, `${slug}.preview.mp4`);
     console.log(`[telegram] ${(size / 1024 / 1024).toFixed(0)} MB > 50 MB bot limit — making 720p review copy`);
+    const seconds = Math.max(1, estimateVideoSec(script));
+    const bitrate = Math.max(120, Math.min(1800, Math.floor((44 * 1024 * 1024 * 8 / seconds / 1000 - 96) * 0.94)));
     const res = spawnSync(
       "npx",
       ["remotion", "ffmpeg", "-i", videoPath, "-vf", "scale=1280:720", "-c:v", "libx264",
-       "-crf", "28", "-preset", "veryfast", "-c:a", "aac", "-b:a", "96k", "-y", previewPath],
+       "-b:v", `${bitrate}k`, "-maxrate", `${bitrate}k`, "-bufsize", `${bitrate * 2}k`, "-preset", "veryfast", "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", "-y", previewPath],
       { cwd: ROOT, stdio: ["ignore", "ignore", "inherit"] }
     );
     if (res.status === 0 && fs.statSync(previewPath).size <= MAX_UPLOAD_BYTES) {
@@ -87,7 +93,8 @@ async function main() {
     const form = new FormData();
     form.append("chat_id", CHAT_ID);
     form.append("video", fileBlob(sendPath, "video/mp4"), path.basename(sendPath));
-    form.append("caption", caption + previewNote);
+    form.append("caption", (caption + previewNote + uploadNote).slice(0, 1024));
+    addButtons(form);
     form.append("supports_streaming", "true");
     await tg("sendVideo", form);
     console.log(`[telegram] sent video (${(size / 1024 / 1024).toFixed(1)} MB)`);
@@ -99,6 +106,8 @@ async function main() {
       "text",
       `🎬 ${script.title} rendered, but even the preview is over Telegram's 50 MB bot limit.\nDownload it here: ${releaseUrl || runUrl}`
     );
+    if (keyboard) form.set("text", form.get("text") + uploadNote);
+    addButtons(form);
     await tg("sendMessage", form);
     console.log("[telegram] video too big for bot API — sent artifact link instead");
   }

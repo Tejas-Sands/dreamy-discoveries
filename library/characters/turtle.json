@@ -1,22 +1,33 @@
 {
   "name": "turtle",
-  "emoji": "🐢",
+  "emoji": "\ud83d\udc22",
   "rig": "shell",
   "colors": {
-    "body": "#7dcf7a",
-    "belly": "#d6f0c2",
-    "limb": "#6bbd68",
-    "accent": "#4e8f4b",
-    "dark": "#3e7a3c"
+    "body": "#81b962",
+    "belly": "#dec38a",
+    "limb": "#81b962",
+    "accent": "#507b40",
+    "dark": "#3c6533"
   },
   "ears": "none",
   "tail": "stub",
   "features": [
     "nostrils"
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "glasses",
+      "color": "#6b4a26"
+    }
+  ],
   "face": {
-    "mouthY": 130
+    "eyeGap": 58,
+    "mouthY": 130,
+    "eyeSize": 0.95
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
     "name": "Tilly",
     "one": "turtle",
@@ -24,7 +35,7 @@
     "verb": "crawl",
     "verbs": "crawls",
     "verbing": "crawling",
-    "home": "beach",
+    "home": "pond",
     "sound": null
   }
 }

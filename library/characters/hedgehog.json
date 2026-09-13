@@ -3,36 +3,47 @@
   "emoji": "🦔",
   "rig": "biped",
   "colors": {
-    "body": "#c9a27a",
-    "belly": "#ffe9cf",
-    "limb": "#a8865f",
-    "accent": "#6b4a2e"
+    "body": "#d8b88c",
+    "belly": "#efdbb5",
+    "limb": "#bc9571",
+    "accent": "#4a3324",
+    "dark": "#40333b"
   },
   "ears": "round",
-  "earOptions": {
-    "r": 12,
-    "y": 54,
-    "x": 58
-  },
   "tail": "none",
   "features": [
     {
-      "kind": "spikes",
-      "dense": 1
-    },
-    "blackNose"
+      "kind": "blackNose",
+      "y": 118
+    }
   ],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "mouthY": 130
+    "eyeGap": 37,
+    "eyeY": 98,
+    "mouthY": 136,
+    "eyeSize": 0.78
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Henry",
+    "name": "Spike",
     "one": "hedgehog",
     "plural": "hedgehogs",
     "verb": "roll",
     "verbs": "rolls",
     "verbing": "rolling",
-    "home": "forest",
+    "home": "garden",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#755643"
+  },
+  "earOptions": {
+    "r": 11,
+    "x": 68,
+    "y": 75,
+    "inner": "#e4af9f"
   }
 }

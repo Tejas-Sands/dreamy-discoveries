@@ -1,10 +1,14 @@
-/** Per-species words the templates need. Grows automatically when a recipe adds `words`. */
+/** Per-species words the templates need — restricted to the Sunny Meadow cast
+ *  (plus the sleepy star, a sky thing, kept only for the lullaby). */
 import { CHARACTER_RECIPES } from "../library.mjs";
+import { castMembers } from "../cast.mjs";
+
+const CAST_KINDS = new Set(castMembers().map((m) => m.kind));
 
 /** words per species come from library/characters/<kind>.json → "words" */
 export const HEROES = Object.fromEntries(
   Object.entries(CHARACTER_RECIPES)
-    .filter(([, r]) => r.words && r.words.name)
+    .filter(([kind, r]) => (CAST_KINDS.has(kind) || kind === "star") && r.words && r.words.name)
     .map(([kind, r]) => [kind, { ...r.words, emoji: r.emoji || "⭐" }])
 );
 

@@ -2,7 +2,7 @@
  * Join video-only chunks rendered on several runners + the audio track into the
  * final mp4 (stream copy, no re-encode), then thumbnail + metadata.
  *
- *   node scripts/stitch.mjs --slug S [--chunks out/chunks/S] [--audio out/S.aac] [--out out/S.mp4]
+ *   node scripts/stitch.mjs --slug S [--chunks out/chunks/S] [--audio out/episodes/S.aac] [--out out/episodes/S.mp4]
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -18,6 +18,7 @@ export function ffmpegBin() {
 }
 
 export function concat(chunkFiles, audioFile, outFile) {
+  fs.mkdirSync(path.dirname(outFile), { recursive: true });
   const list = path.join(path.dirname(outFile), `${path.basename(outFile, ".mp4")}.concat.txt`);
   fs.writeFileSync(list, chunkFiles.map((f) => `file '${path.resolve(f).replace(/'/g, "'\\''")}'`).join("\n") + "\n");
   const args = ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", list];
@@ -34,7 +35,7 @@ function main() {
   const args = parseArgs();
   const slug = resolveSlug(args);
   const script = readScript(slug);
-  const chunkDir = args.chunks || path.join(OUT_DIR, "chunks", slug);
+  const chunkDir = args.chunks || path.join(ROOT, "out", "chunks", slug);
   const audio = args.audio || path.join(OUT_DIR, `${slug}.aac`);
   const out = args.out || path.join(OUT_DIR, `${slug}.mp4`);
   const chunks = fs

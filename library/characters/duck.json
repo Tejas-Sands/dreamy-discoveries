@@ -1,21 +1,31 @@
 {
   "name": "duck",
-  "emoji": "🦆",
-  "rig": "biped",
+  "emoji": "\ud83e\udd86",
+  "rig": "bird",
   "colors": {
-    "body": "#ffd93d",
-    "belly": "#fff0a8",
-    "limb": "#ff9f1a"
+    "body": "#f7d868",
+    "belly": "#fff0b1",
+    "limb": "#f59a42",
+    "accent": "#f59a42",
+    "dark": "#326ba8"
   },
   "ears": "none",
   "tail": "feathers",
   "features": [
     "tuftTop"
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "sailorCollar",
+      "color": "#326ba8"
+    }
+  ],
   "face": {
-    "beak": true,
+    "eyeGap": 44,
     "mouthY": 122,
-    "eyeGap": 44
+    "eyeSize": 1.1,
+    "beak": true
   },
   "arm": "wing",
   "foot": "duck",

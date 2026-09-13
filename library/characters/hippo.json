@@ -3,34 +3,49 @@
   "emoji": "🦛",
   "rig": "biped",
   "colors": {
-    "body": "#9d8fd6",
-    "belly": "#d8d0f5",
-    "limb": "#8a7bc8",
-    "inner": "#ffc6d9"
+    "body": "#937db8",
+    "belly": "#b4a3d1",
+    "limb": "#937db8",
+    "accent": "#604d82",
+    "dark": "#40333b"
   },
   "ears": "round",
-  "earOptions": {
-    "r": 12,
-    "y": 44,
-    "x": 60
-  },
-  "tail": "thin",
+  "tail": "stub",
   "features": [
     "hippoSnout"
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "stripedBeanie",
+      "color": "#58a69a",
+      "stripe": "#ffffff"
+    }
+  ],
   "face": {
-    "eyeY": 84,
-    "mouthY": 142
+    "eyeGap": 64,
+    "eyeY": 92,
+    "mouthY": 144,
+    "eyeSize": 0.9
   },
-  "legWidth": 32,
+  "arm": "capsule",
+  "foot": "round",
   "words": {
     "name": "Hugo",
     "one": "hippo",
     "plural": "hippos",
-    "verb": "splash",
-    "verbs": "splashes",
-    "verbing": "splashing",
-    "home": "beach",
+    "verb": "wallow",
+    "verbs": "wallows",
+    "verbing": "wallowing",
+    "home": "river",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#937db8"
+  },
+  "earOptions": {
+    "r": 14,
+    "x": 53,
+    "y": 51
   }
 }

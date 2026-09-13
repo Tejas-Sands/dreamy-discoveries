@@ -3,33 +3,54 @@
   "emoji": "🐭",
   "rig": "biped",
   "colors": {
-    "body": "#b9b9c9",
-    "belly": "#e8e8f0",
-    "limb": "#a5a5b5",
-    "inner": "#ffc6d9"
+    "body": "#a4a8b5",
+    "belly": "#d6d9e0",
+    "limb": "#a4a8b5",
+    "accent": "#f2b1c8",
+    "dark": "#40333b"
   },
-  "ears": "round",
-  "earOptions": {
-    "r": 24,
-    "y": 60,
-    "x": 44
-  },
+  "ears": "big",
   "tail": "thin",
   "features": [
-    "pinkNose",
+    {
+      "kind": "pinkNose",
+      "y": 118
+    },
     "whiskers"
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "glasses",
+      "color": "#4a4a4a"
+    }
+  ],
   "face": {
-    "eyeGap": 44
+    "eyeGap": 45,
+    "eyeY": 92,
+    "mouthY": 137,
+    "eyeSize": 0.88
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Millie",
+    "name": "Squeaks",
     "one": "mouse",
     "plural": "mice",
     "verb": "scurry",
-    "verbs": "scurries",
+    "verbs": "scurrys",
     "verbing": "scurrying",
-    "home": "bedroom",
-    "sound": "squeak"
+    "home": "burrow",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#dba2b5"
+  },
+  "earOptions": {
+    "rx": 31,
+    "ry": 32,
+    "x": 48,
+    "y": 57,
+    "inner": "#e9b6c8"
   }
 }

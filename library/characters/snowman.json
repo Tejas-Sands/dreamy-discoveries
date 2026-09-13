@@ -1,39 +1,50 @@
 {
   "name": "snowman",
   "emoji": "⛄",
-  "rig": "bird",
+  "rig": "snowman",
   "colors": {
-    "body": "#ffffff",
-    "belly": "#ffffff",
-    "limb": "#8a5a33",
-    "dark": "#2f2438"
+    "body": "#f7fbff",
+    "belly": "#e3e3e3",
+    "limb": "#ffffff",
+    "accent": "#f27922",
+    "dark": "#40333b"
   },
   "ears": "none",
   "tail": "none",
   "features": [
-    "carrotNose",
-    "buttons"
+    "carrotNose"
   ],
+  "markings": [],
   "accessories": [
-    "topHat",
-    "scarf"
+    {
+      "kind": "topHat",
+      "color": "#2b3036",
+      "band": "#7b3d91"
+    },
+    {
+      "kind": "scarf",
+      "color": "#8c3636"
+    }
   ],
   "face": {
-    "eyeY": 112,
     "eyeGap": 44,
-    "mouthY": 146
+    "eyeY": 92,
+    "mouthY": 133,
+    "eyeSize": 0.9
   },
   "arm": "capsule",
-  "foot": "none",
-  "legWidth": 12,
+  "foot": "round",
   "words": {
     "name": "Frosty",
     "one": "snowman",
     "plural": "snowmen",
-    "verb": "wobble",
-    "verbs": "wobbles",
-    "verbing": "wobbling",
-    "home": "snow",
+    "verb": "melt",
+    "verbs": "melts",
+    "verbing": "melting",
+    "home": "winter wonderland",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#ffffff"
   }
 }

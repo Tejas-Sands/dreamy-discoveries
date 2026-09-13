@@ -3,6 +3,7 @@ import path from "node:path";
 
 /** write <slug>.metadata.txt (title/description/tags to paste into YouTube Studio) */
 export function writeMetadata(slug, script, outDir, extra = {}) {
+  fs.mkdirSync(outDir, { recursive: true });
   const yt = script.youtube ?? { title: script.title, description: "", tags: [] };
   const lines = [
     `TITLE:\n${yt.title}`,

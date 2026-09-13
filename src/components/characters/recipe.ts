@@ -2,9 +2,10 @@
  * A character recipe: everything needed to draw a species on the shared rig.
  * Recipes live in library/characters/<name>.json (hand-written, or proposed by
  * the LLM from this vocabulary and validated by the Director) and are bundled
- * through src/generated/registry.ts. New animals never need new drawing code.
+ * through src/generated/registry.ts. New anatomy belongs in SVG drawing code;
+ * recipes select the implemented shapes, colors and details.
  */
-export type Rig = "biped" | "fish" | "star" | "bird" | "shell" | "longNeck";
+export type Rig = "biped" | "fish" | "star" | "bird" | "shell" | "longNeck" | "tRex" | "whale" | "quadruped" | "insect" | "snowman" | "frog";
 
 export const EAR_KINDS = ["none", "round", "pointy", "long", "floppy", "big", "tuft"] as const;
 export type EarKind = (typeof EAR_KINDS)[number];
@@ -16,13 +17,14 @@ export const FEATURE_KINDS = [
   "snout", "pigSnout", "hippoSnout", "pinkNose", "blackNose", "koalaNose", "carrotNose", "beakSmall",
   "whiskers", "mask", "eyePatches", "nostrils", "headStripe", "tigerStripes", "mane", "wool", "hair",
   "horns", "hornUnicorn", "antennae", "spikes", "trunk", "tuftTop", "headCap", "wingsBack", "spout", "buttons",
+  "beeBands", "leaf", "bamboo",
 ] as const;
 export type FeatureKind = (typeof FEATURE_KINDS)[number];
 
 export const MARKING_KINDS = ["spots", "stripes"] as const;
 export type MarkingKind = (typeof MARKING_KINDS)[number];
 
-export const ACCESSORY_KINDS = ["bow", "partyHat", "topHat", "glasses", "scarf", "crown"] as const;
+export const ACCESSORY_KINDS = ["bow", "partyHat", "topHat", "glasses", "scarf", "crown", "bandana", "beanie", "collar", "vest", "necklace", "earmuffs", "headdress", "sailorCollar", "headphones", "saddle", "stripedBeanie"] as const;
 export type AccessoryKind = (typeof ACCESSORY_KINDS)[number];
 
 export interface RecipeColors {
@@ -66,7 +68,7 @@ export interface CharacterRecipe {
     sockets?: boolean;
   };
   arm?: "capsule" | "wing";
-  foot?: "round" | "duck" | "none";
+  foot?: "round" | "duck" | "hoof" | "none";
   legWidth?: number;
   /** words the AI-free templates use */
   words?: {

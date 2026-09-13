@@ -2,6 +2,10 @@ import type { KidsScript, Line } from "./types";
 
 export const FPS = 30;
 export const INTRO_MIN_SEC = 3.4;
+/** the greeting is spoken this long after the title card starts */
+export const INTRO_SPEAK_AT_SEC = 1.0;
+/** after the greeting: "Ready… set… GO!" (or "Story time!" / "Sleepy time!") before the first scene */
+export const COUNTDOWN_SEC = 1.9;
 export const LINE_GAP_SEC = 0.3;
 export const SCENE_PAD_SEC = 0.55;
 /** answer reveal (bubble pops, big answer, confetti) between the thinking pause and the praise line */
@@ -15,7 +19,11 @@ const DEFAULT_LINE_SEC = 2.2;
 export const toFrames = (sec: number) => Math.round(sec * FPS);
 
 export interface LineSlot {
-  from: number; // frames, relative to scene start
+  /** frames, relative to scene start, where the SPEECH starts (the slot itself starts `pre` frames earlier) */
+  from: number;
+  /** frames reserved before the speech for a start-of-line vocalization */
+  pre: number;
+  /** total frames of the slot measured from `from - pre` */
   duration: number;
   line: Line;
 }
@@ -41,15 +49,19 @@ export interface Schedule {
   total: number;
   /** absolute frame ranges where a voice is speaking (music ducks here) */
   voice: Array<[number, number]>;
+  /** absolute frame the countdown starts on the title card */
+  countdownFrom: number;
 }
 
-const lineFrames = (line: Line) => toFrames((line.durationSec ?? DEFAULT_LINE_SEC) + LINE_GAP_SEC);
+/** speech + gap, plus the room reserved for a recorded vocalization before / after it */
+const lineFrames = (line: Line) => toFrames((line.voxPreSec ?? 0) + (line.durationSec ?? DEFAULT_LINE_SEC) + LINE_GAP_SEC + (line.voxPostSec ?? 0));
+const preFrames = (line: Line) => toFrames(line.voxPreSec ?? 0);
 
 export function computeSchedule(script: KidsScript): Schedule {
   const voice: Array<[number, number]> = [];
   const introSpeech = script.intro?.durationSec ?? 0;
-  const intro = toFrames(Math.max(INTRO_MIN_SEC, 1.0 + introSpeech + 0.9));
-  if (introSpeech > 0) voice.push([toFrames(1.0), toFrames(1.0 + introSpeech)]);
+  const intro = toFrames(Math.max(INTRO_MIN_SEC, INTRO_SPEAK_AT_SEC + introSpeech + 0.4 + COUNTDOWN_SEC));
+  if (introSpeech > 0) voice.push([toFrames(INTRO_SPEAK_AT_SEC), toFrames(INTRO_SPEAK_AT_SEC + introSpeech)]);
 
   let cursor = intro;
   const scenes: SceneSlot[] = script.scenes.map((scene) => {
@@ -60,7 +72,8 @@ export function computeSchedule(script: KidsScript): Schedule {
     let local = 0;
     for (const line of asked) {
       const duration = lineFrames(line);
-      lines.push({ from: local, duration, line });
+      const pre = preFrames(line);
+      lines.push({ from: local + pre, pre, duration, line });
       local += duration;
     }
     let holdFrom = local;
@@ -75,7 +88,8 @@ export function computeSchedule(script: KidsScript): Schedule {
       praiseFrom = local;
       for (const line of praise) {
         const duration = lineFrames(line);
-        lines.push({ from: local, duration, line });
+        const pre = preFrames(line);
+        lines.push({ from: local + pre, pre, duration, line });
         local += duration;
       }
       local += toFrames(SCENE_PAD_SEC);
@@ -83,7 +97,8 @@ export function computeSchedule(script: KidsScript): Schedule {
       // non-question scenes keep praise-role lines in order (moral chant ending)
       for (const line of praise) {
         const duration = lineFrames(line);
-        lines.push({ from: local, duration, line });
+        const pre = preFrames(line);
+        lines.push({ from: local + pre, pre, duration, line });
         local += duration;
       }
       holdFrom = local;
@@ -103,7 +118,9 @@ export function computeSchedule(script: KidsScript): Schedule {
     slot.lines.sort((a, b) => a.from - b.from);
     for (const l of slot.lines) {
       const spoken = toFrames(l.line.durationSec ?? DEFAULT_LINE_SEC);
-      voice.push([cursor + l.from, cursor + l.from + spoken]);
+      const post = toFrames(l.line.voxPostSec ?? 0);
+      // the music ducks under the speech and under the recorded vocalizations around it
+      voice.push([cursor + l.from - l.pre, cursor + l.from + spoken + post]);
     }
     cursor += local;
     return slot;
@@ -115,7 +132,7 @@ export function computeSchedule(script: KidsScript): Schedule {
   if (outroSpeech > 0) voice.push([endFrom + toFrames(0.8), endFrom + toFrames(0.8 + outroSpeech)]);
   cursor += endDuration;
 
-  return { intro, scenes, endFrom, endDuration, total: cursor, voice };
+  return { intro, scenes, endFrom, endDuration, total: cursor, voice, countdownFrom: intro - toFrames(COUNTDOWN_SEC) };
 }
 
 /** music gain for a frame: ducks under speech, fades in/out at the ends */

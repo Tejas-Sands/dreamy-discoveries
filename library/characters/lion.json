@@ -3,38 +3,59 @@
   "emoji": "🦁",
   "rig": "biped",
   "colors": {
-    "body": "#f6c04a",
-    "belly": "#ffe5a8",
-    "limb": "#e9ad3a",
-    "inner": "#ffd48a",
-    "accent": "#e2802b"
+    "body": "#f2b544",
+    "belly": "#f7d894",
+    "limb": "#f2b544",
+    "accent": "#b87736",
+    "dark": "#40333b"
   },
   "ears": "round",
-  "earOptions": {
-    "r": 15,
-    "y": 44,
-    "x": 58
-  },
-  "tail": "curved",
-  "tailOptions": {
-    "width": 8,
-    "tuft": "#e2802b"
-  },
+  "tail": "thin",
   "features": [
-    "mane",
-    "snout"
+    {
+      "kind": "mane",
+      "color": "#b87736"
+    },
+    {
+      "kind": "snout",
+      "rx": 30,
+      "ry": 23,
+      "y": 123,
+      "color": "#ffe3a1"
+    }
+  ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "necklace",
+      "color": "#e8c338"
+    }
   ],
   "face": {
-    "mouthY": 130
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 130,
+    "eyeSize": 1
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
     "name": "Leo",
     "one": "lion",
     "plural": "lions",
-    "verb": "prowl",
-    "verbs": "prowls",
-    "verbing": "prowling",
-    "home": "meadow",
-    "sound": "roar"
+    "verb": "roar",
+    "verbs": "roars",
+    "verbing": "roaring",
+    "home": "savanna",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#f2b544",
+    "tuft": "#b87736"
+  },
+  "earOptions": {
+    "r": 16,
+    "x": 53,
+    "y": 56
   }
 }

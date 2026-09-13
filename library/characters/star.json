@@ -3,23 +3,36 @@
   "emoji": "⭐",
   "rig": "star",
   "colors": {
-    "body": "#ffd23f",
-    "belly": "#ffe27a",
-    "limb": "#ffc41a"
+    "body": "#f2c744",
+    "belly": "#fae38e",
+    "limb": "#f2c744",
+    "accent": "#d99a23",
+    "dark": "#40333b"
   },
+  "ears": "none",
+  "tail": "none",
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "eyeY": 124,
-    "eyeGap": 44,
-    "mouthY": 158
+    "eyeGap": 42,
+    "eyeY": 92,
+    "mouthY": 124,
+    "eyeSize": 0.85
   },
+  "arm": "capsule",
+  "foot": "none",
   "words": {
     "name": "Twinkle",
     "one": "star",
     "plural": "stars",
-    "verb": "twinkle",
-    "verbs": "twinkles",
-    "verbing": "twinkling",
-    "home": "night",
+    "verb": "shine",
+    "verbs": "shines",
+    "verbing": "shineing",
+    "home": "sky",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#f2c744"
   }
 }

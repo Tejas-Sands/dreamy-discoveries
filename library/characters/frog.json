@@ -1,33 +1,38 @@
 {
   "name": "frog",
   "emoji": "🐸",
-  "rig": "biped",
+  "rig": "frog",
   "colors": {
-    "body": "#6fd36a",
-    "belly": "#d6f7c6",
-    "limb": "#5cc257"
+    "body": "#6fc25d",
+    "belly": "#a2db95",
+    "limb": "#6fc25d",
+    "accent": "#438734",
+    "dark": "#40333b"
   },
   "ears": "none",
   "tail": "none",
-  "features": [
-    "nostrils"
-  ],
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "eyeY": 52,
-    "eyeGap": 56,
-    "sockets": true,
-    "mouthY": 132,
-    "eyeSize": 1.1
+    "eyeGap": 68,
+    "eyeY": 90,
+    "mouthY": 133,
+    "eyeSize": 1.14
   },
-  "legWidth": 30,
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Freddie",
-    "one": "froggy",
-    "plural": "froggies",
-    "verb": "jump",
-    "verbs": "jumps",
-    "verbing": "jumping",
-    "home": "forest",
-    "sound": "ribbit"
+    "name": "Freddy",
+    "one": "frog",
+    "plural": "frogs",
+    "verb": "leap",
+    "verbs": "leaps",
+    "verbing": "leaping",
+    "home": "pond",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#6fc25d"
   }
 }

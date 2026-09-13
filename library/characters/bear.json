@@ -1,23 +1,45 @@
 {
   "name": "bear",
-  "emoji": "🐻",
+  "emoji": "\ud83d\udc3b",
   "rig": "biped",
   "colors": {
-    "body": "#b98352",
-    "belly": "#eccb9f",
-    "limb": "#a8733f",
-    "inner": "#e6b888"
+    "body": "#ac7c55",
+    "belly": "#dfbc8b",
+    "limb": "#ac7c55",
+    "accent": "#5c361b",
+    "dark": "#8c3636",
+    "inner": "#e4b897"
   },
   "ears": "round",
-  "tail": "pom",
+  "tail": "stub",
   "features": [
-    "snout"
+    {
+      "kind": "snout",
+      "rx": 30,
+      "ry": 19,
+      "y": 121
+    }
   ],
-  "face": {
-    "mouthY": 130
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "scarf",
+      "color": "#945344"
+    }
+  ],
+  "earOptions": {
+    "r": 24,
+    "y": 46
   },
+  "face": {
+    "eyeGap": 56,
+    "mouthY": 130,
+    "eyeSize": 1.1
+  },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Bella",
+    "name": "Ben",
     "one": "bear",
     "plural": "bears",
     "verb": "stomp",

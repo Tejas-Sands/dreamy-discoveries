@@ -1,35 +1,27 @@
 {
   "name": "monkey",
-  "emoji": "🐵",
+  "emoji": "🐒",
   "rig": "biped",
   "colors": {
-    "body": "#a86b3f",
-    "belly": "#f2d3a8",
-    "limb": "#96582f"
+    "body": "#8c5b35",
+    "belly": "#d6a985",
+    "limb": "#8c5b35",
+    "accent": "#4a2c16",
+    "dark": "#40333b"
   },
   "ears": "round",
-  "earOptions": {
-    "r": 19,
-    "y": 96,
-    "x": 38
-  },
-  "tail": "long",
-  "features": [
-    {
-      "kind": "mask",
-      "rx": 44,
-      "ry": 38,
-      "y": 112
-    },
-    {
-      "kind": "nostrils",
-      "y": 116,
-      "dx": 6
-    }
-  ],
+  "tail": "none",
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "mouthY": 134
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 130,
+    "eyeSize": 0.95
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
     "name": "Milo",
     "one": "monkey",
@@ -37,7 +29,16 @@
     "verb": "swing",
     "verbs": "swings",
     "verbing": "swinging",
-    "home": "forest",
-    "sound": "ooh ooh"
+    "home": "jungle",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#8c5b35"
+  },
+  "earOptions": {
+    "x": 42,
+    "y": 84,
+    "r": 23,
+    "inner": "#d6a985"
   }
 }

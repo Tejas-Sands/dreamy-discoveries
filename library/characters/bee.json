@@ -1,41 +1,38 @@
 {
   "name": "bee",
   "emoji": "🐝",
-  "rig": "bird",
+  "rig": "insect",
   "colors": {
-    "body": "#ffd23f",
-    "belly": "#ffd23f",
-    "limb": "#2f2438",
-    "dark": "#2f2438"
+    "body": "#fce14b",
+    "belly": "#fce14b",
+    "limb": "#fce14b",
+    "accent": "#333333",
+    "dark": "#40333b"
   },
   "ears": "none",
   "tail": "none",
-  "features": [
-    "antennae",
-    {
-      "kind": "wingsBack",
-      "color": "#dff6ff"
-    }
-  ],
-  "markings": [
-    "stripes"
-  ],
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "eyeY": 112,
-    "eyeGap": 44,
-    "mouthY": 146
+    "eyeGap": 37,
+    "eyeY": 88,
+    "mouthY": 114,
+    "eyeSize": 0.86
   },
   "arm": "capsule",
-  "foot": "round",
-  "legWidth": 14,
+  "foot": "none",
   "words": {
-    "name": "Bizzy",
+    "name": "Buzz",
     "one": "bee",
     "plural": "bees",
-    "verb": "buzz",
-    "verbs": "buzzes",
-    "verbing": "buzzing",
-    "home": "meadow",
-    "sound": "buzz"
+    "verb": "fly",
+    "verbs": "flys",
+    "verbing": "flying",
+    "home": "hive",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#fce14b"
   }
 }

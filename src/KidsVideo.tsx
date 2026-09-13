@@ -1,22 +1,24 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig, type CalculateMetadataFunction } from "remotion";
 import { loadFont } from "@remotion/google-fonts/Fredoka";
 import type { Action, Emotion, KidsScript, Scene, SfxName } from "./lib/types";
-import { computeSchedule, musicVolume, toFrames, TRANSITION_FRAMES, type SceneSlot } from "./lib/timing";
+import { COUNTDOWN_SEC, computeSchedule, musicVolume, toFrames, TRANSITION_FRAMES, type SceneSlot } from "./lib/timing";
 import { getPalette, type Palette } from "./lib/palettes";
 import { CENTER_X, FRIEND_X, GROUND_Y, MAIN_X } from "./lib/layout";
 import { mouthAt } from "./lib/speech";
-import { easeOutBack, easeOutCubic } from "./lib/anim";
+import { beatPhase, easeInOutSine, easeOutBack, easeOutCubic, hop } from "./lib/anim";
 import { Background } from "./components/backgrounds/Background";
 import { Character, characterBox } from "./components/characters/Character";
 import { Karaoke } from "./components/Karaoke";
-import { Callout } from "./components/Callout";
+import { Callout, countTimes } from "./components/Callout";
 import { QuestionOverlay } from "./components/Question";
-import { Confetti, Floaters, Sparkles } from "./components/Particles";
+import { Confetti, Flash, Floaters, FlyBy, Ripple, Sparkles } from "./components/Particles";
 import { Camera, SceneTransition } from "./components/Transition";
 import { Sfx, SfxLoop } from "./components/Sfx";
 import { StarHud } from "./components/StarHud";
-import { EndCard, TitleCard } from "./components/Cards";
+import { Countdown, EndCard, TitleCard, hopIn } from "./components/Cards";
+import { MoralChant } from "./components/MoralChant";
+import { VoxAudio, laughMouth, voxAt, voxEvents } from "./components/Vox";
 import { fetchBaked, type BakedMap } from "./lib/baked";
 
 const { fontFamily } = loadFont();
@@ -51,8 +53,37 @@ export const calculateKidsVideoMetadata: CalculateMetadataFunction<KidsVideoProp
 
 const TRANSITION_SFX: Record<string, SfxName | null> = { pop: "pop", slide: "slide", iris: "whoosh", wipe: "whoosh", fade: null };
 
+/** main character width per layout; friends and extras are a bit smaller */
+const MAIN_W = 450;
+const FRIEND_W = 370;
+const EXTRA_W = 270;
+const EXTRA_X = [230, 1700] as const;
+/** seconds a character takes to hop in from the edge at the start of a scene */
+const ENTER_SEC = 0.9;
+/** per-line "shot" zoom for story scenes (odd lines are a closer shot on the speaker) */
+const SHOT_ZOOM = 1.13;
+
+/** the scene is a "cut" (new place or new people) — characters hop in instead of just being there */
+function isCut(scene: Scene, prev: Scene | undefined): boolean {
+  if (!prev) return true;
+  return prev.background !== scene.background || prev.character !== scene.character || scene.kind === "chorus" || scene.kind === "question";
+}
+
+/** flyby emoji that fits the place, unless the gag names one */
+function flybyEmoji(scene: Scene): string {
+  if (scene.gag?.emoji) return scene.gag.emoji;
+  const bg = scene.background;
+  if (/underwater|pond|beach/.test(bg)) return "🐠";
+  if (/night|space|campfire/.test(bg)) return "🌠";
+  if (/snow/.test(bg)) return "❄️";
+  if (/candy|circus|playground|city|park/.test(bg)) return "🎈";
+  if (/garden|meadow|farm|forest|jungle|autumn/.test(bg)) return "🦋";
+  return "🐦";
+}
+
 const SceneView: React.FC<{
   scene: Scene;
+  prev?: Scene;
   slot: SceneSlot;
   palette: Palette;
   slug: string;
@@ -60,7 +91,7 @@ const SceneView: React.FC<{
   lead: number;
   index: number;
   baked?: BakedMap;
-}> = ({ scene, slot, palette, slug, script, lead, index, baked }) => {
+}> = ({ scene, prev, slot, palette, slug, script, lead, index, baked }) => {
   const rawFrame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const frame = rawFrame - lead; // true scene clock (negative during the transition overlap)
@@ -68,27 +99,46 @@ const SceneView: React.FC<{
   const bpm = script.music?.bpm ?? 120;
   const isQuestion = !!scene.question;
   const compact = script.type === "story";
+  const upbeat = scene.energy === "upbeat";
+  const party = scene.kind === "chorus" || scene.kind === "moral";
+  const beat = beatPhase(sceneT, bpm);
 
   // ── which line is live, and is the character speaking right now? ──
-  const active = slot.lines.find((l) => frame >= l.from && frame < l.from + l.duration) ?? null;
-  const started = slot.lines.filter((l) => frame >= l.from);
+  // (a slot starts `pre` frames before its speech when a recorded laugh leads into it)
+  const active = slot.lines.find((l) => frame >= l.from - l.pre && frame < l.from - l.pre + l.duration) ?? null;
+  const started = slot.lines.filter((l) => frame >= l.from - l.pre);
   const last = started[started.length - 1] ?? null;
   const ref = active ?? last;
-  const lineT = ref ? (frame - ref.from) / fps : 0;
+  const lineIdx = ref ? slot.lines.indexOf(ref) : -1;
+  const lineT = ref ? (frame - ref.from) / fps : 0; // negative while the lead-in recording plays
+  const speechT = Math.max(0, lineT);
   const talking = !!ref && lineT <= (ref.line.durationSec ?? 0);
   const friendSpeaks = talking && ref!.line.speaker === "friend";
-  const mouth = talking && ref!.line.speaker === "character" ? mouthAt(ref!.line, lineT) : 0;
-  const friendMouth = friendSpeaks ? mouthAt(ref!.line, lineT) : 0;
+  let mouth = talking && ref!.line.speaker === "character" ? mouthAt(ref!.line, lineT) : 0;
+  let friendMouth = friendSpeaks ? mouthAt(ref!.line, lineT) : 0;
+
+  // ── recorded vocalizations (giggles, gasps …) around the lines, on the raw sequence clock ──
+  const vox = useMemo(
+    () => slot.lines.flatMap((l, i) => voxEvents(l.line, lead + l.from, l.pre, `${slug}:${index}:${i}`)),
+    [slot, lead, slug, index]
+  );
+  const voxHit = voxAt(vox, rawFrame, fps);
+  const laugh = laughMouth(voxHit);
+  const voxFriend = !!voxHit && voxHit.event.speaker === "friend";
+  if (laugh !== null) {
+    if (voxFriend) friendMouth = laugh;
+    else mouth = laugh;
+  }
 
   const inHold = isQuestion && frame >= slot.holdFrom && frame < slot.revealFrom;
   const inReveal = isQuestion && frame >= slot.revealFrom && frame < slot.praiseFrom;
-  const danceBreak = !isQuestion && !active && frame >= slot.holdFrom && scene.energy === "upbeat";
+  const danceBreak = !isQuestion && !active && frame >= slot.holdFrom && upbeat;
 
-  let emotion: Emotion = ref?.line.emotion ?? scene.emotion ?? (scene.energy === "upbeat" ? "excited" : "happy");
-  let action: Action = ref?.line.action ?? scene.action ?? (scene.energy === "upbeat" ? "dance" : "idle");
+  let emotion: Emotion = ref?.line.emotion ?? scene.emotion ?? (upbeat ? "excited" : "happy");
+  let action: Action = ref?.line.action ?? scene.action ?? (upbeat ? "dance" : "idle");
   let actionT = ref ? lineT : sceneT;
   if (frame < 0 || (!ref && !danceBreak)) {
-    action = scene.energy === "upbeat" ? "dance" : "idle";
+    action = upbeat ? "dance" : "idle";
     actionT = sceneT;
   }
   if (danceBreak) {
@@ -107,79 +157,148 @@ const SceneView: React.FC<{
     actionT = rt;
   }
   if (action === "dance") actionT = sceneT; // stay on the beat across lines
-  const mainEmotion: Emotion = friendSpeaks ? (emotion === "sad" || emotion === "worried" ? "worried" : "happy") : emotion;
+  let mainEmotion: Emotion = friendSpeaks ? (emotion === "sad" || emotion === "worried" ? "worried" : "happy") : emotion;
+  if (laugh !== null && !voxFriend) mainEmotion = "excited";
   const mainAction: Action = friendSpeaks ? "look" : action;
 
   // ── layout ──
   const hasCallouts = isQuestion || scene.lines.some((l) => l.callout);
   const friend = scene.secondCharacter && scene.secondCharacter !== "none" ? scene.secondCharacter : null;
+  const extras = (scene.extras ?? []).filter((k) => k && k !== "none" && k !== scene.character && k !== friend).slice(0, 2);
   const mainX = friend || hasCallouts ? MAIN_X : CENTER_X - 90;
-  const mainW = 430;
-  const mainBox = characterBox(mainX, GROUND_Y, mainW);
-  const headY = GROUND_Y - mainW * 1.15;
+  const mainBox = characterBox(mainX, GROUND_Y, MAIN_W);
+  const headY = GROUND_Y - MAIN_W * 1.15;
+  const friendHeadY = GROUND_Y - FRIEND_W * 1.15;
+
+  // ── entrances: hop in from the edge on a cut ──
+  const cut = isCut(scene, prev);
+  // alternate the side the hero comes from (always from the left when a friend is waiting on the right)
+  const enterDir: 1 | -1 = friend || index % 2 === 0 ? 1 : -1;
+  const enterDistance = enterDir === 1 ? mainX + 320 : 1920 - mainX + 320;
+  const mainEnter = cut && scene.transition !== "slide" ? hopIn(sceneT, enterDir, enterDistance, ENTER_SEC) : { dx: 0, dy: 0 };
+  const friendCut = !!friend && (!prev || prev.secondCharacter !== friend || cut);
+  const friendEnter = friendCut ? hopIn(sceneT - 0.12, -1, 1920 - FRIEND_X + 300, ENTER_SEC) : { dx: 0, dy: 0 };
+
+  // ── camera: per-line shots + a punch on each new line + a gentle pulse on the beat in party scenes ──
+  const shotFor = (i: number) => (compact && !isQuestion && i >= 0 && i % 2 === 1 ? SHOT_ZOOM : 1);
+  const target = shotFor(lineIdx);
+  const before = shotFor(lineIdx - 1);
+  const shotK = ref ? easeInOutSine(Math.min(1, lineT / 0.45)) : 0;
+  const shotZoom = ref && !inHold && !inReveal && !danceBreak ? before + (target - before) * shotK : 1;
+  const zoomLine = lineIdx % 2 === 1 ? lineIdx : lineIdx - 1;
+  const zoomSpeaker = zoomLine >= 0 ? slot.lines[zoomLine]?.line.speaker : undefined;
+  const origin = zoomSpeaker === "friend" && friend ? { x: FRIEND_X, y: friendHeadY + 40 } : { x: mainX, y: headY + 60 };
+  const linePunch = active ? 0.018 * Math.exp(-speechT * 8) : 0;
+  const beatPulse = party && upbeat ? 0.008 * hop(beat.beats) : 0;
 
   // ── impact shake & reveal punch ──
   let shake = 0;
   if (ref && active && (action === "stomp" || action === "jump")) {
-    const period = action === "stomp" ? 0.3125 : 0.62;
-    const ph = (lineT + (action === "jump" ? 0.05 : 0)) % period;
+    const period = action === "stomp" ? 0.3125 : 0.66;
+    const ph = (speechT + (action === "jump" ? 0.08 : 0)) % period;
     shake = 6 * Math.exp(-ph * 14);
   }
-  const punch = inReveal ? 0.05 * Math.exp(-((frame - slot.revealFrom) / fps) * 5) : 0;
+  const punch = inReveal ? 0.04 * Math.exp(-((frame - slot.revealFrom) / fps) * 5) : 0;
 
-  // ── peek-a-boo gag ──
+  // ── gags: peek-a-boo from an edge, or an emoji flying past ──
   const gag = scene.gag;
   const gagStart = gag ? toFrames(gag.atSec) : -1;
   const gagT = gag ? (frame - gagStart) / fps : -1;
-  const gagVisible = gag && gagT >= 0 && gagT < 2.6 && slot.duration / fps > gag.atSec + 3;
-  const gagX = gagVisible ? 1790 + 340 * (1 - easeOutBack(Math.min(1, gagT / 0.45))) + (gagT > 1.9 ? 400 * easeOutCubic((gagT - 1.9) / 0.7) : 0) : 0;
+  const gagFits = !!gag && slot.duration / fps > gag.atSec + 3;
+  const peek = gag?.kind === "peek" && gagFits && gagT >= 0 && gagT < 2.6;
+  const peekSide = gag?.side === "left" ? -1 : 1;
+  const peekSlide = 340 * (1 - easeOutBack(Math.min(1, gagT / 0.45))) + (gagT > 1.9 ? 400 * easeOutCubic((gagT - 1.9) / 0.7) : 0);
+  const peekX = peekSide === 1 ? 1790 + peekSlide : 130 - peekSlide;
+  const flyby = gag?.kind === "flyby" && gagFits;
+
+  // ── mood: sad beats get a cool tint so the feeling reads even without words ──
+  const sadNow = (emotion === "sad" || emotion === "worried") && !inReveal;
+  const sadK = sadNow ? Math.min(1, Math.max(0, lineT) / 0.5) : 0;
 
   // ── floating emoji by mood ──
+  const partyFloaters = [["🎵", "🎶"], ["⭐", "✨"], ["🎵", "💫"], ["🎶", "🌟"]][index % 4];
+  const tender = emotion !== "sad" && emotion !== "worried"; // a worried hug (clutching the basket) gets no hearts
   const floaters =
-    action === "hug" || emotion === "love" ? "❤️" : action === "sleep" ? "💤" : action === "dance" || scene.kind === "chorus" ? ["🎵", "🎶"] : action === "cry" ? "💧" : null;
+    (action === "hug" && tender) || emotion === "love" ? "❤️" : action === "sleep" ? "💤" : action === "dance" || scene.kind === "chorus" ? partyFloaters : action === "cry" ? "💧" : null;
 
-  const chant =
-    scene.kind === "moral"
-      ? scene.lines.filter((l) => l.role === "moral" && !/say it with me/i.test(l.text)).map((l) => l.text).join("  ")
-      : "";
+  // ── the moral chant: both rhyme lines held up big, with a "Say it with me!" prompt ──
+  const isChant = scene.kind === "moral" && scene.energy === "upbeat";
+  const chantLines = isChant ? scene.lines.filter((l) => l.role === "moral" && !/say it with me/i.test(l.text)).map((l) => l.text) : [];
+  const sayIt = isChant ? scene.lines.find((l) => /say it with me/i.test(l.text)) : null;
+  const sayItSlot = sayIt ? slot.lines.find((l) => l.line === sayIt) : null;
+  const chantActive =
+    active && chantLines.includes(active.line.text) ? { index: chantLines.indexOf(active.line.text), words: active.line.words, t: lineT } : null;
+  const prompt = isChant && !!sayItSlot && danceBreak;
+  const promptT = sayItSlot ? (frame - (sayItSlot.from + sayItSlot.duration)) / fps : 0;
 
-  const claps: number[] = [];
-  for (const l of slot.lines) {
-    if (l.line.action === "clap") {
-      const dur = l.line.durationSec ?? 2;
-      for (let k = 0; k < 6 && 0.19 + k * 0.385 < dur; k++) claps.push(l.from + toFrames(0.19 + k * 0.385));
+  // clap/pop sound timings depend only on the scene's lines, not on the frame
+  const { claps, pops } = useMemo(() => {
+    const claps: number[] = [];
+    const pops: number[] = [];
+    for (const l of slot.lines) {
+      if (l.line.action === "clap") {
+        const dur = l.line.durationSec ?? 2;
+        for (let k = 0; k < 6 && 0.19 + k * 0.385 < dur; k++) claps.push(l.from + toFrames(0.19 + k * 0.385));
+      }
+      const co = l.line.callout;
+      if (co && co.kind === "count") {
+        for (const sec of countTimes(co, l.line.words, l.line.durationSec ?? 2)) pops.push(l.from + toFrames(sec));
+      } else if (co && !(l.line.sfx ?? []).includes("pop")) {
+        pops.push(l.from + 4);
+      }
     }
-  }
+    return { claps, pops };
+  }, [slot]);
   const transitionSfx = TRANSITION_SFX[scene.transition ?? "pop"];
+
+  const renderExtra = (kind: string, i: number) => {
+    const x = EXTRA_X[i];
+    if (i === 1 && (hasCallouts || friend)) return null;
+    const dir: 1 | -1 = i === 0 ? 1 : -1;
+    const { dx, dy } = hopIn(sceneT - 0.2 - i * 0.1, dir, 700, ENTER_SEC);
+    return (
+      <div key={`extra${i}`} style={{ position: "absolute", ...characterBox(x, GROUND_Y + 30, EXTRA_W), transform: `translate(${dx}px, ${dy}px)` }}>
+        <Character kind={kind} emotion="excited" action={upbeat ? "dance" : "nod"} width={EXTRA_W} flip={dir === -1} seed={index * 3 + 40 + i} actionT={sceneT} bpm={bpm} groove />
+      </div>
+    );
+  };
 
   return (
     <AbsoluteFill>
-      <Camera kind={scene.camera ?? "still"} duration={slot.duration} shake={shake} punch={punch}>
+      <Camera kind={scene.camera ?? "still"} duration={slot.duration} shake={shake} punch={punch} zoom={shotZoom + linePunch + beatPulse} origin={origin}>
         <Background kind={scene.background} palette={palette} frameOffset={slot.from} baked={baked} />
-        {scene.energy === "upbeat" ? <Sparkles count={10} seed={index} /> : null}
+        {sadK > 0 ? <AbsoluteFill style={{ background: "#3b4fa0", opacity: 0.16 * sadK }} /> : null}
+        {upbeat ? (
+          // a soft spotlight behind the hero, breathing on the beat
+          <div style={{ position: "absolute", left: mainX - 520, top: headY - 260, width: 1040, height: 1040, borderRadius: 999, background: "radial-gradient(circle, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.06) 35%, rgba(255,255,255,0) 68%)", transform: `scale(${0.92 + 0.1 * hop(beat.beats)})`, pointerEvents: "none" }} />
+        ) : null}
+        {upbeat && !hasCallouts ? <Sparkles count={6} seed={index} /> : null}
+        {extras.map(renderExtra)}
         {friend ? (
-          <div style={{ position: "absolute", ...characterBox(FRIEND_X, GROUND_Y, 360) }}>
+          <div style={{ position: "absolute", ...characterBox(FRIEND_X, GROUND_Y, FRIEND_W), transform: `translate(${friendEnter.dx}px, ${friendEnter.dy}px)` }}>
             <Character
               kind={friend}
-              emotion={friendSpeaks ? emotion : emotion === "thinking" ? "happy" : emotion === "sad" || emotion === "worried" ? "happy" : emotion}
+              emotion={laugh !== null && voxFriend ? "excited" : friendSpeaks ? emotion : emotion === "thinking" ? "happy" : emotion === "sad" || emotion === "worried" ? "happy" : emotion}
               action={friendSpeaks ? action : action === "cheer" ? "cheer" : action === "dance" ? "dance" : action === "hug" ? "hug" : action === "walk" ? "walk" : "nod"}
               mouth={friendMouth}
-              width={360}
+              width={FRIEND_W}
               flip
               seed={index + 7}
               actionT={friendSpeaks ? lineT : sceneT}
               bpm={bpm}
+              groove={upbeat}
             />
           </div>
         ) : null}
-        <div style={{ position: "absolute", ...mainBox }}>
-          <Character kind={scene.character} emotion={mainEmotion} action={mainAction} mouth={mouth} actionT={actionT} bpm={bpm} width={mainW} seed={index} />
+        <div style={{ position: "absolute", ...mainBox, transform: `translate(${mainEnter.dx}px, ${mainEnter.dy}px)` }}>
+          <Character kind={scene.character} emotion={mainEmotion} action={mainAction} mouth={mouth} actionT={actionT} bpm={bpm} width={MAIN_W} seed={index} groove={upbeat} />
         </div>
-        {gagVisible ? (
-          <div style={{ position: "absolute", ...characterBox(gagX, GROUND_Y + 10, 300) }}>
-            <Character kind={gag!.character} emotion="excited" action="wave" width={300} flip seed={index + 99} actionT={gagT} bpm={bpm} />
+        {peek ? (
+          <div style={{ position: "absolute", ...characterBox(peekX, GROUND_Y + 10, 300) }}>
+            <Character kind={gag!.character ?? "monkey"} emotion="excited" action="wave" width={300} flip={peekSide === 1} seed={index + 99} actionT={gagT} bpm={bpm} />
           </div>
         ) : null}
+        {flyby ? <FlyBy emoji={flybyEmoji(scene)} from={lead + gagStart} dir={gag?.side === "left" ? 1 : -1} y={scene.kind === "chorus" ? 150 : 230} size={140} /> : null}
         {!isQuestion
           ? slot.lines.filter((l) => l.line.role === "praise").map((l, i) => <Confetti key={`pc${i}`} from={lead + l.from + 2} x={mainX} y={headY} count={40} />)
           : null}
@@ -192,17 +311,26 @@ const SceneView: React.FC<{
 
       {isQuestion && frame >= 0 ? (
         // the overlay animates off the raw sequence frame, which runs `lead` frames ahead of the scene clock
-        <QuestionOverlay spec={scene.question!} palette={palette} holdFrom={lead + slot.holdFrom} revealFrom={lead + slot.revealFrom} holdDuration={slot.holdDuration} revealDuration={slot.revealDuration} bubbleX={mainX + 120} bubbleY={headY - 60} compact={!!friend} />
+        <>
+          <Flash from={lead + slot.revealFrom} strength={0.45} />
+          <Ripple from={lead + slot.revealFrom} x={friend ? 960 : 1470} y={friend ? 260 : 460} color="#fff" size={760} />
+          <QuestionOverlay spec={scene.question!} palette={palette} holdFrom={lead + slot.holdFrom} revealFrom={lead + slot.revealFrom} holdDuration={slot.holdDuration} revealDuration={slot.revealDuration} bubbleX={mainX + 120} bubbleY={headY - 60} compact={!!friend} />
+        </>
       ) : null}
 
-      {active ? (
-        <Karaoke line={active.line} palette={palette} t={lineT} size={compact ? "small" : "big"} />
-      ) : inHold && last ? (
-        // keep the question on screen while the child thinks
-        <Karaoke line={last.line} palette={palette} t={999} size={compact ? "small" : "big"} />
-      ) : danceBreak && chant ? (
-        // "say it with me!" — keep the chant on screen while they say it
-        <Karaoke line={{ text: chant, role: "praise" }} palette={palette} t={999} size="small" />
+      {isChant ? (
+        <MoralChant rhyme={chantLines} active={chantActive} prompt={prompt} promptT={promptT} palette={palette} bpm={bpm} sceneT={sceneT} />
+      ) : null}
+      {!isChant ? (
+        active ? (
+          <Karaoke line={active.line} palette={palette} t={lineT} size={compact ? "small" : "big"} />
+        ) : inHold && last ? (
+          // keep the question on screen while the child thinks
+          <Karaoke line={last.line} palette={palette} t={999} size={compact ? "small" : "big"} />
+        ) : null
+      ) : active && !chantLines.includes(active.line.text) ? (
+        // chant banner carries the rhyme lines; other lines (e.g. "Hooray!") keep the bottom pill
+        <Karaoke line={active.line} palette={palette} t={lineT} size="small" />
       ) : null}
 
       {/* ── audio: voice lines + sound effects (frames relative to this sequence) ── */}
@@ -213,11 +341,13 @@ const SceneView: React.FC<{
           </Sequence>
         ) : null
       )}
+      <VoxAudio events={vox} />
       {transitionSfx ? <Sfx name={transitionSfx} at={0} volume={0.45} /> : null}
       {slot.lines.flatMap((l, i) =>
         (l.line.sfx ?? []).filter((s) => s !== "clap").map((s, k) => <Sfx key={`${i}-${k}`} name={s} at={lead + l.from + (s === "applause" ? 6 : 2)} volume={s === "applause" ? 0.55 : s === "tada" ? 0.7 : 0.65} />)
       )}
       {claps.map((at, i) => <Sfx key={`clap${i}`} name="clap" at={lead + at} volume={0.6} />)}
+      {pops.map((at, i) => <Sfx key={`pop${i}`} name="pop" at={lead + at} volume={0.5} />)}
       {isQuestion ? (
         <>
           <SfxLoop name="ticktock" from={lead + slot.holdFrom} duration={slot.holdDuration} volume={0.4} />
@@ -227,7 +357,7 @@ const SceneView: React.FC<{
           <Sfx name="coin" at={lead + slot.praiseFrom + 4} volume={0.7} />
         </>
       ) : null}
-      {gag ? <Sfx name="boing" at={lead + gagStart} volume={0.5} /> : null}
+      {gag && gagFits ? <Sfx name={gag.kind === "flyby" ? "whoosh" : "boing"} at={lead + gagStart} volume={gag.kind === "flyby" ? 0.3 : 0.5} /> : null}
     </AbsoluteFill>
   );
 };
@@ -259,7 +389,7 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
       ) : null}
 
       <Sequence durationInFrames={schedule.intro + T} name="Title">
-        <TitleCard script={script} palette={palette} slug={slug} baked={baked} />
+        <TitleCard script={script} palette={palette} slug={slug} countdownFrom={schedule.countdownFrom} baked={baked} />
       </Sequence>
 
       {script.scenes.map((scene, i) => {
@@ -267,7 +397,7 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
         return (
           <Sequence key={i} from={slot.from - T} durationInFrames={slot.duration + 2 * T} name={`Scene ${i + 1}: ${scene.kind ?? ""} ${scene.background}`}>
             <SceneTransition kind={scene.transition ?? "pop"} frames={T}>
-              <SceneView scene={scene} slot={slot} palette={palette} slug={slug} script={script} lead={T} index={i} baked={baked} />
+              <SceneView scene={scene} prev={script.scenes[i - 1]} slot={slot} palette={palette} slug={slug} script={script} lead={T} index={i} baked={baked} />
             </SceneTransition>
           </Sequence>
         );
@@ -279,6 +409,11 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
             <EndCard script={script} palette={palette} slug={slug} starsEarned={earnedAt.filter((x) => x !== undefined).length} baked={baked} />
           </Sequence>
         </SceneTransition>
+      </Sequence>
+
+      {/* "Ready… set… GO!" sits above the title card AND the first scene popping in */}
+      <Sequence from={schedule.countdownFrom} durationInFrames={toFrames(COUNTDOWN_SEC) + 24} name="Countdown">
+        <Countdown script={script} palette={palette} />
       </Sequence>
 
       {starsTotal > 0 ? (

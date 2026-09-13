@@ -58,9 +58,9 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "dance",
           "emotion": "excited",
-          "callout": null,
           "sfx": []
         },
         {
@@ -100,20 +100,24 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "think",
           "emotion": "thinking",
-          "callout": null,
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "pop",
+      "camera": "still",
+      "extras": [
+        "monkey",
+        "frog"
+      ],
       "gag": null
     },
     {
@@ -157,9 +161,9 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "wave",
           "emotion": "happy",
-          "callout": null,
           "sfx": []
         },
         {
@@ -199,20 +203,21 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "dance",
           "emotion": "excited",
-          "callout": null,
           "sfx": []
         }
       ],
       "energy": "calm",
       "holdSec": 0,
       "kind": "verse",
-      "transition": "slide",
-      "camera": "zoom-in",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -246,10 +251,12 @@
             }
           ],
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "action": "spin",
+          "emotion": "excited",
+          "sfx": [
+            "whoosh"
+          ]
         },
         {
           "text": "How I wonder what you are!",
@@ -288,20 +295,24 @@
             }
           ],
           "speaker": "character",
-          "action": "think",
-          "emotion": "thinking",
           "callout": null,
+          "action": "look",
+          "emotion": "thinking",
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "frog",
+        "duck"
+      ],
       "gag": null
     },
     {
@@ -331,23 +342,24 @@
             }
           ],
           "speaker": "character",
-          "action": "idle",
-          "emotion": "excited",
           "callout": {
             "kind": "number",
             "text": "1",
             "emoji": "⭐"
           },
+          "action": "idle",
+          "emotion": "excited",
           "sfx": []
         }
       ],
       "holdSec": 0,
       "kind": "verse",
-      "transition": "wipe",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
       "gag": null
     },
     {
@@ -381,10 +393,12 @@
             }
           ],
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "action": "clap",
+          "emotion": "happy",
+          "sfx": [
+            "clap"
+          ]
         },
         {
           "text": "How I wonder what you are!",
@@ -423,20 +437,24 @@
             }
           ],
           "speaker": "character",
-          "action": "think",
-          "emotion": "thinking",
           "callout": null,
+          "action": "point",
+          "emotion": "thinking",
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "cat",
+        "pig"
+      ],
       "gag": null
     },
     {
@@ -480,9 +498,9 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "look",
           "emotion": "happy",
-          "callout": null,
           "sfx": []
         },
         {
@@ -522,9 +540,9 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "jump",
           "emotion": "excited",
-          "callout": null,
           "sfx": [
             "boing"
           ]
@@ -533,11 +551,12 @@
       "energy": "calm",
       "holdSec": 0,
       "kind": "verse",
+      "prop": null,
+      "question": null,
+      "secondCharacter": null,
       "transition": "fade",
       "camera": "pan",
-      "prop": null,
-      "question": null,
-      "secondCharacter": null,
+      "extras": null,
       "gag": null
     },
     {
@@ -571,10 +590,12 @@
             }
           ],
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "action": "jump",
+          "emotion": "excited",
+          "sfx": [
+            "boing"
+          ]
         },
         {
           "text": "How I wonder what you are!",
@@ -613,20 +634,24 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "think",
           "emotion": "thinking",
-          "callout": null,
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "wipe",
+      "camera": "still",
+      "extras": [
+        "dog",
+        "bear"
+      ],
       "gag": null
     },
     {
@@ -656,23 +681,24 @@
             }
           ],
           "speaker": "character",
-          "action": "wave",
-          "emotion": "excited",
           "callout": {
             "kind": "number",
             "text": "1",
             "emoji": "⭐"
           },
+          "action": "wave",
+          "emotion": "excited",
           "sfx": []
         }
       ],
       "holdSec": 0,
       "kind": "verse",
-      "transition": "slide",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
       "gag": null
     },
     {
@@ -706,10 +732,12 @@
             }
           ],
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "action": "stomp",
+          "emotion": "excited",
+          "sfx": [
+            "stomp"
+          ]
         },
         {
           "text": "How I wonder what you are!",
@@ -748,20 +776,24 @@
             }
           ],
           "speaker": "character",
-          "action": "think",
-          "emotion": "thinking",
           "callout": null,
+          "action": "look",
+          "emotion": "thinking",
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "pop",
+      "camera": "still",
+      "extras": [
+        "penguin",
+        "chick"
+      ],
       "gag": null
     },
     {
@@ -805,9 +837,9 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "idle",
           "emotion": "happy",
-          "callout": null,
           "sfx": []
         },
         {
@@ -847,20 +879,21 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "nod",
           "emotion": "happy",
-          "callout": null,
           "sfx": []
         }
       ],
       "energy": "calm",
       "holdSec": 0,
       "kind": "verse",
-      "transition": "wipe",
-      "camera": "zoom-out",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
       "gag": null
     },
     {
@@ -894,10 +927,12 @@
             }
           ],
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "action": "cheer",
+          "emotion": "excited",
+          "sfx": [
+            "tada"
+          ]
         },
         {
           "text": "How I wonder what you are!",
@@ -936,20 +971,24 @@
             }
           ],
           "speaker": "character",
-          "action": "think",
-          "emotion": "thinking",
           "callout": null,
+          "action": "point",
+          "emotion": "thinking",
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "fox",
+        "mouse"
+      ],
       "gag": null
     },
     {
@@ -979,23 +1018,24 @@
             }
           ],
           "speaker": "character",
-          "action": "look",
-          "emotion": "excited",
           "callout": {
             "kind": "number",
             "text": "1",
             "emoji": "⭐"
           },
+          "action": "look",
+          "emotion": "excited",
           "sfx": []
         }
       ],
       "holdSec": 0,
       "kind": "verse",
-      "transition": "fade",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
       "gag": null
     },
     {
@@ -1029,9 +1069,9 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "dance",
           "emotion": "excited",
-          "callout": null,
           "sfx": []
         },
         {
@@ -1071,20 +1111,24 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "think",
           "emotion": "thinking",
-          "callout": null,
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "bunny",
+        "monkey"
+      ],
       "gag": null
     },
     {
@@ -1128,9 +1172,9 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "wave",
           "emotion": "happy",
-          "callout": null,
           "sfx": []
         },
         {
@@ -1170,20 +1214,21 @@
             }
           ],
           "speaker": "character",
+          "callout": null,
           "action": "dance",
           "emotion": "excited",
-          "callout": null,
           "sfx": []
         }
       ],
       "energy": "calm",
       "holdSec": 0,
       "kind": "verse",
-      "transition": "slide",
-      "camera": "zoom-in",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -1217,10 +1262,12 @@
             }
           ],
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "action": "spin",
+          "emotion": "excited",
+          "sfx": [
+            "whoosh"
+          ]
         },
         {
           "text": "How I wonder what you are!",
@@ -1259,20 +1306,24 @@
             }
           ],
           "speaker": "character",
-          "action": "think",
-          "emotion": "thinking",
           "callout": null,
+          "action": "look",
+          "emotion": "thinking",
           "sfx": []
         }
       ],
       "energy": "upbeat",
       "holdSec": 0,
       "kind": "chorus",
-      "transition": "pop",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "pop",
+      "camera": "still",
+      "extras": [
+        "frog",
+        "duck"
+      ],
       "gag": null
     }
   ],

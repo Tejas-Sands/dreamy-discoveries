@@ -33,4 +33,4 @@ step("2/4 Direct the show + generate voices (TTS)", "generate-audio.mjs", args.s
 step("3/4 Render video (Remotion)", "render.mjs", args.slug ? ["--slug", args.slug] : []);
 step("4/4 Send to Telegram", "send-telegram.mjs", args.slug ? ["--slug", args.slug] : []);
 
-console.log("\n✔ Pipeline complete — check out/ (and your Telegram).");
+console.log("\n✔ Pipeline complete — check out/episodes/ (and your Telegram).");

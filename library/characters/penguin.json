@@ -3,29 +3,38 @@
   "emoji": "🐧",
   "rig": "bird",
   "colors": {
-    "body": "#2f2f3d",
+    "body": "#3a404a",
     "belly": "#ffffff",
-    "limb": "#ff9f1a"
+    "limb": "#e8a44c",
+    "accent": "#e69b35",
+    "dark": "#40333b"
   },
   "ears": "none",
-  "tail": "none",
+  "tail": "feathers",
   "features": [
     {
-      "kind": "mask",
-      "color": "#ffffff",
-      "rx": 40,
-      "ry": 34,
-      "y": 118
+      "kind": "beakSmall",
+      "y": 115,
+      "color": "#e9a548"
+    }
+  ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "headphones",
+      "color": "#764fa3",
+      "pad": "#4a2c6e"
     },
     {
-      "kind": "beakSmall",
-      "y": 122
+      "kind": "vest",
+      "color": "#947656"
     }
   ],
   "face": {
-    "eyeY": 110,
-    "eyeGap": 42,
-    "mouthY": 146
+    "eyeGap": 43,
+    "eyeY": 92,
+    "mouthY": 137,
+    "eyeSize": 0.95
   },
   "arm": "wing",
   "foot": "duck",
@@ -35,8 +44,11 @@
     "plural": "penguins",
     "verb": "waddle",
     "verbs": "waddles",
-    "verbing": "waddling",
-    "home": "snow",
+    "verbing": "waddleing",
+    "home": "iceberg",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#3a404a"
   }
 }

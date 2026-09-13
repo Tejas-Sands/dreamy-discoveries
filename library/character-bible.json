@@ -1,0 +1,386 @@
+{
+  "version": 2,
+  "title": "Sunny Meadow character bible",
+  "characters": [
+    {
+      "id": "bear",
+      "metadata": { "emoji": "🐻", "rigType": "biped", "baseScale": 1.0 },
+      "palette": { "primary": "#a06943", "secondary": "#d6aa85", "accent1": "#5c361b", "accent2": "#8c3636", "outline": "#361d0c" },
+      "anatomy": { "ears": { "style": "round", "rotation": 0, "yOffset": 45 }, "tail": { "style": "stub" }, "appendages": [] },
+      "face": { "eyeGap": 56, "eyeSize": 1.1, "mouthY": 130, "snout": { "style": "rounded-oval", "colorRef": "secondary" } },
+      "markings": [],
+      "accessories": [{ "slot": "neck", "kind": "scarf", "style": "plaid", "colors": ["#8c3636", "#5c361b"] }],
+      "linguistics": { "name": "Ben", "singular": "bear", "plural": "bears", "verb": "stomp", "home": "forest" }
+    },
+    {
+      "id": "bee",
+      "metadata": { "emoji": "🐝", "rigType": "biped", "baseScale": 0.85 },
+      "palette": { "primary": "#fce14b", "secondary": "#333333", "accent1": "#a8c9e6", "accent2": "#ffffff", "outline": "#1a1a1a" },
+      "anatomy": { "ears": null, "tail": { "style": "stinger" }, "appendages": [{ "type": "wings", "style": "translucent-double", "yOffset": -10 }, { "type": "antennae", "style": "curved-ball", "yOffset": 20 }] },
+      "face": { "eyeGap": 48, "eyeSize": 1.0, "mouthY": 120, "snout": null },
+      "markings": [{ "type": "stripes", "distribution": "body", "colorRef": "secondary" }],
+      "accessories": [],
+      "linguistics": { "name": "Buzz", "singular": "bee", "plural": "bees", "verb": "fly", "home": "hive" }
+    },
+    {
+      "id": "bird",
+      "metadata": { "emoji": "🐦", "rigType": "biped", "baseScale": 0.9 },
+      "palette": { "primary": "#5caee6", "secondary": "#aee3ff", "accent1": "#f5b942", "accent2": "#4088b8", "outline": "#234963" },
+      "anatomy": { "ears": null, "tail": { "style": "feather-fan" }, "appendages": [{ "type": "wings", "style": "folded-side" }, { "type": "crest", "style": "feather-tuft", "yOffset": 30 }] },
+      "face": { "eyeGap": 50, "eyeSize": 1.0, "mouthY": null, "snout": { "style": "beak-small", "colorRef": "accent1" } },
+      "markings": [{ "type": "belly-patch", "distribution": "body", "colorRef": "secondary" }],
+      "accessories": [],
+      "linguistics": { "name": "Pip", "singular": "bird", "plural": "birds", "verb": "chirp", "home": "nest" }
+    },
+    {
+      "id": "bunny",
+      "metadata": { "emoji": "🐰", "rigType": "biped", "baseScale": 0.95 },
+      "palette": { "primary": "#f0b9cf", "secondary": "#ffffff", "accent1": "#c57596", "accent2": "#5c8bb5", "outline": "#3a3a3a" },
+      "anatomy": { "ears": { "style": "long-upright", "rotation": 0, "yOffset": -20 }, "tail": { "style": "puff" }, "appendages": [] },
+      "face": { "eyeGap": 50, "eyeSize": 1.2, "mouthY": 125, "snout": { "style": "button-nose", "colorRef": "secondary" } },
+      "markings": [],
+      "accessories": [{ "slot": "body", "kind": "vest", "style": "button-down", "colors": ["#5c8bb5"] }],
+      "linguistics": { "name": "Bella", "singular": "bunny", "plural": "bunnies", "verb": "hop", "home": "meadow" }
+    },
+    {
+      "id": "cat",
+      "metadata": { "emoji": "🐱", "rigType": "biped", "baseScale": 1.0 },
+      "palette": { "primary": "#f4a259", "secondary": "#fae3c6", "accent1": "#bc6b32", "accent2": "#8ea6d0", "outline": "#4a2c16" },
+      "anatomy": { "ears": { "style": "pointed-triangle", "rotation": 15, "yOffset": 35 }, "tail": { "style": "long-curved" }, "appendages": [] },
+      "face": { "eyeGap": 52, "eyeSize": 1.1, "mouthY": 128, "snout": { "style": "small-rounded", "colorRef": "secondary" } },
+      "markings": [{ "type": "tabby-stripes", "distribution": "head-body", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "neck", "kind": "collar", "style": "bell", "colors": ["#8ea6d0", "#f5d76e"] }],
+      "linguistics": { "name": "Cleo", "singular": "cat", "plural": "cats", "verb": "pounce", "home": "house" }
+    },
+    {
+      "id": "chick",
+      "metadata": { "emoji": "🐥", "rigType": "biped", "baseScale": 0.8 },
+      "palette": { "primary": "#fce86b", "secondary": "#ffffff", "accent1": "#f59a42", "accent2": "#d98a9d", "outline": "#5e4b16" },
+      "anatomy": { "ears": null, "tail": { "style": "tiny-tuft" }, "appendages": [{ "type": "wings", "style": "tiny-flap" }, { "type": "head-tuft", "style": "single-curl", "yOffset": 35 }] },
+      "face": { "eyeGap": 46, "eyeSize": 1.1, "mouthY": null, "snout": { "style": "beak-tiny", "colorRef": "accent1" } },
+      "markings": [],
+      "accessories": [{ "slot": "neck", "kind": "bandana", "style": "tied", "colors": ["#d98a9d"] }],
+      "linguistics": { "name": "Peep", "singular": "chick", "plural": "chicks", "verb": "peck", "home": "coop" }
+    },
+    {
+      "id": "cow",
+      "metadata": { "emoji": "🐮", "rigType": "biped", "baseScale": 1.1 },
+      "palette": { "primary": "#f2dced", "secondary": "#ffffff", "accent1": "#e59fb9", "accent2": "#b5b5b5", "outline": "#3d2a36" },
+      "anatomy": { "ears": { "style": "side-droop", "rotation": -10, "yOffset": 25 }, "tail": { "style": "thin-tufted" }, "appendages": [{ "type": "horns", "style": "short-curved", "colorRef": "accent2", "yOffset": 30 }] },
+      "face": { "eyeGap": 60, "eyeSize": 1.0, "mouthY": 138, "snout": { "style": "wide-oval", "colorRef": "accent1" } },
+      "markings": [{ "type": "spots", "distribution": "body-head", "colorRef": "accent2" }],
+      "accessories": [{ "slot": "neck", "kind": "collar", "style": "cowbell", "colors": ["#8c5836", "#f5d76e"] }],
+      "linguistics": { "name": "Bessie", "singular": "cow", "plural": "cows", "verb": "graze", "home": "pasture" }
+    },
+    {
+      "id": "dinosaur",
+      "metadata": { "emoji": "🦖", "rigType": "biped", "baseScale": 1.15 },
+      "palette": { "primary": "#7bc661", "secondary": "#aee398", "accent1": "#498f32", "accent2": "#8c5836", "outline": "#234a17" },
+      "anatomy": { "ears": null, "tail": { "style": "thick-tapered" }, "appendages": [{ "type": "dorsal-spikes", "style": "ridge", "colorRef": "accent1" }] },
+      "face": { "eyeGap": 54, "eyeSize": 1.0, "mouthY": 135, "snout": { "style": "rounded-block", "colorRef": "secondary" } },
+      "markings": [{ "type": "belly-scales", "distribution": "body", "colorRef": "secondary" }],
+      "accessories": [{ "slot": "neck", "kind": "tribal-sash", "style": "diagonal", "colors": ["#8c5836", "#e8b931"] }],
+      "linguistics": { "name": "Rex", "singular": "dinosaur", "plural": "dinosaurs", "verb": "roar", "home": "jungle" }
+    },
+    {
+      "id": "dog",
+      "metadata": { "emoji": "🐶", "rigType": "biped", "baseScale": 1.0 },
+      "palette": { "primary": "#b37b52", "secondary": "#e8c9b1", "accent1": "#5c371d", "accent2": "#9c57ab", "outline": "#2b180b" },
+      "anatomy": { "ears": { "style": "floppy", "rotation": -25, "yOffset": 30 }, "tail": { "style": "wagging-curve" }, "appendages": [] },
+      "face": { "eyeGap": 54, "eyeSize": 1.1, "mouthY": 130, "snout": { "style": "rounded-oval", "colorRef": "secondary" } },
+      "markings": [{ "type": "eye-patch", "distribution": "face-left", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "neck", "kind": "collar", "style": "bone-tag", "colors": ["#9c57ab", "#e3e3e3"] }],
+      "linguistics": { "name": "Buster", "singular": "dog", "plural": "dogs", "verb": "bark", "home": "yard" }
+    },
+    {
+      "id": "dragon",
+      "metadata": { "emoji": "🐲", "rigType": "biped", "baseScale": 1.15 },
+      "palette": { "primary": "#4eb85b", "secondary": "#a5e6ad", "accent1": "#f5cf5b", "accent2": "#2e7a37", "outline": "#194a20" },
+      "anatomy": { "ears": { "style": "finned", "rotation": 15, "yOffset": 20 }, "tail": { "style": "spiked-reptile" }, "appendages": [{ "type": "wings", "style": "bat-like", "colorRef": "accent1" }, { "type": "horns", "style": "curved-back", "colorRef": "accent1", "yOffset": 35 }] },
+      "face": { "eyeGap": 56, "eyeSize": 1.0, "mouthY": 132, "snout": { "style": "rounded-block", "colorRef": "secondary" } },
+      "markings": [{ "type": "belly-scales", "distribution": "body", "colorRef": "accent1" }],
+      "accessories": [],
+      "linguistics": { "name": "Spike", "singular": "dragon", "plural": "dragons", "verb": "breathe-fire", "home": "cave" }
+    },
+    {
+      "id": "duck",
+      "metadata": { "emoji": "🦆", "rigType": "biped", "baseScale": 0.85 },
+      "palette": { "primary": "#fce14b", "secondary": "#ffffff", "accent1": "#f59a42", "accent2": "#326ba8", "outline": "#5e4b16" },
+      "anatomy": { "ears": null, "tail": { "style": "feather-wedge" }, "appendages": [{ "type": "wings", "style": "folded-side" }] },
+      "face": { "eyeGap": 48, "eyeSize": 1.1, "mouthY": null, "snout": { "style": "flat-bill", "colorRef": "accent1" } },
+      "markings": [],
+      "accessories": [{ "slot": "neck", "kind": "sailor-collar", "style": "tied", "colors": ["#326ba8", "#f59a42"] }],
+      "linguistics": { "name": "Daffy", "singular": "duck", "plural": "ducks", "verb": "quack", "home": "pond" }
+    },
+    {
+      "id": "elephant",
+      "metadata": { "emoji": "🐘", "rigType": "biped", "baseScale": 1.2 },
+      "palette": { "primary": "#919eb8", "secondary": "#b4bfd1", "accent1": "#e8a7b9", "accent2": "#c43b50", "outline": "#3c4354" },
+      "anatomy": { "ears": { "style": "large-flap", "rotation": 0, "yOffset": 30 }, "tail": { "style": "thin-tufted" }, "appendages": [{ "type": "trunk", "style": "curved-down", "yOffset": 125 }, { "type": "tusks", "style": "short-curved", "colorRef": "secondary", "yOffset": 125 }] },
+      "face": { "eyeGap": 65, "eyeSize": 0.9, "mouthY": null, "snout": null },
+      "markings": [],
+      "accessories": [{ "slot": "head", "kind": "headdress", "style": "ornate-jewel", "colors": ["#c43b50", "#e8b931", "#919eb8"] }],
+      "linguistics": { "name": "Eli", "singular": "elephant", "plural": "elephants", "verb": "stomp", "home": "savanna" }
+    },
+    {
+      "id": "fish",
+      "metadata": { "emoji": "🐟", "rigType": "aquatic", "baseScale": 0.75 },
+      "palette": { "primary": "#f28f41", "secondary": "#f7b57c", "accent1": "#d1631f", "accent2": "#ffffff", "outline": "#4a2a12" },
+      "anatomy": { "ears": null, "tail": { "style": "caudal-fin" }, "appendages": [{ "type": "fins", "style": "dorsal-pectoral", "colorRef": "secondary" }] },
+      "face": { "eyeGap": 50, "eyeSize": 1.0, "mouthY": 120, "snout": null },
+      "markings": [{ "type": "scales", "distribution": "body", "colorRef": "accent1" }],
+      "accessories": [],
+      "linguistics": { "name": "Finn", "singular": "fish", "plural": "fish", "verb": "swim", "home": "ocean" }
+    },
+    {
+      "id": "fox",
+      "metadata": { "emoji": "🦊", "rigType": "biped", "baseScale": 1.0 },
+      "palette": { "primary": "#d9692f", "secondary": "#ffffff", "accent1": "#2c2c2c", "accent2": "#bd6328", "outline": "#361b0d" },
+      "anatomy": { "ears": { "style": "pointed-up", "rotation": 10, "yOffset": 15 }, "tail": { "style": "bushy-large" }, "appendages": [] },
+      "face": { "eyeGap": 54, "eyeSize": 1.0, "mouthY": 128, "snout": { "style": "pointed", "colorRef": "secondary" } },
+      "markings": [{ "type": "tail-tip", "distribution": "tail", "colorRef": "secondary" }, { "type": "paw-socks", "distribution": "limbs", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "head", "kind": "beanie", "style": "pom-pom", "colors": ["#bd6328", "#8b4513"] }],
+      "linguistics": { "name": "Felix", "singular": "fox", "plural": "foxes", "verb": "pounce", "home": "forest" }
+    },
+    {
+      "id": "frog",
+      "metadata": { "emoji": "🐸", "rigType": "biped", "baseScale": 0.8 },
+      "palette": { "primary": "#6fc25d", "secondary": "#a2db95", "accent1": "#438734", "accent2": "#ffffff", "outline": "#1d4214" },
+      "anatomy": { "ears": null, "tail": null, "appendages": [{ "type": "eye-bulges", "style": "top-head", "yOffset": 10 }] },
+      "face": { "eyeGap": 60, "eyeSize": 1.2, "mouthY": 125, "snout": null },
+      "markings": [{ "type": "belly-patch", "distribution": "body", "colorRef": "secondary" }],
+      "accessories": [],
+      "linguistics": { "name": "Freddy", "singular": "frog", "plural": "frogs", "verb": "leap", "home": "pond" }
+    },
+    {
+      "id": "giraffe",
+      "metadata": { "emoji": "🦒", "rigType": "quadruped", "baseScale": 1.25 },
+      "palette": { "primary": "#eeb457", "secondary": "#f8dd9d", "accent1": "#8b5226", "accent2": "#d43a45", "outline": "#3a2618" },
+      "anatomy": { "ears": { "style": "pointed-side", "rotation": -15, "yOffset": 25 }, "tail": { "style": "thin-tufted" }, "appendages": [{ "type": "ossicones", "style": "rounded", "colorRef": "accent1", "yOffset": -10 }] },
+      "face": { "eyeGap": 58, "eyeSize": 1.1, "mouthY": 135, "snout": { "style": "rounded-box", "colorRef": "secondary" } },
+      "markings": [{ "type": "spots", "distribution": "body-neck", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "neck", "kind": "tribal-collar", "style": "beaded", "colors": ["#d43a45", "#2a6b8c", "#eeb457"] }],
+      "linguistics": { "name": "Gigi", "singular": "giraffe", "plural": "giraffes", "verb": "reach", "home": "savanna" }
+    },
+    {
+      "id": "hedgehog",
+      "metadata": { "emoji": "🦔", "rigType": "biped", "baseScale": 0.85 },
+      "palette": { "primary": "#755643", "secondary": "#d6bfae", "accent1": "#4a3324", "accent2": "#5a8a4f", "outline": "#2b1e15" },
+      "anatomy": { "ears": { "style": "small-round", "rotation": 0, "yOffset": 45 }, "tail": { "style": "tiny-stub" }, "appendages": [{ "type": "quills", "style": "back-covering", "colorRef": "primary" }] },
+      "face": { "eyeGap": 48, "eyeSize": 1.0, "mouthY": 128, "snout": { "style": "pointed-tiny", "colorRef": "secondary" } },
+      "markings": [{ "type": "face-mask", "distribution": "face", "colorRef": "secondary" }],
+      "accessories": [{ "slot": "body", "kind": "backpack-straps", "style": "shoulder", "colors": ["#5a8a4f"] }],
+      "linguistics": { "name": "Spike", "singular": "hedgehog", "plural": "hedgehogs", "verb": "roll", "home": "garden" }
+    },
+    {
+      "id": "hippo",
+      "metadata": { "emoji": "🦛", "rigType": "biped", "baseScale": 1.15 },
+      "palette": { "primary": "#937db8", "secondary": "#b4a3d1", "accent1": "#604d82", "accent2": "#58a69a", "outline": "#332647" },
+      "anatomy": { "ears": { "style": "tiny-round", "rotation": 0, "yOffset": 25 }, "tail": { "style": "flat-stub" }, "appendages": [] },
+      "face": { "eyeGap": 62, "eyeSize": 0.9, "mouthY": 140, "snout": { "style": "huge-rounded", "colorRef": "secondary" } },
+      "markings": [],
+      "accessories": [{ "slot": "head", "kind": "sweatband", "style": "striped", "colors": ["#58a69a", "#ffffff"] }],
+      "linguistics": { "name": "Hugo", "singular": "hippo", "plural": "hippos", "verb": "wallow", "home": "river" }
+    },
+    {
+      "id": "horse",
+      "metadata": { "emoji": "🐴", "rigType": "quadruped", "baseScale": 1.2 },
+      "palette": { "primary": "#b37b52", "secondary": "#d6aa85", "accent1": "#5c371d", "accent2": "#388c6f", "outline": "#2b180b" },
+      "anatomy": { "ears": { "style": "pointed-up", "rotation": 5, "yOffset": 20 }, "tail": { "style": "long-hair" }, "appendages": [{ "type": "mane", "style": "flowing", "colorRef": "accent1" }] },
+      "face": { "eyeGap": 54, "eyeSize": 1.0, "mouthY": 138, "snout": { "style": "long-oval", "colorRef": "secondary" } },
+      "markings": [{ "type": "hooves", "distribution": "limbs", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "body", "kind": "saddle-blanket", "style": "ornate-fringe", "colors": ["#388c6f", "#e8b931"] }],
+      "linguistics": { "name": "Harry", "singular": "horse", "plural": "horses", "verb": "gallop", "home": "farm" }
+    },
+    {
+      "id": "koala",
+      "metadata": { "emoji": "🐨", "rigType": "biped", "baseScale": 0.95 },
+      "palette": { "primary": "#a2abb5", "secondary": "#d5dbe0", "accent1": "#58626e", "accent2": "#7bc661", "outline": "#32373d" },
+      "anatomy": { "ears": { "style": "large-fluffy", "rotation": 20, "yOffset": 35 }, "tail": null, "appendages": [] },
+      "face": { "eyeGap": 60, "eyeSize": 1.0, "mouthY": 130, "snout": { "style": "large-oval", "colorRef": "accent1" } },
+      "markings": [{ "type": "belly-patch", "distribution": "body", "colorRef": "secondary" }],
+      "accessories": [{ "slot": "neck", "kind": "bowtie", "style": "classic", "colors": ["#7bc661"] }],
+      "linguistics": { "name": "Kevin", "singular": "koala", "plural": "koalas", "verb": "climb", "home": "eucalyptus tree" }
+    },
+    {
+      "id": "ladybug",
+      "metadata": { "emoji": "🐞", "rigType": "biped", "baseScale": 0.8 },
+      "palette": { "primary": "#d93838", "secondary": "#2c2c2c", "accent1": "#1a1a1a", "accent2": "#ffffff", "outline": "#1f0a0a" },
+      "anatomy": { "ears": null, "tail": null, "appendages": [{ "type": "antennae", "style": "curved-ball", "colorRef": "secondary", "yOffset": 15 }, { "type": "shell", "style": "split-dome", "colorRef": "primary" }] },
+      "face": { "eyeGap": 48, "eyeSize": 1.0, "mouthY": 125, "snout": null },
+      "markings": [{ "type": "spots", "distribution": "shell", "colorRef": "accent1" }],
+      "accessories": [],
+      "linguistics": { "name": "Dot", "singular": "ladybug", "plural": "ladybugs", "verb": "crawl", "home": "leaf" }
+    },
+    {
+      "id": "lion",
+      "metadata": { "emoji": "🦁", "rigType": "biped", "baseScale": 1.1 },
+      "palette": { "primary": "#f2b544", "secondary": "#f7d894", "accent1": "#d97823", "accent2": "#e8c338", "outline": "#38230b" },
+      "anatomy": { "ears": { "style": "round", "rotation": 0, "yOffset": 35 }, "tail": { "style": "tufted-end" }, "appendages": [{ "type": "mane", "style": "full-sunburst", "colorRef": "accent1" }] },
+      "face": { "eyeGap": 56, "eyeSize": 1.0, "mouthY": 132, "snout": { "style": "wide-rounded", "colorRef": "secondary" } },
+      "markings": [],
+      "accessories": [{ "slot": "neck", "kind": "amulet-collar", "style": "tribal", "colors": ["#e8c338", "#8c2e2e"] }],
+      "linguistics": { "name": "Leo", "singular": "lion", "plural": "lions", "verb": "roar", "home": "savanna" }
+    },
+    {
+      "id": "monkey",
+      "metadata": { "emoji": "🐒", "rigType": "biped", "baseScale": 0.95 },
+      "palette": { "primary": "#8c5b35", "secondary": "#d6a985", "accent1": "#4a2c16", "accent2": "#5e8c46", "outline": "#2b1809" },
+      "anatomy": { "ears": { "style": "large-round-side", "rotation": 0, "yOffset": 50 }, "tail": { "style": "long-prehensile" }, "appendages": [] },
+      "face": { "eyeGap": 52, "eyeSize": 1.1, "mouthY": 130, "snout": { "style": "wide-heart", "colorRef": "secondary" } },
+      "markings": [{ "type": "face-mask", "distribution": "face", "colorRef": "secondary" }],
+      "accessories": [{ "slot": "body", "kind": "satchel", "style": "crossbody", "colors": ["#5e8c46", "#3b5c2a"] }],
+      "linguistics": { "name": "Milo", "singular": "monkey", "plural": "monkeys", "verb": "swing", "home": "jungle" }
+    },
+    {
+      "id": "mouse",
+      "metadata": { "emoji": "🐭", "rigType": "biped", "baseScale": 0.75 },
+      "palette": { "primary": "#a4a8b5", "secondary": "#d6d9e0", "accent1": "#f2b1c8", "accent2": "#4a4a4a", "outline": "#2b2c33" },
+      "anatomy": { "ears": { "style": "huge-round", "rotation": 0, "yOffset": 30 }, "tail": { "style": "long-thin-curved" }, "appendages": [] },
+      "face": { "eyeGap": 48, "eyeSize": 1.0, "mouthY": 125, "snout": { "style": "pointed-tiny", "colorRef": "secondary" } },
+      "markings": [],
+      "accessories": [{ "slot": "face", "kind": "glasses", "style": "round-wire", "colors": ["#4a4a4a"] }],
+      "linguistics": { "name": "Squeaks", "singular": "mouse", "plural": "mice", "verb": "scurry", "home": "burrow" }
+    },
+    {
+      "id": "owl",
+      "metadata": { "emoji": "🦉", "rigType": "biped", "baseScale": 0.9 },
+      "palette": { "primary": "#876445", "secondary": "#cca783", "accent1": "#d49d42", "accent2": "#5a8a4f", "outline": "#332112" },
+      "anatomy": { "ears": { "style": "feather-tufts", "rotation": 15, "yOffset": 25 }, "tail": { "style": "short-feather" }, "appendages": [{ "type": "wings", "style": "folded-cloak" }] },
+      "face": { "eyeGap": 56, "eyeSize": 1.3, "mouthY": null, "snout": { "style": "beak-pointed", "colorRef": "accent1" } },
+      "markings": [{ "type": "belly-feathers", "distribution": "body", "colorRef": "secondary" }],
+      "accessories": [{ "slot": "neck", "kind": "pendant", "style": "leaf", "colors": ["#5a8a4f", "#332112"] }],
+      "linguistics": { "name": "Hoot", "singular": "owl", "plural": "owls", "verb": "swoop", "home": "tree hollow" }
+    },
+    {
+      "id": "panda",
+      "metadata": { "emoji": "🐼", "rigType": "biped", "baseScale": 1.1 },
+      "palette": { "primary": "#ffffff", "secondary": "#262626", "accent1": "#e0e0e0", "accent2": "#669c54", "outline": "#121212" },
+      "anatomy": { "ears": { "style": "round", "rotation": 0, "yOffset": 40 }, "tail": { "style": "stub" }, "appendages": [] },
+      "face": { "eyeGap": 60, "eyeSize": 1.0, "mouthY": 135, "snout": { "style": "wide-flat", "colorRef": "primary" } },
+      "markings": [{ "type": "eye-patches", "distribution": "face", "colorRef": "secondary" }, { "type": "limb-bands", "distribution": "limbs-chest", "colorRef": "secondary" }],
+      "accessories": [{ "slot": "neck", "kind": "bandana", "style": "tied", "colors": ["#669c54"] }],
+      "linguistics": { "name": "Bao", "singular": "panda", "plural": "pandas", "verb": "chew", "home": "bamboo forest" }
+    },
+    {
+      "id": "penguin",
+      "metadata": { "emoji": "🐧", "rigType": "biped", "baseScale": 0.95 },
+      "palette": { "primary": "#3a404a", "secondary": "#ffffff", "accent1": "#e69b35", "accent2": "#764fa3", "outline": "#1d2025" },
+      "anatomy": { "ears": null, "tail": { "style": "wedge" }, "appendages": [{ "type": "flippers", "rotation": 45 }] },
+      "face": { "eyeGap": 45, "eyeSize": 1.1, "mouthY": null, "snout": { "style": "beak", "colorRef": "accent1" } },
+      "markings": [{ "type": "tuxedo-mask", "distribution": "face-body", "colorRef": "primary" }],
+      "accessories": [{ "slot": "head", "kind": "earmuffs", "colors": ["#764fa3"] }, { "slot": "body", "kind": "vest", "style": "knit", "colors": ["#947656"] }],
+      "linguistics": { "name": "Pip", "singular": "penguin", "plural": "penguins", "verb": "waddle", "home": "iceberg" }
+    },
+    {
+      "id": "pig",
+      "metadata": { "emoji": "🐷", "rigType": "biped", "baseScale": 1.05 },
+      "palette": { "primary": "#f0a8b9", "secondary": "#f7c8d3", "accent1": "#ba6075", "accent2": "#79b068", "outline": "#4a232d" },
+      "anatomy": { "ears": { "style": "folded-tip", "rotation": -10, "yOffset": 35 }, "tail": { "style": "curly" }, "appendages": [] },
+      "face": { "eyeGap": 52, "eyeSize": 1.0, "mouthY": 135, "snout": { "style": "flat-disc", "colorRef": "accent1" } },
+      "markings": [],
+      "accessories": [{ "slot": "neck", "kind": "bandana", "style": "tied", "colors": ["#79b068"] }],
+      "linguistics": { "name": "Percy", "singular": "pig", "plural": "pigs", "verb": "trot", "home": "farm" }
+    },
+    {
+      "id": "raccoon",
+      "metadata": { "emoji": "🦝", "rigType": "biped", "baseScale": 0.95 },
+      "palette": { "primary": "#878a8f", "secondary": "#c3c7cc", "accent1": "#2c2d30", "accent2": "#b53c3c", "outline": "#1f2021" },
+      "anatomy": { "ears": { "style": "pointed-round", "rotation": 15, "yOffset": 35 }, "tail": { "style": "bushy-ringed" }, "appendages": [] },
+      "face": { "eyeGap": 54, "eyeSize": 1.0, "mouthY": 128, "snout": { "style": "pointed", "colorRef": "secondary" } },
+      "markings": [{ "type": "bandit-mask", "distribution": "face", "colorRef": "accent1" }, { "type": "tail-rings", "distribution": "tail", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "neck", "kind": "bandana", "style": "tied", "colors": ["#b53c3c"] }],
+      "linguistics": { "name": "Rocky", "singular": "raccoon", "plural": "raccoons", "verb": "scavenge", "home": "forest" }
+    },
+    {
+      "id": "sheep",
+      "metadata": { "emoji": "🐑", "rigType": "biped", "baseScale": 1.05 },
+      "palette": { "primary": "#ffffff", "secondary": "#e8e8e8", "accent1": "#f5d4bc", "accent2": "#c99d3e", "outline": "#3b3937" },
+      "anatomy": { "ears": { "style": "floppy-side", "rotation": -30, "yOffset": 45 }, "tail": { "style": "fluffy-stub" }, "appendages": [{ "type": "wool", "style": "cloud-puff", "colorRef": "primary" }] },
+      "face": { "eyeGap": 52, "eyeSize": 1.0, "mouthY": 132, "snout": { "style": "rounded-soft", "colorRef": "accent1" } },
+      "markings": [],
+      "accessories": [{ "slot": "neck", "kind": "collar", "style": "golden-bell", "colors": ["#855b40", "#c99d3e"] }],
+      "linguistics": { "name": "Shaun", "singular": "sheep", "plural": "sheep", "verb": "baa", "home": "pasture" }
+    },
+    {
+      "id": "snowman",
+      "metadata": { "emoji": "⛄", "rigType": "biped", "baseScale": 1.0 },
+      "palette": { "primary": "#ffffff", "secondary": "#e3e3e3", "accent1": "#f27922", "accent2": "#8c3636", "outline": "#2b3036" },
+      "anatomy": { "ears": null, "tail": null, "appendages": [{ "type": "arms", "style": "twig", "colorRef": "outline" }] },
+      "face": { "eyeGap": 45, "eyeSize": 0.9, "mouthY": 135, "snout": { "style": "carrot", "colorRef": "accent1" } },
+      "markings": [{ "type": "buttons", "distribution": "belly", "colorRef": "outline" }],
+      "accessories": [{ "slot": "head", "kind": "top-hat", "style": "classic", "colors": ["#2b3036", "#7b3d91"] }, { "slot": "neck", "kind": "scarf", "style": "plaid", "colors": ["#8c3636", "#3d603a"] }],
+      "linguistics": { "name": "Frosty", "singular": "snowman", "plural": "snowmen", "verb": "melt", "home": "winter wonderland" }
+    },
+    {
+      "id": "squirrel",
+      "metadata": { "emoji": "🐿️", "rigType": "biped", "baseScale": 0.9 },
+      "palette": { "primary": "#b86f35", "secondary": "#e8c9b1", "accent1": "#73421b", "accent2": "#6b8e39", "outline": "#331c0b" },
+      "anatomy": { "ears": { "style": "tufted", "rotation": 15, "yOffset": 30 }, "tail": { "style": "huge-bushy" }, "appendages": [] },
+      "face": { "eyeGap": 50, "eyeSize": 1.0, "mouthY": 128, "snout": { "style": "pointed", "colorRef": "secondary" } },
+      "markings": [],
+      "accessories": [{ "slot": "head", "kind": "beanie", "style": "ear-flaps", "colors": ["#73421b", "#b86f35"] }],
+      "linguistics": { "name": "Nutty", "singular": "squirrel", "plural": "squirrels", "verb": "scurry", "home": "tree" }
+    },
+    {
+      "id": "star",
+      "metadata": { "emoji": "⭐", "rigType": "biped", "baseScale": 1.1 },
+      "palette": { "primary": "#f2c744", "secondary": "#fae38e", "accent1": "#d99a23", "accent2": "#ffffff", "outline": "#5e430c" },
+      "anatomy": { "ears": null, "tail": null, "appendages": [{ "type": "points", "style": "five-point", "colorRef": "primary" }] },
+      "face": { "eyeGap": 55, "eyeSize": 1.1, "mouthY": 130, "snout": null },
+      "markings": [],
+      "accessories": [],
+      "linguistics": { "name": "Twinkle", "singular": "star", "plural": "stars", "verb": "shine", "home": "sky" }
+    },
+    {
+      "id": "tiger",
+      "metadata": { "emoji": "🐯", "rigType": "biped", "baseScale": 1.1 },
+      "palette": { "primary": "#f28f29", "secondary": "#ffffff", "accent1": "#1f1f1f", "accent2": "#c24a4a", "outline": "#211104" },
+      "anatomy": { "ears": { "style": "round-side", "rotation": 0, "yOffset": 35 }, "tail": { "style": "long-curved" }, "appendages": [] },
+      "face": { "eyeGap": 56, "eyeSize": 1.0, "mouthY": 132, "snout": { "style": "wide-rounded", "colorRef": "secondary" } },
+      "markings": [{ "type": "stripes", "distribution": "full-body", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "neck", "kind": "necklace", "style": "beaded", "colors": ["#c24a4a", "#e8b931"] }],
+      "linguistics": { "name": "Tigress", "singular": "tiger", "plural": "tigers", "verb": "prowl", "home": "jungle" }
+    },
+    {
+      "id": "turtle",
+      "metadata": { "emoji": "🐢", "rigType": "biped", "baseScale": 0.95 },
+      "palette": { "primary": "#6bb55c", "secondary": "#b0e0a6", "accent1": "#447839", "accent2": "#e8cc48", "outline": "#193313" },
+      "anatomy": { "ears": null, "tail": { "style": "tiny-point" }, "appendages": [{ "type": "shell", "style": "dome-scutes", "colorRef": "accent1" }] },
+      "face": { "eyeGap": 54, "eyeSize": 1.0, "mouthY": 130, "snout": { "style": "rounded-beak", "colorRef": "secondary" } },
+      "markings": [{ "type": "belly-plates", "distribution": "front", "colorRef": "accent2" }],
+      "accessories": [{ "slot": "neck", "kind": "bandana", "style": "tied", "colors": ["#e8cc48"] }],
+      "linguistics": { "name": "Shelly", "singular": "turtle", "plural": "turtles", "verb": "hide", "home": "pond" }
+    },
+    {
+      "id": "unicorn",
+      "metadata": { "emoji": "🦄", "rigType": "quadruped", "baseScale": 1.2 },
+      "palette": { "primary": "#f2dced", "secondary": "#ffffff", "accent1": "#9b51ad", "accent2": "#f283c8", "outline": "#3d2a36" },
+      "anatomy": { "ears": { "style": "pointed-up", "rotation": 5, "yOffset": 20 }, "tail": { "style": "long-hair", "colorRef": "accent1" }, "appendages": [{ "type": "horn", "style": "spiraled", "colorRef": "accent2", "yOffset": 10 }, { "type": "mane", "style": "flowing", "colorRef": "accent1" }] },
+      "face": { "eyeGap": 54, "eyeSize": 1.0, "mouthY": 138, "snout": { "style": "long-oval", "colorRef": "secondary" } },
+      "markings": [{ "type": "hooves", "distribution": "limbs", "colorRef": "accent2" }],
+      "accessories": [{ "slot": "body", "kind": "saddle-blanket", "style": "ornate-fringe", "colors": ["#f283c8", "#9b51ad"] }],
+      "linguistics": { "name": "Sparkle", "singular": "unicorn", "plural": "unicorns", "verb": "gallop", "home": "fantasy forest" }
+    },
+    {
+      "id": "whale",
+      "metadata": { "emoji": "🐳", "rigType": "aquatic", "baseScale": 1.3 },
+      "palette": { "primary": "#5c9bb5", "secondary": "#a8d3e6", "accent1": "#2a5b73", "accent2": "#ffffff", "outline": "#152e3b" },
+      "anatomy": { "ears": null, "tail": { "style": "fluke" }, "appendages": [{ "type": "flippers", "style": "side", "colorRef": "primary" }, { "type": "spout", "style": "water-burst", "colorRef": "secondary", "yOffset": -15 }] },
+      "face": { "eyeGap": 70, "eyeSize": 0.8, "mouthY": 140, "snout": null },
+      "markings": [{ "type": "belly-grooves", "distribution": "ventral", "colorRef": "secondary" }],
+      "accessories": [],
+      "linguistics": { "name": "Wally", "singular": "whale", "plural": "whales", "verb": "splash", "home": "ocean" }
+    },
+    {
+      "id": "zebra",
+      "metadata": { "emoji": "🦓", "rigType": "quadruped", "baseScale": 1.2 },
+      "palette": { "primary": "#ffffff", "secondary": "#e8e8e8", "accent1": "#1a1a1a", "accent2": "#545454", "outline": "#000000" },
+      "anatomy": { "ears": { "style": "pointed-up", "rotation": 5, "yOffset": 20 }, "tail": { "style": "tufted-end" }, "appendages": [{ "type": "mane", "style": "stiff-ridge", "colorRef": "accent1" }] },
+      "face": { "eyeGap": 54, "eyeSize": 1.0, "mouthY": 138, "snout": { "style": "long-oval", "colorRef": "accent2" } },
+      "markings": [{ "type": "stripes", "distribution": "full-body", "colorRef": "accent1" }, { "type": "hooves", "distribution": "limbs", "colorRef": "accent1" }],
+      "accessories": [{ "slot": "neck", "kind": "necklace", "style": "tribal-beaded", "colors": ["#1a1a1a", "#ffffff", "#545454"] }],
+      "linguistics": { "name": "Ziggy", "singular": "zebra", "plural": "zebras", "verb": "gallop", "home": "savanna" }
+    }
+  ]
+}

@@ -34,6 +34,8 @@ export const SCENE_KINDS = ["verse", "chorus", "question", "story", "lesson", "m
 
 export const TRANSITIONS = ["pop", "slide", "iris", "wipe", "fade"];
 
+export const GAG_KINDS = ["peek", "flyby"];
+
 export const SFX = [
   "pop", "boing", "whoosh", "ding", "sparkle", "clap", "applause", "ticktock", "drumroll",
   "splash", "coin", "heart", "bubble", "magic", "tada", "slide", "yawn", "stomp",

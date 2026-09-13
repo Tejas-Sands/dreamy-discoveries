@@ -1,49 +1,39 @@
 {
   "name": "unicorn",
   "emoji": "🦄",
-  "rig": "biped",
+  "rig": "quadruped",
   "colors": {
-    "body": "#fdf3ff",
-    "belly": "#ffffff",
-    "limb": "#f3e2fb",
-    "accent": "#ff7fb8",
-    "dark": "#c9a2ff"
+    "body": "#f2dced",
+    "belly": "#f7e5f2",
+    "limb": "#b97dbd",
+    "accent": "#a578c8",
+    "dark": "#40333b"
   },
-  "ears": "pointy",
-  "earOptions": {
-    "size": 0.7
-  },
-  "tail": "bushy",
-  "tailOptions": {
-    "color": "#c9a2ff",
-    "tip": "#7fd0ff"
-  },
-  "features": [
-    {
-      "kind": "hair",
-      "colors": "#ff7fb8,#c9a2ff,#7fd0ff,#ffd23f"
-    },
-    "hornUnicorn",
-    {
-      "kind": "snout",
-      "color": "#ffe4f2",
-      "y": 124,
-      "rx": 22,
-      "ry": 14,
-      "nostrils": true
-    }
-  ],
+  "ears": "none",
+  "tail": "none",
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "mouthY": 134
+    "eyeGap": 0,
+    "eyeY": 92,
+    "mouthY": 130,
+    "eyeSize": 0.8,
+    "mouthDx": -25
   },
+  "arm": "capsule",
+  "foot": "hoof",
   "words": {
-    "name": "Una",
+    "name": "Sparkle",
     "one": "unicorn",
     "plural": "unicorns",
-    "verb": "prance",
-    "verbs": "prances",
-    "verbing": "prancing",
-    "home": "sky",
+    "verb": "gallop",
+    "verbs": "gallops",
+    "verbing": "galloping",
+    "home": "fantasy forest",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#f2dced"
   }
 }

@@ -3,37 +3,46 @@
   "emoji": "🐦",
   "rig": "bird",
   "colors": {
-    "body": "#5db9ff",
-    "belly": "#d6efff",
-    "limb": "#ff9f1a"
+    "body": "#5caee6",
+    "belly": "#aee3ff",
+    "limb": "#e8a44c",
+    "accent": "#f5b942",
+    "dark": "#40333b"
   },
   "ears": "none",
   "tail": "feathers",
   "features": [
     {
-      "kind": "tuftTop",
-      "color": "#3d9de6"
+      "kind": "beakSmall",
+      "y": 115,
+      "color": "#e9a548"
     },
     {
-      "kind": "beakSmall",
-      "y": 122
+      "kind": "tuftTop",
+      "color": "#5caee6"
     }
   ],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "eyeY": 110,
-    "eyeGap": 44,
-    "mouthY": 146
+    "eyeGap": 43,
+    "eyeY": 92,
+    "mouthY": 137,
+    "eyeSize": 0.95
   },
   "arm": "wing",
   "foot": "duck",
   "words": {
-    "name": "Bluey",
+    "name": "Pip",
     "one": "bird",
     "plural": "birds",
-    "verb": "fly",
-    "verbs": "flies",
-    "verbing": "flying",
-    "home": "sky",
-    "sound": "tweet"
+    "verb": "chirp",
+    "verbs": "chirps",
+    "verbing": "chirping",
+    "home": "nest",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#5caee6"
   }
 }

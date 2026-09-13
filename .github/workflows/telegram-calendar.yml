@@ -1,0 +1,65 @@
+name: Update upload calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "3-58/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  confirmations:
+    # Run manually once before enabling the cron. No credentials are needed until then.
+    if: github.ref_name == github.event.repository.default_branch && (github.event_name == 'workflow_dispatch' || vars.TELEGRAM_CALENDAR_ENABLED == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: dreamy-calendar-state
+      cancel-in-progress: false
+      queue: max
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      TELEGRAM_OWNER_ID: ${{ secrets.TELEGRAM_OWNER_ID }}
+      TURSO_URL: ${{ secrets.TURSO_URL }}
+      TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Read owner confirmations and save calendar state
+        run: node scripts/telegram-calendar.mjs poll
+      - name: Commit calendar before acknowledging new updates
+        run: |
+          git config user.name "dreamy-discoveries[bot]"
+          git config user.email "bot@users.noreply.github.com"
+          git add library/planning/publications.json library/planning/2026-q4/schedule.json library/planning/2026-q4/schedule.csv library/planning/2026-q4/CALENDAR.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "calendar: record upload confirmations [skip ci]"
+          pushed=false
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then pushed=true; break; fi
+            sleep $((i * 5))
+          done
+          [ "$pushed" = true ]
+      - name: Update Telegram buttons and confirm to owner
+        id: notify
+        run: node scripts/telegram-calendar.mjs notify
+      - name: Persist notification acknowledgements, including partial successes
+        if: always() && (steps.notify.outcome == 'success' || steps.notify.outcome == 'failure')
+        run: |
+          git add library/planning/publications.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "calendar: acknowledge Telegram notifications [skip ci]"
+          pushed=false
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then pushed=true; break; fi
+            sleep $((i * 5))
+          done
+          [ "$pushed" = true ]

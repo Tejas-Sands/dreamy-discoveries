@@ -3,29 +3,61 @@
   "emoji": "🐱",
   "rig": "biped",
   "colors": {
-    "body": "#ffb457",
-    "belly": "#ffe6bd",
-    "limb": "#f5a548",
-    "inner": "#ffc6d9"
+    "body": "#f4a259",
+    "belly": "#fae3c6",
+    "limb": "#f4a259",
+    "accent": "#b97237",
+    "dark": "#40333b",
+    "inner": "#eaaeaa"
   },
   "ears": "pointy",
   "tail": "curved",
   "features": [
     {
-      "kind": "headStripe",
-      "color": "#e08a2e"
+      "kind": "snout",
+      "rx": 27,
+      "ry": 19,
+      "y": 123,
+      "color": "#fff1d7"
     },
-    "pinkNose",
-    "whiskers"
+    "whiskers",
+    {
+      "kind": "tigerStripes",
+      "color": "#b97237"
+    }
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "collar",
+      "color": "#8ea6d0",
+      "ring": "#f5d76e"
+    }
+  ],
+  "face": {
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 130,
+    "eyeSize": 1
+  },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Kiki",
-    "one": "kitten",
-    "plural": "kittens",
+    "name": "Cleo",
+    "one": "cat",
+    "plural": "cats",
     "verb": "pounce",
     "verbs": "pounces",
-    "verbing": "pouncing",
-    "home": "bedroom",
-    "sound": "meow"
+    "verbing": "pounceing",
+    "home": "house",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#f4a259",
+    "width": 15,
+    "rings": "#b97237"
+  },
+  "earOptions": {
+    "inner": "#eaaeaa"
   }
 }

@@ -1,31 +1,44 @@
 {
   "name": "owl",
-  "emoji": "🦉",
+  "emoji": "\ud83e\udd89",
   "rig": "bird",
   "colors": {
-    "body": "#a97c50",
-    "belly": "#f1dcb8",
-    "limb": "#ff9f1a",
-    "inner": "#f1dcb8"
+    "body": "#876445",
+    "belly": "#e5c799",
+    "limb": "#d49d42",
+    "accent": "#d49d42",
+    "dark": "#5a8a4f"
   },
   "ears": "tuft",
   "tail": "feathers",
   "features": [
     {
       "kind": "beakSmall",
-      "y": 126
+      "y": 126,
+      "color": "#ffb020"
     }
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "necklace",
+      "color": "#5a8a4f"
+    }
+  ],
+  "earOptions": {
+    "color": "#a97c50"
+  },
   "face": {
-    "eyeSize": 1.35,
+    "eyeY": 106,
     "eyeGap": 54,
-    "eyeY": 116,
-    "mouthY": 150
+    "mouthY": 144,
+    "eyeSize": 1.3,
+    "sockets": true
   },
   "arm": "wing",
   "foot": "duck",
   "words": {
-    "name": "Ollie",
+    "name": "Ozzy",
     "one": "owl",
     "plural": "owls",
     "verb": "hoot",

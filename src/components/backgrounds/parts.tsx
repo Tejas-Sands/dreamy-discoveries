@@ -16,6 +16,17 @@ const num = (v: unknown, d: number) => (typeof v === "number" ? v : d);
 const str = (v: unknown, d: string) => (typeof v === "string" ? v : d);
 const list = (v: unknown, d: string[]) => (Array.isArray(v) ? (v as string[]) : d);
 
+/** lighten (amt>0) or darken (amt<0) a #rrggbb color, amt in [-1, 1] */
+function shade(hex: string, amt: number): string {
+  const n = parseInt(hex.slice(1), 16);
+  const r = (n >> 16) & 255;
+  const g = (n >> 8) & 255;
+  const b = n & 255;
+  const f = (c: number) => Math.max(0, Math.min(255, Math.round(amt >= 0 ? c + (255 - c) * amt : c * (1 + amt))));
+  const to = (v: number) => v.toString(16).padStart(2, "0");
+  return `#${to(f(r))}${to(f(g))}${to(f(b))}`;
+}
+
 /* ───────────────── shared drawings ───────────────── */
 const Cloud: React.FC<{ x: number; y: number; s?: number; opacity?: number; color?: string }> = ({ x, y, s = 1, opacity = 1, color = "#fff" }) => (
   <g transform={`translate(${x} ${y}) scale(${s})`} opacity={opacity}>
@@ -26,18 +37,16 @@ const Cloud: React.FC<{ x: number; y: number; s?: number; opacity?: number; colo
   </g>
 );
 
-const Hill: React.FC<{ cx: number; top: number; rx: number; color: string }> = ({ cx, top, rx, color }) => <ellipse cx={cx} cy={top + rx * 0.55} rx={rx} ry={rx * 0.55} fill={color} />;
-
 const RoundTree: React.FC<{ x: number; base: number; s?: number; leaf?: string; sway?: number }> = ({ x, base, s = 1, leaf = "#58b847", sway = 0 }) => (
   <g transform={`translate(${x} ${base}) scale(${s}) rotate(${sway})`}>
-    <rect x={-14} y={-90} width={28} height={95} rx={10} fill="#9a6b3f" stroke={OUT} strokeWidth={4} />
-    <circle cx={0} cy={-130} r={70} fill={leaf} stroke={OUT} strokeWidth={4} />
-    <circle cx={-48} cy={-100} r={48} fill={leaf} stroke={OUT} strokeWidth={4} />
-    <circle cx={48} cy={-100} r={48} fill={leaf} stroke={OUT} strokeWidth={4} />
-    <circle cx={0} cy={-120} r={62} fill={leaf} />
-    <circle cx={-40} cy={-96} r={40} fill={leaf} />
-    <circle cx={40} cy={-96} r={40} fill={leaf} />
-    <circle cx={-20} cy={-150} r={8} fill="#fff" opacity={0.35} />
+    <ellipse cy={3} rx={78} ry={12} fill="#183e44" opacity={0.12} />
+    <path d="M -18 0 Q -10 -64 -20 -132 L 18 -132 Q 10 -62 22 0 Z" fill="#a66b43" />
+    <path d="M -4 -8 L -4 -115 M -4 -70 L -40 -105 M -3 -83 L 34 -125" fill="none" stroke="#e5a86d" strokeWidth={8} strokeLinecap="round" />
+    <path d="M -82 -100 C -112 -145 -74 -185 -38 -178 C -32 -225 42 -232 60 -182 C 112 -192 130 -127 92 -101 C 70 -67 -51 -58 -82 -100 Z" fill={shade(leaf, -0.22)} />
+    <ellipse cx={-22} cy={-147} rx={69} ry={55} fill={leaf} />
+    <ellipse cx={38} cy={-164} rx={55} ry={48} fill={leaf} />
+    <ellipse cx={-33} cy={-166} rx={38} ry={25} fill={shade(leaf, 0.22)} transform="rotate(-25 -33 -166)" />
+    <path d="M 5 -130 Q 23 -148 41 -138 M -50 -122 Q -32 -135 -19 -124" fill="none" stroke={shade(leaf, -0.15)} strokeWidth={5} strokeLinecap="round" />
   </g>
 );
 
@@ -46,7 +55,8 @@ const Pine: React.FC<{ x: number; base: number; s?: number; color?: string; snow
     <rect x={-12} y={-40} width={24} height={44} rx={8} fill="#8a5a33" stroke={OUT} strokeWidth={4} />
     {[0, 1, 2].map((i) => (
       <g key={i}>
-        <path d={`M ${-90 + i * 18} ${-40 - i * 60} L 0 ${-150 - i * 60} L ${90 - i * 18} ${-40 - i * 60} Z`} fill={color} stroke={OUT} strokeWidth={4} strokeLinejoin="round" />
+        <path d={`M ${-90 + i * 18} ${-40 - i * 60} L 0 ${-150 - i * 60} L ${90 - i * 18} ${-40 - i * 60} Z`} fill={shade(color, i * 0.09)} stroke={shade(color, -0.25)} strokeWidth={3} strokeLinejoin="round" />
+        <path d={`M 0 ${-150 - i * 60} L ${22 - i * 3} ${-40 - i * 60} L ${90 - i * 18} ${-40 - i * 60} Z`} fill={shade(color, -0.16)} opacity={0.6} />
         {snow ? <path d={`M ${-60 + i * 12} ${-52 - i * 60} Q 0 ${-70 - i * 60} ${60 - i * 12} ${-52 - i * 60} Q 0 ${-40 - i * 60} ${-60 + i * 12} ${-52 - i * 60}`} fill="#fff" /> : null}
       </g>
     ))}
@@ -255,12 +265,36 @@ export const PARTS: Record<string, { group: PartGroup; Part: Part }> = {
   ) },
 
   /* ── static scenery ── */
-  hill: { group: "static", Part: ({ o, p }) => <Hill cx={num(o.cx, 960)} top={num(o.top, 850)} rx={num(o.rx, 1500)} color={str(o.color, p.ground)} /> },
-  ground: { group: "static", Part: ({ o, p }) => {
-    const top = num(o.top, GROUND_Y - 10);
+  hill: { group: "static", Part: ({ o, p }) => {
+    const cx = num(o.cx, 960), top = num(o.top, 850), rx = num(o.rx, 1500);
+    const color = str(o.color, p.ground);
+    const id = `bh-${o.uid ?? "h"}`;
     return (
       <g>
-        <rect x={0} y={top} width={W} height={1080 - top} fill={str(o.color, p.ground)} />
+        <defs>
+          <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor={shade(color, 0.10)} />
+            <stop offset="1" stopColor={shade(color, -0.16)} />
+          </linearGradient>
+        </defs>
+        <ellipse cx={cx} cy={top + rx * 0.55} rx={rx} ry={rx * 0.55} fill={`url(#${id})`} />
+      </g>
+    );
+  } },
+  ground: { group: "static", Part: ({ o, p }) => {
+    const top = num(o.top, GROUND_Y - 10);
+    const color = str(o.color, p.ground);
+    const id = `bg-${o.uid ?? "g"}`;
+    return (
+      <g>
+        <defs>
+          <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor={shade(color, 0.08)} />
+            <stop offset="1" stopColor={shade(color, -0.2)} />
+          </linearGradient>
+        </defs>
+        <rect x={0} y={top} width={W} height={1080 - top} fill={`url(#${id})`} />
+        <path d={`M 0 ${top + 9} Q 450 ${top - 5} 960 ${top + 8} T 1920 ${top + 9}`} fill="none" stroke={shade(color, 0.28)} strokeWidth={12} opacity={0.6} />
         {o.shade ? <rect x={0} y={top} width={W} height={18} fill={str(o.shade, "#000")} opacity={0.35} /> : null}
       </g>
     );
@@ -268,12 +302,22 @@ export const PARTS: Record<string, { group: PartGroup; Part: Part }> = {
   wavyGround: { group: "static", Part: ({ o }) => (
     <path d={`M -100 ${num(o.top, GROUND_Y - 10)} Q 400 ${num(o.top, GROUND_Y - 10) - 50} 900 ${num(o.top, GROUND_Y - 10) - 10} T 2000 ${num(o.top, GROUND_Y - 10) - 20} L 2000 1100 L -100 1100 Z`} fill={str(o.color, "#ffe6a8")} />
   ) },
-  curvedGround: { group: "static", Part: ({ o }) => (
-    <g>
-      <path d={`M -100 ${GROUND_Y + 20} Q 960 ${GROUND_Y - 80} 2020 ${GROUND_Y + 20} L 2020 1100 L -100 1100 Z`} fill={str(o.color, "#b9b3d8")} />
-      {o.craters ? [300, 800, 1400].map((x, i) => <ellipse key={i} cx={x} cy={GROUND_Y + 50 + i * 25} rx={60 - i * 8} ry={16} fill={str(o.craters, "#9f98c6")} stroke="#8a83b3" strokeWidth={4} />) : null}
-    </g>
-  ) },
+  curvedGround: { group: "static", Part: ({ o }) => {
+    const color = str(o.color, "#b9b3d8");
+    const id = `bcg-${o.uid ?? "cg"}`;
+    return (
+      <g>
+        <defs>
+          <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor={shade(color, 0.3)} />
+            <stop offset="1" stopColor={shade(color, -0.16)} />
+          </linearGradient>
+        </defs>
+        <path d={`M -100 ${GROUND_Y + 20} Q 960 ${GROUND_Y - 80} 2020 ${GROUND_Y + 20} L 2020 1100 L -100 1100 Z`} fill={`url(#${id})`} />
+        {o.craters ? [300, 800, 1400].map((x, i) => <ellipse key={i} cx={x} cy={GROUND_Y + 50 + i * 25} rx={60 - i * 8} ry={16} fill={str(o.craters, "#9f98c6")} stroke="#8a83b3" strokeWidth={4} />) : null}
+      </g>
+    );
+  } },
   cloudFloor: { group: "static", Part: () => (
     <g>
       <Cloud x={620} y={910} s={2.6} />
@@ -376,8 +420,12 @@ export const PARTS: Record<string, { group: PartGroup; Part: Part }> = {
   ) },
   barn: { group: "static", Part: ({ o }) => (
     <g transform={`translate(${num(o.x, 1480)} ${num(o.y, GROUND_Y - 10)})`}>
-      <rect x={-200} y={-260} width={400} height={260} fill="#e0463a" stroke={OUT} strokeWidth={5} />
-      <path d="M -220 -260 L 0 -400 L 220 -260 Z" fill="#b8352b" stroke={OUT} strokeWidth={5} strokeLinejoin="round" />
+      <rect x={-200} y={-260} width={400} height={260} rx={12} fill="#ec6551" stroke="#9e3c43" strokeWidth={5} />
+      {[-160, -110, -60, 0, 60, 110, 160].map((x) => <path key={x} d={`M ${x} -255 V -8`} stroke="#ffad84" strokeWidth={4} opacity={0.5} />)}
+      <path d="M -230 -260 L 0 -412 L 230 -260 Z" fill="#31576b" stroke="#244653" strokeWidth={6} strokeLinejoin="round" />
+      <path d="M -216 -264 L 0 -402 L 216 -264" fill="none" stroke="#72b5bf" strokeWidth={10} strokeLinejoin="round" />
+      <circle cy={-305} r={30} fill="#ffe6a1" stroke="#fff5d8" strokeWidth={9} />
+      <path d="M -30 -305 H 30 M 0 -335 V -275" stroke="#db9b64" strokeWidth={5} />
       <rect x={-70} y={-150} width={140} height={150} rx={70} fill="#7a3b2f" stroke={OUT} strokeWidth={4} />
       <line x1={-70} y1={-80} x2={70} y2={0} stroke="#f4d6a4" strokeWidth={8} />
       <line x1={70} y1={-80} x2={-70} y2={0} stroke="#f4d6a4" strokeWidth={8} />
@@ -756,4 +804,20 @@ export const PARTS: Record<string, { group: PartGroup; Part: Part }> = {
       })}
     </g>
   ) },
+};
+
+/** Baked edge framing for green outdoor sets; the center remains clear for teaching. */
+export const SceneryFrame: React.FC<{ kind: string }> = ({ kind }) => {
+  if (!["meadow", "forest", "farm", "garden", "park", "jungle", "pond", "playground", "castle"].includes(kind)) return null;
+  return <g>
+    {[false, true].map((flip) => <g key={String(flip)} transform={`translate(${flip ? W : 0} 1025) scale(${flip ? -1 : 1} 1)`}>
+      <ellipse cx={20} cy={10} rx={260} ry={72} fill="#187f78" />
+      {[-42, -12, 22, 52].map((angle, i) => <g key={angle} transform={`translate(${30 + i * 28} 0) rotate(${angle})`}>
+        <path d="M 0 0 C -105 -85 -90 -196 -20 -245 C 50 -172 65 -77 0 0 Z" fill={["#238e85", "#39b78e", "#77cf78", "#40a77a"][i]} />
+        <path d="M 0 -12 Q -22 -110 -20 -216" fill="none" stroke="#b7e993" strokeWidth={5} opacity={0.55} />
+      </g>)}
+      <Flower x={174} base={-10} color="#fa779c" s={1.25} />
+      <Flower x={76} base={-68} color="#ffc95e" s={1.05} />
+    </g>)}
+  </g>;
 };

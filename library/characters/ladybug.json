@@ -1,42 +1,38 @@
 {
   "name": "ladybug",
   "emoji": "🐞",
-  "rig": "bird",
+  "rig": "insect",
   "colors": {
-    "body": "#ff3b3b",
-    "belly": "#ff3b3b",
-    "limb": "#2f2438",
-    "dark": "#2f2438"
+    "body": "#d93838",
+    "belly": "#2c2c2c",
+    "limb": "#d93838",
+    "accent": "#1a1a1a",
+    "dark": "#40333b"
   },
   "ears": "none",
   "tail": "none",
-  "features": [
-    "antennae",
-    "headCap"
-  ],
-  "markings": [
-    {
-      "kind": "spots",
-      "color": "#2f2438",
-      "count": 6
-    }
-  ],
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "eyeY": 116,
-    "eyeGap": 44,
-    "mouthY": 148
+    "eyeGap": 37,
+    "eyeY": 88,
+    "mouthY": 114,
+    "eyeSize": 0.86
   },
   "arm": "capsule",
-  "foot": "round",
-  "legWidth": 14,
+  "foot": "none",
   "words": {
-    "name": "Lulu",
+    "name": "Dot",
     "one": "ladybug",
     "plural": "ladybugs",
-    "verb": "fly",
-    "verbs": "flies",
-    "verbing": "flying",
-    "home": "meadow",
+    "verb": "crawl",
+    "verbs": "crawls",
+    "verbing": "crawling",
+    "home": "leaf",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#d93838"
   }
 }

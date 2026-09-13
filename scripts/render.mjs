@@ -3,7 +3,7 @@
  *
  *   node scripts/render.mjs [--slug my-video]                 full video + thumbnail + metadata (local one-shot)
  *   node scripts/render.mjs --slug S --frames 0-2999 --muted --out out/chunks/S/chunk-0.mp4   one video-only chunk (CI)
- *   node scripts/render.mjs --slug S --audio-only --out out/S.aac                             the audio track only (CI)
+ *   node scripts/render.mjs --slug S --audio-only --out out/episodes/S.aac                             the audio track only (CI)
  *   extra: --scale 0.5 (preview), --thumbnail-only
  *
  * Chunks from several runners are joined by scripts/stitch.mjs.
@@ -15,6 +15,7 @@ import { spawnSync } from "node:child_process";
 import { parseArgs, readScript, resolveSlug, OUT_DIR, ROOT } from "./lib/common.mjs";
 import { writeMetadata } from "./lib/metadata.mjs";
 import { buildRegistry } from "./build-registry.mjs";
+import { recordStory } from "./lib/universe.mjs";
 
 function run(cmd, cmdArgs) {
   console.log(`[render] ${cmd} ${cmdArgs.join(" ")}`);
@@ -23,6 +24,7 @@ function run(cmd, cmdArgs) {
 }
 
 export function renderThumbnail(slug, outPath) {
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
   const props = JSON.stringify({ slug, script: null });
   run("npx", ["remotion", "still", "Thumbnail", outPath, `--props=${props}`]);
 }
@@ -68,6 +70,10 @@ function main() {
   writeMetadata(slug, script, OUT_DIR);
   const sizeMb = (fs.statSync(videoOut).size / 1024 / 1024).toFixed(1);
   console.log(`[render] done: ${videoOut} (${sizeMb} MB), ${thumbOut}, ${slug}.metadata.txt`);
+  if (!args.scale) {
+    recordStory(slug, { status: "rendered", timeline: { rendered: new Date().toISOString().slice(0, 10) } });
+    console.log(`[render] recorded ${slug} in library/universe.json`);
+  }
 }
 
 const isMain = process.argv[1] && path.resolve(process.argv[1]) === new URL(import.meta.url).pathname;

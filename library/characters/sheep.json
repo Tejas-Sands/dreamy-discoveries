@@ -3,32 +3,55 @@
   "emoji": "🐑",
   "rig": "biped",
   "colors": {
-    "body": "#f7f2e8",
-    "belly": "#ffffff",
-    "limb": "#4a4a55",
-    "dark": "#4a4a55"
+    "body": "#f1d5b8",
+    "belly": "#fff5df",
+    "limb": "#c6aa98",
+    "accent": "#f5d4bc",
+    "dark": "#40333b"
   },
-  "ears": "round",
-  "earOptions": {
-    "r": 14,
-    "y": 72,
-    "x": 40
-  },
+  "ears": "floppy",
   "tail": "pom",
   "features": [
-    "wool"
+    {
+      "kind": "pinkNose",
+      "y": 116,
+      "color": "#9e7b73"
+    }
+  ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "collar",
+      "color": "#855b40",
+      "ring": "#c99d3e"
+    }
   ],
   "face": {
-    "mouthY": 130
+    "eyeGap": 44,
+    "eyeY": 92,
+    "mouthY": 136,
+    "eyeSize": 0.9
   },
+  "arm": "capsule",
+  "foot": "hoof",
   "words": {
-    "name": "Sammy",
+    "name": "Shaun",
     "one": "sheep",
     "plural": "sheep",
-    "verb": "skip",
-    "verbs": "skips",
-    "verbing": "skipping",
-    "home": "farm",
-    "sound": "baa"
+    "verb": "baa",
+    "verbs": "baas",
+    "verbing": "baaing",
+    "home": "pasture",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#ffffff"
+  },
+  "earOptions": {
+    "color": "#e8c4ba",
+    "x": 55,
+    "y": 86,
+    "rx": 24,
+    "ry": 13
   }
 }

@@ -3,51 +3,69 @@
   "emoji": "🐮",
   "rig": "biped",
   "colors": {
-    "body": "#ffffff",
-    "belly": "#ffd9e6",
-    "limb": "#dcdcdc",
-    "accent": "#ffb3c6",
-    "dark": "#3b3b46"
+    "body": "#f3eeee",
+    "belly": "#fff8ef",
+    "limb": "#f3eeee",
+    "accent": "#766c7c",
+    "dark": "#40333b"
   },
-  "ears": "round",
-  "earOptions": {
-    "r": 17,
-    "y": 86,
-    "x": 34,
-    "inner": "#ffb3c6"
-  },
+  "ears": "floppy",
   "tail": "thin",
-  "tailOptions": {
-    "tuft": "#3b3b46"
-  },
   "features": [
     {
       "kind": "horns",
-      "color": "#e8d3a4"
+      "color": "#e5c9a0"
     },
     {
-      "kind": "snout",
-      "color": "#ffb3c6",
-      "y": 124,
-      "rx": 26,
-      "ry": 16,
-      "nostrils": true
+      "kind": "pigSnout",
+      "rx": 35,
+      "ry": 23,
+      "y": 125,
+      "color": "#e9afc0",
+      "dark": "#804d66"
     }
   ],
   "markings": [
-    "spots"
+    {
+      "kind": "spots",
+      "color": "#766c7c",
+      "count": 4
+    }
+  ],
+  "accessories": [
+    {
+      "kind": "collar",
+      "color": "#8c5836",
+      "ring": "#f5d76e"
+    }
   ],
   "face": {
-    "mouthY": 134
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 144,
+    "eyeSize": 1
   },
+  "arm": "capsule",
+  "foot": "hoof",
   "words": {
-    "name": "Clara",
+    "name": "Bessie",
     "one": "cow",
     "plural": "cows",
-    "verb": "munch",
-    "verbs": "munches",
-    "verbing": "munching",
-    "home": "farm",
-    "sound": "moo"
+    "verb": "graze",
+    "verbs": "grazes",
+    "verbing": "grazeing",
+    "home": "pasture",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#f8f4f0",
+    "tuft": "#766c7c"
+  },
+  "earOptions": {
+    "color": "#f3eeee",
+    "x": 59,
+    "y": 62,
+    "rx": 27,
+    "ry": 14
   }
 }

@@ -321,13 +321,15 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "pop",
-      "camera": "zoom-in",
       "question": null,
       "secondCharacter": null,
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": {
         "kind": "peek",
         "character": "monkey",
+        "side": "right",
         "atSec": 2.2
       }
     },
@@ -455,10 +457,11 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "slide",
-      "camera": "pan",
       "question": null,
       "secondCharacter": null,
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
       "gag": null
     },
     {
@@ -579,10 +582,11 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "wipe",
-      "camera": "zoom-out",
       "prop": null,
       "question": null,
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
       "gag": null
     },
     {
@@ -730,10 +734,11 @@
           ]
         }
       ],
-      "transition": "iris",
-      "camera": "zoom-in",
       "prop": null,
       "starIndex": 0,
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -831,10 +836,11 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "fade",
-      "camera": "zoom-in",
       "prop": null,
       "question": null,
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -897,11 +903,12 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "slide",
-      "camera": "pan",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
       "gag": null
     },
     {
@@ -1016,11 +1023,17 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "wipe",
-      "camera": "zoom-out",
       "question": null,
       "secondCharacter": null,
-      "gag": null
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6
+      }
     },
     {
       "background": "meadow",
@@ -1129,11 +1142,12 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "fade",
-      "camera": "zoom-in",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -1259,11 +1273,12 @@
         }
       ],
       "holdSec": 0,
-      "transition": "slide",
-      "camera": "still",
       "prop": null,
       "question": null,
       "secondCharacter": null,
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
       "gag": null
     },
     {
@@ -1375,10 +1390,11 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "wipe",
-      "camera": "still",
       "prop": null,
       "question": null,
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
       "gag": null
     },
     {
@@ -1518,11 +1534,17 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "fade",
-      "camera": "pan",
       "prop": null,
       "question": null,
-      "gag": null
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "right",
+        "atSec": 1.6
+      }
     },
     {
       "kind": "question",
@@ -1620,10 +1642,11 @@
           ]
         }
       ],
-      "transition": "iris",
-      "camera": "zoom-in",
       "prop": null,
       "starIndex": 1,
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -1715,10 +1738,11 @@
       ],
       "holdSec": 0,
       "kind": "story",
-      "transition": "slide",
-      "camera": "still",
       "prop": null,
       "question": null,
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
       "gag": null
     },
     {
@@ -1836,10 +1860,11 @@
           ]
         }
       ],
-      "transition": "iris",
-      "camera": "zoom-in",
       "prop": null,
       "starIndex": 2,
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -1847,8 +1872,6 @@
       "background": "meadow",
       "character": "bunny",
       "energy": "calm",
-      "transition": "iris",
-      "camera": "zoom-in",
       "holdSec": 0.6,
       "lines": [
         {
@@ -1929,16 +1952,18 @@
         }
       ],
       "secondCharacter": null,
-      "gag": null,
       "prop": null,
-      "question": null
+      "question": null,
+      "transition": "pop",
+      "camera": "zoom-out",
+      "extras": null,
+      "gag": null
     },
     {
       "kind": "moral",
       "background": "meadow",
       "character": "bunny",
       "energy": "upbeat",
-      "transition": "pop",
       "holdSec": 1.6,
       "lines": [
         {
@@ -2067,17 +2092,21 @@
         }
       ],
       "secondCharacter": null,
-      "camera": "still",
-      "gag": null,
       "prop": null,
-      "question": null
+      "question": null,
+      "transition": "pop",
+      "camera": "still",
+      "extras": [
+        "cat",
+        "pig"
+      ],
+      "gag": null
     },
     {
       "kind": "moral",
       "background": "meadow",
       "character": "bunny",
       "energy": "upbeat",
-      "transition": "pop",
       "holdSec": 0.8,
       "lines": [
         {
@@ -2201,10 +2230,15 @@
         }
       ],
       "secondCharacter": null,
-      "camera": "still",
-      "gag": null,
       "prop": null,
-      "question": null
+      "question": null,
+      "transition": "pop",
+      "camera": "zoom-out",
+      "extras": [
+        "pig",
+        "dog"
+      ],
+      "gag": null
     }
   ],
   "version": 2,

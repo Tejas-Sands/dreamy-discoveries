@@ -90,3 +90,39 @@ export const Floaters: React.FC<{ emoji: string | string[]; x: number; y: number
     </div>
   );
 };
+
+/** a pattern interrupt: an emoji flies across the top of the screen (butterfly, bee, balloon, shooting star…) */
+export const FlyBy: React.FC<{ emoji: string; from: number; durationSec?: number; y?: number; dir?: 1 | -1; size?: number }> = ({ emoji, from, durationSec = 3.2, y = 250, dir = 1, size = 110 }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = (frame - from) / fps;
+  if (t < 0 || t > durationSec) return null;
+  const k = t / durationSec;
+  const x = dir === 1 ? -200 + k * (W + 400) : W + 200 - k * (W + 400);
+  const bob = Math.sin(t * 7) * 28;
+  const tilt = Math.cos(t * 7) * 14;
+  return (
+    <div style={{ position: "absolute", left: x, top: y + bob, fontSize: size, lineHeight: 1, transform: `rotate(${tilt}deg) scaleX(${dir === 1 ? -1 : 1})`, filter: "drop-shadow(0 8px 6px rgba(0,0,0,0.2))", pointerEvents: "none" }}>
+      {emoji}
+    </div>
+  );
+};
+
+/** a quick white flash (answer reveal, big landing) */
+export const Flash: React.FC<{ from: number; strength?: number; color?: string }> = ({ from, strength = 0.55, color = "#fff" }) => {
+  const frame = useCurrentFrame();
+  const t = frame - from;
+  if (t < 0 || t > 12) return null;
+  const opacity = strength * Math.max(0, 1 - t / 12);
+  return <div style={{ position: "absolute", inset: 0, background: color, opacity, pointerEvents: "none" }} />;
+};
+
+/** a ring that expands and fades from (x, y) — a "look here!" pulse */
+export const Ripple: React.FC<{ from: number; x: number; y: number; color?: string; size?: number }> = ({ from, x, y, color = "#fff", size = 500 }) => {
+  const frame = useCurrentFrame();
+  const t = (frame - from) / 30;
+  if (t < 0 || t > 0.7) return null;
+  const k = t / 0.7;
+  const r = size * (0.2 + 0.8 * (1 - Math.pow(1 - k, 3)));
+  return <div style={{ position: "absolute", left: x - r / 2, top: y - r / 2, width: r, height: r, borderRadius: 999, border: `${14 * (1 - k) + 2}px solid ${color}`, opacity: (1 - k) * 0.9, pointerEvents: "none" }} />;
+};

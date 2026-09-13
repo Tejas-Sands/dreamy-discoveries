@@ -3,30 +3,55 @@
   "emoji": "🐘",
   "rig": "biped",
   "colors": {
-    "body": "#aab8e6",
-    "belly": "#dfe6fb",
-    "limb": "#95a5da",
-    "inner": "#ffc6d9",
-    "dark": "#7d8fc9"
+    "body": "#919eb8",
+    "belly": "#b4bfd1",
+    "limb": "#919eb8",
+    "inner": "#f2c2d1",
+    "accent": "#e8a7b9",
+    "dark": "#40333b"
   },
   "ears": "big",
-  "tail": "stub",
+  "tail": "thin",
   "features": [
     "trunk"
   ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "headdress",
+      "color": "#e8b931",
+      "band": "#c43b50"
+    }
+  ],
   "face": {
-    "mouthDx": -22,
-    "mouthY": 136
+    "eyeGap": 63,
+    "eyeY": 92,
+    "mouthY": 135,
+    "eyeSize": 0.87,
+    "mouthDx": -24
   },
-  "legWidth": 32,
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Ellie",
+    "name": "Eli",
     "one": "elephant",
     "plural": "elephants",
     "verb": "stomp",
     "verbs": "stomps",
     "verbing": "stomping",
-    "home": "meadow",
-    "sound": "toot"
+    "home": "savanna",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#919eb8",
+    "width": 5,
+    "tuft": "#68768f"
+  },
+  "earOptions": {
+    "rx": 40,
+    "ry": 47,
+    "x": 63,
+    "y": 86,
+    "inner": "#e9b7c7"
   }
 }

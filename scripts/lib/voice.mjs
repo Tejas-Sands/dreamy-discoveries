@@ -1,19 +1,17 @@
 /**
  * The global voice store: every synthesized line lives ONCE in .cache/voice/<hash>.<ext>
- * (+ <hash>.json with duration and word timings). Videos copy what they need into
- * public/generated/<slug>/. In CI the store is an actions/cache entry shared by every
- * run, so greetings, praise lines, choruses and "One more time!" are synthesized once ever.
+ * (+ <hash>.json with duration and word timings). DB voice_cache table keeps an index.
  */
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { ROOT } from "./common.mjs";
+import { getClient } from "./db.mjs";
 
 export const VOICE_STORE = path.join(ROOT, ".cache", "voice");
 
 export const ENGINE_DEFAULT_VOICE = { kokoro: "af_heart", edge: "en-US-AnaNeural", gemini: "Leda" };
 
-/** engine / voice / file extension, with the same guards generate-audio always applied */
 export function voiceSettings(script, args = {}) {
   const engine = process.env.TTS_ENGINE || "kokoro";
   const ext = engine === "edge" ? "mp3" : "wav";
@@ -25,7 +23,6 @@ export function voiceSettings(script, args = {}) {
 
 export const normalizeText = (text) => text.trim().toLowerCase();
 
-/** bump the "v" tag whenever synthesis changes (normalization, speed) so old files are not reused */
 export function lineHash(engine, voice, text) {
   return crypto.createHash("sha1").update(`${engine}|${voice}|v2|${normalizeText(text)}`).digest("hex").slice(0, 10);
 }
@@ -39,7 +36,17 @@ export function inStore(hash, ext) {
   return fs.existsSync(p.audio) && fs.existsSync(p.meta);
 }
 
-/** every distinct text a script will speak (incl. the reprise bridge for rhymes) */
+export function recordVoiceCache(hash, text, voice, filePath) {
+  inStore(hash, path.extname(filePath).replace(".", ""))
+  try {
+    const db = getClient();
+    db.execute({
+      sql: "INSERT OR REPLACE INTO voice_cache (hash, text, voice_id, file_path) VALUES (?, ?, ?, ?)",
+      args: [hash, text, voice, filePath],
+    }).catch(() => {});
+  } catch (_) {}
+}
+
 export function collectTexts(script) {
   const texts = [];
   if (script.intro?.text) texts.push(script.intro.text);

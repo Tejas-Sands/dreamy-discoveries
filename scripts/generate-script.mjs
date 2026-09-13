@@ -16,8 +16,12 @@ import { CHARACTER_PARTS, BACKGROUND_PARTS } from "./lib/recipes.mjs";
 import { BACKGROUND_RECIPES, CHARACTER_RECIPES } from "./lib/library.mjs";
 import { directScript } from "./lib/director.mjs";
 import { generateFromTemplate, TEMPLATE_IDS } from "./lib/templates/index.mjs";
+import { castKinds, castHeroKind, castPrompt, castMemberById, castMemberByKind } from "./lib/cast.mjs";
 
 loadDotEnv();
+
+/** the Sunny Meadow universe — the only animals a script may use */
+const CAST_KINDS = castKinds();
 
 const LineSchema = z.object({
   text: z.string().min(1).max(160),
@@ -121,7 +125,7 @@ Respond with ONLY a valid JSON object (no markdown, no commentary) with exactly 
   "type": "${type}",
   "title": "short catchy on-screen title, 2-6 words",
   "palette": "one of: ${PALETTES.join(", ")}",
-  "mainCharacter": { "kind": "one of: ${CHARACTERS.join(", ")}", "name": "a cute first name" },
+  "mainCharacter": { "kind": "one of: ${CAST_KINDS.join(", ")} (the Sunny Meadow cast, from The Cast below)", "name": "the hero's name from The Cast" },
   "intro": "1-2 short sentences the hero says to greet the child, e.g. 'Hi friends! I'm Benny the bunny! Let's sing together!'",
   "outro": "1 short goodbye sentence",
   "moral": ${type === "story" ? '"one short, warm sentence stating the lesson"' : "null"},
@@ -135,8 +139,8 @@ Respond with ONLY a valid JSON object (no markdown, no commentary) with exactly 
     {
       "kind": "${type === "story" ? "story | question | lesson" : "verse | chorus | question"}",
       "background": "one of: ${BACKGROUNDS.join(", ")}",
-      "character": "one of: ${CHARACTERS.join(", ")} (usually the main character)",
-      "secondCharacter": "another character standing next to the hero, or null",
+      "character": "one of: ${CAST_KINDS.join(", ")} (usually the main character)",
+      "secondCharacter": "another cast member standing next to the hero, or null",
       "energy": "calm | upbeat",
       "holdSec": 0,
       "prop": "one emoji the scene is about (e.g. 🥕) or null",
@@ -163,8 +167,9 @@ Content rules:
 - Audience is toddlers/preschoolers: very simple words, short sentences, warm and positive. Nothing scary, sad for long, violent, or branded. Every line max 12 words.
 - TARGET LENGTH: about ${minutes} minutes of narration — write about ${lines} lines total. This is a hard requirement; do not write a short script.
 - Give the hero a NAME and use it. Use "speaker": "character" when the hero sings/talks, "friend" when the secondCharacter talks, "narrator" for storytelling sentences about them.
+- NEVER write laughter or sound words for the voice to read ("ha ha", "hee hee", "yawn", "gasp"): they sound fake when synthesized. Put a tag at the START or END of the line instead and a real recording plays there: {giggle} {laugh} {yay} {wow} {gasp} {yum} {yawn} {hmm} {aww} {sigh}. Example: "That tickles! {giggle}". Use one every few lines when it fits the feeling.
 - Give EVERY line an emotion and an action that matches its words (jump when it says jump, sad face when sad, hug when hugging, sleep at bedtime, think when wondering, cheer for hooray, point when asking the child something).
-- Vary backgrounds between scene groups so something new appears every 20-30 seconds, and mix in 1-2 other animals as secondCharacter, but keep the hero in almost every scene so kids bond with it.
+- Vary backgrounds between scene groups so something new appears every 20-30 seconds, and mix in 1-2 CAST members (friends or rivals) as secondCharacter, but keep the hero in almost every scene so kids bond with it.
 ${
   type === "rhyme"
     ? `- Write an ORIGINAL sing-song rhyme with verse/chorus structure: verse (3-4 lines) -> chorus -> verse -> chorus ...
@@ -176,20 +181,20 @@ ${
 - Strong rhythm and end rhymes (AABB or ABAB). Each line max ~8 words.`
     : `- Structure: (1) meet the hero and what they love, (2) a friend arrives / a small problem, (3) the hero makes a choice (ask the child first!), (4) a gentle consequence and a sad moment, (5) the hero learns (kind "lesson", emotion "surprised" then "love"), (6) they fix it, (7) happy ending with the friend.
 - 1-3 lines per scene. Narrator lines describe; character/friend lines are what they say out loud.
-- Give the hero a short catchphrase said IDENTICALLY 3+ times through the story (e.g. "Hop, hop, hooray!").
-- Put 2-3 question scenes at the decision points ("What should Benny do? Share or keep them all?" answer "Share!") and one easy one (a color or number in the story).
+- Give the hero their catchphrase from The Cast, said IDENTICALLY 3+ times through the story (e.g. Taffy: "Hop, hop, hooray!").
+- Put 2-3 question scenes at the decision points ("What should Taffy do? Share or keep them all?" answer "Share!") and one easy one (a color or number in the story).
 - The story must SHOW the moral through the hero's feelings; state it only in "moral" and "moralRhyme" (the video repeats the rhyme as a chant at the end).`
 }
 - Pick the palette and backgrounds that fit the mood.
 
+${castPrompt()}
+
 BACKGROUNDS you can use (name: what it shows): ${BACKGROUNDS.map((b) => `${b}${BACKGROUND_RECIPES[b]?.description ? ` (${BACKGROUND_RECIPES[b].description})` : ""}`).join("; ")}.
-CHARACTERS you can use: ${CHARACTERS.join(", ")}.
-Only if the topic truly needs an animal or a place that is NOT in those lists, add it as a recipe made ONLY from these parts (the renderer draws it; no images):
-  "newCharacters": [{ "name": "octopus", "recipe": { "emoji": "🐙", "rig": "one of ${CHARACTER_PARTS.rigs.join("|")}", "colors": { "body": "#hex", "belly": "#hex", "limb": "#hex", "inner": "#hex", "accent": "#hex", "dark": "#hex" }, "ears": "one of ${CHARACTER_PARTS.ears.join("|")}", "tail": "one of ${CHARACTER_PARTS.tails.join("|")}", "features": ["up to 4 of ${CHARACTER_PARTS.features.join("|")}"], "markings": ["0-2 of ${CHARACTER_PARTS.markings.join("|")}"], "accessories": ["0-2 of ${CHARACTER_PARTS.accessories.join("|")}"], "words": { "name": "Ozzy", "one": "octopus", "plural": "octopuses", "verb": "wiggle", "verbs": "wiggles", "verbing": "wiggling", "home": "underwater", "sound": null } } }]
-  Example of an existing recipe for reference: ${JSON.stringify({ ...CHARACTER_RECIPES.fox, name: undefined, words: undefined })}
+Only if the topic truly needs a place that is NOT in those lists, add it as a background recipe made ONLY from these parts (the renderer draws it; no images):
   "newBackgrounds": [{ "name": "volcano", "recipe": { "gradient": ["#hex top", "#hex bottom"], "palette": "one of ${PALETTES.join("|")}", "description": "short", "parts": [ { "part": "one of back: ${BACKGROUND_PARTS.back.join("|")}" }, { "part": "one of static: ${BACKGROUND_PARTS.static.join("|")}", "x": 400 }, { "part": "one of front: ${BACKGROUND_PARTS.front.join("|")}" } ] } }]
   (parts are painted in order: back things first, scenery, then front things; hills need cx/top/rx/color, trees x/base/s, ground color/top; copy numbers from this existing recipe: ${JSON.stringify(BACKGROUND_RECIPES.pond?.parts ?? [])})
-Then use the new name in "character" / "background" like any other. Otherwise leave newCharacters and newBackgrounds out.`;
+Then use the new name in "background" like any other. Otherwise leave newBackgrounds out.
+Do NOT add newCharacters — The Cast above is the whole world.`;
 };
 
 function finish(script, args) {
@@ -200,6 +205,12 @@ function finish(script, args) {
   const lineCount = full.scenes.reduce((n, s) => n + s.lines.length, 0);
   console.log(`[generate] wrote public/generated/${slug}/script.json (${full.scenes.length} scenes, ${lineCount} lines, ${full.stars?.total ?? 0} questions)`);
   console.log(`[generate] title: ${full.title} | hero: ${full.mainCharacter.name} the ${full.mainCharacter.kind} | palette: ${full.palette} | music: ${full.music?.mood}`);
+}
+
+/** `--hero` may be a cast id ("fiona") or a kind ("fox"); resolve to the cast card */
+function resolveHero(raw) {
+  if (!raw) return null;
+  return castMemberById(String(raw)) ?? castMemberByKind(String(raw)) ?? null;
 }
 
 async function main() {
@@ -225,9 +236,14 @@ async function main() {
     process.exit(1);
   }
 
+  const heroSel = resolveHero(args.hero);
+  const userContent = heroSel
+    ? `Topic: ${topic}\nThe hero (mainCharacter) of this story MUST be ${heroSel.name} the ${heroSel.kind} from The Cast. Use that exact kind and name.`
+    : `Topic: ${topic}`;
+
   const messages = [
     { role: "system", content: systemPrompt(type, minutes) },
-    { role: "user", content: `Topic: ${topic}` },
+    { role: "user", content: userContent },
   ];
 
   let script;
@@ -249,6 +265,7 @@ async function main() {
     script.moral = null;
     script.moralRhyme = null;
   }
+  if (heroSel) script.mainCharacter = { kind: heroSel.kind, name: heroSel.name };
   const slug = args.slug || `${slugify(script.title)}-${new Date().toISOString().slice(0, 10)}`;
   finish(
     {

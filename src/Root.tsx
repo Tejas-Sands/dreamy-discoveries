@@ -2,7 +2,7 @@ import React from "react";
 import { Composition } from "remotion";
 import { KidsVideo, calculateKidsVideoMetadata } from "./KidsVideo";
 import { Thumbnail, calculateThumbnailMetadata } from "./Thumbnail";
-import { CharacterSheet } from "./CharacterSheet";
+import { CharacterSheet, CastPreview } from "./CharacterSheet";
 import { Bumper, calculateBumperMetadata } from "./Bumper";
 import { Bake } from "./Bake";
 import { BackgroundSheet } from "./BackgroundSheet";
@@ -44,9 +44,12 @@ export const RemotionRoot: React.FC = () => (
     />
     <Composition id="Bake" component={Bake} width={1920} height={1080} fps={FPS} durationInFrames={1} defaultProps={{ background: "meadow" }} />
     {/* dev aids: every species / emotion / action / background on one screen */}
+    <Composition id="Cast-Preview" component={CastPreview} width={1920} height={1080} fps={FPS} durationInFrames={12 * FPS} />
+    <Composition id="Cast-All-Motion" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={12 * FPS} defaultProps={{ mode: "species" as const, kind: "bunny", animate: true }} />
     <Composition id="Sheet-Backgrounds" component={BackgroundSheet} width={1920} height={1080} fps={FPS} durationInFrames={60} defaultProps={{ baked: {} }} />
     <Composition id="Sheet-Species" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={120} defaultProps={{ mode: "species" as const, kind: "bunny" as const }} />
     <Composition id="Sheet-Emotions" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={120} defaultProps={{ mode: "emotions" as const, kind: "bunny" as const }} />
     <Composition id="Sheet-Actions" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={120} defaultProps={{ mode: "actions" as const, kind: "bear" as const }} />
+    <Composition id="Sheet-Dances" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={120} defaultProps={{ mode: "dances" as const, kind: "bear" as const }} />
   </>
 );

@@ -3,33 +3,56 @@
   "emoji": "🐿️",
   "rig": "biped",
   "colors": {
-    "body": "#c97b3a",
-    "belly": "#ffe6c7",
-    "limb": "#b5692e"
+    "body": "#b86f35",
+    "belly": "#e8c9b1",
+    "limb": "#b86f35",
+    "accent": "#73421b",
+    "dark": "#40333b"
   },
-  "ears": "pointy",
-  "earOptions": {
-    "size": 0.7
-  },
-  "tail": "bushy",
-  "tailOptions": {
-    "big": 1.25
-  },
+  "ears": "round",
+  "tail": "none",
   "features": [
-    "blackNose",
-    "whiskers"
+    {
+      "kind": "snout",
+      "rx": 26,
+      "ry": 18,
+      "y": 122,
+      "color": "#efcf9e"
+    }
+  ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "beanie",
+      "color": "#73421b",
+      "band": "#b86f35"
+    }
   ],
   "face": {
-    "mouthY": 130
+    "eyeGap": 48,
+    "eyeY": 92,
+    "mouthY": 137,
+    "eyeSize": 0.92
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Sunny",
+    "name": "Nutty",
     "one": "squirrel",
     "plural": "squirrels",
-    "verb": "scamper",
-    "verbs": "scampers",
-    "verbing": "scampering",
-    "home": "forest",
+    "verb": "scurry",
+    "verbs": "scurrys",
+    "verbing": "scurrying",
+    "home": "tree",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#b86f35"
+  },
+  "earOptions": {
+    "r": 16,
+    "x": 57,
+    "y": 55,
+    "inner": "#e7b891"
   }
 }

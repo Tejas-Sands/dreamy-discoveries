@@ -1,0 +1,155 @@
+{
+  "universe": "Sunny Meadow",
+  "version": 1,
+  "updatedAt": "2026-09-12T17:07:59.525Z",
+  "counts": {
+    "stories": 1,
+    "rhymes": 2,
+    "episodes": 3,
+    "stars": 15
+  },
+  "usage": {
+    "tilly": 1,
+    "ozzy": 1,
+    "daisy": 1
+  },
+  "appeared": {
+    "tilly": 1,
+    "daisy": 2,
+    "fiona": 1,
+    "ozzy": 1
+  },
+  "canon": [
+    {
+      "event": "First appearance: Grandpa Tilly the turtle.",
+      "story": "sample-turtle",
+      "at": "2026-09-06"
+    },
+    {
+      "event": "First appearance: Daisy the duck.",
+      "story": "sample-turtle",
+      "at": "2026-09-06"
+    },
+    {
+      "event": "First appearance: Fiona the fox.",
+      "story": "sample-turtle",
+      "at": "2026-09-06"
+    },
+    {
+      "event": "First appearance: Professor Ozzy the owl.",
+      "story": "opposites-ozzy-2026-09-12",
+      "at": "2026-09-12"
+    }
+  ],
+  "stories": [
+    {
+      "id": "sample-turtle",
+      "type": "story",
+      "title": "Tilly Finds Her Hello",
+      "hero": "tilly",
+      "heroName": "Tilly",
+      "cast": [
+        "tilly",
+        "daisy",
+        "fiona"
+      ],
+      "moral": "Saying hello is how you make a friend.",
+      "moralRhyme": [
+        "Say hi, say hi, don't be shy!",
+        "A friendly hello makes two friends grow!"
+      ],
+      "catchphrases": [
+        "Quack a-lacka-doodle!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "beach",
+        "pond"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "rendered",
+      "template": null,
+      "topic": null,
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": null
+      },
+      "release": null
+    },
+    {
+      "id": "opposites-ozzy-2026-09-12",
+      "type": "rhyme",
+      "title": "Opposites With Ozzy!",
+      "hero": "ozzy",
+      "heroName": "Ozzy",
+      "cast": [
+        "ozzy"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 7,
+      "stars": 7,
+      "backgrounds": [
+        "night",
+        "meadow",
+        "candy",
+        "farm",
+        "beach"
+      ],
+      "palette": "night",
+      "firsts": [],
+      "status": "rendered",
+      "template": "opposites",
+      "topic": null,
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": "2026-09-12",
+        "released": null
+      },
+      "release": null
+    },
+    {
+      "id": "colors-daisy-2026-09-14",
+      "type": "rhyme",
+      "title": "Colors With Daisy!",
+      "hero": "daisy",
+      "heroName": "Daisy",
+      "cast": [
+        "daisy"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 6,
+      "stars": 6,
+      "backgrounds": [
+        "farm",
+        "sky",
+        "beach",
+        "candy",
+        "forest"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "rendered",
+      "template": "colors",
+      "topic": null,
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": null
+      },
+      "release": null
+    }
+  ]
+}

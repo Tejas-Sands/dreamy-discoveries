@@ -105,9 +105,11 @@
       ],
       "transition": "pop",
       "camera": "zoom-in",
+      "extras": null,
       "gag": {
         "kind": "peek",
         "character": "monkey",
+        "side": "right",
         "atSec": 2.2
       }
     },
@@ -122,19 +124,19 @@
       "question": null,
       "lines": [
         {
-          "text": "Two little owls in the night sky today,",
+          "text": "Two little owls hooting in the sun,",
           "speaker": "character",
           "action": "wave",
           "emotion": "happy",
           "callout": {
             "kind": "number",
             "text": "2",
-            "emoji": "🦉"
+            "emoji": "🙂"
           },
           "sfx": []
         },
         {
-          "text": "Along comes another one to play!",
+          "text": "Hooting and playing, having so much fun.",
           "speaker": "character",
           "action": "dance",
           "emotion": "excited",
@@ -142,30 +144,31 @@
           "sfx": []
         },
         {
-          "text": "Let's count them all, ready, set, go!",
+          "text": "Look, another friend is coming to play!",
           "speaker": "character",
           "action": "look",
-          "emotion": "happy",
+          "emotion": "love",
           "callout": null,
           "sfx": []
         },
         {
-          "text": "Three little owls all in a row!",
+          "text": "Three little owls, hip hip hooray!",
           "speaker": "character",
-          "action": "jump",
+          "action": "cheer",
           "emotion": "excited",
           "callout": {
             "kind": "number",
             "text": "3",
-            "emoji": "🦉"
+            "emoji": "🙂"
           },
           "sfx": [
-            "boing"
+            "tada"
           ]
         }
       ],
       "transition": "slide",
       "camera": "pan",
+      "extras": null,
       "gag": null
     },
     {
@@ -208,6 +211,7 @@
       ],
       "transition": "iris",
       "camera": "zoom-in",
+      "extras": null,
       "starIndex": 0,
       "gag": null
     },
@@ -257,8 +261,17 @@
         }
       ],
       "transition": "pop",
-      "camera": "still",
-      "gag": null
+      "camera": "pan",
+      "extras": [
+        "cat",
+        "pig"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "left",
+        "atSec": 1.6
+      }
     },
     {
       "kind": "verse",
@@ -315,11 +328,8 @@
       ],
       "transition": "wipe",
       "camera": "zoom-out",
-      "gag": {
-        "kind": "peek",
-        "character": "monkey",
-        "atSec": 2.2
-      }
+      "extras": null,
+      "gag": null
     },
     {
       "kind": "verse",
@@ -378,6 +388,7 @@
       ],
       "transition": "fade",
       "camera": "zoom-in",
+      "extras": null,
       "gag": null
     },
     {
@@ -420,6 +431,7 @@
       ],
       "transition": "iris",
       "camera": "zoom-in",
+      "extras": null,
       "starIndex": 1,
       "gag": null
     },
@@ -436,18 +448,22 @@
         {
           "text": "Count with me, one, two, three!",
           "speaker": "character",
-          "action": "dance",
+          "action": "spin",
           "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "sfx": [
+            "whoosh"
+          ]
         },
         {
           "text": "Count with me, owls and me!",
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
+          "action": "clap",
+          "emotion": "happy",
           "callout": null,
-          "sfx": []
+          "sfx": [
+            "clap"
+          ]
         },
         {
           "text": "Four and five, now stomp your feet!",
@@ -462,15 +478,26 @@
         {
           "text": "Counting with you is so sweet!",
           "speaker": "character",
-          "action": "dance",
+          "action": "stomp",
           "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "sfx": [
+            "stomp"
+          ]
         }
       ],
-      "transition": "pop",
-      "camera": "still",
-      "gag": null
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "bunny",
+        "penguin"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6
+      }
     },
     {
       "kind": "verse",
@@ -531,6 +558,7 @@
       ],
       "transition": "slide",
       "camera": "still",
+      "extras": null,
       "gag": null
     },
     {
@@ -546,18 +574,22 @@
         {
           "text": "Count with me, one, two, three!",
           "speaker": "character",
-          "action": "dance",
-          "emotion": "excited",
+          "action": "clap",
+          "emotion": "happy",
           "callout": null,
-          "sfx": []
+          "sfx": [
+            "clap"
+          ]
         },
         {
           "text": "Count with me, owls and me!",
           "speaker": "character",
-          "action": "dance",
+          "action": "jump",
           "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "sfx": [
+            "boing"
+          ]
         },
         {
           "text": "Four and five, now stomp your feet!",
@@ -572,14 +604,20 @@
         {
           "text": "Counting with you is so sweet!",
           "speaker": "character",
-          "action": "dance",
+          "action": "cheer",
           "emotion": "excited",
           "callout": null,
-          "sfx": []
+          "sfx": [
+            "tada"
+          ]
         }
       ],
-      "transition": "pop",
-      "camera": "still",
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "chick",
+        "fox"
+      ],
       "gag": null
     },
     {
@@ -633,10 +671,12 @@
       ],
       "transition": "wipe",
       "camera": "pan",
+      "extras": null,
       "gag": {
-        "kind": "peek",
-        "character": "monkey",
-        "atSec": 2.2
+        "kind": "flyby",
+        "emoji": "🦉",
+        "side": "right",
+        "atSec": 1.6
       }
     }
   ],

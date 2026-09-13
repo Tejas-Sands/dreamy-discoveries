@@ -111,7 +111,13 @@ export const Face: React.FC<FaceProps> = ({
             <ellipse cx={ex} cy={eyeY} rx={rx} ry={ry} />
           </clipPath>
         </defs>
-        {sockets ? <circle cx={ex} cy={eyeY} r={ry + 5} fill={skin} stroke={OUTLINE} strokeWidth={4} /> : null}
+        {sockets ? (
+          // owl facial discs: a big pale plate per eye with a meaty dark ring around the iris
+          <>
+            <circle cx={ex} cy={eyeY} r={ry + 10} fill="#f6e7c2" stroke={OUTLINE} strokeWidth={4} />
+            <circle cx={ex} cy={eyeY} r={ry + 4} fill="#fbf1d2" />
+          </>
+        ) : null}
         <ellipse cx={ex} cy={eyeY} rx={rx} ry={ry} fill="#ffffff" stroke={OUTLINE} strokeWidth={3.5} />
         <g clipPath={`url(#${clipId})`}>
           {f.heartEyes ? (
@@ -119,8 +125,9 @@ export const Face: React.FC<FaceProps> = ({
           ) : (
             <>
               <circle cx={ex + lx * 0.5 + side * 0} cy={eyeY + 2 + ly * 0.5} r={pr} fill={OUTLINE} />
-              <circle cx={ex + lx * 0.5 - pr * 0.4} cy={eyeY + 2 + ly * 0.5 - pr * 0.45} r={pr * 0.42} fill="#ffffff" />
-              <circle cx={ex + lx * 0.5 + pr * 0.35} cy={eyeY + 2 + ly * 0.5 + pr * 0.4} r={pr * 0.18} fill="#ffffff" />
+              <circle cx={ex + lx * 0.5 - pr * 0.35} cy={eyeY + 2 + ly * 0.5 - pr * 0.4} r={pr * 0.32} fill="#ffffff" />
+              <circle cx={ex + lx * 0.5 + pr * 0.35} cy={eyeY + 2 + ly * 0.5 + pr * 0.4} r={pr * 0.14} fill="#ffffff" />
+              {sockets ? <circle cx={ex + lx * 0.5} cy={eyeY + 2 + ly * 0.5} r={pr + 2} fill="none" stroke={OUTLINE} strokeWidth={4.5} /> : null}
             </>
           )}
           {f.lid > 0 ? (
@@ -155,10 +162,14 @@ export const Face: React.FC<FaceProps> = ({
   const mouthEl = (() => {
     if (beak) {
       const gap = open * 14;
+      // a wide cartoon bill with a smile line and two nostril dots
       return (
         <g>
-          <path d={`M ${cx - 24} ${mouthY - 8} Q ${cx} ${mouthY - 22} ${cx + 24} ${mouthY - 8} Q ${cx} ${mouthY + 4} ${cx - 24} ${mouthY - 8} Z`} fill="#ff9f1a" stroke={OUTLINE} strokeWidth={3.5} strokeLinejoin="round" />
-          <path d={`M ${cx - 20} ${mouthY - 6 + gap * 0.3} Q ${cx} ${mouthY + 6 + gap} ${cx + 20} ${mouthY - 6 + gap * 0.3} Q ${cx} ${mouthY + 2 + gap * 0.4} ${cx - 20} ${mouthY - 6 + gap * 0.3} Z`} fill="#f28500" stroke={OUTLINE} strokeWidth={3.5} strokeLinejoin="round" />
+          <path d={`M ${cx - 30} ${mouthY - 8} Q ${cx} ${mouthY - 24} ${cx + 30} ${mouthY - 8} Q ${cx} ${mouthY + 5} ${cx - 30} ${mouthY - 8} Z`} fill="#ff9f1a" stroke={OUTLINE} strokeWidth={3.5} strokeLinejoin="round" />
+          <path d={`M ${cx - 25} ${mouthY - 6 + gap * 0.3} Q ${cx} ${mouthY + 6 + gap} ${cx + 25} ${mouthY - 6 + gap * 0.3} Q ${cx} ${mouthY + 2 + gap * 0.4} ${cx - 25} ${mouthY - 6 + gap * 0.3} Z`} fill="#f28500" stroke={OUTLINE} strokeWidth={3.5} strokeLinejoin="round" />
+          {gap < 8 ? <path d={`M ${cx - 16} ${mouthY - 10} Q ${cx} ${mouthY - 6} ${cx + 16} ${mouthY - 10}`} stroke={OUTLINE} strokeWidth={2.5} fill="none" opacity={0.6} /> : null}
+          <circle cx={cx - 10} cy={mouthY - 16} r={2} fill={OUTLINE} />
+          <circle cx={cx + 10} cy={mouthY - 16} r={2} fill={OUTLINE} />
         </g>
       );
     }
@@ -181,6 +192,13 @@ export const Face: React.FC<FaceProps> = ({
         </defs>
         <path d={path} fill="#5a2340" stroke={OUTLINE} strokeWidth={4} strokeLinejoin="round" />
         <ellipse cx={cx} cy={bottom - 2} rx={w * 0.32} ry={open * 11 + 3} fill="#ff7c9c" clipPath={`url(#${clipId})`} />
+        {/* tiny rounded upper teeth — only when mouth is open enough and not for every emotion */}
+        {open > 0.25 && emotion !== "surprised" ? (
+          <>
+            <rect x={cx - w * 0.22} y={top + 3} width={w * 0.16} height={6} rx={3} fill="#ffffff" />
+            <rect x={cx + w * 0.06} y={top + 3} width={w * 0.16} height={6} rx={3} fill="#ffffff" />
+          </>
+        ) : null}
       </g>
     );
   })();
@@ -190,11 +208,11 @@ export const Face: React.FC<FaceProps> = ({
   return (
     <g>
       {/* blush */}
-      <ellipse cx={exL - 18} cy={mouthY - 10} rx={12} ry={7} fill="#ff8fa8" opacity={0.55 * f.blush} />
-      <ellipse cx={exR + 18} cy={mouthY - 10} rx={12} ry={7} fill="#ff8fa8" opacity={0.55 * f.blush} />
-      {eye(exL, -1)}
+      {eyeGap !== 0 ? <ellipse cx={exL - 18} cy={mouthY - 10} rx={13} ry={8} fill="#ff8fa8" opacity={0.6 * f.blush} /> : null}
+      <ellipse cx={exR + 18} cy={mouthY - 10} rx={13} ry={8} fill="#ff8fa8" opacity={0.6 * f.blush} />
+      {eyeGap !== 0 ? eye(exL, -1) : null}
       {eye(exR, 1)}
-      {brow(exL, -1)}
+      {eyeGap !== 0 ? brow(exL, -1) : null}
       {brow(exR, 1)}
       {mouthEl}
       {f.sparkle && eyeMode === "open" && blink < 0.5 ? (

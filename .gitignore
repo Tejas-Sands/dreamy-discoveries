@@ -10,3 +10,13 @@ public/baked/
 public/generated/*
 !public/generated/sample-share/
 !public/generated/sample-twinkle/
+!public/generated/sample-turtle/
+
+# Recorded vocalizations whose licence allows use but not redistribution (e.g. Pixabay):
+# used by local renders only. Only CC0 recordings go in public/vox/.
+public/vox-local/
+
+# Local libSQL development database; calendar JSON is the committed source of truth.
+/library/local.db
+/library/local.db-wal
+/library/local.db-shm

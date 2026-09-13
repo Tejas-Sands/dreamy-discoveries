@@ -3,34 +3,51 @@
   "emoji": "🐥",
   "rig": "bird",
   "colors": {
-    "body": "#ffe45c",
-    "belly": "#fff5b3",
-    "limb": "#ff9f1a"
+    "body": "#fce86b",
+    "belly": "#fff0ac",
+    "limb": "#e8a44c",
+    "accent": "#f59a42",
+    "dark": "#40333b"
   },
   "ears": "none",
-  "tail": "none",
+  "tail": "feathers",
   "features": [
-    "tuftTop",
     {
       "kind": "beakSmall",
-      "y": 122
+      "y": 115,
+      "color": "#e9a548"
+    },
+    {
+      "kind": "tuftTop",
+      "color": "#fce86b"
+    }
+  ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "bandana",
+      "color": "#d98a9d"
     }
   ],
   "face": {
-    "eyeY": 110,
-    "eyeGap": 44,
-    "mouthY": 146
+    "eyeGap": 43,
+    "eyeY": 92,
+    "mouthY": 137,
+    "eyeSize": 0.95
   },
   "arm": "wing",
   "foot": "duck",
   "words": {
-    "name": "Chirpy",
+    "name": "Peep",
     "one": "chick",
     "plural": "chicks",
-    "verb": "peep",
-    "verbs": "peeps",
-    "verbing": "peeping",
-    "home": "farm",
-    "sound": "peep"
+    "verb": "peck",
+    "verbs": "pecks",
+    "verbing": "pecking",
+    "home": "coop",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#fce86b"
   }
 }

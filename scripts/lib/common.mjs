@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 export const GENERATED_DIR = path.join(ROOT, "public", "generated");
-export const OUT_DIR = path.join(ROOT, "out");
+export const OUT_DIR = path.join(ROOT, "out", "episodes");
 export const LATEST_FILE = path.join(GENERATED_DIR, "latest.json");
 
 /** Tiny CLI arg parser: --key value / --flag */

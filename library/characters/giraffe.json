@@ -3,50 +3,41 @@
   "emoji": "🦒",
   "rig": "longNeck",
   "colors": {
-    "body": "#f5c66b",
-    "belly": "#fff1c9",
-    "limb": "#e0ad4f",
-    "accent": "#c98a3c",
-    "dark": "#a8702c"
+    "body": "#f7d56e",
+    "belly": "#fcedb8",
+    "limb": "#71513b",
+    "accent": "#b67e46",
+    "dark": "#40333b"
   },
-  "ears": "round",
-  "earOptions": {
-    "r": 13,
-    "y": 46,
-    "x": 54
-  },
-  "tail": "thin",
-  "tailOptions": {
-    "tuft": "#a8702c"
-  },
-  "features": [
+  "ears": "none",
+  "tail": "none",
+  "features": [],
+  "markings": [],
+  "accessories": [
     {
-      "kind": "horns",
-      "y": 22,
-      "color": "#a8702c"
-    },
-    {
-      "kind": "snout",
-      "y": 122,
-      "rx": 22,
-      "ry": 14,
-      "nostrils": true
+      "kind": "necklace",
+      "color": "#d43a45"
     }
   ],
-  "markings": [
-    "spots"
-  ],
   "face": {
-    "mouthY": 132
+    "eyeGap": 45,
+    "eyeY": 92,
+    "mouthY": 135,
+    "eyeSize": 1
   },
+  "arm": "capsule",
+  "foot": "hoof",
   "words": {
     "name": "Gigi",
     "one": "giraffe",
     "plural": "giraffes",
-    "verb": "stretch",
-    "verbs": "stretches",
-    "verbing": "stretching",
-    "home": "meadow",
+    "verb": "reach",
+    "verbs": "reachs",
+    "verbing": "reaching",
+    "home": "savanna",
     "sound": null
+  },
+  "tailOptions": {
+    "color": "#f7d56e"
   }
 }

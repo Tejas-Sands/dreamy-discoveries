@@ -1,5 +1,7 @@
 # Using this plan with Turso later
 
+> Update: owner-confirmed upload tracking is now implemented in `scripts/calendar.mjs` and `scripts/telegram-calendar.mjs`, with a `calendar_slots` Turso/SQLite mirror. See [connection guide](../../../docs/telegram-upload-calendar.md). The original notes below describe the still-pending date-aware production dispatcher. Upload tracking does not bulk-approve or dispatch this plan.
+
 This folder contains **planning data only**. No live database, queue, workflow, or episode script was changed by this research task. Import into a separate planning table first; do not bulk-insert all rows into today's active `queue`.
 
 ## Why a direct queue import is unsafe

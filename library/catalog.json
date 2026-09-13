@@ -1,4 +1,77 @@
 {
-  "episodes": [],
+  "episodes": [
+    {
+      "slug": "sample-turtle",
+      "title": "Tilly Finds Her Hello",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "turtle",
+      "heroName": "Tilly",
+      "palette": "ocean",
+      "backgrounds": [
+        "beach",
+        "pond"
+      ],
+      "lines": 37,
+      "stars": 2,
+      "questions": 2,
+      "status": "rendered",
+      "months": "2026-09",
+      "releaseUrl": null,
+      "release": null
+    },
+    {
+      "slug": "opposites-ozzy-2026-09-12",
+      "title": "Opposites With Ozzy!",
+      "type": "rhyme",
+      "template": "opposites",
+      "topic": null,
+      "hero": "owl",
+      "heroName": "Ozzy",
+      "palette": "night",
+      "backgrounds": [
+        "night",
+        "meadow",
+        "candy",
+        "farm",
+        "beach"
+      ],
+      "lines": 86,
+      "stars": 7,
+      "questions": 7,
+      "status": "rendered",
+      "months": "2026-09",
+      "releaseUrl": null,
+      "release": null
+    },
+    {
+      "slug": "colors-daisy-2026-09-14",
+      "title": "Colors With Daisy!",
+      "type": "rhyme",
+      "template": "colors",
+      "topic": null,
+      "hero": "duck",
+      "heroName": "Daisy",
+      "palette": "sunshine",
+      "backgrounds": [
+        "farm",
+        "sky",
+        "beach",
+        "candy",
+        "forest"
+      ],
+      "lines": 85,
+      "stars": 6,
+      "questions": 6,
+      "status": "rendered",
+      "months": "2026-09",
+      "releaseUrl": null,
+      "release": null,
+      "renderedAt": "2026-09-13T06:07:20.070Z",
+      "durationSec": 312.46666666666664,
+      "visualStyle": "storybook"
+    }
+  ],
   "compilations": []
 }

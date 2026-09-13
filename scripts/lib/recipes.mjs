@@ -5,16 +5,17 @@
  * Mirrors src/components/characters/recipe.ts and src/components/backgrounds/parts.tsx.
  */
 export const CHARACTER_PARTS = {
-  rigs: ["biped", "fish", "star", "bird", "shell", "longNeck"],
+  rigs: ["biped", "fish", "star", "bird", "shell", "longNeck", "tRex", "whale", "quadruped", "insect", "snowman", "frog"],
   ears: ["none", "round", "pointy", "long", "floppy", "big", "tuft"],
   tails: ["none", "pom", "curved", "curly", "long", "stub", "feathers", "bushy", "thin"],
   features: [
     "snout", "pigSnout", "hippoSnout", "pinkNose", "blackNose", "koalaNose", "carrotNose", "beakSmall",
     "whiskers", "mask", "eyePatches", "nostrils", "headStripe", "tigerStripes", "mane", "wool", "hair",
     "horns", "hornUnicorn", "antennae", "spikes", "trunk", "tuftTop", "headCap", "wingsBack", "spout", "buttons",
+    "beeBands", "leaf", "bamboo",
   ],
   markings: ["spots", "stripes"],
-  accessories: ["bow", "partyHat", "topHat", "glasses", "scarf", "crown"],
+  accessories: ["bow", "partyHat", "topHat", "glasses", "scarf", "crown", "bandana", "beanie", "collar", "vest", "necklace", "earmuffs", "headdress", "sailorCollar", "headphones", "saddle", "stripedBeanie"],
 };
 
 export const BACKGROUND_PARTS = {
@@ -89,7 +90,7 @@ export function validateCharacterRecipe(raw, name) {
     if (Object.keys(f).length) recipe.face = f;
   }
   recipe.arm = oneOf(["capsule", "wing"], raw.arm, recipe.rig === "bird" ? "wing" : "capsule");
-  recipe.foot = oneOf(["round", "duck", "none"], raw.foot, recipe.rig === "bird" ? "duck" : "round");
+  recipe.foot = oneOf(["round", "duck", "hoof", "none"], raw.foot, recipe.rig === "bird" ? "duck" : "round");
   if (typeof raw.legWidth === "number") recipe.legWidth = Math.max(10, Math.min(40, raw.legWidth));
   const w = raw.words && typeof raw.words === "object" ? raw.words : {};
   const heroName = typeof w.name === "string" && w.name.trim() ? w.name.trim().slice(0, 20) : cap(n);

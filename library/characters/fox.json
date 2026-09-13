@@ -1,32 +1,53 @@
 {
   "name": "fox",
-  "emoji": "🦊",
+  "emoji": "\ud83e\udd8a",
   "rig": "biped",
   "colors": {
-    "body": "#ff8c42",
-    "belly": "#fff1e0",
-    "limb": "#f27a2f",
-    "inner": "#fff1e0"
+    "body": "#dc813d",
+    "belly": "#fff2d9",
+    "limb": "#98572f",
+    "accent": "#2c2c2c",
+    "dark": "#bd6328",
+    "inner": "#ecc1a7"
   },
   "ears": "pointy",
-  "earOptions": {
-    "size": 1.05
-  },
   "tail": "bushy",
   "features": [
     {
       "kind": "mask",
-      "rx": 34,
-      "ry": 26,
-      "y": 122
+      "rx": 36,
+      "ry": 28,
+      "y": 116
     },
     "blackNose"
   ],
-  "face": {
-    "mouthY": 130
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "beanie",
+      "color": "#bd6328",
+      "band": "#8b4513"
+    }
+  ],
+  "earOptions": {
+    "size": 1.08,
+    "color": "#dc813d",
+    "inner": "#ffedd6"
   },
+  "tailOptions": {
+    "color": "#dc813d",
+    "tip": "#fff4e2",
+    "big": 0.9
+  },
+  "face": {
+    "eyeGap": 58,
+    "mouthY": 128,
+    "eyeSize": 0.98
+  },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Felix",
+    "name": "Fiona",
     "one": "fox",
     "plural": "foxes",
     "verb": "trot",

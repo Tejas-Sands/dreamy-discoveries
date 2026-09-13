@@ -1,34 +1,39 @@
 {
   "name": "dinosaur",
-  "emoji": "🦕",
-  "rig": "biped",
+  "emoji": "🦖",
+  "rig": "tRex",
   "colors": {
-    "body": "#7ed957",
-    "belly": "#d9f7c0",
-    "limb": "#6bc548",
-    "accent": "#3ea354"
+    "body": "#7bc661",
+    "belly": "#b9d98b",
+    "limb": "#7bc661",
+    "accent": "#528b43",
+    "dark": "#40333b"
   },
   "ears": "none",
-  "tail": "long",
-  "tailOptions": {
-    "width": 16
-  },
-  "features": [
-    "spikes",
-    "nostrils"
-  ],
+  "tail": "none",
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "mouthY": 134
+    "eyeGap": 29,
+    "eyeY": 90,
+    "mouthY": 126,
+    "eyeSize": 0.85,
+    "mouthDx": -20
   },
-  "legWidth": 30,
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Dino",
+    "name": "Rex",
     "one": "dinosaur",
     "plural": "dinosaurs",
-    "verb": "stomp",
-    "verbs": "stomps",
-    "verbing": "stomping",
-    "home": "forest",
-    "sound": "rawr"
+    "verb": "roar",
+    "verbs": "roars",
+    "verbing": "roaring",
+    "home": "jungle",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#7bc661"
   }
 }

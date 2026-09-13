@@ -1,28 +1,39 @@
 {
   "name": "whale",
   "emoji": "🐳",
-  "rig": "fish",
+  "rig": "whale",
   "colors": {
-    "body": "#5db9ff",
-    "belly": "#d6efff",
-    "limb": "#3d9de6"
+    "body": "#5c9bb5",
+    "belly": "#a8d3e6",
+    "limb": "#6498b5",
+    "accent": "#2a5b73",
+    "dark": "#40333b"
   },
-  "features": [
-    "spout"
-  ],
+  "ears": "none",
+  "tail": "none",
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "eyeY": 140,
-    "eyeGap": 48,
-    "mouthY": 176
+    "eyeGap": 0,
+    "eyeY": 92,
+    "mouthY": 124,
+    "eyeSize": 0.85,
+    "mouthDx": -17
   },
+  "arm": "capsule",
+  "foot": "none",
   "words": {
     "name": "Wally",
     "one": "whale",
     "plural": "whales",
-    "verb": "swim",
-    "verbs": "swims",
-    "verbing": "swimming",
-    "home": "underwater",
-    "sound": "whoosh"
+    "verb": "splash",
+    "verbs": "splashs",
+    "verbing": "splashing",
+    "home": "ocean",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#5c9bb5"
   }
 }

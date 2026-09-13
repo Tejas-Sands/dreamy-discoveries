@@ -7,6 +7,17 @@ import { rand } from "../lib/random";
 
 const NUMBER_WORDS: Record<string, number> = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
 
+/** seconds (into the line) at which each counted object pops: on the number words when we have timings */
+export function countTimes(spec: CalloutSpec, words: Word[] | undefined, lineSec: number): number[] {
+  const n = Math.max(1, Math.min(10, spec.count ?? 3));
+  const numberWords = (words ?? []).filter((w) => NUMBER_WORDS[w.text.toLowerCase().replace(/[^a-z]/g, "")] || /^(10|[1-9])$/.test(w.text.replace(/[^0-9]/g, "")));
+  const times: number[] = [];
+  for (let i = 0; i < n; i++) {
+    times.push(numberWords[i] ? numberWords[i].start : 0.2 + ((lineSec - 0.6) * i) / Math.max(1, n - 1));
+  }
+  return times;
+}
+
 const OutlinedText: React.FC<{ text: string; size: number; color: string; stroke?: string; strokeWidth?: number }> = ({ text, size, color, stroke = "#2f2438", strokeWidth = 8 }) => (
   <div
     style={{
@@ -27,12 +38,12 @@ const OutlinedText: React.FC<{ text: string; size: number; color: string; stroke
 );
 
 const Splat: React.FC<{ color: string; size: number }> = ({ color, size }) => (
-  <svg width={size} height={size} viewBox="-100 -100 200 200" style={{ position: "absolute", left: 0, top: 0 }}>
+  <svg width={size} height={size} viewBox="-100 -100 200 200" style={{ position: "absolute", left: 0, top: 0, filter: "drop-shadow(0 12px 0 rgba(47,36,56,0.18))" }}>
     <path
       d="M -70 -20 C -90 -60, -40 -95, -10 -80 C 20 -100, 70 -80, 80 -40 C 100 -10, 90 40, 60 60 C 40 95, -20 90, -40 65 C -80 70, -95 20, -70 -20 Z"
       fill={color}
-      stroke="#2f2438"
-      strokeWidth={6}
+      stroke="#fffdf4"
+      strokeWidth={7}
       strokeLinejoin="round"
     />
     <ellipse cx={-30} cy={-40} rx={18} ry={10} fill="#fff" opacity={0.35} />
@@ -57,11 +68,7 @@ export const Callout: React.FC<{ spec: CalloutSpec; words?: Word[]; t: number; l
 
   if (spec.kind === "count") {
     const n = Math.max(1, Math.min(10, spec.count ?? 3));
-    const numberWords = (words ?? []).filter((w) => NUMBER_WORDS[w.text.toLowerCase().replace(/[^a-z]/g, "")] || /^(10|[1-9])$/.test(w.text.replace(/[^0-9]/g, "")));
-    const times: number[] = [];
-    for (let i = 0; i < n; i++) {
-      times.push(numberWords[i] ? numberWords[i].start : 0.2 + ((lineSec - 0.6) * i) / Math.max(1, n - 1));
-    }
+    const times = countTimes(spec, words, lineSec);
     const visible = times.filter((x) => t >= x).length;
     const perRow = n <= 5 ? n : 5;
     const size = n <= 5 ? 130 : 105;
@@ -75,7 +82,7 @@ export const Callout: React.FC<{ spec: CalloutSpec; words?: Word[]; t: number; l
             const s = popAt(times[i]);
             const bob = Math.sin(t * 4 + i) * 6;
             return (
-              <div key={i} style={{ width: size, height: size, fontSize: size * 0.82, lineHeight: `${size}px`, textAlign: "center", transform: `scale(${s}) translateY(${bob}px) rotate(${(rand(i) - 0.5) * 16}deg)` }}>
+              <div key={i} style={{ width: size, height: size, fontSize: size * 0.82, lineHeight: `${size}px`, textAlign: "center", transform: `scale(${s}) translateY(${bob}px) rotate(${(rand(i) - 0.5) * 16 + (1 - Math.min(1, s)) * 90}deg)`, filter: "drop-shadow(0 6px 4px rgba(0,0,0,0.2))" }}>
                 {spec.emoji ?? "⭐"}
               </div>
             );

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Dreamy Discoveries \u2014 a self-running studio for kids' sing-along rhymes and moral stories: templates or one LLM call -> Director -> local TTS -> Remotion on GitHub Actions -> Telegram",
+  "description": "Dreamy Discoveries — a self-running studio for kids' sing-along rhymes and moral stories: templates or one LLM call -> Director -> local TTS -> Remotion on GitHub Actions -> Telegram",
   "scripts": {
     "studio": "remotion studio",
     "generate": "node scripts/generate-script.mjs",
@@ -21,6 +21,7 @@
     "plan": "node scripts/plan.mjs"
   },
   "dependencies": {
+    "@libsql/client": "^0.14.0",
     "@remotion/cli": "^4.0.0",
     "@remotion/google-fonts": "^4.0.0",
     "kokoro-js": "^1.2.1",

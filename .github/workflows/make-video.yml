@@ -29,6 +29,10 @@ on:
         description: "Existing slug from library/scripts to re-run (skips generation)"
         required: false
         type: string
+      schedule_id:
+        description: "Calendar slot ID (optional; e.g. dd-2026-09-14)"
+        required: false
+        type: string
       minutes:
         description: "Target length in minutes"
         required: false
@@ -54,6 +58,7 @@ on:
       voice: { required: false, type: string, default: "" }
       preview: { required: false, type: boolean, default: false }
       queue_id: { required: false, type: string, default: "" }
+      schedule_id: { required: false, type: string, default: "" }
 
 permissions:
   contents: write
@@ -110,7 +115,7 @@ jobs:
           ARGS=(--library --minutes "${TARGET_MINUTES:-5.5}")
           if [ -n "$IN_SLUG" ]; then ARGS+=(--slug "$IN_SLUG")
           elif [ -n "$IN_TEMPLATE" ]; then ARGS+=(--template "$IN_TEMPLATE"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
-          elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-rhyme}")
+          elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-rhyme}"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
           else echo "Give a topic, a template, or a slug"; exit 1; fi
           [ -n "$IN_VOICE" ] && ARGS+=(--voice "$IN_VOICE")
           [ "$IN_PREVIEW" = "true" ] && ARGS+=(--preview)
@@ -131,6 +136,7 @@ jobs:
           path: |
             public/generated/${{ steps.plan.outputs.slug }}/script.json
             library
+            !library/planning/**
           retention-days: 7
 
   voice:
@@ -217,11 +223,11 @@ jobs:
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure
-      - run: node scripts/render.mjs --slug "$SLUG" --audio-only --out "out/$SLUG.aac"
+      - run: node scripts/render.mjs --slug "$SLUG" --audio-only --out "out/episodes/$SLUG.aac"
       - uses: actions/upload-artifact@v4
         with:
           name: audio-${{ env.SLUG }}
-          path: out/${{ env.SLUG }}.aac
+          path: out/episodes/${{ env.SLUG }}.aac
           retention-days: 7
 
   render:
@@ -286,10 +292,16 @@ jobs:
     needs: [plan, voice, audio, render]
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    concurrency:
+      group: dreamy-calendar-state
+      cancel-in-progress: false
+      queue: max
     env:
       SLUG: ${{ needs.plan.outputs.slug }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
@@ -307,7 +319,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: audio-${{ env.SLUG }}
-          path: out
+          path: out/episodes
       - uses: actions/download-artifact@v4
         with:
           pattern: chunk-${{ env.SLUG }}-*
@@ -340,16 +352,27 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: node scripts/publish-release.mjs --slug "$SLUG"
 
+      - name: Link completed episode to its calendar slot
+        if: needs.plan.outputs.preview != 'true'
+        env:
+          SCHEDULE_ID: ${{ inputs.schedule_id }}
+          QUEUE_ID: ${{ inputs.queue_id }}
+          RELEASE_URL: ${{ steps.release.outputs.release_url }}
+          TURSO_URL: ${{ secrets.TURSO_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: node scripts/calendar.mjs --slug "$SLUG"
+
       - name: Send to Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PREVIEW: ${{ needs.plan.outputs.preview }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           RELEASE_URL: ${{ steps.release.outputs.release_url }}
         run: node scripts/send-telegram.mjs --slug "$SLUG"
 
       - name: Record in the catalog
-        if: needs.plan.outputs.preview != 'true'
+        if: always() && steps.release.outcome == 'success' && needs.plan.outputs.preview != 'true'
         env:
           RELEASE_URL: ${{ steps.release.outputs.release_url }}
           QUEUE_ID: ${{ inputs.queue_id }}
@@ -368,14 +391,19 @@ jobs:
           git add library
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "catalog: $SLUG [skip ci]"
-          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep $((i * 5)); done
+          pushed=false
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then pushed=true; break; fi
+            sleep $((i * 5))
+          done
+          [ "$pushed" = true ]
 
       - uses: actions/upload-artifact@v4
         with:
           name: video-${{ env.SLUG }}
           path: |
-            out/${{ env.SLUG }}.mp4
-            out/${{ env.SLUG }}.png
-            out/${{ env.SLUG }}.metadata.txt
+            out/episodes/${{ env.SLUG }}.mp4
+            out/episodes/${{ env.SLUG }}.png
+            out/episodes/${{ env.SLUG }}.metadata.txt
             public/generated/${{ env.SLUG }}/script.json
           retention-days: 14

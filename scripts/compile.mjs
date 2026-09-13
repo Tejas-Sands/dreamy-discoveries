@@ -1,9 +1,9 @@
 /**
  * Build a long "best of" video from finished episodes — no AI, no re-render:
- * download the episode mp4s (from GitHub Releases, or out/), render a 3-second
+ * download the episode mp4s (from GitHub Releases, or out/episodes/), render a 3-second
  * bumper per episode, and concatenate everything with ffmpeg (stream copy).
  *
- *   node scripts/compile.mjs --slugs a,b,c [--title "..."] [--no-bumpers] [--out out/compilation-x.mp4]
+ *   node scripts/compile.mjs --slugs a,b,c [--title "..."] [--no-bumpers] [--out out/episodes/compilation-x.mp4]
  *   node scripts/compile.mjs --auto rhyme --count 6        (last 6 rhymes from library/catalog.json)
  */
 import fs from "node:fs";

@@ -68,7 +68,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           NAME: ${{ steps.compile.outputs.name }}
-        run: node scripts/publish-release.mjs --slug "$NAME" --tag "$NAME" --files "out/$NAME.mp4,out/$NAME.png,out/$NAME.metadata.txt,out/$NAME.json" --title "${{ steps.compile.outputs.title }}"
+        run: node scripts/publish-release.mjs --slug "$NAME" --tag "$NAME" --files "out/episodes/$NAME.mp4,out/episodes/$NAME.png,out/episodes/$NAME.metadata.txt,out/episodes/$NAME.json" --title "${{ steps.compile.outputs.title }}"
       - name: Tell Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -84,7 +84,7 @@ jobs:
           node -e '
             import("./scripts/lib/catalog.mjs").then(({ readCatalog, writeCatalog }) => {
               const fs = require("node:fs");
-              const info = JSON.parse(fs.readFileSync(`out/${process.env.NAME}.json`, "utf8"));
+              const info = JSON.parse(fs.readFileSync(`out/episodes/${process.env.NAME}.json`, "utf8"));
               const c = readCatalog();
               c.compilations.push({ ...info, release: process.env.RELEASE_URL || null, renderedAt: new Date().toISOString() });
               writeCatalog(c);

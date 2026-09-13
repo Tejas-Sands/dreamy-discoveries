@@ -1,0 +1,2241 @@
+{
+  "type": "story",
+  "slug": "sample-turtle",
+  "title": "Tilly Finds Her Hello",
+  "palette": "ocean",
+  "mainCharacter": {
+    "kind": "turtle",
+    "name": "Tilly"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Tilly the turtle! I have a story about finding my courage. Are you ready?",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave",
+    "durationSec": 6.05,
+    "words": [
+      {
+        "text": "Hi",
+        "start": 0.12,
+        "end": 0.326
+      },
+      {
+        "text": "friends!",
+        "start": 0.326,
+        "end": 0.896
+      },
+      {
+        "text": "I'm",
+        "start": 0.896,
+        "end": 1.102
+      },
+      {
+        "text": "Tilly",
+        "start": 1.102,
+        "end": 1.484
+      },
+      {
+        "text": "the",
+        "start": 1.484,
+        "end": 1.749
+      },
+      {
+        "text": "turtle!",
+        "start": 1.749,
+        "end": 2.26
+      },
+      {
+        "text": "I",
+        "start": 2.26,
+        "end": 2.407
+      },
+      {
+        "text": "have",
+        "start": 2.407,
+        "end": 2.731
+      },
+      {
+        "text": "a",
+        "start": 2.731,
+        "end": 2.878
+      },
+      {
+        "text": "story",
+        "start": 2.878,
+        "end": 3.26
+      },
+      {
+        "text": "about",
+        "start": 3.26,
+        "end": 3.642
+      },
+      {
+        "text": "finding",
+        "start": 3.642,
+        "end": 4.142
+      },
+      {
+        "text": "my",
+        "start": 4.142,
+        "end": 4.348
+      },
+      {
+        "text": "courage.",
+        "start": 4.348,
+        "end": 4.918
+      },
+      {
+        "text": "Are",
+        "start": 4.918,
+        "end": 5.183
+      },
+      {
+        "text": "you",
+        "start": 5.183,
+        "end": 5.447
+      },
+      {
+        "text": "ready?",
+        "start": 5.447,
+        "end": 5.9
+      }
+    ],
+    "audio": "line-23e43aec69.wav"
+  },
+  "outro": {
+    "text": "Remember, a brave hello can make a brand new friend. Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave",
+    "durationSec": 5.025,
+    "words": [
+      {
+        "text": "Remember,",
+        "start": 0.12,
+        "end": 0.77
+      },
+      {
+        "text": "a",
+        "start": 0.77,
+        "end": 0.922
+      },
+      {
+        "text": "brave",
+        "start": 0.922,
+        "end": 1.316
+      },
+      {
+        "text": "hello",
+        "start": 1.316,
+        "end": 1.711
+      },
+      {
+        "text": "can",
+        "start": 1.711,
+        "end": 1.984
+      },
+      {
+        "text": "make",
+        "start": 1.984,
+        "end": 2.318
+      },
+      {
+        "text": "a",
+        "start": 2.318,
+        "end": 2.47
+      },
+      {
+        "text": "brand",
+        "start": 2.47,
+        "end": 2.865
+      },
+      {
+        "text": "new",
+        "start": 2.865,
+        "end": 3.138
+      },
+      {
+        "text": "friend.",
+        "start": 3.138,
+        "end": 3.667
+      },
+      {
+        "text": "Bye",
+        "start": 3.667,
+        "end": 3.94
+      },
+      {
+        "text": "bye,",
+        "start": 3.94,
+        "end": 4.286
+      },
+      {
+        "text": "friends!",
+        "start": 4.286,
+        "end": 4.875
+      }
+    ],
+    "audio": "line-9ece3178df.wav"
+  },
+  "moral": "Saying hello is how you make a friend.",
+  "moralRhyme": [
+    "Say hi, say hi, don't be shy!",
+    "A friendly hello makes two friends grow!"
+  ],
+  "targetMinutes": 3.5,
+  "youtube": {
+    "title": "Tilly Finds Her Hello 🐢 A Shy Turtle Story About Making Friends",
+    "description": "Shy Tilly the turtle wants to play, but saying hello is scary. Will she find the courage to make a friend? A warm story about shyness and friendship, with questions for your little one to answer.\n#kidsstories #makingfriends #shy #toddlers #moralstories",
+    "tags": [
+      "kids stories",
+      "making friends",
+      "shy turtle",
+      "social skills for kids",
+      "toddler stories",
+      "preschool",
+      "friendship",
+      "turtle story",
+      "animated stories",
+      "learning for kids",
+      "courage",
+      "story time"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "turtle",
+      "energy": "calm",
+      "prop": null,
+      "lines": [
+        {
+          "text": "Tilly the turtle loved to watch the other animals play.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 3.825,
+          "words": [
+            {
+              "text": "Tilly",
+              "start": 0.12,
+              "end": 0.498
+            },
+            {
+              "text": "the",
+              "start": 0.498,
+              "end": 0.759
+            },
+            {
+              "text": "turtle",
+              "start": 0.759,
+              "end": 1.195
+            },
+            {
+              "text": "loved",
+              "start": 1.195,
+              "end": 1.572
+            },
+            {
+              "text": "to",
+              "start": 1.572,
+              "end": 1.776
+            },
+            {
+              "text": "watch",
+              "start": 1.776,
+              "end": 2.153
+            },
+            {
+              "text": "the",
+              "start": 2.153,
+              "end": 2.414
+            },
+            {
+              "text": "other",
+              "start": 2.414,
+              "end": 2.792
+            },
+            {
+              "text": "animals",
+              "start": 2.792,
+              "end": 3.286
+            },
+            {
+              "text": "play.",
+              "start": 3.286,
+              "end": 3.675
+            }
+          ],
+          "audio": "line-d2e486f796.wav"
+        },
+        {
+          "text": "They jumped and swam and laughed all day long.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "look",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 3.075,
+          "words": [
+            {
+              "text": "They",
+              "start": 0.12,
+              "end": 0.418
+            },
+            {
+              "text": "jumped",
+              "start": 0.418,
+              "end": 0.825
+            },
+            {
+              "text": "and",
+              "start": 0.825,
+              "end": 1.069
+            },
+            {
+              "text": "swam",
+              "start": 1.069,
+              "end": 1.368
+            },
+            {
+              "text": "and",
+              "start": 1.368,
+              "end": 1.612
+            },
+            {
+              "text": "laughed",
+              "start": 1.612,
+              "end": 2.073
+            },
+            {
+              "text": "all",
+              "start": 2.073,
+              "end": 2.317
+            },
+            {
+              "text": "day",
+              "start": 2.317,
+              "end": 2.561
+            },
+            {
+              "text": "long.",
+              "start": 2.561,
+              "end": 2.925
+            }
+          ],
+          "audio": "line-f15dd72b6a.wav"
+        },
+        {
+          "text": "Crawl, crawl, hooray! I want to play too!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "walk",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 3.25,
+          "words": [
+            {
+              "text": "Crawl,",
+              "start": 0.12,
+              "end": 0.61
+            },
+            {
+              "text": "crawl,",
+              "start": 0.61,
+              "end": 1.101
+            },
+            {
+              "text": "hooray!",
+              "start": 1.101,
+              "end": 1.655
+            },
+            {
+              "text": "I",
+              "start": 1.655,
+              "end": 1.814
+            },
+            {
+              "text": "want",
+              "start": 1.814,
+              "end": 2.164
+            },
+            {
+              "text": "to",
+              "start": 2.164,
+              "end": 2.387
+            },
+            {
+              "text": "play",
+              "start": 2.387,
+              "end": 2.737
+            },
+            {
+              "text": "too!",
+              "start": 2.737,
+              "end": 3.1
+            }
+          ],
+          "audio": "line-c098ce13b3.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "Along waddled Daisy the duck, with a happy quack.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 3.575,
+          "words": [
+            {
+              "text": "Along",
+              "start": 0.12,
+              "end": 0.511
+            },
+            {
+              "text": "waddled",
+              "start": 0.511,
+              "end": 1.023
+            },
+            {
+              "text": "Daisy",
+              "start": 1.023,
+              "end": 1.414
+            },
+            {
+              "text": "the",
+              "start": 1.414,
+              "end": 1.685
+            },
+            {
+              "text": "duck,",
+              "start": 1.685,
+              "end": 2.089
+            },
+            {
+              "text": "with",
+              "start": 2.089,
+              "end": 2.42
+            },
+            {
+              "text": "a",
+              "start": 2.42,
+              "end": 2.57
+            },
+            {
+              "text": "happy",
+              "start": 2.57,
+              "end": 2.961
+            },
+            {
+              "text": "quack.",
+              "start": 2.961,
+              "end": 3.425
+            }
+          ],
+          "audio": "line-5546577e18.wav"
+        },
+        {
+          "text": "Quack a-lacka-doodle! Hello, little turtle! Come and play!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-d5ebc2b4f5.wav",
+          "durationSec": 4,
+          "words": [
+            {
+              "text": "Quack",
+              "start": 0.12,
+              "end": 0.512
+            },
+            {
+              "text": "a-lacka-doodle!",
+              "start": 0.512,
+              "end": 1.4
+            },
+            {
+              "text": "Hello,",
+              "start": 1.4,
+              "end": 1.864
+            },
+            {
+              "text": "little",
+              "start": 1.864,
+              "end": 2.317
+            },
+            {
+              "text": "turtle!",
+              "start": 2.317,
+              "end": 2.842
+            },
+            {
+              "text": "Come",
+              "start": 2.842,
+              "end": 3.174
+            },
+            {
+              "text": "and",
+              "start": 3.174,
+              "end": 3.446
+            },
+            {
+              "text": "play!",
+              "start": 3.446,
+              "end": 3.85
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "transition": "slide",
+      "camera": "pan",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "turtle",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "But Tilly hid her head inside her shell.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.65,
+          "words": [
+            {
+              "text": "But",
+              "start": 0.12,
+              "end": 0.357
+            },
+            {
+              "text": "Tilly",
+              "start": 0.357,
+              "end": 0.699
+            },
+            {
+              "text": "hid",
+              "start": 0.699,
+              "end": 0.936
+            },
+            {
+              "text": "her",
+              "start": 0.936,
+              "end": 1.173
+            },
+            {
+              "text": "head",
+              "start": 1.173,
+              "end": 1.463
+            },
+            {
+              "text": "inside",
+              "start": 1.463,
+              "end": 1.858
+            },
+            {
+              "text": "her",
+              "start": 1.858,
+              "end": 2.095
+            },
+            {
+              "text": "shell.",
+              "start": 2.095,
+              "end": 2.5
+            }
+          ],
+          "audio": "line-fd815be149.wav"
+        },
+        {
+          "text": "Oh dear. I am too shy to say hello.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.925,
+          "words": [
+            {
+              "text": "Oh",
+              "start": 0.12,
+              "end": 0.347
+            },
+            {
+              "text": "dear.",
+              "start": 0.347,
+              "end": 0.782
+            },
+            {
+              "text": "I",
+              "start": 0.782,
+              "end": 0.944
+            },
+            {
+              "text": "am",
+              "start": 0.944,
+              "end": 1.172
+            },
+            {
+              "text": "too",
+              "start": 1.172,
+              "end": 1.464
+            },
+            {
+              "text": "shy",
+              "start": 1.464,
+              "end": 1.756
+            },
+            {
+              "text": "to",
+              "start": 1.756,
+              "end": 1.983
+            },
+            {
+              "text": "say",
+              "start": 1.983,
+              "end": 2.275
+            },
+            {
+              "text": "hello.",
+              "start": 2.275,
+              "end": 2.775
+            }
+          ],
+          "audio": "line-19d34f6494.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "question": {
+        "answer": {
+          "text": "Hello!",
+          "emoji": "👋"
+        }
+      },
+      "lines": [
+        {
+          "text": "What should Tilly say to make a friend?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.5,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.12,
+              "end": 0.397
+            },
+            {
+              "text": "should",
+              "start": 0.397,
+              "end": 0.776
+            },
+            {
+              "text": "Tilly",
+              "start": 0.776,
+              "end": 1.104
+            },
+            {
+              "text": "say",
+              "start": 1.104,
+              "end": 1.331
+            },
+            {
+              "text": "to",
+              "start": 1.331,
+              "end": 1.507
+            },
+            {
+              "text": "make",
+              "start": 1.507,
+              "end": 1.785
+            },
+            {
+              "text": "a",
+              "start": 1.785,
+              "end": 1.911
+            },
+            {
+              "text": "friend?",
+              "start": 1.911,
+              "end": 2.35
+            }
+          ],
+          "audio": "line-a33fc4c10e.wav"
+        },
+        {
+          "text": "Yes! Saying hello is how you make a friend!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "durationSec": 3.05,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.444
+            },
+            {
+              "text": "Saying",
+              "start": 0.444,
+              "end": 0.87
+            },
+            {
+              "text": "hello",
+              "start": 0.87,
+              "end": 1.24
+            },
+            {
+              "text": "is",
+              "start": 1.24,
+              "end": 1.439
+            },
+            {
+              "text": "how",
+              "start": 1.439,
+              "end": 1.695
+            },
+            {
+              "text": "you",
+              "start": 1.695,
+              "end": 1.951
+            },
+            {
+              "text": "make",
+              "start": 1.951,
+              "end": 2.263
+            },
+            {
+              "text": "a",
+              "start": 2.263,
+              "end": 2.405
+            },
+            {
+              "text": "friend!",
+              "start": 2.405,
+              "end": 2.9
+            }
+          ],
+          "audio": "line-aa15e9ae86.wav"
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "prop": null,
+      "extras": null,
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "Tilly stayed quiet, and Daisy swam away.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "swim",
+          "callout": null,
+          "sfx": [
+            "splash"
+          ],
+          "durationSec": 3.25,
+          "words": [
+            {
+              "text": "Tilly",
+              "start": 0.12,
+              "end": 0.551
+            },
+            {
+              "text": "stayed",
+              "start": 0.551,
+              "end": 1.049
+            },
+            {
+              "text": "quiet,",
+              "start": 1.049,
+              "end": 1.56
+            },
+            {
+              "text": "and",
+              "start": 1.56,
+              "end": 1.859
+            },
+            {
+              "text": "Daisy",
+              "start": 1.859,
+              "end": 2.29
+            },
+            {
+              "text": "swam",
+              "start": 2.29,
+              "end": 2.655
+            },
+            {
+              "text": "away.",
+              "start": 2.655,
+              "end": 3.1
+            }
+          ],
+          "audio": "line-16c1b2a043.wav"
+        },
+        {
+          "text": "Bye bye, Daisy.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "wave",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 1.85,
+          "words": [
+            {
+              "text": "Bye",
+              "start": 0.093,
+              "end": 0.497
+            },
+            {
+              "text": "bye,",
+              "start": 0.497,
+              "end": 1.009
+            },
+            {
+              "text": "Daisy.",
+              "start": 1.009,
+              "end": 1.7
+            }
+          ],
+          "audio": "line-7f7d2a96e0.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "fade",
+      "camera": "zoom-in",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "secondCharacter": "duck",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "Being alone felt big and lonely.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Being",
+              "start": 0.12,
+              "end": 0.529
+            },
+            {
+              "text": "alone",
+              "start": 0.529,
+              "end": 0.939
+            },
+            {
+              "text": "felt",
+              "start": 0.939,
+              "end": 1.285
+            },
+            {
+              "text": "big",
+              "start": 1.285,
+              "end": 1.569
+            },
+            {
+              "text": "and",
+              "start": 1.569,
+              "end": 1.852
+            },
+            {
+              "text": "lonely.",
+              "start": 1.852,
+              "end": 2.4
+            }
+          ],
+          "audio": "line-150f9d2ce4.wav"
+        },
+        {
+          "text": "I wish I had said hello.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "cry",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.075,
+          "words": [
+            {
+              "text": "I",
+              "start": 0.104,
+              "end": 0.265
+            },
+            {
+              "text": "wish",
+              "start": 0.265,
+              "end": 0.62
+            },
+            {
+              "text": "I",
+              "start": 0.62,
+              "end": 0.782
+            },
+            {
+              "text": "had",
+              "start": 0.782,
+              "end": 1.073
+            },
+            {
+              "text": "said",
+              "start": 1.073,
+              "end": 1.428
+            },
+            {
+              "text": "hello.",
+              "start": 1.428,
+              "end": 1.925
+            }
+          ],
+          "audio": "line-f786c5225f.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "slide",
+      "camera": "pan",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "pond",
+      "character": "turtle",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "Suddenly, Tilly had a big, bright idea!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "jump",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": [
+            "boing",
+            "pop"
+          ],
+          "durationSec": 3.025,
+          "words": [
+            {
+              "text": "Suddenly,",
+              "start": 0.12,
+              "end": 0.788
+            },
+            {
+              "text": "Tilly",
+              "start": 0.788,
+              "end": 1.195
+            },
+            {
+              "text": "had",
+              "start": 1.195,
+              "end": 1.476
+            },
+            {
+              "text": "a",
+              "start": 1.476,
+              "end": 1.632
+            },
+            {
+              "text": "big,",
+              "start": 1.632,
+              "end": 1.988
+            },
+            {
+              "text": "bright",
+              "start": 1.988,
+              "end": 2.456
+            },
+            {
+              "text": "idea!",
+              "start": 2.456,
+              "end": 2.875
+            }
+          ],
+          "audio": "line-7763b8652f.wav"
+        },
+        {
+          "text": "Saying hello is easy and brave!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "durationSec": 2.65,
+          "words": [
+            {
+              "text": "Saying",
+              "start": 0.12,
+              "end": 0.627
+            },
+            {
+              "text": "hello",
+              "start": 0.627,
+              "end": 1.067
+            },
+            {
+              "text": "is",
+              "start": 1.067,
+              "end": 1.303
+            },
+            {
+              "text": "easy",
+              "start": 1.303,
+              "end": 1.675
+            },
+            {
+              "text": "and",
+              "start": 1.675,
+              "end": 1.979
+            },
+            {
+              "text": "brave!",
+              "start": 1.979,
+              "end": 2.5
+            }
+          ],
+          "audio": "line-8d9978e7fa.wav"
+        },
+        {
+          "text": "Crawl, crawl, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "durationSec": 1.95,
+          "words": [
+            {
+              "text": "Crawl,",
+              "start": 0.098,
+              "end": 0.641
+            },
+            {
+              "text": "crawl,",
+              "start": 0.641,
+              "end": 1.185
+            },
+            {
+              "text": "hooray!",
+              "start": 1.185,
+              "end": 1.8
+            }
+          ],
+          "audio": "line-e447f791a0.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "wipe",
+      "camera": "pan",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "turtle",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "Tilly crawled over to the pond, brave and steady.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "walk",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 3.625,
+          "words": [
+            {
+              "text": "Tilly",
+              "start": 0.12,
+              "end": 0.517
+            },
+            {
+              "text": "crawled",
+              "start": 0.517,
+              "end": 1.037
+            },
+            {
+              "text": "over",
+              "start": 1.037,
+              "end": 1.373
+            },
+            {
+              "text": "to",
+              "start": 1.373,
+              "end": 1.587
+            },
+            {
+              "text": "the",
+              "start": 1.587,
+              "end": 1.862
+            },
+            {
+              "text": "pond,",
+              "start": 1.862,
+              "end": 2.271
+            },
+            {
+              "text": "brave",
+              "start": 2.271,
+              "end": 2.668
+            },
+            {
+              "text": "and",
+              "start": 2.668,
+              "end": 2.943
+            },
+            {
+              "text": "steady.",
+              "start": 2.943,
+              "end": 3.475
+            }
+          ],
+          "audio": "line-4b1571c007.wav"
+        },
+        {
+          "text": "Crawl, crawl, hooray! I will say hello today!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "walk",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 3.5,
+          "words": [
+            {
+              "text": "Crawl,",
+              "start": 0.12,
+              "end": 0.61
+            },
+            {
+              "text": "crawl,",
+              "start": 0.61,
+              "end": 1.099
+            },
+            {
+              "text": "hooray!",
+              "start": 1.099,
+              "end": 1.652
+            },
+            {
+              "text": "I",
+              "start": 1.652,
+              "end": 1.811
+            },
+            {
+              "text": "will",
+              "start": 1.811,
+              "end": 2.161
+            },
+            {
+              "text": "say",
+              "start": 2.161,
+              "end": 2.447
+            },
+            {
+              "text": "hello",
+              "start": 2.447,
+              "end": 2.86
+            },
+            {
+              "text": "today!",
+              "start": 2.86,
+              "end": 3.35
+            }
+          ],
+          "audio": "line-219c8dc187.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "fade",
+      "camera": "still",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "secondCharacter": null,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "lines": [
+        {
+          "text": "There was Fiona the fox, resting by the water.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-1ebb080f51.wav",
+          "durationSec": 3.325,
+          "words": [
+            {
+              "text": "There",
+              "start": 0.12,
+              "end": 0.503
+            },
+            {
+              "text": "was",
+              "start": 0.503,
+              "end": 0.767
+            },
+            {
+              "text": "Fiona",
+              "start": 0.767,
+              "end": 1.15
+            },
+            {
+              "text": "the",
+              "start": 1.15,
+              "end": 1.415
+            },
+            {
+              "text": "fox,",
+              "start": 1.415,
+              "end": 1.751
+            },
+            {
+              "text": "resting",
+              "start": 1.751,
+              "end": 2.251
+            },
+            {
+              "text": "by",
+              "start": 2.251,
+              "end": 2.457
+            },
+            {
+              "text": "the",
+              "start": 2.457,
+              "end": 2.722
+            },
+            {
+              "text": "water.",
+              "start": 2.722,
+              "end": 3.175
+            }
+          ]
+        },
+        {
+          "text": "Who is this coming this way?",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ],
+          "audio": "line-0caf9917c7.wav",
+          "durationSec": 2.25,
+          "words": [
+            {
+              "text": "Who",
+              "start": 0.113,
+              "end": 0.39
+            },
+            {
+              "text": "is",
+              "start": 0.39,
+              "end": 0.606
+            },
+            {
+              "text": "this",
+              "start": 0.606,
+              "end": 0.946
+            },
+            {
+              "text": "coming",
+              "start": 0.946,
+              "end": 1.409
+            },
+            {
+              "text": "this",
+              "start": 1.409,
+              "end": 1.748
+            },
+            {
+              "text": "way?",
+              "start": 1.748,
+              "end": 2.1
+            }
+          ]
+        }
+      ],
+      "holdSec": 0,
+      "transition": "slide",
+      "camera": "zoom-out",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "Tilly took a deep, brave breath.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Tilly",
+              "start": 0.12,
+              "end": 0.527
+            },
+            {
+              "text": "took",
+              "start": 0.527,
+              "end": 0.872
+            },
+            {
+              "text": "a",
+              "start": 0.872,
+              "end": 1.028
+            },
+            {
+              "text": "deep,",
+              "start": 1.028,
+              "end": 1.448
+            },
+            {
+              "text": "brave",
+              "start": 1.448,
+              "end": 1.855
+            },
+            {
+              "text": "breath.",
+              "start": 1.855,
+              "end": 2.4
+            }
+          ],
+          "audio": "line-5303645fd8.wav"
+        },
+        {
+          "text": "Hello! My name is Tilly!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": {
+            "kind": "word",
+            "text": "HELLO",
+            "emoji": "👋"
+          },
+          "sfx": [],
+          "durationSec": 2.15,
+          "words": [
+            {
+              "text": "Hello!",
+              "start": 0.107,
+              "end": 0.63
+            },
+            {
+              "text": "My",
+              "start": 0.63,
+              "end": 0.867
+            },
+            {
+              "text": "name",
+              "start": 0.867,
+              "end": 1.24
+            },
+            {
+              "text": "is",
+              "start": 1.24,
+              "end": 1.478
+            },
+            {
+              "text": "Tilly!",
+              "start": 1.478,
+              "end": 2
+            }
+          ],
+          "audio": "line-90f1513112.wav"
+        },
+        {
+          "text": "Hello, Tilly! Want to play?",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "audio": "line-b2c5025c23.wav",
+          "durationSec": 2.4,
+          "words": [
+            {
+              "text": "Hello,",
+              "start": 0.12,
+              "end": 0.647
+            },
+            {
+              "text": "Tilly!",
+              "start": 0.647,
+              "end": 1.175
+            },
+            {
+              "text": "Want",
+              "start": 1.175,
+              "end": 1.551
+            },
+            {
+              "text": "to",
+              "start": 1.551,
+              "end": 1.791
+            },
+            {
+              "text": "play?",
+              "start": 1.791,
+              "end": 2.25
+            }
+          ]
+        },
+        {
+          "text": "Yes! Crawl, crawl, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ],
+          "durationSec": 2.275,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.114,
+              "end": 0.498
+            },
+            {
+              "text": "Crawl,",
+              "start": 0.498,
+              "end": 1.018
+            },
+            {
+              "text": "crawl,",
+              "start": 1.018,
+              "end": 1.538
+            },
+            {
+              "text": "hooray!",
+              "start": 1.538,
+              "end": 2.125
+            }
+          ],
+          "audio": "line-7921dee508.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "prop": null,
+      "extras": null,
+      "question": null,
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "question": {
+        "answer": {
+          "text": "Green",
+          "emoji": "🐢",
+          "color": "#3ecf4a"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color is Tilly's shell?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.125,
+          "words": [
+            {
+              "text": "What",
+              "start": 0.106,
+              "end": 0.441
+            },
+            {
+              "text": "color",
+              "start": 0.441,
+              "end": 0.837
+            },
+            {
+              "text": "is",
+              "start": 0.837,
+              "end": 1.05
+            },
+            {
+              "text": "Tilly's",
+              "start": 1.05,
+              "end": 1.506
+            },
+            {
+              "text": "shell?",
+              "start": 1.506,
+              "end": 1.975
+            }
+          ],
+          "audio": "line-c4c461a383.wav"
+        },
+        {
+          "text": "Yes! Tilly's shell is green! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ],
+          "durationSec": 3.3,
+          "words": [
+            {
+              "text": "Yes!",
+              "start": 0.12,
+              "end": 0.521
+            },
+            {
+              "text": "Tilly's",
+              "start": 0.521,
+              "end": 1.048
+            },
+            {
+              "text": "shell",
+              "start": 1.048,
+              "end": 1.505
+            },
+            {
+              "text": "is",
+              "start": 1.505,
+              "end": 1.751
+            },
+            {
+              "text": "green!",
+              "start": 1.751,
+              "end": 2.292
+            },
+            {
+              "text": "Great",
+              "start": 2.292,
+              "end": 2.749
+            },
+            {
+              "text": "job!",
+              "start": 2.749,
+              "end": 3.15
+            }
+          ],
+          "audio": "line-3cf2434e24.wav"
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "prop": null,
+      "extras": null,
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "lines": [
+        {
+          "text": "Tilly played and laughed with her new friends.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ],
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "Tilly",
+              "start": 0.12,
+              "end": 0.448
+            },
+            {
+              "text": "played",
+              "start": 0.448,
+              "end": 0.825
+            },
+            {
+              "text": "and",
+              "start": 0.825,
+              "end": 1.052
+            },
+            {
+              "text": "laughed",
+              "start": 1.052,
+              "end": 1.481
+            },
+            {
+              "text": "with",
+              "start": 1.481,
+              "end": 1.758
+            },
+            {
+              "text": "her",
+              "start": 1.758,
+              "end": 1.984
+            },
+            {
+              "text": "new",
+              "start": 1.984,
+              "end": 2.211
+            },
+            {
+              "text": "friends.",
+              "start": 2.211,
+              "end": 2.7
+            }
+          ],
+          "audio": "line-d346ebc4d1.wav"
+        },
+        {
+          "text": "You are such a good friend, Tilly!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ],
+          "durationSec": 2.425,
+          "words": [
+            {
+              "text": "You",
+              "start": 0.12,
+              "end": 0.369
+            },
+            {
+              "text": "are",
+              "start": 0.369,
+              "end": 0.619
+            },
+            {
+              "text": "such",
+              "start": 0.619,
+              "end": 0.923
+            },
+            {
+              "text": "a",
+              "start": 0.923,
+              "end": 1.062
+            },
+            {
+              "text": "good",
+              "start": 1.062,
+              "end": 1.366
+            },
+            {
+              "text": "friend,",
+              "start": 1.366,
+              "end": 1.848
+            },
+            {
+              "text": "Tilly!",
+              "start": 1.848,
+              "end": 2.275
+            }
+          ],
+          "audio": "line-b3d5314e0e.wav"
+        },
+        {
+          "text": "Crawl, crawl, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 1.95,
+          "words": [
+            {
+              "text": "Crawl,",
+              "start": 0.098,
+              "end": 0.641
+            },
+            {
+              "text": "crawl,",
+              "start": 0.641,
+              "end": 1.185
+            },
+            {
+              "text": "hooray!",
+              "start": 1.185,
+              "end": 1.8
+            }
+          ],
+          "audio": "line-e447f791a0.wav"
+        }
+      ],
+      "holdSec": 0,
+      "transition": "fade",
+      "camera": "pan",
+      "prop": null,
+      "extras": [
+        "owl"
+      ],
+      "question": null,
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "beach",
+      "character": "turtle",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Tilly learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null,
+          "durationSec": 2.65,
+          "words": [
+            {
+              "text": "Tilly",
+              "start": 0.12,
+              "end": 0.482
+            },
+            {
+              "text": "learned",
+              "start": 0.482,
+              "end": 0.956
+            },
+            {
+              "text": "something",
+              "start": 0.956,
+              "end": 1.541
+            },
+            {
+              "text": "very",
+              "start": 1.541,
+              "end": 1.848
+            },
+            {
+              "text": "important!",
+              "start": 1.848,
+              "end": 2.5
+            }
+          ],
+          "audio": "line-8012005afb.wav"
+        },
+        {
+          "text": "Saying hello is how you make a friend.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": [],
+          "durationSec": 2.775,
+          "words": [
+            {
+              "text": "Saying",
+              "start": 0.12,
+              "end": 0.555
+            },
+            {
+              "text": "hello",
+              "start": 0.555,
+              "end": 0.932
+            },
+            {
+              "text": "is",
+              "start": 0.932,
+              "end": 1.135
+            },
+            {
+              "text": "how",
+              "start": 1.135,
+              "end": 1.396
+            },
+            {
+              "text": "you",
+              "start": 1.396,
+              "end": 1.657
+            },
+            {
+              "text": "make",
+              "start": 1.657,
+              "end": 1.976
+            },
+            {
+              "text": "a",
+              "start": 1.976,
+              "end": 2.121
+            },
+            {
+              "text": "friend.",
+              "start": 2.121,
+              "end": 2.625
+            }
+          ],
+          "audio": "line-77fc4d22a4.wav"
+        }
+      ],
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "beach",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Say hi, say hi, don't be shy!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": [],
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Say",
+              "start": 0.12,
+              "end": 0.43
+            },
+            {
+              "text": "hi,",
+              "start": 0.43,
+              "end": 0.754
+            },
+            {
+              "text": "say",
+              "start": 0.754,
+              "end": 1.064
+            },
+            {
+              "text": "hi,",
+              "start": 1.064,
+              "end": 1.387
+            },
+            {
+              "text": "don't",
+              "start": 1.387,
+              "end": 1.766
+            },
+            {
+              "text": "be",
+              "start": 1.766,
+              "end": 2.007
+            },
+            {
+              "text": "shy!",
+              "start": 2.007,
+              "end": 2.4
+            }
+          ],
+          "audio": "line-0338115288.wav"
+        },
+        {
+          "text": "A friendly hello makes two friends grow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": [],
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "A",
+              "start": 0.12,
+              "end": 0.264
+            },
+            {
+              "text": "friendly",
+              "start": 0.264,
+              "end": 0.813
+            },
+            {
+              "text": "hello",
+              "start": 0.813,
+              "end": 1.188
+            },
+            {
+              "text": "makes",
+              "start": 1.188,
+              "end": 1.563
+            },
+            {
+              "text": "two",
+              "start": 1.563,
+              "end": 1.823
+            },
+            {
+              "text": "friends",
+              "start": 1.823,
+              "end": 2.313
+            },
+            {
+              "text": "grow!",
+              "start": 2.313,
+              "end": 2.7
+            }
+          ],
+          "audio": "line-200c748a33.wav"
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": [],
+          "audio": "line-944d4bbc7c.wav",
+          "durationSec": 1.825,
+          "words": [
+            {
+              "text": "Can",
+              "start": 0.091,
+              "end": 0.353
+            },
+            {
+              "text": "you",
+              "start": 0.353,
+              "end": 0.615
+            },
+            {
+              "text": "say",
+              "start": 0.615,
+              "end": 0.877
+            },
+            {
+              "text": "it",
+              "start": 0.877,
+              "end": 1.081
+            },
+            {
+              "text": "with",
+              "start": 1.081,
+              "end": 1.401
+            },
+            {
+              "text": "me?",
+              "start": 1.401,
+              "end": 1.675
+            }
+          ]
+        }
+      ],
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bear"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "beach",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Say hi, say hi, don't be shy!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ],
+          "durationSec": 2.55,
+          "words": [
+            {
+              "text": "Say",
+              "start": 0.12,
+              "end": 0.43
+            },
+            {
+              "text": "hi,",
+              "start": 0.43,
+              "end": 0.754
+            },
+            {
+              "text": "say",
+              "start": 0.754,
+              "end": 1.064
+            },
+            {
+              "text": "hi,",
+              "start": 1.064,
+              "end": 1.387
+            },
+            {
+              "text": "don't",
+              "start": 1.387,
+              "end": 1.766
+            },
+            {
+              "text": "be",
+              "start": 1.766,
+              "end": 2.007
+            },
+            {
+              "text": "shy!",
+              "start": 2.007,
+              "end": 2.4
+            }
+          ],
+          "audio": "line-0338115288.wav"
+        },
+        {
+          "text": "A friendly hello makes two friends grow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": [],
+          "durationSec": 2.85,
+          "words": [
+            {
+              "text": "A",
+              "start": 0.12,
+              "end": 0.264
+            },
+            {
+              "text": "friendly",
+              "start": 0.264,
+              "end": 0.813
+            },
+            {
+              "text": "hello",
+              "start": 0.813,
+              "end": 1.188
+            },
+            {
+              "text": "makes",
+              "start": 1.188,
+              "end": 1.563
+            },
+            {
+              "text": "two",
+              "start": 1.563,
+              "end": 1.823
+            },
+            {
+              "text": "friends",
+              "start": 1.823,
+              "end": 2.313
+            },
+            {
+              "text": "grow!",
+              "start": 2.313,
+              "end": 2.7
+            }
+          ],
+          "audio": "line-200c748a33.wav"
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null,
+          "audio": "line-573b127af8.wav",
+          "durationSec": 1.825,
+          "words": [
+            {
+              "text": "Hooray!",
+              "start": 0.091,
+              "end": 0.706
+            },
+            {
+              "text": "You",
+              "start": 0.706,
+              "end": 1.025
+            },
+            {
+              "text": "did",
+              "start": 1.025,
+              "end": 1.343
+            },
+            {
+              "text": "it!",
+              "start": 1.343,
+              "end": 1.675
+            }
+          ]
+        }
+      ],
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "owl"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "voice": "af_heart"
+}

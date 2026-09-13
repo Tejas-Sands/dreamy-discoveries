@@ -54,7 +54,10 @@ function loadFromLibrary(slug) {
   return slug;
 }
 
+import { initDbSchema, seedFromFiles } from "./lib/db.mjs";
+
 function main() {
+  initDbSchema().then(seedFromFiles).catch(() => {});
   const args = parseArgs();
 
   // chunk range for one matrix job

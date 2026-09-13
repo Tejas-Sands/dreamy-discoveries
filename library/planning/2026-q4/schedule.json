@@ -128,7 +128,9 @@
       "existing_slug": "opposites-ozzy-2026-09-12",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Already rendered; review and upload, do not regenerate. Existing release and Telegram access remain unconfigured."
+      "notes": "Already rendered; review and upload, do not regenerate. Existing release and Telegram access remain unconfigured.",
+      "publication_status": "ready",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-14",
@@ -161,7 +163,9 @@
       "existing_slug": "colors-daisy-2026-09-14",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Rendered locally at 1080p, 30 fps, approximately 5:12, with six question rewards. Reuse the saved slug; do not regenerate. Human review/upload remains; GitHub Release and Telegram delivery are blocked by existing access/credential gaps."
+      "notes": "Rendered locally at 1080p, 30 fps, approximately 5:12, with six question rewards. Reuse the saved slug; do not regenerate. Human review/upload remains; GitHub Release and Telegram delivery are blocked by existing access/credential gaps.",
+      "publication_status": "ready",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-15",
@@ -194,7 +198,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-16",
@@ -227,7 +233,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-17",
@@ -260,7 +268,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-18",
@@ -293,7 +303,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-19",
@@ -326,7 +338,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "New deterministic freeze-dance template with real stop cues; existing actions template is not freeze dance. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "New deterministic freeze-dance template with real stop cues; existing actions template is not freeze dance. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-20",
@@ -344,7 +358,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-09-20",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20260920,
       "event": "",
       "expires_at": "",
@@ -362,7 +376,9 @@
         "dd-2026-09-18"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-21",
@@ -395,7 +411,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template. Review that Director pacing remains calm; do not promise improved sleep."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template. Review that Director pacing remains calm; do not promise improved sleep.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-22",
@@ -428,7 +446,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-23",
@@ -461,7 +481,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template. Check plural grammar and anatomy against the selected animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template. Check plural grammar and anatomy against the selected animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-24",
@@ -494,7 +516,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-25",
@@ -526,7 +550,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-26",
@@ -559,7 +585,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "New routine template; visual steps must match the words. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "New routine template; visual steps must match the words. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-27",
@@ -577,7 +605,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-09-27",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20260927,
       "event": "",
       "expires_at": "",
@@ -595,7 +623,9 @@
         "dd-2026-09-25"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-28",
@@ -628,7 +658,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-29",
@@ -660,7 +692,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-09-30",
@@ -693,7 +727,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-01",
@@ -726,7 +762,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-02",
@@ -758,7 +796,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-03",
@@ -791,7 +831,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-04",
@@ -809,7 +851,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-10-04",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261004,
       "event": "",
       "expires_at": "",
@@ -827,7 +869,9 @@
         "dd-2026-10-02"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-05",
@@ -860,7 +904,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-06",
@@ -893,7 +939,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-07",
@@ -926,7 +974,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-08",
@@ -959,7 +1009,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-09",
@@ -992,7 +1044,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-10",
@@ -1025,7 +1079,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-11",
@@ -1043,7 +1099,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-10-11",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261011,
       "event": "",
       "expires_at": "",
@@ -1061,7 +1117,9 @@
         "dd-2026-10-09"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-12",
@@ -1094,7 +1152,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-13",
@@ -1126,7 +1186,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-14",
@@ -1159,7 +1221,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-15",
@@ -1192,7 +1256,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-16",
@@ -1224,7 +1290,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-17",
@@ -1257,7 +1325,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-18",
@@ -1275,7 +1345,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-10-18",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261018,
       "event": "",
       "expires_at": "",
@@ -1293,7 +1363,9 @@
         "dd-2026-10-16"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-19",
@@ -1326,7 +1398,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-20",
@@ -1359,7 +1433,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-21",
@@ -1392,7 +1468,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-22",
@@ -1425,7 +1503,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-23",
@@ -1458,7 +1538,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-24",
@@ -1491,7 +1573,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Original Halloween script or deterministic seasonal template; current generic colors template is not a pumpkin game. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-25",
@@ -1509,7 +1593,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-10-25",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261025,
       "event": "",
       "expires_at": "",
@@ -1527,7 +1611,9 @@
         "dd-2026-10-23"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-26",
@@ -1560,7 +1646,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-27",
@@ -1593,7 +1681,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-28",
@@ -1626,7 +1716,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-29",
@@ -1659,7 +1751,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-30",
@@ -1692,7 +1786,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-10-31",
@@ -1725,7 +1821,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Seasonal pattern template plus approved rangoli visuals; do not relabel generic colors. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Seasonal pattern template plus approved rangoli visuals; do not relabel generic colors. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-01",
@@ -1743,7 +1841,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-11-01",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261101,
       "event": "",
       "expires_at": "",
@@ -1761,7 +1859,9 @@
         "dd-2026-10-29"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-02",
@@ -1794,7 +1894,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-03",
@@ -1827,7 +1929,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-04",
@@ -1860,7 +1964,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-05",
@@ -1893,7 +1999,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-06",
@@ -1926,7 +2034,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-07",
@@ -1959,7 +2069,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Seasonal pattern template plus approved rangoli visuals; do not relabel generic colors. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Seasonal pattern template plus approved rangoli visuals; do not relabel generic colors. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-08",
@@ -1977,7 +2089,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-11-08",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261108,
       "event": "",
       "expires_at": "",
@@ -1995,7 +2107,9 @@
         "dd-2026-11-06"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-09",
@@ -2028,7 +2142,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-10",
@@ -2061,7 +2177,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-11",
@@ -2094,7 +2212,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-12",
@@ -2127,7 +2247,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-13",
@@ -2160,7 +2282,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-14",
@@ -2193,7 +2317,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "New phonics template and reviewed letter-sound audio; Kokoro pronunciations require listening checks. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "New phonics template and reviewed letter-sound audio; Kokoro pronunciations require listening checks. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-15",
@@ -2211,7 +2337,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-11-15",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261115,
       "event": "",
       "expires_at": "",
@@ -2229,7 +2355,9 @@
         "dd-2026-11-13"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-16",
@@ -2262,7 +2390,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-17",
@@ -2294,7 +2424,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-18",
@@ -2327,7 +2459,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-19",
@@ -2360,7 +2494,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-20",
@@ -2393,7 +2529,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-21",
@@ -2426,7 +2564,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "New deterministic freeze-dance template with real stop cues; existing actions template is not freeze dance. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "New deterministic freeze-dance template with real stop cues; existing actions template is not freeze dance. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-22",
@@ -2444,7 +2584,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-11-22",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261122,
       "event": "",
       "expires_at": "",
@@ -2462,7 +2602,9 @@
         "dd-2026-11-20"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-23",
@@ -2495,7 +2637,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-24",
@@ -2528,7 +2672,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-25",
@@ -2561,7 +2707,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-26",
@@ -2594,7 +2742,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-27",
@@ -2627,7 +2777,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-28",
@@ -2660,7 +2812,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "New freeze-dance template; no extra character. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "New freeze-dance template; no extra character. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-29",
@@ -2678,7 +2832,7 @@
       "working_title": "Sunny Meadow: Kindness and Learning — 2026-11-29",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261129,
       "event": "",
       "expires_at": "",
@@ -2696,7 +2850,9 @@
         "dd-2026-11-27"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-11-30",
@@ -2729,7 +2885,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-01",
@@ -2762,7 +2920,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-02",
@@ -2795,7 +2955,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-03",
@@ -2828,7 +2990,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-04",
@@ -2861,7 +3025,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-05",
@@ -2894,7 +3060,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Original story using at most one free script call; festive visual review. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Original story using at most one free script call; festive visual review. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-06",
@@ -2912,7 +3080,7 @@
       "working_title": "Sunny Meadow: Cozy Learning Together — 2026-12-06",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261206,
       "event": "",
       "expires_at": "",
@@ -2930,7 +3098,9 @@
         "dd-2026-12-04"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-07",
@@ -2963,7 +3133,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-08",
@@ -2996,7 +3168,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-09",
@@ -3029,7 +3203,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-10",
@@ -3062,7 +3238,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-11",
@@ -3095,7 +3273,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-12",
@@ -3128,7 +3308,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "New freeze-dance template; no extra character. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "New freeze-dance template; no extra character. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-13",
@@ -3146,7 +3328,7 @@
       "working_title": "Sunny Meadow: Cozy Learning Together — 2026-12-13",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261213,
       "event": "",
       "expires_at": "",
@@ -3164,7 +3346,9 @@
         "dd-2026-12-11"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-14",
@@ -3197,7 +3381,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-15",
@@ -3230,7 +3416,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-16",
@@ -3263,7 +3451,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-17",
@@ -3296,7 +3486,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-18",
@@ -3329,7 +3521,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-19",
@@ -3362,7 +3556,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Original story using at most one free script call; festive visual review. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Original story using at most one free script call; festive visual review. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-20",
@@ -3380,7 +3576,7 @@
       "working_title": "Sunny Meadow: Cozy Learning Together — 2026-12-20",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261220,
       "event": "",
       "expires_at": "",
@@ -3398,7 +3594,9 @@
         "dd-2026-12-18"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-21",
@@ -3431,7 +3629,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Review that Director pacing remains calm; do not promise improved sleep.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-22",
@@ -3464,7 +3664,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-23",
@@ -3497,7 +3699,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check plural grammar and anatomy against the selected animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-24",
@@ -3530,7 +3734,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip. Check chorus sound labels against the six-cast lesson; do not imply every named sound has an on-screen animal.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-25",
@@ -3563,7 +3769,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures."
+      "notes": "One publishing slot per day; human reviews and uploads. Verify cultural framing and required decorative visuals before dispatch. Keep hero selection separate from holiday figures.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-26",
@@ -3596,7 +3804,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Original routine template with three accurate visual steps. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template."
+      "notes": "Original routine template with three accurate visual steps. Recheck search evidence 72 hours before production. This is a reserved slot, not an executable queue row. At most one script call if resolved to a story; zero for a deterministic template.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-27",
@@ -3614,7 +3824,7 @@
       "working_title": "Sunny Meadow: Cozy Learning Together — 2026-12-27",
       "topic": "",
       "search_query": "",
-      "minutes": 17.0,
+      "minutes": 17,
       "seed": 20261227,
       "event": "",
       "expires_at": "",
@@ -3632,7 +3842,9 @@
         "dd-2026-12-24"
       ],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation."
+      "notes": "Use three actually finished and reviewed source episodes; do not regenerate them. Confirm topic coherence and replace the working title with an accurate contents title. Route to compile.yml, not make-video.yml. Hold if sources are missing or the combination duplicates a prior compilation.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-28",
@@ -3665,7 +3877,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-29",
@@ -3698,7 +3912,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "One publishing slot per day; human reviews and uploads."
+      "notes": "One publishing slot per day; human reviews and uploads.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-30",
@@ -3731,7 +3947,9 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     },
     {
       "schedule_id": "dd-2026-12-31",
@@ -3764,7 +3982,10 @@
       "existing_slug": "",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
-      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip."
+      "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. A different hero or shuffle alone is not sufficient novelty: approve a meaningful teaching variation or replace with an unpublished approved episode; otherwise skip.",
+      "publication_status": "planned",
+      "uploaded_at": ""
     }
-  ]
+  ],
+  "publication_tracking": "telegram_owner_confirmation"
 }

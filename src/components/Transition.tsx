@@ -31,8 +31,21 @@ export const SceneTransition: React.FC<{ kind: TransitionKind; frames: number; c
   return <AbsoluteFill style={style}>{children}</AbsoluteFill>;
 };
 
-/** Slow camera moves over the whole scene + impact shake. */
-export const Camera: React.FC<{ kind: CameraKind; duration: number; shake?: number; punch?: number; children: React.ReactNode }> = ({ kind, duration, shake = 0, punch = 0, children }) => {
+/**
+ * Slow camera moves over the whole scene + impact shake, plus a "shot" layer:
+ * a zoom towards a point (the speaker's head) that changes from line to line, so a
+ * long scene feels cut into several shots without re-rendering anything.
+ */
+export const Camera: React.FC<{
+  kind: CameraKind;
+  duration: number;
+  shake?: number;
+  punch?: number;
+  /** extra zoom (1 = none) around `origin` (px) */
+  zoom?: number;
+  origin?: { x: number; y: number };
+  children: React.ReactNode;
+}> = ({ kind, duration, shake = 0, punch = 0, zoom = 1, origin = { x: 960, y: 620 }, children }) => {
   const frame = useCurrentFrame();
   const k = Math.min(1, frame / Math.max(1, duration));
   let scale = 1;
@@ -54,5 +67,12 @@ export const Camera: React.FC<{ kind: CameraKind; duration: number; shake?: numb
   scale += punch;
   const sx = shake * Math.sin(frame * 2.9);
   const sy = shake * Math.cos(frame * 3.7);
-  return <AbsoluteFill style={{ transform: `translate(${tx + sx}px, ${sy}px) scale(${scale})`, transformOrigin: "50% 62%" }}>{children}</AbsoluteFill>;
+  // keep the zoomed shot inside the frame: clamp the origin so no edge pulls away from the border
+  const ox = Math.max(0, Math.min(1920, origin.x));
+  const oy = Math.max(0, Math.min(1080, origin.y));
+  return (
+    <AbsoluteFill style={{ transform: `translate(${tx + sx}px, ${sy}px) scale(${scale})`, transformOrigin: "50% 62%" }}>
+      <AbsoluteFill style={{ transform: `scale(${zoom})`, transformOrigin: `${ox}px ${oy}px` }}>{children}</AbsoluteFill>
+    </AbsoluteFill>
+  );
 };

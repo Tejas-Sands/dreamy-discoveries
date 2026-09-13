@@ -16,6 +16,8 @@ export const Karaoke: React.FC<{ line: Line; palette: Palette; t: number; size?:
   const fontSize = size === "big" ? 72 : 60;
   const praise = line.role === "praise";
   const border = praise ? "#ffd23f" : palette.accent;
+  const ball = praise ? "#ffd23f" : "#ff5d9e";
+  const ballSize = size === "big" ? 30 : 26;
 
   return (
     <div
@@ -33,11 +35,11 @@ export const Karaoke: React.FC<{ line: Line; palette: Palette; t: number; size?:
       <div
         style={{
           maxWidth: 1580,
-          background: palette.card,
-          border: `9px solid ${border}`,
+          background: `linear-gradient(${palette.card}, ${palette.card}) padding-box, linear-gradient(115deg, ${border}, ${palette.accentSoft}, ${border}) border-box`,
+          border: "9px solid transparent",
           borderRadius: 56,
-          padding: size === "big" ? "26px 64px" : "22px 56px",
-          boxShadow: "0 18px 40px rgba(0,0,0,0.22)",
+          padding: size === "big" ? "44px 64px 26px" : "38px 56px 22px",
+          boxShadow: "0 0 0 5px rgba(255,255,255,0.9), 0 12px 0 rgba(47,36,56,0.12), 0 18px 32px rgba(47,36,56,0.16)",
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
@@ -52,22 +54,43 @@ export const Karaoke: React.FC<{ line: Line; palette: Palette; t: number; size?:
         {words.map((word, i) => {
           const timed = word.end > 0;
           const active = timed && t >= word.start && t < word.end;
-          const done = timed && t >= word.end;
           const since = t - word.start;
           const pop = active ? 1 + 0.12 * easeOutBack(Math.min(1, since / 0.14)) : 1;
           const lift = active ? -10 * easeOutBack(Math.min(1, since / 0.14)) : 0;
+          // the sing-along ball: hops onto each word as it is sung (an arc across the word's duration)
+          const wordLen = Math.max(0.12, word.end - word.start);
+          const ballK = active ? Math.min(1, since / wordLen) : 0;
+          const ballY = active ? -Math.sin(Math.PI * ballK) * 20 : 0;
           return (
             <span
               key={i}
               style={{
                 display: "inline-block",
-                color: active ? palette.accent : done ? palette.text : `${palette.text}80`,
+                position: "relative",
+                color: active ? palette.highlight : palette.text,
                 transform: `translateY(${lift}px) scale(${pop})`,
                 transformOrigin: "50% 80%",
                 textShadow: active ? "0 4px 0 rgba(0,0,0,0.12)" : "none",
                 whiteSpace: "nowrap",
               }}
             >
+              {active && timed ? (
+                <span
+                  style={{
+                    position: "absolute",
+                    left: "50%",
+                    top: -ballSize * 0.9,
+                    width: ballSize,
+                    height: ballSize,
+                    marginLeft: -ballSize / 2,
+                    borderRadius: 999,
+                    background: `radial-gradient(circle at 35% 30%, #fff 0, ${ball} 45%, ${ball} 100%)`,
+                    border: "3px solid #2f2438",
+                    boxShadow: "0 4px 0 rgba(0,0,0,0.15)",
+                    transform: `translateY(${ballY}px) scale(${1 - 0.15 * Math.sin(Math.PI * ballK)})`,
+                  }}
+                />
+              ) : null}
               {word.text}
             </span>
           );

@@ -38,9 +38,20 @@ export const StarHud: React.FC<{ total: number; earnedAt: number[]; flyFrom?: { 
   const gap = 8;
   const width = total * (size + gap) + 34;
   const FLY = 22;
+  // the jar jiggles when a star lands in it
+  let wiggle = 0;
+  let jarScale = 1;
+  for (const at of earnedAt) {
+    if (at === undefined) continue;
+    const since = frame - (at + FLY);
+    if (since >= 0 && since < 18) {
+      wiggle = 7 * Math.sin(since * 1.4) * (1 - since / 18);
+      jarScale = 1 + 0.12 * (1 - since / 18);
+    }
+  }
   return (
     <div style={{ position: "absolute", left: 0, top: 0, width: 1920, height: 1080, pointerEvents: "none" }}>
-      <div style={{ position: "absolute", right: 34, top: 44, width, height: size + 32, background: "rgba(47,36,56,0.45)", border: "5px solid rgba(255,255,255,0.85)", borderRadius: 999, display: "flex", alignItems: "center", padding: "0 17px", gap, boxShadow: "0 8px 20px rgba(0,0,0,0.2)" }}>
+      <div style={{ position: "absolute", right: 34, top: 44, width, height: size + 32, background: "rgba(47,36,56,0.45)", border: "5px solid rgba(255,255,255,0.85)", borderRadius: 999, display: "flex", alignItems: "center", padding: "0 17px", gap, boxShadow: "0 8px 20px rgba(0,0,0,0.2)", transform: `rotate(${wiggle}deg) scale(${jarScale})`, transformOrigin: "50% 50%" }}>
         {Array.from({ length: total }).map((_, i) => {
           const at = earnedAt[i];
           const landed = at !== undefined && frame >= at + FLY;

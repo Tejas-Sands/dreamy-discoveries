@@ -1,42 +1,38 @@
 {
   "name": "dragon",
   "emoji": "🐲",
-  "rig": "biped",
+  "rig": "tRex",
   "colors": {
-    "body": "#6fd36a",
-    "belly": "#ffe27a",
-    "limb": "#5cc257",
-    "accent": "#ff5d5d",
-    "dark": "#3ea354"
+    "body": "#4eb85b",
+    "belly": "#e5d198",
+    "limb": "#4eb85b",
+    "accent": "#528b43",
+    "dark": "#40333b"
   },
   "ears": "none",
-  "tail": "long",
-  "tailOptions": {
-    "width": 16
-  },
-  "features": [
-    "spikes",
-    {
-      "kind": "horns",
-      "color": "#ffd23f"
-    },
-    "nostrils",
-    {
-      "kind": "wingsBack",
-      "color": "#4fb34a"
-    }
-  ],
+  "tail": "none",
+  "features": [],
+  "markings": [],
+  "accessories": [],
   "face": {
-    "mouthY": 134
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 130,
+    "eyeSize": 1
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Draco",
+    "name": "Spike",
     "one": "dragon",
     "plural": "dragons",
-    "verb": "fly",
-    "verbs": "flies",
-    "verbing": "flying",
-    "home": "sky",
-    "sound": "roar"
+    "verb": "breathe-fire",
+    "verbs": "breathe-fires",
+    "verbing": "breathe-fireing",
+    "home": "cave",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#4eb85b"
   }
 }

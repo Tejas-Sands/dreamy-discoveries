@@ -3,36 +3,58 @@
   "emoji": "🐶",
   "rig": "biped",
   "colors": {
-    "body": "#e4b078",
-    "belly": "#fbe6c8",
-    "limb": "#d49c62",
-    "dark": "#b97a42"
+    "body": "#b37b52",
+    "belly": "#e8c9b1",
+    "limb": "#b37b52",
+    "accent": "#80502f",
+    "dark": "#40333b"
   },
   "ears": "floppy",
   "tail": "curved",
-  "tailOptions": {
-    "width": 12,
-    "wag": 1.6
-  },
   "features": [
     {
       "kind": "snout",
-      "y": 122,
-      "rx": 24,
-      "ry": 17
+      "rx": 29,
+      "ry": 22,
+      "y": 123,
+      "color": "#eac69d"
+    }
+  ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "collar",
+      "color": "#946173",
+      "ring": "#e9ddc5"
     }
   ],
   "face": {
-    "mouthY": 132
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 130,
+    "eyeSize": 1
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Max",
-    "one": "puppy",
-    "plural": "puppies",
-    "verb": "run",
-    "verbs": "runs",
-    "verbing": "running",
-    "home": "farm",
-    "sound": "woof"
+    "name": "Buster",
+    "one": "dog",
+    "plural": "dogs",
+    "verb": "bark",
+    "verbs": "barks",
+    "verbing": "barking",
+    "home": "yard",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#b37b52",
+    "width": 12
+  },
+  "earOptions": {
+    "color": "#80502f",
+    "x": 63,
+    "y": 95,
+    "rx": 18,
+    "ry": 39
   }
 }

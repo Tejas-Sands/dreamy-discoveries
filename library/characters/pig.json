@@ -3,32 +3,55 @@
   "emoji": "🐷",
   "rig": "biped",
   "colors": {
-    "body": "#ffb6c9",
-    "belly": "#ffdbe5",
-    "limb": "#f7a0b8",
-    "inner": "#ff8fb0",
-    "accent": "#ff9db7",
-    "dark": "#c94f74"
+    "body": "#f0a8b9",
+    "belly": "#f7c8d3",
+    "limb": "#f0a8b9",
+    "accent": "#ba6075",
+    "dark": "#40333b"
   },
   "ears": "pointy",
-  "earOptions": {
-    "size": 0.8
-  },
   "tail": "curly",
   "features": [
-    "pigSnout"
+    {
+      "kind": "pigSnout",
+      "rx": 25,
+      "ry": 20,
+      "y": 120,
+      "color": "#dd829c",
+      "dark": "#87425e"
+    }
+  ],
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "bandana",
+      "color": "#79b068"
+    }
   ],
   "face": {
-    "mouthY": 138
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 143,
+    "eyeSize": 1
   },
+  "arm": "capsule",
+  "foot": "hoof",
   "words": {
-    "name": "Poppy",
-    "one": "piggy",
-    "plural": "piggies",
-    "verb": "roll",
-    "verbs": "rolls",
-    "verbing": "rolling",
+    "name": "Percy",
+    "one": "pig",
+    "plural": "pigs",
+    "verb": "trot",
+    "verbs": "trots",
+    "verbing": "troting",
     "home": "farm",
-    "sound": "oink"
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#f0a8b9"
+  },
+  "earOptions": {
+    "size": 0.83,
+    "color": "#e798ac",
+    "inner": "#f5bbca"
   }
 }

@@ -61,16 +61,16 @@ export const EARS: Record<string, Part> = {
   floppy: ({ c, o }) => (
     <g>
       {[-1, 1].map((s, i) => (
-        <ellipse key={i} cx={100 + s * num(o.x, 68)} cy={num(o.y, 104)} rx={num(o.rx, 18)} ry={num(o.ry, 38)} fill={str(o.color, c.dark ?? c.limb)} transform={`rotate(${s * 22} ${100 + s * 60} 66)`} {...O} />
+        <ellipse key={i} cx={100 + s * num(o.x, 68)} cy={num(o.y, 104)} rx={num(o.rx, 18)} ry={num(o.ry, 38)} fill={str(o.color, c.dark ?? c.limb)} transform={`rotate(${s * -18} ${100 + s * num(o.x, 68)} ${num(o.y, 104)})`} {...O} />
       ))}
     </g>
   ),
-  big: ({ c }) => (
+  big: ({ c, o }) => (
     <g>
       {[-1, 1].map((s, i) => (
         <g key={i}>
-          <ellipse cx={100 + s * 62} cy={100} rx={36} ry={44} fill={c.body} {...O} />
-          <ellipse cx={100 + s * 62} cy={102} rx={24} ry={32} fill={c.inner ?? c.belly} />
+          <ellipse cx={100 + s * num(o.x, 62)} cy={num(o.y, 100)} rx={num(o.rx, 36)} ry={num(o.ry, 44)} fill={c.body} {...O} />
+          <ellipse cx={100 + s * num(o.x, 62)} cy={num(o.y, 100) + 2} rx={num(o.rx, 36) * .67} ry={num(o.ry, 44) * .72} fill={str(o.inner, c.inner ?? c.belly)} />
         </g>
       ))}
     </g>
@@ -78,7 +78,7 @@ export const EARS: Record<string, Part> = {
   tuft: ({ c, o }) => (
     <g>
       {[-1, 1].map((s, i) => (
-        <path key={i} d={`M ${100 + s * 30} 58 L ${100 + s * 58} ${num(o.y, 8)} L ${100 + s * 62} 60 Z`} fill={str(o.color, c.body)} {...O} />
+        <path key={i} d={`M ${100 + s * 24} 57 Q ${100 + s * 47} 40 ${100 + s * 64} ${num(o.y, 18)} Q ${100 + s * 68} 42 ${100 + s * 52} 62 Z`} fill={str(o.color, c.body)} {...O} strokeWidth={3} />
       ))}
     </g>
   ),
@@ -163,11 +163,22 @@ const Snout: React.FC<{ color: string; nose?: string; y?: number; rx?: number; r
 
 export const FEATURES: Record<string, { layer: "headBack" | "headFront" | "back" | "body"; Part: Part }> = {
   snout: { layer: "headFront", Part: ({ c, o }) => <Snout color={str(o.color, c.belly)} y={num(o.y, 120)} rx={num(o.rx, 22)} ry={num(o.ry, 15)} nostrils={!!o.nostrils} nose={str(o.nose, "#3b2a2a")} /> },
+  /** a pale cartoon muzzle under the eyes with no nose — pair with a nose feature (bunny) */
+  muzzle: { layer: "headFront", Part: ({ o }) => (
+    <ellipse cx={100} cy={num(o.y, 120)} rx={num(o.rx, 26)} ry={num(o.ry, 20)} fill={str(o.color, "#ffffff")} opacity={0.5} />
+  ) },
+  /** bunny buck teeth peeking under the nose */
+  buckTeeth: { layer: "headFront", Part: ({ o }) => (
+    <g>
+      <rect x={91} y={num(o.y, 112)} width={8} height={11} rx={2.5} fill="#ffffff" stroke={OUTLINE} strokeWidth={2} />
+      <rect x={100} y={num(o.y, 112)} width={8} height={11} rx={2.5} fill="#fff6ea" stroke={OUTLINE} strokeWidth={2} />
+    </g>
+  ) },
   pigSnout: { layer: "headFront", Part: ({ c, o }) => (
     <g>
-      <ellipse cx={100} cy={118} rx={21} ry={14} fill={str(o.color, c.accent ?? c.inner ?? c.belly)} {...O} />
-      <ellipse cx={93} cy={118} rx={3.5} ry={4.5} fill={str(o.dark, c.dark ?? OUTLINE)} />
-      <ellipse cx={107} cy={118} rx={3.5} ry={4.5} fill={str(o.dark, c.dark ?? OUTLINE)} />
+      <ellipse cx={100} cy={num(o.y,118)} rx={num(o.rx,21)} ry={num(o.ry,14)} fill={str(o.color, c.accent ?? c.inner ?? c.belly)} {...O} />
+      <ellipse cx={100-num(o.rx,21)*.35} cy={num(o.y,118)} rx={3.5} ry={4.5} fill={str(o.dark, c.dark ?? OUTLINE)} />
+      <ellipse cx={100+num(o.rx,21)*.35} cy={num(o.y,118)} rx={3.5} ry={4.5} fill={str(o.dark, c.dark ?? OUTLINE)} />
     </g>
   ) },
   hippoSnout: { layer: "headFront", Part: ({ c, o }) => (
@@ -226,13 +237,15 @@ export const FEATURES: Record<string, { layer: "headBack" | "headFront" | "back"
   } },
   mane: { layer: "headBack", Part: ({ c, o }) => {
     const color = str(o.color, c.accent ?? c.limb);
+    const points = Array.from({length: 40}, (_,i) => {
+      const a = i * Math.PI / 20;
+      const radius = i % 2 ? 80 : 90;
+      return `${100 + Math.cos(a)*radius},${99 + Math.sin(a)*radius}`;
+    }).join(" ");
     return (
       <g>
-        {Array.from({ length: 12 }).map((_, i) => {
-          const a = (i / 12) * Math.PI * 2;
-          return <circle key={i} cx={100 + Math.cos(a) * 70} cy={98 + Math.sin(a) * 70} r={26} fill={color} {...O} />;
-        })}
-        <circle cx={100} cy={98} r={80} fill={color} />
+        <polygon points={points} fill={color} {...O} />
+        <path d="M 45 63 Q 29 89 42 122 M 155 63 Q 171 89 158 122 M 70 163 L 77 174 M 125 165 L 122 175" fill="none" stroke="#e2a45b" strokeWidth={3}/>
       </g>
     );
   } },
@@ -261,7 +274,7 @@ export const FEATURES: Record<string, { layer: "headBack" | "headFront" | "back"
   horns: { layer: "headBack", Part: ({ c, o }) => (
     <g>
       {[-1, 1].map((s) => (
-        <path key={s} d={`M ${100 + s * 40} 52 L ${100 + s * 46} ${num(o.y, 14)} L ${100 + s * 62} 46 Z`} fill={str(o.color, c.accent ?? "#e8d3a4")} {...O} />
+        <path key={s} d={`M ${100 + s * 32} 52 Q ${100 + s * 56} 47 ${100 + s * 47} ${num(o.y, 17)} Q ${100 + s * 37} 26 ${100 + s * 39} 40 Z`} fill={str(o.color, c.accent ?? "#e8d3a4")} {...O} />
       ))}
     </g>
   ) },
@@ -298,9 +311,8 @@ export const FEATURES: Record<string, { layer: "headBack" | "headFront" | "back"
   } },
   trunk: { layer: "headFront", Part: ({ c }) => (
     <g>
-      <path d="M 100 124 C 102 150, 132 148, 134 176" fill="none" stroke={OUTLINE} strokeWidth={24} strokeLinecap="round" />
-      <path d="M 100 124 C 102 150, 132 148, 134 176" fill="none" stroke={c.body} strokeWidth={17} strokeLinecap="round" />
-      <path d="M 106 138 C 110 150, 126 154, 128 166" fill="none" stroke={c.belly} strokeWidth={4} strokeLinecap="round" opacity={0.8} />
+      <path d="M 89 112 C 89 137 107 162 120 157 Q 135 147 131 135 Q 144 128 145 145 C 143 183 110 185 97 162 Q 79 139 81 120 Z" fill={c.body} {...O} />
+      <path d="M 86 128 L 97 126 M 91 142 L 103 137 M 99 156 L 110 149 M 113 168 L 118 159" fill="none" stroke="#69758e" strokeWidth={2}/>
     </g>
   ) },
   tuftTop: { layer: "headFront", Part: ({ c, o }) => {
@@ -321,9 +333,40 @@ export const FEATURES: Record<string, { layer: "headBack" | "headFront" | "back"
     const color = str(o.color, "#dff6ff");
     const flap = Math.abs(Math.sin(pose.armL / 20));
     return (
-      <g opacity={0.9}>
-        <ellipse cx={52} cy={160} rx={22 + flap * 6} ry={44} fill={color} {...O} transform="rotate(25 52 160)" />
-        <ellipse cx={148} cy={160} rx={22 + flap * 6} ry={44} fill={color} {...O} transform="rotate(-25 148 160)" />
+      <g opacity={0.85}>
+        <ellipse cx={46} cy={158} rx={28 + flap * 8} ry={54} fill={color} {...O} strokeWidth={3} transform="rotate(28 46 158)" />
+        <ellipse cx={154} cy={158} rx={28 + flap * 8} ry={54} fill={color} {...O} strokeWidth={3} transform="rotate(-28 154 158)" />
+      </g>
+    );
+  } },
+  beeBands: { layer: "body", Part: ({ c, o }) => {
+    const color = str(o.color, c.dark ?? "#333333");
+    return (
+      <g>
+        {[168, 196, 224].map((y, i) => (
+          <g key={i}>
+            <ellipse cx={100} cy={y} rx={56} ry={14} fill={OUTLINE} opacity={0.9} />
+            <ellipse cx={100} cy={y} rx={52} ry={10} fill={color} />
+          </g>
+        ))}
+      </g>
+    );
+  } },
+  leaf: { layer: "headFront", Part: ({ o }) => {
+    const color = str(o.color, "#5a8a4f");
+    return (
+      <g transform="translate(100 44) rotate(-15)">
+        <ellipse cx={0} cy={0} rx={10} ry={18} fill={color} {...O} strokeWidth={3} />
+        <path d="M 0 -16 L 0 14" stroke={OUTLINE} strokeWidth={2} fill="none" />
+      </g>
+    );
+  } },
+  bamboo: { layer: "body", Part: ({ o }) => {
+    const color = str(o.color, "#669c54");
+    return (
+      <g transform="translate(146 168) rotate(12)">
+        <rect x={-6} y={-46} width={12} height={92} rx={6} fill={color} {...O} strokeWidth={3} />
+        <path d="M -6 -20 L 6 -24 M -6 6 L 6 2 M -6 32 L 6 28" stroke={OUTLINE} strokeWidth={2} fill="none" opacity={0.6} />
       </g>
     );
   } },
@@ -404,16 +447,149 @@ export const ACCESSORIES: Record<string, Part> = {
       <path d="M 97 92 L 103 92" />
     </g>
   ),
-  scarf: ({ o }) => (
-    <g>
-      <path d="M 52 150 Q 100 172 148 150 L 148 164 Q 100 186 52 164 Z" fill={str(o.color, "#ff5d5d")} {...O} />
-      <path d="M 120 166 L 128 200 L 146 194 L 134 162 Z" fill={str(o.color, "#ff5d5d")} {...O} />
-    </g>
-  ),
+  scarf: ({ o }) => {
+    const color = str(o.color, "#ff5d5d");
+    return (
+      <g>
+        {/* wrap around neck */}
+        <path d="M 50 150 Q 100 174 150 150 L 150 166 Q 100 190 50 166 Z" fill={color} {...O} strokeWidth={3.5} />
+        {/* two hanging ends */}
+        <path d="M 58 168 L 54 206 Q 52 214 62 212 L 76 206 L 74 168 Z" fill={color} {...O} strokeWidth={3.5} />
+        <path d="M 86 172 L 82 198 Q 80 206 90 204 L 104 198 L 102 172 Z" fill={color} {...O} strokeWidth={3.5} />
+        <g fill="none" stroke={str(o.dark, "#526448")} strokeWidth={5} opacity={0.7}>
+          <path d="M 62 156 L 62 168 M 80 160 L 80 174 M 100 162 L 100 177 M 120 160 L 120 174 M 140 156 L 140 168" />
+          <path d="M 57 184 L 75 184 M 55 199 L 76 199 M 85 185 L 103 185" />
+        </g>
+        <path d="M 54 162 Q 100 184 148 162 M 64 173 L 61 207 M 94 178 L 90 201" fill="none" stroke="#e3bd80" strokeWidth={1.5} opacity={0.7} />
+      </g>
+    );
+  },
   crown: () => (
     <g>
       <path d="M 66 46 L 70 14 L 84 34 L 100 6 L 116 34 L 130 14 L 134 46 Z" fill="#ffd23f" {...O} />
       <circle cx={100} cy={20} r={5} fill="#ff5d5d" />
     </g>
   ),
+  bandana: ({ o }) => {
+    const color = str(o.color, "#e23b3b");
+    return (
+      <g>
+        <path d="M 129 155 Q 152 141 162 151 L 145 163 L 161 173 Q 143 177 131 164 Z" fill={color} {...O} strokeWidth={2}/>
+        <path d="M 62 151 Q 100 169 138 151 Q 122 177 100 193 Q 78 177 62 151 Z" fill={color} {...O} strokeWidth={2.5}/>
+        <path d="M 71 160 Q 100 176 129 160 L 100 183 Z" fill="none" stroke="#f4e8c3" strokeWidth={1.5} strokeDasharray="2 4"/>
+        <circle cx={134} cy={159} r={5} fill={color} {...O} strokeWidth={2}/>
+      </g>
+    );
+  },
+  beanie: ({ o }) => {
+    const color = str(o.color, "#e23b3b"), band = str(o.band, "#ffffff");
+    return (
+      <g>
+        <path d="M 62 46 Q 64 4 100 4 Q 136 4 138 46 Z" fill={color} {...O} />
+        <path d="M 77 39 Q 77 18 87 10 M 92 39 L 95 8 M 108 39 L 105 8 M 123 39 Q 123 18 113 10" fill="none" stroke={band} strokeWidth={2} />
+        <rect x={58} y={36} width={84} height={16} rx={6} fill={band} {...O} strokeWidth={3} />
+        <circle cx={100} cy={-3} r={9} fill={color} {...O} strokeWidth={3} />
+      </g>
+    );
+  },
+  collar: ({ o }) => {
+    const color = str(o.color, "#4a2c16"), bell = str(o.ring, "#f5d76e");
+    return (
+      <g>
+        <path d="M 66 146 Q 100 164 134 146 Q 136 156 100 172 Q 64 156 66 146 Z" fill={color} {...O} />
+        <circle cx={100} cy={158} r={9} fill={bell} {...O} strokeWidth={3} />
+        <circle cx={100} cy={158} r={3} fill="#7a4a12" />
+      </g>
+    );
+  },
+  vest: ({ o }) => {
+    const color = str(o.color, "#5c8bb5");
+    return (
+      <g>
+        <path d="M 64 151 L 84 157 L 100 182 L 116 157 L 136 151 L 143 210 L 114 220 L 100 211 L 86 220 L 57 210 Z" fill={color} {...O} strokeWidth={3} />
+        <path d="M 84 158 L 100 182 L 116 158 M 100 182 L 100 211" fill="none" {...O} strokeWidth={2} />
+        <path d="M 69 166 L 65 204 M 77 173 L 73 212 M 85 184 L 82 214 M 131 166 L 135 204 M 123 173 L 127 212 M 115 184 L 118 214" stroke="#ffffff" strokeWidth={1.5} opacity={0.35} />
+        <path d="M 65 197 L 84 200 M 116 200 L 135 197" fill="none" {...O} strokeWidth={2} />
+        {[189, 201].map((y) => <circle key={y} cx={103} cy={y} r={2.5} fill="#f6e3ba" stroke={OUTLINE} strokeWidth={1} />)}
+      </g>
+    );
+  },
+  necklace: ({ o }) => {
+    const color = str(o.color, "#e8b931");
+    return (
+      <g>
+        {Array.from({ length: 9 }).map((_, i) => {
+          const a = Math.PI * (i / 8);
+          const x = 100 + Math.cos(a) * 34;
+          const y = 154 + 15 * Math.sin(a);
+          return <circle key={i} cx={x} cy={y} r={4.2} fill={color} {...O} strokeWidth={2.5} />;
+        })}
+      </g>
+    );
+  },
+  earmuffs: ({ o }) => {
+    const color = str(o.color, "#764fa3");
+    return (
+      <g>
+        <path d="M 56 84 Q 100 60 144 84" stroke={color} strokeWidth={9} fill="none" strokeLinecap="round" />
+        <circle cx={50} cy={94} r={17} fill={color} {...O} />
+        <circle cx={150} cy={94} r={17} fill={color} {...O} />
+        <circle cx={50} cy={94} r={7} fill="#fff" opacity={0.5} />
+        <circle cx={150} cy={94} r={7} fill="#fff" opacity={0.5} />
+      </g>
+    );
+  },
+  headdress: ({ o }) => {
+    const color = str(o.color, "#e8b931"), band = str(o.band, "#c43b50");
+    return (
+      <g>
+        <path d="M 50 62 Q 100 12 150 62 L 139 70 Q 100 33 61 70 Z" fill={band} {...O}/>
+        <path d="M 56 64 Q 100 24 144 64" fill="none" stroke={color} strokeWidth={4}/>
+        <path d="M 100 44 L 109 61 L 100 77 L 91 61 Z" fill={color} {...O} strokeWidth={2}/>
+      </g>
+    );
+  },
+  sailorCollar: ({ o }) => {
+    const color = str(o.color, "#326ba8");
+    return (
+      <g>
+        <path d="M 52 148 Q 100 172 148 148 L 152 162 Q 100 188 48 162 Z" fill={color} {...O} strokeWidth={3.5} />
+        <path d="M 48 162 L 60 180 L 76 164" fill="none" stroke="#ffffff" strokeWidth={5} strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M 152 162 L 140 180 L 124 164" fill="none" stroke="#ffffff" strokeWidth={5} strokeLinecap="round" strokeLinejoin="round" />
+      </g>
+    );
+  },
+  headphones: ({ o }) => {
+    const color = str(o.color, "#764fa3"), pad = str(o.pad, "#4a2c6e");
+    return (
+      <g>
+        <path d="M 48 86 Q 100 48 152 86" stroke={color} strokeWidth={8} fill="none" strokeLinecap="round" />
+        <rect x={42} y={82} width={22} height={32} rx={10} fill={pad} {...O} strokeWidth={3} />
+        <rect x={136} y={82} width={22} height={32} rx={10} fill={pad} {...O} strokeWidth={3} />
+        <circle cx={53} cy={98} r={5} fill="#fff" opacity={0.5} />
+        <circle cx={147} cy={98} r={5} fill="#fff" opacity={0.5} />
+      </g>
+    );
+  },
+  saddle: ({ o }) => {
+    const color = str(o.color, "#388c6f"), trim = str(o.trim, "#f5d76e");
+    return (
+      <g>
+        <path d="M 58 152 Q 100 170 142 152 L 146 200 Q 100 220 54 200 Z" fill={color} {...O} strokeWidth={4} />
+        <path d="M 58 152 Q 100 170 142 152" stroke={trim} strokeWidth={5} fill="none" strokeLinecap="round" />
+        <rect x={92} y={156} width={16} height={40} rx={4} fill={trim} {...O} strokeWidth={2.5} />
+      </g>
+    );
+  },
+  stripedBeanie: ({ o }) => {
+    const color = str(o.color, "#58a69a"), stripe = str(o.stripe, "#ffffff");
+    return (
+      <g>
+        <path d="M 52 61 Q 52 18 100 18 Q 148 18 148 61 Z" fill={color} {...O} />
+        <path d="M 61 40 Q 100 22 139 40 M 55 51 Q 100 35 145 51" fill="none" stroke={stripe} strokeWidth={5}/>
+        <rect x={50} y={54} width={100} height={12} rx={6} fill={stripe} {...O} strokeWidth={3} />
+        <circle cx={100} cy={30} r={10} fill="#fff" {...O} strokeWidth={3} />
+      </g>
+    );
+  },
 };

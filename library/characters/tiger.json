@@ -3,48 +3,60 @@
   "emoji": "🐯",
   "rig": "biped",
   "colors": {
-    "body": "#ff9f43",
-    "belly": "#fff1d6",
-    "limb": "#f28b2a",
-    "dark": "#2f2438",
-    "inner": "#fff1d6"
+    "body": "#f28f29",
+    "belly": "#ffffff",
+    "limb": "#f28f29",
+    "accent": "#49322c",
+    "dark": "#40333b",
+    "inner": "#eaaeaa"
   },
   "ears": "round",
-  "earOptions": {
-    "r": 19,
-    "y": 46,
-    "x": 54
-  },
   "tail": "curved",
-  "tailOptions": {
-    "width": 12,
-    "rings": "#2f2438"
-  },
   "features": [
-    "tigerStripes",
     {
-      "kind": "mask",
-      "rx": 30,
-      "ry": 22,
-      "y": 124
+      "kind": "snout",
+      "rx": 27,
+      "ry": 19,
+      "y": 123,
+      "color": "#fff1d7"
     },
-    "pinkNose",
-    "whiskers"
+    "whiskers",
+    {
+      "kind": "tigerStripes",
+      "color": "#49322c"
+    }
   ],
-  "markings": [
-    "stripes"
+  "markings": [],
+  "accessories": [
+    {
+      "kind": "necklace",
+      "color": "#c24a4a"
+    }
   ],
   "face": {
-    "mouthY": 132
+    "eyeGap": 52,
+    "eyeY": 92,
+    "mouthY": 130,
+    "eyeSize": 1
   },
+  "arm": "capsule",
+  "foot": "round",
   "words": {
-    "name": "Tara",
+    "name": "Tigress",
     "one": "tiger",
     "plural": "tigers",
-    "verb": "pounce",
-    "verbs": "pounces",
-    "verbing": "pouncing",
-    "home": "forest",
-    "sound": "roar"
+    "verb": "prowl",
+    "verbs": "prowls",
+    "verbing": "prowling",
+    "home": "jungle",
+    "sound": null
+  },
+  "tailOptions": {
+    "color": "#f28f29",
+    "width": 15,
+    "rings": "#49322c"
+  },
+  "earOptions": {
+    "inner": "#eaaeaa"
   }
 }

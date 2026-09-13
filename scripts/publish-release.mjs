@@ -1,6 +1,6 @@
 /**
  * Store a finished episode durably as a GitHub Release (free, permanent, 2 GB/file).
- *   node scripts/publish-release.mjs --slug S [--files out/S.mp4,out/S.png,...] [--tag video-S]
+ *   node scripts/publish-release.mjs --slug S [--files out/episodes/S.mp4,out/episodes/S.png,...] [--tag video-S]
  * Needs the `gh` CLI and GH_TOKEN (present on Actions runners). Prints the release URL and
  * writes release_url to $GITHUB_OUTPUT. Locally without gh it just says so.
  */
@@ -8,6 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { parseArgs, readScript, resolveSlug, OUT_DIR, GENERATED_DIR } from "./lib/common.mjs";
+import { recordStory } from "./lib/universe.mjs";
 
 function gh(args, opts = {}) {
   const res = spawnSync("gh", args, { encoding: "utf8", ...opts });
@@ -44,7 +45,12 @@ function main() {
   const uploads = files.map((f) => (path.basename(f) === "script.json" ? `${f}#${slug}.script.json` : f));
   const up = gh(["release", "upload", tag, ...uploads, "--clobber"]);
   if (!up.ok) throw new Error(`gh release upload failed: ${up.err}`);
-  console.log(`[release] ${url} (${files.length} files)`);
+  recordStory(slug, {
+    status: "released",
+    release: { url, tag },
+    timeline: { released: new Date().toISOString().slice(0, 10) },
+  });
+  console.log(`[release] ${url} (${files.length} files) — recorded in library/universe.json`);
   if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `release_url=${url}\n`);
 }
 

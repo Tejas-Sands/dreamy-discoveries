@@ -99,6 +99,16 @@ export interface Callout {
   count?: number;
 }
 
+export type VoxKind = "giggle" | "laugh" | "yay" | "wow" | "gasp" | "yum" | "yawn" | "hmm" | "aww" | "sigh";
+
+/** a real recorded vocalization played at the start or the end of a line (never spoken by the TTS) */
+export interface VoxCue {
+  kind: VoxKind;
+  at: "start" | "end";
+  /** who makes the sound when it is not the line's own speaker (a laugh moved from the next line) */
+  speaker?: "character" | "narrator" | "friend";
+}
+
 export interface Line {
   text: string;
   /** who is "saying" it: character / friend (their mouth moves) or narrator (character just reacts) */
@@ -109,6 +119,11 @@ export interface Line {
   sfx?: SfxName[];
   /** question scenes: "question" lines are asked, then the hold, then the "praise" line */
   role?: "question" | "praise" | "greeting" | "moral" | "bridge";
+  /** giggles / laughs / gasps … stripped from the text by the Director and played as recordings */
+  vox?: VoxCue[];
+  /** seconds reserved before / after the speech for those recordings (Director) */
+  voxPreSec?: number;
+  voxPostSec?: number;
   /** filename inside public/generated/<slug>/, set by the TTS step */
   audio?: string;
   durationSec?: number;
@@ -120,9 +135,14 @@ export interface Question {
 }
 
 export interface Gag {
-  /** a different character peeks in from the edge for a beat */
-  kind: "peek";
-  character: CharacterKind;
+  /** "peek": a different character peeks in from the edge for a beat; "flyby": an emoji crosses the sky */
+  kind: "peek" | "flyby";
+  /** peek: who peeks */
+  character?: CharacterKind;
+  /** flyby: what flies past (🦋 🐝 🎈 🌠 …) */
+  emoji?: string;
+  /** which edge it comes from (default right) */
+  side?: "left" | "right";
   /** seconds after the scene starts */
   atSec: number;
 }
@@ -148,6 +168,8 @@ export interface Scene {
   starIndex?: number;
   /** an emoji prop the character holds/shows in this scene */
   prop?: string | null;
+  /** party scenes (chorus, moral chant, finale): extra friends who hop in and dance at the edges */
+  extras?: CharacterKind[] | null;
 }
 
 export interface YoutubeMeta {
