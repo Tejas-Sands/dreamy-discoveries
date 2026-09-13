@@ -128,7 +128,22 @@ jobs:
           git add library
           if git diff --cached --quiet; then echo "library unchanged"; exit 0; fi
           git commit -m "library: ${{ steps.plan.outputs.slug }} [skip ci]"
-          for i in 1 2 3 4 5; do git pull --rebase --autostash && git push && break || sleep $((i * 5)); done
+          STASH_NAME="pre-push-${SLUG:-plan}"
+          SAVED=false
+          if [ -n "$(git status --porcelain --untracked-files=all)" ]; then
+            git stash push --include-untracked -m "$STASH_NAME"
+            SAVED=true
+          fi
+          pushed=false
+          for i in 1 2 3 4 5; do
+            if git pull --rebase && git push; then pushed=true; break; fi
+            sleep $((i * 5))
+          done
+          if [ "$SAVED" = true ] && ! git stash list | grep -q "$STASH_NAME"; then
+            SAVED=false
+          fi
+          if [ "$SAVED" = true ]; then git stash pop; fi
+          [ "$pushed" = true ]
 
       - uses: actions/upload-artifact@v4
         with:
@@ -391,11 +406,21 @@ jobs:
           git add library
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "catalog: $SLUG [skip ci]"
+          STASH_NAME="pre-push-$SLUG"
+          SAVED=false
+          if [ -n "$(git status --porcelain --untracked-files=all)" ]; then
+            git stash push --include-untracked -m "$STASH_NAME"
+            SAVED=true
+          fi
           pushed=false
           for i in 1 2 3 4 5; do
-            if git pull --rebase --autostash && git push; then pushed=true; break; fi
+            if git pull --rebase && git push; then pushed=true; break; fi
             sleep $((i * 5))
           done
+          if [ "$SAVED" = true ] && ! git stash list | grep -q "$STASH_NAME"; then
+            SAVED=false
+          fi
+          if [ "$SAVED" = true ]; then git stash pop; fi
           [ "$pushed" = true ]
 
       - uses: actions/upload-artifact@v4
