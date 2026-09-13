@@ -150,20 +150,18 @@
       "backgrounds": [
         "meadow",
         "pond",
-        "beach",
-        "garden",
-        "park"
+        "garden"
       ],
-      "lines": 77,
+      "lines": 95,
       "stars": 3,
       "questions": 3,
       "status": "released",
       "months": "2026-09",
       "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffys-clever-river-adventure-2026-09-13",
       "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffys-clever-river-adventure-2026-09-13",
-      "durationSec": 251,
-      "renderedAt": "2026-09-13T16:25:59.000Z",
-      "run": "34765865918"
+      "durationSec": 402,
+      "renderedAt": "2026-09-13T17:13:30.764Z",
+      "run": "34769929995"
     }
   ],
   "compilations": []
