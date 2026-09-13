@@ -72,7 +72,7 @@ function resolveProvider() {
     return { name: "custom", baseUrl: env.LLM_BASE_URL, apiKey: env.LLM_API_KEY, model: env.LLM_MODEL || "llama-3.3-70b-versatile" };
   }
   if (env.GEMINI_API_KEY) {
-    return { name: "gemini", baseUrl: "https://generativelanguage.googleapis.com/v1beta/openai", apiKey: env.GEMINI_API_KEY, model: env.LLM_MODEL || "gemini-2.0-flash" };
+    return { name: "gemini", baseUrl: "https://generativelanguage.googleapis.com/v1beta/openai", apiKey: env.GEMINI_API_KEY, model: env.LLM_MODEL || "gemini-3.6-flash" };
   }
   if (env.GROK_API_KEY) {
     return {
@@ -94,9 +94,18 @@ function resolveProvider() {
   throw new Error("No LLM key found. Set one of GEMINI_API_KEY, GROK_API_KEY, GROQ_API_KEY, OPENROUTER_API_KEY, GITHUB_TOKEN (see .env.example).");
 }
 
-async function chat(messages, { useJsonMode = true } = {}) {
+function normalizeGeminiModelError(message, modelName) {
+  if (message?.includes("models/gemini-2.0-flash") || modelName === "gemini-2.0-flash") {
+    return "gemini-3.6-flash";
+  }
+  return null;
+}
+
+async function chat(messages, { useJsonMode = true, modelOverride } = {}) {
   const provider = resolveProvider();
-  const body = { model: provider.model, messages, temperature: 0.9 };
+  const providerModel = modelOverride || provider.model;
+  const providerName = provider.name;
+  const body = { model: providerModel, messages, temperature: 0.9 };
   if (useJsonMode) body.response_format = { type: "json_object" };
   const res = await fetch(`${provider.baseUrl}/chat/completions`, {
     method: "POST",
@@ -105,6 +114,13 @@ async function chat(messages, { useJsonMode = true } = {}) {
   });
   if (!res.ok) {
     const text = await res.text();
+    if (providerName === "gemini") {
+      const fallbackModel = normalizeGeminiModelError(text, providerModel);
+      if (fallbackModel && fallbackModel !== providerModel) {
+        console.warn(`[llm] ${provider.name} model ${providerModel} unavailable; retrying with ${fallbackModel}`);
+        return chat(messages, { useJsonMode, modelOverride: fallbackModel });
+      }
+    }
     if (useJsonMode && res.status >= 400 && res.status < 500) {
       console.warn(`[llm] ${provider.name} rejected json mode (${res.status}), retrying without it`);
       return chat(messages, { useJsonMode: false });
@@ -112,7 +128,7 @@ async function chat(messages, { useJsonMode = true } = {}) {
     throw new Error(`[llm] ${provider.name} ${res.status}: ${text.slice(0, 500)}`);
   }
   const data = await res.json();
-  console.log(`[llm] provider=${provider.name} model=${provider.model}`);
+  console.log(`[llm] provider=${provider.name} model=${providerModel}`);
   return data.choices[0].message.content;
 }
 
