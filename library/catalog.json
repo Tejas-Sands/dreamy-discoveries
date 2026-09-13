@@ -1,6 +1,72 @@
 {
   "episodes": [
     {
+      "slug": "opposites-una-286427",
+      "title": "Opposites With Una!",
+      "type": "rhyme",
+      "template": "opposites",
+      "topic": null,
+      "hero": "unicorn",
+      "heroName": "Una",
+      "palette": "sunshine",
+      "backgrounds": [
+        "sky",
+        "candy",
+        "beach",
+        "farm",
+        "meadow"
+      ],
+      "lines": 110,
+      "durationSec": 418,
+      "renderedAt": "2026-09-05T08:01:58.789Z",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-opposites-una-286427",
+      "run": "33953548468"
+    },
+    {
+      "slug": "lullaby-max-630933",
+      "title": "Goodnight, Max",
+      "type": "rhyme",
+      "template": "lullaby",
+      "topic": null,
+      "hero": "dog",
+      "heroName": "Max",
+      "palette": "night",
+      "backgrounds": [
+        "bedroom",
+        "night",
+        "space"
+      ],
+      "lines": 107,
+      "durationSec": 343,
+      "renderedAt": "2026-09-08T08:31:11.466Z",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-lullaby-max-630933",
+      "run": "34203542011"
+    },
+    {
+      "slug": "animal-sounds-ollie-598996",
+      "title": "Animal Sounds With Ollie!",
+      "type": "rhyme",
+      "template": "animal-sounds",
+      "topic": null,
+      "hero": "owl",
+      "heroName": "Ollie",
+      "palette": "sunshine",
+      "backgrounds": [
+        "night",
+        "forest",
+        "meadow",
+        "bedroom",
+        "underwater",
+        "sky",
+        "farm"
+      ],
+      "lines": 97,
+      "durationSec": 346,
+      "renderedAt": "2026-09-10T08:31:23.807Z",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-animal-sounds-ollie-598996",
+      "run": "34454508011"
+    },
+    {
       "slug": "sample-turtle",
       "title": "Tilly Finds Her Hello",
       "type": "story",

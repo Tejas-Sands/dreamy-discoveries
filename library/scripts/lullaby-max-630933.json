@@ -1,0 +1,426 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "lullaby",
+  "seed": 630933102,
+  "music": {
+    "file": "lullaby.wav",
+    "bpm": 72,
+    "mood": "lullaby"
+  },
+  "slug": "lullaby-max-630933",
+  "title": "Goodnight, Max",
+  "palette": "night",
+  "mainCharacter": {
+    "kind": "dog",
+    "name": "Max"
+  },
+  "intro": {
+    "text": "Hi friends. I'm Max the dog. It's bedtime. Let's get cozy and sing softly together.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Goodnight, friends. Sleep tight. See you tomorrow.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Goodnight Max 🐶 Soft Bedtime Lullaby for Babies and Toddlers",
+    "description": "A calm, gentle lullaby with Max the dog to help little ones settle down for sleep. Soft music, slow singing, cozy pictures.\n#lullaby #bedtime #babysleep #toddlers #goodnight",
+    "tags": [
+      "lullaby",
+      "bedtime song",
+      "baby sleep music",
+      "goodnight song",
+      "toddler lullaby",
+      "calm music for kids",
+      "nursery rhymes",
+      "dog song",
+      "sleep song",
+      "relaxing kids music"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "bedroom",
+      "character": "dog",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "emotion": "sleepy",
+      "lines": [
+        {
+          "text": "The moon is up, the stars are bright,",
+          "action": "look",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Time for puppies to say goodnight.",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Close your eyes and snuggle tight,",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sleep, little dog, sleep tonight.",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "dog",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "emotion": "sleepy",
+      "lines": [
+        {
+          "text": "The birds are quiet in their nest,",
+          "action": "look",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Everyone is taking a rest.",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The sun went down, the sky is deep,",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Max is ready to go to sleep.",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "night",
+      "character": "dog",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "action": "nod",
+      "emotion": "sleepy",
+      "lines": [
+        {
+          "text": "Hush now, hush now, the day is done,",
+          "speaker": "character",
+          "action": "nod",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Goodnight moon and goodnight sun.",
+          "speaker": "character",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        },
+        {
+          "text": "Dream of the farm and skies so blue,",
+          "speaker": "character",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        },
+        {
+          "text": "Goodnight Max, goodnight you.",
+          "speaker": "character",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-out",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "space",
+      "character": "dog",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "emotion": "sleepy",
+      "lines": [
+        {
+          "text": "Hush now, hush now, soft and slow,",
+          "action": "look",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Rock-a-bye, to and fro.",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sleepy puppies, sleepy you,",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Dream of skies of blue.",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🐶",
+            "color": "#2f8cff"
+          },
+          "sfx": [
+            "yawn"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "dog",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "emotion": "sleepy",
+      "lines": [
+        {
+          "text": "One little star, two little stars,",
+          "action": "look",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": {
+            "kind": "count",
+            "emoji": "⭐",
+            "count": 2
+          },
+          "sfx": []
+        },
+        {
+          "text": "Three little stars, so very far.",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Four little stars, five stars bright,",
+          "action": "nod",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": {
+            "kind": "count",
+            "emoji": "⭐",
+            "count": 5
+          },
+          "sfx": []
+        },
+        {
+          "text": "Twinkle softly through the night.",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "gag": {
+        "kind": "peek",
+        "character": "monkey",
+        "atSec": 2.2
+      }
+    },
+    {
+      "kind": "chorus",
+      "background": "night",
+      "character": "dog",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "action": "nod",
+      "emotion": "sleepy",
+      "lines": [
+        {
+          "text": "Hush now, hush now, the day is done,",
+          "speaker": "character",
+          "action": "nod",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Goodnight moon and goodnight sun.",
+          "speaker": "character",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        },
+        {
+          "text": "Dream of the farm and skies so blue,",
+          "speaker": "character",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        },
+        {
+          "text": "Goodnight Max, goodnight you.",
+          "speaker": "character",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-out",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "bedroom",
+      "character": "dog",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Goodnight, little friend. Max loves you.",
+          "action": "sleep",
+          "emotion": "love",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        },
+        {
+          "text": "Sweet dreams.",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "gag": null
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": null,
+  "stars": null,
+  "directed": true
+}
