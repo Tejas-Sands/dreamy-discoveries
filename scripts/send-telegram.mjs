@@ -21,6 +21,63 @@ const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const MAX_UPLOAD_BYTES = 47 * 1024 * 1024;
 const tg = TOKEN ? createTelegramClient(TOKEN) : null;
 
+function toHashtags(tags = []) {
+  return tags
+    .map((raw) => {
+      const trimmed = String(raw).replace(/^\s+|\s+$/g, "").replace(/^#/, "");
+      if (!trimmed) return null;
+      return `#${trimmed.replace(/\s+/g, "_")}`;
+    })
+    .filter(Boolean);
+}
+
+function uniq(values = []) {
+  return [...new Set(values)].slice(0, 30);
+}
+
+function summarizeBackgrounds(script) {
+  const seen = uniq((script.scenes || []).map((s) => s.background).filter(Boolean));
+  if (seen.length === 0) return "meadow";
+  return `${seen.slice(0, 3).join(", ")}`;
+}
+
+function buildSectionText(title, body, maxLen = 980) {
+  const text = `${title}\n\n${body}`;
+  if (text.length <= maxLen) return text;
+  return `${text.slice(0, maxLen - 3)}...`;
+}
+
+function telegramSendText(formAppender) {
+  return async (text) => {
+    const form = new FormData();
+    form.append("chat_id", CHAT_ID);
+    form.append("text", text);
+    formAppender(form);
+    await tg("sendMessage", form);
+  };
+}
+
+function telegramSendPhoto(filePath, caption, formAppender) {
+  return async () => {
+    const form = new FormData();
+    form.append("chat_id", CHAT_ID);
+    form.append("photo", fileBlob(filePath, "image/png"), path.basename(filePath));
+    form.append("caption", buildSectionText("", caption, 1024));
+    formAppender(form);
+    await tg("sendPhoto", form);
+  };
+}
+
+function telegramSendDocument(filePath, caption) {
+  return async () => {
+    const form = new FormData();
+    form.append("chat_id", CHAT_ID);
+    form.append("document", fileBlob(filePath, "text/plain"), path.basename(filePath));
+    form.append("caption", caption);
+    await tg("sendDocument", form);
+  };
+}
+
 function fileBlob(filePath, type) {
   return new Blob([fs.readFileSync(filePath)], { type });
 }
@@ -41,32 +98,57 @@ async function main() {
 
   const yt = script.youtube ?? {};
   const slot = findSlot(readCalendar(), {slug});
-  const keyboard = slot && !args.preview && process.env.PREVIEW !== "true"
+  const releaseUrl = args["release-url"] || process.env.RELEASE_URL || "";
+  const showKeyboard = slot && !args.preview && process.env.PREVIEW !== "true" && Boolean(releaseUrl);
+  const keyboard = showKeyboard
     ? uploadKeyboard(slot.schedule_id, publicationFor(slot, readPublicationState()).publication_status === "uploaded", slug) : null;
-  const addButtons = form => { if (keyboard) form.append("reply_markup", JSON.stringify(keyboard)); };
-  const uploadNote = keyboard ? "\n\nAfter uploading to YouTube, tap the button below. Calendar sync usually takes about 5 minutes once enabled." : "";
+  const addButtons = (form) => {
+    if (keyboard) form.append("reply_markup", JSON.stringify(keyboard));
+  };
+  const uploadNote = keyboard
+    ? "\n\nAfter uploading to YouTube, tap the button below. Calendar sync usually takes about 5 minutes once enabled."
+    : "";
+
+  const videoLabel = releaseUrl ? "GitHub Releases" : "workflow artifacts";
+  const mainLink = releaseUrl || process.env.RUN_URL || "(video link not available yet)";
+  const titleLine = yt.title || script.title || slug;
+  const descriptionLine = yt.description || "(No description provided)";
+  const tagLine = uniq(toHashtags(yt.tags || [])).join(" ") || "#kids #kidsvideo";
+  const backgroundLine = summarizeBackgrounds(script);
+  const sendMessage = telegramSendText(addButtons);
+
+  const sendPhoto = telegramSendPhoto(thumbPath, `🖼️ Thumbnail preview\nTitle: ${titleLine}\nBackground: ${backgroundLine}`, addButtons);
+  const sendMetadata = telegramSendDocument(metaPath, "📋 Copy-paste metadata for YouTube upload");
+
   if (args["link-only"]) {
-    const form = new FormData();
-    form.append("chat_id", CHAT_ID);
-    form.append("text", `🎞️ ${script.title}\n\nReady: ${args["release-url"] || process.env.RELEASE_URL || process.env.RUN_URL || "(see workflow artifacts)"}`);
-    if (keyboard) form.set("text", form.get("text") + uploadNote);
-    addButtons(form);
-    await tg("sendMessage", form);
+    await sendMessage(`🎬 Full video (${videoLabel}):\n${mainLink}`);
+    await sendMessage(buildSectionText("📌 Title", titleLine));
+    await sendMessage(buildSectionText("📝 Description", descriptionLine));
+    await sendMessage(`🏷️ Tags\n${tagLine}`);
+    if (keyboard) await sendMessage(uploadNote);
     if (fs.existsSync(thumbPath)) {
-      const photo = new FormData();
-      photo.append("chat_id", CHAT_ID);
-      photo.append("photo", fileBlob(thumbPath, "image/png"), `${slug}.png`);
-      await tg("sendPhoto", photo);
+      await sendPhoto();
     }
-    console.log("[telegram] sent link");
+    console.log("[telegram] sent link, title, description, tags and thumbnail");
     return;
   }
-  const releaseUrl = args["release-url"] || process.env.RELEASE_URL || "";
-  const caption = `🎬 ${script.title}\n\nYouTube title: ${yt.title ?? script.title}\n\nReady to review & upload!${releaseUrl ? `\n\n📦 Full-quality download: ${releaseUrl}` : ""}`;
+
+  const caption = `🎬 ${titleLine}\n\nYouTube title: ${yt.title ?? script.title}\n\nReady to review & upload!${releaseUrl ? `\n\n📦 Full-quality download: ${releaseUrl}` : ""}`;
 
   let sendPath = videoPath;
   let size = fs.statSync(videoPath).size;
   let previewNote = "";
+
+  await sendMessage(`🎬 Full video (${videoLabel}):\n${mainLink}`);
+  await sendMessage(buildSectionText("📌 Title", titleLine));
+  await sendMessage(buildSectionText("📝 Description", descriptionLine));
+  await sendMessage(`🏷️ Tags\n${tagLine}`);
+  if (keyboard) {
+    await sendMessage(uploadNote);
+  }
+  if (fs.existsSync(thumbPath)) {
+    await sendPhoto();
+  }
 
   // Telegram's Bot API caps uploads at 50 MB. If the full render is bigger,
   // transcode a 720p review copy (Remotion bundles ffmpeg) and send that —
@@ -93,7 +175,7 @@ async function main() {
     const form = new FormData();
     form.append("chat_id", CHAT_ID);
     form.append("video", fileBlob(sendPath, "video/mp4"), path.basename(sendPath));
-    form.append("caption", (caption + previewNote + uploadNote).slice(0, 1024));
+    form.append("caption", (caption + previewNote).slice(0, 1024));
     addButtons(form);
     form.append("supports_streaming", "true");
     await tg("sendVideo", form);
@@ -102,30 +184,15 @@ async function main() {
     const runUrl = process.env.RUN_URL || "(no run URL)";
     const form = new FormData();
     form.append("chat_id", CHAT_ID);
-    form.append(
-      "text",
-      `🎬 ${script.title} rendered, but even the preview is over Telegram's 50 MB bot limit.\nDownload it here: ${releaseUrl || runUrl}`
-    );
+    form.append("text", `🎬 ${titleLine} rendered, but this clip is over Telegram's 50 MB bot limit.\nDownload it here: ${releaseUrl || runUrl}`);
     if (keyboard) form.set("text", form.get("text") + uploadNote);
     addButtons(form);
     await tg("sendMessage", form);
     console.log("[telegram] video too big for bot API — sent artifact link instead");
   }
 
-  if (fs.existsSync(thumbPath)) {
-    const form = new FormData();
-    form.append("chat_id", CHAT_ID);
-    form.append("photo", fileBlob(thumbPath, "image/png"), `${slug}.png`);
-    form.append("caption", "🖼️ Thumbnail");
-    await tg("sendPhoto", form);
-  }
-
   if (fs.existsSync(metaPath)) {
-    const form = new FormData();
-    form.append("chat_id", CHAT_ID);
-    form.append("document", fileBlob(metaPath, "text/plain"), `${slug}.metadata.txt`);
-    form.append("caption", "📋 Copy-paste metadata for the YouTube upload form");
-    await tg("sendDocument", form);
+    await sendMetadata();
   }
 
   console.log("[telegram] delivery complete");
