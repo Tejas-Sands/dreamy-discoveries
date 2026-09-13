@@ -1,0 +1,1457 @@
+{
+  "type": "story",
+  "title": "Taffy's Clever River Adventure",
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Taffy"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Taffy the bunny! Today we are going on a clever adventure!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Goodbye friends! See you next time!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Being clever and kind helps us solve big problems together.",
+  "moralRhyme": [
+    "Think so smart and be so kind!",
+    "The best solutions you will find!"
+  ],
+  "youtube": {
+    "title": "Taffy's Clever River Trick! 🐰 Sunny Meadow Preschool Story",
+    "description": "Join Taffy the bunny as she uses her clever thinking on Berry Island! Learn about sharing and smart choices with Sunny Meadow friends. #toddler #preschool #cartoons #kidslearning #sunnymeadow",
+    "tags": [
+      "preschool story",
+      "toddler learning",
+      "clever bunny",
+      "sunny meadow",
+      "taffy bunny",
+      "kids videos",
+      "bedtime story",
+      "moral stories",
+      "nursery rhymes",
+      "fable for kids"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Hello friends! Look at this bright sunny morning!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Taffy loves to explore sunny places in Sunny Meadow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can see delicious red berries across the river!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": {
+            "kind": "word",
+            "text": "BERRIES",
+            "emoji": "🍓"
+          },
+          "vox": [
+            {
+              "kind": "yum",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🌊",
+      "question": null,
+      "lines": [
+        {
+          "text": "The blue river is too deep for a little bunny to hop.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🐰",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "How can I cross the river to get those sweet treats?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "hmm",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I need a friend with a boat or a raft!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🛶",
+      "question": null,
+      "lines": [
+        {
+          "text": "Look! Fiona the fox comes zooming down the water!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Fast and clever! I have a sturdy wooden raft!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Hi Fiona! Can you give me a ride to Berry Island?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": "🛶",
+      "question": {
+        "answer": {
+          "text": "Yes",
+          "emoji": "👍"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Taffy ask Fiona for a ride on the boat? Say YES!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Friends help each other cross the river!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🦊",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona smiles, but she wants all the berries for herself!",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop on my raft, Taffy! I will take you across!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Thank you! Hop, hop, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🛶",
+      "question": null,
+      "lines": [
+        {
+          "text": "The wooden raft glides smoothly over the sparkly blue water.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🛶",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "This river ride is so smooth and gentle!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "We are almost in the middle of the river now!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona turns around with a sneaky grin.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "gasp",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I am keeping all the sweet red berries for myself!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🧺",
+            "color": "#ff3b3b"
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Oh no! That is not very friendly, Fiona!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧺",
+      "question": {
+        "answer": {
+          "text": "Red",
+          "emoji": "🍓",
+          "color": "#ff3b3b"
+        }
+      },
+      "lines": [
+        {
+          "text": "What color are the sweet berries on the island? RED!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🧺",
+            "color": "#ff3b3b"
+          },
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Red! Sweet red berries!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "💡",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy the bunny thinks fast with a clever plan!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "think",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "vox": [
+            {
+              "kind": "hmm",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Wait Fiona! I left my big berry basket on the grass!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "We cannot carry berries without our big basket!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐢",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "😲",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona stops paddling and gasps in surprise.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "gasp",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Oh dear! A basket is very important for picking berries!",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "think",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Yes! Turn the raft around so we can go back!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🛶",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona turns the wooden raft back toward the meadow shore.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever! Back to the shore we go!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "We are getting closer and closer to the green grass!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🛶",
+            "color": "#3ecf4a"
+          },
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "As soon as they touch the shore, Taffy leaps safely off!",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray! Safe on the grass!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "My basket was right here on my head all along!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🦊",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona blinks her eyes. Taffy outsmarted her clever trick!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "You tricked me back! You are so clever, Taffy!",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "I used my brain to stay safe on the shore!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "💔",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona looks down at her paws and feels sad.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am sorry I tried to take all the berries.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "aww",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "It is not fun when friends do not share.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🤝",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy gives Fiona a big warm friendly smile.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is okay! We can ride together and share everything!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Sharing makes every sweet berry taste better!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": {
+            "kind": "word",
+            "text": "SHARE",
+            "emoji": "🤝"
+          },
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": " Berry",
+      "question": {
+        "answer": {
+          "text": "Share",
+          "emoji": "🍓"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Taffy share the sweet berries with Fiona? Say SHARE!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Hooray! Sharing with friends is the best!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🛶",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy and Fiona hop back onto the raft as best friends.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Together we paddle across the blue river!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🐰",
+            "color": "#2f8cff"
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Paddling together is so much fun!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🏝️",
+      "question": null,
+      "lines": [
+        {
+          "text": "They arrive at the sunny shores of Berry Island!",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look at all these juicy bushes everywhere!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! We made it together!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "They pick giant ripe berries from the green leaves.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Here is one big berry for you, Fiona!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Thank you Taffy! Yum yum yum!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "eat",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yum",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🔢",
+      "question": null,
+      "lines": [
+        {
+          "text": "Let us count the berries in our basket!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One berry! Two berries! Three sweet berries!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": {
+            "kind": "count",
+            "emoji": "🔢",
+            "count": 3
+          },
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Three yummy berries for our sunny picnic!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🔢"
+          },
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "💖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona gives Taffy a big gentle high five.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "You are a very smart bunny and a good friend!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Clever thoughts and kind hearts solve everything!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "spin",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🐢",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly the turtle smiles from his lily pad.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady! Clever thinking keeps everyone safe!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you Grandpa Tilly!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐢",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🎉",
+      "question": null,
+      "lines": [
+        {
+          "text": "Everyone dances together in the bright green meadow!",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🐰",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! What a great day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Fast and clever friends make the best team!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "We used smart thinking and learned to share today!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You are so smart and kind too, my friend!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let us chant our happy lesson together!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Taffy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Being clever and kind helps us solve big problems together.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Think so smart and be so kind!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The best solutions you will find!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "pan",
+      "gag": null,
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Think so smart and be so kind!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "The best solutions you will find!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "turtle",
+        "bear"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "slug": "taffys-clever-river-adventure-2026-09-13",
+  "topic": "A clever monkey outwits a crocodile who tries to eat his heart.",
+  "targetMinutes": 5.5,
+  "voice": null,
+  "version": 2,
+  "stars": {
+    "total": 3
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}
