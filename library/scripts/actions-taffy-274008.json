@@ -1,0 +1,754 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "actions",
+  "seed": 274008900,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "actions-taffy-274008",
+  "title": "Move With Taffy!",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Taffy"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Taffy the bunny! Stand up, it's time to move! Are you ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "You are a super mover! Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Move With Taffy 🐰 Clap, Jump, Spin, Stomp Action Song for Kids",
+    "description": "Get moving with Taffy the bunny! Clap, jump, spin, stomp, wave and wiggle in this action song for toddlers and preschoolers.\n#actionsong #kidssongs #dance #toddlers #movement",
+    "tags": [
+      "action song",
+      "dance for kids",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "preschool",
+      "clap your hands",
+      "jump song",
+      "bunny song",
+      "movement song",
+      "brain break"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Wiggle, wiggle, shake, shake, shake!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wiggle, wiggle, for goodness sake!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy wiggles, and so can you!",
+          "action": "dance",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Do it with me, it's fun to do!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "extras": null,
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Clap your hands, clap, clap, clap!",
+          "action": "clap",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Clap your hands and tap, tap, tap!",
+          "action": "clap",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Taffy claps, and so can you!",
+          "action": "clap",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Do it with me, it's fun to do!",
+          "action": "clap",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Clap!",
+          "emoji": "👏"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can you clap like Taffy? Show me!",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! You can clap! High five!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Move your body, up and down!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Move your body all around!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Clap and jump and spin and stomp,",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Everybody, romp, romp, romp!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-out",
+      "extras": [
+        "turtle",
+        "owl"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "farm",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Stomp your feet, stomp, stomp, stomp!",
+          "action": "stomp",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Stomp your feet and romp, romp, romp!",
+          "action": "stomp",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Taffy stomps, and so can you!",
+          "action": "stomp",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Do it with me, it's fun to do!",
+          "action": "stomp",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Spin around, spin, spin, spin!",
+          "action": "spin",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Spin around with a great big grin!",
+          "action": "spin",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Taffy spins, and so can you!",
+          "action": "spin",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Do it with me, it's fun to do!",
+          "action": "spin",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Spin!",
+          "emoji": "🌀"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can you spin like Taffy? Show me!",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! You can spin! High five!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Move your body, up and down!",
+          "speaker": "character",
+          "action": "spin",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Move your body all around!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Clap and jump and spin and stomp,",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Everybody, romp, romp, romp!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "candy",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Jump up high, jump, jump, jump!",
+          "action": "jump",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Jump up high and thump, thump, thump!",
+          "action": "jump",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Taffy jumps, and so can you!",
+          "action": "jump",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Do it with me, it's fun to do!",
+          "action": "jump",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "snow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Wave your arms, wave, wave, wave!",
+          "action": "wave",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wave your arms, be big and brave!",
+          "action": "wave",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy waves, and so can you!",
+          "action": "wave",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Do it with me, it's fun to do!",
+          "action": "wave",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "snow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Wave!",
+          "emoji": "👋"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can you wave like Taffy? Show me!",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! You can wave! High five!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-in",
+      "extras": null,
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "snow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Move your body, up and down!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Move your body all around!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Clap and jump and spin and stomp,",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Everybody, romp, romp, romp!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": [
+        "duck",
+        "fox"
+      ],
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Now we're tired, let's slow down,",
+          "action": "walk",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Take a breath and sit right down.",
+          "action": "sleep",
+          "emotion": "sleepy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "yawn"
+          ]
+        },
+        {
+          "text": "We moved our bodies, we had such fun,",
+          "action": "nod",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Give yourself a hug, well done!",
+          "action": "hug",
+          "emotion": "love",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "gag": null
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": null,
+  "stars": {
+    "total": 3
+  },
+  "directed": true
+}
