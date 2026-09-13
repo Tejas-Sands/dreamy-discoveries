@@ -14,12 +14,13 @@ items:
     note: Local MP4, thumbnail, metadata and script export ready. Awaiting GitHub
       Release access and Telegram credentials; do not regenerate.
   - id: qmtyjw23y
-    status: pending
+    status: running
     addedAt: 2026-09-12
     template: actions
     type: rhyme
     hero: bunny
     minutes: 5.5
+    startedAt: 2026-09-13T08:29:06.031Z
   - id: qmtyjw2jk
     status: pending
     addedAt: 2026-09-12
