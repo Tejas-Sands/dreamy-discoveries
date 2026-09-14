@@ -22,9 +22,10 @@ items:
     minutes: 5.5
     startedAt: 2026-09-13T08:29:06.031Z
   - id: qmtyjw2jk
-    status: pending
+    status: running
     addedAt: 2026-09-12
     template: shapes
     type: rhyme
     hero: bear
     minutes: 5.5
+    startedAt: 2026-09-14T09:10:50.085Z
