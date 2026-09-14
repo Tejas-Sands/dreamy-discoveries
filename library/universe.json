@@ -1,25 +1,27 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-13T17:11:57.935Z",
+  "updatedAt": "2026-09-14T09:26:10.198Z",
   "counts": {
     "stories": 2,
-    "rhymes": 2,
-    "episodes": 4,
-    "stars": 18
+    "rhymes": 3,
+    "episodes": 5,
+    "stars": 24
   },
   "usage": {
     "tilly": 1,
     "ozzy": 1,
     "daisy": 1,
-    "taffy": 1
+    "taffy": 1,
+    "ben": 1
   },
   "appeared": {
     "tilly": 2,
     "daisy": 2,
     "fiona": 2,
     "ozzy": 1,
-    "taffy": 1
+    "taffy": 1,
+    "ben": 1
   },
   "canon": [
     {
@@ -46,6 +48,11 @@
       "event": "First appearance: Taffy the bunny.",
       "story": "taffys-clever-river-adventure-2026-09-13",
       "at": "2026-09-13"
+    },
+    {
+      "event": "First appearance: Ben the bear.",
+      "story": "shapes-ben-373382",
+      "at": "2026-09-14"
     }
   ],
   "stories": [
@@ -203,6 +210,44 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffys-clever-river-adventure-2026-09-13",
         "tag": "video-taffys-clever-river-adventure-2026-09-13"
+      }
+    },
+    {
+      "id": "shapes-ben-373382",
+      "type": "rhyme",
+      "title": "Shapes With Ben!",
+      "hero": "ben",
+      "heroName": "Ben",
+      "cast": [
+        "ben"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 6,
+      "stars": 6,
+      "backgrounds": [
+        "forest",
+        "candy",
+        "bedroom",
+        "sky",
+        "night"
+      ],
+      "palette": "candy",
+      "firsts": [],
+      "status": "released",
+      "template": "shapes",
+      "topic": null,
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-14"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shapes-ben-373382",
+        "tag": "video-shapes-ben-373382"
       }
     }
   ]

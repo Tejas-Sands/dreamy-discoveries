@@ -9,7 +9,7 @@ Publication target: 18:00 IST. ✅ means the owner confirmed a YouTube upload; r
 | 2026-09-13 | ⬜ Ready to upload | existing\_episode | Opposites With Ozzy! | ozzy | rendered\_locally |
 | 2026-09-14 | ⬜ Ready to upload | template | Colors With Daisy! | daisy | rendered\_locally |
 | 2026-09-15 | ⬜ Planned | template | Move With Taffy! | taffy | existing\_template |
-| 2026-09-16 | ⬜ Planned | template | Shapes With Ben! | ben | existing\_template |
+| 2026-09-16 | ⬜ Ready to upload | template | Shapes With Ben! | ben | rendered\_locally |
 | 2026-09-17 | ⬜ Planned | template | Opposites With Fiona! | fiona | existing\_template |
 | 2026-09-18 | ⬜ Planned | story | Taffy Tries Saying Hello | taffy | free\_llm\_required |
 | 2026-09-19 | ⬜ Planned | flex | Taffy's Stop-and-Go Dance — trend-review candidate | taffy | evidence\_and\_implementation\_required |

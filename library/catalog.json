@@ -162,6 +162,33 @@
       "durationSec": 402,
       "renderedAt": "2026-09-13T17:13:30.764Z",
       "run": "34769929995"
+    },
+    {
+      "slug": "shapes-ben-373382",
+      "title": "Shapes With Ben!",
+      "type": "rhyme",
+      "template": "shapes",
+      "topic": null,
+      "hero": "bear",
+      "heroName": "Ben",
+      "palette": "candy",
+      "backgrounds": [
+        "forest",
+        "candy",
+        "bedroom",
+        "sky",
+        "night"
+      ],
+      "lines": 95,
+      "stars": 6,
+      "questions": 6,
+      "status": "released",
+      "months": "2026-09",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shapes-ben-373382",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shapes-ben-373382",
+      "durationSec": 357,
+      "renderedAt": "2026-09-14T09:30:01.495Z",
+      "run": "34826505425"
     }
   ],
   "compilations": []

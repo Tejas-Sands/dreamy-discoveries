@@ -208,7 +208,7 @@
       "publish_at": "2026-09-16T18:00:00+05:30",
       "production_not_before": "2026-09-15T03:30:00Z",
       "review_by": "2026-09-12",
-      "status": "planned",
+      "status": "rendered",
       "priority": 50,
       "format": "template",
       "type": "rhyme",
@@ -227,15 +227,16 @@
         "catalog"
       ],
       "evidence": "established_format",
-      "readiness": "existing_template",
+      "readiness": "rendered_locally",
       "llm_calls_max": 0,
       "existing_queue_id": "qmtyjw2jk",
-      "existing_slug": "",
+      "existing_slug": "shapes-ben-373382",
       "source_schedule_ids": [],
       "fallback": "Use a distinct unpublished approved evergreen episode; otherwise skip this slot.",
       "notes": "Use the existing template without seasonal claims. Validate learning examples and review actual audio/runtime. First scheduled baseline for this template.",
-      "publication_status": "planned",
-      "uploaded_at": ""
+      "publication_status": "ready",
+      "uploaded_at": "",
+      "release_url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shapes-ben-373382"
     },
     {
       "schedule_id": "dd-2026-09-17",
