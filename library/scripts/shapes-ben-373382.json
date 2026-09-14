@@ -1,0 +1,559 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "shapes",
+  "seed": 37338235,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "shapes-ben-373382",
+  "title": "Shapes With Ben!",
+  "palette": "candy",
+  "mainCharacter": {
+    "kind": "bear",
+    "name": "Ben"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Ben the bear! Let's find some shapes! Are you ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Wonderful! You know your shapes! Bye bye, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Shapes With Ben 🐻 Circle, Square, Triangle Song for Kids",
+    "description": "Circle, square, triangle, star and heart! Learn shapes with Ben the bear in this sing-along with questions for toddlers.\n#shapesforkids #kidssongs #nurseryrhymes #toddlerlearning #shapes",
+    "tags": [
+      "shapes for kids",
+      "shapes song",
+      "learn shapes",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "preschool learning",
+      "bear song",
+      "circle square triangle",
+      "sing along"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A heart is the shape of love, you see,",
+          "action": "point",
+          "emotion": "happy",
+          "callout": {
+            "kind": "emoji",
+            "text": "HEART",
+            "emoji": "❤️"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "A heart from you, and a heart from me!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben found a heart! Can you say heart?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2,
+        "auto": true
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "candy",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A triangle has three pointy tips,",
+          "action": "point",
+          "emotion": "happy",
+          "callout": {
+            "kind": "emoji",
+            "text": "TRIANGLE",
+            "emoji": "🔺"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Like a slice of pizza, yum, lick your lips!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben found a triangle! Can you say triangle?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "candy",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Triangle!",
+          "emoji": "🔺"
+        }
+      },
+      "lines": [
+        {
+          "text": "Which shape is a pizza slice?",
+          "action": "point",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A pizza slice is a triangle! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "candy",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Shapes, shapes, everywhere,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Circle, triangle, star and square!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look around and you will see,",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Shapes are all around you and me!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "turtle",
+        "owl"
+      ],
+      "direction": "celebration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "bedroom",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A circle is round like the sun in the sky,",
+          "action": "point",
+          "emotion": "happy",
+          "callout": {
+            "kind": "emoji",
+            "text": "CIRCLE",
+            "emoji": "⭕"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Round like a cookie, round like a pie!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben found a circle! Can you say circle?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "sky",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A square has four sides, all the same,",
+          "action": "point",
+          "emotion": "happy",
+          "callout": {
+            "kind": "emoji",
+            "text": "SQUARE",
+            "emoji": "🟥"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Square like a window, square like a frame!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben found a square! Can you say square?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Square!",
+          "emoji": "🟥"
+        }
+      },
+      "lines": [
+        {
+          "text": "Which shape is a window?",
+          "action": "point",
+          "emotion": "thinking",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A window is a square! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Shapes, shapes, everywhere,",
+          "speaker": "character",
+          "action": "spin",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Circle, triangle, star and square!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Look around and you will see,",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Shapes are all around you and me!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "fox",
+        "turtle"
+      ],
+      "direction": "celebration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A star has five points, shining bright,",
+          "action": "point",
+          "emotion": "happy",
+          "callout": {
+            "kind": "emoji",
+            "text": "STAR",
+            "emoji": "⭐"
+          },
+          "speaker": "character",
+          "sfx": []
+        },
+        {
+          "text": "Twinkle, twinkle, all through the night!",
+          "action": "dance",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben found a star! Can you say star?",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "sky",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Shapes, shapes, everywhere,",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Circle, triangle, star and square!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Look around and you will see,",
+          "speaker": "character",
+          "action": "look",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Shapes are all around you and me!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": [
+        "owl",
+        "bunny"
+      ],
+      "direction": "celebration",
+      "gag": null
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": null,
+  "stars": {
+    "total": 2
+  },
+  "directed": true
+}
