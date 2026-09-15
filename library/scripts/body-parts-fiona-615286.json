@@ -1,0 +1,647 @@
+{
+  "version": 2,
+  "type": "rhyme",
+  "template": "body-parts",
+  "seed": 615286595,
+  "music": {
+    "file": "bouncy.wav",
+    "bpm": 120,
+    "mood": "bouncy"
+  },
+  "slug": "body-parts-fiona-615286",
+  "title": "Head, Shoulders With Fiona!",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "fox",
+    "name": "Fiona"
+  },
+  "intro": {
+    "text": "Hi friends! I'm Fiona the fox! Let's learn about our bodies! Ready? Let's go!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Great job, friends! You know your head and your toes! Bye bye!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Head Shoulders Knees and Toes With Fiona 🦊 Body Parts Song",
+    "description": "Touch your head, wiggle your nose, clap your hands! Learn body parts with Fiona the fox in this sing-along for toddlers.\n#bodyparts #headshouldersknees #kidssongs #nurseryrhymes #toddlers",
+    "tags": [
+      "body parts song",
+      "head shoulders knees and toes",
+      "kids songs",
+      "nursery rhymes",
+      "toddler songs",
+      "preschool learning",
+      "action song",
+      "fox song",
+      "sing along",
+      "learning for kids"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "verse",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Rub your tummy, round and round,",
+          "action": "hug",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Rub your tummy, make a happy sound!",
+          "action": "hug",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Fiona has a tummy, and you do too!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "bedroom",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Touch your toes, way down low,",
+          "action": "stomp",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Touch your toes, and up we go!",
+          "action": "stomp",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Fiona has a toes, and you do too!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Toes!",
+          "emoji": "🦶"
+        }
+      },
+      "lines": [
+        {
+          "text": "Where is your toes? Can you point to it?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! That's your toes! Well done!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "bedroom",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Eyes and ears and mouth and nose,",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "dance",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "pan",
+      "extras": [
+        "turtle",
+        "owl"
+      ],
+      "direction": "celebration",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "meadow",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Blink your eyes, blink, blink, blink,",
+          "action": "look",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Blink your eyes, now give a wink!",
+          "action": "look",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona has a eyes, and you do too!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "beach",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Clap your hands, clap, clap, clap,",
+          "action": "clap",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Clap your hands and tap, tap, tap!",
+          "action": "clap",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Fiona has a hands, and you do too!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Hands!",
+          "emoji": "👏"
+        }
+      },
+      "lines": [
+        {
+          "text": "Where is your hands? Can you point to it?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! That's your hands! Well done!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "beach",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "spin",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Eyes and ears and mouth and nose,",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        }
+      ],
+      "transition": "iris",
+      "camera": "zoom-out",
+      "extras": [
+        "duck",
+        "turtle"
+      ],
+      "direction": "celebration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "verse",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Wiggle your nose, wiggle it so,",
+          "action": "think",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wiggle your nose, high and low!",
+          "action": "think",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona has a nose, and you do too!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "verse",
+      "background": "bedroom",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Wiggle your ears, can you hear?",
+          "action": "shake",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wiggle your ears, loud and clear!",
+          "action": "shake",
+          "emotion": "excited",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona has a ears, and you do too!",
+          "action": "point",
+          "emotion": "happy",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Ears!",
+          "emoji": "👂"
+        }
+      },
+      "lines": [
+        {
+          "text": "Where is your ears? Can you point to it?",
+          "action": "point",
+          "emotion": "happy",
+          "role": "question",
+          "speaker": "character",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! That's your ears! Well done!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "chorus",
+      "background": "bedroom",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "clap",
+          "emotion": "happy",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "jump",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Eyes and ears and mouth and nose,",
+          "speaker": "character",
+          "action": "stomp",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "Head and shoulders, knees and toes, knees and toes!",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "bear",
+        "duck"
+      ],
+      "direction": "celebration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    }
+  ],
+  "targetMinutes": 5.5,
+  "voice": null,
+  "stars": {
+    "total": 3
+  },
+  "directed": true
+}
