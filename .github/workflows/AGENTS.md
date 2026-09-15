@@ -38,7 +38,7 @@ plan (ubuntu-latest, 15 min)
 | Input | Default | Notes |
 |---|---|---|
 | `topic` | blank | LLM prompt for rhyme/story |
-| `type` | `rhyme` | `rhyme` or `story` |
+| `type` | `story` | Manual topic runs currently expose `story`; templates remain explicit |
 | `template` | blank | AI-free template id |
 | `hero` | blank | Cast id (auto if blank) |
 | `slug` | blank | Re-run an existing script |
@@ -90,6 +90,7 @@ Repository variables (set in repo Settings → Variables):
 ```yaml
 vars.TTS_ENGINE    # kokoro (default) | edge | gemini
 vars.TTS_SPEED     # 0.95 (default)
+vars.NARRATOR_VOICE # optional narrator override; engine-specific default otherwise
 ```
 
 ---

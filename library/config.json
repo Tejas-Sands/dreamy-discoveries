@@ -1,17 +1,66 @@
 {
   "autopilot": true,
-  "templateShare": 0.6,
   "minutes": 5.5,
-  "topicBank": [
-    "a shy turtle who learns to make friends",
-    "a little fox who always says thank you",
-    "a brave duckling who is afraid of the dark",
-    "a monkey who learns to wait for his turn",
-    "an elephant who learns that being different is wonderful",
-    "a kitten who learns to say sorry",
-    "a bear who learns to share his honey",
-    "a puppy who learns to listen to mommy",
-    "a frog who learns that trying again is fun",
-    "a piglet who learns to keep her room tidy"
+  "storySeeds": [
+    {
+      "id": "sharing",
+      "moral": "Sharing turns something small into joy for everyone.",
+      "problem": "The hero has one special treat and a friend hopes to join."
+    },
+    {
+      "id": "honesty",
+      "moral": "Telling the truth helps us fix our mistakes.",
+      "problem": "The hero accidentally damages something a friend made and wants to hide it."
+    },
+    {
+      "id": "taking-turns",
+      "moral": "Waiting for a turn makes play fair and fun.",
+      "problem": "The hero loves a new game so much that a friend never gets a turn."
+    },
+    {
+      "id": "including-others",
+      "moral": "Inviting someone in can begin a wonderful friendship.",
+      "problem": "The hero notices a quiet friend watching a lively meadow game alone."
+    },
+    {
+      "id": "apology-and-repair",
+      "moral": "A caring apology includes trying to make things right.",
+      "problem": "The hero's hurried choice spoils a friend's careful work."
+    },
+    {
+      "id": "perseverance",
+      "moral": "Small patient tries can help us do hard things.",
+      "problem": "The hero cannot finish a simple meadow task on the first try."
+    },
+    {
+      "id": "listening",
+      "moral": "Listening carefully helps everyone feel heard.",
+      "problem": "The excited hero keeps interrupting and misses an important clue."
+    },
+    {
+      "id": "gratitude",
+      "moral": "Noticing kind help makes our hearts thankful.",
+      "problem": "Friends quietly help the hero prepare something special, but the hero overlooks them."
+    },
+    {
+      "id": "asking-for-help",
+      "moral": "Asking for help is a brave way to learn.",
+      "problem": "The hero pretends an unfamiliar task is easy and becomes gently stuck."
+    },
+    {
+      "id": "responsibility",
+      "moral": "Caring for what we use keeps it ready for everyone.",
+      "problem": "The hero forgets to put away shared playthings before the weather changes."
+    },
+    {
+      "id": "keeping-promises",
+      "moral": "Keeping a promise shows our friends they can trust us.",
+      "problem": "A tempting new activity distracts the hero from a small promise to a friend."
+    },
+    {
+      "id": "fair-play",
+      "moral": "Playing kindly matters more than being first.",
+      "problem": "The hero becomes too focused on winning a friendly Sunny Meadow game."
+    }
   ]
 }

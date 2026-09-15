@@ -137,9 +137,9 @@ Expected: all narrator-routing tests pass.
 **Interfaces:**
 - Scheduled queue/autopilot output passed to reusable make-video workflow as a story topic, hero, minutes, and queue id.
 
-- [ ] **Step 1: Preserve inactive template queue records as comments**
+- [ ] **Step 1: Preserve inactive template queue records**
 
-Keep the three existing records verbatim under a `Paused template episodes` comment block and leave `items: []` as the active queue.
+Keep the three existing records under an inactive `pausedTemplates` collection and leave `items: []` as the active queue, so later YAML rewrites retain them.
 
 - [ ] **Step 2: Default all topic-based entry points to story**
 

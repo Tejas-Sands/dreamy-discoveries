@@ -1,5 +1,8 @@
 # Topics waiting to be produced. status: pending | running | done
-items:
+items: []
+
+# Inactive and preserved for later; queue.mjs ignores this collection.
+pausedTemplates:
   - id: qmtyjw1qn
     status: running
     addedAt: 2026-09-12

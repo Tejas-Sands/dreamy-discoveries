@@ -27,7 +27,7 @@ export function writeQueue(q) {
 }
 
 function output(entry) {
-  const flat = { id: entry.id ?? "", topic: entry.topic ?? "", template: entry.template ?? "", type: entry.type ?? "rhyme", hero: entry.hero ?? "", place: entry.place ?? "", minutes: String(entry.minutes ?? "5.5"), empty: "false" };
+  const flat = { id: entry.id ?? "", topic: entry.topic ?? "", template: entry.template ?? "", type: entry.type ?? "story", hero: entry.hero ?? "", place: entry.place ?? "", minutes: String(entry.minutes ?? "5.5"), empty: "false" };
   console.log(JSON.stringify(flat));
   if (process.env.GITHUB_OUTPUT) for (const [k, v] of Object.entries(flat)) fs.appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`);
 }
@@ -41,7 +41,10 @@ function main() {
       for (const it of q.items) console.log(`${(it.status ?? "pending").padEnd(8)} ${it.id ?? "-"}  ${it.topic ?? `template:${it.template} hero:${it.hero ?? "auto"}`}`);
       break;
     case "pop": {
-      const next = q.items.find((it) => (it.status ?? "pending") === "pending");
+      const next = q.items.find((it) =>
+        (it.status ?? "pending") === "pending" &&
+        (!args["stories-only"] || (it.topic && !it.template && (!it.type || it.type === "story")))
+      );
       if (!next) {
         console.log(JSON.stringify({ empty: "true" }));
         if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, "empty=true\n");
@@ -64,7 +67,7 @@ function main() {
     }
     case "add": {
       const id = `q${Date.now().toString(36)}`;
-      q.items.push({ id, status: "pending", addedAt: new Date().toISOString().slice(0, 10), ...(args.topic ? { topic: args.topic } : {}), ...(args.template ? { template: args.template } : {}), type: args.type ?? (args.template ? "rhyme" : "rhyme"), ...(args.hero ? { hero: args.hero } : {}), ...(args.place ? { place: args.place } : {}), minutes: Number(args.minutes ?? 5.5) });
+      q.items.push({ id, status: "pending", addedAt: new Date().toISOString().slice(0, 10), ...(args.topic ? { topic: args.topic } : {}), ...(args.template ? { template: args.template } : {}), type: args.type ?? (args.template ? "rhyme" : "story"), ...(args.hero ? { hero: args.hero } : {}), ...(args.place ? { place: args.place } : {}), minutes: Number(args.minutes ?? 5.5) });
       writeQueue(q);
       console.log(`[queue] added ${id}`);
       break;

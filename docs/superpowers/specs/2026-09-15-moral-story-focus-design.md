@@ -10,7 +10,7 @@ Make scheduled production create only strong, simple preschool stories with one 
 
 `scripts/autopilot.mjs` never chooses a template. It filters valid seeds, counts prior use by the exact generated topic stored in `library/catalog.json`, chooses among the least-used seeds with the existing deterministic RNG, and pairs it with `leastStarred()`. This remains local, fast, free, and deterministic. The existing template generator stays callable manually and existing slugs remain rerunnable.
 
-Pending template queue entries are retained as YAML comments. Historical/running entries remain data records but are not requeued.
+Pending template queue entries are retained in an inactive `pausedTemplates` collection. Historical/running entries remain data records but are not requeued or erased by later queue rewrites.
 
 ## Story writing
 

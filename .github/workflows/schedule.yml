@@ -1,7 +1,7 @@
 name: Scheduled video
 
-# Every day: take the next topic from library/queue.yml, or (autopilot) invent one
-# — an AI-free template rhyme most of the time, an LLM story otherwise.
+# Every day: take the next moral-story topic from library/queue.yml, or let
+# autopilot choose a curated moral/problem seed for one LLM script call.
 
 on:
   schedule:
@@ -34,7 +34,7 @@ jobs:
       - name: Next from the queue, or autopilot
         id: pick
         run: |
-          node scripts/queue.mjs pop
+          node scripts/queue.mjs pop --stories-only
           if grep -q '^empty=true' "$GITHUB_OUTPUT"; then
             sed -i '/^empty=true/d' "$GITHUB_OUTPUT"
             node scripts/autopilot.mjs

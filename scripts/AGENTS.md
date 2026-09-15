@@ -177,6 +177,7 @@ GROQ_API_KEY / GEMINI_API_KEY / OPENROUTER_API_KEY  — LLM (one required for st
 LLM_BASE_URL / LLM_API_KEY / LLM_MODEL              — Custom OpenAI-compatible endpoint
 TTS_ENGINE      kokoro (default) | edge | gemini
 TTS_VOICE       af_heart (default)
+NARRATOR_VOICE  af_bella (default for Kokoro; enthusiastic narrator)
 TTS_SPEED       0.95 (default)
 TARGET_MINUTES  5.5 (default)
 TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID               — Delivery

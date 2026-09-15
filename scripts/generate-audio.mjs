@@ -20,7 +20,7 @@ import { parseFile } from "music-metadata";
 import { loadDotEnv, parseArgs, readScript, writeScript, resolveSlug, GENERATED_DIR, ROOT } from "./lib/common.mjs";
 import { directScript, songSceneCount } from "./lib/director.mjs";
 import { estimateVideoSec } from "./lib/estimate.mjs";
-import { VOICE_STORE, voiceSettings, lineHash, storePaths, inStore, missingTexts } from "./lib/voice.mjs";
+import { VOICE_STORE, voiceSettings, voiceForSpeaker, lineHash, storePaths, inStore, missingTexts } from "./lib/voice.mjs";
 
 loadDotEnv();
 
@@ -156,15 +156,16 @@ async function main() {
 
   let script = directScript(readScript(slug));
 
-  const { engine, ext, voice } = voiceSettings(script, args);
+  const settings = voiceSettings(script, args);
+  const { engine, ext, voice, narratorVoice } = settings;
 
   // --check: report what would need synthesis (used by the CI planner), touch nothing
   if (args.check) {
-    const missing = missingTexts(script, { engine, ext, voice });
-    console.log(JSON.stringify({ slug, engine, voice, missing: missing.length, texts: missing }));
+    const missing = missingTexts(script, settings);
+    console.log(JSON.stringify({ slug, engine, voice, narratorVoice, missing: missing.length, texts: missing }));
     return;
   }
-  console.log(`[tts] engine=${engine} voice=${voice} slug=${slug} store=${path.relative(ROOT, VOICE_STORE)}`);
+  console.log(`[tts] engine=${engine} voice=${voice} narrator=${narratorVoice} slug=${slug} store=${path.relative(ROOT, VOICE_STORE)}`);
   fs.mkdirSync(VOICE_STORE, { recursive: true });
 
   const cache = new Map();
@@ -172,10 +173,11 @@ async function main() {
   let synthCount = 0;
   let reusedCount = 0;
 
-  const speak = async (text) => {
-    const key = text.trim().toLowerCase();
+  const speak = async (text, speaker = "character") => {
+    const selectedVoice = voiceForSpeaker(settings, speaker);
+    const key = `${selectedVoice}|${text.trim().toLowerCase()}`;
     if (cache.has(key)) return cache.get(key);
-    const hash = lineHash(engine, voice, text);
+    const hash = lineHash(engine, selectedVoice, text);
     const file = `line-${hash}.${ext}`;
     const store = storePaths(hash, ext);
     let entry;
@@ -183,7 +185,7 @@ async function main() {
       entry = { ...JSON.parse(fs.readFileSync(store.meta, "utf8")), audio: file };
       reusedCount++;
     } else {
-      const { durationSec, words } = await synthesize(text, voice, store.audio);
+      const { durationSec, words } = await synthesize(text, selectedVoice, store.audio);
       entry = { audio: file, durationSec: +durationSec.toFixed(3), words: words ?? estimateWords(text, durationSec) };
       fs.writeFileSync(store.meta, JSON.stringify({ text, durationSec: entry.durationSec, words: entry.words }));
       synthCount++;
@@ -197,11 +199,11 @@ async function main() {
     return entry;
   };
 
-  if (script.intro) Object.assign(script.intro, await speak(script.intro.text));
+  if (script.intro) Object.assign(script.intro, await speak(script.intro.text, "character"));
   for (const scene of script.scenes) {
-    for (const line of scene.lines) Object.assign(line, await speak(line.text));
+    for (const line of scene.lines) Object.assign(line, await speak(line.text, line.speaker));
   }
-  if (script.outro) Object.assign(script.outro, await speak(script.outro.text));
+  if (script.outro) Object.assign(script.outro, await speak(script.outro.text, "character"));
 
   // Auto-reprise: kids' songs loop. If the rhyme lands short of the target,
   // bridge with "One more time!" and repeat the whole song — zero extra TTS.
@@ -250,6 +252,7 @@ async function main() {
   if (args.minutes) script.targetMinutes = target;
 
   script.voice = voice;
+  script.narratorVoice = narratorVoice;
   writeScript(slug, script);
   const totalMin = (estimateVideoSec(script) / 60).toFixed(1);
   console.log(`[tts] done — ${synthCount} lines synthesized, ${reusedCount} reused from the store, ~${totalMin} min of video`);

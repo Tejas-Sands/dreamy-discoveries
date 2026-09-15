@@ -49,7 +49,7 @@ Everything visual, musical and vocal is deterministic and reproducible from
    `lullaby`, `opposites`) with an optional hero, or an existing slug to re-run.
 4. Or do nothing: **Scheduled video** runs daily (09:00 IST), takes the next entry
    from `library/queue.yml`, and when the queue is empty *autopilot* invents one
-   (mostly template songs, sometimes a story from `library/config.json` → `topicBank`).
+   (currently moral stories only, rotated from `library/config.json` → `storySeeds`).
 5. **Compilation video** stitches finished episodes into a 20–30 minute "best of"
    with bumper cards — zero AI, zero re-rendering.
 

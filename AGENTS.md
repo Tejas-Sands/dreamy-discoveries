@@ -37,7 +37,7 @@ scripts/
   publish-release.mjs # gh release create → durable GitHub Release storage
   send-telegram.mjs   # Send video/link to Telegram for human review
   queue.mjs           # YAML queue CRUD: pop, push, done
-  autopilot.mjs       # When queue is empty: pick next template or story from topic bank
+  autopilot.mjs       # When queue is empty: rotate curated moral-story seeds
   fetch-yt-stats.mjs  # Fetch YouTube analytics (view counts) to inform autopilot
   import-vox.mjs      # Normalize recordings → public/vox/ (trim, loudness-match, rename)
   fetch-vox.mjs       # Pull CC0 sounds from Freesound API (free key needed)
@@ -85,7 +85,7 @@ library/
   scripts/*.json      # Every produced script (hand-editable; re-run with --slug)
   universe.json       # Universe ledger: stories told, canon, cast usage
   queue.yml           # Topics waiting; items: [ {id, status, topic/template, type, hero, minutes} ]
-  config.json         # autopilot settings + topicBank
+  config.json         # autopilot settings + curated storySeeds
   catalog.json        # Every episode + compilation with release links
 
 public/
@@ -111,7 +111,7 @@ schedule / manual dispatch
         │
         ▼
   [plan job]  15 min max
-    • queue.mjs pop → or autopilot.mjs
+    • queue.mjs pop --stories-only → or autopilot.mjs
     • generate-script.mjs (template: zero AI | LLM: one free-tier call)
     • direct.mjs (deterministic Director: adds callouts, questions, chant, gags…)
     • Emits: slug, title, voice_needed, chunk_count, chunks[]
@@ -176,7 +176,7 @@ The daily `schedule.yml` pops the first `pending` item.
 ### Trigger a video manually
 GitHub → Actions → **Make video** → Run workflow. Supply one of:
 - `template`: `counting | colors | actions | animal-sounds | body-parts | shapes | lullaby | opposites`
-- `topic` + `type`: `rhyme` or `story`
+- `topic` (story is the current default and only scheduled type)
 - `slug`: re-run an existing script
 
 ### Add a new evergreen template (zero AI)

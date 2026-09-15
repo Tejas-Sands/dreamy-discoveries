@@ -100,7 +100,9 @@ items:
 
 Status flow: `pending → running → done`
 
-The `schedule.yml` workflow pops the first `pending` item each day. When the queue is empty, `autopilot.mjs` invents a video from `config.json`.
+The `schedule.yml` workflow pops the first pending story item each day. Template/rhyme items stay paused. When no story is queued, `autopilot.mjs` chooses a moral-story seed from `config.json`.
+
+Paused songs live under the top-level `pausedTemplates` key so queue rewrites preserve them while `queue.mjs` ignores them.
 
 **To schedule upcoming videos:** add items here. The bot commits status changes with `[skip ci]`.
 
@@ -121,15 +123,20 @@ Supported item fields:
 ```jsonc
 {
   "autopilot": true,           // set false to pause the daily auto-run
-  "templateShare": 0.6,        // fraction of auto-videos that are AI-free templates (0–1)
   "minutes": 5.5,              // default video length for autopilot-chosen videos
-  "topicBank": [ "..." ]       // pool of story topics for the LLM path
+  "storySeeds": [
+    {
+      "id": "sharing",
+      "moral": "Sharing turns something small into joy for everyone.",
+      "problem": "The hero has one special treat and a friend hopes to join."
+    }
+  ]
 }
 ```
 
 **To change the daily cadence:** edit `schedule.yml` cron (currently `30 3 * * *` = 09:00 IST). To pause entirely, set `"autopilot": false` here — the daily schedule will exit cleanly when the queue is empty.
 
-**To add more story topics** to the rotation: append to `topicBank`. Topics already used (tracked in `universe.json`) are skipped automatically.
+**To add more moral stories** to the rotation: append a stable id, one-sentence moral, and cast-neutral preschool problem to `storySeeds`. Autopilot favors the least-used seeds recorded in `catalog.json`.
 
 ### `catalog.json` — Episode Catalog
 
@@ -153,7 +160,7 @@ Supported item fields:
 ```
 
 Written by `scripts/lib/catalog.mjs`. Used by:
-- `autopilot.mjs` — to avoid repeating topics and to rotate templates/heroes evenly
+- `autopilot.mjs` — to rotate moral-story seeds and heroes evenly
 - `compile.mjs` — to pick episodes for compilation videos
 - Humans — to track what has been published
 
@@ -180,7 +187,7 @@ Custom template overrides. Files here take precedence over `scripts/lib/template
 
 ✅ **Do:**
 - Add to `queue.yml` to schedule upcoming videos
-- Add to `config.json` `topicBank` for more story variety
+- Add to `config.json` `storySeeds` for more moral-story variety
 - Add to `library/backgrounds/` for new settings
 - Use `scripts/lib/universe.mjs` CLI to record manual renders
 - Run `node scripts/check-character-designs.mjs` after any character recipe edit

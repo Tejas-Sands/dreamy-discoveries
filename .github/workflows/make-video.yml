@@ -14,9 +14,9 @@ on:
       type:
         description: "Video type (for topic)"
         required: false
-        default: rhyme
+        default: story
         type: choice
-        options: [rhyme, story]
+        options: [story]
       template:
         description: "AI-free template id (counting, colors, actions, animal-sounds, body-parts, shapes, lullaby, opposites)"
         required: false
@@ -50,7 +50,7 @@ on:
   workflow_call:
     inputs:
       topic: { required: false, type: string, default: "" }
-      type: { required: false, type: string, default: "rhyme" }
+      type: { required: false, type: string, default: "story" }
       template: { required: false, type: string, default: "" }
       hero: { required: false, type: string, default: "" }
       slug: { required: false, type: string, default: "" }
@@ -68,6 +68,7 @@ env:
   NODE_VERSION: 22
   TTS_ENGINE: ${{ vars.TTS_ENGINE || 'kokoro' }}
   TTS_SPEED: ${{ vars.TTS_SPEED || '0.95' }}
+  NARRATOR_VOICE: ${{ vars.NARRATOR_VOICE }}
 
 jobs:
   plan:
@@ -115,7 +116,7 @@ jobs:
           ARGS=(--library --minutes "${TARGET_MINUTES:-5.5}")
           if [ -n "$IN_SLUG" ]; then ARGS+=(--slug "$IN_SLUG")
           elif [ -n "$IN_TEMPLATE" ]; then ARGS+=(--template "$IN_TEMPLATE"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
-          elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-rhyme}"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
+          elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-story}"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
           else echo "Give a topic, a template, or a slug"; exit 1; fi
           [ -n "$IN_VOICE" ] && ARGS+=(--voice "$IN_VOICE")
           [ "$IN_PREVIEW" = "true" ] && ARGS+=(--preview)

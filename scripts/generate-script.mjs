@@ -18,6 +18,7 @@ import { BACKGROUND_RECIPES, CHARACTER_RECIPES } from "./lib/library.mjs";
 import { directScript } from "./lib/director.mjs";
 import { generateFromTemplate, TEMPLATE_IDS } from "./lib/templates/index.mjs";
 import { castKinds, castHeroKind, castPrompt, castMemberById, castMemberByKind } from "./lib/cast.mjs";
+import { storyQualityIssues } from "./lib/story-planner.mjs";
 
 loadDotEnv();
 
@@ -151,7 +152,7 @@ Respond with ONLY a valid JSON object (no markdown, no commentary) with exactly 
   "title": "short catchy on-screen title, 2-6 words",
   "palette": "one of: ${PALETTES.join(", ")}",
   "mainCharacter": { "kind": "one of: ${CAST_KINDS.join(", ")} (the Sunny Meadow cast, from The Cast below)", "name": "the hero's name from The Cast" },
-  "intro": "1-2 short sentences the hero says to greet the child, e.g. 'Hi friends! I'm Benny the bunny! Let's sing together!'",
+  "intro": "1-2 short sentences the hero says to greet the child and promise today's story",
   "outro": "1 short goodbye sentence",
   "moral": ${type === "story" ? '"one short, warm sentence stating the lesson"' : "null"},
   "moralRhyme": ${type === "story" ? '["two short rhyming lines (max 7 words each) that chant the lesson, e.g. \\"Share, share, it\'s only fair!\\", \\"Sharing shows how much we care!\\""]' : "null"},
@@ -185,7 +186,7 @@ Respond with ONLY a valid JSON object (no markdown, no commentary) with exactly 
 
 Question scenes (kind "question") talk TO the child, then pause so they can answer:
   "holdSec": 3, "question": { "answer": { "text": "Red", "emoji": "🍎" }, "praise": "Yes! Red like an apple! Great job!" }
-  Ask things a 3-year-old can answer out loud or with their body: a color, a number, an animal sound, "can you clap?", or in a story: a choice ("Should Benny share? Say YES!").
+  ${type === "story" ? 'Ask about a clear story choice a 3-year-old can answer, such as "Should Taffy share? Say YES!".' : 'Ask about a color, number, animal sound, or simple action such as "Can you clap?".'}
 Callouts (optional, max one per line) put a giant word on screen: {"kind":"word","text":"SHARE","emoji":"🥕"} or {"kind":"emoji","emoji":"💡"}. Numbers and colors in the text get callouts automatically, so you don't need to add those.
 
 Content rules:
@@ -204,10 +205,13 @@ ${
 - A question scene every 4-6 scenes (kind "question", energy "upbeat", holdSec 3).
 - Finish with one calm, cozy verse (energy "calm"), then a final chorus.
 - Strong rhythm and end rhymes (AABB or ABAB). Each line max ~8 words.`
-    : `- Structure: (1) meet the hero and what they love, (2) a friend arrives / a small problem, (3) the hero makes a choice (ask the child first!), (4) a gentle consequence and a sad moment, (5) the hero learns (kind "lesson", emotion "surprised" then "love"), (6) they fix it, (7) happy ending with the friend.
-- 1-3 lines per scene. Narrator lines describe; character/friend lines are what they say out loud.
+    : `- Tell ONE focused story with ONE moral. Do not add unrelated counting, color, alphabet, or sing-along lessons.
+- The FIRST scene is the hook. In its first line, reveal a concrete surprise, strong want, promise, or tiny problem. Do not spend a scene introducing the meadow.
+- Structure: (1) immediate hook, (2) what the hero wants, (3) first attempt, (4) a different second attempt, (5) ask the child about the important choice, (6) show its gentle consequence, (7) the hero understands and repairs the problem in a "lesson" scene, (8) a warm ending that proves the moral.
+- Use 1-3 cast members total. Keep the problem small enough for a preschooler and let the hero solve it through a believable action, not a lecture or sudden magic.
+- 1-3 lines per scene. Narrator lines describe; character/friend lines are what they say out loud. Write narration with vivid verbs, natural contractions, and varied punctuation so an enthusiastic storyteller can perform it warmly; do not overuse exclamation marks.
 - Give the hero their catchphrase from The Cast, said IDENTICALLY 3+ times through the story (e.g. Taffy: "Hop, hop, hooray!").
-- Put 2-3 question scenes at the decision points ("What should Taffy do? Share or keep them all?" answer "Share!") and one easy one (a color or number in the story).
+- Put 2-3 question scenes at real choice points ("What should Taffy do? Share or keep them all?" answer "Share!"). Every answer must help move this story forward.
 - The story must SHOW the moral through the hero's feelings; state it only in "moral" and "moralRhyme" (the video repeats the rhyme as a chant at the end).`
 }
 - Pick the palette and backgrounds that fit the mood.
@@ -254,7 +258,7 @@ async function main() {
   }
 
   const topic = args.topic;
-  const type = args.type === "story" ? "story" : "rhyme";
+  const type = args.type === "rhyme" ? "rhyme" : "story";
   const minutes = Number(args.minutes || process.env.TARGET_MINUTES || 5.5);
   if (!topic || typeof topic !== "string") {
     console.error(`Usage: node scripts/generate-script.mjs --topic "..." [--type rhyme|story] [--minutes 5.5] [--slug my-slug] [--voice af_heart]\n   or: node scripts/generate-script.mjs --template <${TEMPLATE_IDS.join("|")}> [--hero duck] [--place farm] [--seed 42]`);
@@ -277,6 +281,10 @@ async function main() {
     try {
       const parsed = extractJson(raw);
       script = ScriptSchema.parse(parsed);
+      if (type === "story") {
+        const issues = storyQualityIssues(script, minutes);
+        if (issues.length) throw new Error(`Story quality check failed: ${issues.join("; ")}`);
+      }
       break;
     } catch (err) {
       console.warn(`[generate] attempt ${attempt} invalid: ${err.message.slice(0, 300)}`);
