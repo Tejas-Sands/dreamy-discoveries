@@ -1,24 +1,25 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-14T09:26:10.198Z",
+  "updatedAt": "2026-09-15T09:09:00.483Z",
   "counts": {
     "stories": 2,
-    "rhymes": 3,
-    "episodes": 5,
-    "stars": 24
+    "rhymes": 4,
+    "episodes": 6,
+    "stars": 33
   },
   "usage": {
     "tilly": 1,
     "ozzy": 1,
     "daisy": 1,
     "taffy": 1,
-    "ben": 1
+    "ben": 1,
+    "fiona": 1
   },
   "appeared": {
     "tilly": 2,
     "daisy": 2,
-    "fiona": 2,
+    "fiona": 3,
     "ozzy": 1,
     "taffy": 1,
     "ben": 1
@@ -248,6 +249,43 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shapes-ben-373382",
         "tag": "video-shapes-ben-373382"
+      }
+    },
+    {
+      "id": "body-parts-fiona-615286",
+      "type": "rhyme",
+      "title": "Head, Shoulders With Fiona!",
+      "hero": "fiona",
+      "heroName": "Fiona",
+      "cast": [
+        "fiona"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 9,
+      "stars": 9,
+      "backgrounds": [
+        "forest",
+        "bedroom",
+        "meadow",
+        "beach"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": "body-parts",
+      "topic": null,
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-15"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-body-parts-fiona-615286",
+        "tag": "video-body-parts-fiona-615286"
       }
     }
   ]

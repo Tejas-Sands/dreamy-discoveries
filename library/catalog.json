@@ -189,6 +189,32 @@
       "durationSec": 357,
       "renderedAt": "2026-09-14T09:30:01.495Z",
       "run": "34826505425"
+    },
+    {
+      "slug": "body-parts-fiona-615286",
+      "title": "Head, Shoulders With Fiona!",
+      "type": "rhyme",
+      "template": "body-parts",
+      "topic": null,
+      "hero": "fox",
+      "heroName": "Fiona",
+      "palette": "forest",
+      "backgrounds": [
+        "forest",
+        "bedroom",
+        "meadow",
+        "beach"
+      ],
+      "lines": 110,
+      "stars": 9,
+      "questions": 9,
+      "status": "released",
+      "months": "2026-09",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-body-parts-fiona-615286",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-body-parts-fiona-615286",
+      "durationSec": 445,
+      "renderedAt": "2026-09-15T09:10:46.934Z",
+      "run": "34949384425"
     }
   ],
   "compilations": []
