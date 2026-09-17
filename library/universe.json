@@ -1,28 +1,28 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-15T09:09:00.483Z",
+  "updatedAt": "2026-09-17T09:06:29.285Z",
   "counts": {
-    "stories": 2,
+    "stories": 3,
     "rhymes": 4,
-    "episodes": 6,
-    "stars": 33
+    "episodes": 7,
+    "stars": 35
   },
   "usage": {
     "tilly": 1,
     "ozzy": 1,
     "daisy": 1,
-    "taffy": 1,
+    "taffy": 2,
     "ben": 1,
     "fiona": 1
   },
   "appeared": {
-    "tilly": 2,
-    "daisy": 2,
-    "fiona": 3,
+    "tilly": 3,
+    "daisy": 3,
+    "fiona": 4,
     "ozzy": 1,
-    "taffy": 1,
-    "ben": 1
+    "taffy": 2,
+    "ben": 2
   },
   "canon": [
     {
@@ -286,6 +286,55 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-body-parts-fiona-615286",
         "tag": "video-body-parts-fiona-615286"
+      }
+    },
+    {
+      "id": "taffy-invites-a-friend-2026-09-17",
+      "type": "story",
+      "title": "Taffy Invites a Friend",
+      "hero": "taffy",
+      "heroName": "Taffy",
+      "cast": [
+        "taffy",
+        "ben",
+        "daisy",
+        "fiona",
+        "tilly"
+      ],
+      "moral": "Inviting someone in can begin a wonderful friendship.",
+      "moralRhyme": [
+        "Ask a friend to come and play!",
+        "Make a sunny, happy day!"
+      ],
+      "catchphrases": [
+        "Hop, hop, hooray!",
+        "Big bear hug!",
+        "Quack a-lacka-doodle!",
+        "Fast and clever!",
+        "Slow and steady!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "meadow",
+        "forest",
+        "pond"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Moral: Inviting someone in can begin a wonderful friendship. Story problem: The hero notices a quiet friend watching a lively meadow game alone.",
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-17"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffy-invites-a-friend-2026-09-17",
+        "tag": "video-taffy-invites-a-friend-2026-09-17"
       }
     }
   ]

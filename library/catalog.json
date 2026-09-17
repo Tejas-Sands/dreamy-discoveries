@@ -215,6 +215,31 @@
       "durationSec": 445,
       "renderedAt": "2026-09-15T09:10:46.934Z",
       "run": "34949384425"
+    },
+    {
+      "slug": "taffy-invites-a-friend-2026-09-17",
+      "title": "Taffy Invites a Friend",
+      "type": "story",
+      "template": null,
+      "topic": "Moral: Inviting someone in can begin a wonderful friendship. Story problem: The hero notices a quiet friend watching a lively meadow game alone.",
+      "hero": "bunny",
+      "heroName": "Taffy",
+      "palette": "meadow",
+      "backgrounds": [
+        "meadow",
+        "forest",
+        "pond"
+      ],
+      "lines": 75,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-09",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffy-invites-a-friend-2026-09-17",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffy-invites-a-friend-2026-09-17",
+      "durationSec": 344,
+      "renderedAt": "2026-09-17T09:07:54.255Z",
+      "run": "35201799016"
     }
   ],
   "compilations": []
