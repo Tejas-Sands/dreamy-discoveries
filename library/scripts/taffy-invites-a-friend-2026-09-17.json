@@ -1,0 +1,1400 @@
+{
+  "type": "story",
+  "title": "Taffy Invites a Friend",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Taffy"
+  },
+  "intro": {
+    "text": "Hi friend! Taffy here! Today we are playing a big game in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Bye-bye friend! Keep sharing smiles and making new friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Inviting someone in can begin a wonderful friendship.",
+  "moralRhyme": [
+    "Ask a friend to come and play!",
+    "Make a sunny, happy day!"
+  ],
+  "youtube": {
+    "title": "Taffy's Big Meadow Game! 🌼 A Story About Making Friends",
+    "description": "Taffy the bunny is playing a fun tag game in Sunny Meadow when she notices Fiona watching all alone. Learn how a kind invitation can turn a quiet day into a wonderful friendship! #preschool #toddler #sunnymentow #kindness #kidsstory",
+    "tags": [
+      "taffy bunny",
+      "sunny meadow",
+      "toddler story",
+      "preschool video",
+      "making friends",
+      "kindness for kids",
+      "bedtime story",
+      "cartoon animals",
+      "social emotional learning",
+      "sharing and caring",
+      "preschool learning"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "It was a bright sunny morning in Sunny Meadow.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! Today is Meadow Hop Day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Taffy was super excited to play her favorite leaping game.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Hello Taffy! I brought my bouncy bear feet today!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Yay Ben! Let's jump over the yellow buttercup flowers!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "⭐",
+            "color": "#ffd60a"
+          },
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Quack a-lacka-doodle! Can I play tag too?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Yes Daisy! We are making a big giant tag game!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "The three friends laughed and zoomed across the soft grass.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Behind a tall green pine tree, Fiona stood very quietly.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🐰",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Look, Ben! Fiona is watching us from over there.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona wanted to join, but she felt a little shy.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Maybe if we laugh extra loud, she will run over!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Look at me jumping high into the air!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "They played loudly, but Fiona stayed by her quiet tree.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Watch this super bunny spin jump!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "spin",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Taffy spun around three times and landed on one foot.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Quack a-lacka-doodle! That was amazing hopping, Taffy!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona smiled at Taffy, but took a small step backward.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh dear. She is still standing all by herself.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "sigh",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I wonder why she is not coming over to play.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Invite her",
+          "emoji": "🦊"
+        }
+      },
+      "lines": [
+        {
+          "text": "What should Taffy do? Should Taffy go invite Fiona to play?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Walking over to invite her is so friendly! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy hopped gently across the soft grass toward the trees.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hi Fiona! We are having so much fun!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Hello Taffy. You look very fast and happy.",
+          "speaker": "friend",
+          "emotion": "neutral",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Would you like to come play Meadow Hop with us?",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I really want to... but I cannot hop like a bunny.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "sigh",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I was worried I would not play the right way.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy gave Fiona a giant, warm bunny smile.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is okay! Everybody plays in their own special way!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray! You can make up your own moves!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Look at me! I do big, silly bear stomps!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "stomp",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "stomp"
+          ]
+        },
+        {
+          "text": "And I do quick little duck waddles! Quack a-lacka-doodle!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben and Daisy showed Fiona that all moves are great.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fast and clever! I can do speedy fox zooms!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Fiona zoomed around the yellow flowers like a bright red spark.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "spin",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🌸",
+            "color": "#ff3b3b"
+          },
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Wow! Look at Fiona go! She is super fast!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Tag! You are it, Taffy!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray! You got me, Fiona!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "The game was so much better now that everyone was playing.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly watched from his warm, cozy pond stone.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady! What a marvelous, happy game!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly! Do you want to join our meadow game too?",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Yes!",
+          "emoji": "🐢"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should they invite Grandpa Tilly to join the fun too?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Everyone can have a fun turn! Wonderful!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "I walk very slowly, my bouncy little friend.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can be our awesome finish line judge!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Slow and steady! That sounds delightful!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ready, set, go! Zooms, hops, and bear stomps!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Fast and clever! I love racing together!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "spin",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Grandpa Tilly clapped his flippers as everyone crossed the line.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Big bear hug for all my bouncy meadow pals!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Quack a-lacka-doodle! This is the best day ever!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The friends rested together under the cozy warm sun.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "I am so happy we asked you to play, Fiona.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for asking me, Taffy. I was nervous.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "aww",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Now I have three awesome new friends to play with!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Sometimes quiet friends are just waiting for a kind word.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A warm invite makes everybody feel warm inside.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Sunny Meadow was full of giggles and big smiles.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "💡",
+      "question": null,
+      "lines": [
+        {
+          "text": "When you see a quiet friend, invite them to play!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "word",
+            "text": "INVITE",
+            "emoji": "🤝"
+          },
+          "sfx": []
+        },
+        {
+          "text": "A simple hello can start a wonderful new friendship!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fast and clever! Best friends forever!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray for making new friends!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Everyone cheered together in the bright green meadow.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🙂",
+            "color": "#3ecf4a"
+          },
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": [
+        "turtle"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Taffy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Inviting someone in can begin a wonderful friendship.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Ask a friend to come and play!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Make a sunny, happy day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "owl",
+        "bear"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Ask a friend to come and play!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Make a sunny, happy day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "pan",
+      "gag": null,
+      "extras": [
+        "bear",
+        "duck"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "slug": "taffy-invites-a-friend-2026-09-17",
+  "topic": "Moral: Inviting someone in can begin a wonderful friendship. Story problem: The hero notices a quiet friend watching a lively meadow game alone.",
+  "targetMinutes": 5.5,
+  "voice": null,
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}
