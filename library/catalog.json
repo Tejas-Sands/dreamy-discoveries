@@ -240,6 +240,33 @@
       "durationSec": 344,
       "renderedAt": "2026-09-17T09:07:54.255Z",
       "run": "35201799016"
+    },
+    {
+      "slug": "bens-big-brave-help-2026-09-20",
+      "title": "Ben's Big Brave Help",
+      "type": "story",
+      "template": null,
+      "topic": "Moral: Asking for help is a brave way to learn. Story problem: The hero pretends an unfamiliar task is easy and becomes gently stuck.",
+      "hero": "bear",
+      "heroName": "Ben",
+      "palette": "forest",
+      "backgrounds": [
+        "forest",
+        "park",
+        "pond",
+        "meadow",
+        "sky"
+      ],
+      "lines": 77,
+      "stars": 3,
+      "questions": 3,
+      "status": "released",
+      "months": "2026-09",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bens-big-brave-help-2026-09-20",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bens-big-brave-help-2026-09-20",
+      "durationSec": 344,
+      "renderedAt": "2026-09-20T09:01:57.097Z",
+      "run": "35500428494"
     }
   ],
   "compilations": []

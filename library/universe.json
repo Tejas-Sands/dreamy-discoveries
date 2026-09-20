@@ -1,28 +1,28 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-17T09:06:29.285Z",
+  "updatedAt": "2026-09-20T09:00:48.874Z",
   "counts": {
-    "stories": 3,
+    "stories": 4,
     "rhymes": 4,
-    "episodes": 7,
-    "stars": 35
+    "episodes": 8,
+    "stars": 38
   },
   "usage": {
     "tilly": 1,
     "ozzy": 1,
     "daisy": 1,
     "taffy": 2,
-    "ben": 1,
+    "ben": 2,
     "fiona": 1
   },
   "appeared": {
-    "tilly": 3,
+    "tilly": 4,
     "daisy": 3,
     "fiona": 4,
     "ozzy": 1,
-    "taffy": 2,
-    "ben": 2
+    "taffy": 3,
+    "ben": 3
   },
   "canon": [
     {
@@ -335,6 +335,52 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-taffy-invites-a-friend-2026-09-17",
         "tag": "video-taffy-invites-a-friend-2026-09-17"
+      }
+    },
+    {
+      "id": "bens-big-brave-help-2026-09-20",
+      "type": "story",
+      "title": "Ben's Big Brave Help",
+      "hero": "ben",
+      "heroName": "Ben",
+      "cast": [
+        "ben",
+        "taffy",
+        "tilly"
+      ],
+      "moral": "Asking for help is a brave way to learn new things.",
+      "moralRhyme": [
+        "Ask for help to learn something new!",
+        "It shows how brave and smart are you!"
+      ],
+      "catchphrases": [
+        "Big bear hug!",
+        "Slow and steady!"
+      ],
+      "questions": 3,
+      "stars": 3,
+      "backgrounds": [
+        "forest",
+        "park",
+        "pond",
+        "meadow",
+        "sky"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Moral: Asking for help is a brave way to learn. Story problem: The hero pretends an unfamiliar task is easy and becomes gently stuck.",
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-20"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bens-big-brave-help-2026-09-20",
+        "tag": "video-bens-big-brave-help-2026-09-20"
       }
     }
   ]
