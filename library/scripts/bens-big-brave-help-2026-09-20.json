@@ -1,0 +1,1490 @@
+{
+  "type": "story",
+  "title": "Ben's Big Brave Help",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "bear",
+    "name": "Ben"
+  },
+  "intro": {
+    "text": "Hi friend! I am Ben the bear! Today we are going to learn how brave it is to ask for help!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Goodbye my sweet friend, see you soon!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Asking for help is a brave way to learn new things.",
+  "moralRhyme": [
+    "Ask for help to learn something new!",
+    "It shows how brave and smart are you!"
+  ],
+  "youtube": {
+    "title": "Ben Learns Asking For Help Is Brave! 🪁 | Sunny Meadow Stories",
+    "description": "Ben the bear tries to fix a tangled kite all by himself, but gets stuck in the strings! Learn along with Ben that asking for help is super brave. #toddlerlearning #socialemotional #preschool #sunnymeadow #kindness",
+    "tags": [
+      "toddler story",
+      "preschool video",
+      "asking for help",
+      "social emotional learning",
+      "ben the bear",
+      "sunny meadow",
+      "kids cartoon",
+      "character building",
+      "kindness for kids",
+      "toddler morals"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🪁",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben the bear found a bright red kite in the forest!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🧸",
+            "color": "#ff3b3b"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Look at this super pretty kite!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Oh look, the string has a big tangled knot!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🪁",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben really wanted to fly his kite in the warm breeze.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am a big bear, so this is super easy for me!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben pulled hard on the long red string with his paws.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🐻",
+            "color": "#ff3b3b"
+          },
+          "vox": [
+            {
+              "kind": "hmm",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Uh oh! The knot got tighter and bigger!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy the bunny hopped over to see her friend Ben.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hi Ben! Wow, that is a tricky knot on your kite!",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Tricky? No way! I can fix it all by myself!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy watched Ben twist and pull the sticky string.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Watch this twist! Easy peasy lemon squeezy!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "spin",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Oh dear! The string wrapped right around Ben's fuzzy paws!",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "gasp",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "My paws are trapped in the string!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "shake",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben tried to take a step, but his feet got wrapped too!",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am stuck like a giant fuzzy bear present!",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "YES!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Ben ask Taffy for help? Say YES!",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Asking for help is super brave!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben took a slow deep breath to make his heart feel brave.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy... I am stuck and I need your help, please.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy smiled and hopped right over to help her buddy.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Of course Ben! Helping my friends is my favorite thing!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy gently unwrapped the string from Ben's big feet.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! My feet are free again!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Big bear hug!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "The kite string was still tied in a giant tight knot.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I still do not know how to untangle this knot.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy knew just who could teach them what to do.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly knows all about tricky knots!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "They walked together down to the quiet blue pond.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🙂",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly was resting happily on a warm rock.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hello little friends! What brings you to the pond?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🫧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben held the messy knot and looked at his paws.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "sigh",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I wanted to fix this kite all by myself.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "I was afraid asking for help meant I was not smart.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly gave Ben a very gentle, warm smile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "YES!",
+          "emoji": "🌟"
+        }
+      },
+      "lines": [
+        {
+          "text": "Is asking for help a good way to learn? Say YES!",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "That is right! Everyone asks for help to learn!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Slow and steady! Everyone asks for help to learn!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Even big wise turtles ask for help sometimes!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Really? You ask for help too, Grandpa Tilly?",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🧵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly showed Ben how to loosen the loops.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Push the little end gently through the loop like this.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Now you try it, Ben! You can do it!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Ben held the string softly with his big bear paws.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Push the string... right through the little hole... like this!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Pop! The stubborn knot came completely undone!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Look, Grandpa Tilly! The string is straight!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "bear",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "You learned something brand new today, Ben!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Thank you for teaching me, Grandpa Tilly!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🪁",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben and Taffy ran out into the sunny meadow.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The warm breeze was blowing across the green grass.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🪁",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🪁",
+      "question": null,
+      "lines": [
+        {
+          "text": "Let us make our red kite fly high up now!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🪁",
+            "color": "#ff3b3b"
+          },
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Ben held the kite and Taffy held the string.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "sky",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🪁",
+      "question": null,
+      "lines": [
+        {
+          "text": "One, two, three... run, run, run!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "count",
+            "emoji": "🪁",
+            "count": 3
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "The bright red kite swooped high into the sky!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🪁",
+            "color": "#ff3b3b"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "sky",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "YES!",
+          "emoji": "🪁"
+        }
+      },
+      "lines": [
+        {
+          "text": "Look at the kite soar! Is Ben happy he asked for help?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Asking for help made the kite fly high!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 2,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Look at it go! Up into the fluffy clouds!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "start"
+            }
+          ],
+          "voxPreSec": 0.9,
+          "sfx": []
+        },
+        {
+          "text": "You did an amazing job learning today, Ben!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "I felt so brave when I asked for help!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And now we can fly our kite together all day!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben wrapped his big cozy arms around Taffy.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben learned that asking for help is super smart.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Whenever I get stuck, I will ask my friends!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "bear",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Learning new things together is the best feeling in the world.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Asking for help is the bravest thing a bear can do!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "bunny",
+        "turtle"
+      ],
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bear",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Ben learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Asking for help is a brave way to learn new things.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Ask for help to learn something new!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It shows how brave and smart are you!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "duck",
+        "fox"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Ask for help to learn something new!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "It shows how brave and smart are you!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "fox",
+        "owl"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "slug": "bens-big-brave-help-2026-09-20",
+  "topic": "Moral: Asking for help is a brave way to learn. Story problem: The hero pretends an unfamiliar task is easy and becomes gently stuck.",
+  "targetMinutes": 5.5,
+  "voice": null,
+  "version": 2,
+  "stars": {
+    "total": 3
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}
