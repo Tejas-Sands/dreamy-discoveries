@@ -1,0 +1,1258 @@
+{
+  "type": "story",
+  "title": "Daisy Learns to Listen",
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "duck",
+    "name": "Daisy"
+  },
+  "intro": {
+    "text": "Hi friends! I am Daisy! Today we are going on a special mystery treasure hunt!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Remember to listen with a warm heart, friends!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Listening carefully helps everyone feel heard.",
+  "moralRhyme": [
+    "Listen close with ears so wide!",
+    "Find the treasure tucked inside!"
+  ],
+  "youtube": {
+    "title": "Daisy's Treasure Hunt! 🌼 Daisy Learns to Listen",
+    "description": "Daisy the duck is so excited for the Sunny Meadow treasure hunt that she forgets to listen! Join Daisy and Ben as they learn how listening carefully helps everyone feel heard. Perfect for toddlers and preschoolers.",
+    "tags": [
+      "daisy the duck",
+      "sunny meadow",
+      "listening skills",
+      "preschool stories",
+      "toddler learning",
+      "social emotional learning",
+      "cartoon duck",
+      "kids moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🗺️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy fluttered her wings with excitement at the schoolhouse.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I love treasure hunts! Quack a-lacka-doodle!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Professor Ozzy held a shiny golden paper roll.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! The surprise picnic is hidden right near...",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Near the pond! I know! Bye-bye!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wait, Daisy, that is not the whole clue!",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy did not hear Professor Ozzy calling her back.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am going to find the treasure first!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "She raced through the green trees super fast.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "walk",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🦆",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I bet it is hiding under the water lily!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She zoomed straight toward the blue pond.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🦆",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🪷",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy splashed into the water with a quiet plop.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "swim",
+          "callout": null,
+          "sfx": [
+            "splash"
+          ]
+        },
+        {
+          "text": "Is the picnic here?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "hmm",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "She peeked behind three green lily pads.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🪷"
+          },
+          "sfx": []
+        },
+        {
+          "text": "There was no picnic anywhere in sight.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh dear! Where could it be?",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "gasp",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Daisy wondered why her guess was wrong.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben the bear walked up to the muddy bank.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy! Professor Ozzy told me the rest of...",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I know! It must be at the playground!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Ben tried to speak, but Daisy cut him off.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Follow me to the big red slide!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🧸",
+            "color": "#ff3b3b"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Daisy fluttered off before Ben could finish.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🛝",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy ran around the yellow sandbox twice.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "spin",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🛝",
+            "color": "#ffd60a"
+          },
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Is the picnic under the sandbox?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "hmm",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "She dug in the sand with her flippers.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Nothing was hiding in the warm sand.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben walked over slowly and sighed.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy, if you would just...",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Or maybe it is near the big tree!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Ben looked down at his fuzzy toes.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy... it makes me sad when you interrupt.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have the real clue, but you keep talking.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy gasped and stopped bouncing.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Oh! I did not mean to hurt your feelings!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "gasp",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "playground",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "👂",
+      "question": {
+        "answer": {
+          "text": "Listen",
+          "emoji": "👂"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Daisy stop talking and listen to Ben? Say LISTEN!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Listening carefully helps our friends feel happy!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "playground",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy took a nice, quiet breath.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am so sorry for interrupting you, Ben.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "hug",
+          "callout": {
+            "kind": "word",
+            "text": "SORRY",
+            "emoji": "💖"
+          },
+          "vox": [
+            {
+              "kind": "aww",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "My ears are open now. Please tell me your clue!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "word",
+            "text": "LISTEN",
+            "emoji": "👂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben smiled warmly and lifted his head.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you, Daisy! Big bear hug!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "I feel so happy that you are listening!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🌻",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben shared the clue nice and slow.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Professor Ozzy said the clue is near the sunflowers!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy stayed quiet and nodded along.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The basket is tucked right behind the red barn!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🌻",
+            "color": "#ff3b3b"
+          },
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end",
+              "speaker": "character"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "That was such an important detail!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap",
+            "pop"
+          ]
+        },
+        {
+          "text": "I am so glad I listened to all your words!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": "🚜",
+      "question": {
+        "answer": {
+          "text": "Barn",
+          "emoji": "🚜"
+        }
+      },
+      "lines": [
+        {
+          "text": "Where is the treasure hiding? At the pond or the barn?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Great listening! Near the sunflowers at the barn!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "farm",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🌻",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy and Ben walked together to the sunny farm.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look at all those tall yellow sunflowers!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🌸",
+            "color": "#ffd60a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben pointed to the brightest flower of all.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look right behind the wooden fence!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "There was a big red picnic basket!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "jump",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🌸",
+            "color": "#ff3b3b"
+          },
+          "sfx": [
+            "boing",
+            "pop"
+          ]
+        },
+        {
+          "text": "We found it together!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "farm",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Inside the basket were sweet treats for everyone.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There were berries, honey pots, and crispy seeds!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "eat",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yum",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for sharing the clue, Ben!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Thank you for listening to me, Daisy!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Listening made our treasure hunt a total success!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Quack a-lacka-doodle!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "farm",
+      "character": "duck",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🦉",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy swooped down with a warm smile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "fly",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Hoohoo! You found the secret picnic!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "I missed the clue at first because I interrupted.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But when I stopped to listen, everything worked out!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Listening helps every friend feel loved!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It sure does! Listening is a superhero power!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "duck",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "They all sat in the warm meadow together.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Everyone got a turn to talk and be heard.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack a-lacka-doodle!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Listening carefully made everyone feel happy and special.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "And that was the very best picnic ever!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack a-lacka-doodle!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": [
+        "bunny"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "duck",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Daisy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Listening carefully helps everyone feel heard.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Listen close with ears so wide!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Find the treasure tucked inside!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "owl",
+        "bear"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Listen close with ears so wide!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Find the treasure tucked inside!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "pan",
+      "gag": null,
+      "extras": [
+        "bear",
+        "bunny"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "slug": "daisy-learns-to-listen-2026-09-21",
+  "topic": "Moral: Listening carefully helps everyone feel heard. Story problem: The excited hero keeps interrupting and misses an important clue.",
+  "targetMinutes": 5.5,
+  "voice": null,
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}
