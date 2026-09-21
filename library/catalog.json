@@ -267,6 +267,34 @@
       "durationSec": 344,
       "renderedAt": "2026-09-20T09:01:57.097Z",
       "run": "35500428494"
+    },
+    {
+      "slug": "daisy-learns-to-listen-2026-09-21",
+      "title": "Daisy Learns to Listen",
+      "type": "story",
+      "template": null,
+      "topic": "Moral: Listening carefully helps everyone feel heard. Story problem: The excited hero keeps interrupting and misses an important clue.",
+      "hero": "duck",
+      "heroName": "Daisy",
+      "palette": "sunshine",
+      "backgrounds": [
+        "forest",
+        "pond",
+        "playground",
+        "garden",
+        "farm",
+        "meadow"
+      ],
+      "lines": 83,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-09",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-daisy-learns-to-listen-2026-09-21",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-daisy-learns-to-listen-2026-09-21",
+      "durationSec": 325,
+      "renderedAt": "2026-09-21T09:33:37.011Z",
+      "run": "35581959429"
     }
   ],
   "compilations": []

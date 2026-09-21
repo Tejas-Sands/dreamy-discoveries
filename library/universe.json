@@ -1,28 +1,28 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-20T09:00:48.874Z",
+  "updatedAt": "2026-09-21T09:32:18.286Z",
   "counts": {
-    "stories": 4,
+    "stories": 5,
     "rhymes": 4,
-    "episodes": 8,
-    "stars": 38
+    "episodes": 9,
+    "stars": 40
   },
   "usage": {
     "tilly": 1,
     "ozzy": 1,
-    "daisy": 1,
+    "daisy": 2,
     "taffy": 2,
     "ben": 2,
     "fiona": 1
   },
   "appeared": {
     "tilly": 4,
-    "daisy": 3,
+    "daisy": 4,
     "fiona": 4,
-    "ozzy": 1,
+    "ozzy": 2,
     "taffy": 3,
-    "ben": 3
+    "ben": 4
   },
   "canon": [
     {
@@ -381,6 +381,53 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bens-big-brave-help-2026-09-20",
         "tag": "video-bens-big-brave-help-2026-09-20"
+      }
+    },
+    {
+      "id": "daisy-learns-to-listen-2026-09-21",
+      "type": "story",
+      "title": "Daisy Learns to Listen",
+      "hero": "daisy",
+      "heroName": "Daisy",
+      "cast": [
+        "daisy",
+        "ozzy",
+        "ben"
+      ],
+      "moral": "Listening carefully helps everyone feel heard.",
+      "moralRhyme": [
+        "Listen close with ears so wide!",
+        "Find the treasure tucked inside!"
+      ],
+      "catchphrases": [
+        "Big bear hug!",
+        "Quack a-lacka-doodle!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "forest",
+        "pond",
+        "playground",
+        "garden",
+        "farm",
+        "meadow"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Moral: Listening carefully helps everyone feel heard. Story problem: The excited hero keeps interrupting and misses an important clue.",
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-21"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-daisy-learns-to-listen-2026-09-21",
+        "tag": "video-daisy-learns-to-listen-2026-09-21"
       }
     }
   ]
