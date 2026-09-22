@@ -1,0 +1,1488 @@
+{
+  "type": "story",
+  "title": "Fiona Keeps Her Promise",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "fox",
+    "name": "Fiona"
+  },
+  "intro": {
+    "text": "Hello my sweet friends! Today Fiona has a special adventure about keeping promises!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Bye bye! Remember to keep your promises today!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Keeping a promise shows our friends they can trust us.",
+  "moralRhyme": [
+    "Keep your word and do your best,",
+    "Trusting friends is truly blest!"
+  ],
+  "youtube": {
+    "title": "Fiona Keeps Her Promise! 🦊 Sunny Meadow Stories",
+    "description": "Fiona the fox promises to help Taffy build a pinecone tower, but skipping stones at the pond is so tempting! Will Fiona keep her promise? Watch and learn about trust and friendship! #preschool #toddlerlearning #sunnymeadow #fionathefox #storytime",
+    "tags": [
+      "fiona the fox",
+      "sunny meadow",
+      "toddler story",
+      "preschool video",
+      "keeping promises",
+      "kindness for kids",
+      "learn trust",
+      "fox cartoon",
+      "kids animation",
+      "character building",
+      "bedtime story",
+      "read aloud",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🌲",
+      "question": null,
+      "lines": [
+        {
+          "text": "Today is a wonderful sunny day in Sunny Meadow!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I promised Taffy I would help build a pinecone tower!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": {
+            "kind": "word",
+            "text": "PROMISE",
+            "emoji": "🤝"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona gathered a big basket filled with bumpy pinecones.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "These will make the highest tower in the whole woods!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy is waiting for me under the big oak tree.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona trotted down the sunny path toward her best friend.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I love making promises and helping my good friends!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Suddenly, a big splash echoed from the nearby pond!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy the duck was splashing near the water.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "swim",
+          "callout": null,
+          "sfx": [
+            "splash"
+          ]
+        },
+        {
+          "text": "Quack a-lacka-doodle! Look at my shiny skipping stones!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona, come skip stones across the pond with me!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Skipping stones was Fiona's favorite game in the world.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh! Stone skipping is so much fun!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Maybe I can play for just one little minute!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🦊"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona picked up a smooth, flat grey stone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Watch this stone hop across the blue water!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "🐰",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "One, two, three skips! That was amazing, Fiona!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": {
+            "kind": "count",
+            "emoji": "🐰",
+            "count": 3
+          },
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona cheered and picked up another shiny stone.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Fast and clever!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "spin",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "whoosh"
+          ]
+        },
+        {
+          "text": "Look at this purple stone! Skip this one next!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "emoji": "🦊",
+            "color": "#a55eea"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐢",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona threw stone after stone across the sparkling pond.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This is the best skipping day ever!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "You are the champion stone skipper, Fiona!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "The bright yellow sun began to climb high above.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "🦊",
+            "color": "#ffd60a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Oh dear! Look how high the sun is!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "gasp",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I forgot all about my promise to Taffy!",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Help Taffy",
+          "emoji": "🐰"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should I stay here or go help Taffy? Say help Taffy!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Keeping promises is so important!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "fox",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Go help Taffy! Promises are very important!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you, Daisy! I will come back another day!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona put down the stones and zipped into the forest.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🫧",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona ran as fast as her swift legs could carry her.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "I hope Taffy is not too sad!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "sigh",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona arrived at the tall oak tree in the forest.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy! I am here!",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy the bunny was sitting quietly on the green moss.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🐰",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Hop, hop, hooray...",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "sigh",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I tried to build the tower all by myself.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It kept falling down because I needed your help.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona felt a heavy knot in her tummy.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am so sorry, Taffy. I got distracted.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "aww",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I stopped to skip stones at the sparkly pond.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "I thought you forgot about our special promise.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I did not forget, but I made you wait.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy looked down at her small bunny paws.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A promise means you can always trust me!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "word",
+            "text": "TRUST",
+            "emoji": "🌟"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I want to be a friend who keeps her word.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Will you stay and help me build it now?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "YES",
+          "emoji": "🌲"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can we build the biggest pinecone tower now? Say YES!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yay! Working together is so much fun!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Yes! Let us do it together!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Fiona handed big pinecones to Taffy one by one.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🦊"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Here is a nice wide one for the base!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🦊"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "I will balance this round pinecone right on top!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Click, clack went the pinecones as the tower grew.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben the bear strolled up with a big friendly smile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug! That is a gigantic pinecone tower!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "You two make such a great team!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🧸"
+          },
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona kept her promise and helped me build it!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "When I keep my promises, my friends trust me.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Trust makes every friend feel safe and happy!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "The pinecone tower was the tallest one in Sunny Meadow!",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Look how high it reaches into the green branches!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🐰",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! Thank you, Fiona!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "meadow",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona learned how important a simple promise can be.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Keeping a promise shows our friends they can trust us!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "point",
+          "callout": {
+            "kind": "word",
+            "text": "TRUST",
+            "emoji": "💖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "meadow",
+      "character": "fox",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "When you keep your word, love and trust grow big!",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am so glad I helped my dear friend today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Sunny Meadow is full of trust and happy friends!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "See you next time, my sweet friend!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "fox",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Fiona learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Keeping a promise shows our friends they can trust us.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Keep your word and do your best,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Trusting friends is truly blest!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Keep your word and do your best,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Trusting friends is truly blest!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bear",
+        "turtle"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "slug": "fiona-keeps-her-promise-2026-09-22",
+  "topic": "Moral: Keeping a promise shows our friends they can trust us. Story problem: A tempting new activity distracts the hero from a small promise to a friend.",
+  "targetMinutes": 5.5,
+  "voice": null,
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}
