@@ -295,6 +295,31 @@
       "durationSec": 325,
       "renderedAt": "2026-09-21T09:33:37.011Z",
       "run": "35581959429"
+    },
+    {
+      "slug": "fiona-keeps-her-promise-2026-09-22",
+      "title": "Fiona Keeps Her Promise",
+      "type": "story",
+      "template": null,
+      "topic": "Moral: Keeping a promise shows our friends they can trust us. Story problem: A tempting new activity distracts the hero from a small promise to a friend.",
+      "hero": "fox",
+      "heroName": "Fiona",
+      "palette": "forest",
+      "backgrounds": [
+        "forest",
+        "meadow",
+        "pond"
+      ],
+      "lines": 82,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-09",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-fiona-keeps-her-promise-2026-09-22",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-fiona-keeps-her-promise-2026-09-22",
+      "durationSec": 346,
+      "renderedAt": "2026-09-22T09:02:09.941Z",
+      "run": "35706415537"
     }
   ],
   "compilations": []

@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-21T09:32:18.286Z",
+  "updatedAt": "2026-09-22T09:00:47.233Z",
   "counts": {
-    "stories": 5,
+    "stories": 6,
     "rhymes": 4,
-    "episodes": 9,
-    "stars": 40
+    "episodes": 10,
+    "stars": 42
   },
   "usage": {
     "tilly": 1,
@@ -14,15 +14,15 @@
     "daisy": 2,
     "taffy": 2,
     "ben": 2,
-    "fiona": 1
+    "fiona": 2
   },
   "appeared": {
     "tilly": 4,
-    "daisy": 4,
-    "fiona": 4,
+    "daisy": 5,
+    "fiona": 5,
     "ozzy": 2,
-    "taffy": 3,
-    "ben": 4
+    "taffy": 4,
+    "ben": 5
   },
   "canon": [
     {
@@ -428,6 +428,53 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-daisy-learns-to-listen-2026-09-21",
         "tag": "video-daisy-learns-to-listen-2026-09-21"
+      }
+    },
+    {
+      "id": "fiona-keeps-her-promise-2026-09-22",
+      "type": "story",
+      "title": "Fiona Keeps Her Promise",
+      "hero": "fiona",
+      "heroName": "Fiona",
+      "cast": [
+        "fiona",
+        "daisy",
+        "taffy",
+        "ben"
+      ],
+      "moral": "Keeping a promise shows our friends they can trust us.",
+      "moralRhyme": [
+        "Keep your word and do your best,",
+        "Trusting friends is truly blest!"
+      ],
+      "catchphrases": [
+        "Hop, hop, hooray!",
+        "Big bear hug!",
+        "Quack a-lacka-doodle!",
+        "Fast and clever!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "forest",
+        "meadow",
+        "pond"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Moral: Keeping a promise shows our friends they can trust us. Story problem: A tempting new activity distracts the hero from a small promise to a friend.",
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-22"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-fiona-keeps-her-promise-2026-09-22",
+        "tag": "video-fiona-keeps-her-promise-2026-09-22"
       }
     }
   ]
