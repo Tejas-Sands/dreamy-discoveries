@@ -173,7 +173,7 @@ Respond with ONLY a valid JSON object (no markdown, no commentary) with exactly 
       "question": null,
       "lines": [
         {
-          "text": "one line the voice says (max 12 simple words)",
+          "text": "one line the voice says (max 10 simple words, punchy)",
           "speaker": "character | friend | narrator",
           "emotion": "one of: ${EMOTIONS.join(", ")}",
           "action": "one of: ${ACTIONS.join(", ")}",
@@ -190,7 +190,8 @@ Question scenes (kind "question") talk TO the child, then pause so they can answ
 Callouts (optional, max one per line) put a giant word on screen: {"kind":"word","text":"SHARE","emoji":"🥕"} or {"kind":"emoji","emoji":"💡"}. Numbers and colors in the text get callouts automatically, so you don't need to add those.
 
 Content rules:
-- Audience is toddlers/preschoolers: very simple words, short sentences, warm and positive. Nothing scary, sad for long, violent, or branded. Every line max 12 words.
+- Audience is toddlers/preschoolers: very simple words, short sentences, warm and positive. Nothing scary, sad for long, violent, or branded. Every line max 10 words.
+- Use 'holdSec': 2 or 3 in non-question scenes to create a thoughtful pause after an emotional beat or before a big surprise.
 - TARGET LENGTH: about ${minutes} minutes of narration — write about ${lines} lines total. This is a hard requirement; do not write a short script.
 - Give the hero a NAME and use it. Use "speaker": "character" when the hero sings/talks, "friend" when the secondCharacter talks, "narrator" for storytelling sentences about them.
 - NEVER write laughter or sound words for the voice to read ("ha ha", "hee hee", "yawn", "gasp"): they sound fake when synthesized. Put a tag at the START or END of the line instead and a real recording plays there: {giggle} {laugh} {yay} {wow} {gasp} {yum} {yawn} {hmm} {aww} {sigh}. Example: "That tickles! {giggle}". Use one every few lines when it fits the feeling.
@@ -209,7 +210,7 @@ ${
 - The FIRST scene is the hook. In its first line, reveal a concrete surprise, strong want, promise, or tiny problem. Do not spend a scene introducing the meadow.
 - Structure: (1) immediate hook, (2) what the hero wants, (3) first attempt, (4) a different second attempt, (5) ask the child about the important choice, (6) show its gentle consequence, (7) the hero understands and repairs the problem in a "lesson" scene, (8) a warm ending that proves the moral.
 - Use 1-3 cast members total. Keep the problem small enough for a preschooler and let the hero solve it through a believable action, not a lecture or sudden magic.
-- 1-3 lines per scene. Narrator lines describe; character/friend lines are what they say out loud. Write narration with vivid verbs, natural contractions, and varied punctuation so an enthusiastic storyteller can perform it warmly; do not overuse exclamation marks.
+- 1-3 lines per scene. Narrator lines describe; character/friend lines are what they say out loud. Tighten dialogue to be extremely punchy and conversational. Write narration with vivid verbs, natural contractions, and varied punctuation so an enthusiastic storyteller can perform it warmly; do not overuse exclamation marks.
 - Give the hero their catchphrase from The Cast, said IDENTICALLY 3+ times through the story (e.g. Taffy: "Hop, hop, hooray!").
 - Put 2-3 question scenes at real choice points ("What should Taffy do? Share or keep them all?" answer "Share!"). Every answer must help move this story forward.
 - The story must SHOW the moral through the hero's feelings; state it only in "moral" and "moralRhyme" (the video repeats the rhyme as a chant at the end).`
