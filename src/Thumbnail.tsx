@@ -56,19 +56,23 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({ script, compilation }) => 
     null;
   return (
     <AbsoluteFill style={{ fontFamily, width: 1920, height: 1080, transform: "scale(0.6667)", transformOrigin: "0 0" }}>
-      <Background kind={first?.background ?? "meadow"} palette={palette} frameOffset={40} />
+      <div style={{ filter: "blur(14px) saturate(1.3)", position: "absolute", inset: -20 }}>
+        <Background kind={first?.background ?? "meadow"} palette={palette} frameOffset={40} />
+      </div>
       <Sparkles count={12} />
-      <div style={{ position: "absolute", ...characterBox(430, 990, 640) }}>
-        <Character kind={main} emotion="excited" action="cheer" width={640} still seed={3} />
+      {/* Rule of thirds placement, enlarged, with rim light and drop shadow */}
+      <div style={{ position: "absolute", ...characterBox(700, 1020, 820), filter: "drop-shadow(0 25px 50px rgba(0,0,0,0.5)) drop-shadow(0 0 30px rgba(255,255,255,0.7))" }}>
+        <Character kind={main} emotion="excited" action="cheer" width={820} still seed={3} />
       </div>
       {friend ? (
-        <div style={{ position: "absolute", ...characterBox(1560, 1010, 420) }}>
+        <div style={{ position: "absolute", ...characterBox(1620, 940, 420), filter: "drop-shadow(0 15px 30px rgba(0,0,0,0.4))" }}>
           <Character kind={friend} emotion="happy" action="wave" width={420} still flip seed={4} />
         </div>
       ) : emoji ? (
-        <div style={{ position: "absolute", left: 1420, top: 560, fontSize: 300, lineHeight: 1, transform: "rotate(-8deg)", filter: "drop-shadow(0 14px 10px rgba(0,0,0,0.25))" }}>{emoji}</div>
+        <div style={{ position: "absolute", left: 1480, top: 480, fontSize: 320, lineHeight: 1, transform: "rotate(-12deg)", filter: "drop-shadow(0 20px 15px rgba(0,0,0,0.3))" }}>{emoji}</div>
       ) : null}
-      <div style={{ position: "absolute", left: 700, top: 70, width: 1160, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0 0.25em", textAlign: "center", fontSize: script.title.length > 20 ? 130 : 160, fontWeight: 700, lineHeight: 1.02, color: "#fff", WebkitTextStroke: `12px #2f2438`, paintOrder: "stroke fill", textShadow: "0 14px 0 rgba(0,0,0,0.2)" }}>
+      {/* Title positioned at top and slightly right to leave bottom-right empty for YouTube timestamp */}
+      <div style={{ position: "absolute", left: 850, top: 80, width: 950, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0 0.25em", textAlign: "center", fontSize: script.title.length > 20 ? 140 : 170, fontWeight: 700, lineHeight: 1.02, color: "#fff", WebkitTextStroke: `12px #2f2438`, paintOrder: "stroke fill", textShadow: "0 18px 0 rgba(0,0,0,0.25)" }}>
         {script.title.split(" ").map((w, i) => (
           <span key={i} style={{ display: "inline-block", transform: `rotate(${(i % 2 ? 1 : -1) * 4}deg)`, color: i % 3 === 1 ? palette.accent : "#fff" }}>
             {w}
