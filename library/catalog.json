@@ -320,6 +320,33 @@
       "durationSec": 346,
       "renderedAt": "2026-09-22T09:02:09.941Z",
       "run": "35706415537"
+    },
+    {
+      "slug": "grandpa-tillys-sweet-treat-2026-09-30",
+      "title": "Grandpa Tilly's Sweet Treat",
+      "type": "story",
+      "template": null,
+      "topic": "Moral: Sharing turns something small into joy for everyone. Story problem: The hero has one special treat and a friend hopes to join.",
+      "hero": "turtle",
+      "heroName": "Grandpa Tilly",
+      "palette": "sunshine",
+      "backgrounds": [
+        "garden",
+        "pond",
+        "forest",
+        "meadow",
+        "park"
+      ],
+      "lines": 82,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-09",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-grandpa-tillys-sweet-treat-2026-09-30",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-grandpa-tillys-sweet-treat-2026-09-30",
+      "durationSec": 348,
+      "renderedAt": "2026-09-30T10:13:35.638Z",
+      "run": "36699168754"
     }
   ],
   "compilations": []

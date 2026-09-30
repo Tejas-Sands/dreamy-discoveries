@@ -1,15 +1,15 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-22T09:00:47.233Z",
+  "updatedAt": "2026-09-30T10:11:56.201Z",
   "counts": {
-    "stories": 6,
+    "stories": 7,
     "rhymes": 4,
-    "episodes": 10,
-    "stars": 42
+    "episodes": 11,
+    "stars": 44
   },
   "usage": {
-    "tilly": 1,
+    "tilly": 2,
     "ozzy": 1,
     "daisy": 2,
     "taffy": 2,
@@ -17,12 +17,12 @@
     "fiona": 2
   },
   "appeared": {
-    "tilly": 4,
+    "tilly": 5,
     "daisy": 5,
     "fiona": 5,
     "ozzy": 2,
-    "taffy": 4,
-    "ben": 5
+    "taffy": 5,
+    "ben": 6
   },
   "canon": [
     {
@@ -475,6 +475,53 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-fiona-keeps-her-promise-2026-09-22",
         "tag": "video-fiona-keeps-her-promise-2026-09-22"
+      }
+    },
+    {
+      "id": "grandpa-tillys-sweet-treat-2026-09-30",
+      "type": "story",
+      "title": "Grandpa Tilly's Sweet Treat",
+      "hero": "tilly",
+      "heroName": "Grandpa Tilly",
+      "cast": [
+        "tilly",
+        "taffy",
+        "ben"
+      ],
+      "moral": "Sharing turns something small into joy for everyone.",
+      "moralRhyme": [
+        "Share your treat and share your smile!",
+        "Joy grows bigger all the while!"
+      ],
+      "catchphrases": [
+        "Hop, hop, hooray!",
+        "Big bear hug!",
+        "Slow and steady!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "garden",
+        "pond",
+        "forest",
+        "meadow",
+        "park"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Moral: Sharing turns something small into joy for everyone. Story problem: The hero has one special treat and a friend hopes to join.",
+      "months": "2026-09",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-09-30"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-grandpa-tillys-sweet-treat-2026-09-30",
+        "tag": "video-grandpa-tillys-sweet-treat-2026-09-30"
       }
     }
   ]
