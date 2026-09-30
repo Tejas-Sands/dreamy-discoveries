@@ -1,0 +1,1369 @@
+{
+  "type": "story",
+  "title": "Grandpa Tilly's Sweet Treat",
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "turtle",
+    "name": "Grandpa Tilly"
+  },
+  "intro": {
+    "text": "Hello my friend! Today Grandpa Tilly has a sweet surprise to show you!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "See you next time for more fun in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Sharing turns something small into joy for everyone.",
+  "moralRhyme": [
+    "Share your treat and share your smile!",
+    "Joy grows bigger all the while!"
+  ],
+  "youtube": {
+    "title": "Grandpa Tilly Learns to Share! 🍓 Sunny Meadow Toddler Story",
+    "description": "Grandpa Tilly finds a giant strawberry and learns that sharing with friends makes every treat sweeter! Join Taffy and Ben in Sunny Meadow for a lesson on kindness. #SunnyMeadow #PreschoolStory #ToddlerLearning #SharingIsCaring",
+    "tags": [
+      "sunny meadow",
+      "grandpa tilly",
+      "taffy bunny",
+      "ben bear",
+      "toddler story",
+      "preschool video",
+      "sharing lesson",
+      "kids animation",
+      "moral stories",
+      "character building",
+      "social emotional learning"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly walked slowly through the sunny green garden.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍓",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Look what I found growing right here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": {
+            "kind": "word",
+            "text": "STRAWBERRY",
+            "emoji": "🍓"
+          },
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "It was a huge, bright red strawberry!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "emoji": "🍓",
+            "color": "#ff3b3b"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "This sweet strawberry is all for me!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady, wins the sweet treat!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Grandpa Tilly carried his giant strawberry toward the quiet pond.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "At the pond, Taffy the bunny popped up.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Wow, Grandpa Tilly! That strawberry looks so juicy!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "It is my very special snack for today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Taffy wished she could have a sweet taste too.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "May I have a little bite, please?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh, but it is small, Taffy.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady, I will keep it whole.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly walked away to keep his strawberry to himself.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Next, Grandpa Tilly met Ben the bear under tall trees.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Mmm, that smells delicious!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yum",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "I love eating sweet treats with my friends!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Ben looked at the treat with a hopeful smile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "My treat is only big enough for one turtle.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍓"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Oh, okay Tilly. Enjoy your snack!",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "sigh",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Ben walked away with a quiet rumble in his tummy.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hmm, why do I feel a little sad?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "hmm",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍓",
+      "question": {
+        "answer": {
+          "text": "YES",
+          "emoji": "🍓"
+        }
+      },
+      "lines": [
+        {
+          "text": "Grandpa Tilly wants to eat his strawberry all alone.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Should Grandpa Tilly share his strawberry? Say YES!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! Sharing is such a kind choice! Great job!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "You are right! Sharing is always a kind choice.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sitting alone is not very much fun.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "sigh",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly looked at the bright strawberry in his hands.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A treat is nicer when friends smile together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly turned around and called out to his friends.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy! Ben! Come back, please!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Taffy popped over and Ben padded back with a smile.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Did you call us, Grandpa Tilly?",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "I want to share this sweet strawberry with both of you!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "hug",
+          "callout": {
+            "kind": "word",
+            "text": "SHARE",
+            "emoji": "❤️"
+          },
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Really? That is so kind of you!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "wow",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Grandpa Tilly carefully split the strawberry into three pieces.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🍓"
+          },
+          "sfx": []
+        },
+        {
+          "text": "One piece for Taffy, one for Ben, and one for me!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 3,
+      "prop": null,
+      "question": {
+        "answer": {
+          "text": "Happy",
+          "emoji": "😊"
+        }
+      },
+      "lines": [
+        {
+          "text": "Grandpa Tilly gave his friends a big piece of strawberry.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "How do Taffy and Ben feel now? Happy or sad?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "role": "question",
+          "sfx": []
+        },
+        {
+          "text": "Yes! They feel so happy to share!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": "🍓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Yes! They are so happy and full of joy!",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Mmm, this is the sweetest strawberry ever!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yum",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug for sweet Grandpa Tilly!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "That warm hug makes my heart burst with joy!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "hug",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "giggle",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Together, the three friends sat on the grass and munched.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray for friendly sharing!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Everything tastes better when we eat together!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Eating together is the best treat of all!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly noticed his piece was small, but his smile was huge.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sharing turned a tiny snack into a huge party!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "callout": {
+            "kind": "word",
+            "text": "JOY",
+            "emoji": "🌟"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady, friends make every day bright!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy bounced in circles and Ben clapped his big paws.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "spin",
+          "callout": null,
+          "sfx": [
+            "whoosh"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Thank you for sharing your strawberry, Grandpa Tilly!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You are the kindest turtle in Sunny Meadow!",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Sharing brings happiness to everyone around us!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The sun shone brightly over the three happy friends.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "dialogue",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "I learned that keeping things all to myself feels lonely.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But sharing creates big smiles for all my friends!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "When you give a little, you gain a lot of love!",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sharing is super sweet!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Let us play a game together now!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Slow and steady, we can play all day long!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly and his friends laughed and played in the sunshine.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "dance",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Best day ever in Sunny Meadow!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly was glad he chose to share his snack.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Remember, my friend, sharing makes everything sweeter!",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Share with your friends every day!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Big bear hugs for everyone!",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": [
+            "heart"
+          ]
+        },
+        {
+          "text": "Slow and steady, kindness always wins!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "meadow",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 0,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A tiny treat gave three friends a full day of delight.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Sharing turns something small into joy for everyone!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Yay for sharing!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "jump",
+          "callout": null,
+          "vox": [
+            {
+              "kind": "yay",
+              "at": "end"
+            }
+          ],
+          "voxPostSec": 0.8,
+          "sfx": [
+            "boing"
+          ]
+        },
+        {
+          "text": "Yay for friends!",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "What a wonderful day in Sunny Meadow!",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": [
+        "fox"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "turtle",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Grandpa Tilly learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Sharing turns something small into joy for everyone.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Share your treat and share your smile!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Joy grows bigger all the while!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "meadow",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Share your treat and share your smile!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Joy grows bigger all the while!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bear",
+        "duck"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "slug": "grandpa-tillys-sweet-treat-2026-09-30",
+  "topic": "Moral: Sharing turns something small into joy for everyone. Story problem: The hero has one special treat and a friend hopes to join.",
+  "targetMinutes": 5.5,
+  "voice": null,
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}
