@@ -144,7 +144,7 @@ jobs:
             SAVED=false
           fi
           if [ "$SAVED" = true ]; then git stash pop; fi
-          [ "$pushed" = true ]
+          [ "$pushed" = "true" ]
 
       - uses: actions/upload-artifact@v4
         with:
@@ -393,14 +393,19 @@ jobs:
           RELEASE_URL: ${{ steps.release.outputs.release_url }}
           QUEUE_ID: ${{ inputs.queue_id }}
         run: |
-          node -e '
-            import("./scripts/lib/catalog.mjs").then(async ({ upsertEpisode, summarizeScript }) => {
-              const fs = await import("node:fs");
-              const slug = process.env.SLUG;
-              const script = JSON.parse(fs.readFileSync(`public/generated/${slug}/script.json`, "utf8"));
-              const { estimateVideoSec } = await import("./scripts/lib/estimate.mjs");
-              upsertEpisode(summarizeScript(script, { durationSec: Math.round(estimateVideoSec(script)), renderedAt: new Date().toISOString(), release: process.env.RELEASE_URL || null, run: process.env.GITHUB_RUN_ID }));
-            })'
+          node --input-type=module -e '
+            import fs from "node:fs";
+            import { upsertEpisode, summarizeScript } from "./scripts/lib/catalog.mjs";
+            import { estimateVideoSec } from "./scripts/lib/estimate.mjs";
+            const slug = process.env.SLUG;
+            const script = JSON.parse(fs.readFileSync(`public/generated/${slug}/script.json`, "utf8"));
+            upsertEpisode(summarizeScript(script, {
+              durationSec: Math.round(estimateVideoSec(script)),
+              renderedAt: new Date().toISOString(),
+              release: process.env.RELEASE_URL || null,
+              run: process.env.GITHUB_RUN_ID
+            }));
+          '
           if [ -n "$QUEUE_ID" ]; then node scripts/queue.mjs done "$QUEUE_ID"; fi
           git config user.name "dreamy-discoveries[bot]"
           git config user.email "bot@users.noreply.github.com"
@@ -422,7 +427,7 @@ jobs:
             SAVED=false
           fi
           if [ "$SAVED" = true ]; then git stash pop; fi
-          [ "$pushed" = true ]
+          [ "$pushed" = "true" ]
 
       - uses: actions/upload-artifact@v4
         with:
