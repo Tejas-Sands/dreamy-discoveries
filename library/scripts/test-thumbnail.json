@@ -1,0 +1,23 @@
+{
+  "slug": "test-thumbnail",
+  "title": "Thumbnail Test",
+  "type": "story",
+  "hero": "ozzy",
+  "palette": "meadow",
+  "scenes": [
+    {
+      "background": "pond",
+      "holdSec": 10,
+      "lines": [
+        {
+          "speaker": "ozzy",
+          "text": "This frame makes a great thumbnail!",
+          "emotion": "happy",
+          "action": "wave",
+          "music": "playful",
+          "durationSec": 10
+        }
+      ]
+    }
+  ]
+}

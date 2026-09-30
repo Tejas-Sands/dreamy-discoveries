@@ -1,0 +1,30 @@
+{
+  "slug": "test-motion",
+  "title": "Motion Polish Test",
+  "type": "story",
+  "hero": "ben",
+  "palette": "meadow",
+  "scenes": [
+    {
+      "background": "pond",
+      "holdSec": 10,
+      "lines": [
+        {
+          "speaker": "ben",
+          "text": "I'm jumping around smoothly now!",
+          "emotion": "excited",
+          "action": "jump",
+          "music": "bouncy",
+          "durationSec": 5
+        },
+        {
+          "speaker": "ben",
+          "text": "And walking very naturally.",
+          "emotion": "proud",
+          "action": "walk",
+          "durationSec": 5
+        }
+      ]
+    }
+  ]
+}

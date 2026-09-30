@@ -1,0 +1,31 @@
+{
+  "slug": "test-story",
+  "title": "Story Gravity Test",
+  "type": "story",
+  "hero": "daisy",
+  "palette": "night",
+  "scenes": [
+    {
+      "background": "forest",
+      "holdSec": 10,
+      "lines": [
+        {
+          "speaker": "daisy",
+          "text": "It's so dark... I am a little bit scared.",
+          "emotion": "scared",
+          "action": "shake",
+          "music": "mysterious",
+          "durationSec": 5
+        },
+        {
+          "speaker": "ozzy",
+          "text": "Do not fear, Daisy. The stars are here to guide you.",
+          "emotion": "proud",
+          "action": "nod",
+          "music": "tender",
+          "durationSec": 5
+        }
+      ]
+    }
+  ]
+}

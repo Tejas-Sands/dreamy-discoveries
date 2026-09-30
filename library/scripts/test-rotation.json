@@ -1,0 +1,23 @@
+{
+  "slug": "test-rotation",
+  "title": "Rotation Test",
+  "type": "story",
+  "hero": "taffy",
+  "palette": "meadow",
+  "scenes": [
+    {
+      "background": "pond",
+      "holdSec": 10,
+      "lines": [
+        {
+          "speaker": "taffy",
+          "text": "Watch me spin around!",
+          "emotion": "excited",
+          "action": "spin",
+          "music": "playful",
+          "durationSec": 10
+        }
+      ]
+    }
+  ]
+}

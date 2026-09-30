@@ -1,0 +1,44 @@
+{
+  "slug": "test-multichar",
+  "title": "Multichar Test",
+  "type": "story",
+  "hero": "taffy",
+  "palette": "meadow",
+  "scenes": [
+    {
+      "background": "pond",
+      "holdSec": 10,
+      "lines": [
+        {
+          "speaker": "taffy",
+          "text": "Hi everyone!",
+          "emotion": "happy",
+          "action": "wave",
+          "music": "cheerful",
+          "durationSec": 2
+        },
+        {
+          "speaker": "ben",
+          "text": "Hello Taffy!",
+          "emotion": "happy",
+          "action": "nod",
+          "durationSec": 2
+        },
+        {
+          "speaker": "daisy",
+          "text": "Good morning!",
+          "emotion": "excited",
+          "action": "jump",
+          "durationSec": 2
+        },
+        {
+          "speaker": "ozzy",
+          "text": "Hoo hoo, hi!",
+          "emotion": "proud",
+          "action": "bow",
+          "durationSec": 4
+        }
+      ]
+    }
+  ]
+}

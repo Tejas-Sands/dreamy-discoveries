@@ -1,0 +1,98 @@
+name: Preview Render
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Task to test (e.g. rotation, motion, multichar, story)"
+        required: true
+        type: choice
+        options:
+          - rotation
+          - motion
+          - multichar
+          - story
+          - thumbnail
+      start:
+        description: "Start time in seconds"
+        required: false
+        default: "0"
+        type: string
+      duration:
+        description: "Duration in seconds"
+        required: false
+        default: "10"
+        type: string
+      scene:
+        description: "Specific scene ID to test"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: 22
+
+jobs:
+  preview:
+    name: Fast preview render
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      
+      - name: Cache Chrome Headless Shell + bundler cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.remotion
+            node_modules/.cache/webpack
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**') }}
+          restore-keys: |
+            remotion-${{ hashFiles('package-lock.json') }}-
+            
+      - run: npx remotion browser ensure
+      
+      - name: Prepare test script
+        env:
+          TASK: ${{ inputs.task }}
+        run: |
+          SLUG="test-$TASK"
+          echo "SLUG=$SLUG" >> $GITHUB_ENV
+          node scripts/plan.mjs --slug "$SLUG" --preview
+          
+      - name: Render preview snippet
+        env:
+          START: ${{ inputs.start }}
+          DURATION: ${{ inputs.duration }}
+        run: |
+          START_FRAME=$(echo "$START * 30" | bc | cut -d. -f1)
+          DUR_FRAMES=$(echo "$DURATION * 30" | bc | cut -d. -f1)
+          END_FRAME=$((START_FRAME + DUR_FRAMES - 1))
+          
+          TIMESTAMP=$(date +%Y%m%d%H%M%S)
+          OUT_DIR="output/preview"
+          mkdir -p "$OUT_DIR"
+          
+          if [ "${{ inputs.task }}" = "thumbnail" ]; then
+            OUT_FILE="$OUT_DIR/${{ inputs.task }}_${TIMESTAMP}.png"
+            echo "OUT_FILE=$OUT_FILE" >> $GITHUB_ENV
+            node scripts/render.mjs --slug "$SLUG" --thumbnail-only
+            mv out/episodes/$SLUG.png "$OUT_FILE"
+          else
+            OUT_FILE="$OUT_DIR/${{ inputs.task }}_${TIMESTAMP}.mp4"
+            echo "OUT_FILE=$OUT_FILE" >> $GITHUB_ENV
+            node scripts/render.mjs --slug "$SLUG" --frames "$START_FRAME-$END_FRAME" --scale 0.5 --out "$OUT_FILE"
+          fi
+          
+      - uses: actions/upload-artifact@v4
+        with:
+          name: preview-${{ inputs.task }}
+          path: ${{ env.OUT_FILE }}
+          retention-days: 3
