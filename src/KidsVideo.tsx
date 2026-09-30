@@ -124,9 +124,17 @@ const SceneView: React.FC<{
   const lineT = ref ? (frame - ref.from) / fps : 0; // negative while the lead-in recording plays
   const speechT = Math.max(0, lineT);
   const talking = !!ref && lineT >= 0 && lineT <= (ref.line.durationSec ?? 0);
-  const friendSpeaks = talking && ref!.line.speaker === "friend";
-  let mouth = talking && ref!.line.speaker === "character" ? mouthAt(ref!.line, lineT) : 0;
-  let friendMouth = friendSpeaks ? mouthAt(ref!.line, lineT) : 0;
+  
+  const speakerRole = ref?.line.speaker ?? "character";
+  const speakerKind = speakerRole === "character" ? scene.character : speakerRole === "friend" ? (scene.secondCharacter || "") : speakerRole;
+  
+  const getMouth = (kind: string) => (talking && speakerKind === kind ? mouthAt(ref!.line, lineT) : 0);
+  
+  const mainSpeaks = talking && speakerKind === scene.character;
+  const friendSpeaks = talking && speakerRole === "friend"; // Fallback for some legacy logic
+
+  let mouth = getMouth(scene.character);
+  let friendMouth = friendSpeaks || (scene.secondCharacter && speakerKind === scene.secondCharacter) ? getMouth(scene.secondCharacter!) : 0;
 
   // ── recorded vocalizations (giggles, gasps …) around the lines, on the raw sequence clock ──
   const vox = useMemo(
@@ -192,6 +200,15 @@ const SceneView: React.FC<{
   const linePunch = active?.line.role === 'praise' ? 0.012 * Math.exp(-speechT * 8)*profile.camera : 0;
   const beatPulse = party && upbeat ? 0.008 * hop(beat.beats) : 0;
 
+  // Camera drift and emotional push-in
+  const isEmotional = ref?.line.emotion === "sad" || ref?.line.emotion === "love" || ref?.line.emotion === "worried" || ref?.line.emotion === "thinking";
+  const pushIn = isEmotional && ref ? (Math.max(0, lineT) / Math.max(2, ref.line.durationSec ?? 2)) * 0.06 : 0;
+  const driftX = Math.sin(sceneT * 0.4) * 12;
+  const driftY = Math.cos(sceneT * 0.3) * 8;
+
+  const finalZoom = shotZoom + linePunch + beatPulse + pushIn;
+  const finalOrigin = { x: origin.x + driftX, y: origin.y + driftY };
+
   // ── impact shake & reveal punch ──
   const motionImpact = (motion:typeof mainMotion) => {
     const current = ['jump','stomp'].includes(motion.action) ? impactAt(motion.action,motion.t)*motion.blend : 0;
@@ -255,16 +272,21 @@ const SceneView: React.FC<{
     if (i === 1 && (hasCallouts || friend)) return null;
     const dir: 1 | -1 = i === 0 ? 1 : -1;
     const { dx, dy } = hopIn(sceneT - 0.2 - i * 0.1, dir, 700, ENTER_SEC);
+    
+    const isSpeaking = speakerKind === kind;
+    const extraMouth = getMouth(kind);
+    const extraEmotion = isSpeaking ? emotion : party ? 'excited' : 'happy';
+
     return (
       <div key={`extra${i}`} style={{ position: "absolute", ...characterBox(x, GROUND_Y + 30, EXTRA_W), transform: `translate(${dx}px, ${dy}px)` }}>
-        <Character kind={kind} emotion={party ? 'excited' : 'happy'} action={party ? "dance" : "idle"} width={EXTRA_W} flip={dir === -1} actionT={sceneT} musicT={musicT} clockT={musicT} motionScale={profile.amplitude} bpm={bpm} groove={party} />
+        <Character kind={kind} emotion={extraEmotion} action={party ? "dance" : "idle"} mouth={extraMouth} width={EXTRA_W} flip={dir === -1} actionT={sceneT} musicT={musicT} clockT={musicT} motionScale={profile.amplitude} bpm={bpm} groove={party} />
       </div>
     );
   };
 
   return (
     <AbsoluteFill>
-      <Camera kind={scene.camera ?? "still"} duration={slot.duration} frameOffset={-lead} shake={shake} punch={punch} zoom={shotZoom + linePunch + beatPulse} origin={origin}>
+      <Camera kind={scene.camera ?? "still"} duration={slot.duration} frameOffset={-lead} shake={shake} punch={punch} zoom={finalZoom} origin={finalOrigin}>
         <Background kind={scene.background} palette={palette} frameOffset={slot.from-lead} motion={profile.ambient} baked={baked} />
         {sadK > 0 ? <AbsoluteFill style={{ background: "#3b4fa0", opacity: 0.16 * sadK }} /> : null}
         {party ? (

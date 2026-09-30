@@ -112,8 +112,8 @@ export interface VoxCue {
 
 export interface Line {
   text: string;
-  /** who is "saying" it: character / friend (their mouth moves) or narrator (character just reacts) */
-  speaker?: "character" | "narrator" | "friend";
+  /** who is "saying" it: character / friend (their mouth moves) or narrator (character just reacts), or a specific character ID */
+  speaker?: "character" | "narrator" | "friend" | (string & {});
   emotion?: Emotion;
   action?: Action;
   callout?: Callout | null;

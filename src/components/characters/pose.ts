@@ -1,5 +1,5 @@
 import type { Action } from "../../lib/types";
-import { hop, easeOutBack } from "../../lib/anim";
+import { hop, easeOutBack, easeInOutSine } from "../../lib/anim";
 import { jumpPhase, JUMP_LAND, clapAmount, stompPhase, impactAt } from "../../lib/actionMotion";
 
 /**
@@ -363,23 +363,31 @@ function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = fa
       p.lean = 4 * Math.sin(t * 2);
       break;
     case "walk": {
-      const ph = Math.sin(t * TAU * 2.2);
+      // Sawtooth/triangle wave for better foot planting instead of pure sine
+      const speed = 2.2;
+      const walkT = (t * speed) % 1;
+      const ph = Math.sin(walkT * TAU);
       const absPh = Math.abs(ph);
-      p.y = -5 * absPh;
-      // one foot lifts and swings forward while the other plants and pushes off
-      p.legL = -13 * Math.max(0, ph);
-      p.legR = -13 * Math.max(0, -ph);
-      p.legSwL = 22 * ph;
-      p.legSwR = -22 * ph;
-      // arms swing OPPOSITE to their same-side leg (a proper gait)
-      p.armL = 18 - 28 * ph;
-      p.armR = 18 + 28 * ph;
+      // Extra bounce and squash on plant
+      p.y = -6 * absPh;
+      p.sx = 1 + 0.025 * Math.max(0, Math.sin(walkT * TAU * 2));
+      p.sy = 1 - 0.025 * Math.max(0, Math.sin(walkT * TAU * 2));
+      
+      // Foot planting: one leg sweeps backward linearly, the other lifts and swings forward fast
+      const sweep = (walkT * 2) % 1; // 0 to 1 twice per cycle
+      const leftPlanting = walkT < 0.5;
+      p.legSwL = leftPlanting ? 25 * (1 - 2 * sweep) : -25 + 50 * sweep;
+      p.legSwR = !leftPlanting ? 25 * (1 - 2 * sweep) : -25 + 50 * sweep;
+      p.legL = leftPlanting ? 0 : -15 * Math.sin(sweep * Math.PI);
+      p.legR = !leftPlanting ? 0 : -15 * Math.sin(sweep * Math.PI);
+      
+      // arms swing OPPOSITE to their same-side leg (a proper gait), clamped so they don't tuck behind
+      p.armL = Math.max(4, 18 + p.legSwL * 1.2);
+      p.armR = Math.max(4, 18 + p.legSwR * 1.2);
       // body sways into the supporting leg, head counter-balances
-      p.lean = 4 * ph;
-      p.head.tilt = -2 * ph;
-      p.head.dy = 2 * absPh;
-      p.sx = 1 + 0.015 * absPh;
-      p.sy = 1 - 0.015 * absPh;
+      p.lean = 5 * Math.sin(walkT * TAU);
+      p.head.tilt = -3 * Math.sin(walkT * TAU);
+      p.head.dy = 3 * absPh;
       break;
     }
     case "cry":
@@ -397,6 +405,14 @@ function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = fa
       p.head.tilt = 4;
       p.eyes.mode = Math.sin(t * TAU * 1.5) > 0.3 ? "happy" : "open";
       break;
+  }
+
+  // Blinking: runs after the action switch so actions that explicitly set eye mode (nod→happy, cry→closed) take priority
+  if (!legless && p.eyes.mode === "open") {
+    const blinkCycle = (t + s * 0.7) % 4;
+    if (blinkCycle > 3.78 && blinkCycle < 3.92) {
+      p.eyes.mode = "closed";
+    }
   }
 
   // elbows: hanging arms relax into a gentle bend; raised arms straighten out
@@ -422,7 +438,7 @@ function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = fa
 
 /** Blend numeric rig channels, retaining signed spin width and discrete eye states. */
 export function blendPoses(from: Pose, to: Pose, progress: number): Pose {
-  const k = Math.max(0, Math.min(1, progress));
+  const k = easeInOutSine(Math.max(0, Math.min(1, progress)));
   const mix = (a: number, b: number) => k === 0 ? a : k === 1 ? b : a + (b - a) * k;
   const result: Pose = {
     ...from,
