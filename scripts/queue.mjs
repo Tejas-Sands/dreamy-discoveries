@@ -3,6 +3,8 @@
  *   node scripts/queue.mjs list
  *   node scripts/queue.mjs pop            → prints the first pending entry as JSON, marks it "running"
  *   node scripts/queue.mjs done <id>      → marks it done
+ *   node scripts/queue.mjs retry <id> --slug <saved> → returns a failed item to pending
+ *   node scripts/queue.mjs remember <id> --slug <saved> → checkpoints its permanent script
  *   node scripts/queue.mjs add --topic "..." --type story   (or --template counting --hero duck)
  * Entries: { id, status: pending|running|done, topic|template, type, hero, place, minutes, addedAt }
  */
@@ -27,9 +29,17 @@ export function writeQueue(q) {
 }
 
 function output(entry) {
-  const flat = { id: entry.id ?? "", topic: entry.topic ?? "", template: entry.template ?? "", type: entry.type ?? "story", hero: entry.hero ?? "", place: entry.place ?? "", minutes: String(entry.minutes ?? "5.5"), empty: "false" };
+  const flat = { id: entry.id ?? "", slug: entry.slug ?? "", topic: entry.topic ?? "", template: entry.template ?? "", type: entry.type ?? "story", hero: entry.hero ?? "", place: entry.place ?? "", minutes: String(entry.minutes ?? "5.5"), empty: "false" };
   console.log(JSON.stringify(flat));
   if (process.env.GITHUB_OUTPUT) for (const [k, v] of Object.entries(flat)) fs.appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`);
+}
+
+export function retryEntry(queue, id, slug = '') {
+  const entry = queue.items.find(item => item.id === id);
+  if (!entry || entry.status === 'done') return false;
+  entry.status = 'pending';
+  if (slug) entry.slug = slug;
+  return true;
 }
 
 function main() {
@@ -65,6 +75,22 @@ function main() {
       }
       break;
     }
+    case 'remember': {
+      const entry = q.items.find(item => item.id === arg);
+      if (!entry || entry.status === 'done') break;
+      if (!args.slug || !fs.existsSync(path.join(LIBRARY_DIR, 'scripts', `${args.slug}.json`))) {
+        throw new Error('remember requires a saved library script slug');
+      }
+      entry.slug = String(args.slug);
+      writeQueue(q);
+      break;
+    }
+    case 'retry': {
+      // Only reuse a slug if it reached durable storage before the failure.
+      const slug = args.slug && fs.existsSync(path.join(LIBRARY_DIR, 'scripts', `${args.slug}.json`)) ? String(args.slug) : '';
+      if (retryEntry(q, arg, slug)) writeQueue(q);
+      break;
+    }
     case "add": {
       const id = `q${Date.now().toString(36)}`;
       q.items.push({ id, status: "pending", addedAt: new Date().toISOString().slice(0, 10), ...(args.topic ? { topic: args.topic } : {}), ...(args.template ? { template: args.template } : {}), type: args.type ?? (args.template ? "rhyme" : "story"), ...(args.hero ? { hero: args.hero } : {}), ...(args.place ? { place: args.place } : {}), minutes: Number(args.minutes ?? 5.5) });
@@ -73,8 +99,8 @@ function main() {
       break;
     }
     default:
-      console.log("usage: queue.mjs list | pop | done <id> | add --topic ... | add --template ...");
+      console.log("usage: queue.mjs list | pop | done <id> | remember <id> --slug saved | retry <id> [--slug saved] | add --topic ... | add --template ...");
   }
 }
 
-main();
+if (process.argv[1] && path.resolve(process.argv[1]) === new URL(import.meta.url).pathname) main();

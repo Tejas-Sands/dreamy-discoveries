@@ -1,0 +1,1497 @@
+{
+  "slug": "standby-tillys-wobbly-snow-friend",
+  "title": "Tilly's Wobbly Snow Friend",
+  "type": "story",
+  "template": null,
+  "palette": "ocean",
+  "mainCharacter": {
+    "kind": "turtle",
+    "name": "Grandpa Tilly"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Come hear Grandpa Tilly's story in Sunny Meadow today!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Combining useful ideas and testing them together can make a shared project stronger.",
+  "moralRhyme": [
+    "Try my thought and yours in snow!",
+    "Build together, watch it grow!"
+  ],
+  "youtube": {
+    "title": "Tilly's Wobbly Snow Friend | Sunny Meadow Story for Kids",
+    "description": "Grandpa Tilly and Daisy each try a sensible snow-building idea, but neither whole design stays together. Tilly suggests combining Daisy’s broad base with his firm snow joints and testing each layer together. A gentle story about collaboration for preschool families. #KidsStories #SunnyMeadow",
+    "tags": [
+      "kids story",
+      "preschool story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Grandpa Tilly",
+      "collaboration"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly held a paper scarf beside the snowy path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let us build a snow friend to wear this scarf.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy spread her wings and chose a clear snow patch.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "❄️",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They pressed a little square for the scarf to rest on.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly packed snow into a neat round ball nearby.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My paws can press these snowy edges firmly together.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "His first round ball kept its shape when he lifted it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That ball is ready; I will gather some more snow.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly wanted a tall snow friend with three round parts.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He stacked two equal balls on a small bottom ball.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⚽"
+          },
+          "sfx": []
+        },
+        {
+          "text": "A tall friend will show our paper scarf very nicely.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "The upper ball leaned before he could add the scarf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly caught it, and the narrow stack sank sideways.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The bottom ball does not give that stack much room.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly pressed the joints firmly and tried stacking again.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The joints held briefly, but the little base tipped.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My firm joints cannot keep this narrow bottom upright.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy gathered snow into a much wider mound nearby.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My wide mound has room for a head on top.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly joined her, leaving his fallen round balls behind.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "⛄",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They shaped a small head and set it on the mound.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The wide bottom stayed steady on the flat snow patch.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This base gives our friend a much better place to stand.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy set the paper scarf beside the loose snow head.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The head rolled gently down the mound's smooth shoulder.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our wide bottom stayed, but the head slipped away.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly retrieved the head and brushed snow off the scarf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Two different piles had failed to become a whole friend.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "We have useful pieces, but neither plan works by itself.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "He looked from his packed joints to Daisy's wide mound.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My bottom stayed still when our little head slid off.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My joints stayed firm when my narrow bottom tipped.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⛄",
+      "question": {
+        "answer": {
+          "text": "Compare their ideas",
+          "emoji": "🤝"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should they keep separate piles, or compare their useful ideas?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Each snow pile can teach them something useful.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly placed one firm ball beside Daisy's broad mound.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⚽"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Could we use your wide base and my packed joints?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes; we can try both ideas in the same friend.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "❄️",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They widened the base a little more with loose snow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy checked each side while Tilly packed its edges.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There is space beneath the whole next ball now.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly made a shallow bowl in the top of the base.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This little hollow will keep the middle from rolling.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy lifted the middle ball into that shallow bowl.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly pressed soft snow around the meeting edges.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy held the ball while he filled a loose gap.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your steady wing leaves my paws free to pack.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They let go and watched the middle for a moment.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It stayed still, supported by the broad snowy base.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our two ideas are doing different helpful jobs together.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⛄"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy shaped the head smaller than the middle ball.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly smoothed a little hollow where the head would sit.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A smaller head will give this middle less to carry.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "The head was ready, and the scarf waited on its square.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Shall we add them both before checking this middle?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want to check our new joint one more time.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "⛄",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⛄",
+      "question": {
+        "answer": {
+          "text": "Test the middle first",
+          "emoji": "⛄"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should they add the scarf now, or test the middle first?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Exactly! A gentle check comes before another piece.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They touched opposite sides with a gentle paw and wing.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The middle stayed settled in its soft shallow bowl.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy lowered the small head onto Tilly's hollow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly packed a ring of snow around the new joint.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will hold the head until your ring is firm.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They took their paws and wings away at the same time.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Their broad base and both packed joints stayed steady.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We used your good idea and mine in each layer.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly gave Daisy one end of the little paper scarf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛄"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Let us tuck this lightly around the middle together.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They moved slowly so neither pulled on the snow head.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "The scarf rested against the middle without bending the stack.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It fits our snow friend just as we hoped.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly stepped back and admired their three steady shapes.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "❄️",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy drew two little dots on a scrap of paper.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Tilly pressed it gently against the snowy head's front.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now our snow friend has a friendly little face.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They made a paw print and wing print beside the base.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Both marks belong here because both ideas helped us build.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And both of us tested the parts along the way.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "A little snow lump fell from Tilly's scarf square.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He set it beside the prints as a tiny seat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our snow friend even has somewhere for our scarf box.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "snow",
+      "character": "turtle",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⛄",
+      "question": null,
+      "lines": [
+        {
+          "text": "They sat nearby and enjoyed their finished snowy project.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The scarf stayed draped upon the friend they built together.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": [
+        "bunny"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "snow",
+      "character": "turtle",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Combining useful ideas and testing them together can make a shared project stronger.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "snow",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Try my thought and yours in snow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Build together, watch it grow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "duck",
+        "bunny"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "snow",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Try my thought and yours in snow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Build together, watch it grow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Grandpa Tilly and Daisy each try a sensible snow-building idea, but neither whole design stays together. Tilly suggests combining Daisy’s broad base with his firm snow joints and testing each layer together.",
+    "moralTheme": "collaboration",
+    "heroGoal": "Build a snow friend that can wear their little paper scarf.",
+    "firstAttempt": "Stack tall narrow snowballs alone without a broad base.",
+    "secondAttempt": "Start a separate flat snow mound that supports a head but lacks packed joints.",
+    "consequence": "Neither snow shape stays together long enough to hold their scarf.",
+    "repair": "Combine Daisy’s broad base and Tilly’s carefully packed joints, checking each layer together.",
+    "ending": "Their stable snow friend wears the scarf and they leave a shared paw-and-wing signature.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

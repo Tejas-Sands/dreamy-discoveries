@@ -1,0 +1,1515 @@
+{
+  "slug": "standby-ozzys-one-star-at-a-time-map",
+  "title": "Ozzy's One-Star-at-a-Time Map",
+  "type": "story",
+  "template": null,
+  "palette": "night",
+  "mainCharacter": {
+    "kind": "owl",
+    "name": "Professor Ozzy"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Come hear Professor Ozzy's story in Sunny Meadow today!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Quiet courage can begin with one small step and grow as you try the next.",
+  "moralRhyme": [
+    "Place one star and find your way!",
+    "Try one little step today!"
+  ],
+  "youtube": {
+    "title": "Ozzy's One-Star-at-a-Time Map | Sunny Meadow Story for Kids",
+    "description": "Professor Ozzy feels unsure while drawing a pretend moon-camp map and tries rushing the whole trail, then copying Fiona’s. He finds a quiet way to begin by choosing one paper star and building his own story path one step at a time. A gentle story about quiet courage for preschool families. #KidsStories #SunnyMeadow",
+    "tags": [
+      "kids story",
+      "preschool story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Professor Ozzy",
+      "quiet courage"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy unfolded a dark paper map for pretend space.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona set a folded paper tent beside a cardboard moon.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our make-believe moon camp needs a little story trail.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "They were playing safely at home with paper space shapes.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The tent can be our starting place for pretend explorers.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want the trail to visit my moon garden too.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy drew a small flower beside the cardboard moon.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That flower gave his pretend garden its very first mark.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He poured a handful of paper stars beside the map.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There were many ways between the tent and garden.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I need to choose every turn before I can begin.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy tried drawing the whole winding trail in one go.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "His pencil stopped where three possible paths crossed together.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "This turn could go here, or there, or somewhere else.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He moved a star, then changed his mind and moved it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can pause; our pretend camp is happy to wait.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I thought I would know all the steps at once.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona made a quick trail on her own small card.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It went straight from a paper tent to a story mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps I can copy your trail instead of choosing mine.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦉",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy copied its straight line across his bigger map.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His line passed the garden without reaching its flower mark.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That path reaches my mat, but misses your moon garden.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He drew a longer branch and rubbed it out again.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The copied trail did not tell the story he wanted.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I have lines, but still no place to begin.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy folded his wings and looked at the unused stars.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He felt a little worried about choosing a wrong step.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can sit beside you while you think about it.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "The paper tent had a small empty space beside its door.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I could place one star there without deciding everything else.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That little space looked less puzzling than the whole map.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "No, begin with one star",
+          "emoji": "⭐"
+        }
+      },
+      "lines": [
+        {
+          "text": "Must Ozzy finish every star before he can begin?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! One small first step is already a beginning.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy chose a round-edged star from the little paper pile.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My first step will be just outside our pretend tent.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He laid the star down and left his wing there.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona looked at the tent door and his first star.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That place leaves room for a traveler to start out.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I did choose that one, even while feeling unsure.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He traced a short line from the tent to the star.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The line needed only a small move of his pencil.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can check this little part before choosing another.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy looked toward the flower that marked his moon garden.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A blank space lay between his first star and that flower.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One more star could move the story toward my garden.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He placed the second star, then checked both spaces.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your little steps point toward the place you wanted.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They are my choices, and I can still change one.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy shifted the second star to leave a wider gap.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His pencil joined them without crossing the paper tent.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That small change made the line easier to follow.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He picked up another star and studied the garden mark.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The next space would bring his story almost to its flower.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I do not need to draw the ending quite yet.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦉",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "Choose one more step",
+          "emoji": "👣"
+        }
+      },
+      "lines": [
+        {
+          "text": "What comes after placing one star on the map?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Good thinking! Ozzy can check one step, then try another.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy set down the third star and joined its short line.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Three small choices had brought him near his moon garden.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He added a fourth star directly beside the flower mark.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your explorer can visit the garden on this path now.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will draw a little stop here to tell its story.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy gave the pretend garden a tiny paper flower bed.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I began while unsure, and kept choosing one piece at a time.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He checked his own trail before adding the final destination.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona placed their little story mat beyond the moon garden.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like the journey to finish beside this mat?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, after the garden; I want time to enjoy it.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He added a star between the garden and story mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then he joined the last short piece of the trail.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There is my ending, connected to my own beginning.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "They moved a folded paper marker out of the pretend tent.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy told a short sentence at each star they reached.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our pretend traveler stops here to look at moon flowers.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "The paper marker reached the story mat after the garden.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your map took us to every place you hoped for.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I still felt unsure sometimes, but I could take a step.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy tucked an extra paper star beside the map's edge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tomorrow I may add a place by choosing one star again.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona saved an empty space without asking him to decide now.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "space",
+      "character": "owl",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their pretend moon camp rested on the finished paper trail.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy began his whole story with one little shining step.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": [
+        "bunny"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "space",
+      "character": "owl",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Quiet courage can begin with one small step and grow as you try the next.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "space",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Place one star and find your way!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Try one little step today!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "fox"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "space",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Place one star and find your way!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Try one little step today!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bunny"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Professor Ozzy feels unsure while drawing a pretend moon-camp map and tries rushing the whole trail, then copying Fiona’s. He finds a quiet way to begin by choosing one paper star and building his own story path one step at a time.",
+    "moralTheme": "quiet-courage",
+    "heroGoal": "Draw a pretend moon-camp story map with a trail of paper stars.",
+    "firstAttempt": "Draw the whole star trail at once and stop when the many choices feel overwhelming.",
+    "secondAttempt": "Copy Fiona’s quick trail without choosing his own steps, so the path misses his story places.",
+    "consequence": "His map remains unfinished and he feels unable to begin his own story.",
+    "repair": "Choose and place one star near the paper tent, then add and check one reachable step at a time.",
+    "ending": "His finished map links the pretend tent, paper moon garden, and story mat, and he narrates its journey.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "lullaby.wav",
+    "bpm": 72,
+    "mood": "lullaby"
+  },
+  "directed": true
+}

@@ -1,0 +1,1445 @@
+{
+  "slug": "standby-taffy-and-the-two-paw-umbrella",
+  "title": "Taffy and the Two-Paw Umbrella",
+  "type": "story",
+  "template": null,
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Taffy"
+  },
+  "palette": "ocean",
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Hello! I'm Taffy. Come share our Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for being here. See you again in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Sharing shelter works when you listen and make room at your friend’s pace.",
+  "moralRhyme": [
+    "Match our pace through gentle rain!",
+    "Room for two along the lane!"
+  ],
+  "youtube": {
+    "title": "Taffy and the Two-Paw Umbrella | Sunny Meadow Moral Story for Kids",
+    "description": "Taffy wants to reach a covered reading bench with Grandpa Tilly under one umbrella. Walking ahead and then urging him to hurry leave the shelter uneven, so she listens, centers the umbrella, and matches their steps. Sharing shelter works when you listen and make room at your friend’s pace. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Taffy",
+      "Grandpa Tilly",
+      "kindness"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rain pattered on Taffy's umbrella, but not over Grandpa Tilly.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy, your umbrella is traveling faster than my shoulder.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She stopped with a splash beside a shallow puddle.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "The friends were walking toward a covered reading bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want to reach our book before the rain gets heavier.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our bench is close. We have time to walk together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy opened their umbrella wide over the little path.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! This umbrella has room for two!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly carried their book inside its dry cloth bag.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'll walk on this side so our bag stays tucked in.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And I'll hold the umbrella handle in both paws.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They started beside each other under the curved canopy.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy spotted the bright bench at the path's far end.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There it is! Follow me. I know the way.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her quick steps carried the umbrella ahead of Tilly.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "I know the way too. Please stay beside me.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy stopped, then started as soon as Tilly approached.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You caught up! Now we can hurry toward the bench.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "The umbrella bobbed forward again with Taffy's bouncy steps.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'm walking comfortably, but your shelter keeps moving away.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Little raindrops dotted the edge of Tilly's shoulder cloth.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'll call out where to step. That should help.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She pointed to a dry patch and hurried toward it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can choose my steps. I need the umbrella near me.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy looked back at Tilly's steady, unhurried footfalls.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Maybe you could make your steps bouncy like mine.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She hopped in place, lifting the umbrella with each bounce.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Hop here, then hop there! We can be very quick.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hopping isn't my comfortable pace. Walking works for me.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He stepped around the puddle with a careful, easy turn.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy tipped the umbrella to keep her own ears covered.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Just a few faster steps and we'll be there.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The far rim lifted, leaving Tilly's shoulder outside again.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'll pause here until our umbrella can cover us both.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly stood beside a small sheltered hedge.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy stopped hopping and looked at the tilted canopy.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "☂️",
+      "question": {
+        "answer": {
+          "text": "Listen to his pace",
+          "emoji": "👂"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Taffy ask Tilly to hop, or listen to his pace?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Tilly can show the pace that works for him.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "My ears are dry, but your shoulder got little drops.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The book is dry too. I kept it tucked inside.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He adjusted the bag easily and brushed his shoulder cloth.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy held the umbrella still between both their faces.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I said we were sharing, but I kept going ahead.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sharing this roof means moving it with both of us.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "What pace feels comfortable when you carry our book?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "These steady steps. I can show you beside the hedge.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly walked three easy steps and stopped beside Taffy.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "☂️"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy tried the same steps, keeping her feet low.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can walk like that without bouncing the handle.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And we can watch the rain making rings in puddles.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "She checked the umbrella's shadow over their two shoulders.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "☂️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Is this middle spot good for both of us?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A little toward me. There, now both shoulders fit.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "A raindrop tapped the umbrella right above their shared handle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I hear it! It sounds like a tiny drum.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy kept both paws steady as Tilly stepped beside her.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "☂️",
+      "question": {
+        "answer": {
+          "text": "Over both friends",
+          "emoji": "☂️"
+        }
+      },
+      "lines": [
+        {
+          "text": "Where should their umbrella stay while they walk?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That’s right! Centering it makes room for both shoulders.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'm sorry I hurried instead of listening to you.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She centered the umbrella and matched Tilly's next gentle step.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's walk together. Tell me if the shelter shifts.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "They passed the puddle without anyone pulling or hopping.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This pace is comfortable. The canopy is staying centered.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I still have room for both my tall ears.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly pointed at wide raindrop rings beside the path.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That ring met another one and made a little pattern.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy paused beside him, holding their umbrella in place.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Hop, hop, hooray! We found a rain-ring picture together!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'm glad we had time to notice it here.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They resumed their shared steps toward the covered bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "A light breeze nudged the umbrella toward the hedge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It shifted a little. I'll move the handle back.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That’s just right. Thank you for checking my side.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "At the bench, Tilly placed the book on dry wood.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We arrived together, and our book stayed dry too.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy closed the umbrella where the drips couldn't touch it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Will you choose the first page while I sit beside you?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This one! It has a picture of a rainy lane.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Their two shoulders rested comfortably beneath the bench's roof.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "☂️"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "rainy",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "☂️",
+      "question": null,
+      "lines": [
+        {
+          "text": "The umbrella leaned nearby while they opened their shared book.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! A dry seat for both of us!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Outside, two raindrop rings met in a little puddle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": [
+        "owl"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "rainy",
+      "character": "bunny",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Sharing shelter works when you listen and make room at your friend’s pace.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "rainy",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Match our pace through gentle rain!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Room for two along the lane!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "owl"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "rainy",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Match our pace through gentle rain!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Room for two along the lane!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "turtle"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Taffy wants to reach a covered reading bench with Grandpa Tilly under one umbrella. Walking ahead and then urging him to hurry leave the shelter uneven, so she listens, centers the umbrella, and matches their steps.",
+    "moralTheme": "kindness",
+    "heroGoal": "Reach the covered reading bench with Tilly while sharing one umbrella.",
+    "firstAttempt": "Walk ahead while calling that Tilly can follow.",
+    "secondAttempt": "Ask Tilly to hurry with hopping steps while tilting the umbrella toward herself.",
+    "consequence": "Tilly pauses with a damp shoulder and the walk no longer feels shared.",
+    "repair": "Ask about Tilly’s pace, center the canopy, and walk beside him.",
+    "ending": "Both reach the dry reading bench and enjoy the book they carried.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

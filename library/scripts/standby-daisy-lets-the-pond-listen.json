@@ -1,0 +1,1501 @@
+{
+  "slug": "standby-daisy-lets-the-pond-listen",
+  "title": "Daisy Lets the Pond Listen",
+  "type": "story",
+  "template": null,
+  "palette": "ocean",
+  "mainCharacter": {
+    "kind": "duck",
+    "name": "Daisy"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Let's join Daisy for a little Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for watching our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Leaving quiet pauses helps friends hear each other and make music together.",
+  "moralRhyme": [
+    "Let a quiet pause belong!",
+    "Leave your friend a space in song!"
+  ],
+  "youtube": {
+    "title": "Daisy Lets the Pond Listen | Sunny Meadow Story for Kids",
+    "description": "Daisy wants to sing a pond song with Fiona, but loud singing and early answers hide Fiona’s rhythm. Daisy listens to the whole pattern and gives each friend a clear musical turn. A gentle preschool story from Dreamy Discoveries. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Daisy",
+      "listening"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy wanted a pond song with two happy sounds.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona brought a little stick for tapping the bank.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will sing, and you can tap beside me.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy hummed a tune beside the still pond water.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack a-lacka-doodle! Our song needs a tapping part.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "I have a pattern with a quiet space inside.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona tapped twice, then lifted her little tapping stick.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tap, tap, wait. Then your singing can begin.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy started her tune before the quiet space arrived.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Come along, Fiona! My song is starting right now.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona's next tap disappeared beneath Daisy's long, loud note.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That quiet space was part of my tapping pattern.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy thought their sounds needed a stronger singing voice.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will sing louder so our parts stay together.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She opened her bill and sang across the water.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona tapped softly, trying to keep the little pattern.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy could hear her own voice above every tap.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Where is your beat? I cannot find it anywhere.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "My tapping is here, underneath your big long note.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona showed the pattern again with her small stick.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy's singing covered the last tap all over again.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "The pond song sounded like two separate songs instead.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "My louder voice did not help us sing together.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I need you to hear the quiet part too.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎵",
+      "question": {
+        "answer": {
+          "text": "Listen quietly",
+          "emoji": "👂"
+        }
+      },
+      "lines": [
+        {
+          "text": "Would louder singing help Daisy hear Fiona’s tapping?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Quiet listening helps Daisy hear the missing beat.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy tried a different way to keep them together.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can guess your next tap before it comes.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She watched Fiona lift the stick and sang immediately.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐢",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "But Fiona was holding the stick for a pause.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Not yet, Daisy. This is my waiting beat.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy stopped her note with a small surprised quack.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Perhaps the next lifted stick means I should sing.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She hurried into another note before Fiona had finished.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I was about to tap once more right there.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona set the stick down beside a smooth stone.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I cannot finish my part while yours keeps starting.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The little tapping place grew quiet beside the pond.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy looked at the stick resting on the bank.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I wanted two sounds, but I kept hiding yours.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I still want to make our pond song together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🫧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy closed her bill and sat beside her friend.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Will you show me your whole pattern once more?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona picked up the stick and began very softly.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tap, tap, a pause, then one last little tap.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Daisy heard every sound without adding any singing words.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There is a quiet space before your final tap.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Yes! And another space after my pattern is finished.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "May I start my song in that second space?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona nodded, keeping the stick still in her paws.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "They chose a small nod to show each finished turn.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will watch your nod and hear every tap.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I will listen when your singing turn begins.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎵",
+      "question": {
+        "answer": {
+          "text": "Wait for her turn",
+          "emoji": "🎵"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Daisy wait until Fiona finishes her pattern?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A full turn gives both friends room for music.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona tapped twice, waited, and tapped one last time.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Daisy stayed quiet until Fiona gave their little nod.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Here comes my soft pond song, just for us.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy sang a short tune instead of a long note.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She nodded and made room for Fiona's tapping answer.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now my stick has its own place in our song.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Quack a-lacka-doodle! I heard your whole tapping answer.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Fiona smiled and tapped the pattern for another verse.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy waited through both pauses with a happy wiggle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "A soft breeze made tiny ripples on the pond.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's put a little waiting space beside the ripples.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can listen to the water in that space.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐢",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy shortened her verse and left two quiet beats.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona's small taps sounded clearly across their shared pause.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There, your part fits because I left it room.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "They tried the same song from its first soft note.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy watched Fiona's stick without guessing the next sound.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your careful waiting makes this easy to play together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Would you like a turn choosing our next tune?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona tapped a new pattern with a longer pause.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy listened first, then shaped her song around it.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🫧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their song grew softer as the afternoon settled down.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Each quiet space held a tap, a ripple, or rest.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack a-lacka-doodle! The pond has a turn as well.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "One last pattern, and then we can sit quietly.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Daisy gave Fiona the whole last tapping turn.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She added a tiny tune only after Fiona nodded.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "duck",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "The two friends rested beside their little music stone.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I liked hearing the small sounds in our song.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona tapped a soft goodbye, and Daisy listened smiling.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "pond",
+      "character": "duck",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Leaving quiet pauses helps friends hear each other and make music together.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "pond",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Let a quiet pause belong!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Leave your friend a space in song!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "fox",
+        "bunny"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "pond",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Let a quiet pause belong!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Leave your friend a space in song!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Daisy wants to sing a pond song with Fiona, but loud singing and early answers hide Fiona’s rhythm. Daisy listens to the whole pattern and gives each friend a clear musical turn.",
+    "moralTheme": "listening",
+    "heroGoal": "Sing a shared pond song with Fiona.",
+    "firstAttempt": "Sing louder over Fiona’s tapping to pull the rhythm together.",
+    "secondAttempt": "Guess Fiona’s next beat and sing before her tapping finishes.",
+    "consequence": "Fiona puts her tapping stick down because her part cannot be heard.",
+    "repair": "Hear Fiona’s whole rhythm, agree on a nod, and leave two quiet beats.",
+    "ending": "Daisy waits for Fiona’s complete tapping answer before singing the next verse.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

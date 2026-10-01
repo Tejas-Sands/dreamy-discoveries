@@ -1,0 +1,1296 @@
+{
+  "slug": "standby-fiona-keeps-her-word",
+  "title": "Fiona Keeps Her Word",
+  "type": "story",
+  "template": null,
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "fox",
+    "name": "Fiona"
+  },
+  "moral": "Following through on a promise helps friends trust us.",
+  "moralRhyme": [
+    "Keep your word; do your part!",
+    "Promises come from the heart!"
+  ],
+  "topic": "Authored standby story: Fiona Keeps Her Word",
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "A little choice can make a big difference. Let's watch!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "youtube": {
+    "title": "Fiona Keeps Her Word | Sunny Meadow Moral Story for Kids",
+    "description": "Following through on a promise helps friends trust us. A gentle Sunny Meadow story for preschool children. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Fiona"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy's story blanket was missing one corner.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "It was folded in Fiona's little basket.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our story circle will be ready very soon.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'll bring the blanket before you open the book.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you, Fiona. I'll arrange our story spot.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona nodded and lifted the basket by its handle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "She wanted the cozy story circle to feel special.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever! I'll get there in a flash.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then a bright spinning leaf caught her eye.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "The leaf whirled across the soft forest path.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I could catch it with one speedy hop!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona set her basket beside a broad tree.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "One hop became two, then three happy spins.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "count",
+            "emoji": "🐰",
+            "count": 3
+          },
+          "sfx": []
+        },
+        {
+          "text": "She gathered leaves in a neat little pile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll bring the blanket after one more try.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "At the story spot, Professor Ozzy opened his book.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He looked at the bare ground beside him.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The blanket hasn't arrived. I wonder what happened.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "Finish her promise!",
+          "emoji": "💛"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Fiona finish her promise before playing?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Her friend is counting on that help.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona spotted him waiting through the green branches.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "📖",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Maybe he can start without the blanket today.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But the soft, cozy sitting place was still missing.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "She remembered her own clear words that morning.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I said I'd bring it before the book opened.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The leaf game suddenly felt less important.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona picked up the basket and hurried forward.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A loose blanket corner slipped beneath her paw.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oops! Rushing makes this harder to carry safely.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "She stopped and gathered the blanket corner again.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I need to finish my promise, not just hurry.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Professor Ozzy looked up as she came closer.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "I got distracted by a spinning leaf.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You waited because I didn't bring the blanket.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I did wait. I was counting on your help.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona listened and set the basket on the ground.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'm sorry. I'll bring it properly now.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you. Let's see what needs doing next.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "The blanket was too wide to carry unfolded.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "First, I'll tuck this loose corner inside.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She folded it once across the middle.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Another corner slipped out beside the basket handle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever! I can try a better fold.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She placed the blanket flat on a clean stone.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona matched the corners and smoothed the middle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now the blanket made a small, tidy bundle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That fits. I don't need to race with it.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "She lifted the basket and took a careful step.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The leaf spun past her paw once more.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can play when my promised job is done.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy waited beside the little story spot.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona looked at the short path ahead of her.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One careful step, and then another careful step.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📖"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "One small step!",
+          "emoji": "💛"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can Fiona choose a smaller careful step?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Small steps help her finish the promise.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "She reached the circle with every corner tucked inside.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Here it is. Shall I spread it out?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, please. Leave a little space beside the book.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona unfolded the blanket slowly across the soft grass.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She straightened the corner that had slipped before.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now there's room for us to sit comfortably.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "She put the empty basket beside the tree.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My promise is finished. The cozy spot is ready.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Professor Ozzy settled onto their soft shared blanket.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Thank you for coming back and following through.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can count on me to finish my part.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona sat beside him with a warm, quiet smile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy opened the book at its first picture.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together! Our story can begin.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona listened as the gentle story unfolded.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Afterward, they watched a leaf spin through the trees.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever! Now there's time to play.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her finished promise made their whole afternoon feel cozy.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "forest",
+      "character": "fox",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Fiona learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Following through on a promise helps friends trust us.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "forest",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Keep your word; do your part!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Promises come from the heart!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "forest",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Keep your word; do your part!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Promises come from the heart!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "pan",
+      "gag": null,
+      "extras": [
+        "bear",
+        "duck"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

@@ -2,136 +2,29 @@
  * Step 1: topic -> validated script.json, written to public/generated/<slug>/script.json
  *
  * Usage: node scripts/generate-script.mjs --topic "a shy turtle who learns to share" --type story
- * Provider is auto-detected from env keys (GEMINI_API_KEY / GROK_API_KEY /
- * GROQ_API_KEY / OPENROUTER_API_KEY / GITHUB_TOKEN) or set explicitly via
+ * Writers fail over across configured free providers (GEMINI_API_KEY /
+ * GROQ_API_KEY / OPENROUTER_API_KEY) or set explicitly via
  * LLM_BASE_URL + LLM_API_KEY + LLM_MODEL.
  *
  * The LLM only writes CONTENT (words, emotions, actions, questions). Everything
  * that makes the video engaging is enforced afterwards by the Director
  * (scripts/lib/director.mjs), which also fixes whatever the model got wrong.
  */
-import { z } from "zod";
-import { loadDotEnv, parseArgs, slugify, writeScript, setLatestSlug } from "./lib/common.mjs";
-import { BACKGROUNDS, CHARACTERS, PALETTES, EMOTIONS, ACTIONS } from "./lib/vocab.mjs";
-import { CHARACTER_PARTS, BACKGROUND_PARTS } from "./lib/recipes.mjs";
-import { BACKGROUND_RECIPES, CHARACTER_RECIPES } from "./lib/library.mjs";
-import { directScript } from "./lib/director.mjs";
-import { generateFromTemplate, TEMPLATE_IDS } from "./lib/templates/index.mjs";
-import { castKinds, castHeroKind, castPrompt, castMemberById, castMemberByKind } from "./lib/cast.mjs";
-import { storyQualityIssues } from "./lib/story-planner.mjs";
+import fs from "node:fs";
+import path from "node:path";
+import {loadDotEnv, parseArgs, slugify, writeScript, setLatestSlug, ROOT, GENERATED_DIR} from "./lib/common.mjs";
+import {PALETTES, EMOTIONS, ACTIONS, BACKGROUNDS} from "./lib/vocab.mjs";
+import {directScript} from "./lib/director.mjs";
+import {generateFromTemplate, TEMPLATE_IDS} from "./lib/templates/index.mjs";
+import {rng} from "./lib/templates/engine.mjs";
+import {castKinds, castPrompt, castMemberById, castMemberByKind} from "./lib/cast.mjs";
+import {buildStoryBrief, storyQualityIssues} from "./lib/story-planner.mjs";
+import {readCatalog} from "./lib/catalog.mjs";
+import {chat} from "./lib/llm.mjs";
+import {ScriptSchema, scriptJsonSchema} from "./lib/script-schema.mjs";
 
 loadDotEnv();
-
-/** the Sunny Meadow universe — the only animals a script may use */
 const CAST_KINDS = castKinds();
-
-const LineSchema = z.object({
-  text: z.string().min(1).max(160),
-  speaker: z.string().optional(),
-  emotion: z.string().optional(),
-  action: z.string().optional(),
-  callout: z.any().optional(),
-});
-
-const ScriptSchema = z.object({
-  type: z.enum(["rhyme", "story"]),
-  title: z.string().min(3).max(60),
-  palette: z.string(),
-  mainCharacter: z.object({ kind: z.string(), name: z.string().min(1).max(20) }),
-  intro: z.string().min(3).max(200).optional().nullable(),
-  outro: z.string().min(3).max(200).optional().nullable(),
-  moral: z.string().nullable().optional(),
-  moralRhyme: z.array(z.string().min(3).max(80)).length(2).nullable().optional(),
-  youtube: z.object({
-    title: z.string(),
-    description: z.string(),
-    tags: z.array(z.string()).min(3),
-  }),
-  newCharacters: z.array(z.object({ name: z.string(), recipe: z.any() })).optional().nullable(),
-  newBackgrounds: z.array(z.object({ name: z.string(), recipe: z.any() })).optional().nullable(),
-  scenes: z
-    .array(
-      z.object({
-        kind: z.string().optional(),
-        background: z.string(),
-        character: z.string(),
-        secondCharacter: z.string().nullable().optional(),
-        energy: z.string().optional(),
-        holdSec: z.number().min(0).max(5).optional(),
-        prop: z.string().nullable().optional(),
-        question: z.any().optional().nullable(),
-        lines: z.array(LineSchema).min(1).max(6),
-      })
-    )
-    .min(3)
-    .max(40),
-});
-
-function resolveProvider() {
-  const env = process.env;
-  if (env.LLM_BASE_URL && env.LLM_API_KEY) {
-    return { name: "custom", baseUrl: env.LLM_BASE_URL, apiKey: env.LLM_API_KEY, model: env.LLM_MODEL || "llama-3.3-70b-versatile" };
-  }
-  if (env.GEMINI_API_KEY) {
-    return { name: "gemini", baseUrl: "https://generativelanguage.googleapis.com/v1beta/openai", apiKey: env.GEMINI_API_KEY, model: env.LLM_MODEL || "gemini-3.6-flash" };
-  }
-  if (env.GROK_API_KEY) {
-    return {
-      name: "grok",
-      baseUrl: env.GROK_BASE_URL || env.GROK_API_BASE_URL || "https://api.x.ai/v1",
-      apiKey: env.GROK_API_KEY,
-      model: env.GROK_MODEL || env.LLM_MODEL || "grok-beta",
-    };
-  }
-  if (env.GROQ_API_KEY) {
-    return { name: "groq", baseUrl: "https://api.groq.com/openai/v1", apiKey: env.GROQ_API_KEY, model: env.LLM_MODEL || "llama-3.3-70b-versatile" };
-  }
-  if (env.OPENROUTER_API_KEY) {
-    return { name: "openrouter", baseUrl: "https://openrouter.ai/api/v1", apiKey: env.OPENROUTER_API_KEY, model: env.LLM_MODEL || "meta-llama/llama-3.3-70b-instruct:free" };
-  }
-  if (env.GITHUB_TOKEN) {
-    return { name: "github-models", baseUrl: "https://models.github.ai/inference", apiKey: env.GITHUB_TOKEN, model: env.LLM_MODEL || "openai/gpt-4o-mini" };
-  }
-  throw new Error("No LLM key found. Set one of GEMINI_API_KEY, GROK_API_KEY, GROQ_API_KEY, OPENROUTER_API_KEY, GITHUB_TOKEN (see .env.example).");
-}
-
-function normalizeGeminiModelError(message, modelName) {
-  if (message?.includes("models/gemini-2.0-flash") || modelName === "gemini-2.0-flash") {
-    return "gemini-3.6-flash";
-  }
-  return null;
-}
-
-async function chat(messages, { useJsonMode = true, modelOverride } = {}) {
-  const provider = resolveProvider();
-  const providerModel = modelOverride || provider.model;
-  const providerName = provider.name;
-  const body = { model: providerModel, messages, temperature: 0.9 };
-  if (useJsonMode) body.response_format = { type: "json_object" };
-  const res = await fetch(`${provider.baseUrl}/chat/completions`, {
-    method: "POST",
-    headers: { "content-type": "application/json", authorization: `Bearer ${provider.apiKey}` },
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) {
-    const text = await res.text();
-    if (providerName === "gemini") {
-      const fallbackModel = normalizeGeminiModelError(text, providerModel);
-      if (fallbackModel && fallbackModel !== providerModel) {
-        console.warn(`[llm] ${provider.name} model ${providerModel} unavailable; retrying with ${fallbackModel}`);
-        return chat(messages, { useJsonMode, modelOverride: fallbackModel });
-      }
-    }
-    if (useJsonMode && res.status >= 400 && res.status < 500) {
-      console.warn(`[llm] ${provider.name} rejected json mode (${res.status}), retrying without it`);
-      return chat(messages, { useJsonMode: false });
-    }
-    throw new Error(`[llm] ${provider.name} ${res.status}: ${text.slice(0, 500)}`);
-  }
-  const data = await res.json();
-  console.log(`[llm] provider=${provider.name} model=${providerModel}`);
-  return data.choices[0].message.content;
-}
 
 function extractJson(text) {
   const stripped = text.replace(/```(?:json)?/g, "").trim();
@@ -141,91 +34,24 @@ function extractJson(text) {
   return JSON.parse(stripped.slice(start, end + 1));
 }
 
-const systemPrompt = (type, minutes) => {
-  const lines = Math.round(minutes * (type === "story" ? 13 : 16));
-  return `You write scripts for an animated YouTube channel for children aged 2-6. The videos are rendered automatically from your JSON: a cartoon animal hero on screen sings/speaks every line with lip-sync, does the "action" you give, shows the "emotion" you give, big learning callouts pop up for numbers/colors/key words, and question scenes pause for the child to answer.
-
-Respond with ONLY a valid JSON object (no markdown, no commentary) with exactly this shape:
-
-{
-  "type": "${type}",
-  "title": "short catchy on-screen title, 2-6 words",
-  "palette": "one of: ${PALETTES.join(", ")}",
-  "mainCharacter": { "kind": "one of: ${CAST_KINDS.join(", ")} (the Sunny Meadow cast, from The Cast below)", "name": "the hero's name from The Cast" },
-  "intro": "1-2 short sentences the hero says to greet the child and promise today's story",
-  "outro": "1 short goodbye sentence",
-  "moral": ${type === "story" ? '"one short, warm sentence stating the lesson"' : "null"},
-  "moralRhyme": ${type === "story" ? '["two short rhyming lines (max 7 words each) that chant the lesson, e.g. \\"Share, share, it\'s only fair!\\", \\"Sharing shows how much we care!\\""]' : "null"},
-  "youtube": {
-    "title": "YouTube title under 70 chars, may include one emoji",
-    "description": "2-3 kid-safe sentences, then 3-5 hashtags",
-    "tags": ["10-15 short search tags"]
-  },
-  "scenes": [
-    {
-      "kind": "${type === "story" ? "story | question | lesson" : "verse | chorus | question"}",
-      "background": "one of: ${BACKGROUNDS.join(", ")}",
-      "character": "one of: ${CAST_KINDS.join(", ")} (usually the main character)",
-      "secondCharacter": "another cast member standing next to the hero, or null",
-      "energy": "calm | upbeat",
-      "holdSec": 0,
-      "prop": "one emoji the scene is about (e.g. 🥕) or null",
-      "question": null,
-      "lines": [
-        {
-          "text": "one line the voice says (max 10 simple words, punchy)",
-          "speaker": "character | friend | narrator",
-          "emotion": "one of: ${EMOTIONS.join(", ")}",
-          "action": "one of: ${ACTIONS.join(", ")}",
-          "callout": null
-        }
-      ]
-    }
-  ]
-}
-
-Question scenes (kind "question") talk TO the child, then pause so they can answer:
-  "holdSec": 3, "question": { "answer": { "text": "Red", "emoji": "🍎" }, "praise": "Yes! Red like an apple! Great job!" }
-  ${type === "story" ? 'Ask about a clear story choice a 3-year-old can answer, such as "Should Taffy share? Say YES!".' : 'Ask about a color, number, animal sound, or simple action such as "Can you clap?".'}
-Callouts (optional, max one per line) put a giant word on screen: {"kind":"word","text":"SHARE","emoji":"🥕"} or {"kind":"emoji","emoji":"💡"}. Numbers and colors in the text get callouts automatically, so you don't need to add those.
-
-Content rules:
-- Audience is toddlers/preschoolers: very simple words, short sentences, warm and positive. Nothing scary, sad for long, violent, or branded. Every line max 10 words.
-- Use 'holdSec': 2 or 3 in non-question scenes to create a thoughtful pause after an emotional beat or before a big surprise.
-- TARGET LENGTH: about ${minutes} minutes of narration — write about ${lines} lines total. This is a hard requirement; do not write a short script.
-- Give the hero a NAME and use it. Use "speaker": "character" when the hero sings/talks, "friend" when the secondCharacter talks, "narrator" for storytelling sentences about them.
-- NEVER write laughter or sound words for the voice to read ("ha ha", "hee hee", "yawn", "gasp"): they sound fake when synthesized. Put a tag at the START or END of the line instead and a real recording plays there: {giggle} {laugh} {yay} {wow} {gasp} {yum} {yawn} {hmm} {aww} {sigh}. Example: "That tickles! {giggle}". Use one every few lines when it fits the feeling.
-- Give EVERY line an emotion and an action that matches its words (jump when it says jump, sad face when sad, hug when hugging, sleep at bedtime, think when wondering, cheer for hooray, point when asking the child something).
-- Vary backgrounds between scene groups so something new appears every 20-30 seconds, and mix in 1-2 CAST members (friends or rivals) as secondCharacter, but keep the hero in almost every scene so kids bond with it.
-${
-  type === "rhyme"
-    ? `- Write an ORIGINAL sing-song rhyme with verse/chorus structure: verse (3-4 lines) -> chorus -> verse -> chorus ...
-- The CHORUS is 3-4 lines that come back word-for-word IDENTICAL every 2-3 scenes (kind "chorus", energy "upbeat"). Kids love chanting it.
-- Every verse names at least one thing to DO (clap, jump, spin, stomp, wave, wiggle, dance) and the hero does it.
-- Include one counting verse (one, two, three, four, five) and one colors verse (red, yellow, green, blue).
-- A question scene every 4-6 scenes (kind "question", energy "upbeat", holdSec 3).
-- Finish with one calm, cozy verse (energy "calm"), then a final chorus.
-- Strong rhythm and end rhymes (AABB or ABAB). Each line max ~8 words.`
-    : `- Tell ONE focused story with ONE moral. Do not add unrelated counting, color, alphabet, or sing-along lessons.
-- The FIRST scene is the hook. In its first line, reveal a concrete surprise, strong want, promise, or tiny problem. Do not spend a scene introducing the meadow.
-- Structure: (1) immediate hook, (2) what the hero wants, (3) first attempt, (4) a different second attempt, (5) ask the child about the important choice, (6) show its gentle consequence, (7) the hero understands and repairs the problem in a "lesson" scene, (8) a warm ending that proves the moral.
-- Use 1-3 cast members total. Keep the problem small enough for a preschooler and let the hero solve it through a believable action, not a lecture or sudden magic.
-- 1-3 lines per scene. Narrator lines describe; character/friend lines are what they say out loud. Tighten dialogue to be extremely punchy and conversational. Write narration with vivid verbs, natural contractions, and varied punctuation so an enthusiastic storyteller can perform it warmly; do not overuse exclamation marks.
-- Give the hero their catchphrase from The Cast, said IDENTICALLY 3+ times through the story (e.g. Taffy: "Hop, hop, hooray!").
-- Put 2-3 question scenes at real choice points ("What should Taffy do? Share or keep them all?" answer "Share!"). Every answer must help move this story forward.
-- The story must SHOW the moral through the hero's feelings; state it only in "moral" and "moralRhyme" (the video repeats the rhyme as a chant at the end).`
-}
-- Pick the palette and backgrounds that fit the mood.
-
-${castPrompt()}
-
-BACKGROUNDS you can use (name: what it shows): ${BACKGROUNDS.map((b) => `${b}${BACKGROUND_RECIPES[b]?.description ? ` (${BACKGROUND_RECIPES[b].description})` : ""}`).join("; ")}.
-Only if the topic truly needs a place that is NOT in those lists, add it as a background recipe made ONLY from these parts (the renderer draws it; no images):
-  "newBackgrounds": [{ "name": "volcano", "recipe": { "gradient": ["#hex top", "#hex bottom"], "palette": "one of ${PALETTES.join("|")}", "description": "short", "parts": [ { "part": "one of back: ${BACKGROUND_PARTS.back.join("|")}" }, { "part": "one of static: ${BACKGROUND_PARTS.static.join("|")}", "x": 400 }, { "part": "one of front: ${BACKGROUND_PARTS.front.join("|")}" } ] } }]
-  (parts are painted in order: back things first, scenery, then front things; hills need cx/top/rx/color, trees x/base/s, ground color/top; copy numbers from this existing recipe: ${JSON.stringify(BACKGROUND_RECIPES.pond?.parts ?? [])})
-Then use the new name in "background" like any other. Otherwise leave newBackgrounds out.
-Do NOT add newCharacters — The Cast above is the whole world.`;
-};
+const systemPrompt = (type, minutes) => `You write warm, original animated stories for children aged 2-6. Return ONLY compact JSON (no indentation), no markdown.
+Return exactly: type, title (3-60 chars), palette, mainCharacter {kind,name}, intro (string or null), outro (string or null), moral (string or null), moralRhyme (two rhyming strings or null), youtube {title,description,tags}, scenes.
+Each scene has exactly: kind, background, character, secondCharacter (cast kind or null), energy (calm/upbeat), holdSec (0-5), prop (one emoji or null), question (null or {answer:{text,emoji},praise}), lines.
+Each line has exactly: text, speaker (character/friend/narrator), emotion, action.
+Use type "${type}". Palette: ${PALETTES.join(', ')}. Cast kinds: ${CAST_KINDS.join(', ')}.
+Backgrounds: ${BACKGROUNDS.join(', ')}. Emotions: ${EMOTIONS.join(', ')}. Actions: ${ACTIONS.join(', ')}.
+"character" speaks for the scene's character; "friend" speaks for its secondCharacter; "narrator" describes their actions. Never use friend without secondCharacter.
+Do not invent characters, backgrounds, recipes, music, callouts or visual effects. The deterministic Director supplies these.
+Write about ${Math.round(minutes * (type === 'story' ? 13 : 16))} spoken lines for ${minutes} minutes, across 25-35 scenes with 1-3 lines each (hard bounds: 3-40 scenes, 1-6 lines per scene).
+Every line uses 4-10 simple words. Narration uses vivid verbs and natural contractions. Keep introductions brief; start the first scene directly with the story problem.
+${type === 'story' ? `Tell one focused story and one moral, using the supplied deterministic episode brief. Its selected cast and setting are binding. Let the setting cause a practical obstacle.
+Follow: immediate hook -> hero's concrete goal -> first mistaken attempt -> different second attempt -> child choice -> gentle consequence -> hero chooses a repair -> warm ending proving the repair works.
+Include at least six story scenes, a lesson scene showing repair, and two question scenes at real choices. A question has kind "question", holdSec 3, a simple answer and warm praise.
+Give characters distinct voices based on their personalities. Elders can learn too; their advice never solves the hero's problem for them. Show brief disappointment followed by an achievable caring action. No shaming, scary danger, sudden magic fix, or long lectures.
+Repeat the hero's exact catchphrase three times at earned moments. State the moral only in moral and the two short moralRhyme lines. The ending returns to the original goal and demonstrates change.` : `Write an original rhyme: verse -> chorus -> verse -> chorus, with exactly repeated 3-4 line choruses. Include action words, one counting verse, one colors verse, two question scenes, and a cozy ending. Set moral and moralRhyme to null.`}
+Use holdSec 2 after a meaningful feeling or before a discovery. Keep questions relevant to this story. A vox tag such as {giggle}, {wow}, {hmm}, or {yay} may appear on a few lines; never spell out fake laughter.
+YouTube title under 70 characters, description 2-3 sentences plus hashtags, 10-15 short tags.
+${castPrompt()}`;
 
 function finish(script, args) {
   const slug = script.slug;
@@ -246,10 +72,23 @@ function resolveHero(raw) {
 async function main() {
   const args = parseArgs();
   const minutesArg = Number(args.minutes || process.env.TARGET_MINUTES || 5.5);
+  if (args.slug) {
+    const existing = path.join(ROOT, "library", "scripts", `${args.slug}.json`);
+    const generated = path.join(GENERATED_DIR, String(args.slug), "script.json");
+    if (fs.existsSync(existing) || fs.existsSync(generated)) {
+      const script = JSON.parse(fs.readFileSync(fs.existsSync(existing) ? existing : generated, "utf8"));
+      writeScript(String(args.slug), script);
+      setLatestSlug(String(args.slug));
+      console.log(`[generate] reused existing script ${args.slug} (no AI)`);
+      return;
+    }
+  }
+  if (!Number.isFinite(minutesArg) || minutesArg < 1 || minutesArg > 8) throw new Error("minutes must be between 1 and 8");
+
 
   // ── AI-free path: a template song ──
   if (args.template) {
-    const seed = args.seed !== undefined ? Number(args.seed) : Math.floor(Math.random() * 1e9);
+    const seed = args.seed !== undefined ? Number(args.seed) : Math.floor(rng(`${args.template}|${args.hero ?? ""}|${new Date().toISOString().slice(0, 10)}`)() * 1e9);
     const script = generateFromTemplate({ template: String(args.template), hero: args.hero, place: args.place, seed });
     if (args.slug) script.slug = String(args.slug);
     script.targetMinutes = minutesArg;
@@ -267,32 +106,24 @@ async function main() {
   }
 
   const heroSel = resolveHero(args.hero);
-  const userContent = heroSel
-    ? `Topic: ${topic}\nThe hero (mainCharacter) of this story MUST be ${heroSel.name} the ${heroSel.kind} from The Cast. Use that exact kind and name.`
-    : `Topic: ${topic}`;
-
-  const messages = [
-    { role: "system", content: systemPrompt(type, minutes) },
-    { role: "user", content: userContent },
-  ];
-
-  let script;
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    const raw = await chat(messages);
-    try {
-      const parsed = extractJson(raw);
-      script = ScriptSchema.parse(parsed);
-      if (type === "story") {
-        const issues = storyQualityIssues(script, minutes);
-        if (issues.length) throw new Error(`Story quality check failed: ${issues.join("; ")}`);
-      }
-      break;
-    } catch (err) {
-      console.warn(`[generate] attempt ${attempt} invalid: ${err.message.slice(0, 300)}`);
-      if (attempt === 3) throw err;
-      messages.push({ role: "assistant", content: raw });
-      messages.push({ role: "user", content: `That JSON was invalid: ${err.message.slice(0, 500)}\nRespond again with ONLY the corrected JSON object.` });
+  if (args.hero && !heroSel) throw new Error(`Unknown cast hero: ${args.hero}`);
+  const storyBrief = type === 'story' ? buildStoryBrief({topic, hero: heroSel, episodes: readCatalog().episodes,
+    random: rng(`${topic}|${heroSel?.id ?? ''}|${new Date().toISOString().slice(0, 10)}`)}) : null;
+  const userContent = `Topic: ${topic}\n${storyBrief ? `Episode brief (follow its cast, setting, attempts and repair): ${JSON.stringify(storyBrief)}` : heroSel ? `Hero: ${heroSel.name} (${heroSel.kind}).` : ''}`;
+  const messages = [{role: "system", content: systemPrompt(type, minutes)}, {role: "user", content: userContent}];
+  const raw = await chat(messages, {schema: scriptJsonSchema});
+  const script = ScriptSchema.parse(extractJson(raw));
+  if (script.type !== type) throw new Error(`Requested ${type}, but the writer returned ${script.type}`);
+  if (type === 'story') {
+    const issues = storyQualityIssues(script, minutes);
+    const allowed = [storyBrief.hero.kind, storyBrief.friend.kind];
+    if (script.mainCharacter.kind !== storyBrief.hero.kind || script.mainCharacter.name !== storyBrief.hero.name) issues.push('use the exact hero from the brief');
+    for (const scene of script.scenes) {
+      if (!allowed.includes(scene.character) || scene.secondCharacter && !allowed.includes(scene.secondCharacter)) issues.push('use only the cast pair from the brief');
+      if (!storyBrief.settings.includes(scene.background)) issues.push('use the setting from the brief');
+      if (scene.lines.some(line => line.speaker === 'friend') && !scene.secondCharacter) issues.push('friend dialogue needs a secondCharacter');
     }
+    if (issues.length) throw new Error(`Story quality check failed: ${[...new Set(issues)].join('; ')}`);
   }
 
   if (script.type === "rhyme") {
@@ -300,7 +131,9 @@ async function main() {
     script.moralRhyme = null;
   }
   if (heroSel) script.mainCharacter = { kind: heroSel.kind, name: heroSel.name };
-  const slug = args.slug || `${slugify(script.title)}-${new Date().toISOString().slice(0, 10)}`;
+  const baseSlug = args.slug || `${slugify(script.title)}-${new Date().toISOString().slice(0, 10)}`;
+  let slug = baseSlug;
+  for (let version = 2; fs.existsSync(path.join(ROOT, 'library', 'scripts', `${slug}.json`)) || fs.existsSync(path.join(GENERATED_DIR, slug, 'script.json')); version++) slug = `${baseSlug}-${version}`;
   finish(
     {
       ...script,
@@ -309,6 +142,7 @@ async function main() {
       slug,
       topic,
       targetMinutes: minutes,
+      ...(storyBrief ? {storyBrief} : {}),
     },
     args
   );

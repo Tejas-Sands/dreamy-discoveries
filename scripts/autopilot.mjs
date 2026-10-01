@@ -10,6 +10,7 @@ import { rng } from "./lib/templates/engine.mjs";
 import { leastStarred } from "./lib/universe.mjs";
 import { getClient } from "./lib/db.mjs";
 import { planStory } from "./lib/story-planner.mjs";
+import {readQueue, writeQueue} from './queue.mjs';
 
 const config = fs.existsSync(path.join(LIBRARY_DIR, "config.json")) ? JSON.parse(fs.readFileSync(path.join(LIBRARY_DIR, "config.json"), "utf8")) : {};
 const catalog = readCatalog();
@@ -18,6 +19,13 @@ const r = rng(`autopilot|${today}|${catalog.episodes.length}`);
 
 function emit(fields) {
   const out = { id: `auto-${today}`, topic: "", template: "", type: "story", hero: "", place: "", minutes: String(config.minutes ?? 5.5), empty: "false", ...fields };
+  // Automatic episodes need the same durable retry record as hand-queued topics.
+  const queue = readQueue();
+  const baseId = out.id;
+  for (let version = 2; queue.items.some(item => item.id === out.id); version++) out.id = `${baseId}-${version}`;
+  queue.items.push({id: out.id, status: 'running', topic: out.topic, type: out.type,
+    hero: out.hero, minutes: Number(out.minutes), startedAt: new Date().toISOString()});
+  writeQueue(queue);
   console.log(JSON.stringify(out));
   if (process.env.GITHUB_OUTPUT) for (const [k, v] of Object.entries(out)) fs.appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`);
 }

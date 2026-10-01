@@ -409,7 +409,7 @@ export function directScript(input, opts = {}) {
   if (intro && !intro.text) intro.text = `Hi friends! I'm ${main.name}!`;
   script.intro = intro
     ? { ...intro, role: "greeting", speaker: "character", emotion: intro.emotion ?? "excited", action: intro.action ?? "wave" }
-    : {
+    : normalizeLine({
         text:
           script.type === "story"
             ? `Hi friends! I'm ${main.name}! I have a story for you. Are you ready?`
@@ -418,14 +418,14 @@ export function directScript(input, opts = {}) {
         speaker: "character",
         emotion: "excited",
         action: "wave",
-      };
+      });
 
   // ── goodbye over the end card ──
   const outro = script.outro ? normalizeLine(script.outro) : null;
   if (outro && !outro.text) outro.text = "Bye bye, friends!";
   script.outro = outro
     ? { ...outro, role: "greeting", speaker: "character", emotion: outro.emotion ?? "happy", action: outro.action ?? "wave" }
-    : {
+    : normalizeLine({
         text: script.type === "story"
           ? `Bye bye, friends! See you next time!`
           : `That was so much fun! Bye bye, friends!`,
@@ -433,7 +433,7 @@ export function directScript(input, opts = {}) {
         speaker: "character",
         emotion: "happy",
         action: "wave",
-      };
+      });
 
   // ── moral sequence (stories, or any script with a moral) ──
   const moral = typeof script.moral === "string" && script.moral.trim() ? script.moral.trim() : null;
@@ -457,6 +457,8 @@ export function directScript(input, opts = {}) {
         transition: "iris",
         camera: "zoom-in",
         holdSec: 0.6,
+        prop: null,
+        question: null,
         lines: [
           { text: `${main.name} learned something very important!`, speaker: "narrator", emotion: "surprised", action: "think", sfx: ["magic"], role: "moral" },
           { text: moral, speaker: "character", emotion: "love", action: "nod", role: "moral", callout: { kind: "emoji", emoji: "💡" } },
@@ -469,6 +471,8 @@ export function directScript(input, opts = {}) {
         energy: "upbeat",
         transition: "pop",
         holdSec: 1.6,
+        prop: null,
+        question: null,
         lines: [
           ...chant.map((t) => ({ text: t, speaker: "character", emotion: "excited", action: "dance", role: "moral" })),
           { text: "Can you say it with me?", speaker: "character", emotion: "happy", action: "point", role: "moral" },
@@ -481,6 +485,8 @@ export function directScript(input, opts = {}) {
         energy: "upbeat",
         transition: "pop",
         holdSec: 0.8,
+        prop: null,
+        question: null,
         lines: [
           ...chant.map((t) => ({ text: t, speaker: "character", emotion: "excited", action: "cheer", role: "moral" })),
           { text: "Hooray! You did it!", speaker: "character", emotion: "excited", action: "cheer", role: "praise", sfx: ["tada", "applause"] },
@@ -518,7 +524,7 @@ export function directScript(input, opts = {}) {
     // a friend mentioned by species OR by cast name ("Taffy asked Ben…") gets to stand on the right
     if (script.type === "story" && scene.secondCharacter === undefined && scene.character !== "none") {
       const joined = scene.lines.map((l) => l.text).join(" ");
-      let mentioned = CHARACTERS.find(
+      let mentioned = UNIVERSE_KINDS.find(
         (k) => k !== scene.character && k !== main.kind && new RegExp(`\\b${k}s?\\b`, "i").test(joined)
       );
       if (!mentioned) {

@@ -116,6 +116,7 @@ export function summarizeScript(script, extra = {}) {
     type: script.type,
     template: script.template ?? null,
     topic: script.topic ?? null,
+    ...(script.storyBrief ? {storyBrief: script.storyBrief} : {}),
     hero: script.mainCharacter?.kind ?? null,
     heroName: script.mainCharacter?.name ?? null,
     palette: script.palette,

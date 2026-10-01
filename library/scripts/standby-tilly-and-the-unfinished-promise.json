@@ -1,0 +1,1525 @@
+{
+  "slug": "standby-tilly-and-the-unfinished-promise",
+  "title": "Tilly and the Unfinished Promise",
+  "type": "story",
+  "template": null,
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "turtle",
+    "name": "Grandpa Tilly"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Come hear Grandpa Tilly's story in Sunny Meadow today!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Keeping a promise means returning to finish the task someone is counting on.",
+  "moralRhyme": [
+    "Finish what you said you would!",
+    "Helping feels so warm and good!"
+  ],
+  "youtube": {
+    "title": "Tilly and the Unfinished Promise | Sunny Meadow Story for Kids",
+    "description": "Grandpa Tilly promises smooth stones for a story picture path, then gets distracted and offers a story instead. He returns to the unfinished job and brings the stones Ben needs. A gentle story about keeping promises for preschool families. #KidsStories #SunnyMeadow",
+    "tags": [
+      "kids story",
+      "preschool story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Grandpa Tilly",
+      "keeping promises"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben laid a story picture mat near their campfire seats.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This winding path needs six smooth stones before storytime.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "6",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I promise to collect those six stones for you.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "6",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their work spot was beside the seats, away from flames.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly carried a small basket to the pebble patch.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will choose stones that lie flat on your mat.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "He placed two smooth stones in his little basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Both fitted neatly without rolling over one another.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "A third stone had a stripe shaped like a river.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly turned it over to study another pale stripe.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This stone looks like a tiny picture all by itself.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "He set his basket down and traced the curving stripe.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then he compared its pattern with a nearby pebble.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps this other one has a tiny mountain on it.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben waited beside the mat with a paper house ready.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly, are the stones ready for our picture path yet?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have found some very interesting patterns over here.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly brought only the two stones from his basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben placed them at the beginning of his winding path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There is still a long space before the paper house.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦉",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly started telling a story about a striped river stone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We could just hear the journey without finishing this picture.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He hoped Ben would forget about the missing stones.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben listened, with his paper house resting in his paw.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want to move the picture along our stone path.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There were no stones where the next steps should be.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly stopped his story halfway through its little journey.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His interesting words could not fill Ben's empty path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You made this mat because I promised enough stones.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "He looked at the basket beside his two finished steps.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I can tell another story, or return to my job.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben kept the house ready while Tilly made his choice.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🪨",
+      "question": {
+        "answer": {
+          "text": "Finish collecting stones",
+          "emoji": "🪨"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Tilly replace his promise, or finish collecting stones?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Ben still needs the stones Tilly promised to bring.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly set the basket beside Ben's unfinished picture mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I stopped collecting, and I have not kept my promise.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I still need four stones to reach the paper house.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "4",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly took a card and drew six simple circles.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "6",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He put the two finished stones beside two circles.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "These four empty circles will show what I still owe.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "4",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "He carried the card and basket to the pebble patch.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A sparkly pebble caught his eye beside a smooth one.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I can look at sparkle after I finish collecting.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly checked the smooth stone for bumps and sharp edges.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then he placed it over the first empty card circle.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This flat one will help the paper picture stand.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "He found another, slightly wider stone beside his basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly tested it gently upon the ground before adding it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Two more empty circles, and two more stones to find.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "A striped stone lay just outside the pebble patch.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly picked it up and checked that it sat flat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This interesting one can help the path as well.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "He covered the next circle with the striped stone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One empty circle remained at the end of his card.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I will check my card before I carry everything back.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦉",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🪨",
+      "question": {
+        "answer": {
+          "text": "Use the count card",
+          "emoji": "🔢"
+        }
+      },
+      "lines": [
+        {
+          "text": "What can help Tilly remember how many stones are missing?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Good thinking! Empty spaces show what is still needed.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly found the final smooth stone beside a small root.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now every circle had a stone resting beside it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "He counted the four new stones into his basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "4",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The two earlier stones were still waiting on Ben's mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "These four will finish the six that I promised.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben saw Tilly return with the basket and count card.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You brought the flat stones that our picture needed.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am ready to finish my part of your path.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly placed each missing stone along Ben's pencil curve.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will stay until every promised stone is in place.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben adjusted their gaps so the picture could move easily.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "The striped stone became a river crossing in the path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your special pattern fits right into our picture journey.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I can tell its story while you move the house.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben exchanged the paper house for a tiny paper basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He slid the basket gently from stone to smooth stone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our picture traveler can reach home all the way now.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly told the river part while Ben moved the picture.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Their finished path curved right to the little house.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And here the traveler arrived with everything they promised.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Afterward Ben asked for help gathering the picture pieces.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, I will put these stones back in your basket.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly stayed beside the mat until each piece was packed.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "campfire",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "They settled into their seats with their story mat complete.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now we can enjoy the whole journey we made together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": [
+        "bunny"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "campfire",
+      "character": "turtle",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Keeping a promise means returning to finish the task someone is counting on.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "campfire",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Finish what you said you would!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Helping feels so warm and good!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bear",
+        "bunny"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "campfire",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Finish what you said you would!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Helping feels so warm and good!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "duck"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Grandpa Tilly promises smooth stones for a story picture path, then gets distracted and offers a story instead. He returns to the unfinished job and brings the stones Ben needs.",
+    "moralTheme": "keeping-promises",
+    "heroGoal": "Collect six smooth stones for Ben to make a story picture path.",
+    "firstAttempt": "Stop collecting to study interesting patterns on one stone.",
+    "secondAttempt": "Offer a spoken story and hope Ben no longer needs the promised stones.",
+    "consequence": "Ben waits with a half-built path and cannot move the story picture onward.",
+    "repair": "Explain the unfinished promise, collect the remaining stones using a count card, and bring them to Ben.",
+    "ending": "Ben completes the picture path and both friends tell the whole journey together.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

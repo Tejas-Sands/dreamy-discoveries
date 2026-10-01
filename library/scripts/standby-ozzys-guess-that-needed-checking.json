@@ -1,0 +1,1493 @@
+{
+  "slug": "standby-ozzys-guess-that-needed-checking",
+  "title": "Ozzy's Guess That Needed Checking",
+  "type": "story",
+  "template": null,
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "owl",
+    "name": "Professor Ozzy"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Come hear Professor Ozzy's story in Sunny Meadow today!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Check what happened before blaming a friend, and repair a mistake when you discover it.",
+  "moralRhyme": [
+    "Look for clues before you say!",
+    "Put a hasty guess away!"
+  ],
+  "youtube": {
+    "title": "Ozzy's Guess That Needed Checking | Sunny Meadow Story for Kids",
+    "description": "Professor Ozzy assumes Ben scattered their leaf puzzle and asks him to fix it without checking. A careful repeat of Ozzy’s own page turn reveals the draft, and he apologizes and rebuilds alongside Ben. A gentle story about checking before blame for preschool families. #KidsStories #SunnyMeadow",
+    "tags": [
+      "kids story",
+      "preschool story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Professor Ozzy",
+      "checking before blame"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy arranged leaf shapes on a jungle picnic mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our puzzle will show a big leaf with little branches.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben brought a picture guide with each leaf shape drawn.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "They put the guide beside the puzzle's bottom corner.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben matched one rounded piece to a rounded empty space.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That little curve fits the drawing very neatly now.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy found the long piece that formed the main stem.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He laid it down while Ben checked its position.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "The guidebook had another picture on the next page.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy stretched a wing wide to turn the large page.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will see whether the next picture shows more details.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Several loose leaves fluttered off the mat beside Ben.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy looked up just as Ben bent to catch one.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben, you scattered our leaf pieces across the ground.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben held the caught leaf gently in his broad paw.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I was looking at the picture when they moved.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You were right beside them, so you must have bumped them.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy pointed toward the leaves lying beneath the picture guide.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Put your fallen pieces back, and we can keep working.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He had not checked which pieces had moved or why.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben placed one piece into the nearest empty space.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Its rounded edge did not fit the straight stem line.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I do not know where these were before they fluttered.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy told him to try the next open space instead.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That space needed a pointed piece, not the rounded one.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "My guess is not helping us rebuild the picture.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben set the leaf down beside the mat, looking sad.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You keep saying I moved them, but I did not.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy noticed Ben was still waiting to be heard.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "A loose guidebook page lifted beside Ozzy's wide wing.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He remembered stretching that wing when the leaves fluttered.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I saw you nearby, but I did not see a bump.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍃",
+      "question": {
+        "answer": {
+          "text": "No, check what happened",
+          "emoji": "🔎"
+        }
+      },
+      "lines": [
+        {
+          "text": "Does being nearby prove that Ben moved the leaves?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Exactly! Standing nearby does not tell the whole story.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy moved his pointing wing away from Ben's puzzle pieces.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tell me what you saw before the leaves scattered, please.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your big page rose, and then these light pieces flew.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy laid one loose leaf beside the guidebook edge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He kept all the finished puzzle pieces farther away.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can test one leaf without disturbing our work.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben watched while Ozzy lifted only the large page.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The leaf trembled, but stayed beside the book corner.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It moved a little; your wing was wider before.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy stretched his wing as he had the first time.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Air brushed the page and slid the leaf sideways.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There it goes, in the same direction as before.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "He folded his wing and laid the loose page down.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben looked at the leaf beside the guidebook's edge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That leaf slid even though I did not touch it.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy looked back at the wide gaps in their puzzle.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My wing and page made a draft across our mat.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The little test gave him something his guess had missed.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "He kept the test leaf separate from the finished pieces.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want to repeat that carefully before I say more.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben steadied the book while Ozzy prepared the same movement.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍃",
+      "question": {
+        "answer": {
+          "text": "Test the page turn",
+          "emoji": "📖"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Ozzy test his page turn, or keep his first guess?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A careful test can show what really happened.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "The leaf slid sideways again under the moving air.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now we have checked it twice and seen what happened.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy put both wings calmly beside the open book.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I blamed you without checking, and that was my mistake.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I wanted you to hear that I had not touched it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy nodded and handed Ben the clear picture guide.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am sorry; I will help rebuild what my draft moved.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He gathered the fallen shapes without putting them into guessed spaces.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "They matched each fallen leaf against its printed picture.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This rounded edge belongs beside the long middle stem.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I see the same curve; I will place it there.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy slid the pointed piece into its proper top corner.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben checked the little branch beside it before adding another.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The picture shows those two tips pointing different ways.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Together they finished the leaf shape without another guess.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will close my wing before turning this page now.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben held the loose page down with a smooth stone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "The next picture showed a smaller leaf puzzle to try.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let us check its shapes before moving our finished pieces.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And we can leave this guidebook clear of the loose leaves.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben picked a pointed piece, while Ozzy checked the drawing.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They each named a clue before choosing its new place.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This edge matches the top; may I put it here?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "jungle",
+      "character": "owl",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben nodded, and their second little puzzle began calmly.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This time Ozzy brought a question instead of a blame.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": [
+        "bunny"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "jungle",
+      "character": "owl",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Check what happened before blaming a friend, and repair a mistake when you discover it.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "jungle",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Look for clues before you say!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Put a hasty guess away!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bear",
+        "bunny"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "jungle",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Look for clues before you say!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Put a hasty guess away!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "duck"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Professor Ozzy assumes Ben scattered their leaf puzzle and asks him to fix it without checking. A careful repeat of Ozzy’s own page turn reveals the draft, and he apologizes and rebuilds alongside Ben.",
+    "moralTheme": "checking-before-blame",
+    "heroGoal": "Complete a leaf puzzle with Ben on a jungle picnic mat.",
+    "firstAttempt": "Assume Ben scattered the leaves because he was standing nearby.",
+    "secondAttempt": "Tell Ben to sort the fallen leaves before checking their original places.",
+    "consequence": "Ben feels unheard and the puzzle cannot be restored from Ozzy’s untested guess.",
+    "repair": "Repeat his own page turn, discover his wing made the draft, apologize, and rebuild using the picture guide.",
+    "ending": "They hold pages down and check the picture together before moving any puzzle piece.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

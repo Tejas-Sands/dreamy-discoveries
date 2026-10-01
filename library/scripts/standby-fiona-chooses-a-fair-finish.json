@@ -1,0 +1,1555 @@
+{
+  "slug": "standby-fiona-chooses-a-fair-finish",
+  "title": "Fiona Chooses a Fair Finish",
+  "type": "story",
+  "template": null,
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "fox",
+    "name": "Fiona"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Let's join Fiona for a little Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for watching our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Keeping shared game rules matters more than making yourself the winner.",
+  "moralRhyme": [
+    "Keep the rules from start to end!",
+    "A fair game keeps a happy friend!"
+  ],
+  "youtube": {
+    "title": "Fiona Chooses a Fair Finish | Sunny Meadow Story for Kids",
+    "description": "Fiona wants to win a beanbag game with Taffy, so she takes an extra throw and moves the throwing line. When Taffy stops enjoying the game, Fiona restores the agreed rules, resets her score, and celebrates Taffy’s fair finish. A gentle preschool story from Dreamy Discoveries. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Fiona",
+      "fair-play"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona and Taffy placed a hoop on the playground grass.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Three soft beanbags waited beside a straight ribbon line.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Let's toss from here and count bags inside the hoop.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Three throws each, and we take turns between every throw.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever! I want to get all three inside.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "They each agreed to stand behind the same ribbon.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy tossed her first beanbag gently toward the hoop.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It landed inside, and she marked one pebble point.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona's first bag landed just outside the soft grass circle.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "That was only a practice throw. I will try again.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But we said our first throws would count today.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona picked up another bag before Taffy could begin.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Her extra bag landed inside the hoop's near edge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There! Now I can mark one point for myself.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🫘"
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "She put a pebble beside Taffy's first scoring pebble.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "You have thrown twice, and I have only thrown once.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can still call that first miss a little practice.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy looked at their three waiting beanbags and frowned gently.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "They finished the next turns with Fiona's extra point counted.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy had used three throws while Fiona had used four.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "count",
+            "emoji": "🫘",
+            "count": 4
+          },
+          "sfx": []
+        },
+        {
+          "text": "I am catching up, but our throw numbers look different.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "I liked knowing we both had the same three turns.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Taffy moved her pebbles into a neat little row.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona glanced between the scores and the waiting ribbon.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🫘",
+      "question": {
+        "answer": {
+          "text": "Keep three throws each",
+          "emoji": "🤝"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Fiona count a fourth throw in a three-throw game?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Yes! Three throws each keeps their shared game fair.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona tried another way to make winning feel easier.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She slid the ribbon one big step toward the hoop.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "For my next round, I will stand right here.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "I threw from farther away. Is our line changing together?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can keep your place. This spot suits my throw.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona tossed from the new close spot and scored easily.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "She grinned at the pebble she added beside her score.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy stayed at the place where their game had started.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Those places give us very different throws, Fiona.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "But my bag went in. That should still be a point.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy placed her last beanbag down beside the grass hoop.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I do not want a game with different rules for us.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "The beanbags waited, but neither friend took another turn.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona's pebble row looked full beside the silent playground hoop.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have more points, but nobody is enjoying them.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona looked at the ribbon she had moved forward.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I changed our line just to make my throw easier.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And you counted a turn we had not agreed on.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "You are right. I wanted my score to look best.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona lifted her extra scoring pebble from the grass.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That extra throw should not have counted as a point.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "She carried the ribbon back to its first straight place.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This was the line we chose for both our throws.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy picked up one beanbag and watched Fiona straighten it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Would you like to restart with our first rules together?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. Three throws each, with a full turn for each friend.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona gathered both rows of pebbles into the same bowl.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🫘",
+      "question": {
+        "answer": {
+          "text": "The line and the scores",
+          "emoji": "🫘"
+        }
+      },
+      "lines": [
+        {
+          "text": "What could Fiona reset before they play again?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A shared line and fresh scores give both friends a fair start.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "They put three beanbags beside each throwing place.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "You can start. I will wait until your throw finishes.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy stood behind the ribbon and aimed for the hoop.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Her first bag landed inside with a soft little thump.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona gave her one pebble and waited for the hoop.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever! Now I will try from our shared line.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona's first bag brushed the hoop and landed outside.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "That is my first throw, even though it missed.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She placed the two remaining bags beside her feet.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy missed her next throw and smiled at its bounce.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One last throw each. The score can wait until then.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona took her second turn without moving the ribbon.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona counted her real throws and left the line untouched.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She waited for Taffy's last bag before picking up her own.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now our game has the same rules for both of us.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy's final beanbag landed neatly inside the grass hoop.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona's last throw landed close, beside the hoop's edge.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "That is all three turns for each of us now.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "They counted the pebbles together beside their straight ribbon.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You have two points, and I have one point.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona held her paw up for a happy high five.",
+          "speaker": "narrator",
+          "emotion": "excited",
+          "action": "hug",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "🫘"
+          },
+          "sfx": [
+            "heart"
+          ]
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fast and clever! Your last throw was a lovely finish.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Hop, hop, hooray! I liked our fair round together.",
+          "speaker": "friend",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Their high five made both friends laugh beside the hoop.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona gathered the beanbags and offered Taffy the score bowl.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Another round, with the same rules from the start?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, and this time you may take the first turn.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "fox",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🫘",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona stood behind their ribbon and checked her three bags.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🫘"
+          },
+          "sfx": []
+        },
+        {
+          "text": "She tossed, missed, and left that miss in her score.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Your turn, Taffy. I am ready to watch your throw.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "playground",
+      "character": "fox",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Keeping shared game rules matters more than making yourself the winner.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "playground",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Keep the rules from start to end!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A fair game keeps a happy friend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "playground",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Keep the rules from start to end!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "A fair game keeps a happy friend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "pan",
+      "gag": null,
+      "extras": [
+        "bear",
+        "duck"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Fiona wants to win a beanbag game with Taffy, so she takes an extra throw and moves the throwing line. When Taffy stops enjoying the game, Fiona restores the agreed rules, resets her score, and celebrates Taffy’s fair finish.",
+    "moralTheme": "fair-play",
+    "heroGoal": "Play a friendly three-throw beanbag game with Taffy.",
+    "firstAttempt": "Count an extra practice throw as a scoring throw after missing.",
+    "secondAttempt": "Move the shared throwing line closer only for her own turn.",
+    "consequence": "Taffy puts down her beanbag because the game no longer uses their agreement.",
+    "repair": "Restore the throwing line, remove the extra score, and restart with three alternating throws each.",
+    "ending": "Taffy wins the fair round and Fiona happily celebrates with her.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

@@ -1,6 +1,65 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { pickStorySeed, planStory, storyQualityIssues, storyTopic } from "../scripts/lib/story-planner.mjs";
+import * as planner from '../scripts/lib/story-planner.mjs';
+import {castMembers, castPrompt} from '../scripts/lib/cast.mjs';
+
+test('story briefs give every hero a concrete goal, setting, attempts and repair', () => {
+  assert.equal(typeof planner.buildStoryBrief, 'function');
+  for (const hero of castMembers()) {
+    const brief = planner.buildStoryBrief({topic: storyTopic(honesty), hero, random: () => .2});
+    assert.equal(brief.hero.id, hero.id);
+    assert.notEqual(brief.friend.id, hero.id);
+    assert.ok(['bunny', 'bear', 'duck', 'fox', 'turtle', 'owl'].includes(brief.friend.kind));
+    for (const key of ['goal', 'firstAttempt', 'secondAttempt', 'consequence', 'repair', 'ending', 'fingerprint']) assert.ok(brief[key]?.length > 8, key);
+    assert.notEqual(brief.firstAttempt, brief.secondAttempt);
+    assert.ok(brief.settings.length >= 1 && brief.settings.length <= 2);
+    assert.deepEqual(brief, planner.buildStoryBrief({topic: storyTopic(honesty), hero, random: () => .2}));
+  }
+});
+
+test('recent story combinations are avoided even with the same deterministic choice', () => {
+  assert.equal(typeof planner.buildStoryBrief, 'function');
+  const options = {topic: storyTopic(sharing), hero: castMembers()[0], random: () => 0};
+  const first = planner.buildStoryBrief(options);
+  const next = planner.buildStoryBrief({...options, episodes: [{storyBrief: first}]});
+  assert.notEqual(next.fingerprint, first.fingerprint);
+});
+
+test('generated cast prompt names only the six approved animals', () => {
+  const prompt = castPrompt();
+  assert.doesNotMatch(prompt, /Toto|Grandma Nana/);
+  for (const hero of castMembers()) assert.ok(prompt.includes(hero.name));
+});
+
+test('topics retain their named hero and explicit everyday moral words', () => {
+  for (const [topic, hero, seed] of [
+    ['a shy turtle who learns to share', 'tilly', 'sharing'],
+    ['a little fox who learns to be kind', 'fiona', 'kindness'],
+    ['Ben learns to take turns', 'ben', 'taking-turns'],
+    ['Professor Ozzy learns to say thank you', 'ozzy', 'gratitude'],
+  ]) {
+    const brief = planner.buildStoryBrief({topic, random: () => 0});
+    assert.equal(brief.hero.id, hero, topic);
+    assert.equal(brief.seedId, seed, topic);
+  }
+});
+
+test('unnamed heroes rotate through the least-used cast with seeded tie breaking', () => {
+  const episodes = [{hero: 'bunny'}, {hero: 'bear'}, {hero: 'duck'}, {hero: 'fox'}, {hero: 'turtle'}];
+  const brief = planner.buildStoryBrief({topic: 'A friend keeps a promise', episodes, random: () => 0});
+  assert.equal(brief.hero.id, 'ozzy');
+  assert.equal(planner.buildStoryBrief({topic: 'A friend keeps a promise', random: () => .99}).hero.id, 'ozzy');
+  assert.equal(planner.buildStoryBrief({topic: 'A shy turtle learns to share', hero: castMembers()[1]}).hero.id, 'ben');
+});
+
+test('explicit supported settings survive the brief, and moral matching respects word boundaries', () => {
+  const pond = planner.buildStoryBrief({topic: 'Ben learns to share at the pond', random: () => .99});
+  assert.deepEqual(pond.settings, ['pond']);
+  assert.equal(pond.seedId, 'sharing');
+  assert.deepEqual(planner.buildStoryBrief({topic: 'Daisy says thank you in the kitchen'}).settings, ['kitchen']);
+  assert.equal(planner.buildStoryBrief({topic: 'Fiona believes she can keep trying'}).seedId, 'perseverance');
+});
 
 const sharing = {
   id: "sharing",
@@ -77,6 +136,15 @@ function validStory() {
 
 test("a hook-led moral story passes the structural quality gate", () => {
   assert.deepEqual(storyQualityIssues(validStory(), 5.5), []);
+});
+
+test('directed questions retain valid praise after it moves into a spoken line', () => {
+  const script = validStory();
+  for (const scene of script.scenes.filter(scene => scene.kind === 'question')) {
+    scene.lines.push({text: scene.question.praise, role: 'praise'});
+    delete scene.question.praise;
+  }
+  assert.deepEqual(storyQualityIssues(script, 5.5), []);
 });
 
 test("story quality reports every missing structural beat", () => {

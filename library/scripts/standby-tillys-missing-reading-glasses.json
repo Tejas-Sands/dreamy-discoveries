@@ -1,0 +1,1527 @@
+{
+  "slug": "standby-tillys-missing-reading-glasses",
+  "title": "Tilly's Missing Reading Glasses",
+  "type": "story",
+  "template": null,
+  "palette": "berry",
+  "mainCharacter": {
+    "kind": "turtle",
+    "name": "Grandpa Tilly"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Come hear Grandpa Tilly's story in Sunny Meadow today!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Returning books and reading things to clear homes helps everyone enjoy story time.",
+  "moralRhyme": [
+    "Give our things a place to stay!",
+    "Find them for another day!"
+  ],
+  "youtube": {
+    "title": "Tilly's Missing Reading Glasses | Sunny Meadow Story for Kids",
+    "description": "Grandpa Tilly clears a reading seat by hiding shared books and his own glasses, then rushing more things into a box. When story time stalls, he makes visible homes that help both friends find what they need. A gentle story about responsibility for preschool families. #KidsStories #SunnyMeadow",
+    "tags": [
+      "kids story",
+      "preschool story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Grandpa Tilly",
+      "responsibility"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly and Taffy planned a bedroom picture story.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I picked the book with the little blue boat.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "⛵",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "My reading glasses will help me show its tiny pictures.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly's reading glasses rested beside books on a cushion.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly wanted that cushion to become their reading seat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will clear this seat before you choose a page.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly set a small wooden stool beside the bed.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The stool was ready to hold their open storybook.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly lifted three shared books and his own reading glasses.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "👓"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He tucked everything between two tall bedroom cushions.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "👓"
+          },
+          "sfx": []
+        },
+        {
+          "text": "There, our seat looks wonderfully empty and ready now.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy came back carrying two soft little floor mats.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "👓"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Where are your glasses that were on this cushion?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They are somewhere nearby; first I will clear the stool.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "A pencil and two bookmarks still covered the stool.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "👓"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Tilly swept them into an empty box very quickly.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A box will make the rest of this easy.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "He added loose pages and another book to that box.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then he pushed it behind the tallest cushion pile.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Which box has the boat book we chose together?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly opened a different box filled with folded socks.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That was not the box I meant to open.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy searched beside the bed and beneath their mats.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "She found a bookmark, but neither glasses nor book.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our room looks clear, but I cannot start reading.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have made our things harder to find today.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly stopped reaching into boxes without looking inside.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The empty seat did not help their missing story.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I remember hiding things in two different places.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "👓"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "He pointed to the cushions and then the unmarked box.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Moving the piles again would only hide them somewhere else.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy sat beside him while he chose what to do.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "👓",
+      "question": {
+        "answer": {
+          "text": "Open the hiding places",
+          "emoji": "📦"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Tilly hide another pile, or open the hiding places?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Opening the piles lets Tilly sort what is there.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly lifted the top cushion and spread a floor mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please help me put these things where we can see.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will make a book pile on this mat.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "The reading glasses appeared beneath the blue boat book.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "⛵",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Tilly carried them carefully to the open wooden stool.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Here they are, waiting under the very book we wanted.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "He opened the hidden box and laid its contents out.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Pencils, bookmarks, and papers had tangled around another book.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can sort bookmarks while you gather the pencils.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly found a shallow tray that would hold the glasses.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This tray can stay beside the book shelf every day.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He checked that both friends could reach it easily.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy drew a picture of glasses on a small card.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly fixed the card above the tray without covering it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A picture label will show us what lives here.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "They placed pencils in a cup and bookmarks in a pocket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The pencils stand up, so I can see each one.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our boat book needs a home we can see too.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly left one open space on the low book shelf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He put the blue boat book there with its cover showing.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "⛵",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "After reading, I will bring our book back here.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "👓",
+      "question": {
+        "answer": {
+          "text": "In the glasses tray",
+          "emoji": "👓"
+        }
+      },
+      "lines": [
+        {
+          "text": "Where should Tilly's glasses go after a story?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Exactly! Both friends know where that tray belongs.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly returned his reading glasses to the little tray.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This time clearing the room also made things findable.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy brought the boat book to the wooden stool.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I found it without moving even one bedroom cushion.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "And I know just where to reach for my glasses.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly put on the glasses and opened the first page.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The blue boat floated beside a tiny painted bridge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "emoji": "⛵",
+            "color": "#2f8cff"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Now I can point to the little details with you.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "When the first book ended, Tilly removed his glasses.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am putting these back before you choose another book.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He set them in the tray below their picture label.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy chose a book with an orange garden gate.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "👓",
+            "color": "#ff8c1a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "She fetched Tilly's glasses straight from their little tray.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Here they are, ready for you to read again.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly read while Taffy pointed to the little garden picture.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There is a path beside the orange gate, too.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "ORANGE",
+            "emoji": "👓",
+            "color": "#ff8c1a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "They found new details without a long searching break.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy helped return his glasses, and Tilly returned both books.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our things are ready whenever we want another story.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I like a clear seat and a findable book.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "A loose bookmark lay beside the empty reading stool.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly noticed it before stacking the bedroom cushions again.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This one belongs in the pocket with the other bookmarks.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "turtle",
+      "secondCharacter": "bunny",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "👓",
+      "question": null,
+      "lines": [
+        {
+          "text": "He tucked it away while Taffy found tomorrow's book.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Their little reading corner was ready for two readers.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "👓"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": [
+        "bear"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "turtle",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Returning books and reading things to clear homes helps everyone enjoy story time.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Give our things a place to stay!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Find them for another day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Give our things a place to stay!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Find them for another day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bear",
+        "duck"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Grandpa Tilly clears a reading seat by hiding shared books and his own glasses, then rushing more things into a box. When story time stalls, he makes visible homes that help both friends find what they need.",
+    "moralTheme": "responsibility",
+    "heroGoal": "Read a shared picture book with Taffy using Tilly's own reading glasses.",
+    "firstAttempt": "Hide shared books and his own glasses inside a cushion pile to clear a seat.",
+    "secondAttempt": "Rush remaining objects into an unmarked box without sorting.",
+    "consequence": "Taffy cannot find Tilly's reading glasses or their chosen picture book, so reading stops.",
+    "repair": "Open both hiding places, sort each item, and label a glasses tray and book shelf with pictures.",
+    "ending": "Taffy finds Tilly's glasses easily for their next book and helps return them to the tray.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

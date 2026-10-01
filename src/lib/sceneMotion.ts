@@ -6,6 +6,12 @@ export const CONTACT_SFX: Partial<Record<Action,SfxName>> = {jump:'boing',clap:'
 
 export interface ActionCue { from: number; action: Action }
 
+/** Slow emotional framing settles at the end of speech instead of growing through holds. */
+export function emotionalPushIn(t: number, durationSec: number): number {
+  const k = Math.max(0, Math.min(1, t / Math.max(2, durationSec)));
+  return .045 * k * k * (3 - 2 * k);
+}
+
 /** Per-actor actions on the scene clock. Adjacent identical actions form one run. */
 export function actionTrack(scene: Scene, slot: SceneSlot, actor: 'character' | 'friend', fps: number): ActionCue[] {
   const cues: ActionCue[] = [{from: 0, action: 'idle'}];

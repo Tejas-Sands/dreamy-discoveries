@@ -1,0 +1,33 @@
+{
+  "note": "27 hand-authored, Director-enriched standby stories. Read STANDBY.md. Completed releases and manual used markers exclude a slug from automatic selection; preserve every script for rerenders. Add new slugs to replenish.",
+  "slugs": [
+    "standby-ben-and-the-paper-boat",
+    "standby-taffy-makes-room",
+    "standby-fiona-keeps-her-word",
+    "standby-taffy-and-the-smallest-picnic-piece",
+    "standby-taffy-and-the-two-paw-umbrella",
+    "standby-taffy-leaves-a-turn",
+    "standby-taffys-crooked-sandcastle",
+    "standby-ben-and-the-mixed-up-parcels",
+    "standby-ben-and-the-quiet-star",
+    "standby-ben-measures-a-little",
+    "standby-bens-thank-you-patch",
+    "standby-daisy-and-the-different-sized-baskets",
+    "standby-daisy-lets-the-pond-listen",
+    "standby-daisys-cloud-picture",
+    "standby-daisys-slow-parade",
+    "standby-fiona-and-the-last-decoration",
+    "standby-fiona-and-the-shortcut-sign",
+    "standby-fiona-chooses-a-fair-finish",
+    "standby-fionas-tiny-practice",
+    "standby-tilly-and-the-unfinished-promise",
+    "standby-tilly-asks-for-a-paw",
+    "standby-tillys-missing-reading-glasses",
+    "standby-tillys-wobbly-snow-friend",
+    "standby-ozzy-and-the-gentle-echo",
+    "standby-ozzy-and-the-paper-crown",
+    "standby-ozzys-guess-that-needed-checking",
+    "standby-ozzys-one-star-at-a-time-map"
+  ],
+  "usage": {}
+}

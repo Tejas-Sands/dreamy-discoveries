@@ -21,6 +21,8 @@ import { directScript } from "./lib/director.mjs";
 import { estimateFrames, chunkRanges } from "./lib/estimate.mjs";
 import { voiceSettings, missingTexts } from "./lib/voice.mjs";
 import { LIBRARY_DIR } from "./lib/catalog.mjs";
+import {loadStandby} from './lib/standby.mjs';
+import {castMemberById, castMemberByKind} from './lib/cast.mjs';
 
 loadDotEnv();
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -39,6 +41,7 @@ function generate(args) {
     if (args[k] !== undefined) pass.push(`--${k}`, String(args[k]));
   }
   const res = spawnSync(process.execPath, [path.join(here, "generate-script.mjs"), ...pass], { stdio: "inherit" });
+  if (res.error) throw new Error(`script generation could not start: ${res.error.message}`);
   if (res.status !== 0) throw new Error("script generation failed");
   return JSON.parse(fs.readFileSync(path.join(GENERATED_DIR, "latest.json"), "utf8")).slug;
 }
@@ -59,6 +62,10 @@ import { initDbSchema, seedFromFiles } from "./lib/db.mjs";
 function main() {
   initDbSchema().then(seedFromFiles).catch(() => {});
   const args = parseArgs();
+  if (args.minutes !== undefined && (!Number.isFinite(Number(args.minutes)) || Number(args.minutes) < 1 || Number(args.minutes) > 8)) {
+    throw new Error('minutes must be between 1 and 8');
+  }
+  if (args.hero && !castMemberById(args.hero) && !castMemberByKind(args.hero)) throw new Error(`Unknown cast hero: ${args.hero}`);
 
   // chunk range for one matrix job
   if (args.range) {
@@ -85,11 +92,22 @@ function main() {
     return;
   }
 
-  const slug = args.slug ? loadFromLibrary(args.slug) : generate(args);
+  let slug;
+  let scriptSource = args.slug ? 'library' : args.template ? 'template' : 'llm';
+  try {
+    slug = args.slug ? loadFromLibrary(args.slug) : generate(args);
+  } catch (err) {
+    if (!args.standby || args.slug || args.template || args.type === 'rhyme') throw err;
+    const reserve = loadStandby(args.hero);
+    if (!reserve) throw new Error(`${err.message}; no unused standby stories remain in library/standby.json`);
+    console.warn(`[plan] generation unavailable; using unused standby story ${reserve.slug} (${reserve.title})`);
+    slug = loadFromLibrary(reserve.slug);
+    scriptSource = 'standby';
+  }
   let script = directScript(readScript(slug));
   if (args.minutes) script.targetMinutes = Number(args.minutes);
   if (!args.dry) writeScript(slug, script);
-  setLatestSlug(slug);
+  if (!args.dry) setLatestSlug(slug);
 
   const settings = voiceSettings(script, args);
   const missing = missingTexts(script, settings);
@@ -101,12 +119,14 @@ function main() {
   if (args.library && !args.dry) {
     const dest = path.join(LIBRARY_DIR, "scripts", `${slug}.json`);
     fs.mkdirSync(path.dirname(dest), { recursive: true });
-    fs.writeFileSync(dest, JSON.stringify(script, null, 2) + "\n");
+    // A committed script is a permanent row, including when minutes/voice change on a rerun.
+    if (!fs.existsSync(dest)) fs.writeFileSync(dest, JSON.stringify(script, null, 2) + "\n", {flag: 'wx'});
     console.log(`[plan] library: ${path.relative(ROOT, dest)}`);
   }
 
   output({
     slug,
+    script_source: scriptSource,
     title: script.title,
     type: script.type,
     voice_needed: missing.length > 0 ? "true" : "false",

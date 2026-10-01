@@ -1,0 +1,1487 @@
+{
+  "slug": "standby-daisys-slow-parade",
+  "title": "Daisy's Slow Parade",
+  "type": "story",
+  "template": null,
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "duck",
+    "name": "Daisy"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Let's join Daisy for a little Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for watching our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Including a friend means making a useful place and a pace they can share.",
+  "moralRhyme": [
+    "Make some room and match the pace!",
+    "Every friend can have a place!"
+  ],
+  "youtube": {
+    "title": "Daisy's Slow Parade | Sunny Meadow Story for Kids",
+    "description": "Daisy’s quick park parade leaves Grandpa Tilly’s handmade ribbon behind, and asking him to watch does not give him a real part. Daisy makes him the ribbon guide and follows the steady pace he chooses. A gentle preschool story from Dreamy Discoveries. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Daisy",
+      "including-others"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy had a ribbon ready for a park parade.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly had tied little bows along its edge.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can carry your ribbon all around the park.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy held one end and lifted her webbed feet.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎀"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Quack a-lacka-doodle! Our ribbon parade can begin now.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "I will carry this end and keep the bows straight.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy marched quickly toward the wide, shady park path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Come join me, Grandpa Tilly! We have started marching.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly took steady steps with his ribbon end.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "The space between them grew with every quick step.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wait a moment. Our ribbon is pulling quite tight.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy stopped, then hurried off at the same pace.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Come along! You are invited to my cheerful parade.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her words floated back while her feet hurried forward.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly kept walking, holding his end with care.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "A low ribbon bow brushed against the park path.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can carry it neatly when we walk together.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I thought calling louder would help you join me.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "think",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy looked back at the ribbon stretched between them.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The handmade bows no longer danced above the grass.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our parade ribbon is dragging instead of waving proudly.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "I wanted to march with the bows I made.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly stood calmly with his end held up.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy lowered her feet and thought about another plan.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎀",
+      "question": {
+        "answer": {
+          "text": "Match his pace",
+          "emoji": "🐢"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can Grandpa Tilly join a parade that keeps rushing away?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A shared pace lets Grandpa Tilly march too.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "You could sit by the bench and wave to me.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy put a little parade flag beside the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can wave, but I still want to march.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy imagined a fast parade with a happy watcher.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can clap when I reach the finish spot.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "What will happen to my end of the ribbon?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy tried carrying both ribbon ends by herself.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The long middle loop trailed softly behind her feet.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh, these bows need someone at each ribbon end.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly picked the middle loop off the path.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We made this ribbon to carry it side by side.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He laid the bows neatly across the park bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "The parade had a flag, but nobody was marching.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sitting at the finish is not the part you wanted.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I would like to help the whole parade move.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy noticed Grandpa Tilly straightening every little ribbon bow.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You know how to keep this ribbon looking lovely.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can guide it around the corners as well.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "He pointed along the wide curve around the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A gentle turn keeps the middle off the ground.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy followed the curve with one slow practice step.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎀"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Would you like to be our parade ribbon guide?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. We can keep it level as we go.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly picked up his end with a smile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "What walking pace feels comfortable for our ribbon guide?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This steady pace. Try walking beside me for a moment.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy matched his small steps along the shady path.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎀",
+      "question": {
+        "answer": {
+          "text": "Be the ribbon guide",
+          "emoji": "🎀"
+        }
+      },
+      "lines": [
+        {
+          "text": "Could Grandpa Tilly guide their ribbon through the park?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Guiding the ribbon gives him a useful parade part.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "They practiced stepping together while the ribbon stayed level.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your steps are giving our parade a gentle beat.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can stop together when I lift my flag.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy brought the flag back from the empty finish bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She placed it in Grandpa Tilly's ready front foot.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can show our turns and our little pauses.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly lifted the flag to begin their first march.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Quack a-lacka-doodle! Now our parade has its guide.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy walked beside him and sang a steady tune.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "At the bend, Grandpa Tilly turned his ribbon end gently.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy followed his curve and kept her end level.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look, all the bows are floating above the grass.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy slowed her quick feet to match his next steps.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She held her ribbon end beside his instead of ahead.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We are carrying the whole parade together this time.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly raised his flag beside a patch of flowers.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy stopped with him, keeping the ribbon off the ground.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A little pause lets us admire our moving bows.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Shall we take the sunny curve or the shady one?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎀"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The shady curve will bring us back to our bench.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy followed her ribbon guide along the shady curve.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their ribbon made one lovely loop around the park.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎀"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Quack a-lacka-doodle! Every bow made the trip with us.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Slow and steady! Our parade stayed together all the way.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "They reached the bench with both ribbon ends still level.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly raised his flag for their shared finish.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "clap",
+          "callout": null,
+          "sfx": [
+            "clap"
+          ]
+        },
+        {
+          "text": "Ready, ribbon guide? Let's give one little bow together.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎀"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎀",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy bowed beside Grandpa Tilly without hurrying ahead.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then they folded their parade ribbon between them.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Next time, you can choose our first parade turn.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "duck",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Including a friend means making a useful place and a pace they can share.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Make some room and match the pace!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every friend can have a place!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "turtle",
+        "bunny"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Make some room and match the pace!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Every friend can have a place!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Daisy’s quick park parade leaves Grandpa Tilly’s handmade ribbon behind, and asking him to watch does not give him a real part. Daisy makes him the ribbon guide and follows the steady pace he chooses.",
+    "moralTheme": "including-others",
+    "heroGoal": "March a ribbon parade with Grandpa Tilly.",
+    "firstAttempt": "Call Tilly to join while marching away too quickly.",
+    "secondAttempt": "Ask Tilly to sit at the finish and wave instead of marching.",
+    "consequence": "The ribbon drags, and Tilly has no marching part in the parade he helped prepare.",
+    "repair": "Invite Tilly to guide the ribbon, ask about a comfortable pace, and march beside him.",
+    "ending": "The friends complete the loop together with Tilly leading the shared stop signal.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

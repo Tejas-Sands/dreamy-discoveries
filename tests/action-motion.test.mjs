@@ -27,6 +27,38 @@ const draw = props => renderToStaticMarkup(React.createElement(Character,{kind:'
 const pose = (action, t, extra = {}) => computePose({action, t, bpm:120, ...extra});
 const close = (a,b,tolerance=1e-8) => assert.ok(Math.abs(a-b)<tolerance, `${a} != ${b}`);
 
+test('walking limbs stay continuous at both foot changes and cycle wraps', () => {
+  for (const boundary of [.5 / 2.2, 1 / 2.2, 1.5 / 2.2]) {
+    const before = pose('walk', boundary - 1e-5), after = pose('walk', boundary + 1e-5);
+    for (const key of ['legSwL', 'legSwR', 'armL', 'armR']) {
+      assert.ok(Math.abs(before[key] - after[key]) < .02, `${key} snaps at ${boundary}`);
+    }
+    const at = pose('walk', boundary);
+    const incomingSpeed = (at.legSwL - before.legSwL) / 1e-5;
+    const outgoingSpeed = (after.legSwL - at.legSwL) / 1e-5;
+    assert.ok(Math.abs(incomingSpeed - outgoingSpeed) < 1, 'foot reverses abruptly at contact');
+  }
+});
+
+test('listening is a relaxed attentive pose with hands down', () => {
+  for (const t of [0, .3, 1, 3]) {
+    const listening = pose('look', t);
+    assert.ok(Math.abs(listening.armR) < 25, 'listener waves over the speaker');
+    assert.ok(Math.abs(listening.head.tilt) <= 7);
+  }
+});
+
+test('quiet breathing uses the episode clock across gesture resets', () => {
+  const a = pose('idle', .1, {clockT: 7.2}), b = pose('idle', 4.6, {clockT: 7.2});
+  for (const key of ['x', 'y', 'sx', 'sy', 'lean', 'tail']) close(a[key], b[key]);
+  close(a.head.tilt, b.head.tilt);
+});
+
+test('action clocks do not inject a second blink over the global blink clock', () => {
+  assert.equal(pose('idle', 3.84).eyes.mode, 'open');
+  assert.equal(pose('sleep', 3.84).eyes.mode, 'closed');
+});
+
 test('twist dancing keeps a readable front-facing silhouette',()=>{
   for(let frame=0;frame<120;frame++) assert.ok(pose('dance',frame/30,{seed:2,musicT:frame/30}).flip>=0.75);
 });

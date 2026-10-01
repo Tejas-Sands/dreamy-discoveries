@@ -22,7 +22,7 @@ import { VoxAudio, laughMouth, voxAt, voxEvents } from "./components/Vox";
 import { fetchBaked, type BakedMap } from "./lib/baked";
 import { BrandOutro } from "./components/BrandOutro";
 import { sceneDirection } from "./lib/sceneDirection.mjs";
-import { actionTrack, sampleAction, gagFrame, motionProfile, contactSounds, CONTACT_SFX } from "./lib/sceneMotion";
+import { actionTrack, sampleAction, gagFrame, motionProfile, contactSounds, CONTACT_SFX, emotionalPushIn } from "./lib/sceneMotion";
 import { impactAt } from "./lib/actionMotion";
 
 const { fontFamily } = loadFont();
@@ -202,9 +202,10 @@ const SceneView: React.FC<{
 
   // Camera drift and emotional push-in
   const isEmotional = ref?.line.emotion === "sad" || ref?.line.emotion === "love" || ref?.line.emotion === "worried" || ref?.line.emotion === "thinking";
-  const pushIn = isEmotional && ref ? (Math.max(0, lineT) / Math.max(2, ref.line.durationSec ?? 2)) * 0.06 : 0;
-  const driftX = Math.sin(sceneT * 0.4) * 12;
-  const driftY = Math.cos(sceneT * 0.3) * 8;
+  const cameraMotion = scene.camera === 'still' ? 0 : profile.camera;
+  const pushIn = isEmotional && ref ? emotionalPushIn(lineT, ref.line.durationSec ?? 2) * cameraMotion : 0;
+  const driftX = Math.sin(sceneT * 0.4) * 8 * cameraMotion;
+  const driftY = Math.sin(sceneT * 0.3) * 5 * cameraMotion;
 
   const finalZoom = shotZoom + linePunch + beatPulse + pushIn;
   const finalOrigin = { x: origin.x + driftX, y: origin.y + driftY };

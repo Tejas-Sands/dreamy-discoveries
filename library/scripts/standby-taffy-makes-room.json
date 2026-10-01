@@ -1,0 +1,1291 @@
+{
+  "slug": "standby-taffy-makes-room",
+  "title": "Taffy Makes Room",
+  "type": "story",
+  "template": null,
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Taffy"
+  },
+  "moral": "Making room for someone helps them belong.",
+  "moralRhyme": [
+    "Make some room; invite a friend!",
+    "Let our happy garden blend!"
+  ],
+  "topic": "Authored standby story: Taffy Makes Room",
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "A little choice can make a big difference. Let's watch!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "youtube": {
+    "title": "Taffy Makes Room | Sunny Meadow Moral Story for Kids",
+    "description": "Making room for someone helps them belong. A gentle Sunny Meadow story for preschool children. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Taffy"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy's garden had room for exactly one more seed.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That last sunny spot will be mine!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She hopped toward the little patch of soil.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly arrived with a small seed packet.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "May I plant my seed beside yours today?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy looked at the tiny space left open.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "I wanted the biggest row of flowers here.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She imagined every flower waving just for her.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! My garden will be beautiful!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy planted her seed in the final sunny spot.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can watch me water it, Grandpa Tilly.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He held his unopened seed packet quietly.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "I hoped to help something grow here, too.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy pointed toward a dark corner behind the pots.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Maybe your seed can fit over there instead.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly studied the corner behind the pots.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This seed needs sunshine, just like yours does.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His packet stayed closed beneath his gentle paw.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🌱",
+      "question": {
+        "answer": {
+          "text": "Make room!",
+          "emoji": "💛"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Taffy leave room for Grandpa Tilly?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A little space helps a friend join.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy offered him the watering can instead.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can carry this while I plant everything.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I would like to plant my own seed.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "The garden looked full, but something felt missing.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly was beside her, yet still waiting.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Watching isn't the same as joining, is it?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy stopped hopping and sat beside the sunny row.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I wanted every flower to be mine.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But I wanted a happy garden together, too.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "We can look for a new way together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy studied the spaces between her little seeds.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They're close. Perhaps some need more growing room.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "She reached toward a seed with her paw.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then she paused and looked at Grandpa Tilly.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you show me how to move it gently?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Let's scoop the soil around it carefully.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy loosened the soft earth with a little spoon.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly steadied the spoon without taking over.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "They moved one seed to an empty sunny pot.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🐰"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! There's sunshine over here, too.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The garden row now had a friendly little gap.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly, this space is for your seed.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you. I would love to plant it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His small packet finally opened with a rustle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy reached out to take his little seed.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then she noticed his paw was already ready.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh! This is your part to try.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "She waited while Grandpa Tilly made a shallow hole.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He lowered the seed into the warm soil.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady! Now a soft blanket of earth.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy watched him pat the soil into place.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You did it! What would help you next?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly pointed toward the little watering can.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🌱",
+      "question": {
+        "answer": {
+          "text": "Ask Tilly!",
+          "emoji": "💛"
+        }
+      },
+      "lines": [
+        {
+          "text": "What can Taffy do before helping?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Ask what help your friend would like.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Could you hold it while I pour?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. We can each do a helpful part.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Together, they tilted the can just a little.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "A few drops landed on the thirsty soil.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy steadied the handle and waited patiently.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That's enough. Our seeds have a good start.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "They placed two small markers beside the seeds.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "One for your seed, and one for mine.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now both friends had a place in the garden.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "There were no flowers yet, only quiet little seeds.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But the garden already felt warmer to Taffy.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I like growing something with you beside me.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "We can come back and care for them together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll leave space for your watering turn, too.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy moved the spoon where both could reach it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "bunny",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Two friends sat beside their small sunny garden.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! There's room for us both.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Their shared garden had begun with one caring choice.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "bunny",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "lines": [
+        {
+          "text": "Taffy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Making room for someone helps them belong.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "lines": [
+        {
+          "text": "Make some room; invite a friend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let our happy garden blend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bear",
+        "duck"
+      ],
+      "prop": null,
+      "question": null
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "lines": [
+        {
+          "text": "Make some room; invite a friend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Let our happy garden blend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "pan",
+      "gag": null,
+      "extras": [
+        "duck",
+        "fox"
+      ],
+      "prop": null,
+      "question": null
+    }
+  ],
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

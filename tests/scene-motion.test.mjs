@@ -10,7 +10,16 @@ const actionSource = fs.readFileSync(new URL('../src/lib/actionMotion.ts',import
 const actionOutput = ts.transpileModule(actionSource,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
 const actionUrl = `data:text/javascript;base64,${Buffer.from(actionOutput).toString('base64')}`;
 const linkedOutput = outputText.replace("'./actionMotion'",JSON.stringify(actionUrl));
-const {actionTrack, sampleAction, gagFrame, contactSounds} = await import(`data:text/javascript;base64,${Buffer.from(linkedOutput).toString('base64')}`);
+const {actionTrack, sampleAction, gagFrame, contactSounds, emotionalPushIn} = await import(`data:text/javascript;base64,${Buffer.from(linkedOutput).toString('base64')}`);
+
+test('emotional camera movement eases in and stays bounded during long holds', () => {
+  assert.equal(typeof emotionalPushIn, 'function');
+  assert.equal(emotionalPushIn(-1, 2), 0);
+  assert.equal(emotionalPushIn(0, 2), 0);
+  assert.ok(emotionalPushIn(.5, 2) < emotionalPushIn(1, 2));
+  assert.equal(emotionalPushIn(2, 2), emotionalPushIn(100, 2));
+  assert.ok(emotionalPushIn(100, 2) <= .045);
+});
 const line = (from, action, speaker='character') => ({from,pre:0,duration:69,line:{text:'Move together',durationSec:2,action,speaker}});
 const slot = {from:102,duration:240,lines:[line(0,'wave'),line(69,'wave'),line(138,'point')],holdFrom:207,holdDuration:0,revealFrom:-1,praiseFrom:-1};
 const scene = {character:'bunny',energy:'calm',lines:slot.lines.map(l=>l.line)};

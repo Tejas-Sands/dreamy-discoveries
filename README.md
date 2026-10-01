@@ -31,7 +31,7 @@ cheaper than the last. You watch it and upload to YouTube — the only human ste
 | --- | --- |
 | Evergreen songs from templates | **none** |
 | Stories and original rhymes | one text call (~5k tokens, free tier) |
-| A new animal or place the topic needs | animals are a **closed cast** (the Sunny Meadow universe, below) — never invented. A new *place* still proposes a recipe made of known parts; validated, saved, never asked again |
+| Characters and settings | the six Sunny Meadow animals and existing background recipes, selected by deterministic code |
 | Voice | a local neural model, no API, cached forever per line |
 | Music, sound effects, drawing, animation, thumbnails, compilations | none |
 
@@ -41,8 +41,8 @@ Everything visual, musical and vocal is deterministic and reproducible from
 ## Run it online (recommended)
 
 1. Push to a **public** GitHub repo (unlimited Actions minutes, up to 20 parallel jobs).
-2. Add repository **Secrets**: one of `GROQ_API_KEY` / `GEMINI_API_KEY` /
-   `OPENROUTER_API_KEY` (only needed for stories), plus `TELEGRAM_BOT_TOKEN` and
+2. Add repository **Secrets**: `GEMINI_API_KEY`, `GROQ_API_KEY` and
+   `OPENROUTER_API_KEY` for independent free-tier fallbacks (one works; all three improve availability), plus `TELEGRAM_BOT_TOKEN` and
    `TELEGRAM_CHAT_ID`.
 3. Actions → **Make video** → *Run workflow*. Give it a topic, or a template
    (`counting`, `colors`, `actions`, `animal-sounds`, `body-parts`, `shapes`,
@@ -55,6 +55,44 @@ Everything visual, musical and vocal is deterministic and reproducible from
 
 Every finished episode is a GitHub Release (`video-<slug>`: mp4, thumbnail,
 metadata, script), listed in `library/catalog.json`.
+
+Script writing tries Gemini → Groq → OpenRouter using whichever keys are configured.
+Temporary errors (including Gemini 503 and rate limits) get up to three attempts per
+provider with backoff and `Retry-After`, bounded by an eight-minute overall budget.
+Authentication failures and missing models move straight to the next provider.
+Defaults are `gemini-3.6-flash`, `openai/gpt-oss-120b` and `openrouter/free`;
+optional repository Variables `GEMINI_MODEL`, `GROQ_MODEL` and `OPENROUTER_MODEL`
+override them independently. OpenRouter overrides must be `:free` models.
+Use free accounts; no billing or paid model routing is needed.
+
+If script generation remains unavailable, the workflow selects an unused,
+hand-authored story from `library/standby.json`. The [standby story bank](library/STANDBY.md)
+contains 27 complete stories, including 24 new stories with four starring turns
+for each Sunny Meadow character, 24 distinct settings and 24 hero/friend pairings.
+A cataloged, rendered or explicitly marked Used story is never selected again; replenish the reserve with
+new script slugs and run the Director. When it is exhausted, planning fails
+clearly. A failed or cancelled scheduled episode goes back to pending and reuses its committed
+script on the next attempt. Manual `--slug` runs always skip AI and preserve the
+permanent script in `library/scripts/`.
+
+The bank links to readable dialogue, story beats and production JSON for every
+story. To use one immediately without an AI request, run **Make video** with its
+**slug**. Completed releases automatically update the bank's **Used** status and
+usage date. Scripts stay available for rerendering. For a video made separately:
+
+```bash
+npm run standby -- list
+npm run standby -- used --slug <story-slug> --release <video-url>
+npm run standby -- sync
+```
+
+Stories use a seeded brief: hero and friend, a setting-specific obstacle, two
+different attempts, a gentle consequence, and a visible repair that earns the
+moral. Recent briefs help avoid repeating the same pairing and setting. Strict
+JSON validation checks the supported cast and vocabulary, lesson, questions and
+minimum dialogue before the deterministic Director adds engagement cues.
+Topics naming a cast member, species, setting or familiar moral retain those
+choices. When no hero is named, the least-used cast members get priority.
 
 ### What the workflow does
 
@@ -89,6 +127,7 @@ npm run tts && npm run render && npm run telegram
 node scripts/render.mjs --slug sample-share            # bundled samples render with no keys
 npm run studio                                         # live preview; Sheet-* show every character/background
 npm run compile -- --slugs a,b,c --title "..."
+npm test && npm run typecheck                          # includes mocked provider-outage tests
 ```
 
 Outputs are organized under `out/`:

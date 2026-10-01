@@ -1,0 +1,1450 @@
+{
+  "slug": "standby-taffy-leaves-a-turn",
+  "title": "Taffy Leaves a Turn",
+  "type": "story",
+  "template": null,
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Taffy"
+  },
+  "palette": "forest",
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Hello! I'm Taffy. Come share our Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for being here. See you again in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Waiting for the agreed signal gives a friend a whole turn to enjoy.",
+  "moralRhyme": [
+    "Let your friend complete their turn!",
+    "Watch and wait; then you can learn!"
+  ],
+  "youtube": {
+    "title": "Taffy Leaves a Turn | Sunny Meadow Moral Story for Kids",
+    "description": "Taffy and Fiona make leaf prints with one stamping pad, but Taffy keeps reaching before Fiona finishes. After crowding a print and then counting an unfairly short turn, Taffy agrees to wait until Fiona passes the leaf token. Waiting for the agreed signal gives a friend a whole turn to enjoy. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Taffy",
+      "Fiona",
+      "taking-turns"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona's leaf print had a giant smudge across its middle.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh! My leaf moved before I could finish pressing.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy was already reaching for their single stamping pad.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "They sat beside an autumn tree with fallen leaves.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's print a leaf trail across this long paper.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can each choose a different leaf for our turns.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy picked a leaf shaped like a little fan.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! My leaf has such funny fingers!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Mine is long and pointy, like a tiny canoe.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona laid her leaf carefully on the stamping pad.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "First I'll ink this side, then press it here.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And then my fan leaf can go next to yours.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy leaned forward while Fiona was still lifting her leaf.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can start inking mine while you finish yours.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She pulled the pad, nudging Fiona's elbow across the paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona's first print turned into a blurry green streak.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🍃",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I wasn't finished lifting my leaf off the paper.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I only wanted our trail to get longer quickly.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona chose a fresh spot beside the smudged print.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please let me do all the steps this time.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy held her fan leaf and wiggled both feet.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Your leaf is already touching the paper, isn't it?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, but I still need to press every edge.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy's reaching paw hovered right above the stamping pad.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona paused and gently moved the pad beside herself.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A turn needs time for the edges and the lifting.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Waiting feels long when I have my leaf ready.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy looked at their paper's many empty little spaces.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Maybe a counting rule could make our turns quicker.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She tapped each finger while Fiona arranged her leaf.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "One, two, three! There, your turn is finished now.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": {
+            "kind": "count",
+            "emoji": "🍃",
+            "count": 3
+          },
+          "sfx": []
+        },
+        {
+          "text": "My leaf has five edges. I only pressed two.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy took the pad before Fiona could press the rest.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona lifted a leaf print with three missing edges.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "It almost looks finished. Can mine go there now?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I wanted to finish my own leaf, not just part.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona placed her canoe leaf beside the long paper.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I don't want another turn that stops halfway through.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The empty trail stretched between the two quiet friends.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍂",
+      "question": {
+        "answer": {
+          "text": "Let her finish",
+          "emoji": "🍂"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can counting end Fiona’s turn before her leaf is finished?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Fiona needs time to finish all her steps.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "I wanted our game to be quick and bouncy.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy saw the smudge and the three missing edges.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🍂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "But I made both of your turns feel unfinished.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona picked up a small dry leaf near her paw.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "What if this leaf tells us whose turn it is?",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Like a little turn ticket we can actually hold?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "The person holding it keeps the pad until they're done.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona set the dry leaf beside her long green one.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Then they pass the ticket to the other person.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "So counting doesn't end your turn. You end it.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. I'll pass the leaf when all my steps are done.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy moved her own printing leaf into her lap.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "The stamping pad still sat close to Fiona's paper.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My paws want to reach, but you have the ticket.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy rested both paws on her knees and watched.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍂",
+      "question": {
+        "answer": {
+          "text": "The leaf ticket",
+          "emoji": "🎟️"
+        }
+      },
+      "lines": [
+        {
+          "text": "What should Taffy wait for before taking the pad?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You remembered! Passing the ticket means the turn is finished.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'm sorry I took the pad before you finished.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She slid the paper closer and gave Fiona clear space.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll wait until you pass our leaf turn ticket.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona inked her leaf and pressed every point carefully.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The last edge needs an extra little pat right here.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy noticed how gently Fiona lifted each leaf corner.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "A complete canoe leaf appeared on their shared trail.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'm finished now. Here is the ticket for your turn.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy accepted the dry leaf before touching the pad.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Hop, hop, hooray! Your whole leaf is on our trail!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She inked her fan leaf and pressed all its fingers.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That shape will look lovely next to my canoe.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy lifted slowly, checking the edge nearest Fiona's print.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My turn is finished. Here comes the leaf ticket.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona smiled when Taffy placed it in her paw.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Another full canoe joined another full fan on the paper.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now our trail looks like we're walking together here.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You had time for your steps, and I did too.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy set a small unused leaf beside the smudge.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Could we make that first blur into a fallen-leaf pile?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, after this turn. I'll pass your ticket soon.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍂",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their print trail ended in a cheerful leafy pile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hop, hop, hooray! A whole turn for each friend!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona passed the ticket as Taffy chose her next leaf.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": [
+        "owl"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "autumn",
+      "character": "bunny",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Waiting for the agreed signal gives a friend a whole turn to enjoy.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "autumn",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Let your friend complete their turn!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Watch and wait; then you can learn!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "owl",
+        "fox"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "autumn",
+      "character": "bunny",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Let your friend complete their turn!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Watch and wait; then you can learn!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "fox",
+        "bear"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Taffy and Fiona make leaf prints with one stamping pad, but Taffy keeps reaching before Fiona finishes. After crowding a print and then counting an unfairly short turn, Taffy agrees to wait until Fiona passes the leaf token.",
+    "moralTheme": "taking-turns",
+    "heroGoal": "Make a leaf-print trail together with Fiona.",
+    "firstAttempt": "Grab the stamp pad while Fiona is still printing.",
+    "secondAttempt": "Count a short turn aloud and take the pad before Fiona finishes.",
+    "consequence": "Fiona has a smudged print and stops enjoying the game.",
+    "repair": "Agree that passing the leaf token signals a finished turn, then wait for it.",
+    "ending": "Both complete clear prints that join into one autumn trail.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

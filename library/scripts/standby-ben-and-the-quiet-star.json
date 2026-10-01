@@ -1,0 +1,1463 @@
+{
+  "slug": "standby-ben-and-the-quiet-star",
+  "title": "Ben and the Quiet Star",
+  "type": "story",
+  "template": null,
+  "mainCharacter": {
+    "kind": "bear",
+    "name": "Ben"
+  },
+  "palette": "night",
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Hello! I'm Ben. Come share our Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for being here. See you again in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Asking for one specific kind of help lets you keep learning while a friend supports you.",
+  "moralRhyme": [
+    "Name the help and make a start!",
+    "You can do the trying part!"
+  ],
+  "youtube": {
+    "title": "Ben and the Quiet Star | Sunny Meadow Moral Story for Kids",
+    "description": "Ben wants to finish a star map for Ozzy, but pretending to know and then guessing alone leave one dot misplaced. He finally asks Ozzy to help find the starting star while keeping the drawing for himself. Asking for one specific kind of help lets you keep learning while a friend supports you. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Ben",
+      "Professor Ozzy",
+      "asking-for-help"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben's little star map had lines going every which way.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Where did my quiet little star disappear on this paper?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The sky hasn't changed. We can look again, Ben.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "They watched stars from a cozy bench beneath the night sky.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want a star picture we can both use later.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's draw a simple map of these few bright dots.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy spread a matching picture beside Ben's blank paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug! I'll make a map for our star bench!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben chose a crayon and held it over the page.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "We can start with the bright star above that tree.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I know stars. I can begin without any help.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben placed his first dot near the paper's bottom.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy looked at the dot, then at the tree silhouette.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Are you starting with the star above the tree?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, of course. I know exactly which one you mean.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben drew a long line from his low starting dot.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This next dot must go over here somewhere, I think.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The line pointed away from the stars they were watching.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Would a small pointing hint help you find the start?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No, thank you. My map is coming along just fine.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben turned his page slightly away from Ozzy's picture.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦉",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He looked at three dots that seemed close together.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Perhaps I can connect them all and find the shape.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He joined one, then another, crossing his first long line.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "A quiet little star sat beneath the two brighter ones.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That’s the small star we wanted to include too.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll put it where there's a little space left.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben squeezed another dot between his crisscrossing crayon lines.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I'll turn the page and make the stars match.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Turning it moved every dot without untangling any lines.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Is there one part you'd like us to check together?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I'm nearly finished. I just need a few more lines.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben added a curve that wasn't in Ozzy's example.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "His small dot disappeared among all the crossing marks.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can't find the quiet star in my picture now.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He rested the crayon beside his unfinished little map.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "Ask for a hint",
+          "emoji": "🙋"
+        }
+      },
+      "lines": [
+        {
+          "text": "If Ben cannot find the start, can he ask for a hint?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A hint can help one part while Ben keeps drawing.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "We can keep this first try and use fresh paper.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy placed a blank sheet where Ben could reach it.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I said I knew the start, but I didn't.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben looked at Ozzy, then at the bright star again.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I thought asking would mean I couldn't make the map.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A hint can help one part while you do the drawing.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "I don't need you to draw every dot for me.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben moved his new paper beside the example picture.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I need to know which star starts this little shape.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "That’s something we can find by pointing at the sky.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy waited with his wing resting beside the paper.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben looked carefully for the tree under the bright star.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🚀",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Could you point to the starting star above that tree?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. This bright one is just above the highest branch.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ozzy pointed, then lowered his wing so Ben could try.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben followed the tree's outline up to the bright dot.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I see that one. My first dot belongs up here.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He held his crayon over the upper part of his paper.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "Point to the start",
+          "emoji": "⭐"
+        }
+      },
+      "lines": [
+        {
+          "text": "What exact help does Ben need for his new map?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That’s right! Finding the starting star gives Ben a clear first step.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Please check my first dot, then let me draw the rest.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben marked the correct starting place on his new sheet.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That matches our bright star. You can keep going now.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben drew two dots below it, leaving a little space.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "These are the two nearby stars in our picture.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He connected them with short lines instead of long guesses.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦉",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "He paused at the little star near the bright pair.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll look before adding this quiet dot underneath them.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can compare the space in the sky and picture.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Big bear hug! My quiet star has its own clear spot!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben put the tiny dot where no line covered it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can see it too. Your careful looking helped.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "A cloud drifted across one corner of their star view.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "☁️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I'll wait until it passes before checking this last line.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He kept the paper still, without guessing another dot.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌙",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "The stars reappeared above the tree's highest little branch.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I can check. My short line goes this way.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben finished the line and set the crayon down gently.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Shall we use your map to find the quiet star?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. Start here, go past these two, then look below.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ozzy followed Ben's picture and found the little light.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "night",
+      "character": "bear",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their finished star map rested between them on the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug! One helpful hint, and my own star map!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben looked from his quiet dot to its quiet star.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": [
+        "turtle"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🌠",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "night",
+      "character": "bear",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Asking for one specific kind of help lets you keep learning while a friend supports you.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "night",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Name the help and make a start!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can do the trying part!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "turtle",
+        "owl"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "night",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Name the help and make a start!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "You can do the trying part!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "owl",
+        "bunny"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Ben wants to finish a star map for Ozzy, but pretending to know and then guessing alone leave one dot misplaced. He finally asks Ozzy to help find the starting star while keeping the drawing for himself.",
+    "moralTheme": "asking-for-help",
+    "heroGoal": "Draw a simple star map to enjoy with Ozzy.",
+    "firstAttempt": "Pretend to understand the starting point and draw from the wrong dot.",
+    "secondAttempt": "Keep guessing alone while saying that no help is needed.",
+    "consequence": "His lines cross and he cannot find the quiet little star in his picture.",
+    "repair": "Ask Ozzy to help identify the starting star, then draw the next dots himself.",
+    "ending": "Both use Ben’s finished map to find the stars they were watching.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "lullaby.wav",
+    "bpm": 72,
+    "mood": "lullaby"
+  },
+  "directed": true
+}

@@ -1,0 +1,1439 @@
+{
+  "slug": "standby-ben-measures-a-little",
+  "title": "Ben Measures a Little",
+  "type": "story",
+  "template": null,
+  "mainCharacter": {
+    "kind": "bear",
+    "name": "Ben"
+  },
+  "palette": "sunshine",
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Hello! I'm Ben. Come share our Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for being here. See you again in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Listening to every step helps you choose the right amount for a shared job.",
+  "moralRhyme": [
+    "Listen through; then choose a bit!",
+    "Little steps can make it fit!"
+  ],
+  "youtube": {
+    "title": "Ben Measures a Little | Sunny Meadow Moral Story for Kids",
+    "description": "Ben wants smiling faces on already baked cookies, but he interrupts Daisy and floods one with icing. Guessing the next step sends sprinkles sliding too, until he listens, measures a small spoonful, and gives each smile time to settle. Listening to every step helps you choose the right amount for a shared job. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Ben",
+      "Daisy",
+      "listening"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben's cookie smile vanished beneath a great icing puddle.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh dear. My happy face looks like a cloud.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can still decorate. Let's look at the icing.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their cookies were already baked and cool to touch.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "These are ready for decorating at our little table.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want to make a whole tray of smiling faces.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy placed ready-made icing and sprinkles beside the tray.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug! This will be a cheerful cookie party!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "First, let me explain our three little decorating steps.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🧸"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "We use a small spoonful, then spread it gently.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I know spreading! I've seen icing on cookies before.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben reached for the icing before Daisy finished speaking.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "He poured a thick mound onto his first cookie.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A big cookie needs a big helping, doesn't it?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The spoon would help us measure a little first.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben tilted the cookie to move its sticky mound.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll tip this side and make the icing spread.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Icing slid over the edge and onto their tray.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "I can draw the smile right through this puddle.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He laid two sprinkle eyes and a curved mouth.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🍪"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The eyes are slowly sliding into the cookie's middle.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their first face became a tiny sprinkle pile.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It needs something to keep those eyes in place.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy held her spoon, still waiting to finish the steps.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "After spreading, we let the icing settle a little.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sprinkles can settle it! I'll put a lot on.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben shook a shower across the whole wet cookie.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "The sprinkles tumbled along the soft icing's slippery edge.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "More sprinkles should catch the ones rolling away now.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That makes a pile instead of our smiling pattern.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben added another spoonful of sprinkles to the pile.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There! Surely that is enough to hold the eyes.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The mouth disappeared under all the little colored dots.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy moved her unfinished cookie away from the dripping edge.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I saved this spot for a small tidy smile.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben saw the icing heading toward Daisy's careful pattern.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍪",
+      "question": {
+        "answer": {
+          "text": "Hear all the steps",
+          "emoji": "👂"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can more sprinkles replace a step Ben has not heard?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Good choice! Ben can listen before guessing what comes next.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "My big pour and my sprinkle guess didn't help.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He set the sprinkle jar down beside the unused spoon.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I wanted happy faces, and now we can't see them.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "We can keep that cookie and try a fresh one.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍪"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Daisy placed the puddled cookie safely on its own plate.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No need to throw it away to learn the steps.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben laid both paws flat beside his fresh cookie.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please tell me the whole plan. I'll listen this time.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A small spoonful first, then spread it very gently.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Next, let it settle before placing your sprinkle face.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben waited until Daisy set her spoon on the table.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Small spoonful, gentle spreading, then wait before the face.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Should my spoon be a little mound or flat?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Flat across the top. That’s enough for this cookie.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy showed the amount without pouring it for Ben.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben scooped icing and leveled his little spoonful carefully.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It looks small compared with my first big pour.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's see how far that measured spoonful can spread.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍪",
+      "question": {
+        "answer": {
+          "text": "Finish each step",
+          "emoji": "🥄"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Ben start the face now, or finish each step?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A small spoonful and a little wait help the smile stay.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'm sorry I interrupted and guessed your missing steps.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben spread the measured icing without tipping his cookie.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll finish each step before starting the next one.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍪"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "A thin icing circle sat inside the cookie's edge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I wait instead of shaking lots of sprinkles.",
+          "speaker": "character",
+          "emotion": "neutral",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy decorated her own cookie while Ben watched his settle.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "The icing stopped moving when Ben gently turned the plate.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can add your two eyes and curved mouth now.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🍪"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben placed each sprinkle where he wanted it to stay.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Big bear hug! My cookie has a smile again!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And your smile is staying right where you placed it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben slid his finished cookie beside Daisy's on the tray.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "He picked up a fresh cookie and the small spoon.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Small spoonful first. I'm remembering the very first step.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This cookie got its own careful icing circle too.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Would you like to choose a different sprinkle smile?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! This one can have a funny sideways grin.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He waited before arranging the new smiling face carefully.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "The first puddled cookie remained on its little plate.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That one looks like a snowy hill. We'll keep it.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our tray can have a hill and happy faces.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "bear",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben carried their decorated cookies across the cool kitchen table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug! A whole tray of smiles to share!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy set the spoon beside the icing for next time.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": [
+        "owl"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "bear",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Listening to every step helps you choose the right amount for a shared job.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Listen through; then choose a bit!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Little steps can make it fit!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "owl",
+        "duck"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Listen through; then choose a bit!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Little steps can make it fit!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "duck",
+        "bunny"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Ben wants smiling faces on already baked cookies, but he interrupts Daisy and floods one with icing. Guessing the next step sends sprinkles sliding too, until he listens, measures a small spoonful, and gives each smile time to settle.",
+    "moralTheme": "listening",
+    "heroGoal": "Decorate already baked, cooled cookies with smiling faces for Daisy.",
+    "firstAttempt": "Interrupt Daisy’s explanation and pour too much ready-made icing.",
+    "secondAttempt": "Guess that lots of sprinkles will fix the wet icing.",
+    "consequence": "Cookie faces disappear under sliding decorations and Daisy’s pattern is lost.",
+    "repair": "Listen to all three steps, ask about the spoon, and measure a little icing before decorating.",
+    "ending": "Their finished smiling cookies sit together on the shared tray.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

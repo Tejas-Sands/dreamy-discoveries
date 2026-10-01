@@ -1,0 +1,1490 @@
+{
+  "slug": "standby-ozzy-and-the-gentle-echo",
+  "title": "Ozzy and the Gentle Echo",
+  "type": "story",
+  "template": null,
+  "palette": "ocean",
+  "mainCharacter": {
+    "kind": "owl",
+    "name": "Professor Ozzy"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Come hear Professor Ozzy's story in Sunny Meadow today!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for sharing our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice.",
+  "moralRhyme": [
+    "Let kind words go far and clear!",
+    "Make a friend feel welcome here!"
+  ],
+  "youtube": {
+    "title": "Ozzy and the Gentle Echo | Sunny Meadow Story for Kids",
+    "description": "Professor Ozzy teases Daisy’s practice note, then tries turning his imitation into a game she must join. He stops, apologizes, and rebuilds their duet around words Daisy wants to share. A gentle story about kind words for preschool families. #KidsStories #SunnyMeadow",
+    "tags": [
+      "kids story",
+      "preschool story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Professor Ozzy",
+      "kind words"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy and Daisy sat on a flat mountain meadow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The distant hills made soft sounds seem to answer back.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let us make a little song with gentle echoes.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy laid a paper song card upon their picnic mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can each sing a line, then echo its words.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will begin with a soft hello across the meadow.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "His hello returned faintly from the rounded hillside beyond.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy smiled and tapped the beginning of her song card.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "She tried a long note before singing her first line.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The note wobbled gently at the end of her breath.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That one needs another practice before I sing the words.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy copied the wobble with an extra squeaky finish.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wobble, wobble, quacky wobble! What a funny little sound!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He laughed, expecting Daisy to laugh beside him too.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy lowered the song card onto her lap instead.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am practicing; I do not like that teasing sound.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I only meant it as part of our echo game.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy made a game card using his squeaky imitation.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He asked Daisy to echo the joke back to him.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let us both sing wobble; then it is just a game.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy closed her beak and folded the paper song card.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy waited for her next line, but none came.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I do not want my practice voice to be a joke.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their song now had an echo, but only one singer.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ozzy looked at the folded card between Daisy's wings.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I kept repeating it after you told me it hurt.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "He lowered his voice and stopped making the squeaky sound.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The meadow became quiet enough to hear grass rustling.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I wanted our song to feel nice for both of us.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy thought about their first friendly plan on the mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "An echo could repeat a welcome as easily as teasing.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My game needs your happy voice, not your quiet hurt.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎵",
+      "question": {
+        "answer": {
+          "text": "No, stop the teasing",
+          "emoji": "🤍"
+        }
+      },
+      "lines": [
+        {
+          "text": "If Daisy feels hurt, should the teasing echo continue?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Stopping gives Daisy room to feel heard.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy moved closer without asking Daisy to sing yet.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am sorry for mocking your note and repeating it.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for stopping; I need a little quiet first.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "They listened to the meadow breeze for a short while.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy let the paper song card stay folded and still.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can wait beside you until you want to talk.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy opened the song card and pointed to its blank line.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I would like a welcome here, instead of a joke.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "What welcome would you like me to echo with you?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "She wrote three simple words across the little blank space.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hello, lovely hills! That is the line I choose.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy read the words before making any new sound.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "He asked how soft she wanted their next echo sung.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Soft enough that we can hear each other clearly.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will copy your words without changing your practice note.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy sang the welcome slowly across the flat green meadow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "emoji": "🎵",
+            "color": "#3ecf4a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Her last note wobbled, then settled into the soft breeze.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I heard your whole welcome, from beginning to end.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy held the card where both friends could see it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now it is your turn to send my words back.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will keep your welcome just the way you chose.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎵",
+      "question": {
+        "answer": {
+          "text": "Daisy should choose",
+          "emoji": "🎵"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who should choose the words for Daisy’s next echo?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Exactly! Her voice belongs to her in their shared song.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "He echoed her chosen words in his own gentle voice.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy lifted the card instead of folding it away.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy pointed to an empty line beneath her welcome.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like to choose another line for your voice?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes; this one will say that our song has room.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy wrote, then sang, a line about two friends listening.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ozzy waited until she finished before echoing its words.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am leaving room for your whole line this time.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "She nodded and handed him the pencil for his turn.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now choose your words, and I will echo them back.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I choose a quiet hello for the gentle meadow breeze.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy sang his hello without any added teasing sound.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy echoed it lightly, following the words he had chosen.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your voice is different from mine, and both can fit.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "They sang the welcome once more in their own voices.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The distant hills returned small pieces of their gentle song.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I like hearing your note beside my lower one.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy's ending wobbled again, and she smiled at the card.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am still practicing that long note a little.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like quiet listening, or another echo of your words?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "She chose listening and sang her final line once more.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy listened through the wobble to its peaceful finish.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is the ending I wanted for our mountain song.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "mountain",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎵",
+      "question": null,
+      "lines": [
+        {
+          "text": "They tucked the card into their basket after the duet.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hoohoo! Let's learn together!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Two different voices carried kind words across the meadow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🎵"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": [
+        "bunny"
+      ],
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "mountain",
+      "character": "owl",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Professor Ozzy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "mountain",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Let kind words go far and clear!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Make a friend feel welcome here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "duck",
+        "bunny"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "mountain",
+      "character": "owl",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Let kind words go far and clear!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Make a friend feel welcome here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Professor Ozzy teases Daisy’s practice note, then tries turning his imitation into a game she must join. He stops, apologizes, and rebuilds their duet around words Daisy wants to share.",
+    "moralTheme": "kind-words",
+    "heroGoal": "Make a gentle mountain echo song with Daisy in a flat meadow below the hills.",
+    "firstAttempt": "Imitate Daisy’s wobbly practice note as a teasing joke.",
+    "secondAttempt": "Turn his teasing imitation into a game and ask Daisy to repeat it with him.",
+    "consequence": "Daisy becomes quiet and their two-voice echo song stops.",
+    "repair": "Stop the imitation, apologize for mocking her note, ask what would help, and echo the words Daisy chooses respectfully.",
+    "ending": "Their finished song repeats each friend’s chosen words and welcomes a wobbly note too.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

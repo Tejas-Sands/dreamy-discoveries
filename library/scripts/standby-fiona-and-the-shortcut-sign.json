@@ -1,0 +1,1479 @@
+{
+  "slug": "standby-fiona-and-the-shortcut-sign",
+  "title": "Fiona and the Shortcut Sign",
+  "type": "story",
+  "template": null,
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "fox",
+    "name": "Fiona"
+  },
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Let's join Fiona for a little Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for watching our story. See you in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Telling the truth about a mistake helps us repair the things friends depend on.",
+  "moralRhyme": [
+    "Tell the truth and set things right!",
+    "Make the path clear, kind, and bright!"
+  ],
+  "youtube": {
+    "title": "Fiona and the Shortcut Sign | Sunny Meadow Story for Kids",
+    "description": "Fiona moves a picnic arrow to claim a shortcut and then hides the loose marker when it points the wrong way. She tells Grandpa Tilly what happened and restores the arrows along their familiar forest path. A gentle preschool story from Dreamy Discoveries. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Fiona",
+      "honesty"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona wanted their forest picnic arrows finished quickly.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly was checking the familiar path around their clearing.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can tie the last marker while you check this one.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "A paper arrow showed a turn beside the wide oak.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fast and clever! I know a shorter way across here.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Fiona looked across the little clearing toward their picnic bench.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "The usual path curved gently around the picnic blanket spot.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our arrow could point straight to the bench instead.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She untied the turn arrow and carried it across.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona tied the arrow loosely beside the familiar bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Its point faced back toward the oak, not the bench.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There, I have made the picnic path much shorter.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly followed the first two arrows at his pace.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "➡️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He stopped at the oak where the turn arrow belonged.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This turn needs its marker. Did we move it?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona glanced at the arrow beside the picnic bench.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Maybe the breeze turned something while we were working.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She wished her quick change had worked as planned.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "I know this path, but our signs should match it.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly stayed in the clearing, looking at both spots.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona's loose new marker slipped sideways on its string.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "One arrow now pointed back at another arrow.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "➡️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "My shortcut did not make the signs clearer at all.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona held the dangling paper point behind her paw.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "➡️",
+      "question": {
+        "answer": {
+          "text": "Tell what happened",
+          "emoji": "💬"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Fiona tell Grandpa Tilly she moved the arrow?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The truth will help them repair the right marker.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "She tried hiding the mistake instead of explaining it.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona slipped the loose arrow under their folded picnic cloth.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "If this one is gone, perhaps the others will work.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly looked at the empty tie around the oak.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We still need the turn marker that goes here.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He set the picnic basket down beside the known path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "We could leave this bend without an arrow today.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But we planned clear signs from start to finish.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly waited beside the empty marker string.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona tried pointing with her paw from the picnic bench.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can show the turn each time you pass.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And what will show it while you set the cups?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "The basket stayed closed while the marker check waited.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona looked at the cloth hiding the paper arrow.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have made more waiting instead of finishing sooner.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "She lifted the cloth and brought out the loose arrow.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I moved this marker because I wanted a shortcut.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly turned toward her and listened without hurrying.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Then I blamed the breeze when my change went wrong.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I hid the arrow because I felt embarrassed about it.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for showing me which marker needs fixing.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona placed the paper arrow beside its original string.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am sorry. I want to put this back properly.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can check the point while I hold the string.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona looked from the oak turn to the next marker.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The arrow belongs here, pointing along our usual curve.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She laid its paper point toward the wide familiar path.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "➡️",
+      "question": {
+        "answer": {
+          "text": "Put the arrow back",
+          "emoji": "➡️"
+        }
+      },
+      "lines": [
+        {
+          "text": "What helps more: hiding the arrow or putting it back?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! An honest repair makes the picnic path clear again.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly held the loose string where Fiona could reach.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona threaded the arrow through its old tied loop.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will make the tie firm before we test it.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "She tugged gently, then adjusted the arrow's pointing end.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now its point matches the path around the blanket spot.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona stepped back to look from the first marker.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fast and clever! A careful check is helping this time.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "She followed the arrows slowly from start to picnic bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every marker pointed onward instead of back at another.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona noticed the paper point leaning after their practice walk.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This tie still needs one more little careful loop.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She tightened it herself while Grandpa Tilly watched the point.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona returned the arrow and checked it from both sides.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The oak turn was clear, and the loose string stayed firm.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The marker I changed is back where friends need it.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly carried the picnic basket along the marked curve.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "walk",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Slow and steady! Each turn has its own clear sign.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona walked beside him, watching the restored arrow stay straight.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "They opened the basket and spread their folded picnic cloth.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I should have told you about the change right away.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You told me, and we repaired it together today.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "A finish marker beside the bench leaned on its string.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Fast and clever! I can fix this loose finish tie.",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona showed Grandpa Tilly the tilted paper before touching it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Could you steady the point while I retie this loop?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Grandpa Tilly held it, and Fiona made a neat knot.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then she checked that the finish arrow still faced correctly.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "forest",
+      "character": "fox",
+      "secondCharacter": "turtle",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "➡️",
+      "question": null,
+      "lines": [
+        {
+          "text": "The two friends sat where the clear picnic path ended.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Now all our arrows are ready, including my repaired one.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Fiona passed Grandpa Tilly a cup with a relieved smile.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "forest",
+      "character": "fox",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Telling the truth about a mistake helps us repair the things friends depend on.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "forest",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Tell the truth and set things right!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Make the path clear, kind, and bright!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": [
+        "turtle",
+        "bunny"
+      ]
+    },
+    {
+      "kind": "moral",
+      "background": "forest",
+      "character": "fox",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Tell the truth and set things right!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Make the path clear, kind, and bright!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "bunny",
+        "bear"
+      ]
+    }
+  ],
+  "standby": {
+    "summary": "Fiona moves a picnic arrow to claim a shortcut and then hides the loose marker when it points the wrong way. She tells Grandpa Tilly what happened and restores the arrows along their familiar forest path.",
+    "moralTheme": "honesty",
+    "heroGoal": "Finish clear picnic trail markers on a familiar short forest loop.",
+    "firstAttempt": "Move a turn arrow to make a shorter route through the picnic clearing.",
+    "secondAttempt": "Hide the loose arrow beneath the picnic cloth instead of admitting the change.",
+    "consequence": "The picnic arrows no longer agree, so Grandpa Tilly pauses the marker check.",
+    "repair": "Explain exactly which arrow she moved, retie it at the proper turn, and test every marker.",
+    "ending": "Fiona notices a tilted finish marker and openly asks Tilly to steady it while she reties it.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

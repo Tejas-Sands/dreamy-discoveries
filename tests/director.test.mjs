@@ -81,6 +81,17 @@ test('generated party guests exclude legacy zoo characters seen earlier', () => 
   assert.ok(output.scenes[1].extras.every((kind) => castKinds().includes(kind)));
 });
 
+test('paper stars and toy animals do not introduce legacy cast members', () => {
+  for (const text of ['Share a paper star with your friend.', 'A toy lion sits beside the paper crown.']) {
+    const output = directScript(script([scene({lines: [{text}]})]));
+    assert.equal(output.scenes[0].secondCharacter, null);
+  }
+  const named = directScript(script([scene({lines: [{text: 'Taffy asked Ben to help.'}]})]));
+  assert.equal(named.scenes[0].secondCharacter, 'bear');
+  const legacy = directScript(script([scene({secondCharacter: 'lion'})]));
+  assert.equal(legacy.scenes[0].secondCharacter, 'lion', 'explicit legacy scenes must remain rerenderable');
+});
+
 test('every library script is idempotent in memory and inputs remain unchanged', () => {
   for (const file of readdirSync(new URL('../library/scripts/', import.meta.url)).filter((name) => name.endsWith('.json'))) {
     const input = JSON.parse(readFileSync(new URL(`../library/scripts/${file}`, import.meta.url), 'utf8'));

@@ -74,6 +74,8 @@ export interface PoseInput {
   bpm: number;
   /** Absolute episode music clock; gestures retain their own local t. */
   musicT?: number;
+  /** Continuous ambient breathing clock, independent of gesture changes. */
+  clockT?: number;
   /** de-syncs characters standing next to each other */
   seed?: number;
   /** fish swim instead of standing; ducks flap when they fly */
@@ -86,7 +88,7 @@ export function computePose(input: PoseInput): Pose {
   const p = poseAt(input);
   // follow-through: how fast is the body moving right now? (ears/tails drag behind)
   const dt = 1 / 30;
-  const prev = poseAt({ ...input, t: input.t - dt, musicT: input.musicT === undefined ? undefined : input.musicT - dt });
+  const prev = poseAt({ ...input, t: input.t - dt, musicT: input.musicT === undefined ? undefined : input.musicT - dt, clockT: input.clockT === undefined ? undefined : input.clockT - dt });
   p.vy = (p.y - prev.y) / dt;
   p.vx = (p.x - prev.x) / dt;
   // lean into lateral motion (dance steps, slides) — sells the momentum
@@ -97,19 +99,20 @@ export function computePose(input: PoseInput): Pose {
 /** actions that keep a gentle bob on the beat in upbeat scenes (the others have their own strong motion) */
 const GROOVERS = new Set<Action>(["idle", "look", "nod", "point", "walk", "eat"]);
 
-function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = false }: PoseInput): Pose {
+function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, groove = false }: PoseInput): Pose {
   const p = base();
   const s = seed * 1.7;
   const beat = ((musicT ?? t) * bpm) / 60; // beats elapsed
   const bph = beat - Math.floor(beat); // phase within the beat
   const TAU = Math.PI * 2;
+  const ambientT = clockT ?? musicT ?? t;
 
   // calm base: a slow breath and a still, confident frame (no constant arm-waving or tail-wagging)
-  p.y = 0.7 * Math.sin(t * 1.2 + s);
-  p.head.tilt = 1.4 * Math.sin(t * 0.8 + s);
+  p.y = 0.7 * Math.sin(ambientT * 1.2 + s);
+  p.head.tilt = 1.4 * Math.sin(ambientT * 0.8 + s);
   p.armL = 8;
   p.armR = 8;
-  p.tail = 5 * Math.sin(t * 1.2 + s);
+  p.tail = 5 * Math.sin(ambientT * 1.2 + s);
   if (legless) {
     // fish hover and wiggle
     p.y = -70 + 5 * Math.sin(t * 1.6 + s);
@@ -120,21 +123,21 @@ function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = fa
   switch (action) {
     case "idle": {
       // breathing + a slow weight shift so a standing hero never looks frozen
-      const br = Math.sin(t * 1.5 + s);
+      const br = Math.sin(ambientT * 1.5 + s);
       p.sx = 1 + 0.02 * br;
       p.sy = 1 - 0.02 * br;
       p.y += -0.9 * br;
-      p.x = 0.9 * Math.sin(t * 0.5 + s);
-      p.lean = 1.4 * Math.sin(t * 0.5 + s);
-      p.head.tilt = 2 * Math.sin(t * 0.8 + s);
+      p.x = 0.9 * Math.sin(ambientT * 0.5 + s);
+      p.lean = 1.4 * Math.sin(ambientT * 0.5 + s);
+      p.head.tilt = 2 * Math.sin(ambientT * 0.8 + s);
       break;
     }
     case "look":
-      p.head.tilt = 8 + 2 * Math.sin(t * 3);
-      p.head.dx = 4;
-      p.eyes.dx = 5;
-      p.eyes.dy = -3;
-      p.armR = 125 + 6 * Math.sin(t * 4);
+      p.head.tilt = 4 + 1.5 * Math.sin(t * 1.8);
+      p.head.dx = 2;
+      p.eyes.dx = 4;
+      p.eyes.dy = -1;
+      p.armR = 10 + 2 * Math.sin(t * 1.2);
       break;
     case "wave":
       p.armR = 150 + 15 * Math.sin(t * TAU * 1.5);
@@ -363,7 +366,7 @@ function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = fa
       p.lean = 4 * Math.sin(t * 2);
       break;
     case "walk": {
-      // Sawtooth/triangle wave for better foot planting instead of pure sine
+      // Eased leg sweeps reach zero velocity at each foot exchange.
       const speed = 2.2;
       const walkT = (t * speed) % 1;
       const ph = Math.sin(walkT * TAU);
@@ -373,13 +376,10 @@ function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = fa
       p.sx = 1 + 0.025 * Math.max(0, Math.sin(walkT * TAU * 2));
       p.sy = 1 - 0.025 * Math.max(0, Math.sin(walkT * TAU * 2));
       
-      // Foot planting: one leg sweeps backward linearly, the other lifts and swings forward fast
-      const sweep = (walkT * 2) % 1; // 0 to 1 twice per cycle
-      const leftPlanting = walkT < 0.5;
-      p.legSwL = leftPlanting ? 25 * (1 - 2 * sweep) : -25 + 50 * sweep;
-      p.legSwR = !leftPlanting ? 25 * (1 - 2 * sweep) : -25 + 50 * sweep;
-      p.legL = leftPlanting ? 0 : -15 * Math.sin(sweep * Math.PI);
-      p.legR = !leftPlanting ? 0 : -15 * Math.sin(sweep * Math.PI);
+      p.legSwL = 25 * Math.cos(walkT * TAU);
+      p.legSwR = -p.legSwL;
+      p.legL = -15 * Math.max(0, -ph);
+      p.legR = -15 * Math.max(0, ph);
       
       // arms swing OPPOSITE to their same-side leg (a proper gait), clamped so they don't tuck behind
       p.armL = Math.max(4, 18 + p.legSwL * 1.2);
@@ -407,13 +407,7 @@ function poseAt({ action, t, musicT, bpm, seed = 0, legless = false, groove = fa
       break;
   }
 
-  // Blinking: runs after the action switch so actions that explicitly set eye mode (nod→happy, cry→closed) take priority
-  if (!legless && p.eyes.mode === "open") {
-    const blinkCycle = (t + s * 0.7) % 4;
-    if (blinkCycle > 3.78 && blinkCycle < 3.92) {
-      p.eyes.mode = "closed";
-    }
-  }
+  // Character owns blinking on the episode clock; actions only set intentional eye states.
 
   // elbows: hanging arms relax into a gentle bend; raised arms straighten out
   const bendOf = (ang: number) => Math.max(0.08, Math.min(0.74, 0.62 - ang / 210));

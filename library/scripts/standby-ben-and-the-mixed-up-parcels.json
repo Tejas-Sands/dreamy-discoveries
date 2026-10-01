@@ -1,0 +1,1390 @@
+{
+  "slug": "standby-ben-and-the-mixed-up-parcels",
+  "title": "Ben and the Mixed-Up Parcels",
+  "type": "story",
+  "template": null,
+  "mainCharacter": {
+    "kind": "bear",
+    "name": "Ben"
+  },
+  "palette": "sunshine",
+  "targetMinutes": 5.5,
+  "intro": {
+    "text": "Hello! I'm Ben. Come share our Sunny Meadow story.",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "excited",
+    "action": "wave"
+  },
+  "outro": {
+    "text": "Thanks for being here. See you again in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "When your labels cause a mix-up, saying exactly what happened helps you put things right.",
+  "moralRhyme": [
+    "Tell the mix-up; check with me!",
+    "Labels show what things should be!"
+  ],
+  "youtube": {
+    "title": "Ben and the Mixed-Up Parcels | Sunny Meadow Moral Story for Kids",
+    "description": "Ben and Fiona pack their own ribbons and crayons for a city craft afternoon, but Ben swaps the labels. Closing the wrong box and then silently swapping the boxes hide the confusion until he admits the mistake and checks each label with Fiona. When your labels cause a mix-up, saying exactly what happened helps you put things right. #KidsStories #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "moral story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Ben",
+      "Fiona",
+      "honesty"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona opened her ribbon parcel and found Ben's crayons.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "These are your drawing things. Where are my ribbons?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben stared at the labels he had stuck on earlier.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "pop",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "They had packed two boxes for a city craft afternoon.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "📦"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I want to draw our tall windows with these crayons.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And I'll tie ribbon bows along our paper buildings.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Two empty boxes stood on their sheltered courtyard table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🧸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug! Our craft things will travel neatly today!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's label them so we know which things are inside.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona put ribbons in one box and crayons in the other.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📦"
+          },
+          "sfx": []
+        },
+        {
+          "text": "A bow picture means ribbons. A crayon picture means crayons.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben held the two sticky labels above the matching lids.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "📦"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "A fluttering paper corner distracted Ben for a moment.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll hold that paper before the breeze folds it over.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "When he looked back, he stuck the labels on quickly.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "The crayon label went on the ribbon box by mistake.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh. That picture doesn't match the ribbons underneath it.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He closed the lid instead of telling Fiona what happened.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Are our parcels ready for the other end of the table?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. They're both packed and closed up very neatly.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben put the two boxes beside their paper city.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "📦"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona reached for the parcel showing the little bow picture.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I need a long ribbon for this paper window.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She opened it and found the neatly packed crayons.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Perhaps you picked the wrong box from the table.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I picked the one with a bow on its lid.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona checked the other parcel, still holding her paper window.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben felt a small tight worry in his tummy.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can change where the boxes sit. That might fix it.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He slid Fiona's box to his side without explaining.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "He moved his box beside Fiona and closed both lids.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now yours is over there, and mine is over here.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But this label still says crayons, not my ribbons.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "shake",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona paused with an untied bow around her paper building.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I don't know which picture to trust anymore, Ben.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben's own drawing space was still missing its crayons.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📦",
+      "question": {
+        "answer": {
+          "text": "Check the labels",
+          "emoji": "🔎"
+        }
+      },
+      "lines": [
+        {
+          "text": "Will moving closed boxes fix pictures on the wrong lids?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Exactly! They can check each label against what is inside.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Moving the parcels had not changed the pictures on their lids.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I made the boxes move, but the mix-up stayed.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He looked at Fiona's loose ribbon and unfinished window.",
+          "speaker": "narrator",
+          "emotion": "sad",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Shall we open both and check what is really inside?",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben put one paw on each closed parcel lid.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📦"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Yes. And I need to tell you something first.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "I put the labels on the opposite boxes earlier.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He pointed to the little crayon picture above the ribbons.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I noticed, but I closed the box and said nothing.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Thank you for telling me. Now I understand the mix-up.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "hug",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona set her paper building down beside their boxes.",
+          "speaker": "narrator",
+          "emotion": "love",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I moved them instead of checking the labels properly.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben lifted both lids so the contents were clearly visible.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Here are your ribbons. And here are my crayons.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can make the outside pictures match the inside things.",
+          "speaker": "friend",
+          "emotion": "love",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "The labels were easy to peel from the smooth lids.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I'll lift them gently so we can use them again.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He placed each label beside the contents it belonged with.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "question",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📦",
+      "question": {
+        "answer": {
+          "text": "Tell and check",
+          "emoji": "📦"
+        }
+      },
+      "lines": [
+        {
+          "text": "What should Ben do before sticking the labels back on?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Tell the mistake, then check both parcels together.",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null
+    },
+    {
+      "kind": "lesson",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "I'm sorry I hid the mistake and confused our work.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben checked the ribbons, then attached their matching bow label.",
+          "speaker": "narrator",
+          "emotion": "worried",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona, will you check my crayon label with me?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "The crayons are inside, and the crayon picture is outside.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben closed that box only after they both checked it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now a closed parcel can tell us the right thing.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "He passed Fiona the verified parcel with the bow picture.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "These are my ribbons. I can finish this window now.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She chose a short ribbon and tied her waiting bow.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Big bear hug! The pictures and the things match now!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben opened his correctly labeled box and chose a crayon.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your tall windows can finally have their sunny drawing.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Yellow squares appeared beside Fiona's row of ribbon bows.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "emoji": "📦",
+            "color": "#ffd60a"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Shall we make one paper building with both our ideas?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📦"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Yes. Draw the windows, and I'll add the bows.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "pan",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben reached for the crayon parcel without any guessing.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I know what's inside because we checked it together.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona reached for her ribbons and kept working beside him.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "slide",
+      "camera": "zoom-out",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "When we pack again, can we check before closing?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. Contents first, matching label next, then the lid.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They saved the useful labels instead of throwing them away.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "zoom-in",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "story",
+      "background": "city",
+      "character": "bear",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "📦",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their paper city stood decorated across the courtyard table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "idle",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Big bear hug! Our craft afternoon finally has its windows!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And its ribbon bows. Both parcels helped us make it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null
+    },
+    {
+      "kind": "moral",
+      "background": "city",
+      "character": "bear",
+      "energy": "calm",
+      "transition": "iris",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "When your labels cause a mix-up, saying exactly what happened helps you put things right.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "city",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Tell the mix-up; check with me!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Labels show what things should be!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "zoom-out",
+      "gag": null,
+      "extras": null
+    },
+    {
+      "kind": "moral",
+      "background": "city",
+      "character": "bear",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Tell the mix-up; check with me!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Labels show what things should be!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": null
+    }
+  ],
+  "standby": {
+    "summary": "Ben and Fiona pack their own ribbons and crayons for a city craft afternoon, but Ben swaps the labels. Closing the wrong box and then silently swapping the boxes hide the confusion until he admits the mistake and checks each label with Fiona.",
+    "moralTheme": "honesty",
+    "heroGoal": "Pack two craft parcels correctly for an afternoon with Fiona.",
+    "firstAttempt": "Close the ribbon box after noticing it has the crayon label.",
+    "secondAttempt": "Swap the closed boxes around without checking their contents or explaining.",
+    "consequence": "Fiona cannot find her ribbons and Ben cannot start his drawing.",
+    "repair": "Explain the label swap, open both parcels, and label the verified contents together.",
+    "ending": "Both use the correctly marked parcels for their original craft afternoon.",
+    "collection": "Sunny Meadow Standby Collection",
+    "authoredAt": "2026-10-01"
+  },
+  "version": 2,
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true
+}

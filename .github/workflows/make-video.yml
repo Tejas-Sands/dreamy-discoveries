@@ -48,6 +48,10 @@ on:
         default: false
         type: boolean
   workflow_call:
+    outputs:
+      slug:
+        description: "Durable script slug for retrying a failed episode"
+        value: ${{ jobs.plan.outputs.slug }}
     inputs:
       topic: { required: false, type: string, default: "" }
       type: { required: false, type: string, default: "story" }
@@ -62,7 +66,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 env:
   NODE_VERSION: 22
@@ -84,11 +87,16 @@ jobs:
       preview: ${{ steps.plan.outputs.preview }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
       - run: npm ci
+
+      - name: Check script and animation regressions
+        run: npm test && npm run typecheck
 
       - name: Restore the global voice store (to know which lines are missing)
         uses: actions/cache/restore@v4
@@ -103,7 +111,9 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           TARGET_MINUTES: ${{ inputs.minutes }}
           IN_TOPIC: ${{ inputs.topic }}
           IN_TYPE: ${{ inputs.type }}
@@ -116,19 +126,23 @@ jobs:
           ARGS=(--library --minutes "${TARGET_MINUTES:-5.5}")
           if [ -n "$IN_SLUG" ]; then ARGS+=(--slug "$IN_SLUG")
           elif [ -n "$IN_TEMPLATE" ]; then ARGS+=(--template "$IN_TEMPLATE"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
-          elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-story}"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
+          elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-story}" --standby); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
           else echo "Give a topic, a template, or a slug"; exit 1; fi
           [ -n "$IN_VOICE" ] && ARGS+=(--voice "$IN_VOICE")
           [ "$IN_PREVIEW" = "true" ] && ARGS+=(--preview)
           node scripts/plan.mjs "${ARGS[@]}"
 
       - name: Commit the script (and any new recipes) to the library
+        env:
+          QUEUE_ID: ${{ inputs.queue_id }}
+          SAVED_SLUG: ${{ steps.plan.outputs.slug }}
         run: |
+          if [ -n "$QUEUE_ID" ]; then node scripts/queue.mjs remember "$QUEUE_ID" --slug "$SAVED_SLUG"; fi
           git config user.name "dreamy-discoveries[bot]"
           git config user.email "bot@users.noreply.github.com"
           git add library
           if git diff --cached --quiet; then echo "library unchanged"; exit 0; fi
-          git commit -m "library: ${{ steps.plan.outputs.slug }} [skip ci]"
+          git commit -m "library: $SAVED_SLUG [skip ci]"
           STASH_NAME="pre-push-${SLUG:-plan}"
           SAVED=false
           if [ -n "$(git status --porcelain --untracked-files=all)" ]; then
@@ -406,6 +420,7 @@ jobs:
               run: process.env.GITHUB_RUN_ID
             }));
           '
+          node scripts/standby.mjs sync
           if [ -n "$QUEUE_ID" ]; then node scripts/queue.mjs done "$QUEUE_ID"; fi
           git config user.name "dreamy-discoveries[bot]"
           git config user.email "bot@users.noreply.github.com"

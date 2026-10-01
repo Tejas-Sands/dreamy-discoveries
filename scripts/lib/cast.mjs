@@ -62,8 +62,8 @@ export function castPrompt() {
     `THE CAST (these SIX animals are the WHOLE world; a story NEVER introduces a new species — every friend, party guest and gag is one of them):`,
   ];
   for (const m of castMembers()) {
-    const family = Array.isArray(m.family) && m.family.length
-      ? ` Family: ${m.family.map((f) => `${f.name} the ${f.kind} (${f.role})`).join(", ")}.`
+    const family = Array.isArray(m.family) && m.family.some(f => mem(f.id))
+      ? ` Family: ${m.family.filter(f => mem(f.id)).map((f) => `${f.name} the ${f.kind} (${f.role})`).join(", ")}.`
       : "";
     const friends = (m.friends ?? []).map(mem).filter(Boolean).map((x) => x.name).join(", ") || "–";
     const rivals = (m.rivals ?? []).map(mem).filter(Boolean).map((x) => x.name).join(", ") || "none";
@@ -73,6 +73,7 @@ export function castPrompt() {
       `  · ${m.name} the ${m.kind} — ${m.role}, ${m.personality}. Lives at the ${m.livesAt}. Loves ${m.favorite}. Friends: ${friends}. Rivals (Sunny Meadow Games only): ${rivals}.${mentor ? ` Mentor: ${mentor}.` : ""}${tag}${family}`
     );
   }
-  for (const rule of cast.rules) lines.push(`  · RULE: ${rule}`);
+  // Historical family records remain in the library, but are outside the closed cast.
+  for (const rule of cast.rules.filter(rule => !rule.startsWith('Family ='))) lines.push(`  · RULE: ${rule}`);
   return lines.join("\n");
 }

@@ -14,11 +14,13 @@
     "video": "node scripts/pipeline.mjs",
     "audio-assets": "node scripts/build-audio-assets.mjs",
     "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
     "registry": "node scripts/build-registry.mjs",
     "prestudio": "node scripts/build-registry.mjs && node scripts/bake-backgrounds.mjs",
     "bake": "node scripts/bake-backgrounds.mjs",
     "compile": "node scripts/compile.mjs",
-    "plan": "node scripts/plan.mjs"
+    "plan": "node scripts/plan.mjs",
+    "standby": "node scripts/standby.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",

@@ -180,10 +180,10 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   const seed = seedProp ?? characterSeed(kind);
   const t = still ? 0.35 : (actionT ?? frame / fps);
   const legless = recipe.rig === "fish" || recipe.rig === "whale";
-  const input = { action, t, bpm, seed, legless, groove, musicT: still ? 0.35 : musicT };
+  const input = { action, t, bpm, seed, legless, groove, musicT: still ? 0.35 : musicT, clockT: still ? 0.35 : clockT };
   const incoming = computePose(input);
   const pose: Pose = previousAction && !still && blend < 1
-    ? blendPoses(computePose({ ...input, action: previousAction.action, t: previousAction.t, musicT: musicT === undefined ? undefined : musicT - t }), incoming, blend)
+    ? blendPoses(computePose({ ...input, action: previousAction.action, t: previousAction.t, musicT: musicT === undefined ? undefined : musicT - t, clockT: clockT === undefined ? undefined : clockT - t }), incoming, blend)
     : incoming;
   // Quiet direction reduces body travel without erasing the readable hand gesture.
   const amplitude = Math.max(0, Math.min(1.3, motionScale));
