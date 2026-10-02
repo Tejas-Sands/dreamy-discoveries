@@ -1,7 +1,13 @@
 # Topics waiting to be produced. status: pending | running | done
-items: []
-
-# Inactive and preserved for later; queue.mjs ignores this collection.
+items:
+  - id: auto-2026-10-02
+    status: running
+    topic: "Moral: Small patient tries can help us do hard things. Story problem:
+      The hero cannot finish a simple meadow task on the first try."
+    type: story
+    hero: ozzy
+    minutes: 5.5
+    startedAt: 2026-10-02T09:58:34.646Z
 pausedTemplates:
   - id: qmtyjw1qn
     status: running
