@@ -1,6 +1,6 @@
 # Ozzy and the Gentle Echo
 
-**Status:** Available
+**Status:** Used · 2026-10-02
 
 **Hero:** Professor Ozzy
 
@@ -17,6 +17,8 @@ Professor Ozzy teases Daisy’s practice note, then tries turning his imitation 
 [Production script](../scripts/standby-ozzy-and-the-gentle-echo.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `standby-ozzy-and-the-gentle-echo`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-gentle-echo)
 
 ## Story beats
 

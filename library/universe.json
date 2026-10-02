@@ -1,16 +1,16 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-30T10:11:56.201Z",
+  "updatedAt": "2026-10-02T10:17:58.722Z",
   "counts": {
-    "stories": 7,
+    "stories": 8,
     "rhymes": 4,
-    "episodes": 11,
-    "stars": 44
+    "episodes": 12,
+    "stars": 46
   },
   "usage": {
     "tilly": 2,
-    "ozzy": 1,
+    "ozzy": 2,
     "daisy": 2,
     "taffy": 2,
     "ben": 2,
@@ -18,9 +18,9 @@
   },
   "appeared": {
     "tilly": 5,
-    "daisy": 5,
+    "daisy": 6,
     "fiona": 5,
-    "ozzy": 2,
+    "ozzy": 3,
     "taffy": 5,
     "ben": 6
   },
@@ -522,6 +522,46 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-grandpa-tillys-sweet-treat-2026-09-30",
         "tag": "video-grandpa-tillys-sweet-treat-2026-09-30"
+      }
+    },
+    {
+      "id": "standby-ozzy-and-the-gentle-echo",
+      "type": "story",
+      "title": "Ozzy and the Gentle Echo",
+      "hero": "ozzy",
+      "heroName": "Professor Ozzy",
+      "cast": [
+        "ozzy",
+        "daisy"
+      ],
+      "moral": "When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice.",
+      "moralRhyme": [
+        "Let kind words go far and clear!",
+        "Make a friend feel welcome here!"
+      ],
+      "catchphrases": [
+        "Hoohoo! Let's learn together!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "mountain"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-02"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-gentle-echo",
+        "tag": "video-standby-ozzy-and-the-gentle-echo"
       }
     }
   ]

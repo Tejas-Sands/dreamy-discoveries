@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**27 stories · 27 available · 0 used**
+**27 stories · 26 available · 1 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -68,7 +68,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Ozzy and the Gentle Echo](standby/standby-ozzy-and-the-gentle-echo.md) | Daisy | mountain | When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice. | Available |
+| [Ozzy and the Gentle Echo](standby/standby-ozzy-and-the-gentle-echo.md) | Daisy | mountain | When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice. | Used · 2026-10-02 |
 | [Ozzy and the Paper Crown](standby/standby-ozzy-and-the-paper-crown.md) | Taffy | castle | A caring leader apologizes for bossing friends and gives their ideas a real turn. | Available |
 | [Ozzy's Guess That Needed Checking](standby/standby-ozzys-guess-that-needed-checking.md) | Ben | jungle | Check what happened before blaming a friend, and repair a mistake when you discover it. | Available |
 | [Ozzy's One-Star-at-a-Time Map](standby/standby-ozzys-one-star-at-a-time-map.md) | Fiona | space | Quiet courage can begin with one small step and grow as you try the next. | Available |

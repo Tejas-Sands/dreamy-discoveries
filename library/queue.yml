@@ -1,7 +1,7 @@
 # Topics waiting to be produced. status: pending | running | done
 items:
   - id: auto-2026-10-02
-    status: running
+    status: done
     topic: "Moral: Small patient tries can help us do hard things. Story problem:
       The hero cannot finish a simple meadow task on the first try."
     type: story
@@ -9,6 +9,7 @@ items:
     minutes: 5.5
     startedAt: 2026-10-02T09:58:34.646Z
     slug: standby-ozzy-and-the-gentle-echo
+    doneAt: 2026-10-02T10:19:44.812Z
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

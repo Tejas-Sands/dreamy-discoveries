@@ -347,6 +347,29 @@
       "durationSec": 348,
       "renderedAt": "2026-09-30T10:13:35.638Z",
       "run": "36699168754"
+    },
+    {
+      "slug": "standby-ozzy-and-the-gentle-echo",
+      "title": "Ozzy and the Gentle Echo",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "owl",
+      "heroName": "Professor Ozzy",
+      "palette": "ocean",
+      "backgrounds": [
+        "mountain"
+      ],
+      "lines": 93,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-gentle-echo",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-gentle-echo",
+      "durationSec": 476,
+      "renderedAt": "2026-10-02T10:19:44.481Z",
+      "run": "36992827196"
     }
   ],
   "compilations": []
