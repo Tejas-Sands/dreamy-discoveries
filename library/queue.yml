@@ -10,6 +10,15 @@ items:
     startedAt: 2026-10-02T09:58:34.646Z
     slug: standby-ozzy-and-the-gentle-echo
     doneAt: 2026-10-02T10:19:44.812Z
+  - id: auto-2026-10-03
+    status: running
+    topic: "Moral: Caring for what we use keeps it ready for everyone. Story
+      problem: The hero forgets to put away shared playthings before the weather
+      changes."
+    type: story
+    hero: taffy
+    minutes: 5.5
+    startedAt: 2026-10-03T09:21:37.721Z
 pausedTemplates:
   - id: qmtyjw1qn
     status: running
