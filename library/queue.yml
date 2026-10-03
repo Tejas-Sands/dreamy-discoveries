@@ -19,6 +19,7 @@ items:
     hero: taffy
     minutes: 5.5
     startedAt: 2026-10-03T17:27:31.026Z
+    slug: standby-taffy-makes-room
 pausedTemplates:
   - id: qmtyjw1qn
     status: running
