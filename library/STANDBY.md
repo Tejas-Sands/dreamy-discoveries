@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**27 stories · 26 available · 1 used**
+**27 stories · 25 available · 2 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -20,7 +20,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Taffy Makes Room](standby/standby-taffy-makes-room.md) | Grandpa Tilly | garden | Making room for someone helps them belong. | Available |
+| [Taffy Makes Room](standby/standby-taffy-makes-room.md) | Grandpa Tilly | garden | Making room for someone helps them belong. | Used · 2026-10-03 |
 | [Taffy and the Smallest Picnic Piece](standby/standby-taffy-and-the-smallest-picnic-piece.md) | Ben | meadow | Sharing fairly means offering a friend a real part of what you value. | Available |
 | [Taffy and the Two-Paw Umbrella](standby/standby-taffy-and-the-two-paw-umbrella.md) | Grandpa Tilly | rainy | Sharing shelter works when you listen and make room at your friend’s pace. | Available |
 | [Taffy Leaves a Turn](standby/standby-taffy-leaves-a-turn.md) | Fiona | autumn | Waiting for the agreed signal gives a friend a whole turn to enjoy. | Available |

@@ -1,27 +1,27 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-02T10:17:58.722Z",
+  "updatedAt": "2026-10-03T17:44:45.569Z",
   "counts": {
-    "stories": 8,
+    "stories": 9,
     "rhymes": 4,
-    "episodes": 12,
-    "stars": 46
+    "episodes": 13,
+    "stars": 48
   },
   "usage": {
     "tilly": 2,
     "ozzy": 2,
     "daisy": 2,
-    "taffy": 2,
+    "taffy": 3,
     "ben": 2,
     "fiona": 2
   },
   "appeared": {
-    "tilly": 5,
+    "tilly": 6,
     "daisy": 6,
     "fiona": 5,
     "ozzy": 3,
-    "taffy": 5,
+    "taffy": 6,
     "ben": 6
   },
   "canon": [
@@ -562,6 +562,47 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-gentle-echo",
         "tag": "video-standby-ozzy-and-the-gentle-echo"
+      }
+    },
+    {
+      "id": "standby-taffy-makes-room",
+      "type": "story",
+      "title": "Taffy Makes Room",
+      "hero": "taffy",
+      "heroName": "Taffy",
+      "cast": [
+        "taffy",
+        "tilly"
+      ],
+      "moral": "Making room for someone helps them belong.",
+      "moralRhyme": [
+        "Make some room; invite a friend!",
+        "Let our happy garden blend!"
+      ],
+      "catchphrases": [
+        "Hop, hop, hooray!",
+        "Slow and steady!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "garden"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Authored standby story: Taffy Makes Room",
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-03"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-taffy-makes-room",
+        "tag": "video-standby-taffy-makes-room"
       }
     }
   ]

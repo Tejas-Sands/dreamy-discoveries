@@ -370,6 +370,29 @@
       "durationSec": 476,
       "renderedAt": "2026-10-02T10:19:44.481Z",
       "run": "36992827196"
+    },
+    {
+      "slug": "standby-taffy-makes-room",
+      "title": "Taffy Makes Room",
+      "type": "story",
+      "template": null,
+      "topic": "Authored standby story: Taffy Makes Room",
+      "hero": "bunny",
+      "heroName": "Taffy",
+      "palette": "meadow",
+      "backgrounds": [
+        "garden"
+      ],
+      "lines": 81,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-taffy-makes-room",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-taffy-makes-room",
+      "durationSec": 360,
+      "renderedAt": "2026-10-03T17:46:12.056Z",
+      "run": "37140544208"
     }
   ],
   "compilations": []
