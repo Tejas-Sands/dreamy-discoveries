@@ -37,7 +37,15 @@ function workspace(t) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'dreamy-reliability-'));
   t.after(() => fs.rmSync(dir, {recursive: true, force: true}));
   fs.cpSync(path.join(root, 'scripts'), path.join(dir, 'scripts'), {recursive: true});
-  fs.cpSync(path.join(root, 'library'), path.join(dir, 'library'), {recursive: true, filter: file => !file.endsWith('.db')});
+  // Copy authored content, but give each test its own production history. A
+  // successful daily release must not change reserve counts or exhaust fixtures.
+  const stateFiles = new Set(['catalog.json', 'universe.json', 'queue.yml']);
+  fs.cpSync(path.join(root, 'library'), path.join(dir, 'library'), {recursive: true,
+    filter: file => !stateFiles.has(path.basename(file)) && !/\.db(?:-(?:wal|shm|journal))?$/.test(file)});
+  fs.writeFileSync(path.join(dir, 'library/catalog.json'), JSON.stringify({episodes: [], compilations: []}));
+  fs.writeFileSync(path.join(dir, 'library/queue.yml'), YAML.stringify({items: []}));
+  const manifest = JSON.parse(fs.readFileSync(path.join(dir, 'library/standby.json'), 'utf8'));
+  fs.writeFileSync(path.join(dir, 'library/standby.json'), JSON.stringify({...manifest, usage: {}}));
   fs.mkdirSync(path.join(dir, 'src/lib'), {recursive: true});
   fs.copyFileSync(path.join(root, 'src/lib/sceneDirection.mjs'), path.join(dir, 'src/lib/sceneDirection.mjs'));
   fs.symlinkSync(path.join(root, 'node_modules'), path.join(dir, 'node_modules'));
