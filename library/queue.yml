@@ -29,6 +29,7 @@ items:
     hero: ben
     minutes: 5.5
     startedAt: 2026-10-04T10:00:09.402Z
+    slug: standby-ben-and-the-paper-boat
 pausedTemplates:
   - id: qmtyjw1qn
     status: running
