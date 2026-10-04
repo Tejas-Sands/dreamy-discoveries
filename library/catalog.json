@@ -393,6 +393,29 @@
       "durationSec": 360,
       "renderedAt": "2026-10-03T17:46:12.056Z",
       "run": "37140544208"
+    },
+    {
+      "slug": "standby-ben-and-the-paper-boat",
+      "title": "Ben and the Paper Boat",
+      "type": "story",
+      "template": null,
+      "topic": "Authored standby story: Ben and the Paper Boat",
+      "hero": "bear",
+      "heroName": "Ben",
+      "palette": "meadow",
+      "backgrounds": [
+        "pond"
+      ],
+      "lines": 81,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ben-and-the-paper-boat",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ben-and-the-paper-boat",
+      "durationSec": 357,
+      "renderedAt": "2026-10-04T10:17:43.442Z",
+      "run": "37193918255"
     }
   ],
   "compilations": []

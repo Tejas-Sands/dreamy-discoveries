@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**27 stories · 25 available · 2 used**
+**27 stories · 24 available · 3 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -30,7 +30,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Ben and the Paper Boat](standby/standby-ben-and-the-paper-boat.md) | Daisy | pond | Telling the truth helps us fix our mistakes together. | Available |
+| [Ben and the Paper Boat](standby/standby-ben-and-the-paper-boat.md) | Daisy | pond | Telling the truth helps us fix our mistakes together. | Used · 2026-10-04 |
 | [Ben and the Mixed-Up Parcels](standby/standby-ben-and-the-mixed-up-parcels.md) | Fiona | city | When your labels cause a mix-up, saying exactly what happened helps you put things right. | Available |
 | [Ben and the Quiet Star](standby/standby-ben-and-the-quiet-star.md) | Professor Ozzy | night | Asking for one specific kind of help lets you keep learning while a friend supports you. | Available |
 | [Ben Measures a Little](standby/standby-ben-measures-a-little.md) | Daisy | kitchen | Listening to every step helps you choose the right amount for a shared job. | Available |

@@ -1,28 +1,28 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-03T17:44:45.569Z",
+  "updatedAt": "2026-10-04T10:16:14.545Z",
   "counts": {
-    "stories": 9,
+    "stories": 10,
     "rhymes": 4,
-    "episodes": 13,
-    "stars": 48
+    "episodes": 14,
+    "stars": 50
   },
   "usage": {
     "tilly": 2,
     "ozzy": 2,
     "daisy": 2,
     "taffy": 3,
-    "ben": 2,
+    "ben": 3,
     "fiona": 2
   },
   "appeared": {
     "tilly": 6,
-    "daisy": 6,
+    "daisy": 7,
     "fiona": 5,
     "ozzy": 3,
     "taffy": 6,
-    "ben": 6
+    "ben": 7
   },
   "canon": [
     {
@@ -603,6 +603,46 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-taffy-makes-room",
         "tag": "video-standby-taffy-makes-room"
+      }
+    },
+    {
+      "id": "standby-ben-and-the-paper-boat",
+      "type": "story",
+      "title": "Ben and the Paper Boat",
+      "hero": "ben",
+      "heroName": "Ben",
+      "cast": [
+        "ben",
+        "daisy"
+      ],
+      "moral": "Telling the truth helps us fix our mistakes together.",
+      "moralRhyme": [
+        "Tell the truth; we can repair!",
+        "Fix it with a friend who cares!"
+      ],
+      "catchphrases": [
+        "Big bear hug!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "pond"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Authored standby story: Ben and the Paper Boat",
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-04"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ben-and-the-paper-boat",
+        "tag": "video-standby-ben-and-the-paper-boat"
       }
     }
   ]
