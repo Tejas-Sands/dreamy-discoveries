@@ -39,6 +39,7 @@ items:
     hero: daisy
     minutes: 5.5
     startedAt: 2026-10-05T10:45:07.056Z
+    slug: standby-daisy-and-the-different-sized-baskets
 pausedTemplates:
   - id: qmtyjw1qn
     status: running
