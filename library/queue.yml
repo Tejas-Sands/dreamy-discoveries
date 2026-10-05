@@ -32,7 +32,7 @@ items:
     slug: standby-ben-and-the-paper-boat
     doneAt: 2026-10-04T10:17:43.799Z
   - id: auto-2026-10-05
-    status: running
+    status: done
     topic: "Moral: Waiting for a turn makes play fair and fun. Story problem: The
       hero loves a new game so much that a friend never gets a turn."
     type: story
@@ -40,6 +40,7 @@ items:
     minutes: 5.5
     startedAt: 2026-10-05T10:45:07.056Z
     slug: standby-daisy-and-the-different-sized-baskets
+    doneAt: 2026-10-05T11:03:43.971Z
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

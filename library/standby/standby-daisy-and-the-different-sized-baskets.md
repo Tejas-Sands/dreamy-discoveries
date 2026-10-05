@@ -1,6 +1,6 @@
 # Daisy and the Different-Sized Baskets
 
-**Status:** Available
+**Status:** Used · 2026-10-05
 
 **Hero:** Daisy
 
@@ -17,6 +17,8 @@ Daisy insists that she and Professor Ozzy carry identical baskets to set a farm 
 [Production script](../scripts/standby-daisy-and-the-different-sized-baskets.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `standby-daisy-and-the-different-sized-baskets`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-daisy-and-the-different-sized-baskets)
 
 ## Story beats
 

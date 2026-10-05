@@ -416,6 +416,29 @@
       "durationSec": 357,
       "renderedAt": "2026-10-04T10:17:43.442Z",
       "run": "37193918255"
+    },
+    {
+      "slug": "standby-daisy-and-the-different-sized-baskets",
+      "title": "Daisy and the Different-Sized Baskets",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "duck",
+      "heroName": "Daisy",
+      "palette": "meadow",
+      "backgrounds": [
+        "farm"
+      ],
+      "lines": 93,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-daisy-and-the-different-sized-baskets",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-daisy-and-the-different-sized-baskets",
+      "durationSec": 463,
+      "renderedAt": "2026-10-05T11:03:43.638Z",
+      "run": "37298524723"
     }
   ],
   "compilations": []

@@ -1,26 +1,26 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-04T10:16:14.545Z",
+  "updatedAt": "2026-10-05T11:01:55.332Z",
   "counts": {
-    "stories": 10,
+    "stories": 11,
     "rhymes": 4,
-    "episodes": 14,
-    "stars": 50
+    "episodes": 15,
+    "stars": 52
   },
   "usage": {
     "tilly": 2,
     "ozzy": 2,
-    "daisy": 2,
+    "daisy": 3,
     "taffy": 3,
     "ben": 3,
     "fiona": 2
   },
   "appeared": {
     "tilly": 6,
-    "daisy": 7,
+    "daisy": 8,
     "fiona": 5,
-    "ozzy": 3,
+    "ozzy": 4,
     "taffy": 6,
     "ben": 7
   },
@@ -643,6 +643,46 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ben-and-the-paper-boat",
         "tag": "video-standby-ben-and-the-paper-boat"
+      }
+    },
+    {
+      "id": "standby-daisy-and-the-different-sized-baskets",
+      "type": "story",
+      "title": "Daisy and the Different-Sized Baskets",
+      "hero": "daisy",
+      "heroName": "Daisy",
+      "cast": [
+        "daisy",
+        "ozzy"
+      ],
+      "moral": "A fair shared job gives each friend useful work that fits their abilities.",
+      "moralRhyme": [
+        "Choose a helpful part to do!",
+        "Fair jobs fit both me and you!"
+      ],
+      "catchphrases": [
+        "Quack a-lacka-doodle!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "farm"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-05"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-daisy-and-the-different-sized-baskets",
+        "tag": "video-standby-daisy-and-the-different-sized-baskets"
       }
     }
   ]

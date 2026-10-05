@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**27 stories · 24 available · 3 used**
+**27 stories · 23 available · 4 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -40,7 +40,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Daisy and the Different-Sized Baskets](standby/standby-daisy-and-the-different-sized-baskets.md) | Professor Ozzy | farm | A fair shared job gives each friend useful work that fits their abilities. | Available |
+| [Daisy and the Different-Sized Baskets](standby/standby-daisy-and-the-different-sized-baskets.md) | Professor Ozzy | farm | A fair shared job gives each friend useful work that fits their abilities. | Used · 2026-10-05 |
 | [Daisy Lets the Pond Listen](standby/standby-daisy-lets-the-pond-listen.md) | Fiona | pond | Leaving quiet pauses helps friends hear each other and make music together. | Available |
 | [Daisy's Cloud Picture](standby/standby-daisys-cloud-picture.md) | Taffy | sky | Friends can see different things in the same cloud and respect both ideas. | Available |
 | [Daisy's Slow Parade](standby/standby-daisys-slow-parade.md) | Grandpa Tilly | park | Including a friend means making a useful place and a pace they can share. | Available |
