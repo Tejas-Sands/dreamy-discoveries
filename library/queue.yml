@@ -1,7 +1,46 @@
 # Topics waiting to be produced. status: pending | running | done
-items: []
-
-# Inactive and preserved for later; queue.mjs ignores this collection.
+items:
+  - id: auto-2026-10-02
+    status: done
+    topic: "Moral: Small patient tries can help us do hard things. Story problem:
+      The hero cannot finish a simple meadow task on the first try."
+    type: story
+    hero: ozzy
+    minutes: 5.5
+    startedAt: 2026-10-02T09:58:34.646Z
+    slug: standby-ozzy-and-the-gentle-echo
+    doneAt: 2026-10-02T10:19:44.812Z
+  - id: auto-2026-10-03
+    status: done
+    topic: "Moral: Caring for what we use keeps it ready for everyone. Story
+      problem: The hero forgets to put away shared playthings before the weather
+      changes."
+    type: story
+    hero: taffy
+    minutes: 5.5
+    startedAt: 2026-10-03T17:27:31.026Z
+    slug: standby-taffy-makes-room
+    doneAt: 2026-10-03T17:46:12.391Z
+  - id: auto-2026-10-04
+    status: done
+    topic: "Moral: A caring apology includes trying to make things right. Story
+      problem: The hero's hurried choice spoils a friend's careful work."
+    type: story
+    hero: ben
+    minutes: 5.5
+    startedAt: 2026-10-04T10:00:09.402Z
+    slug: standby-ben-and-the-paper-boat
+    doneAt: 2026-10-04T10:17:43.799Z
+  - id: auto-2026-10-05
+    status: done
+    topic: "Moral: Waiting for a turn makes play fair and fun. Story problem: The
+      hero loves a new game so much that a friend never gets a turn."
+    type: story
+    hero: daisy
+    minutes: 5.5
+    startedAt: 2026-10-05T10:45:07.056Z
+    slug: standby-daisy-and-the-different-sized-baskets
+    doneAt: 2026-10-05T11:03:43.971Z
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

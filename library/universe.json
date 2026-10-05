@@ -1,28 +1,28 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-09-30T10:11:56.201Z",
+  "updatedAt": "2026-10-05T11:01:55.332Z",
   "counts": {
-    "stories": 7,
+    "stories": 11,
     "rhymes": 4,
-    "episodes": 11,
-    "stars": 44
+    "episodes": 15,
+    "stars": 52
   },
   "usage": {
     "tilly": 2,
-    "ozzy": 1,
-    "daisy": 2,
-    "taffy": 2,
-    "ben": 2,
+    "ozzy": 2,
+    "daisy": 3,
+    "taffy": 3,
+    "ben": 3,
     "fiona": 2
   },
   "appeared": {
-    "tilly": 5,
-    "daisy": 5,
+    "tilly": 6,
+    "daisy": 8,
     "fiona": 5,
-    "ozzy": 2,
-    "taffy": 5,
-    "ben": 6
+    "ozzy": 4,
+    "taffy": 6,
+    "ben": 7
   },
   "canon": [
     {
@@ -522,6 +522,167 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-grandpa-tillys-sweet-treat-2026-09-30",
         "tag": "video-grandpa-tillys-sweet-treat-2026-09-30"
+      }
+    },
+    {
+      "id": "standby-ozzy-and-the-gentle-echo",
+      "type": "story",
+      "title": "Ozzy and the Gentle Echo",
+      "hero": "ozzy",
+      "heroName": "Professor Ozzy",
+      "cast": [
+        "ozzy",
+        "daisy"
+      ],
+      "moral": "When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice.",
+      "moralRhyme": [
+        "Let kind words go far and clear!",
+        "Make a friend feel welcome here!"
+      ],
+      "catchphrases": [
+        "Hoohoo! Let's learn together!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "mountain"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-02"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-gentle-echo",
+        "tag": "video-standby-ozzy-and-the-gentle-echo"
+      }
+    },
+    {
+      "id": "standby-taffy-makes-room",
+      "type": "story",
+      "title": "Taffy Makes Room",
+      "hero": "taffy",
+      "heroName": "Taffy",
+      "cast": [
+        "taffy",
+        "tilly"
+      ],
+      "moral": "Making room for someone helps them belong.",
+      "moralRhyme": [
+        "Make some room; invite a friend!",
+        "Let our happy garden blend!"
+      ],
+      "catchphrases": [
+        "Hop, hop, hooray!",
+        "Slow and steady!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "garden"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Authored standby story: Taffy Makes Room",
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-03"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-taffy-makes-room",
+        "tag": "video-standby-taffy-makes-room"
+      }
+    },
+    {
+      "id": "standby-ben-and-the-paper-boat",
+      "type": "story",
+      "title": "Ben and the Paper Boat",
+      "hero": "ben",
+      "heroName": "Ben",
+      "cast": [
+        "ben",
+        "daisy"
+      ],
+      "moral": "Telling the truth helps us fix our mistakes together.",
+      "moralRhyme": [
+        "Tell the truth; we can repair!",
+        "Fix it with a friend who cares!"
+      ],
+      "catchphrases": [
+        "Big bear hug!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "pond"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Authored standby story: Ben and the Paper Boat",
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-04"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ben-and-the-paper-boat",
+        "tag": "video-standby-ben-and-the-paper-boat"
+      }
+    },
+    {
+      "id": "standby-daisy-and-the-different-sized-baskets",
+      "type": "story",
+      "title": "Daisy and the Different-Sized Baskets",
+      "hero": "daisy",
+      "heroName": "Daisy",
+      "cast": [
+        "daisy",
+        "ozzy"
+      ],
+      "moral": "A fair shared job gives each friend useful work that fits their abilities.",
+      "moralRhyme": [
+        "Choose a helpful part to do!",
+        "Fair jobs fit both me and you!"
+      ],
+      "catchphrases": [
+        "Quack a-lacka-doodle!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "farm"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-05"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-daisy-and-the-different-sized-baskets",
+        "tag": "video-standby-daisy-and-the-different-sized-baskets"
       }
     }
   ]

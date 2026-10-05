@@ -1,6 +1,6 @@
 # Ben and the Paper Boat
 
-**Status:** Available
+**Status:** Used · 2026-10-04
 
 **Hero:** Ben
 
@@ -17,6 +17,8 @@ Telling the truth helps us fix our mistakes together.
 [Production script](../scripts/standby-ben-and-the-paper-boat.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `standby-ben-and-the-paper-boat`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ben-and-the-paper-boat)
 
 ## Read the story
 

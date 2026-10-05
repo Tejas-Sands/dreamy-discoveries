@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**27 stories · 27 available · 0 used**
+**27 stories · 23 available · 4 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -20,7 +20,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Taffy Makes Room](standby/standby-taffy-makes-room.md) | Grandpa Tilly | garden | Making room for someone helps them belong. | Available |
+| [Taffy Makes Room](standby/standby-taffy-makes-room.md) | Grandpa Tilly | garden | Making room for someone helps them belong. | Used · 2026-10-03 |
 | [Taffy and the Smallest Picnic Piece](standby/standby-taffy-and-the-smallest-picnic-piece.md) | Ben | meadow | Sharing fairly means offering a friend a real part of what you value. | Available |
 | [Taffy and the Two-Paw Umbrella](standby/standby-taffy-and-the-two-paw-umbrella.md) | Grandpa Tilly | rainy | Sharing shelter works when you listen and make room at your friend’s pace. | Available |
 | [Taffy Leaves a Turn](standby/standby-taffy-leaves-a-turn.md) | Fiona | autumn | Waiting for the agreed signal gives a friend a whole turn to enjoy. | Available |
@@ -30,7 +30,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Ben and the Paper Boat](standby/standby-ben-and-the-paper-boat.md) | Daisy | pond | Telling the truth helps us fix our mistakes together. | Available |
+| [Ben and the Paper Boat](standby/standby-ben-and-the-paper-boat.md) | Daisy | pond | Telling the truth helps us fix our mistakes together. | Used · 2026-10-04 |
 | [Ben and the Mixed-Up Parcels](standby/standby-ben-and-the-mixed-up-parcels.md) | Fiona | city | When your labels cause a mix-up, saying exactly what happened helps you put things right. | Available |
 | [Ben and the Quiet Star](standby/standby-ben-and-the-quiet-star.md) | Professor Ozzy | night | Asking for one specific kind of help lets you keep learning while a friend supports you. | Available |
 | [Ben Measures a Little](standby/standby-ben-measures-a-little.md) | Daisy | kitchen | Listening to every step helps you choose the right amount for a shared job. | Available |
@@ -40,7 +40,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Daisy and the Different-Sized Baskets](standby/standby-daisy-and-the-different-sized-baskets.md) | Professor Ozzy | farm | A fair shared job gives each friend useful work that fits their abilities. | Available |
+| [Daisy and the Different-Sized Baskets](standby/standby-daisy-and-the-different-sized-baskets.md) | Professor Ozzy | farm | A fair shared job gives each friend useful work that fits their abilities. | Used · 2026-10-05 |
 | [Daisy Lets the Pond Listen](standby/standby-daisy-lets-the-pond-listen.md) | Fiona | pond | Leaving quiet pauses helps friends hear each other and make music together. | Available |
 | [Daisy's Cloud Picture](standby/standby-daisys-cloud-picture.md) | Taffy | sky | Friends can see different things in the same cloud and respect both ideas. | Available |
 | [Daisy's Slow Parade](standby/standby-daisys-slow-parade.md) | Grandpa Tilly | park | Including a friend means making a useful place and a pace they can share. | Available |
@@ -68,7 +68,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Ozzy and the Gentle Echo](standby/standby-ozzy-and-the-gentle-echo.md) | Daisy | mountain | When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice. | Available |
+| [Ozzy and the Gentle Echo](standby/standby-ozzy-and-the-gentle-echo.md) | Daisy | mountain | When a playful imitation hurts a friend, stop, apologize, and choose words that welcome their voice. | Used · 2026-10-02 |
 | [Ozzy and the Paper Crown](standby/standby-ozzy-and-the-paper-crown.md) | Taffy | castle | A caring leader apologizes for bossing friends and gives their ideas a real turn. | Available |
 | [Ozzy's Guess That Needed Checking](standby/standby-ozzys-guess-that-needed-checking.md) | Ben | jungle | Check what happened before blaming a friend, and repair a mistake when you discover it. | Available |
 | [Ozzy's One-Star-at-a-Time Map](standby/standby-ozzys-one-star-at-a-time-map.md) | Fiona | space | Quiet courage can begin with one small step and grow as you try the next. | Available |

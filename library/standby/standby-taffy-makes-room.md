@@ -1,6 +1,6 @@
 # Taffy Makes Room
 
-**Status:** Available
+**Status:** Used · 2026-10-03
 
 **Hero:** Taffy
 
@@ -17,6 +17,8 @@ Making room for someone helps them belong.
 [Production script](../scripts/standby-taffy-makes-room.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `standby-taffy-makes-room`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-taffy-makes-room)
 
 ## Read the story
 
