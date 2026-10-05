@@ -63,8 +63,9 @@ const preFrames = (line: Line) => toFrames(line.voxPreSec ?? 0);
 export function computeSchedule(script: KidsScript): Schedule {
   const voice: Array<[number, number]> = [];
   const introSpeech = script.intro?.durationSec ?? 0;
-  const intro = toFrames(Math.max(INTRO_MIN_SEC, INTRO_SPEAK_AT_SEC + introSpeech + 0.4 + COUNTDOWN_SEC));
-  if (introSpeech > 0) voice.push([toFrames(INTRO_SPEAK_AT_SEC), toFrames(INTRO_SPEAK_AT_SEC + introSpeech)]);
+  const hook = (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook';
+  const intro = hook ? 0 : toFrames(Math.max(INTRO_MIN_SEC, INTRO_SPEAK_AT_SEC + introSpeech + 0.4 + COUNTDOWN_SEC));
+  if (!hook && introSpeech > 0) voice.push([toFrames(INTRO_SPEAK_AT_SEC), toFrames(INTRO_SPEAK_AT_SEC + introSpeech)]);
 
   let cursor = intro;
   const scenes: SceneSlot[] = script.scenes.map((scene) => {
@@ -137,7 +138,7 @@ export function computeSchedule(script: KidsScript): Schedule {
   const brandFrom = cursor;
   cursor += toFrames(BRAND_OUTRO_SEC);
 
-  return { intro, scenes, endFrom, endDuration, brandFrom, total: cursor, voice, countdownFrom: intro - toFrames(COUNTDOWN_SEC) };
+  return { intro, scenes, endFrom, endDuration, brandFrom, total: cursor, voice, countdownFrom: hook ? -1 : intro - toFrames(COUNTDOWN_SEC) };
 }
 
 /** music gain for a frame: ducks under speech, fades in/out at the ends */

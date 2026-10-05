@@ -1,4 +1,6 @@
 import React, { useId } from "react";
+import {solveReach} from '../../lib/rigHands';
+import type {StagePoint,StageReach} from '../../lib/types';
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import type { Action, Emotion } from "../../lib/types";
 import { rand } from "../../lib/random";
@@ -46,6 +48,8 @@ export interface CharacterProps {
   motionScale?: number;
   /** Look offset in rig pixels, applied to both storybook and legacy eyes. */
   gaze?: { x: number; y: number };
+  reach?: StageReach;
+  stageCenter?: StagePoint;
   bpm?: number;
   /** rendered width in px */
   width?: number;
@@ -170,7 +174,7 @@ function partList<T extends string>(items: Array<T | FeatureSpec> | undefined): 
   return (items ?? []).map((f) => toSpec(f));
 }
 
-export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", action = "idle", mouth = 0, actionT, previousAction, blend = 1, musicT, clockT, motionScale = 1, gaze, bpm = 120, width = 400, flip = false, seed: seedProp, still = false, groove = false, shadow = true, style }) => {
+export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", action = "idle", mouth = 0, actionT, previousAction, blend = 1, musicT, clockT, motionScale = 1, gaze, reach, stageCenter, bpm = 120, width = 400, flip = false, seed: seedProp, still = false, groove = false, shadow = true, style }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const uid = `character-${useId().replace(/:/g, "")}`;
@@ -206,6 +210,8 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
     pose.x = 0;
     pose.vy = 0;
   }
+  const solved=reach&&stageCenter&&!still?solveReach(pose,recipe.name,flip,width,stageCenter,reach):null;
+  const armExtension=solved?{[solved.side]:solved.extension}:undefined;
   // ── secondary motion ──
   // ears / tails lag behind a fast-moving body (follow-through); talking bobs the head a little
   const lag = Math.max(-9, Math.min(9, -pose.vy * 0.018));
@@ -270,7 +276,7 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
 
   const body = (() => {
     if (STORYBOOK_KINDS.has(recipe.name)) {
-      return <StorybookBody recipe={recipe} pose={pose} emotion={emotion} mouth={mouth} blink={blink} showFace={showFace} />;
+      return <StorybookBody recipe={recipe} pose={pose} emotion={emotion} mouth={mouth} blink={blink} showFace={showFace} armExtension={armExtension} />;
     }
     if (SPECIES_RIGS.has(recipe.rig)) {
       return <SpeciesBody recipe={recipe} pose={pose} face={face} headFront={headFront} clothes={renderAccessories(true)} />;

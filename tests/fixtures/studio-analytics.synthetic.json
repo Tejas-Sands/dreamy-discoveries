@@ -1,0 +1,27 @@
+{
+  "note": "Synthetic demonstration data only. These are not real YouTube viewers or performance measurements.",
+  "rows": [
+    {
+      "videoId": "synthetic-demo",
+      "videoTitle": "SYNTHETIC analytics demo (not real viewer data)",
+      "views": 300,
+      "impressions": 2000,
+      "impressionsClickThroughRate": 5.6,
+      "averageViewDuration": "01:10",
+      "averagePercentageViewed": 44.1
+    }
+  ],
+  "retention": [
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0, "audienceWatchRatio": 1},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.1, "audienceWatchRatio": 0.93},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.2, "audienceWatchRatio": 0.91},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.3, "audienceWatchRatio": 0.77},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.4, "audienceWatchRatio": 0.75},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.5, "audienceWatchRatio": 0.72},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.6, "audienceWatchRatio": 0.7},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.7, "audienceWatchRatio": 0.69},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.8, "audienceWatchRatio": 0.67},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 0.9, "audienceWatchRatio": 0.65},
+    {"videoId": "synthetic-demo", "elapsedVideoTimeRatio": 1, "audienceWatchRatio": 0.62}
+  ]
+}

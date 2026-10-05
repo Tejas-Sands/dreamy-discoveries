@@ -15,8 +15,9 @@ require.extensions['.ts'] = require.extensions['.tsx'] = (module, file) => {
   module._compile(outputText, file);
 };
 const originalLoad = Module._load;
+let currentFrame = 45;
 Module._load = function(name, ...args) {
-  return name === 'remotion' ? {useCurrentFrame:()=>45,useVideoConfig:()=>({fps:30}),staticFile:path=>path,
+  return name === 'remotion' ? {useCurrentFrame:()=>currentFrame,useVideoConfig:()=>({fps:30}),staticFile:path=>path,
     AbsoluteFill:({children})=>React.createElement('div',null,children), Img:props=>React.createElement('img',props)} : originalLoad.call(this,name,...args);
 };
 const {Background,BackgroundLayer} = require('../src/components/backgrounds/Background.tsx');
@@ -26,6 +27,17 @@ const {getPalette} = require('../src/lib/palettes.ts');
 const recipes = fs.readdirSync(new URL('../library/backgrounds/',import.meta.url)).map(file=>JSON.parse(fs.readFileSync(new URL(`../library/backgrounds/${file}`,import.meta.url))));
 const layer = (recipe,group,t,key) => React.createElement(BackgroundLayer,{recipe,group,t,palette:getPalette(recipe.palette),key});
 const draw = node => renderToStaticMarkup(React.createElement('svg',null,node));
+
+test('an explicit ambient clock controls every moving layer, including frozen scenery', () => {
+  for (const recipe of recipes) {
+    const props={kind:recipe.name,palette:getPalette(recipe.palette),animationT:2,motion:0};
+    currentFrame=0;
+    const a=renderToStaticMarkup(React.createElement(Background,props));
+    currentFrame=300;
+    assert.ok(renderToStaticMarkup(React.createElement(Background,props)) === a,`${recipe.name}: frozen clock still moves a part`);
+  }
+  currentFrame=45;
+});
 
 test('all 25 backgrounds retain their parts and have frame-independent static artwork',()=>{
   assert.equal(recipes.length,25);

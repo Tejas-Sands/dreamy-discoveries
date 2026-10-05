@@ -82,6 +82,7 @@ jobs:
       slug: ${{ steps.plan.outputs.slug }}
       title: ${{ steps.plan.outputs.title }}
       voice_needed: ${{ steps.plan.outputs.voice_needed }}
+      voice_engine: ${{ steps.plan.outputs.voice_engine }}
       chunk_count: ${{ steps.plan.outputs.chunk_count }}
       chunks: ${{ steps.plan.outputs.chunks }}
       preview: ${{ steps.plan.outputs.preview }}
@@ -98,15 +99,8 @@ jobs:
       - name: Check script and animation regressions
         run: npm test && npm run typecheck
 
-      - name: Restore the global voice store (to know which lines are missing)
-        uses: actions/cache/restore@v4
-        with:
-          path: .cache/voice
-          key: voice-${{ env.TTS_ENGINE }}-${{ github.run_id }}
-          restore-keys: voice-${{ env.TTS_ENGINE }}-
-
-      - name: Plan
-        id: plan
+      - name: Create or load the script
+        id: script
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -128,6 +122,26 @@ jobs:
           elif [ -n "$IN_TEMPLATE" ]; then ARGS+=(--template "$IN_TEMPLATE"); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
           elif [ -n "$IN_TOPIC" ]; then ARGS+=(--topic "$IN_TOPIC" --type "${IN_TYPE:-story}" --standby); [ -n "$IN_HERO" ] && ARGS+=(--hero "$IN_HERO")
           else echo "Give a topic, a template, or a slug"; exit 1; fi
+          [ -n "$IN_VOICE" ] && ARGS+=(--voice "$IN_VOICE")
+          [ "$IN_PREVIEW" = "true" ] && ARGS+=(--preview)
+          node scripts/plan.mjs "${ARGS[@]}"
+
+      - name: Restore the global voice store (to know which lines are missing)
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/voice
+          key: voice-${{ steps.script.outputs.voice_engine }}-${{ github.run_id }}
+          restore-keys: voice-${{ steps.script.outputs.voice_engine }}-
+
+      - name: Plan with the restored voice store (no script generation)
+        id: plan
+        env:
+          SLUG: ${{ steps.script.outputs.slug }}
+          TARGET_MINUTES: ${{ inputs.minutes }}
+          IN_VOICE: ${{ inputs.voice }}
+          IN_PREVIEW: ${{ inputs.preview }}
+        run: |
+          ARGS=(--slug "$SLUG" --minutes "${TARGET_MINUTES:-5.5}" --dry)
           [ -n "$IN_VOICE" ] && ARGS+=(--voice "$IN_VOICE")
           [ "$IN_PREVIEW" = "true" ] && ARGS+=(--preview)
           node scripts/plan.mjs "${ARGS[@]}"
@@ -176,6 +190,7 @@ jobs:
     timeout-minutes: 45
     env:
       SLUG: ${{ needs.plan.outputs.slug }}
+      TTS_ENGINE: ${{ needs.plan.outputs.voice_engine }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -249,7 +264,7 @@ jobs:
           path: |
             node_modules/.remotion
             node_modules/.cache/webpack
-          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**') }}
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**', 'scripts/lib/staging.mjs') }}
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure
@@ -294,7 +309,7 @@ jobs:
           path: |
             node_modules/.remotion
             node_modules/.cache/webpack
-          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**') }}
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**', 'scripts/lib/staging.mjs') }}
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure
@@ -361,7 +376,7 @@ jobs:
           path: |
             node_modules/.remotion
             node_modules/.cache/webpack
-          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**') }}
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**', 'scripts/lib/staging.mjs') }}
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure

@@ -15,10 +15,11 @@ import path from "node:path";
 import {loadDotEnv, parseArgs, slugify, writeScript, setLatestSlug, ROOT, GENERATED_DIR} from "./lib/common.mjs";
 import {PALETTES, EMOTIONS, ACTIONS, BACKGROUNDS} from "./lib/vocab.mjs";
 import {directScript} from "./lib/director.mjs";
+import {voiceSettings} from './lib/voice.mjs';
 import {generateFromTemplate, TEMPLATE_IDS} from "./lib/templates/index.mjs";
 import {rng} from "./lib/templates/engine.mjs";
 import {castKinds, castPrompt, castMemberById, castMemberByKind} from "./lib/cast.mjs";
-import {buildStoryBrief, storyQualityIssues} from "./lib/story-planner.mjs";
+import {buildStoryBrief, storyQualityReport} from "./lib/story-planner.mjs";
 import {readCatalog} from "./lib/catalog.mjs";
 import {chat} from "./lib/llm.mjs";
 import {ScriptSchema, scriptJsonSchema} from "./lib/script-schema.mjs";
@@ -44,8 +45,12 @@ Backgrounds: ${BACKGROUNDS.join(', ')}. Emotions: ${EMOTIONS.join(', ')}. Action
 Do not invent characters, backgrounds, recipes, music, callouts or visual effects. The deterministic Director supplies these.
 Write about ${Math.round(minutes * (type === 'story' ? 13 : 16))} spoken lines for ${minutes} minutes, across 25-35 scenes with 1-3 lines each (hard bounds: 3-40 scenes, 1-6 lines per scene).
 Every line uses 4-10 simple words. Narration uses vivid verbs and natural contractions. Keep introductions brief; start the first scene directly with the story problem.
+${type === 'story' ? 'Set intro to null. The first line reveals the concrete problem or surprising discovery; the hero is already visible, with a brief title overlay.' : ''}
 ${type === 'story' ? `Tell one focused story and one moral, using the supplied deterministic episode brief. Its selected cast and setting are binding. Let the setting cause a practical obstacle.
 Follow: immediate hook -> hero's concrete goal -> first mistaken attempt -> different second attempt -> child choice -> gentle consequence -> hero chooses a repair -> warm ending proving the repair works.
+Make the goal visible in spoken text with a concrete object and activity. Each attempt changes the strategy, names its action, and shows why it fails; repeating the same action harder does not count as a new attempt. Give the choice actual alternatives and let the hero decide.
+An apology or promise is not a repair. Narrate the hero performing a specific reparative action with the object or friend, followed by a concrete result. The final story scene returns to the original goal and shows the friend using or enjoying the repaired result. A moral, cheer, or elder's advice alone cannot serve as the ending.
+Use new information in each scene. Repeat only the catchphrase at earned moments; avoid recycling generic dialogue such as "we can be kind together" across scenes. Do not invent audit scores or narrative annotations; the offline audit cites the words you write.
 Include at least six story scenes, a lesson scene showing repair, and two question scenes at real choices. A question has kind "question", holdSec 3, a simple answer and warm praise.
 Give characters distinct voices based on their personalities. Elders can learn too; their advice never solves the hero's problem for them. Show brief disappointment followed by an achievable caring action. No shaming, scary danger, sudden magic fix, or long lectures.
 Repeat the hero's exact catchphrase three times at earned moments. State the moral only in moral and the two short moralRhyme lines. The ending returns to the original goal and demonstrates change.` : `Write an original rhyme: verse -> chorus -> verse -> chorus, with exactly repeated 3-4 line choruses. Include action words, one counting verse, one colors verse, two question scenes, and a cozy ending. Set moral and moralRhyme to null.`}
@@ -55,7 +60,8 @@ ${castPrompt()}`;
 
 function finish(script, args) {
   const slug = script.slug;
-  const full = directScript({ ...script, voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
+  const full = directScript({ ...script, presentationVersion: 2, voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
+  full.synthesis = voiceSettings(full,args);
   writeScript(slug, full);
   setLatestSlug(slug);
   const lineCount = full.scenes.reduce((n, s) => n + s.lines.length, 0);
@@ -115,7 +121,8 @@ async function main() {
   const script = ScriptSchema.parse(extractJson(raw));
   if (script.type !== type) throw new Error(`Requested ${type}, but the writer returned ${script.type}`);
   if (type === 'story') {
-    const issues = storyQualityIssues(script, minutes);
+    const quality = storyQualityReport(script, minutes);
+    const issues = quality.issues;
     const allowed = [storyBrief.hero.kind, storyBrief.friend.kind];
     if (script.mainCharacter.kind !== storyBrief.hero.kind || script.mainCharacter.name !== storyBrief.hero.name) issues.push('use the exact hero from the brief');
     for (const scene of script.scenes) {
@@ -124,6 +131,8 @@ async function main() {
       if (scene.lines.some(line => line.speaker === 'friend') && !scene.secondCharacter) issues.push('friend dialogue needs a secondCharacter');
     }
     if (issues.length) throw new Error(`Story quality check failed: ${[...new Set(issues)].join('; ')}`);
+    const candidates = Object.entries(quality.audit.beats).filter(([, beat]) => beat.status === 'candidate').map(([name]) => name);
+    console.log(`[generate] advisory story audit: candidates=${candidates.join(',') || 'none'}; warnings=${quality.audit.findings.length}. Review the written script with scripts/audit-story.mjs.`);
   }
 
   if (script.type === "rhyme") {

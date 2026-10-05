@@ -20,7 +20,8 @@ import { parseFile } from "music-metadata";
 import { loadDotEnv, parseArgs, readScript, writeScript, resolveSlug, GENERATED_DIR, ROOT } from "./lib/common.mjs";
 import { directScript, songSceneCount } from "./lib/director.mjs";
 import { estimateVideoSec } from "./lib/estimate.mjs";
-import { VOICE_STORE, voiceSettings, voiceForSpeaker, lineHash, storePaths, inStore, missingTexts } from "./lib/voice.mjs";
+import { VOICE_STORE, voiceSettings, voiceForSpeaker, voiceHash, storePaths, inStore, missingTexts } from "./lib/voice.mjs";
+import {speechEnvelope} from './lib/speech-envelope.mjs';
 
 loadDotEnv();
 
@@ -71,12 +72,13 @@ function normalizeFloat(samples) {
   }
 }
 
-async function synthKokoro(text, voice, outPath) {
+async function synthKokoro(text, voice, outPath, settings) {
   const tts = await getKokoro();
-  const audio = await tts.generate(text, { voice, speed: Number(process.env.TTS_SPEED || 0.95) });
+  const audio = await tts.generate(text, { voice, speed: settings.speed });
   normalizeFloat(audio.audio);
   await audio.save(outPath);
-  return { durationSec: audio.audio.length / audio.sampling_rate, words: null };
+  return { durationSec: audio.audio.length / audio.sampling_rate, words: null,
+    envelope: settings.cacheVersion === 3 ? speechEnvelope(audio.audio,audio.sampling_rate) : undefined };
 }
 
 async function synthEdge(text, voice, outPath) {
@@ -106,10 +108,10 @@ function pcmToWav(pcm, sampleRate = 24000) {
   return Buffer.concat([header, pcm]);
 }
 
-async function synthGemini(text, voice, outPath) {
+async function synthGemini(text, voice, outPath, settings) {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new Error("TTS_ENGINE=gemini requires GEMINI_API_KEY");
-  const model = process.env.GEMINI_TTS_MODEL || "gemini-2.5-flash-preview-tts";
+  const model = settings.model;
   const geminiVoice = /Neural/i.test(voice) ? "Leda" : voice;
   const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
     method: "POST",
@@ -132,13 +134,13 @@ async function synthGemini(text, voice, outPath) {
   return { durationSec: pcm.length / 2 / 24000, words: null };
 }
 
-async function synthesize(text, voice, outPath) {
-  const engine = process.env.TTS_ENGINE || "kokoro";
+async function synthesize(text, voice, outPath, settings) {
+  const {engine} = settings;
   const fn = engine === "gemini" ? synthGemini : engine === "edge" ? synthEdge : synthKokoro;
   let lastErr;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      return await fn(text, voice, outPath);
+      return await fn(text, voice, outPath, settings);
     } catch (err) {
       lastErr = err instanceof Error ? err : new Error(String(err));
       console.warn(`[tts] attempt ${attempt} failed: ${lastErr.message.slice(0, 200)}`);
@@ -173,11 +175,12 @@ async function main() {
   let synthCount = 0;
   let reusedCount = 0;
 
-  const speak = async (text, speaker = "character") => {
-    const selectedVoice = voiceForSpeaker(settings, speaker);
+  const heroScene = { character: script.mainCharacter?.kind || script.hero || script.scenes[0]?.character };
+  const speak = async (text, speaker = "character", scene = heroScene) => {
+    const selectedVoice = voiceForSpeaker(settings, speaker, scene);
     const key = `${selectedVoice}|${text.trim().toLowerCase()}`;
     if (cache.has(key)) return cache.get(key);
-    const hash = lineHash(engine, selectedVoice, text);
+    const hash = voiceHash(settings, selectedVoice, text);
     const file = `line-${hash}.${ext}`;
     const store = storePaths(hash, ext);
     let entry;
@@ -185,9 +188,9 @@ async function main() {
       entry = { ...JSON.parse(fs.readFileSync(store.meta, "utf8")), audio: file };
       reusedCount++;
     } else {
-      const { durationSec, words } = await synthesize(text, selectedVoice, store.audio);
-      entry = { audio: file, durationSec: +durationSec.toFixed(3), words: words ?? estimateWords(text, durationSec) };
-      fs.writeFileSync(store.meta, JSON.stringify({ text, durationSec: entry.durationSec, words: entry.words }));
+      const { durationSec, words, envelope } = await synthesize(text, selectedVoice, store.audio, settings);
+      entry = { audio: file, durationSec: +durationSec.toFixed(3), words: words ?? estimateWords(text, durationSec), envelope };
+      fs.writeFileSync(store.meta, JSON.stringify({ text, durationSec: entry.durationSec, words: entry.words, envelope, synthesis: settings }));
       synthCount++;
       console.log(`[tts] ${file} ${durationSec.toFixed(2)}s  "${text}"`);
     }
@@ -201,7 +204,7 @@ async function main() {
 
   if (script.intro) Object.assign(script.intro, await speak(script.intro.text, "character"));
   for (const scene of script.scenes) {
-    for (const line of scene.lines) Object.assign(line, await speak(line.text, line.speaker));
+    for (const line of scene.lines) Object.assign(line, await speak(line.text, line.speaker, scene));
   }
   if (script.outro) Object.assign(script.outro, await speak(script.outro.text, "character"));
 
@@ -216,14 +219,15 @@ async function main() {
     const reprised = [...song];
     let reprises = 0;
     const bridgeText = "One more time!";
-    const bridge = await speak(bridgeText);
+    const bridgeCharacter = settings.castVoices ? heroScene.character : song[0].character;
+    const bridge = await speak(bridgeText, "character", { character: bridgeCharacter });
     const measure = () => estimateVideoSec({ ...script, scenes: [...reprised, ...rest] });
     while (measure() < target * 60 && reprises < 3) {
       reprised.push(
         {
           kind: "bridge",
           background: song[0].background,
-          character: song[0].character,
+          character: bridgeCharacter,
           energy: "upbeat",
           transition: "pop",
           camera: "still",
@@ -253,6 +257,7 @@ async function main() {
 
   script.voice = voice;
   script.narratorVoice = narratorVoice;
+  if (settings.cacheVersion === 3) script.synthesis = settings;
   writeScript(slug, script);
   const totalMin = (estimateVideoSec(script) / 60).toFixed(1);
   console.log(`[tts] done — ${synthCount} lines synthesized, ${reusedCount} reused from the store, ~${totalMin} min of video`);

@@ -19,3 +19,22 @@ export function sceneDirection(scene, script = {}) {
   if (scene.prop || DEMONSTRATION.test(scene.action ?? '') || lines.some((line) => DEMONSTRATION.test(line.action ?? '') || DEMONSTRATION.test(line.text))) return 'demonstration';
   return 'dialogue';
 }
+
+/** Uninterrupted dialogue keeps its stage; changes in the story motivate a transition. */
+export function sceneTransition(scene, previous, script = {}) {
+  if (!previous && script.opening === 'hook') return 'none';
+  const direction = sceneDirection(scene, script);
+  if (['thinking', 'tender', 'lullaby'].includes(direction)) return 'fade';
+  if (!previous) return 'pop';
+  if (direction === 'celebration' && sceneDirection(previous, script) !== direction) return 'pop';
+  if (scene.background !== previous.background) {
+    if ((script.presentationVersion??0)>=2) {
+      if (/pond|water|beach/.test(scene.background)) return 'ripple';
+      if (/forest|garden|meadow|autumn/.test(scene.background)) return 'leaf';
+      if (/home|library|school|room/.test(scene.background)) return 'page';
+    }
+    return 'wipe';
+  }
+  if (scene.character !== previous.character || scene.secondCharacter !== previous.secondCharacter) return 'fade';
+  return 'none';
+}

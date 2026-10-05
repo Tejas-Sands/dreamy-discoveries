@@ -13,6 +13,7 @@ export interface StorybookBodyProps {
   mouth: number;
   blink: number;
   showFace: boolean;
+  armExtension?: Partial<Record<'L'|'R',number>>;
 }
 
 const mix = (color: string, target: string, amount: number) => {
@@ -22,7 +23,7 @@ const mix = (color: string, target: string, amount: number) => {
 
 /** Artwork uses the approved 500px Daisy drawing space, mapped onto the existing
  * rig: center x=100, feet y=250. Pose distances are converted back by 2.5. */
-export const StorybookBody: React.FC<StorybookBodyProps> = ({ recipe, pose, emotion, mouth, blink, showFace }) => {
+export const StorybookBody: React.FC<StorybookBodyProps> = ({ recipe, pose, emotion, mouth, blink, showFace, armExtension }) => {
   const uid = `storybook-${useId().replace(/:/g, "")}`;
   const kind = recipe.name, c = recipe.colors;
   const bird = kind === "duck" || kind === "owl";
@@ -46,7 +47,7 @@ export const StorybookBody: React.FC<StorybookBodyProps> = ({ recipe, pose, emot
     // Folded paws need enough reach to meet across the plush torso, especially
     // Ben's wider shoulders. Blend it in as the arms turn inward.
     const inward = Math.min(1, Math.max(0, -(right ? pose.armR : pose.armL) / 90));
-    const reach = bird ? 1 : 1 + inward * (bear ? .4 : .16);
+    const reach = armExtension?.[right?'R':'L'] ?? (bird ? 1 : 1 + inward * (bear ? .4 : .16));
     return <g transform={`translate(${x} 352) rotate(${angle}) scale(${right ? -1 : 1} ${reach})`}>
       {bird ? <>
         <path d="M-8 -10C-40 -5 -46 30 -38 67Q-34 95 -16 100Q-7 101 -9 89Q4 103 7 88Q22 95 21 77Q33 77 26 56C15 23 24 -10 -8 -10Z" fill={fill("wing")}/>

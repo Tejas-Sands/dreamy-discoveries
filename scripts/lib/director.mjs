@@ -28,7 +28,8 @@ import { extractVox, normalizeVox, VOX_PRE_SEC, VOX_POST_SEC } from "./vox.mjs";
 import { hintCharacter, hintBackground } from "./hints.mjs";
 import { saveRecipe } from "./library.mjs";
 import { castMembers, castKinds, castOrder } from "./cast.mjs";
-import { sceneDirection } from "../../src/lib/sceneDirection.mjs";
+import { sceneDirection, sceneTransition } from "../../src/lib/sceneDirection.mjs";
+import { stageStory } from './staging.mjs';
 
 /** the Sunny Meadow universe — the species that may appear on screen (plus the legacy zoo for old samples) */
 const UNIVERSE_KINDS = castKinds();
@@ -406,8 +407,11 @@ export function directScript(input, opts = {}) {
 
   // ── greeting over the title card ──
   const intro = script.intro ? normalizeLine(script.intro) : null;
+  if ((script.presentationVersion ?? 0) >= 1) {
+    script.opening = script.opening === 'title' || script.type !== 'story' || intro ? 'title' : 'hook';
+  }
   if (intro && !intro.text) intro.text = `Hi friends! I'm ${main.name}!`;
-  script.intro = intro
+  script.intro = script.opening === 'hook' && (script.presentationVersion ?? 0) >= 1 ? null : intro
     ? { ...intro, role: "greeting", speaker: "character", emotion: intro.emotion ?? "excited", action: intro.action ?? "wave" }
     : normalizeLine({
         text:
@@ -454,7 +458,7 @@ export function directScript(input, opts = {}) {
         background: bg,
         character: main.kind,
         energy: "calm",
-        transition: "iris",
+        transition: (script.presentationVersion ?? 0) >= 1 ? "fade" : "iris",
         camera: "zoom-in",
         holdSec: 0.6,
         prop: null,
@@ -628,7 +632,8 @@ export function directScript(input, opts = {}) {
     // transitions + camera
     if (!scene.transition) {
       scene.transition =
-        quiet ? "fade"
+        script.presentationVersion >= 1 ? sceneTransition(scene, script.scenes[si - 1], script)
+        : quiet ? "fade"
         : si === 0 ? "pop"
         : scene.kind === "moral" ? "pop"
         : scene.kind === "chorus" ? ["pop", "iris", "wipe"][chorusTransitionAlt++ % 3]
@@ -698,6 +703,7 @@ export function directScript(input, opts = {}) {
     script.youtube = { title: script.title, description: "", tags: [] };
   }
   script.directed = true;
+  stageStory(script);
   return script;
 }
 

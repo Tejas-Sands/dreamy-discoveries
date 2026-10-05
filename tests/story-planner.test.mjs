@@ -147,6 +147,16 @@ test('directed questions retain valid praise after it moves into a spoken line',
   assert.deepEqual(storyQualityIssues(script, 5.5), []);
 });
 
+test('structurally valid stories get an advisory evidence report without rejecting legacy dialogue', () => {
+  assert.equal(typeof planner.storyQualityReport, 'function');
+  const script = validStory();
+  const report = planner.storyQualityReport(script, 5.5);
+  assert.deepEqual(report.issues, []);
+  assert.equal(report.audit.advisory, true);
+  assert.equal(report.audit.beats.repair.status, 'missing');
+  assert.deepEqual(script, validStory(), 'quality reporting does not annotate permanent scripts');
+});
+
 test("story quality reports every missing structural beat", () => {
   const weak = validStory();
   weak.type = "rhyme";

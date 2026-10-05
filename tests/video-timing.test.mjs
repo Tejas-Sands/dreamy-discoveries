@@ -8,6 +8,19 @@ const source = fs.readFileSync(new URL('../src/lib/timing.ts', import.meta.url),
 const { outputText } = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } });
 const { computeSchedule, musicVolume } = await import(`data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`);
 
+test('a hook starts speech at frame zero without a greeting or countdown budget', () => {
+  const script = {presentationVersion: 1, opening: 'hook', intro: null, scenes: [{lines: [{text: 'My boat is stuck!', durationSec: 2}], holdSec: 1}]};
+  const schedule = computeSchedule(script);
+  assert.equal(schedule.intro, 0);
+  assert.equal(schedule.countdownFrom, -1);
+  assert.equal(schedule.scenes[0].from, 0);
+  assert.deepEqual(schedule.voice[0], [0, 60]);
+  assert.equal(estimateFrames(script), schedule.total);
+  const legacy = {...script, presentationVersion: undefined};
+  assert.ok(computeSchedule(legacy).intro > 0);
+  assert.equal(estimateFrames(legacy), computeSchedule(legacy).total);
+});
+
 test('logo signature follows the complete spoken goodbye and owns the final six seconds', () => {
   const script = { scenes: [], outro: { durationSec: 9 } };
   const schedule = computeSchedule(script);

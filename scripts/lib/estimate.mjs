@@ -12,7 +12,7 @@ const lineFrames = (line) => toFrames((line.voxPreSec ?? 0) + (line.durationSec 
 /** total frames of the composition for this script (same as computeSchedule(script).total) */
 export function estimateFrames(script) {
   const introSpeech = script.intro?.durationSec ?? 0;
-  let cursor = toFrames(Math.max(T.INTRO_MIN, T.INTRO_SPEAK_AT + introSpeech + 0.4 + T.COUNTDOWN));
+  let cursor = (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook' ? 0 : toFrames(Math.max(T.INTRO_MIN, T.INTRO_SPEAK_AT + introSpeech + 0.4 + T.COUNTDOWN));
   for (const scene of script.scenes ?? []) {
     const asked = scene.lines.filter((l) => l.role !== "praise");
     const praise = scene.lines.filter((l) => l.role === "praise");

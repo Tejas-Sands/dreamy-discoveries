@@ -106,10 +106,11 @@ function main() {
   }
   let script = directScript(readScript(slug));
   if (args.minutes) script.targetMinutes = Number(args.minutes);
+  const settings = voiceSettings(script, args);
+  if ([1,2].includes(script.presentationVersion)) script.synthesis = settings;
   if (!args.dry) writeScript(slug, script);
   if (!args.dry) setLatestSlug(slug);
 
-  const settings = voiceSettings(script, args);
   const missing = missingTexts(script, settings);
   const frames = estimateFrames(script);
   const perChunk = Number(args["frames-per-chunk"] || 3000);
@@ -130,6 +131,7 @@ function main() {
     title: script.title,
     type: script.type,
     voice_needed: missing.length > 0 ? "true" : "false",
+    voice_engine: settings.engine,
     voice_missing: missing.length,
     frames_estimate: frames,
     minutes_estimate: (frames / 30 / 60).toFixed(1),

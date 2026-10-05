@@ -8,6 +8,33 @@ import {sceneDirection} from '../src/lib/sceneDirection.mjs';
 const scene = (overrides = {}) => ({background: 'meadow', character: 'bunny', lines: [{text: 'The path led across the meadow.', durationSec: 7}], ...overrides});
 const script = (scenes, overrides = {}) => ({title: 'A meadow visit', type: 'story', mainCharacter: {kind: 'bunny', name: 'Taffy'}, scenes, ...overrides});
 
+test('new stories open on the problem; authored greetings and legacy stories retain the title opening', () => {
+  const input = script([scene({lines: [{text: 'Oh no! My paper boat is stuck!', emotion: 'worried'}]})], {presentationVersion: 1});
+  const output = directScript(input);
+  assert.equal(output.opening, 'hook');
+  assert.equal(output.intro, null);
+  assert.equal(output.scenes[0].transition, 'none');
+  assert.deepEqual(directScript(output), output);
+  assert.equal(directScript(script([scene()])).intro.role, 'greeting');
+  const authored = directScript({...input, intro: {text: 'Hello, my dear friends!'}, scenes: [scene({transition: 'iris'})]});
+  assert.equal(authored.opening, 'title');
+  assert.equal(authored.intro.text, 'Hello, my dear friends!');
+  assert.equal(authored.scenes[0].transition, 'iris');
+});
+
+test('new transitions follow continuity, location and intent instead of a rotating cycle', () => {
+  const output = directScript(script([
+    scene(), scene(), scene({background: 'pond'}),
+    scene({background: 'pond', direction: 'celebration'}),
+    scene({background: 'pond', direction: 'celebration'}),
+    scene({background: 'pond', direction: 'thinking'}),
+    scene({background: 'bedroom', direction: 'lullaby'}),
+    scene({background: 'bedroom', transition: 'slide'}),
+  ], {presentationVersion: 1}));
+  assert.deepEqual(output.scenes.map(s => s.transition), ['none', 'none', 'wipe', 'pop', 'none', 'fade', 'fade', 'slide']);
+  assert.deepEqual(directScript(JSON.parse(JSON.stringify(output))), output);
+});
+
 test('explicit music and gag off survive JSON round trips and reruns', () => {
   for (const music of [false, 'none', null]) {
     for (const gag of [false, null]) {

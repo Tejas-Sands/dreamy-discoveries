@@ -2,6 +2,7 @@ import {castMembers} from './cast.mjs';
 import fs from 'node:fs';
 import {hintCharacter, hintBackground} from './hints.mjs';
 import {BACKGROUNDS} from './vocab.mjs';
+import {auditStory} from './story-audit.mjs';
 const configuredSeeds = JSON.parse(fs.readFileSync(new URL('../../library/config.json', import.meta.url), 'utf8')).storySeeds ?? [];
 const sentence = (value) => typeof value === "string" && value.trim().length > 0;
 
@@ -74,7 +75,7 @@ export function buildStoryBrief({topic, hero, episodes = [], random = () => 0}) 
     consequence: `${picked.friend.name} notices that ${consequence}. Show the feeling briefly and kindly.`,
     repair: `${lead.name} chooses to ${repair}. Make this a visible action.`,
     ending: `Return to the original shared activity. Show ${picked.friend.name} enjoying the repaired result with ${lead.name}.`,
-    guidance: 'Adapt the activity to the supplied topic; preserve its explicit problem and moral. No lecture, instant magic fix, or unrelated subplot.',
+    guidance: 'Adapt the activity to the supplied topic; preserve its explicit problem and moral. Give each attempt a different observable action and result. The hero performs the repair, and the final scene shows the original goal working for both friends. No lecture, instant magic fix, or unrelated subplot.',
   };
 }
 
@@ -133,4 +134,9 @@ export function storyQualityIssues(script, minutes = 5.5) {
   if (questions.length < 2) issues.push("include at least two question scenes with an answer and praise");
   if (lineCount < minimumLines) issues.push(`include at least ${minimumLines} spoken lines for a ${Number(minutes || 5.5)}-minute story`);
   return issues;
+}
+
+/** Preserve the established gate; stronger language evidence stays advisory for permanent and legacy scripts. */
+export function storyQualityReport(script, minutes = 5.5) {
+  return {issues: storyQualityIssues(script, minutes), audit: auditStory(script)};
 }

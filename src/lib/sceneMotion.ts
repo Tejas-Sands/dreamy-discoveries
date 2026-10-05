@@ -1,10 +1,45 @@
-import type {Action, Scene, Gag, SceneDirection, SfxName} from './types';
+import type {Action, Emotion, Scene, Gag, SceneDirection, SfxName} from './types';
 import type {SceneSlot} from './timing';
 import {nextActionBoundary, actionContacts} from './actionMotion';
 
 export const CONTACT_SFX: Partial<Record<Action,SfxName>> = {jump:'boing',clap:'clap',stomp:'stomp'};
 
 export interface ActionCue { from: number; action: Action }
+
+const responseEmotion = (emotion: Emotion): Emotion => emotion === 'sad' ? 'worried' : emotion === 'excited' ? 'happy' : emotion;
+
+/** A listener notices the speaker a few frames later; no previous render state is needed. */
+export function actorEmotion(scene: Scene, slot: SceneSlot, actor: 'character' | 'friend', frame: number, fps: number): Emotion {
+  if (scene.question && frame >= slot.holdFrom && frame < slot.revealFrom) return 'thinking';
+  if (scene.question && frame >= slot.revealFrom && frame < slot.praiseFrom) return frame - slot.revealFrom < fps * .45 ? 'surprised' : 'excited';
+  const kind = actor === 'character' ? scene.character : scene.secondCharacter;
+  const owns = (speaker: string | undefined) => (speaker ?? 'character') === actor || !!kind && speaker === kind;
+  const latest = (at: number) => slot.lines.filter(line => line.from <= at).at(-1);
+  const active = latest(frame);
+  if (active && owns(active.line.speaker)) return active.line.emotion ?? scene.emotion ?? 'neutral';
+  const noticed = latest(frame - Math.round(fps * .16));
+  if (!noticed) return scene.emotion ? responseEmotion(scene.emotion) : 'neutral';
+  const feeling = noticed.line.emotion ?? scene.emotion ?? 'neutral';
+  return owns(noticed.line.speaker) ? feeling : responseEmotion(feeling);
+}
+
+/** Integrate speed over the episode so scene boundaries never reset environmental phase. */
+export function ambientTimeline(slots: ReadonlyArray<Pick<SceneSlot,'from' | 'duration'>>, rates: readonly number[], fps: number): number[] {
+  let time = (slots[0]?.from ?? 0) / fps * .55;
+  return slots.map((slot, i) => {
+    const from = time;
+    time += slot.duration / fps * Math.max(0, Math.min(1, rates[i] ?? .55));
+    return from;
+  });
+}
+
+/** Every visible scene samples the same absolute clock, including both sides of a fade. */
+export function ambientAt(slots: ReadonlyArray<Pick<SceneSlot,'from' | 'duration'>>, rates: readonly number[], starts: readonly number[], frame: number, fps: number): number {
+  if (!slots.length || frame < slots[0].from) return Math.max(0,frame) / fps * .55;
+  let index=0;
+  while (index+1 < slots.length && frame >= slots[index+1].from) index++;
+  return starts[index] + (frame-slots[index].from) / fps * Math.max(0,Math.min(1,rates[index] ?? .55));
+}
 
 /** Slow emotional framing settles at the end of speech instead of growing through holds. */
 export function emotionalPushIn(t: number, durationSec: number): number {

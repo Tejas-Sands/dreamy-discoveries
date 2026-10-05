@@ -9,6 +9,14 @@ export function mouthAt(line: Line | null | undefined, t: number): number {
   if (!line || t < 0) return 0;
   const dur = line.durationSec ?? 0;
   if (dur > 0 && t > dur) return 0;
+  const envelope = line.envelope;
+  if (envelope && envelope.fps > 0 && envelope.values.length > 0) {
+    const sample = t * envelope.fps;
+    const index = Math.floor(sample);
+    const a = envelope.values[index] ?? 0;
+    const b = envelope.values[index + 1] ?? 0;
+    return Math.max(0,Math.min(1,a + (b-a) * (sample-index)));
+  }
   const words = line.words;
   if (!words || words.length === 0) {
     return dur > 0 ? 0.35 + 0.65 * Math.abs(Math.sin(t * 2 * Math.PI * 5.5)) : 0;

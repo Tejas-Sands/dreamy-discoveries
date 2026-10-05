@@ -57,7 +57,7 @@ export type SceneKind =
   | "moral"
   | "bridge";
 
-export type TransitionKind = "pop" | "slide" | "iris" | "wipe" | "fade";
+export type TransitionKind = "none" | "pop" | "slide" | "iris" | "wipe" | "fade" | "leaf" | "page" | "ripple";
 export type CameraKind = "still" | "zoom-in" | "zoom-out" | "pan";
 export type SceneDirection = "dialogue" | "demonstration" | "thinking" | "celebration" | "lullaby" | "tender";
 
@@ -129,6 +129,8 @@ export interface Line {
   audio?: string;
   durationSec?: number;
   words?: Word[];
+  /** Kokoro amplitude sampled once at synthesis time; old audio uses word timing. */
+  envelope?: {fps: number; values: number[]};
 }
 
 export interface Question {
@@ -174,7 +176,25 @@ export interface Scene {
   prop?: string | null;
   /** party scenes (chorus, moral chant, finale): extra friends who hop in and dance at the edges */
   extras?: CharacterKind[] | null;
+  staging?: SceneStaging;
+  music?: MusicSpec | null;
 }
+
+export type StageRole = 'character' | 'friend';
+export interface StagePoint {x: number; y: number}
+export interface StageMove {line: number; delaySec?: number; durationSec?: number; to: StagePoint}
+export interface StageProp extends StagePoint {id: string; kind: string; label?: string; owner: string | null; location?: string; hidden?: boolean}
+export interface StageEvent {kind: 'show' | 'pick-up' | 'give' | 'drop'; propId: string; line: number; actor?: StageRole; to?: StageRole; delaySec?: number; durationSec?: number}
+export interface SceneStaging {
+  actors: Partial<Record<StageRole, StagePoint & {moves?: StageMove[]}>>;
+  props: StageProp[];
+  events: StageEvent[];
+  shot: 'dialogue' | 'prop' | 'reaction' | 'discovery' | 'celebration' | 'quiet';
+  auto?: boolean;
+}
+export interface StageActorSample extends StagePoint {owner: string; moving: boolean; walkT: number; flip: boolean; stoppedFor: number | null}
+export interface StageReach {target: StagePoint; amount: number; crouch: number}
+export interface StageSample {actors: Partial<Record<StageRole, StageActorSample>>; props: StageProp[]; reaches: Partial<Record<StageRole, StageReach>>; shot: SceneStaging['shot']}
 
 export interface YoutubeMeta {
   title: string;
@@ -191,6 +211,9 @@ export interface MusicSpec {
 
 export interface KidsScript {
   version?: 2;
+  /** Opt in to new direction rules without changing existing episodes. */
+  presentationVersion?: 1 | 2;
+  opening?: "hook" | "title";
   type: "rhyme" | "story";
   slug: string;
   title: string;
@@ -201,6 +224,8 @@ export interface KidsScript {
   /** spoken over the end card */
   outro?: Line | null;
   voice?: string | null;
+  castVoices?: Record<string,string>;
+  synthesis?: {engine: string; ext: string; voice: string; narratorVoice: string; speed: number; model: string; cacheVersion: number; castVoices?: Record<string,string>};
   music?: MusicSpec | null;
   /** one-sentence lesson (stories) — the Director turns it into moral scenes */
   moral?: string | null;

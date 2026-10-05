@@ -32,7 +32,7 @@ export const ACTIONS = [
 
 export const SCENE_KINDS = ["verse", "chorus", "question", "story", "lesson", "moral", "bridge"];
 
-export const TRANSITIONS = ["pop", "slide", "iris", "wipe", "fade"];
+export const TRANSITIONS = ["none", "pop", "slide", "iris", "wipe", "fade", "leaf", "page", "ripple"];
 
 export const GAG_KINDS = ["peek", "flyby"];
 

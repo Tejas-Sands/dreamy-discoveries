@@ -121,7 +121,7 @@ export const Countdown: React.FC<{ script: KidsScript; palette: Palette }> = ({ 
 };
 
 /** Title card: the hero hops in, big bouncy title, "Hi friends!", then the countdown beat. */
-export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; countdownFrom: number; baked?: BakedMap }> = ({ script, palette, slug, countdownFrom, baked }) => {
+export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; countdownFrom: number; baked?: BakedMap; ambientT?: number }> = ({ script, palette, slug, countdownFrom, baked, ambientT }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const speakAt = toFrames(INTRO_SPEAK_AT_SEC);
@@ -142,7 +142,7 @@ export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: s
   const action = inCountdown ? (mood === "countdown" ? "jump" : mood === "story" ? "cheer" : "wave") : speaking ? (script.intro?.action ?? "wave") : hopT < 0.8 ? "jump" : "wave";
   return (
     <AbsoluteFill>
-      <Background kind={bg} palette={palette} baked={baked} />
+      <Background kind={bg} palette={palette} baked={baked} animationT={ambientT} />
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 18%, ${palette.accentSoft}24, transparent 65%)` }} />
       <Sparkles count={14} />
       <Sfx name="intro" at={0} volume={0.45} />
@@ -191,7 +191,7 @@ export const castOf = (script: KidsScript, max = 3): string[] => {
 };
 
 /** End card: "The End!", the stars collected, a dance party with everyone, the hero says bye. */
-export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; starsEarned: number; baked?: BakedMap }> = ({ script, palette, slug, starsEarned, baked }) => {
+export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; starsEarned: number; baked?: BakedMap; ambientT?: number }> = ({ script, palette, slug, starsEarned, baked, ambientT }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const speakAt = Math.round(0.8 * fps);
@@ -218,7 +218,7 @@ export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: str
   ];
   return (
     <AbsoluteFill>
-      <Background kind={bg} palette={palette} baked={baked} />
+      <Background kind={bg} palette={palette} baked={baked} animationT={ambientT} />
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 18%, ${palette.accentSoft}24, transparent 65%)` }} />
       <Sparkles count={16} />
       <Confetti from={2} x={960} y={300} count={60} spread={1100} />

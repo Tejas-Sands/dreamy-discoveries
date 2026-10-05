@@ -10,6 +10,8 @@ export const SceneTransition: React.FC<{ kind: TransitionKind; frames: number; c
   const k = Math.min(1, frame / frames);
   let style: React.CSSProperties = {};
   switch (kind) {
+    case "none":
+      break;
     case "pop": {
       const s = spring({ frame, fps, config: { damping: 11, stiffness: 120 } });
       style = { transform: `scale(${0.7 + 0.3 * s})`, opacity: Math.min(1, k * 2.5), transformOrigin: "50% 60%" };
@@ -23,6 +25,15 @@ export const SceneTransition: React.FC<{ kind: TransitionKind; frames: number; c
       break;
     case "wipe":
       style = { clipPath: `inset(0 ${(1 - easeInOutSine(k)) * 100}% 0 0 round 0 ${(1 - k) * 200}px ${(1 - k) * 200}px 0)` };
+      break;
+    case 'leaf':
+      style=k>=1?{}:{clipPath:`ellipse(${easeInOutSine(k)*180}% ${easeInOutSine(k)*150}% at 8% 94%)`};
+      break;
+    case 'page':
+      style=k>=1?{}:{clipPath:`inset(0 ${(1-easeInOutSine(k))*100}% 0 0)`,transform:`perspective(2200px) rotateY(${(1-easeInOutSine(k))*-12}deg)`,transformOrigin:'left center'};
+      break;
+    case 'ripple':
+      style=k>=1?{}:{clipPath:`circle(${easeInOutSine(k)*145}% at 50% 76%)`};
       break;
     case "fade":
     default:
