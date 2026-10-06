@@ -42,7 +42,7 @@ items:
     slug: standby-daisy-and-the-different-sized-baskets
     doneAt: 2026-10-05T11:03:43.971Z
   - id: auto-2026-10-06
-    status: running
+    status: done
     topic: "Moral: Playing kindly matters more than being first. Story problem: The
       hero becomes too focused on winning a friendly Sunny Meadow game."
     type: story
@@ -50,6 +50,7 @@ items:
     minutes: 5.5
     startedAt: 2026-10-06T10:38:24.926Z
     slug: standby-fiona-keeps-her-word
+    doneAt: 2026-10-06T10:58:20.616Z
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

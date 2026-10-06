@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-05T11:01:55.332Z",
+  "updatedAt": "2026-10-06T10:56:49.748Z",
   "counts": {
-    "stories": 11,
+    "stories": 12,
     "rhymes": 4,
-    "episodes": 15,
-    "stars": 52
+    "episodes": 16,
+    "stars": 54
   },
   "usage": {
     "tilly": 2,
@@ -14,13 +14,13 @@
     "daisy": 3,
     "taffy": 3,
     "ben": 3,
-    "fiona": 2
+    "fiona": 3
   },
   "appeared": {
     "tilly": 6,
     "daisy": 8,
-    "fiona": 5,
-    "ozzy": 4,
+    "fiona": 6,
+    "ozzy": 5,
     "taffy": 6,
     "ben": 7
   },
@@ -683,6 +683,47 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-daisy-and-the-different-sized-baskets",
         "tag": "video-standby-daisy-and-the-different-sized-baskets"
+      }
+    },
+    {
+      "id": "standby-fiona-keeps-her-word",
+      "type": "story",
+      "title": "Fiona Keeps Her Word",
+      "hero": "fiona",
+      "heroName": "Fiona",
+      "cast": [
+        "fiona",
+        "ozzy"
+      ],
+      "moral": "Following through on a promise helps friends trust us.",
+      "moralRhyme": [
+        "Keep your word; do your part!",
+        "Promises come from the heart!"
+      ],
+      "catchphrases": [
+        "Fast and clever!",
+        "Hoohoo! Let's learn together!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "forest"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": "Authored standby story: Fiona Keeps Her Word",
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-06"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-fiona-keeps-her-word",
+        "tag": "video-standby-fiona-keeps-her-word"
       }
     }
   ]

@@ -1,6 +1,6 @@
 # Fiona Keeps Her Word
 
-**Status:** Available
+**Status:** Used · 2026-10-06
 
 **Hero:** Fiona
 
@@ -17,6 +17,8 @@ Following through on a promise helps friends trust us.
 [Production script](../scripts/standby-fiona-keeps-her-word.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `standby-fiona-keeps-her-word`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-fiona-keeps-her-word)
 
 ## Read the story
 

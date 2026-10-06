@@ -439,6 +439,29 @@
       "durationSec": 463,
       "renderedAt": "2026-10-05T11:03:43.638Z",
       "run": "37298524723"
+    },
+    {
+      "slug": "standby-fiona-keeps-her-word",
+      "title": "Fiona Keeps Her Word",
+      "type": "story",
+      "template": null,
+      "topic": "Authored standby story: Fiona Keeps Her Word",
+      "hero": "fox",
+      "heroName": "Fiona",
+      "palette": "meadow",
+      "backgrounds": [
+        "forest"
+      ],
+      "lines": 81,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-fiona-keeps-her-word",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-fiona-keeps-her-word",
+      "durationSec": 369,
+      "renderedAt": "2026-10-06T10:58:20.279Z",
+      "run": "37451072131"
     }
   ],
   "compilations": []

@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**27 stories · 23 available · 4 used**
+**27 stories · 22 available · 5 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -49,7 +49,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Fiona Keeps Her Word](standby/standby-fiona-keeps-her-word.md) | Professor Ozzy | forest | Following through on a promise helps friends trust us. | Available |
+| [Fiona Keeps Her Word](standby/standby-fiona-keeps-her-word.md) | Professor Ozzy | forest | Following through on a promise helps friends trust us. | Used · 2026-10-06 |
 | [Fiona and the Last Decoration](standby/standby-fiona-and-the-last-decoration.md) | Ben | candy | Sharing something you value can show a friend that their happiness matters too. | Available |
 | [Fiona and the Shortcut Sign](standby/standby-fiona-and-the-shortcut-sign.md) | Grandpa Tilly | forest | Telling the truth about a mistake helps us repair the things friends depend on. | Available |
 | [Fiona Chooses a Fair Finish](standby/standby-fiona-chooses-a-fair-finish.md) | Taffy | playground | Keeping shared game rules matters more than making yourself the winner. | Available |
