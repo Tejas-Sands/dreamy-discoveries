@@ -1,4 +1,6 @@
 import React, { useId } from "react";
+import type {ActorPerformance} from "../../lib/acting";
+import type {MouthShape} from "../../lib/speech";
 import {solveReach} from '../../lib/rigHands';
 import type {StagePoint,StageReach} from '../../lib/types';
 import { useCurrentFrame, useVideoConfig } from "remotion";
@@ -36,6 +38,12 @@ export interface CharacterProps {
   action?: Action;
   /** 0..1 how open the mouth is (speech), from the parent */
   mouth?: number;
+  performance?: ActorPerformance;
+  mouthShape?: MouthShape;
+  /** Local signed head/body turn; external flip mirrors this. */
+  turn?: number;
+  /** Local view-turn speed per second; sampled externally without render state. */
+  turnVelocity?: number;
   /** seconds since the current action started (defaults to the frame clock) */
   actionT?: number;
   /** Outgoing gesture frozen at the transition boundary. */
@@ -174,7 +182,7 @@ function partList<T extends string>(items: Array<T | FeatureSpec> | undefined): 
   return (items ?? []).map((f) => toSpec(f));
 }
 
-export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", action = "idle", mouth = 0, actionT, previousAction, blend = 1, musicT, clockT, motionScale = 1, gaze, reach, stageCenter, bpm = 120, width = 400, flip = false, seed: seedProp, still = false, groove = false, shadow = true, style }) => {
+export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", action = "idle", mouth = 0, performance: performanceProp, mouthShape: mouthShapeProp, turn: turnProp, turnVelocity: turnVelocityProp, actionT, previousAction, blend = 1, musicT, clockT, motionScale = 1, gaze, reach, stageCenter, bpm = 120, width = 400, flip = false, seed: seedProp, still = false, groove = false, shadow = true, style }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const uid = `character-${useId().replace(/:/g, "")}`;
@@ -182,9 +190,13 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   const recipe = getRecipe(kind);
   const c = recipe.colors;
   const seed = seedProp ?? characterSeed(kind);
+  const performance=still?undefined:performanceProp;
+  const mouthShape=still?undefined:mouthShapeProp;
+  const turn=still?undefined:turnProp;
+  const turnVelocity=still?undefined:turnVelocityProp;
   const t = still ? 0.35 : (actionT ?? frame / fps);
   const legless = recipe.rig === "fish" || recipe.rig === "whale";
-  const input = { action, t, bpm, seed, legless, groove, musicT: still ? 0.35 : musicT, clockT: still ? 0.35 : clockT };
+  const input = { action, t, bpm, seed, legless, groove, storybook: STORYBOOK_KINDS.has(recipe.name), kind:recipe.name, performance, turn, turnVelocity, musicT: still ? 0.35 : musicT, clockT: still ? 0.35 : clockT };
   const incoming = computePose(input);
   const pose: Pose = previousAction && !still && blend < 1
     ? blendPoses(computePose({ ...input, action: previousAction.action, t: previousAction.t, musicT: musicT === undefined ? undefined : musicT - t, clockT: clockT === undefined ? undefined : clockT - t }), incoming, blend)
@@ -212,6 +224,7 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   }
   const solved=reach&&stageCenter&&!still?solveReach(pose,recipe.name,flip,width,stageCenter,reach):null;
   const armExtension=solved?{[solved.side]:solved.extension}:undefined;
+  const handGrip=solved?{[solved.side]:Math.max(0,Math.min(1,reach?.amount??0))}:undefined;
   // ── secondary motion ──
   // ears / tails lag behind a fast-moving body (follow-through); talking bobs the head a little
   const lag = Math.max(-9, Math.min(9, -pose.vy * 0.018));
@@ -247,7 +260,7 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   const tailO = (recipe.tailOptions ?? {}) as FeatureSpec;
 
   const face = showFace ? (
-    <Face emotion={emotion} mouth={mouth} blink={blink} eyeMode={pose.eyes.mode} look={{ dx: pose.eyes.dx, dy: pose.eyes.dy }} skin={c.body} uid={uid} eyeY={f.eyeY} eyeGap={f.eyeGap} mouthY={f.mouthY} mouthDx={f.mouthDx} eyeSize={f.eyeSize} beak={f.beak} sockets={f.sockets} />
+    <Face emotion={emotion} mouth={mouth} blink={blink} eyeMode={pose.eyes.mode} look={{ dx: pose.eyes.dx, dy: pose.eyes.dy }} skin={c.body} uid={uid} performance={performance} mouthShape={mouthShape} eyeY={f.eyeY} eyeGap={f.eyeGap} mouthY={f.mouthY} mouthDx={f.mouthDx} eyeSize={f.eyeSize} beak={f.beak} sockets={f.sockets} />
   ) : null;
 
   const headDecor = (
@@ -276,7 +289,7 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
 
   const body = (() => {
     if (STORYBOOK_KINDS.has(recipe.name)) {
-      return <StorybookBody recipe={recipe} pose={pose} emotion={emotion} mouth={mouth} blink={blink} showFace={showFace} armExtension={armExtension} />;
+      return <StorybookBody recipe={recipe} pose={pose} emotion={emotion} mouth={mouth} blink={blink} showFace={showFace} action={action} previousAction={!still?previousAction?.action:undefined} actionBlend={blend} armExtension={armExtension} handGrip={handGrip} performance={performance} mouthShape={mouthShape} turn={turn} />;
     }
     if (SPECIES_RIGS.has(recipe.rig)) {
       return <SpeciesBody recipe={recipe} pose={pose} face={face} headFront={headFront} clothes={renderAccessories(true)} />;

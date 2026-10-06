@@ -9,6 +9,7 @@ import { PARTS, SceneryFrame } from "./parts";
 import type { BakedMap } from "../../lib/baked";
 import {sceneryColor, StorybookDetails, StorybookDistance} from "./StorybookScenery";
 import {isActorForeground, sceneryParallax} from '../../lib/environment';
+import {BackgroundLife} from './BackgroundLife';
 
 export const getBackgroundRecipe = (kind: string): BackgroundRecipe => BACKGROUND_RECIPES[kind] ?? BACKGROUND_RECIPES.meadow;
 
@@ -84,6 +85,7 @@ export const Background: React.FC<BackgroundProps> = ({ kind, palette, frameOffs
       <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{ position: "absolute", left: 0, top: 0, transform:layered ? middleTransform : `translateX(${-drift*9}px) scale(1.015)` }}>
         <BackgroundLayer recipe={recipe} group="front" t={t} palette={sceneryPalette} selection={splitForeground ? 'behind' : 'all'} />
       </svg>
+      <BackgroundLife kind={recipe.name} t={t} motion={motion} transform={middleTransform}/>
       {/* Static colored light adds depth without extra animation or cache invalidation. */}
       <AbsoluteFill style={{ pointerEvents: "none", background: night
         ? "radial-gradient(ellipse at 78% 12%, rgba(169,154,224,0.12), transparent 55%)"

@@ -8,12 +8,21 @@ export interface ActionCue { from: number; action: Action }
 
 const responseEmotion = (emotion: Emotion): Emotion => emotion === 'sad' ? 'worried' : emotion === 'excited' ? 'happy' : emotion;
 
+const CAST_ALIASES:Record<string,string>={taffy:'bunny',ben:'bear',daisy:'duck',fiona:'fox',tilly:'turtle',ozzy:'owl'};
+const animal=(kind:string|undefined|null)=>kind?CAST_ALIASES[kind]??kind:null;
+/** Resolve role, species and cast-ID dialogue consistently for faces, gestures and audio. */
+export function actorRole(scene:Pick<Scene,'character'|'secondCharacter'>,speaker:string|undefined):'character'|'friend'|null {
+  if (!speaker || speaker==='character') return 'character';
+  if (speaker==='friend') return 'friend';
+  if (speaker==='narrator') return null;
+  return animal(speaker)===animal(scene.character)?'character':animal(speaker)===animal(scene.secondCharacter)?'friend':null;
+}
+
 /** A listener notices the speaker a few frames later; no previous render state is needed. */
 export function actorEmotion(scene: Scene, slot: SceneSlot, actor: 'character' | 'friend', frame: number, fps: number): Emotion {
   if (scene.question && frame >= slot.holdFrom && frame < slot.revealFrom) return 'thinking';
   if (scene.question && frame >= slot.revealFrom && frame < slot.praiseFrom) return frame - slot.revealFrom < fps * .45 ? 'surprised' : 'excited';
-  const kind = actor === 'character' ? scene.character : scene.secondCharacter;
-  const owns = (speaker: string | undefined) => (speaker ?? 'character') === actor || !!kind && speaker === kind;
+  const owns = (speaker: string | undefined) => actorRole(scene,speaker) === actor;
   const latest = (at: number) => slot.lines.filter(line => line.from <= at).at(-1);
   const active = latest(frame);
   if (active && owns(active.line.speaker)) return active.line.emotion ?? scene.emotion ?? 'neutral';
@@ -52,7 +61,7 @@ export function actionTrack(scene: Scene, slot: SceneSlot, actor: 'character' | 
   const cues: ActionCue[] = [{from: 0, action: 'idle'}];
   for (const l of slot.lines) {
     const action = l.line.action ?? scene.action ?? 'idle';
-    const speaking = (l.line.speaker ?? 'character') === actor;
+    const speaking = actorRole(scene,l.line.speaker) === actor;
     const together = ['dance','cheer','hug','walk'].includes(action);
     const listening = actor === 'character' ? 'look' : 'idle';
     cues.push({from: l.from, action: speaking || together || l.line.speaker === 'narrator' && actor === 'character' ? action : listening});
@@ -100,7 +109,7 @@ export function sampleAction(track: ActionCue[], frame: number, fps: number) {
 }
 
 /** Contacts follow actual action runs, including a landing delayed beyond its line. */
-export function contactSounds(track: ActionCue[], slot: SceneSlot, actor: 'character'|'friend', fps:number) {
+export function contactSounds(track: ActionCue[], slot: SceneSlot, actor: 'character'|'friend', fps:number, scene?:Pick<Scene,'character'|'secondCharacter'>) {
   const sounds: Array<{at:number;name:SfxName}>=[];
   for (let i=0;i<track.length;i++) {
     const run=track[i], name=CONTACT_SFX[run.action];
@@ -111,7 +120,7 @@ export function contactSounds(track: ActionCue[], slot: SceneSlot, actor: 'chara
       if (at>=slot.duration || at>end) continue;
       // The latest authored line controls whether its ongoing action makes sound.
       const sources=slot.lines.filter(l=>l.from<=at && l.line.action===run.action &&
-        (l.line.speaker==='friend' ? actor==='friend' : actor==='character'));
+        (scene ? actorRole(scene,l.line.speaker)===actor || l.line.speaker==='narrator'&&actor==='character' : l.line.speaker==='friend' ? actor==='friend' : actor==='character'));
       const source=sources.at(-1);
       if (source && (source.line.sfx ?? [name]).includes(name)) sounds.push({at,name});
     }

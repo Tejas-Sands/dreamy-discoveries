@@ -9,12 +9,14 @@ import {Character, characterBox} from "./components/characters/Character";
 import cast from "../library/cast.json";
 
 const { fontFamily } = loadFont();
+export const backgroundStopSeconds=(seconds:unknown=2)=>typeof seconds==='number'&&Number.isFinite(seconds)?Math.max(1,Math.min(8,seconds)):2;
 
-/** Full-size review of one setting, or a two-second tour stop per recipe. */
-export const BackgroundPreview: React.FC<{kind?:string; baked?:BakedMap}> = ({kind,baked}) => {
+/** Full-size review of one setting, or a short tour stop per recipe. */
+export const BackgroundPreview: React.FC<{kind?:string; baked?:BakedMap; secondsPerSetting?:number}> = ({kind,baked,secondsPerSetting=2}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const index = Math.floor(frame/(2*fps)) % BACKGROUND_NAMES.length;
+  const seconds=backgroundStopSeconds(secondsPerSetting);
+  const index = Math.floor(frame/Math.round(seconds*fps)) % BACKGROUND_NAMES.length;
   const name = kind || BACKGROUND_NAMES[index];
   return <AbsoluteFill>
     <Background kind={name} palette={getPalette(name)} baked={baked}/>

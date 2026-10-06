@@ -56,8 +56,10 @@ export const Camera: React.FC<{
   /** extra zoom (1 = none) around `origin` (px) */
   zoom?: number;
   origin?: { x: number; y: number };
+  /** Bounded editorial translation, applied with the extra zoom. */
+  pan?: { x: number; y: number };
   children: React.ReactNode;
-}> = ({ kind, duration, frameOffset = 0, shake = 0, punch = 0, zoom = 1, origin = { x: 960, y: 620 }, children }) => {
+}> = ({ kind, duration, frameOffset = 0, shake = 0, punch = 0, zoom = 1, origin = { x: 960, y: 620 }, pan = {x:0,y:0}, children }) => {
   const frame = Math.max(0,useCurrentFrame()+frameOffset);
   const k = Math.min(1, frame / Math.max(1, duration));
   let scale = 1;
@@ -84,7 +86,7 @@ export const Camera: React.FC<{
   const oy = Math.max(0, Math.min(1080, origin.y));
   return (
     <AbsoluteFill style={{ transform: `translate(${tx + sx}px, ${sy}px) scale(${scale})`, transformOrigin: "50% 62%" }}>
-      <AbsoluteFill style={{ transform: `scale(${zoom})`, transformOrigin: `${ox}px ${oy}px` }}>{children}</AbsoluteFill>
+      <AbsoluteFill style={{ transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`, transformOrigin: `${ox}px ${oy}px` }}>{children}</AbsoluteFill>
     </AbsoluteFill>
   );
 };

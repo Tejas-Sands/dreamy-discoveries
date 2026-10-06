@@ -183,8 +183,27 @@ export interface Scene {
 export type StageRole = 'character' | 'friend';
 export interface StagePoint {x: number; y: number}
 export interface StageMove {line: number; delaySec?: number; durationSec?: number; to: StagePoint}
-export interface StageProp extends StagePoint {id: string; kind: string; label?: string; owner: string | null; location?: string; hidden?: boolean}
-export interface StageEvent {kind: 'show' | 'pick-up' | 'give' | 'drop'; propId: string; line: number; actor?: StageRole; to?: StageRole; delaySec?: number; durationSec?: number}
+export interface StageProp extends StagePoint {
+  id: string; kind: string; label?: string; owner: string | null; location?: string; hidden?: boolean;
+  /** Persistent degrees of rotation; rolling derives this from world distance. */
+  rotation?: number;
+  /** Optional state keeps old books/constructions fully drawn when unspecified. */
+  openProgress?: number;
+  buildProgress?: number;
+  waterAmount?: number;
+  /** Frame-derived watering tool; omitted outside the active pour. */
+  watering?: StagePoint & {target: StagePoint; amount: number; tilt: number; flow: number};
+}
+export interface StageEvent {
+  kind: 'show' | 'pick-up' | 'give' | 'drop' | 'push' | 'roll' | 'catch' | 'open' | 'water' | 'build';
+  propId: string; line: number; actor?: StageRole; to?: StageRole; delaySec?: number; durationSec?: number;
+  /** Ground destination for push/roll; optional launch point for catch. */
+  endpoint?: StagePoint;
+  /** Signed world travel in pixels when push/roll has no endpoint. */
+  distance?: number;
+  /** Bounded incremental water/build state; defaults to .34. */
+  amount?: number;
+}
 export interface SceneStaging {
   actors: Partial<Record<StageRole, StagePoint & {moves?: StageMove[]}>>;
   props: StageProp[];
@@ -212,9 +231,10 @@ export interface MusicSpec {
 export interface KidsScript {
   version?: 2;
   /** Opt in to new direction rules without changing existing episodes. */
-  presentationVersion?: 1 | 2;
+  presentationVersion?: 1 | 2 | 3;
   opening?: "hook" | "title";
   type: "rhyme" | "story";
+  template?: string | null;
   slug: string;
   title: string;
   palette: PaletteKind;

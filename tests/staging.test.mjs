@@ -94,3 +94,13 @@ test('the receiver keeps its paw reaching through ownership transfer',()=>{
   const p=prepareStage(script.scenes[0],slot,30),end=p.events[0].until;
   assert.ok(sampleStage(p,end-1).reaches.friend.amount>.9);assert.equal(sampleStage(p,end).reaches.friend.amount,1);
 });
+
+test('cast IDs and species names can perform a friend-owned handover',()=>{
+  for (const speaker of ['friend','ben','bear']) {
+    const s=scene('I give Taffy the apple.',{lines:[{text:'I give Taffy the apple.',speaker}],staging:undefined});
+    const first=scene('I pick up the apple.',{character:'bear',secondCharacter:'bunny'});
+    const script={presentationVersion:2,scenes:[first,s]};stageStory(script);
+    assert.equal(s.staging.events[0]?.actor,'friend',speaker);
+    assert.equal(s.staging.events[0]?.to,'character',speaker);
+  }
+});

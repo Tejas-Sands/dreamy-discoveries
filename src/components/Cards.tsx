@@ -67,7 +67,7 @@ export const introMood = (script: KidsScript): "countdown" | "story" | "sleepy" 
  * scene. Stories get "Story time!" and lullabies "Sleepy time!" instead. Rendered at the
  * top level of the video, above the scenes, from `schedule.countdownFrom`.
  */
-export const Countdown: React.FC<{ script: KidsScript; palette: Palette }> = ({ script, palette }) => {
+export const Countdown: React.FC<{ script: KidsScript; palette: Palette; muted?: boolean }> = ({ script, palette, muted=false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const mood = introMood(script);
@@ -80,7 +80,7 @@ export const Countdown: React.FC<{ script: KidsScript; palette: Palette }> = ({ 
     const fade = Math.max(0, Math.min(1, (COUNTDOWN_SEC - 0.4 - life) / 0.25));
     return (
       <div style={{ position: "absolute", inset: 0, pointerEvents: "none" }}>
-        <Sfx name={mood === "story" ? "magic" : "sparkle"} at={0} volume={0.6} />
+        {!muted ? <Sfx name={mood === "story" ? "magic" : "sparkle"} at={0} volume={0.6} /> : null}
         <div style={{ position: "absolute", left: COUNTDOWN_X - 500, width: 1000, top: 380, display: "flex", justifyContent: "center", opacity: fade }}>
           <div style={{ background: palette.card, border: `12px solid ${palette.accent}`, borderRadius: 60, padding: "24px 64px", boxShadow: "0 18px 0 rgba(0,0,0,0.18)", transform: `scale(${s}) rotate(${-3 + Math.sin(life * 4) * 2}deg)` }}>
             <div style={{ fontSize: 110, fontWeight: 700, color: palette.text, whiteSpace: "nowrap", lineHeight: 1.1 }}>{label}</div>
@@ -97,11 +97,11 @@ export const Countdown: React.FC<{ script: KidsScript; palette: Palette }> = ({ 
   const colors = ["#ff5d9e", "#ffd23f", "#5db9ff"];
   return (
     <div style={{ position: "absolute", inset: 0, pointerEvents: "none" }}>
-      <Sfx name="pop" at={0} volume={0.7} />
-      <Sfx name="pop" at={step} volume={0.75} />
-      <Sfx name="pop" at={2 * step} volume={0.8} />
-      <Sfx name="whoosh" at={3 * step} volume={0.6} />
-      <Sfx name="tada" at={3 * step + 2} volume={0.55} />
+      {!muted ? <Sfx name="pop" at={0} volume={0.7} /> : null}
+      {!muted ? <Sfx name="pop" at={step} volume={0.75} /> : null}
+      {!muted ? <Sfx name="pop" at={2 * step} volume={0.8} /> : null}
+      {!muted ? <Sfx name="whoosh" at={3 * step} volume={0.6} /> : null}
+      {!muted ? <Sfx name="tada" at={3 * step + 2} volume={0.55} /> : null}
       {isGo ? (
         <>
           <Flash from={3 * step} strength={0.5} />
@@ -121,7 +121,7 @@ export const Countdown: React.FC<{ script: KidsScript; palette: Palette }> = ({ 
 };
 
 /** Title card: the hero hops in, big bouncy title, "Hi friends!", then the countdown beat. */
-export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; countdownFrom: number; baked?: BakedMap; ambientT?: number }> = ({ script, palette, slug, countdownFrom, baked, ambientT }) => {
+export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; countdownFrom: number; baked?: BakedMap; ambientT?: number; muted?: boolean }> = ({ script, palette, slug, countdownFrom, baked, ambientT, muted=false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const speakAt = toFrames(INTRO_SPEAK_AT_SEC);
@@ -145,10 +145,10 @@ export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: s
       <Background kind={bg} palette={palette} baked={baked} animationT={ambientT} />
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 18%, ${palette.accentSoft}24, transparent 65%)` }} />
       <Sparkles count={14} />
-      <Sfx name="intro" at={0} volume={0.45} />
-      <Sfx name="sparkle" at={6} volume={0.5} />
-      <SpokenLine line={script.intro} slug={slug} at={speakAt} />
-      <VoxAudio events={vox} />
+      {!muted ? <Sfx name="intro" at={0} volume={0.45} /> : null}
+      {!muted ? <Sfx name="sparkle" at={6} volume={0.5} /> : null}
+      {!muted ? <SpokenLine line={script.intro} slug={slug} at={speakAt} /> : null}
+      {!muted ? <VoxAudio events={vox} /> : null}
       <div style={{ position: "absolute", left: 0, right: 0, top: 80, display: "flex", justifyContent: "center" }}>
         <BigWords text={script.title} color={palette.accent} secondary={palette.accentSoft} fontSize={script.title.length > 22 ? 120 : 150} delay={6} />
       </div>
@@ -191,7 +191,7 @@ export const castOf = (script: KidsScript, max = 3): string[] => {
 };
 
 /** End card: "The End!", the stars collected, a dance party with everyone, the hero says bye. */
-export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; starsEarned: number; baked?: BakedMap; ambientT?: number }> = ({ script, palette, slug, starsEarned, baked, ambientT }) => {
+export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; starsEarned: number; baked?: BakedMap; ambientT?: number; muted?: boolean }> = ({ script, palette, slug, starsEarned, baked, ambientT, muted=false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const speakAt = Math.round(0.8 * fps);
@@ -225,10 +225,10 @@ export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: str
       {!sleepy ? <Confetti from={50} x={400} y={350} count={40} spread={900} /> : null}
       {!sleepy ? <Confetti from={70} x={1500} y={350} count={40} spread={900} /> : null}
       {allStars ? <Confetti from={100} x={960} y={250} count={80} spread={1300} /> : null}
-      <Sfx name="tada" at={0} volume={0.7} />
-      {allStars ? <Sfx name="applause" at={4} volume={0.5} /> : null}
-      <SpokenLine line={script.outro} slug={slug} at={speakAt} />
-      <VoxAudio events={vox} />
+      {!muted ? <Sfx name="tada" at={0} volume={0.7} /> : null}
+      {allStars && !muted ? <Sfx name="applause" at={4} volume={0.5} /> : null}
+      {!muted ? <SpokenLine line={script.outro} slug={slug} at={speakAt} /> : null}
+      {!muted ? <VoxAudio events={vox} /> : null}
       <div style={{ position: "absolute", left: 0, right: 0, top: 60, display: "flex", justifyContent: "center" }}>
         <BigWords text="The End!" color={palette.accent} secondary={palette.accentSoft} fontSize={170} />
       </div>

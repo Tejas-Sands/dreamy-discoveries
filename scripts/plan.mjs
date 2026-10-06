@@ -107,7 +107,7 @@ function main() {
   let script = directScript(readScript(slug));
   if (args.minutes) script.targetMinutes = Number(args.minutes);
   const settings = voiceSettings(script, args);
-  if ([1,2].includes(script.presentationVersion)) script.synthesis = settings;
+  if ((script.presentationVersion ?? 0) >= 1) script.synthesis = settings;
   if (!args.dry) writeScript(slug, script);
   if (!args.dry) setLatestSlug(slug);
 

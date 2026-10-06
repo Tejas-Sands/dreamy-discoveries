@@ -1,9 +1,11 @@
 import React from "react";
 import type { Emotion } from "../../lib/types";
+import type { ActorPerformance } from "../../lib/acting";
+import type { MouthShape } from "../../lib/speech";
 
 export const OUTLINE = "#2f2438";
 
-interface FaceParams {
+export interface FaceParams {
   eyeScale: number;
   pupil: number;
   /** fraction of the eye covered by a droopy upper lid */
@@ -23,6 +25,10 @@ interface FaceParams {
   tear?: boolean;
   sweat?: boolean;
   wavy?: boolean;
+  tearOpacity?: number;
+  sweatOpacity?: number;
+  sparkleOpacity?: number;
+  browOpacity?: number;
 }
 
 export const FACES: Record<Emotion, FaceParams> = {
@@ -36,6 +42,30 @@ export const FACES: Record<Emotion, FaceParams> = {
   worried: { eyeScale: 1.1, pupil: 0.85, lid: 0, browShow: true, browDy: -6, browAngle: 20, mouthW: 24, curve: -5, open: 0.08, blush: 0.5, sweat: true, wavy: true },
   neutral: { eyeScale: 1, pupil: 1, lid: 0, browShow: false, browDy: 0, browAngle: 0, mouthW: 28, curve: 8, open: 0.02, blush: 0.7 },
 };
+
+/** All numeric channels ease together, including lids, brows and gaze. */
+export function facialParameters(emotion: Emotion, performance?: ActorPerformance): FaceParams {
+  const to=FACES[performance?.emotion ?? emotion] ?? FACES.happy;
+  if(!performance)return to;
+  const from=FACES[performance.fromEmotion] ?? FACES.happy;
+  const k=Math.max(0,Math.min(1,performance.blend));
+  const lerp=(a:number,b:number)=>a+(b-a)*k;
+  const f:FaceParams={...to};
+  const numeric=['eyeScale','pupil','lid','browDy','browAngle','mouthW','curve','open','blush'] as const;
+  for(const key of numeric)f[key]=lerp(from[key],to[key]);
+  f.lookX=lerp(from.lookX??0,to.lookX??0);
+  f.lookY=lerp(from.lookY??0,to.lookY??0);
+  f.tearOpacity=lerp(from.tear?1:0,to.tear?1:0);
+  f.sweatOpacity=lerp(from.sweat?1:0,to.sweat?1:0);
+  f.sparkleOpacity=lerp(from.sparkle?1:0,to.sparkle?1:0);
+  f.browOpacity=lerp(from.browShow?1:0,to.browShow?1:0);
+  f.tear=f.tearOpacity>0;
+  f.sweat=f.sweatOpacity>0;
+  f.sparkle=f.sparkleOpacity>0;
+  f.browDy-=performance.emphasis*5;
+  f.eyeScale+=performance.emphasis*.035;
+  return f;
+}
 
 export interface FaceProps {
   emotion: Emotion;
@@ -57,6 +87,8 @@ export interface FaceProps {
   /** frogs: eyes sit on top of the head with sockets */
   sockets?: boolean;
   uid: string;
+  performance?: ActorPerformance;
+  mouthShape?: MouthShape;
 }
 
 const Heart: React.FC<{ x: number; y: number; r: number }> = ({ x, y, r }) => (
@@ -81,16 +113,18 @@ export const Face: React.FC<FaceProps> = ({
   beak = false,
   sockets = false,
   uid,
+  performance,
+  mouthShape,
 }) => {
-  const f = FACES[emotion] ?? FACES.happy;
+  const f = facialParameters(emotion,performance);
   const rx = 15 * f.eyeScale * eyeSize;
   const ry = 19 * f.eyeScale * eyeSize;
   const pr = 12 * f.pupil * eyeSize;
   const lx = (f.lookX ?? 0) + look.dx;
   const ly = (f.lookY ?? 0) + look.dy;
   const cx = 100 + mouthDx;
-  const open = Math.min(1, f.open + mouth * (1 - f.open * 0.5));
-  const w = f.mouthW + open * 10;
+  const open = mouthShape === "rest" || mouthShape === "closed" ? 0 : mouthShape ? Math.min(1,mouth) : Math.min(1, f.open + mouth * (1 - f.open * 0.5));
+  const w = (f.mouthW + open * 10) * (mouthShape === "round" ? .58 : mouthShape === "wide" ? 1.23 : 1);
   const curve = f.curve;
 
   const eye = (ex: number, side: -1 | 1) => {
@@ -142,11 +176,11 @@ export const Face: React.FC<FaceProps> = ({
   };
 
   const brow = (ex: number, side: -1 | 1) => {
-    if (!f.browShow) return null;
+    if (!f.browShow && !performance) return null;
     const by = eyeY - ry - 8 + f.browDy;
     // sad/worried: inner ends up; thinking: only the right brow is raised
-    const angle = f.browAngle < 0 ? (side === 1 ? -f.browAngle : 4) : f.browAngle * side;
-    const extraDy = f.browAngle < 0 && side === 1 ? -5 : 0;
+    const angle = performance ? f.browAngle * side : f.browAngle < 0 ? (side === 1 ? -f.browAngle : 4) : f.browAngle * side;
+    const extraDy = performance ? 0 : f.browAngle < 0 && side === 1 ? -5 : 0;
     return (
       <path
         d={`M ${ex - 11} ${by + 2} Q ${ex} ${by - 4} ${ex + 11} ${by + 2}`}
@@ -154,6 +188,7 @@ export const Face: React.FC<FaceProps> = ({
         strokeWidth={4.5}
         strokeLinecap="round"
         fill="none"
+        opacity={f.browOpacity}
         transform={`translate(0 ${extraDy}) rotate(${angle} ${ex} ${by})`}
       />
     );
@@ -221,12 +256,12 @@ export const Face: React.FC<FaceProps> = ({
       {mouthEl}
       {f.sparkle && eyeMode === "open" && blink < 0.5 ? (
         <>
-          <circle cx={exL - 4} cy={eyeY - 6} r={2.2} fill="#fff" />
-          <circle cx={exR - 4} cy={eyeY - 6} r={2.2} fill="#fff" />
+          <circle cx={exL - 4} cy={eyeY - 6} r={2.2} fill="#fff" opacity={f.sparkleOpacity} />
+          <circle cx={exR - 4} cy={eyeY - 6} r={2.2} fill="#fff" opacity={f.sparkleOpacity} />
         </>
       ) : null}
-      {f.tear ? <ellipse cx={exR + 10} cy={eyeY + ry + 8} rx={4} ry={6} fill="#7fd0ff" stroke={OUTLINE} strokeWidth={2} /> : null}
-      {f.sweat ? <ellipse cx={exR + rx + 12} cy={eyeY - 12} rx={4.5} ry={7} fill="#7fd0ff" stroke={OUTLINE} strokeWidth={2} /> : null}
+      {f.tear ? <ellipse cx={exR + 10} cy={eyeY + ry + 8} rx={4} ry={6} opacity={f.tearOpacity} fill="#7fd0ff" stroke={OUTLINE} strokeWidth={2} /> : null}
+      {f.sweat ? <ellipse cx={exR + rx + 12} cy={eyeY - 12} rx={4.5} ry={7} opacity={f.sweatOpacity} fill="#7fd0ff" stroke={OUTLINE} strokeWidth={2} /> : null}
     </g>
   );
 };

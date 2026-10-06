@@ -33,3 +33,21 @@ export function mouthAt(line: Line | null | undefined, t: number): number {
   }
   return 0;
 }
+
+/** Approximate spelling shapes. This uses cached timing/envelopes, not phonemes. */
+export type MouthShape = 'rest' | 'closed' | 'open' | 'wide' | 'round';
+
+export function mouthShapeAt(line: Line | null | undefined, t: number): MouthShape {
+  if (!line || t < 0 || (line.durationSec !== undefined && t >= line.durationSec)) return 'rest';
+  if (mouthAt(line,t) < .07) return 'rest';
+  const word=line.words?.find(w=>t>=w.start&&t<w.end);
+  // Word gaps stay closed even when a measured envelope contains room noise.
+  if(line.words?.length&&!word)return 'rest';
+  if(!word)return 'open';
+  const text=word.text.toLowerCase().replace(/[^a-z]/g,'');
+  const k=(t-word.start)/Math.max(.08,word.end-word.start);
+  if ((/^[bmp]/.test(text)&&k<.18)||(/[bmp]$/.test(text)&&k>.8)) return 'closed';
+  if(/oo|ou|ow|oa|[ou]/.test(text))return 'round';
+  if(/ee|ea|ie|[ei]/.test(text))return 'wide';
+  return 'open';
+}

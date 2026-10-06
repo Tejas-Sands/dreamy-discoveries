@@ -161,3 +161,16 @@ test('quiet direction prevents upbeat hold defaults from replacing deliberate sl
     assert.equal(sampleAction(actionTrack(quiet,sleepy,'character',30),75,30).action,'sleep');
   }
 });
+
+test('named cast dialogue drives the same gestures and contact sounds as role dialogue',()=>{
+  for (const [actor, speaker] of [['character','taffy'],['friend','ben']]) {
+    const s={character:'bunny',secondCharacter:'bear',energy:'calm',lines:[]};
+    const roleSlot={...slot,lines:[line(0,'clap',actor)]};
+    const namedSlot={...slot,lines:[line(0,'clap',speaker)]};
+    const expected=actionTrack(s,roleSlot,actor,30);
+    const actual=actionTrack(s,namedSlot,actor,30);
+    assert.deepEqual(actual,expected);
+    assert.deepEqual(contactSounds(actual,namedSlot,actor,30,s),contactSounds(expected,roleSlot,actor,30,s));
+    assert.equal(actorEmotion(s,{lines:[{from:0,line:{speaker,emotion:'surprised'}}]},actor,0,30),'surprised');
+  }
+});

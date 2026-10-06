@@ -641,7 +641,7 @@ export function directScript(input, opts = {}) {
         : ["slide", "wipe", "fade"][transitionAlt++ % 3];
     }
     if (!scene.camera) {
-      scene.camera = scene.energy === "upbeat" ? ["still", "pan", "still", "zoom-out"][upbeatCameraAlt++ % 4] : ["zoom-in", "pan", "zoom-out"][cameraAlt++ % 3];
+      scene.camera = (script.presentationVersion ?? 0) >= 3 ? "still" : scene.energy === "upbeat" ? ["still", "pan", "still", "zoom-out"][upbeatCameraAlt++ % 4] : ["zoom-in", "pan", "zoom-out"][cameraAlt++ % 3];
       if (quiet) scene.camera = "still";
     }
 
@@ -704,6 +704,13 @@ export function directScript(input, opts = {}) {
   }
   script.directed = true;
   stageStory(script);
+  if ((script.presentationVersion ?? 0) >= 3) {
+    // The object's setup/contact/reaction supplies the comedy during a physical sequence.
+    // Explicit gags retain their authored timing; unrelated automatic flybys yield the stage.
+    for (const scene of script.scenes) {
+      if (scene.staging?.events.some(event => event.kind !== 'show') && scene.gag?.auto) scene.gag = null;
+    }
+  }
   return script;
 }
 

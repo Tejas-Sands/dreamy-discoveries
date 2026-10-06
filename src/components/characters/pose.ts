@@ -1,3 +1,4 @@
+import type { ActorPerformance } from "../../lib/acting";
 import type { Action } from "../../lib/types";
 import { hop, easeOutBack, easeInOutSine } from "../../lib/anim";
 import { jumpPhase, JUMP_LAND, clapAmount, stompPhase, impactAt } from "../../lib/actionMotion";
@@ -40,6 +41,8 @@ export interface Pose {
   vy: number;
   /** horizontal velocity in rig px/s — the body leans into lateral motion */
   vx: number;
+  /** Reactive follow-through, present only for the expressive storybook path. */
+  secondary?: {ears:number; tail:number; cloth:number};
 }
 
 const base = (): Pose => ({
@@ -82,6 +85,13 @@ export interface PoseInput {
   legless?: boolean;
   /** upbeat scene: even idle characters bob on the beat so the whole screen pulses with the music */
   groove?: boolean;
+  /** The main cast's broad cheeks need a wave beside the face. */
+  storybook?: boolean;
+  kind?: string;
+  performance?: ActorPerformance;
+  turn?: number;
+  /** Local view-turn speed per second, sampled from adjacent requested frames. */
+  turnVelocity?: number;
 }
 
 export function computePose(input: PoseInput): Pose {
@@ -93,13 +103,21 @@ export function computePose(input: PoseInput): Pose {
   p.vx = (p.x - prev.x) / dt;
   // lean into lateral motion (dance steps, slides) — sells the momentum
   p.lean += Math.max(-7, Math.min(7, p.vx * 0.02));
+  if(input.performance) {
+    const headVelocity=(p.head.tilt-prev.head.tilt)/dt;
+    const clamp=(n:number,limit:number)=>Math.max(-limit,Math.min(limit,n));
+    // View turns can begin anywhere in a gesture, including long idle holds.
+    const turnVelocity=clamp(input.turnVelocity??0,4);
+    p.secondary={ears:clamp(-p.vy*.018-headVelocity*.06-turnVelocity*2.4,13),tail:clamp(-p.vx*.08+p.vy*.04-turnVelocity*3.1,18),cloth:clamp(-p.vx*.05-p.vy*.025-headVelocity*.035-turnVelocity*1.8,12)};
+    p.tail=p.secondary.tail;
+  }
   return p;
 }
 
 /** actions that keep a gentle bob on the beat in upbeat scenes (the others have their own strong motion) */
 const GROOVERS = new Set<Action>(["idle", "look", "nod", "point", "walk", "eat"]);
 
-function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, groove = false }: PoseInput): Pose {
+function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, groove = false, storybook = false, kind, performance }: PoseInput): Pose {
   const p = base();
   const s = seed * 1.7;
   const beat = ((musicT ?? t) * bpm) / 60; // beats elapsed
@@ -140,7 +158,7 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
       p.armR = 10 + 2 * Math.sin(t * 1.2);
       break;
     case "wave":
-      p.armR = 150 + 15 * Math.sin(t * TAU * 1.5);
+      p.armR = (storybook ? 125 : 150) + (storybook ? 8 : 15) * Math.sin(t * TAU * 1.5);
       p.armBendR = 0.5;
       p.head.tilt = 5 + 1.5 * Math.sin(t * 2);
       p.y += -2 * hop(t * 1.2);
@@ -427,6 +445,40 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
     p.legSwL += 5 * sw;
     p.legSwR += -5 * sw;
   }
+  if(performance&&storybook) {
+    // Species mannerisms affect upper-body acting without retiming contacts or feet.
+    const aliases:Record<string,string>={taffy:'bunny',ben:'bear',daisy:'duck',fiona:'fox',tilly:'turtle',ozzy:'owl'};
+    const species=kind?aliases[kind]??kind:'bunny';
+    const profiles:Record<string,{tilt:number;dip:number;accent:number;arm:number;tempo:number;travel:number;softness:number}>={
+      bunny:{tilt:-3,dip:-1,accent:1.15,arm:5,tempo:1.8,travel:1.08,softness:.95},
+      bear:{tilt:2,dip:2,accent:.62,arm:-3,tempo:.7,travel:.78,softness:1.18},
+      duck:{tilt:4,dip:-2,accent:1.05,arm:9,tempo:1.4,travel:1.02,softness:1.08},
+      fox:{tilt:-5,dip:0,accent:.95,arm:3,tempo:1.6,travel:.94,softness:.86},
+      turtle:{tilt:1,dip:3,accent:.42,arm:-5,tempo:.5,travel:.56,softness:1.12},
+      owl:{tilt:6,dip:-1,accent:.7,arm:1,tempo:.85,travel:.72,softness:.78},
+    };
+    const profile=profiles[species];
+    if(profile) {
+      if(['jump','cheer','dance','walk'].includes(action)) {
+        p.y*=profile.travel;
+        p.sx=1+(p.sx-1)*profile.softness;
+        p.sy=1+(p.sy-1)*profile.softness;
+      }
+      const e=performance.emphasis*profile.accent;
+      const listen=performance.listening?1:.4;
+      const settle=1-Math.exp(-Math.max(0,t)*profile.tempo*4);
+      const restrained=action==='sleep'||action==='cry'?0:1;
+      p.head.tilt+=restrained*(profile.tilt*listen*settle-e*3.5);
+      p.head.dy+=restrained*(profile.dip*settle-e*4);
+      p.head.dx+=restrained*profile.tilt*.25*e;
+      // Asymmetry stays off symmetric contacts (clapping/hugging/jumping).
+      if(['idle','look','wave','point','think','nod','eat'].includes(action)) {
+        p.armL+=profile.arm*settle*(performance.listening ? .5 : 1);
+        if(action==='idle'||action==='look')p.armR-=profile.arm*.45*settle;
+        p.armBendL=Math.max(.08,Math.min(.85,p.armBendL+profile.arm*.006*settle));
+      }
+    }
+  }
   return p;
 }
 
@@ -439,9 +491,13 @@ export function blendPoses(from: Pose, to: Pose, progress: number): Pose {
     head: { tilt: mix(from.head.tilt, to.head.tilt), dx: mix(from.head.dx, to.head.dx), dy: mix(from.head.dy, to.head.dy) },
     eyes: { dx: mix(from.eyes.dx, to.eyes.dx), dy: mix(from.eyes.dy, to.eyes.dy), mode: k < 0.5 ? from.eyes.mode : to.eyes.mode },
   };
-  type NumericKey = { [K in keyof Pose]: Pose[K] extends number ? K : never }[keyof Pose];
+  type NumericKey = { [K in keyof Pose]-?: Pose[K] extends number ? K : never }[keyof Pose];
   for (const key of Object.keys(from) as Array<keyof Pose>) {
-    if (key !== "head" && key !== "eyes") result[key as NumericKey] = mix(from[key], to[key]);
+    if (key !== "head" && key !== "eyes" && key !== "secondary") result[key as NumericKey] = mix(from[key], to[key]);
+  }
+  if(from.secondary||to.secondary) {
+    const a=from.secondary??{ears:0,tail:0,cloth:0},b=to.secondary??{ears:0,tail:0,cloth:0};
+    result.secondary={ears:mix(a.ears,b.ears),tail:mix(a.tail,b.tail),cloth:mix(a.cloth,b.cloth)};
   }
   return result;
 }

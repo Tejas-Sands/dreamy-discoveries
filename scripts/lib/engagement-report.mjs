@@ -100,7 +100,7 @@ export function parseStudioExport(source, {format} = {}) {
 const frames = sec => Math.round(sec * FPS);
 function episodeTimeline(script) {
   if (!script) return null;
-  let cursor = [1, 2].includes(script.presentationVersion) && script.opening === 'hook' ? 0 :
+  let cursor = (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook' ? 0 :
     frames(Math.max(T.INTRO_MIN, T.INTRO_SPEAK_AT + (script.intro?.durationSec ?? 0) + .4 + T.COUNTDOWN));
   const scenes = [];
   let estimated = false;

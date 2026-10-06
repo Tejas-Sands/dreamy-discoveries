@@ -44,10 +44,10 @@ export function voiceSettings(script, args = {}) {
   const speed = engine === 'kokoro' ? Number(args.speed ?? pinned?.speed ?? process.env.TTS_SPEED ?? .95) : engine === 'edge' ? .92 : 1;
   if (!Number.isFinite(speed) || speed < .5 || speed > 2) throw new Error('TTS speed must be a number between 0.5 and 2');
   const model = pinned?.model || (engine === 'kokoro' ? 'Kokoro-82M-v1.0-ONNX:q8:peak-v1' : engine === 'edge' ? 'edge:rate-8:protocol-v1' : process.env.GEMINI_TTS_MODEL || 'gemini-2.5-flash-preview-tts');
-  const cacheVersion = pinned?.cacheVersion ?? ([1, 2].includes(script?.presentationVersion) || engine === 'kokoro' && speed !== .95 ? 3 : 2);
+  const cacheVersion = pinned?.cacheVersion ?? ((script?.presentationVersion ?? 0) >= 1 || engine === 'kokoro' && speed !== .95 ? 3 : 2);
   let castVoices;
   // A previously pinned generic recording stays generic even if its script is version 2.
-  if (script?.presentationVersion === 2 && engine === "kokoro" && (!pinned || pinned.castVoices)) {
+  if ((script?.presentationVersion ?? 0) >= 2 && engine === "kokoro" && (!pinned || pinned.castVoices)) {
     castVoices = { ...KOKORO_CAST_VOICES };
     for (const overrides of [pinned?.castVoices || script?.castVoices, args.castVoices]) {
       if (!overrides || typeof overrides !== "object") continue;

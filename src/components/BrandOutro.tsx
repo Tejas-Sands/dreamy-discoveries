@@ -27,7 +27,7 @@ export const DreamLights: React.FC<{ count?: number }> = ({ count = 34 }) => {
 };
 
 /** Identical content and local frame clock in every episode. */
-export const BrandOutro: React.FC = () => {
+export const BrandOutro: React.FC<{muted?: boolean}> = ({muted=false}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const enter = spring({ frame, fps, config: { damping: 22, stiffness: 70 } });
@@ -40,6 +40,6 @@ export const BrandOutro: React.FC = () => {
         <ChannelLogo width={1080} />
       </div>
     </AbsoluteFill>
-    <Audio src={staticFile("sfx/dreamy-outro.wav")} volume={0.62} />
+    {!muted ? <Audio src={staticFile("sfx/dreamy-outro.wav")} volume={0.62} /> : null}
   </AbsoluteFill>;
 };

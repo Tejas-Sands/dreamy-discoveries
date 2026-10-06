@@ -5,11 +5,15 @@ import { Thumbnail, calculateThumbnailMetadata } from "./Thumbnail";
 import { CharacterSheet, CastPreview, LibraryPreview } from "./CharacterSheet";
 import { Bumper, calculateBumperMetadata } from "./Bumper";
 import { Bake } from "./Bake";
-import { BackgroundSheet, BackgroundPreview } from "./BackgroundSheet";
+import { BackgroundSheet, BackgroundPreview, backgroundStopSeconds } from "./BackgroundSheet";
+import {BACKGROUND_NAMES} from './generated/registry';
 import { BRAND_OUTRO_SEC, FPS } from "./lib/timing";
 import { BrandOutro } from "./components/BrandOutro";
 import {fetchBaked} from "./lib/baked";
 import { BrandArt, BrandPreview } from "./BrandPreview";
+import {HandPreview,HAND_PREVIEW_SECONDS} from './HandPreview';
+import {AnimationComparison,calculateAnimationComparisonMetadata} from './AnimationComparison';
+import {ExpressiveCast} from './ExpressiveCast';
 
 const DEFAULT_SLUG = "sample-twinkle";
 
@@ -28,6 +32,10 @@ export const RemotionRoot: React.FC = () => (
       defaultProps={{ slug: DEFAULT_SLUG, script: null }}
       calculateMetadata={calculateKidsVideoMetadata}
     />
+    <Composition id="Animation-Comparison" component={AnimationComparison} width={1920} height={1080} fps={FPS}
+      durationInFrames={60 * FPS} defaultProps={{slug:'dev-animation-v3',script:null}}
+      calculateMetadata={calculateAnimationComparisonMetadata} />
+    <Composition id="Expressive-Cast" component={ExpressiveCast} width={1920} height={1080} fps={FPS} durationInFrames={1}/>
     <Composition
       id="Thumbnail"
       component={Thumbnail}
@@ -51,9 +59,12 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Bake" component={Bake} width={1920} height={1080} fps={FPS} durationInFrames={1} defaultProps={{ background: "meadow" }} />
     {/* dev aids: every species / emotion / action / background on one screen */}
     <Composition id="Cast-Preview" component={CastPreview} width={1920} height={1080} fps={FPS} durationInFrames={12 * FPS} />
+    <Composition id="Hand-Preview" component={HandPreview} width={1920} height={1080} fps={FPS} durationInFrames={HAND_PREVIEW_SECONDS * FPS} defaultProps={{}} />
     <Composition id="Library-Preview" component={LibraryPreview} width={1920} height={1080} fps={FPS} durationInFrames={48 * FPS} />
     <Composition id="Cast-All-Motion" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={12 * FPS} defaultProps={{ mode: "species" as const, kind: "bunny", animate: true }} />
-    <Composition id="Background-Preview" component={BackgroundPreview} width={1920} height={1080} fps={FPS} durationInFrames={50 * FPS} defaultProps={{kind:""}} calculateMetadata={async ({props}) => ({props:{...props,baked:await fetchBaked()}})} />
+    <Composition id="Background-Preview" component={BackgroundPreview} width={1920} height={1080} fps={FPS} durationInFrames={50 * FPS} defaultProps={{kind:"",secondsPerSetting:2,baked:undefined as Awaited<ReturnType<typeof fetchBaked>>|undefined}} calculateMetadata={async ({props}) => ({
+      props:{...props,baked:props.baked??await fetchBaked()},durationInFrames:Math.round(backgroundStopSeconds(props.secondsPerSetting)*FPS)*BACKGROUND_NAMES.length,
+    })} />
     <Composition id="Sheet-Backgrounds" component={BackgroundSheet} width={1920} height={1080} fps={FPS} durationInFrames={60} defaultProps={{ baked: {} }} />
     <Composition id="Sheet-Species" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={120} defaultProps={{ mode: "species" as const, kind: "bunny" as const }} />
     <Composition id="Sheet-Emotions" component={CharacterSheet} width={1920} height={1080} fps={FPS} durationInFrames={120} defaultProps={{ mode: "emotions" as const, kind: "bunny" as const }} />

@@ -1,26 +1,33 @@
 import React from "react";
 import type { Emotion } from "../../lib/types";
 import type { Pose } from "./pose";
-import { FACES } from "./Face";
+import { facialParameters } from "./Face";
+import type { ActorPerformance } from "../../lib/acting";
+import type { MouthShape } from "../../lib/speech";
 
 /** The existing emotion vocabulary, drawn with the approved Daisy eye style. */
 export const StorybookFace: React.FC<{
   kind: string; emotion: Emotion; mouth: number; blink: number;
   eyes: Pose["eyes"]; uid: string; outline: string;
-}> = ({ kind, emotion, mouth, blink, eyes, uid, outline }) => {
-  const f = FACES[emotion] ?? FACES.happy;
+  performance?: ActorPerformance; mouthShape?: MouthShape; turn?: number;
+}> = ({ kind, emotion, mouth, blink, eyes, uid, outline, performance, mouthShape, turn = 0 }) => {
+  const f = facialParameters(emotion,performance);
+  const yaw=Math.max(-1,Math.min(1,turn)),angle=Math.abs(yaw);
+  const farOpacity=1-Math.max(0,Math.min(1,(angle-.42)/.48));
+  const featureTransform=`translate(${yaw*126} 0) translate(250 0) scale(${1-angle*.3} 1) translate(-250 0)`;
+  const mouthWidth=mouthShape==='round'?.57:mouthShape==='wide'?1.23:1;
   const owl = kind === "owl", turtle = kind === "turtle";
   const eyeY = owl ? 233 : 240;
   const rx = (owl ? 34 : turtle ? 26 : 29) * f.eyeScale;
   const ry = (owl ? 40 : turtle ? 30 : 36) * f.eyeScale;
   const gap = owl ? 60 : 55;
-  const open = Math.min(1, Math.max(0, mouth) + f.open * .35);
+  const open = mouthShape === "rest" || mouthShape === "closed" ? 0 : mouthShape ? Math.min(1,Math.max(0,mouth)) : Math.min(1, Math.max(0, mouth) + f.open * .35);
   const eyeX = ((f.lookX ?? 0) + eyes.dx) * 1.1;
   const lookY = ((f.lookY ?? 0) + eyes.dy) * 1.1;
   const closed = eyes.mode !== "open" || blink > .85;
   const happyClosed = eyes.mode === "happy" && blink < .85;
   const mouthY = kind === "duck" ? 299 : owl ? 294 : 306;
-  const width = f.mouthW * 1.35;
+  const width = f.mouthW * 1.35 * mouthWidth;
   const bottom = mouthY + 8 + open * 39;
   const mouthPath = `M${250-width/2} ${mouthY}Q250 ${mouthY-open*10} ${250+width/2} ${mouthY}Q250 ${bottom} ${250-width/2} ${mouthY}Z`;
   return <g aria-label={`${emotion} face`} strokeLinecap="round" strokeLinejoin="round">
@@ -29,7 +36,10 @@ export const StorybookFace: React.FC<{
       <radialGradient id={`${uid}-blush`}><stop stopColor="#ec9ca4" stopOpacity=".72"/><stop offset="1" stopColor="#efb39c" stopOpacity="0"/></radialGradient>
       <clipPath id={`${uid}-mouth`}><path d={mouthPath}/></clipPath>
     </defs>
-    {[250-gap,250+gap].map((x,i) => <g key={x}>
+    {[250-gap,250+gap].map((originalX,i) => {
+      const far=yaw>0?i===1:yaw<0?i===0:false;
+      const x=250+(originalX-250)*(1-angle*.45)+yaw*64;
+      return <g key={i} data-face-eye={far?'far':'near'} opacity={far?farOpacity:1} transform={`translate(${x} 0) scale(${far?1-angle*.45:1-angle*.08} 1) translate(${-x} 0)`}>
       <ellipse cx={x+(i ? 40 : -40)} cy="283" rx="33" ry="24" fill={`url(#${uid}-blush)`} opacity={f.blush} stroke="none"/>
       <path d={`M${x-20} ${eyeY-46}Q${x} ${eyeY-57} ${x+18} ${eyeY-46}`} fill="none" stroke={outline} strokeWidth={turtle ? 4.5 : 3.7} opacity=".8"
         transform={`translate(0 ${f.browDy}) rotate(${f.browAngle * (i ? 1 : -1)} ${x} ${eyeY-46})`}/>
@@ -41,18 +51,19 @@ export const StorybookFace: React.FC<{
             <ellipse cx={eyeX+(i ? -3 : 3)} cy={lookY+1} rx={rx*.79*f.pupil} ry={ry*.84*f.pupil} fill={`url(#${uid}-eyes)`} stroke="none"/>
             <ellipse cx={eyeX+(i ? -10 : -4)} cy={lookY-12} rx="8" ry="11" fill="#fff" stroke="none"/>
             <circle cx={eyeX+(i ? 5 : 11)} cy={lookY+12} r="4" fill="#fce9e6" stroke="none"/>
-            {f.sparkle ? <path d="M9 -25L12 -17L20 -14L12 -11L9 -3L6 -11L-2 -14L6 -17Z" fill="#fff4cf" stroke="none"/> : null}
+            {f.sparkle ? <path d="M9 -25L12 -17L20 -14L12 -11L9 -3L6 -11L-2 -14L6 -17Z" fill="#fff4cf" stroke="none" opacity={f.sparkleOpacity}/> : null}
           </>}
           {f.lid > 0 ? <path d={`M${-rx-2} ${-ry-2}H${rx+2}V${-ry+2*ry*f.lid}Q0 ${-ry+2*ry*f.lid+5} ${-rx-2} ${-ry+2*ry*f.lid}Z`} fill={`url(#${uid}-body)`} stroke={outline} strokeWidth="2"/> : null}
         </g>
       </g>}
-    </g>)}
-    {kind === "duck" ? <g>
+    </g>;})}
+    <g data-face-muzzle={kind} transform={featureTransform}>
+    {kind === "duck" ? <g transform={`translate(250 0) scale(${mouthWidth} 1) translate(-250 0)`}>
       <path d={`M219 293Q250 280 283 293L283 ${307+open*20}Q250 ${326+open*22} 218 ${307+open*20}Z`} fill="#835665" stroke={outline} strokeWidth="3"/>
       <path d="M219 288Q250 266 283 288Q301 299 282 308Q252 319 220 308Q201 301 219 288Z" fill={`url(#${uid}-bill)`} stroke={outline} strokeWidth="3"/>
       <path d={`M218 ${307+open*20}Q250 ${320+open*25} 284 ${307+open*20}`} fill="none" stroke="#d99566" strokeWidth="5"/>
       <ellipse cx="238" cy="288" rx="4" ry="2" fill="#b28b6b" stroke="none"/><ellipse cx="263" cy="288" rx="4" ry="2" fill="#b28b6b" stroke="none"/>
-    </g> : owl ? <g>
+    </g> : owl ? <g transform={`translate(250 0) scale(${mouthWidth} 1) translate(-250 0)`}>
       <path d={`M227 290Q250 278 273 290L250 ${320+open*24}Z`} fill="#8d5c67" stroke={outline} strokeWidth="3"/>
       <path d="M226 282Q250 267 274 282Q267 304 250 310Q232 301 226 282Z" fill={`url(#${uid}-bill)`} stroke={outline} strokeWidth="3"/>
       <path d={`M239 ${313+open*21}Q250 ${325+open*19} 261 ${313+open*21}`} fill="none" stroke="#e1ac71" strokeWidth="4"/>
@@ -70,7 +81,8 @@ export const StorybookFace: React.FC<{
         <path d="M250 297v6" stroke="#826274" strokeWidth="2.5"/>
       </> : <g fill="#87a185" stroke="none"><ellipse cx="239" cy="283" rx="3" ry="2"/><ellipse cx="261" cy="283" rx="3" ry="2"/></g>}
     </>}
-    {f.tear ? <path d="M339 274Q326 294 338 296Q349 295 339 274Z" fill="#a7d8e7" stroke="#82afc7" strokeWidth="1.5"/> : null}
-    {f.sweat ? <path d="M352 197Q337 220 351 223Q365 220 352 197Z" fill="#b2dce8" stroke="#82afc7" strokeWidth="1.5"/> : null}
+    </g>
+    {f.tear ? <path d="M339 274Q326 294 338 296Q349 295 339 274Z" fill="#a7d8e7" opacity={f.tearOpacity} stroke="#82afc7" strokeWidth="1.5"/> : null}
+    {f.sweat ? <path d="M352 197Q337 220 351 223Q365 220 352 197Z" fill="#b2dce8" opacity={f.sweatOpacity} stroke="#82afc7" strokeWidth="1.5"/> : null}
   </g>;
 };

@@ -45,7 +45,7 @@ Backgrounds: ${BACKGROUNDS.join(', ')}. Emotions: ${EMOTIONS.join(', ')}. Action
 Do not invent characters, backgrounds, recipes, music, callouts or visual effects. The deterministic Director supplies these.
 Write about ${Math.round(minutes * (type === 'story' ? 13 : 16))} spoken lines for ${minutes} minutes, across 25-35 scenes with 1-3 lines each (hard bounds: 3-40 scenes, 1-6 lines per scene).
 Every line uses 4-10 simple words. Narration uses vivid verbs and natural contractions. Keep introductions brief; start the first scene directly with the story problem.
-${type === 'story' ? 'Set intro to null. The first line reveals the concrete problem or surprising discovery; the hero is already visible, with a brief title overlay.' : ''}
+${type === 'story' ? 'Set intro to null. Open with a visible object problem or surprising discovery already happening. For a rolling ball/apple, use a first-line reaction such as "Oops! My ball is rolling away!" or "Oh! My apple rolled away!" and set the scene prop to the matching ball/apple. A closed picture book is another concrete discovery. The hero is already visible, with a brief title overlay.' : ''}
 ${type === 'story' ? `Tell one focused story and one moral, using the supplied deterministic episode brief. Its selected cast and setting are binding. Let the setting cause a practical obstacle.
 Follow: immediate hook -> hero's concrete goal -> first mistaken attempt -> different second attempt -> child choice -> gentle consequence -> hero chooses a repair -> warm ending proving the repair works.
 Make the goal visible in spoken text with a concrete object and activity. Each attempt changes the strategy, names its action, and shows why it fails; repeating the same action harder does not count as a new attempt. Give the choice actual alternatives and let the hero decide.
@@ -53,6 +53,8 @@ An apology or promise is not a repair. Narrate the hero performing a specific re
 Use new information in each scene. Repeat only the catchphrase at earned moments; avoid recycling generic dialogue such as "we can be kind together" across scenes. Do not invent audit scores or narrative annotations; the offline audit cites the words you write.
 Include at least six story scenes, a lesson scene showing repair, and two question scenes at real choices. A question has kind "question", holdSec 3, a simple answer and warm praise.
 Give characters distinct voices based on their personalities. Elders can learn too; their advice never solves the hero's problem for them. Show brief disappointment followed by an achievable caring action. No shaming, scary danger, sudden magic fix, or long lectures.
+Use concrete completed actions when they happen: pick up, give, put down, push, roll, catch, open a book, water a flower/seed, or build a sandcastle/snow friend. Name the object in the spoken line so the deterministic stage can show it. Keep an object recognizable through the story. A question or proposed action is not a completed action.
+Include a small harmless comic sequence tied to the story object: something moves, an animal notices, a brief pause, then a helpful catch or repair. Show the listener's reaction in the next line. Leave a short hold for the reaction and let feelings move from surprise or concern to relief. Keep all six established personalities distinct.
 Repeat the hero's exact catchphrase three times at earned moments. State the moral only in moral and the two short moralRhyme lines. The ending returns to the original goal and demonstrates change.` : `Write an original rhyme: verse -> chorus -> verse -> chorus, with exactly repeated 3-4 line choruses. Include action words, one counting verse, one colors verse, two question scenes, and a cozy ending. Set moral and moralRhyme to null.`}
 Use holdSec 2 after a meaningful feeling or before a discovery. Keep questions relevant to this story. A vox tag such as {giggle}, {wow}, {hmm}, or {yay} may appear on a few lines; never spell out fake laughter.
 YouTube title under 70 characters, description 2-3 sentences plus hashtags, 10-15 short tags.
@@ -60,7 +62,7 @@ ${castPrompt()}`;
 
 function finish(script, args) {
   const slug = script.slug;
-  const full = directScript({ ...script, presentationVersion: 2, voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
+  const full = directScript({ ...script, presentationVersion: 3, voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
   full.synthesis = voiceSettings(full,args);
   writeScript(slug, full);
   setLatestSlug(slug);
