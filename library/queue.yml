@@ -59,6 +59,7 @@ items:
     hero: tilly
     minutes: 5.5
     startedAt: 2026-10-07T10:29:19.048Z
+    slug: standby-tilly-and-the-unfinished-promise
 pausedTemplates:
   - id: qmtyjw1qn
     status: running
