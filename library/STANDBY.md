@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**27 stories · 22 available · 5 used**
+**27 stories · 21 available · 6 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -59,7 +59,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Tilly and the Unfinished Promise](standby/standby-tilly-and-the-unfinished-promise.md) | Ben | campfire | Keeping a promise means returning to finish the task someone is counting on. | Available |
+| [Tilly and the Unfinished Promise](standby/standby-tilly-and-the-unfinished-promise.md) | Ben | campfire | Keeping a promise means returning to finish the task someone is counting on. | Used · 2026-10-07 |
 | [Tilly Asks for a Paw](standby/standby-tilly-asks-for-a-paw.md) | Professor Ozzy | desert | Asking for one specific kind of help lets friends build something together. | Available |
 | [Tilly's Missing Reading Glasses](standby/standby-tillys-missing-reading-glasses.md) | Taffy | bedroom | Returning books and reading things to clear homes helps everyone enjoy story time. | Available |
 | [Tilly's Wobbly Snow Friend](standby/standby-tillys-wobbly-snow-friend.md) | Daisy | snow | Combining useful ideas and testing them together can make a shared project stronger. | Available |

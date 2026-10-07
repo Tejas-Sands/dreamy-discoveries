@@ -52,7 +52,7 @@ items:
     slug: standby-fiona-keeps-her-word
     doneAt: 2026-10-06T10:58:20.616Z
   - id: auto-2026-10-07
-    status: running
+    status: done
     topic: "Moral: Small patient tries can help us do hard things. Story problem:
       The hero cannot finish a simple meadow task on the first try."
     type: story
@@ -60,6 +60,7 @@ items:
     minutes: 5.5
     startedAt: 2026-10-07T10:29:19.048Z
     slug: standby-tilly-and-the-unfinished-promise
+    doneAt: 2026-10-07T10:55:30.347Z
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

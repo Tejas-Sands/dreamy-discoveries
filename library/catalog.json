@@ -462,6 +462,29 @@
       "durationSec": 369,
       "renderedAt": "2026-10-06T10:58:20.279Z",
       "run": "37451072131"
+    },
+    {
+      "slug": "standby-tilly-and-the-unfinished-promise",
+      "title": "Tilly and the Unfinished Promise",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "turtle",
+      "heroName": "Grandpa Tilly",
+      "palette": "forest",
+      "backgrounds": [
+        "campfire"
+      ],
+      "lines": 93,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-tilly-and-the-unfinished-promise",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-tilly-and-the-unfinished-promise",
+      "durationSec": 470,
+      "renderedAt": "2026-10-07T10:55:29.991Z",
+      "run": "37607675458"
     }
   ],
   "compilations": []

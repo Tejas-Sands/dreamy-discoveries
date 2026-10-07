@@ -1,15 +1,15 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-06T10:56:49.748Z",
+  "updatedAt": "2026-10-07T10:53:41.703Z",
   "counts": {
-    "stories": 12,
+    "stories": 13,
     "rhymes": 4,
-    "episodes": 16,
-    "stars": 54
+    "episodes": 17,
+    "stars": 56
   },
   "usage": {
-    "tilly": 2,
+    "tilly": 3,
     "ozzy": 2,
     "daisy": 3,
     "taffy": 3,
@@ -17,12 +17,12 @@
     "fiona": 3
   },
   "appeared": {
-    "tilly": 6,
+    "tilly": 7,
     "daisy": 8,
     "fiona": 6,
     "ozzy": 5,
     "taffy": 6,
-    "ben": 7
+    "ben": 8
   },
   "canon": [
     {
@@ -724,6 +724,46 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-fiona-keeps-her-word",
         "tag": "video-standby-fiona-keeps-her-word"
+      }
+    },
+    {
+      "id": "standby-tilly-and-the-unfinished-promise",
+      "type": "story",
+      "title": "Tilly and the Unfinished Promise",
+      "hero": "tilly",
+      "heroName": "Grandpa Tilly",
+      "cast": [
+        "tilly",
+        "ben"
+      ],
+      "moral": "Keeping a promise means returning to finish the task someone is counting on.",
+      "moralRhyme": [
+        "Finish what you said you would!",
+        "Helping feels so warm and good!"
+      ],
+      "catchphrases": [
+        "Slow and steady!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "campfire"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-07"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-tilly-and-the-unfinished-promise",
+        "tag": "video-standby-tilly-and-the-unfinished-promise"
       }
     }
   ]

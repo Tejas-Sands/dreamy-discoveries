@@ -1,6 +1,6 @@
 # Tilly and the Unfinished Promise
 
-**Status:** Available
+**Status:** Used · 2026-10-07
 
 **Hero:** Grandpa Tilly
 
@@ -17,6 +17,8 @@ Grandpa Tilly promises smooth stones for a story picture path, then gets distrac
 [Production script](../scripts/standby-tilly-and-the-unfinished-promise.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `standby-tilly-and-the-unfinished-promise`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-tilly-and-the-unfinished-promise)
 
 ## Story beats
 
