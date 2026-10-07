@@ -3,10 +3,10 @@
   "emoji": "🦄",
   "rig": "quadruped",
   "colors": {
-    "body": "#f2dced",
-    "belly": "#f7e5f2",
-    "limb": "#b97dbd",
-    "accent": "#a578c8",
+    "body": "#fff7fc",
+    "belly": "#fffafd",
+    "limb": "#a985b1",
+    "accent": "#a88dd7",
     "dark": "#40333b"
   },
   "ears": "none",
@@ -15,11 +15,10 @@
   "markings": [],
   "accessories": [],
   "face": {
-    "eyeGap": 0,
-    "eyeY": 92,
-    "mouthY": 130,
-    "eyeSize": 0.8,
-    "mouthDx": -25
+    "eyeGap": 48,
+    "eyeY": 135,
+    "mouthY": 161,
+    "eyeSize": 0.9
   },
   "arm": "capsule",
   "foot": "hoof",

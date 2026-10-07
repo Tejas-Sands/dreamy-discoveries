@@ -22,11 +22,11 @@ export const StorybookPaint: React.FC<{recipe: CharacterRecipe; uid: string; chi
   const root = `${uid}-paint`;
   const material = (color: string) => `${root}-${color.slice(1)}`;
   return <g id={root} data-storybook={recipe.name}>
-    <defs>{[...colors].map(color => <radialGradient key={color} id={material(color)} cx=".28" cy=".2" r=".9">
-      <stop stopColor={softMix(color,"#fff7e5",.58)}/>
-      <stop offset=".4" stopColor={softMix(color,"#fff0d6",.32)}/>
+    <defs>{[...colors].map(color => <radialGradient key={color} id={material(color)} cx=".3" cy=".22" r=".86">
+      <stop stopColor={softMix(color,"#fff7e5",.46)}/>
+      <stop offset=".4" stopColor={softMix(color,"#fff0d6",.22)}/>
       <stop offset=".78" stopColor={color}/>
-      <stop offset="1" stopColor={softMix(color,"#92747e",.27)}/>
+      <stop offset="1" stopColor={softMix(color,"#71452e",.2)}/>
     </radialGradient>)}</defs>
     <style>{[
       ...[...colors].map(color => `#${root} [fill="${color}"]{fill:url(#${material(color)})}`),

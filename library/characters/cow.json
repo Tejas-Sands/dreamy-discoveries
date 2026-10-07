@@ -6,7 +6,7 @@
     "body": "#f3eeee",
     "belly": "#fff8ef",
     "limb": "#f3eeee",
-    "accent": "#766c7c",
+    "accent": "#655966",
     "dark": "#40333b"
   },
   "ears": "floppy",
@@ -35,8 +35,8 @@
   "accessories": [
     {
       "kind": "collar",
-      "color": "#8c5836",
-      "ring": "#f5d76e"
+      "color": "#996749",
+      "ring": "#d4a34d"
     }
   ],
   "face": {

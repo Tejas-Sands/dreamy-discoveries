@@ -138,7 +138,49 @@ Outputs are organized under `out/`:
 - `chunks/`: temporary split renders used by the CI pipeline.
 
 The render, stitch, compilation, release, and Telegram scripts use `out/episodes/`.
-An explicit `--out` path still overrides the video destination.
+An explicit `--out` path overrides the video or thumbnail destination.
+
+### Review thumbnails
+
+Episode covers use a story scene's hero, friend, expression and visible object, with a
+short title that fits two lines. The bright storybook colors and soft scenery use the
+existing character rigs and vector props; no image service or extra AI call is needed.
+
+```bash
+node scripts/preview-thumbnails.mjs                    # six full-size and phone-size covers
+node scripts/preview-thumbnails.mjs --slugs standby-ben-and-the-paper-boat,standby-taffy-and-the-two-paw-umbrella
+node scripts/render.mjs --slug standby-ben-and-the-paper-boat --thumbnail-only --thumbnail-text "Paper Boat" --out out/review/cover.png
+```
+
+Open `out/review/captivating/thumbnails/index.html` to compare the covers at 1280×720
+and 320×180. These previews read existing scripts without changing the library or
+generating voices. Normal episode renders use the same cover design automatically.
+
+### Reusable character library
+
+All 38 approved designs share the production `Character` renderer in episodes,
+thumbnails and previews. See [the character workflow](library/CHARACTER-WORKFLOW.md)
+for motion, speech, turns and prop contact. The original limb chart remains the
+sole artwork reference; Daisy and Ben guide performance timing.
+
+```bash
+node scripts/preview-character-chart.mjs --kinds=snowman,raccoon
+node scripts/check-character-designs.mjs
+npm test
+npm run typecheck
+```
+
+### Review hands and background activity
+
+```bash
+node scripts/preview-living-world.mjs                  # six cast members + all 25 settings
+node scripts/preview-living-world.mjs --stills-only    # faster still gallery
+```
+
+Open `out/review/living-world/index.html` for waving, pointing and holding examples,
+plus the background tour. Ambient activities are drawn live over cached scenery;
+quiet scenes slow them down, and thumbnails freeze them. The previews use existing
+artwork and do not write scripts or synthesize voices.
 
 ### Zero-AI story samples (no LLM, no keys)
 

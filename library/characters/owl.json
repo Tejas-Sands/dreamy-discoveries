@@ -1,12 +1,12 @@
 {
   "name": "owl",
-  "emoji": "\ud83e\udd89",
+  "emoji": "🦉",
   "rig": "bird",
   "colors": {
-    "body": "#876445",
-    "belly": "#e5c799",
-    "limb": "#d49d42",
-    "accent": "#d49d42",
+    "body": "#b98459",
+    "belly": "#f2dab4",
+    "limb": "#d7a158",
+    "accent": "#8d5e40",
     "dark": "#5a8a4f"
   },
   "ears": "tuft",
@@ -19,12 +19,7 @@
     }
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "necklace",
-      "color": "#5a8a4f"
-    }
-  ],
+  "accessories": [],
   "earOptions": {
     "color": "#a97c50"
   },

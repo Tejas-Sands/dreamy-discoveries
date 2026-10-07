@@ -13,7 +13,7 @@ import {fetchBaked} from "./lib/baked";
 import { BrandArt, BrandPreview } from "./BrandPreview";
 import {HandPreview,HAND_PREVIEW_SECONDS} from './HandPreview';
 import {AnimationComparison,calculateAnimationComparisonMetadata} from './AnimationComparison';
-import {ExpressiveCast} from './ExpressiveCast';
+import {CharacterChartReview} from './CharacterChartReview';
 
 const DEFAULT_SLUG = "sample-twinkle";
 
@@ -35,7 +35,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Animation-Comparison" component={AnimationComparison} width={1920} height={1080} fps={FPS}
       durationInFrames={60 * FPS} defaultProps={{slug:'dev-animation-v3',script:null}}
       calculateMetadata={calculateAnimationComparisonMetadata} />
-    <Composition id="Expressive-Cast" component={ExpressiveCast} width={1920} height={1080} fps={FPS} durationInFrames={1}/>
+    <Composition id="Character-Chart-Review" component={CharacterChartReview} width={1600} height={840} fps={FPS} durationInFrames={FPS*8} defaultProps={{kind:'bear',animate:false}}/>
     <Composition
       id="Thumbnail"
       component={Thumbnail}

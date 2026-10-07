@@ -1,6 +1,6 @@
 {
   "name": "duck",
-  "emoji": "\ud83e\udd86",
+  "emoji": "🦆",
   "rig": "bird",
   "colors": {
     "body": "#f7d868",
@@ -17,8 +17,8 @@
   "markings": [],
   "accessories": [
     {
-      "kind": "sailorCollar",
-      "color": "#326ba8"
+      "kind": "bandana",
+      "color": "#509bc3"
     }
   ],
   "face": {

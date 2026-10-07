@@ -1,6 +1,38 @@
 # Expressive animation
 
-Newly generated episodes use `presentationVersion: 3`. The upgrade adds blended facial acting, delayed listener reactions, phrase accents, three-quarter/profile geometry, six distinct motion styles, spelling-based speech shapes, reactive ears/tails/scarf, physical object actions, and camera changes tied to the story. Important actions soften background movement. Questions and bedtime scenes retain steady framing.
+**Current artwork reference (October 7):**
+`/home/citrux/Sides/arr/Pastel Kawaii Animal Limb Chart.png` is the sole source for
+character layout, proportions, native limbs, colors and clothing. An unchanged
+copy lives at `public/references/pastel-kawaii-animal-limb-chart.png`.
+This supersedes the earlier Daisy/Ben artwork expansion and character-bible
+appearance choices. Daisy and Ben remain references for motion timing and
+conversation behavior only. Existing character and cast IDs are retained.
+
+Run `node scripts/preview-character-chart.mjs` for 38 individual comparisons at
+`out/review/character-chart/index.html`. Each comparison places the original
+chart cell beside the production rig at rest and with a torso tilt/native limb
+gesture. Use `--kinds=turtle,zebra` to revisit individual animals. The two whale
+drawings are alternate views of one existing recipe. These previews use the same
+production components as episodes, thumbnails and the full character test suite.
+
+The attachment follow-up corrects the raccoon and squirrel ear roots, anchors
+the snowman's scarf collar to its neck, reshapes the turtle's face, and redraws
+the unicorn and whale from the same chart. Only the snowman's hanging scarf end
+receives cloth lag. The whale's native jaw retains speech and emotion input.
+Use `node scripts/preview-character-chart.mjs --kinds=raccoon,snowman,squirrel,turtle,unicorn,whale --motion`
+for silent eight-second clips and stills at both turn extremes. The focused
+gallery is `out/review/character-chart/motion.html`. The clips use synthetic
+mouth envelopes for visual inspection; they do not validate recorded dialogue.
+
+`chartLayout.ts` records each upright animal's proportions and source cell.
+`StorybookBody.tsx` draws continuous paws, wings and hooves; `StorybookDetails.tsx`
+supplies individual heads, ears, tails and clothing. `SpeciesBody.tsx` handles
+the horizontal flipper turtle, front-facing unicorn, insects, aquatic animals
+and other specialist silhouettes. Tilly's carrying anchor follows the front
+flipper. All artwork remains deterministic SVG with the existing body-motion
+engine; the reference PNG is used only in developer comparisons.
+
+Newly generated episodes use `presentationVersion: 3`. The upgrade adds blended facial acting, delayed listener reactions, phrase accents, three-quarter/profile geometry, 38 individual motion profiles, spelling-based speech shapes, reactive ears/tails/scarf, physical object actions, and camera changes tied to the story. Important actions soften background movement. Questions and bedtime scenes retain steady framing.
 
 The existing Director, SVG art, cached voices, and Remotion renderer supply everything. There are no new dependencies, paid services, generated assets, or AI stages. The writing prompt still uses the existing script-generation call; templates and the developer showcase use no AI.
 
@@ -13,10 +45,10 @@ node scripts/preview-animation.mjs
 npm run tts -- --slug dev-animation-v3
 npm run bake -- --slug dev-animation-v3
 npx remotion render Animation-Comparison out/review/animation-v3/comparison.mp4 --props='{"slug":"dev-animation-v3","script":null}' --scale=0.5 --concurrency=4
-npx remotion still Expressive-Cast out/review/animation-v3/cast-views.png
+npx remotion still Sheet-Species out/characters/species.png
 ```
 
-The preview writer creates a new `dev-` slug exclusively. Re-running it preserves measured audio timing and leaves the latest pointer, library, catalog, and universe alone. Use another new `dev-` slug for a revised showcase. The normal episode composition remains `Video`; `Animation-Comparison` and `Expressive-Cast` are developer compositions. `KidsVideo` and its cards support optional `muted` for the comparison; ordinary playback remains audible.
+The preview writer creates a new `dev-` slug exclusively. Re-running it preserves measured audio timing and leaves the latest pointer, library, catalog, and universe alone. Use another new `dev-` slug for a revised showcase. The normal episode composition remains `Video`; `Animation-Comparison` and the character sheets are developer compositions. `KidsVideo` and its cards support optional `muted` for the comparison; ordinary playback remains audible.
 
 Physical events retain the existing zero-based `line`, `propId`, optional `actor`/`to`, `delaySec`, and `durationSec`. They execute within measured line bounds. Optional fields extend the existing format:
 
@@ -39,10 +71,53 @@ Automatically planned stages use `staging.auto: true` and receive the cinematic 
 
 The rig accepts optional `performance`, `mouthShape`, `turn`, and `turnVelocity`. Turns and velocities are in local rig space and mirror with `flip`; the episode renderer samples consecutive requested frames to obtain velocity without playback state. Thumbnails ignore the new inputs. Mouth shapes approximate spelling using existing word times and speech amplitude; they are not phoneme recognition. Pauses and measured silence close the mouth.
 
-Verification artifacts live in `out/review/animation-v3/`: comparison video/frame, cast view sheet, action frames, schedule, preservation check, implementation reports, and review. The repository checks are `npm test` and `npm run typecheck`. Preview renders use the real cached/local Kokoro path and existing baked backgrounds. Timing reports state hardware, frame range, output scale, and concurrency; local measurements do not guarantee a GitHub runner's duration.
+The initial October 7 character pass extended the Daisy/Ben treatment to the remaining
+36 existing designs. `performanceProfiles.ts` gives all 38 species their own
+gesture weight, listening posture and step timing. `StorybookDetails.tsx` keeps
+the upright animals' individual heads, ears, tails, markings and accessories;
+specialist rigs retain their quadruped, aquatic, insect and reptile anatomy while
+sharing the storybook eye and speech renderer. Hooves, wings and flippers keep
+their own silhouettes. The six-member named cast and saved episode scripts are
+unchanged by this pass.
 
-The published animation tree passes all 254 included tests and TypeScript. The combined local workspace also passed four separate thumbnail tests, which remain with the uncommitted thumbnail work. The voiced comparison is 60.366 seconds at 960×540/30 fps and decodes successfully from start to finish. Independent frame sampling is byte-identical after seeking; an encoded chunk boundary matches the independently rendered frame at 35.08 dB PSNR. All 50 permanent scripts remain byte-identical to the starting workspace.
+The follow-up body-motion pass adds a hip-based torso tilt and shoulder turn to
+every species. Upright feet and quadruped/reptile ground contacts stay outside
+the upper-body rotation. Heads counterbalance the lean, arms move with their
+shoulders, and ears/tails/loose clothing follow the body's velocity. Natural
+tail movement is preserved instead of being replaced by the secondary motion.
+Held-object hand anchors use the same torso transform as the visible arms.
 
-A matched-source benchmark rendered the same 120 frames three times per source version, at half scale and concurrency 2, on an Intel i5-10310U. Median render time increased from 16.258 to 19.671 seconds (+21.0%). Bundle time is excluded; browser startup and encoding are included. The benchmark measures local render cost, without projecting a complete episode's CI duration.
+## Production integration and verification
 
-This change has no measured audience-retention result. Use real YouTube exports with the existing engagement report after publishing enough episodes to compare. The camera and motion improvements are reviewable animation changes, not evidence of increased watch time.
+Episodes, thumbnails, cards and previews all use `Character`; there is no
+per-episode character setup. Cast aliases resolve from `library/cast.json`,
+and all 38 permanent recipes have individual performance profiles. Upright
+rig selection derives from the chart layouts so anatomy and reach coordinates
+cannot diverge through a separate list of species.
+
+The superseded body, part and separate-finger renderers and one-off Ben/Daisy
+approval scenes have been removed. Character review outputs can be regenerated
+using the chart tool; it reuses one browser and removes its build directory even
+if a render fails. It copies only the reference image instead of the voice library.
+Permanent scripts, voices and baked scenery are preserved.
+
+Run the complete checks after changes:
+
+```sh
+npm test
+npm run typecheck
+node scripts/check-character-designs.mjs
+```
+
+Coverage includes every recipe's artwork and speech, unique SVG IDs, finite and
+deterministic action/emotion combinations, cast aliases, attached ear transforms,
+connected limb contours, blended gestures, physical reach and carried objects.
+Reach tests inspect the rendered SVG contour and transforms, including turns,
+mirroring and crouching. Test targets remain within each animal's limb limits.
+Pipeline tests cover Director idempotence, cached voices and existing slug reruns.
+
+The production cleanup preserved all 342 sampled SVG poses byte-for-byte
+(38 characters × three turns × idle/wave/walk). The full suite passed 256 tests,
+TypeScript passed, and all 38 recipes passed the validator and importer-preservation
+check. No audience-retention or GitHub runner performance claim is implied by
+these local correctness checks.

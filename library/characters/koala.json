@@ -15,14 +15,7 @@
     "koalaNose"
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "bow",
-      "color": "#7fa661",
-      "x": 100,
-      "y": 160
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 65,
     "eyeY": 92,

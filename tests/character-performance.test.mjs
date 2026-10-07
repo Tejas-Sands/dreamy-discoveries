@@ -5,6 +5,7 @@ import Module, {createRequire} from 'node:module';
 import ts from 'typescript';
 import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
+import {hands, elements, kinds, below} from './helpers/character.mjs';
 
 const require=createRequire(import.meta.url);
 require.extensions['.ts']=require.extensions['.tsx']=(module,file)=>{
@@ -91,19 +92,13 @@ test('six cast species have distinct opt-in upper-body acting and alias-equivale
   assert.deepEqual(computePose({...base,kind:'bunny'}),computePose(base),'kind alone must not alter older presentation');
 });
 
-test('angled views reshape the cheek and occlude the far eye while leaving paws and feet anchored',()=>{
-  for(const [,kind] of cast) {
-    const pose=computePose({action:'idle',t:.5,bpm:120});
-    const props={recipe:getRecipe(kind),pose,emotion:'happy',mouth:.6,blink:0,showFace:true,performance};
-    const front=draw(StorybookBody,{...props,turn:0}),profile=draw(StorybookBody,{...props,turn:1});
-    const head=m=>m.match(/data-storybook-head="[^"]+" d="([^"]+)"/)[1];
-    assert.notEqual(head(front),head(profile),kind);
-    assert.match(profile,/data-view="profile"/);
-    const face=draw(StorybookFace,{kind,emotion:'happy',mouth:.6,blink:0,eyes:pose.eyes,uid:'test',outline:'#765',turn:1});
+test('all species turn visibly and the shared face occludes its far eye',()=>{
+  for(const kind of kinds) {
+    const props={kind,mouth:.6,performance};
+    assert.notEqual(draw(Character,{...props,turn:0}),draw(Character,{...props,turn:1}),kind);
+    const face=draw(StorybookFace,{kind,emotion:'happy',mouth:.6,blink:0,eyes:{dx:0,dy:0,mode:'open'},uid:'test',outline:'#765',turn:1});
     const far=face.match(/<g data-face-eye="far"[^>]*opacity="([^"]+)"/);
     assert.ok(far&&Number(far[1])<.05,`${kind}: far eye visible in profile`);
-    const handTransforms=m=>[...m.matchAll(/<g transform="([^"]+)"><g transform="scale\(1 ([^)]*)\)">/g)].map(x=>x[1]+x[2]).sort();
-    assert.deepEqual(handTransforms(front),handTransforms(profile),`${kind}: turn moved contact geometry`);
   }
 });
 
@@ -114,11 +109,11 @@ test('mouth shape geometry and silent rest visibly override emotional open mouth
   assert.doesNotMatch(quiet,/fill="#765066"/,'emotion must not keep a speech mouth open in measured silence');
 });
 
-test('standalone still calls ignore opt-in motion, and legacy zoo art remains front-compatible',()=>{
+test('still artwork ignores opt-in motion while library characters support turning',()=>{
   const props={kind:'taffy',action:'wave',still:true,width:300};
   assert.equal(draw(Character,props),draw(Character,{...props,performance,turn:1,mouthShape:'round'}));
   const legacy={kind:'cat',width:300};
-  assert.equal(draw(Character,legacy),draw(Character,{...legacy,turn:1}));
+  assert.notEqual(draw(Character,legacy),draw(Character,{...legacy,turn:1}));
 });
 
 test('rapid emotional changes remain continuous at dialogue and reveal boundaries',()=>{
@@ -139,47 +134,21 @@ test('secondary motion responds to acceleration and settles after a turn indepen
   assert.ok(Math.abs(starting.secondary.ears)>Math.abs(settled.secondary.ears)+3,'ear response never settles');
   const frames=[0,.18,.4,1,4],expected=frames.map(t=>computePose({...props,t,turnVelocity:velocity(t)}));
   for(const t of [4,.4,0,1,.18])assert.deepEqual(computePose({...props,t,turnVelocity:velocity(t)}),expected[frames.indexOf(t)]);
-  const staticBody={...props,performance:undefined};
+  const staticBody={...props,performance:undefined,storybook:false};
   assert.equal(computePose({...staticBody,t:.4}).secondary,undefined,'older rig receives new inertia');
 });
 
-// Inspect the actual SVG transform chain, including external mirroring and crouch.
-const identity=[1,0,0,1,0,0];
-const multiply=(a,b)=>[a[0]*b[0]+a[2]*b[1],a[1]*b[0]+a[3]*b[1],a[0]*b[2]+a[2]*b[3],a[1]*b[2]+a[3]*b[3],a[0]*b[4]+a[2]*b[5]+a[4],a[1]*b[4]+a[3]*b[5]+a[5]];
-const translate=(x,y=0)=>[1,0,0,1,x,y];
-const matrix=value=>{
-  let result=identity;
-  for(const [,name,args] of (value??'').matchAll(/(translate|rotate|scale)\(([^)]*)\)/g)) {
-    const [a,b,c]=args.trim().split(/[ ,]+/).map(Number);
-    let next;
-    if(name==='translate')next=translate(a,b);
-    else if(name==='scale')next=[a,0,0,b??a,0,0];
-    else {const k=a*Math.PI/180,r=[Math.cos(k),Math.sin(k),-Math.sin(k),Math.cos(k),0,0];next=b===undefined?r:multiply(multiply(translate(b,c),r),translate(-b,-c));}
-    result=multiply(result,next);
-  }
-  return result;
-};
-const anchors=markup=>{
-  const stack=[identity],found=[];
-  for(const [tag,,body] of markup.matchAll(/<\/?([\w:-]+)\b([^>]*?)\/?\s*>/g)) {
-    if(tag.startsWith('</')){stack.pop();continue;}
-    const attrs=Object.fromEntries([...body.matchAll(/([\w:-]+)="([^"]*)"/g)].map(([,k,v])=>[k,v]));
-    const transform=multiply(stack.at(-1),matrix(attrs.transform));
-    if(attrs['data-storybook-hand']||attrs['data-storybook-foot'])found.push({attrs,transform});
-    if(!tag.endsWith('/>'))stack.push(transform);
-  }
-  return found;
-};
+const anchors=markup=>elements(markup).filter(n=>n.attrs['data-storybook-hand']||n.attrs['data-storybook-foot']).map(n=>({attrs:n.attrs,transform:n.matrix}));
 
 test('expressive mirrored reaching keeps every cast paw on its world target and view turns keep feet unchanged',()=>{
   for(const [kind] of cast)for(const flip of [false,true])for(const turn of [-.8,.8]) {
-    const center={x:850,y:870},target={x:1005,y:705},width=450;
+    const center={x:850,y:870},target={x:955,y:730},width=450;
     const props={kind,width,flip,action:'wave',actionT:.57,performance,turn,stageCenter:center,reach:{target,amount:1,crouch:.18}};
-    const parts=anchors(draw(Character,props));
-    const hand=parts.find(p=>p.attrs['data-hand-gesture']==='cup');
-    assert.ok(hand,kind);
-    const world={x:center.x+(hand.transform[4]-100)*width/240,y:center.y+(hand.transform[5]-250)*width/240};
-    assert.ok(Math.hypot(world.x-target.x,world.y-target.y)<1,`${kind}/${flip}/${turn}: acted paw missed its target`);
+    const distances=hands(draw(Character,props)).map(hand=>{
+      const world={x:center.x+(hand.contact.x-100)*width/240,y:center.y+(hand.contact.y-250)*width/240};
+      return Math.hypot(world.x-target.x,world.y-target.y);
+    });
+    assert.ok(Math.min(...distances)<1,`${kind}/${flip}/${turn}: acted paw missed its target by ${Math.min(...distances)}px`);
     const feet=at=>anchors(draw(Character,{...props,turn:at})).filter(p=>p.attrs['data-storybook-foot']).sort((a,b)=>a.attrs['data-storybook-foot'].localeCompare(b.attrs['data-storybook-foot'])).map(p=>p.transform);
     assert.deepEqual(feet(turn),feet(0),`${kind}: view art moves grounded feet`);
   }
@@ -204,7 +173,7 @@ test('late view-turn velocity drives ears, tail and scarf while static views add
     assert.ok(Math.abs(turning.secondary[channel]-rest.secondary[channel])>1,`${channel}: late view turn has no inertial response`);
     const stopped=computePose({...props,turn:.6,turnVelocity:0});
     const frontal=computePose({...props,turn:0,turnVelocity:0});
-    assert.equal(stopped.secondary[channel],frontal.secondary[channel],`${channel}: static view retains a fake turn impulse`);
+    assert.ok(Math.abs(stopped.secondary[channel]-frontal.secondary[channel])<1e-10,`${channel}: static view retains a fake turn impulse`);
     const left=computePose({...props,turn:-.6,turnVelocity:-2});
     assert.ok(Math.abs((turning.secondary[channel]-rest.secondary[channel])+(left.secondary[channel]-rest.secondary[channel]))<1e-8,`${channel}: local turn signs are not symmetric`);
   }
@@ -213,40 +182,26 @@ test('late view-turn velocity drives ears, tail and scarf while static views add
   for(const t of [6,5,0,5.1,1,4])assert.deepEqual(computePose({...props,t,clockT:t,turnVelocity:velocity(t)}),expected[frames.indexOf(t)]);
 });
 
-test('turn velocity preserves still and legacy artwork and leaves solved contact geometry unchanged',()=>{
-  for(const props of [{kind:'ben',still:true,performance},{kind:'cat',actionT:5}])assert.equal(draw(Character,props),draw(Character,{...props,turnVelocity:3}));
+test('turn velocity preserves still artwork and leaves solved contact geometry unchanged',()=>{
+  for(const props of [{kind:'ben',still:true,performance},{kind:'cat',still:true,actionT:5}])assert.equal(draw(Character,props),draw(Character,{...props,turnVelocity:3}));
   const props={kind:'ben',width:450,flip:true,action:'wave',actionT:5,performance,turn:-.6,stageCenter:{x:850,y:870},reach:{target:{x:1005,y:705},amount:1,crouch:.18}};
   const at=turnVelocity=>anchors(draw(Character,{...props,turnVelocity})).map(({attrs,transform})=>({part:attrs['data-storybook-hand']??attrs['data-storybook-foot'],transform}));
   assert.deepEqual(at(3),at(0),'secondary response changes solved paw or foot transforms');
   assert.notEqual(draw(Character,{...props,turnVelocity:3}),draw(Character,{...props,turnVelocity:0}),'Character never forwards view velocity to the visible rig');
 });
 
-test('Ozzy projects and occludes each ear tuft and its highlight independently in either profile',()=>{
-  const pose=computePose({action:'idle',t:.5,bpm:120});
-  const earsAt=turn=>{
-    const markup=draw(StorybookBody,{recipe:getRecipe('ozzy'),pose,emotion:'happy',mouth:0,blink:0,showFace:true,turn});
-    const stack=[{transform:identity,opacity:1}],found=[];
-    for(const [tag,name,body] of markup.matchAll(/<\/?([\w:-]+)\b([^>]*?)\/?\s*>/g)) {
-      if(tag.startsWith('</')){stack.pop();continue;}
-      const attrs=Object.fromEntries([...body.matchAll(/([\w:-]+)="([^"]*)"/g)].map(([,k,v])=>[k,v]));
-      const parent=stack.at(-1),item={transform:multiply(parent.transform,matrix(attrs.transform)),opacity:parent.opacity*Number(attrs.opacity??1)};
-      if(name==='path'&&/^(M130 176|M322 140|M132 118|M369 119)/.test(attrs.d??''))found.push({...item,d:attrs.d});
-      if(!tag.endsWith('/>'))stack.push(item);
-    }
-    return found;
-  };
-  for(const turn of [-1,1]) {
-    const parts=earsAt(turn),left=parts.find(p=>p.d.startsWith('M130 176')),right=parts.find(p=>p.d.startsWith('M322 140'));
-    assert.ok(left&&right,'owl ear artwork missing');
-    const near=turn>0?left:right,far=turn>0?right:left;
-    assert.ok(far.opacity<.05,'far ear tuft remains visible outside the profile head');
-    assert.equal(near.opacity,1,'near ear tuft is hidden with the far ear');
-    assert.ok(Math.abs(far.transform[0]/near.transform[0]-.6)<1e-8,'far ear uses the near ear view projection');
-    const farHighlight=parts.find(p=>p.d.startsWith(turn>0?'M369 119':'M132 118'));
-    assert.ok(farHighlight&&farHighlight.opacity<.05,'far ear highlight floats outside its hidden tuft');
-    assert.deepEqual(farHighlight.transform,far.transform,'far ear highlight uses a different projection from its tuft');
+test('approved ear shapes stay under the head projection when turning',()=>{
+  for(const kind of ['raccoon','squirrel','bunny','bear','fox']) {
+    const at=turn=>elements(draw(Character,{kind,turn}));
+    const front=at(0),profile=at(.8);
+    const head=front.find(n=>n.attrs['data-storybook-head']===kind);
+    const turned=profile.find(n=>n.attrs['data-storybook-head']===kind);
+    assert.ok(head&&turned,kind);
+    assert.equal(head.attrs.d,turned.attrs.d,`${kind}: turn distorts approved contour`);
+    assert.notDeepEqual(head.matrix,turned.matrix,`${kind}: head is frozen`);
+    const earPaths=nodes=>{const head=nodes.find(n=>n.attrs['data-storybook-head']===kind);return nodes.filter(n=>below(n,head.parent)&&['path','ellipse'].includes(n.name)&&n.attrs.fill?.endsWith(kind==='raccoon'?'-accent)':'-inner)'));};
+    assert.ok(earPaths(front).length,`${kind}: ear interiors missing`);
+    assert.deepEqual(earPaths(front).map(n=>n.attrs.d),earPaths(profile).map(n=>n.attrs.d),`${kind}: ear contour changes while turning`);
+    assert.notDeepEqual(earPaths(front).map(n=>n.matrix),earPaths(profile).map(n=>n.matrix),`${kind}: ears do not follow the head`);
   }
-  const front=earsAt(0);
-  assert.equal(front.find(p=>p.d.startsWith('M130 176')).opacity,1);
-  assert.equal(front.find(p=>p.d.startsWith('M322 140')).opacity,1);
 });

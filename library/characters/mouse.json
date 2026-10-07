@@ -4,7 +4,7 @@
   "rig": "biped",
   "colors": {
     "body": "#a4a8b5",
-    "belly": "#d6d9e0",
+    "belly": "#f5c5d0",
     "limb": "#a4a8b5",
     "accent": "#f2b1c8",
     "dark": "#40333b"
@@ -19,12 +19,7 @@
     "whiskers"
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "glasses",
-      "color": "#4a4a4a"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 45,
     "eyeY": 92,

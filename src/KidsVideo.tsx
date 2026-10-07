@@ -10,6 +10,7 @@ import {actorPerformance} from './lib/acting';
 import { beatPhase, easeInOutSine, easeOutBack, easeOutCubic, hop } from "./lib/anim";
 import { Background, BackgroundForeground } from "./components/backgrounds/Background";
 import { Character, characterBox } from "./components/characters/Character";
+import { REACHABLE_KINDS, speciesKind } from './components/characters/performanceProfiles';
 import { Karaoke } from "./components/Karaoke";
 import { Callout, countTimes } from "./components/Callout";
 import { QuestionOverlay } from "./components/Question";
@@ -129,6 +130,14 @@ const SceneView: React.FC<{
   const preparedStage=useMemo(()=>(script.presentationVersion??0)>=2?prepareStage(scene,slot,fps):null,[scene,slot,fps,script.presentationVersion]);
   const stage=sampleStage(preparedStage,Math.max(0,frame));
   const expressive = (script.presentationVersion ?? 0) >= 3;
+  // Carried props stay attached to the solved paw/wing and receive a finger overlap.
+  const heldBy = (role:'character'|'friend') => {
+    const owner=stage?.actors[role]?.owner;
+    if(!expressive||!owner||!REACHABLE_KINDS.has(speciesKind(owner)))return undefined;
+    const prop=stage?.props.find(prop=>!prop.hidden&&prop.owner===owner);
+    return prop?{...prop,size:prop.kind==='basket'?1.45:1.3}:undefined;
+  };
+  const mainHeld=heldBy('character'),friendHeld=heldBy('friend');
   const focus = expressive ? storyFocus(scene,slot,Math.max(0,frame),fps,preparedStage?.events) : 0;
   const backgroundMotion = profile.ambient * (1 - .75 * focus);
   const mainStage=stage?.actors.character,friendStage=stage?.actors.friend;
@@ -370,6 +379,7 @@ const SceneView: React.FC<{
               clockT={absoluteT}
               stageCenter={friendStage?{x:friendStage.x,y:friendStage.y}:undefined}
               reach={stage?.reaches.friend}
+              heldProp={friendHeld}
               motionScale={profile.amplitude}
               gaze={friendView?.gaze ?? (stage?inReveal?{x:0,y:0}:stageGaze(stage,'friend',friendSpeaks,inHold):!friendSpeaks && !inHold && !inReveal ? {x:-4,y:0} : {x:0,y:0})}
               bpm={bpm}
@@ -379,12 +389,13 @@ const SceneView: React.FC<{
         ) : null}
         <div style={{ position: "absolute", ...mainBox, transform: `translate(${mainEnter.dx}px, ${mainEnter.dy}px)` }}>
           <Character kind={scene.character} emotion={mainEmotion} performance={mainPerformance}
+            heldProp={mainHeld}
             mouthShape={expressive ? laugh !== null && !voxFriend ? 'open' : mainSpeaks ? mouthShapeAt(ref?.line,lineT) : 'rest' : undefined}
               turn={mainView ? mainView.turn * ((mainStage?.flip ?? false) ? -1 : 1) : undefined}
               turnVelocity={mainView ? turnVelocity('character',mainView) * ((mainStage?.flip ?? false) ? -1 : 1) : undefined}
             action={stagedMainMotion.action} mouth={mouth} actionT={stagedMainMotion.t} previousAction={stagedMainMotion.previousAction} blend={stagedMainMotion.blend} flip={mainStage?.flip??false} stageCenter={mainStage?{x:mainStage.x,y:mainStage.y}:undefined} reach={stage?.reaches.character} musicT={musicT} clockT={absoluteT} motionScale={profile.amplitude} gaze={mainView?.gaze ?? (stage?inReveal?{x:0,y:0}:stageGaze(stage,'character',mainSpeaks,inHold):friendSpeaks ? {x:4,y:0} : inHold ? {x:0,y:-2} : {x:0,y:0})} bpm={bpm} width={MAIN_W} groove={party} />
         </div>
-        {stage?<StageProps props={stage.props} events={preparedStage?.events} frame={Math.max(0,frame)} fps={fps} quiet={['tender','lullaby','thinking'].includes(direction)}/>:null}
+        {stage?<StageProps props={stage.props.filter(prop=>prop.id!==mainHeld?.id&&prop.id!==friendHeld?.id)} events={preparedStage?.events} frame={Math.max(0,frame)} fps={fps} quiet={['tender','lullaby','thinking'].includes(direction)}/>:null}
         {peek ? (
           <div style={{ position: "absolute", ...characterBox(peekX, GROUND_Y + 10, 300) }}>
             <Character kind={gag!.character ?? "bear"} emotion="excited" action="wave" width={300} flip={peekSide === 1} actionT={gagT} clockT={musicT} musicT={musicT} bpm={bpm} />

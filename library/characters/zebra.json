@@ -1,7 +1,7 @@
 {
   "name": "zebra",
   "emoji": "🦓",
-  "rig": "quadruped",
+  "rig": "biped",
   "colors": {
     "body": "#ffffff",
     "belly": "#e4e3e8",
@@ -15,11 +15,10 @@
   "markings": [],
   "accessories": [],
   "face": {
-    "eyeGap": 0,
+    "eyeGap": 52,
     "eyeY": 92,
     "mouthY": 130,
-    "eyeSize": 0.8,
-    "mouthDx": -25
+    "eyeSize": 1
   },
   "arm": "capsule",
   "foot": "hoof",

@@ -13,16 +13,11 @@
   "tail": "none",
   "features": [],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "necklace",
-      "color": "#d43a45"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 45,
     "eyeY": 92,
-    "mouthY": 135,
+    "mouthY": 150,
     "eyeSize": 1
   },
   "arm": "capsule",

@@ -15,12 +15,20 @@ require.extensions['.ts'] = require.extensions['.tsx'] = (module, file) => {
   module._compile(outputText, file);
 };
 const { StorybookBody } = require('../src/components/characters/StorybookBody.tsx');
+const { SpeciesBody } = require('../src/components/characters/SpeciesBody.tsx');
+const { SpeciesStorybookFace } = require('../src/components/characters/StorybookFace.tsx');
+const { StorybookPaint } = require('../src/components/characters/StorybookPaint.tsx');
+const { UPRIGHT_KINDS } = require('../src/components/characters/performanceProfiles.ts');
+// Exercise the approved native anatomy for Tilly, with the same supplied face inputs.
+const Body = p => UPRIGHT_KINDS.has(p.recipe.name) ? React.createElement(StorybookBody,p)
+  : React.createElement(StorybookPaint,{recipe:p.recipe,uid:`cast-${React.useId().replace(/:/g,'')}`},
+    React.createElement(SpeciesBody,{...p,face:p.showFace?React.createElement(SpeciesStorybookFace,{...p,eyes:p.pose.eyes,uid:`face-${React.useId().replace(/:/g,'')}`}):null}));
 const { computePose } = require('../src/components/characters/pose.ts');
 const { getRecipe } = require('../src/components/characters/Character.tsx');
 const cast = JSON.parse(fs.readFileSync(new URL('../library/cast.json', import.meta.url))).members;
 const recipes = cast.map(c => JSON.parse(fs.readFileSync(new URL(`../library/characters/${c.kind}.json`, import.meta.url))));
 const props = recipe => ({ recipe, pose: computePose({action:'idle',t:.4,bpm:120}), emotion:'happy', mouth:0, blink:0, showFace:true });
-const draw = p => renderToStaticMarkup(React.createElement('svg', null, React.createElement(StorybookBody, p)));
+const draw = p => renderToStaticMarkup(React.createElement('svg', null, React.createElement(Body, p)));
 
 test('cast IDs and existing species slugs resolve to the same character', () => {
   for (const member of cast) assert.equal(getRecipe(member.id).name, getRecipe(member.kind).name, member.id);
@@ -38,7 +46,7 @@ test('each main cast member responds to speech, blinking, and turning away', () 
 
 test('simultaneous copies have independent SVG paint and clip definitions', () => {
   const markup = renderToStaticMarkup(React.createElement('svg', null,
-    ...recipes.flatMap((recipe,i) => [0,1].map(j => React.createElement(StorybookBody, {...props(recipe),key:`${i}-${j}`})))));
+    ...recipes.flatMap((recipe,i) => [0,1].map(j => React.createElement(Body, {...props(recipe),key:`${i}-${j}`})))));
   const ids = [...markup.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
   assert.ok(ids.length > 0, 'expected shaded artwork');
   assert.equal(new Set(ids).size, ids.length, 'duplicate SVG identifiers corrupt overlapping characters');

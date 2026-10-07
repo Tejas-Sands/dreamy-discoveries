@@ -1,6 +1,6 @@
 {
   "name": "bear",
-  "emoji": "\ud83d\udc3b",
+  "emoji": "🐻",
   "rig": "biped",
   "colors": {
     "body": "#ac7c55",
@@ -24,7 +24,7 @@
   "accessories": [
     {
       "kind": "scarf",
-      "color": "#945344"
+      "color": "#a65347"
     }
   ],
   "earOptions": {

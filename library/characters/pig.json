@@ -3,8 +3,8 @@
   "emoji": "🐷",
   "rig": "biped",
   "colors": {
-    "body": "#f0a8b9",
-    "belly": "#f7c8d3",
+    "body": "#f3afc4",
+    "belly": "#f9c4d2",
     "limb": "#f0a8b9",
     "accent": "#ba6075",
     "dark": "#40333b"
@@ -22,12 +22,7 @@
     }
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "bandana",
-      "color": "#79b068"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 52,
     "eyeY": 92,

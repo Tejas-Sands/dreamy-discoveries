@@ -3,10 +3,10 @@
   "emoji": "🐿️",
   "rig": "biped",
   "colors": {
-    "body": "#b86f35",
+    "body": "#d58a4b",
     "belly": "#e8c9b1",
     "limb": "#b86f35",
-    "accent": "#73421b",
+    "accent": "#b66f3d",
     "dark": "#40333b"
   },
   "ears": "round",
@@ -21,13 +21,7 @@
     }
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "beanie",
-      "color": "#73421b",
-      "band": "#b86f35"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 48,
     "eyeY": 92,

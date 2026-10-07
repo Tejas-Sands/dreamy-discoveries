@@ -17,13 +17,8 @@
   "markings": [],
   "accessories": [
     {
-      "kind": "topHat",
-      "color": "#2b3036",
-      "band": "#7b3d91"
-    },
-    {
       "kind": "scarf",
-      "color": "#8c3636"
+      "color": "#cd626d"
     }
   ],
   "face": {

@@ -1,85 +1,86 @@
-import React from "react";
-import { AbsoluteFill, staticFile, type CalculateMetadataFunction } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Fredoka";
-import type { KidsScript } from "./lib/types";
-import { getPalette } from "./lib/palettes";
-import { Background } from "./components/backgrounds/Background";
-import { Character, characterBox } from "./components/characters/Character";
-import { Sparkles } from "./components/Particles";
+import React from 'react';
+import {AbsoluteFill, staticFile, type CalculateMetadataFunction} from 'remotion';
+import {loadFont} from '@remotion/google-fonts/Fredoka';
+import type {KidsScript} from './lib/types';
+import {getPalette} from './lib/palettes';
+import {Background} from './components/backgrounds/Background';
+import {Character, characterBox} from './components/characters/Character';
+import {PropArt} from './components/StageProps';
+import {headlineLines, thumbnailPlan} from './lib/thumbnail';
+import {fetchBaked, type BakedMap} from './lib/baked';
 
-const { fontFamily } = loadFont();
-
+const {fontFamily} = loadFont();
 export type ThumbnailProps = {
   slug: string;
   script: KidsScript | null;
-  /** compilation mode: big title + a row of heroes */
-  compilation?: { title: string; heroes: string[] } | null;
+  compilation?: {title: string; heroes: string[]} | null;
+  /** Optional local art direction; leaves the saved episode untouched. */
+  headline?: string;
+  baked?: BakedMap;
 };
 
-export const calculateThumbnailMetadata: CalculateMetadataFunction<ThumbnailProps> = async ({ props }) => {
+export const calculateThumbnailMetadata: CalculateMetadataFunction<ThumbnailProps> = async ({props}) => {
+  const baked = props.baked ?? await fetchBaked();
+  if (props.script) return {props: {...props,baked}};
   const res = await fetch(staticFile(`generated/${props.slug}/script.json`));
   if (!res.ok) throw new Error(`Could not load script for slug "${props.slug}"`);
-  return { props: { ...props, script: (await res.json()) as KidsScript } };
+  return {props: {...props,baked,script:(await res.json()) as KidsScript}};
 };
 
-/** 1280x720 thumbnail: hero front and center, huge title, bright frame. Rendered at 1920x1080 and scaled. */
-export const Thumbnail: React.FC<ThumbnailProps> = ({ script, compilation }) => {
-  if (!script) return <AbsoluteFill style={{ background: "#222" }} />;
+const canvas: React.CSSProperties = {fontFamily,width:1920,height:1080,transform:'scale(0.6666666667)',transformOrigin:'0 0',overflow:'hidden'};
+const Brand: React.FC = () => <div style={{position:'absolute',left:58,top:46,background:'#fff9e9',borderRadius:36,
+  padding:'12px 24px',fontSize:28,fontWeight:600,letterSpacing:1,color:'#625078'}}>Dreamy Discoveries</div>;
+
+// Conservative Fredoka glyph widths keep long compound words on one line.
+const titleSize = (lines: string[], width: number, maximum: number) => Math.min(maximum,width / Math.max(1,...lines.map(line=>
+  [...line].reduce((sum,c)=>sum+(/[ilIjtfr.,!:'’]/.test(c) ? .4 : /[MW@%]/.test(c) ? 1.05 : /[mwoQOG]/.test(c) ? .85 : /[A-Z]/.test(c) ? .8 : /[ -]/.test(c) ? .4 : .68),0))));
+
+/** A face, a real story object and a short title remain readable at 320x180. */
+export const Thumbnail: React.FC<ThumbnailProps> = ({script,compilation,headline,baked}) => {
+  if (!script) return <AbsoluteFill style={{background:'#222'}} />;
   const palette = getPalette(script.palette);
   if (compilation) {
-    const heroes = compilation.heroes.slice(0, 5);
-    return (
-      <AbsoluteFill style={{ fontFamily, width: 1920, height: 1080, transform: "scale(0.6667)", transformOrigin: "0 0" }}>
-        <Background kind={script.scenes[0]?.background ?? "meadow"} palette={palette} frameOffset={40} />
-        <Sparkles count={14} />
-        {heroes.map((h, i) => (
-          <div key={i} style={{ position: "absolute", ...characterBox(960 + (i - (heroes.length - 1) / 2) * Math.min(360, 1500 / Math.max(1, heroes.length)), 1000, 380) }}>
-            <Character kind={h} emotion="excited" action={i % 2 ? "wave" : "cheer"} width={380} still seed={i + 10} />
-          </div>
-        ))}
-        <div style={{ position: "absolute", left: 100, right: 100, top: 60, textAlign: "center", fontSize: compilation.title.length > 24 ? 120 : 150, fontWeight: 700, lineHeight: 1.02, color: "#fff", WebkitTextStroke: `12px #2f2438`, paintOrder: "stroke fill", textShadow: "0 14px 0 rgba(0,0,0,0.2)" }}>
-          {compilation.title}
-        </div>
-        <AbsoluteFill style={{ border: `34px solid ${palette.accent}`, boxShadow: "inset 0 0 0 12px #fff", pointerEvents: "none" }} />
-      </AbsoluteFill>
-    );
+    const heroes = compilation.heroes.slice(0,5);
+    const lines = headlineLines(compilation.title);
+    return <AbsoluteFill style={canvas}>
+      <Background kind={script.scenes[0]?.background ?? 'meadow'} palette={palette} animationT={0} motion={0} baked={baked} />
+      <AbsoluteFill style={{background:'linear-gradient(#fff6e9dd, transparent 58%)'}} />
+      {heroes.map((hero,i)=><div key={i} style={{position:'absolute',...characterBox(960+(i-(heroes.length-1)/2)*Math.min(360,1500/Math.max(1,heroes.length)),1000,380)}}>
+        <Character kind={hero} emotion='happy' action='wave' width={380} still />
+      </div>)}
+      <div style={{position:'absolute',left:100,right:100,top:140,textAlign:'center',fontSize:titleSize(lines,1560,145),fontWeight:700,lineHeight:1.06,
+        color:'#614373',WebkitTextStroke:'12px #fff9ed',paintOrder:'stroke fill'}}>
+        {lines.map((line,i)=><div key={i} style={{whiteSpace:'nowrap'}}>{line}</div>)}
+      </div>
+      <Brand />
+      <AbsoluteFill style={{border:'20px solid #fff7e5',pointerEvents:'none'}} />
+    </AbsoluteFill>;
   }
-  const first = script.scenes[0];
-  const main = script.mainCharacter?.kind && script.mainCharacter.kind !== "none" ? script.mainCharacter.kind : first?.character ?? "bunny";
-  const friend = script.scenes.find((s) => s.secondCharacter)?.secondCharacter ?? null;
-  // a prop that is not just an animal emoji (the cartoon hero next to a photo-style 🐰 looks odd)
-  const boring = new Set(["🐰", "🐻", "🐱", "🐶", "🦆", "🐘", "🐸", "🦁", "🐷", "🐵", "🐟", "💡", "🤗", "🙂"]);
-  const emoji =
-    script.scenes.map((s) => s.question?.answer.emoji).find((e) => e && !boring.has(e)) ??
-    script.scenes.flatMap((s) => s.lines.map((l) => l.callout?.emoji)).find((e) => e && !boring.has(e)) ??
-    script.scenes.map((s) => s.prop).find((e) => e && !boring.has(e)) ??
-    null;
-  return (
-    <AbsoluteFill style={{ fontFamily, width: 1920, height: 1080, transform: "scale(0.6667)", transformOrigin: "0 0" }}>
-      <div style={{ filter: "blur(14px) saturate(1.3)", position: "absolute", inset: -20 }}>
-        <Background kind={first?.background ?? "meadow"} palette={palette} frameOffset={40} />
-      </div>
-      <Sparkles count={12} />
-      {/* Rule of thirds placement, enlarged, with rim light and drop shadow */}
-      <div style={{ position: "absolute", ...characterBox(700, 1020, 820), filter: "drop-shadow(0 25px 50px rgba(0,0,0,0.5)) drop-shadow(0 0 30px rgba(255,255,255,0.7))" }}>
-        <Character kind={main} emotion="excited" action="cheer" width={820} still seed={3} />
-      </div>
-      {friend ? (
-        <div style={{ position: "absolute", ...characterBox(1620, 940, 420), filter: "drop-shadow(0 15px 30px rgba(0,0,0,0.4))" }}>
-          <Character kind={friend} emotion="happy" action="wave" width={420} still flip seed={4} />
-        </div>
-      ) : emoji ? (
-        <div style={{ position: "absolute", left: 1480, top: 480, fontSize: 320, lineHeight: 1, transform: "rotate(-12deg)", filter: "drop-shadow(0 20px 15px rgba(0,0,0,0.3))" }}>{emoji}</div>
-      ) : null}
-      {/* Title positioned at top and slightly right to leave bottom-right empty for YouTube timestamp */}
-      <div style={{ position: "absolute", left: 850, top: 80, width: 950, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0 0.25em", textAlign: "center", fontSize: script.title.length > 20 ? 140 : 170, fontWeight: 700, lineHeight: 1.02, color: "#fff", WebkitTextStroke: `12px #2f2438`, paintOrder: "stroke fill", textShadow: "0 18px 0 rgba(0,0,0,0.25)" }}>
-        {script.title.split(" ").map((w, i) => (
-          <span key={i} style={{ display: "inline-block", transform: `rotate(${(i % 2 ? 1 : -1) * 4}deg)`, color: i % 3 === 1 ? palette.accent : "#fff" }}>
-            {w}
-          </span>
-        ))}
-      </div>
-      <AbsoluteFill style={{ border: `34px solid ${palette.accent}`, boxShadow: "inset 0 0 0 12px #fff", pointerEvents: "none" }} />
-    </AbsoluteFill>
-  );
+  const plan = thumbnailPlan(script,headline);
+  const textSize = titleSize(plan.lines,800,178);
+  return <AbsoluteFill style={canvas}>
+    <Background kind={plan.background} palette={palette} animationT={0} motion={0} baked={baked} />
+    <AbsoluteFill style={{background:plan.quiet
+      ? 'linear-gradient(105deg,#eee2ff38,#eae3ffcc 65%,#fff2dfed),radial-gradient(ellipse at 28% 48%,#fff5dc99,transparent 56%)'
+      : 'linear-gradient(105deg,#fff2dc18,#fff1dbcc 65%,#fff6e7ee),radial-gradient(ellipse at 28% 48%,#fff6debb,transparent 58%)'}} />
+    <div style={{position:'absolute',left:120,top:280,width:890,height:750,borderRadius:'50%',background:'radial-gradient(ellipse,#fff7e9aa,transparent 70%)'}} />
+    <div style={{position:'absolute',...characterBox(565,1230,1130),filter:'saturate(1.12) drop-shadow(0 12px 0 #72546b25)'}}>
+      <Character kind={plan.hero} emotion={plan.emotion} action={plan.action} width={1130} still gaze={{x:plan.prop&&!plan.quiet?3:0,y:0}} />
+    </div>
+    {plan.friend ? <div style={{position:'absolute',...characterBox(plan.prop?1080:1400,1100,600),filter:'saturate(1.1) drop-shadow(0 10px 0 #72546b22)'}}>
+      <Character kind={plan.friend} emotion={plan.quiet?'sleepy':'happy'} action={plan.quiet?'sleep':'idle'} width={600} still flip />
+    </div> : null}
+    {plan.prop ? <svg viewBox='0 0 1920 1080' style={{position:'absolute',inset:0,width:'100%',height:'100%'}} aria-label={plan.prop.label}>
+      <ellipse cx='1470' cy='765' rx='270' ry='220' fill='#fff9ed' opacity='.88' />
+      <g transform='translate(1470 745) rotate(-9) scale(4)'><PropArt kind={plan.prop.kind} label={plan.prop.label} /></g>
+      {[[-215,-150],[220,-80],[175,180]].map(([x,y],i)=><path key={i} d='M0 -19L5 -5L19 0L5 5L0 19L-5 5L-19 0L-5 -5Z'
+        transform={`translate(${1470+x} ${745+y})`} fill={plan.quiet?'#b9a4de':'#e9b760'}/>)}
+    </svg> : null}
+    <div style={{position:'absolute',left:930,top:135,width:870,textAlign:'center',fontSize:textSize,fontWeight:700,lineHeight:1.08,
+      WebkitTextStroke:'12px #fff9ef',paintOrder:'stroke fill',textShadow:'0 9px 0 #8e6d7c24'}}>
+      {plan.lines.map((line,i)=><div key={i} style={{whiteSpace:'nowrap',color:i===0?'#654372':plan.quiet?'#59618d':'#b55b71'}}>{line}</div>)}
+    </div>
+    <Brand />
+    <AbsoluteFill style={{border:'20px solid #fff7e5',pointerEvents:'none'}} />
+  </AbsoluteFill>;
 };

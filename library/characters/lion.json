@@ -6,7 +6,7 @@
     "body": "#f2b544",
     "belly": "#f7d894",
     "limb": "#f2b544",
-    "accent": "#b87736",
+    "accent": "#d88d49",
     "dark": "#40333b"
   },
   "ears": "round",
@@ -25,12 +25,7 @@
     }
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "necklace",
-      "color": "#e8c338"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 52,
     "eyeY": 92,

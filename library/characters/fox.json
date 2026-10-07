@@ -1,11 +1,11 @@
 {
   "name": "fox",
-  "emoji": "\ud83e\udd8a",
+  "emoji": "🦊",
   "rig": "biped",
   "colors": {
-    "body": "#dc813d",
+    "body": "#ec9953",
     "belly": "#fff2d9",
-    "limb": "#98572f",
+    "limb": "#74432f",
     "accent": "#2c2c2c",
     "dark": "#bd6328",
     "inner": "#ecc1a7"
@@ -24,9 +24,8 @@
   "markings": [],
   "accessories": [
     {
-      "kind": "beanie",
-      "color": "#bd6328",
-      "band": "#8b4513"
+      "kind": "bandana",
+      "color": "#79b8dc"
     }
   ],
   "earOptions": {

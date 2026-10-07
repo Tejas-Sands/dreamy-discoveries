@@ -2,6 +2,7 @@ import type { ActorPerformance } from "../../lib/acting";
 import type { Action } from "../../lib/types";
 import { hop, easeOutBack, easeInOutSine } from "../../lib/anim";
 import { jumpPhase, JUMP_LAND, clapAmount, stompPhase, impactAt } from "../../lib/actionMotion";
+import { performanceProfile, UPRIGHT_KINDS, speciesKind } from './performanceProfiles';
 
 /**
  * A pose is everything the rig needs to draw one frame of an action.
@@ -13,6 +14,10 @@ export interface Pose {
   y: number;
   /** rotation of the whole body around the feet, degrees */
   lean: number;
+  /** Upper-body lean around the hips; feet retain their ground contacts. */
+  torsoTilt: number;
+  /** Shoulder/hip heading follows the gaze, rather than leaving a front torso. */
+  torsoTurn: number;
   /** squash & stretch */
   sx: number;
   sy: number;
@@ -33,6 +38,9 @@ export interface Pose {
   /** leg swing rotation around each hip in degrees (positive = foot forward). Gives walks & dances a real gait. */
   legSwL: number;
   legSwR: number;
+  /** Foot travel in rig pixels; kept separate from foot rotation. */
+  legXL: number;
+  legXR: number;
   eyes: { dx: number; dy: number; mode: "open" | "closed" | "happy" };
   tail: number;
   /** small burst at the hands (clap contact) 0..1 */
@@ -49,6 +57,8 @@ const base = (): Pose => ({
   x: 0,
   y: 0,
   lean: 0,
+  torsoTilt: 0,
+  torsoTurn: 0,
   sx: 1,
   sy: 1,
   flip: 1,
@@ -63,6 +73,8 @@ const base = (): Pose => ({
   legR: 0,
   legSwL: 0,
   legSwR: 0,
+  legXL: 0,
+  legXR: 0,
   eyes: { dx: 0, dy: 0, mode: "open" },
   tail: 0,
   clapSpark: 0,
@@ -94,22 +106,44 @@ export interface PoseInput {
   turnVelocity?: number;
 }
 
+/** Alternating contact positions share the same distance clock as stage travel. */
+export function walkCycle(kind: string, t: number) {
+  const duck = kind === 'duck' || kind === 'daisy';
+  const profile = performanceProfile(kind);
+  const stepSeconds = profile?.stepSeconds ?? (duck ? .5 : .62);
+  const stride = profile?.stride ?? (duck ? 6 : 8);
+  const steps = Math.max(0, t) / stepSeconds;
+  const step = Math.floor(steps), phase = steps-step;
+  const ease = phase*phase*(3-2*phase);
+  const distance = steps*stride;
+  const foot = (right: boolean) => {
+    const swing = step%2 === (right ? 1 : 0);
+    const lastContact = swing ? Math.max(0,step-1)*stride : step*stride;
+    const nextContact = (step+1)*stride;
+    return {x:(swing ? lastContact+(nextContact-lastContact)*ease : lastContact)-distance,
+      lift:swing ? -(profile?.lift ?? (duck ? 3 : 4))*Math.sin(Math.PI*phase)**2 : 0};
+  };
+  return {distance, left:foot(false), right:foot(true), phase, stepSeconds};
+}
+
 export function computePose(input: PoseInput): Pose {
   const p = poseAt(input);
   // follow-through: how fast is the body moving right now? (ears/tails drag behind)
   const dt = 1 / 30;
-  const prev = poseAt({ ...input, t: input.t - dt, musicT: input.musicT === undefined ? undefined : input.musicT - dt, clockT: input.clockT === undefined ? undefined : input.clockT - dt });
+  const prev = poseAt({ ...input, t: input.t - dt, turn: (input.turn??0)-(input.turnVelocity??0)*dt, musicT: input.musicT === undefined ? undefined : input.musicT - dt, clockT: input.clockT === undefined ? undefined : input.clockT - dt });
   p.vy = (p.y - prev.y) / dt;
   p.vx = (p.x - prev.x) / dt;
   // lean into lateral motion (dance steps, slides) — sells the momentum
   p.lean += Math.max(-7, Math.min(7, p.vx * 0.02));
-  if(input.performance) {
+  if(input.performance || input.storybook) {
     const headVelocity=(p.head.tilt-prev.head.tilt)/dt;
+    const torsoVelocity=(p.torsoTilt-prev.torsoTilt)/dt;
     const clamp=(n:number,limit:number)=>Math.max(-limit,Math.min(limit,n));
     // View turns can begin anywhere in a gesture, including long idle holds.
     const turnVelocity=clamp(input.turnVelocity??0,4);
-    p.secondary={ears:clamp(-p.vy*.018-headVelocity*.06-turnVelocity*2.4,13),tail:clamp(-p.vx*.08+p.vy*.04-turnVelocity*3.1,18),cloth:clamp(-p.vx*.05-p.vy*.025-headVelocity*.035-turnVelocity*1.8,12)};
-    p.tail=p.secondary.tail;
+    p.secondary={ears:clamp(-p.vy*.018-headVelocity*.06-torsoVelocity*.12-turnVelocity*2.4,13),tail:clamp(-p.vx*.08+p.vy*.04-torsoVelocity*.2-turnVelocity*3.1,18),cloth:clamp(-p.vx*.05-p.vy*.025-headVelocity*.035-torsoVelocity*.16-turnVelocity*1.8,12)};
+    // Follow-through supplements the authored wag/swim; it must not erase it.
+    p.tail+=p.secondary.tail;
   }
   return p;
 }
@@ -117,13 +151,15 @@ export function computePose(input: PoseInput): Pose {
 /** actions that keep a gentle bob on the beat in upbeat scenes (the others have their own strong motion) */
 const GROOVERS = new Set<Action>(["idle", "look", "nod", "point", "walk", "eat"]);
 
-function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, groove = false, storybook = false, kind, performance }: PoseInput): Pose {
+function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, groove = false, storybook = false, kind, performance, turn=0 }: PoseInput): Pose {
+  if (storybook && legless && action==='walk') action='swim';
   const p = base();
   const s = seed * 1.7;
   const beat = ((musicT ?? t) * bpm) / 60; // beats elapsed
   const bph = beat - Math.floor(beat); // phase within the beat
   const TAU = Math.PI * 2;
   const ambientT = clockT ?? musicT ?? t;
+  const upright = storybook && UPRIGHT_KINDS.has(speciesKind(kind ?? ''));
 
   // calm base: a slow breath and a still, confident frame (no constant arm-waving or tail-wagging)
   p.y = 0.7 * Math.sin(ambientT * 1.2 + s);
@@ -142,8 +178,8 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
     case "idle": {
       // breathing + a slow weight shift so a standing hero never looks frozen
       const br = Math.sin(ambientT * 1.5 + s);
-      p.sx = 1 + 0.02 * br;
-      p.sy = 1 - 0.02 * br;
+      p.sx = 1 + (storybook ? 0.008 : 0.02) * br;
+      p.sy = 1 - (storybook ? 0.008 : 0.02) * br;
       p.y += -0.9 * br;
       p.x = 0.9 * Math.sin(ambientT * 0.5 + s);
       p.lean = 1.4 * Math.sin(ambientT * 0.5 + s);
@@ -157,12 +193,25 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
       p.eyes.dy = -1;
       p.armR = 10 + 2 * Math.sin(t * 1.2);
       break;
-    case "wave":
+    case "wave": {
+      if (storybook) {
+        // Raise, greet twice, then settle. Ben is weighty; Daisy is brisk.
+        const time = Math.max(0, t);
+        const smooth = (n: number) => { const k = Math.max(0, Math.min(1, n)); return k*k*(3-2*k); };
+        const lift = smooth(time / .42) * (1 - smooth((time - 1.85) / .65));
+        const wave = Math.sin(Math.max(0, time - .42) * TAU * (performanceProfile(kind ?? '')?.waveHz ?? 1.3));
+        p.armR = 8 + lift * (117 + wave * 10);
+        p.armBendR = .5;
+        p.head.tilt += lift * 3;
+        p.lean = -lift * 1.5;
+        break;
+      }
       p.armR = (storybook ? 125 : 150) + (storybook ? 8 : 15) * Math.sin(t * TAU * 1.5);
       p.armBendR = 0.5;
       p.head.tilt = 5 + 1.5 * Math.sin(t * 2);
       p.y += -2 * hop(t * 1.2);
       break;
+    }
     case "nod":
       p.head.dy = 5 * Math.sin(t * TAU * 1.1);
       p.head.tilt = 2.5 * Math.sin(t * TAU * 0.55);
@@ -384,6 +433,18 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
       p.lean = 4 * Math.sin(t * 2);
       break;
     case "walk": {
+      if (upright) {
+        const gait = walkCycle(kind!, t);
+        // Keep the supporting foot flat: no whole-body bounce, squash or scissoring.
+        p.x = 0; p.y = 0; p.lean = 0; p.sx = 1; p.sy = 1;
+        p.legXL = gait.left.x; p.legXR = gait.right.x;
+        p.legL = gait.left.lift; p.legR = gait.right.lift;
+        p.armL = 10 - gait.right.x*.7;
+        p.armR = 10 - gait.left.x*.7;
+        p.head.tilt = (kind === 'duck' ? 1.8 : 1) * Math.sin(t/gait.stepSeconds*Math.PI);
+        p.head.dy = .5*Math.sin(gait.phase*Math.PI)**2;
+        break;
+      }
       // Eased leg sweeps reach zero velocity at each foot exchange.
       const speed = 2.2;
       const walkT = (t * speed) % 1;
@@ -427,12 +488,23 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
 
   // Character owns blinking on the episode clock; actions only set intentional eye states.
 
+  if (storybook && action==='walk' && !upright && !legless) {
+    // Hooves, reptile feet and insect feet use the same contact clock; their
+    // drawing code retains four, two or six limbs, respectively.
+    const gait=walkCycle(kind ?? '',t);
+    p.x=0; p.y=0; p.lean=0; p.sx=1; p.sy=1;
+    p.legXL=gait.left.x; p.legXR=gait.right.x;
+    p.legL=gait.left.lift; p.legR=gait.right.lift;
+    p.legSwL=0; p.legSwR=0;
+    p.head.dy=.4*Math.sin(gait.phase*Math.PI)**2;
+  }
+
   // elbows: hanging arms relax into a gentle bend; raised arms straighten out
   const bendOf = (ang: number) => Math.max(0.08, Math.min(0.74, 0.62 - ang / 210));
   if (p.armBendL < 0) p.armBendL = bendOf(p.armL);
   if (p.armBendR < 0) p.armBendR = bendOf(p.armR);
 
-  if (groove && GROOVERS.has(action) && !legless) {
+  if (groove && GROOVERS.has(action) && !legless && !(storybook && action === 'walk')) {
     // a gentle pulse on the beat + a little knee wave — the group breathes, it doesn't bounce
     const sw = Math.sin(beat * Math.PI);
     const h = hop(beat);
@@ -447,17 +519,7 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
   }
   if(performance&&storybook) {
     // Species mannerisms affect upper-body acting without retiming contacts or feet.
-    const aliases:Record<string,string>={taffy:'bunny',ben:'bear',daisy:'duck',fiona:'fox',tilly:'turtle',ozzy:'owl'};
-    const species=kind?aliases[kind]??kind:'bunny';
-    const profiles:Record<string,{tilt:number;dip:number;accent:number;arm:number;tempo:number;travel:number;softness:number}>={
-      bunny:{tilt:-3,dip:-1,accent:1.15,arm:5,tempo:1.8,travel:1.08,softness:.95},
-      bear:{tilt:2,dip:2,accent:.62,arm:-3,tempo:.7,travel:.78,softness:1.18},
-      duck:{tilt:4,dip:-2,accent:1.05,arm:9,tempo:1.4,travel:1.02,softness:1.08},
-      fox:{tilt:-5,dip:0,accent:.95,arm:3,tempo:1.6,travel:.94,softness:.86},
-      turtle:{tilt:1,dip:3,accent:.42,arm:-5,tempo:.5,travel:.56,softness:1.12},
-      owl:{tilt:6,dip:-1,accent:.7,arm:1,tempo:.85,travel:.72,softness:.78},
-    };
-    const profile=profiles[species];
+    const profile=performanceProfile(kind ?? 'bunny');
     if(profile) {
       if(['jump','cheer','dance','walk'].includes(action)) {
         p.y*=profile.travel;
@@ -477,6 +539,26 @@ function poseAt({ action, t, musicT, clockT, bpm, seed = 0, legless = false, gro
         if(action==='idle'||action==='look')p.armR-=profile.arm*.45*settle;
         p.armBendL=Math.max(.08,Math.min(.85,p.armBendL+profile.arm*.006*settle));
       }
+    }
+  }
+  if (storybook) {
+    const profile=performanceProfile(kind??'bunny');
+    const weight=.45+(profile?.travel??.8)*.55;
+    const heading=Math.max(-1,Math.min(1,turn));
+    const quiet=action==='sleep'||action==='cry';
+    const settled=['idle','look','nod','think','wave','point','eat'].includes(action);
+    const phase=ambientT*(.9+(profile?.tempo??1)*.18)+s;
+    const sway=settled&&!quiet?Math.sin(phase)*2.8:0;
+    const emphasis=(performance?.emphasis??0)*(profile?.accent??1);
+    const facing=heading===0?(profile?.tilt??1)<0?-1:1:Math.sign(heading);
+    p.torsoTurn=heading*.85;
+    p.torsoTilt=quiet?0:Math.max(-11,Math.min(11,weight*(-heading*9+sway-facing*emphasis*3)));
+    // The neck counterbalances the hip lean; the entire head still travels with it.
+    p.head.tilt-=p.torsoTilt*.28;
+    if (settled&&!quiet) {
+      const armSwing=Math.sin(phase-.4)*(2.5+weight*2);
+      p.armL+=armSwing;
+      if(action==='idle'||action==='look'||action==='nod')p.armR-=armSwing*.8;
     }
   }
   return p;

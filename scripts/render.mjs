@@ -4,7 +4,7 @@
  *   node scripts/render.mjs [--slug my-video]                 full video + thumbnail + metadata (local one-shot)
  *   node scripts/render.mjs --slug S --frames 0-2999 --muted --out out/chunks/S/chunk-0.mp4   one video-only chunk (CI)
  *   node scripts/render.mjs --slug S --audio-only --out out/episodes/S.aac                             the audio track only (CI)
- *   extra: --scale 0.5 (preview), --thumbnail-only
+ *   extra: --scale 0.5 (preview), --thumbnail-only [--thumbnail-text "Paper Boat"] [--out cover.png]
  *
  * Chunks from several runners are joined by scripts/stitch.mjs.
  */
@@ -23,9 +23,9 @@ function run(cmd, cmdArgs) {
   if (res.status !== 0) throw new Error(`${cmd} exited with code ${res.status}`);
 }
 
-export function renderThumbnail(slug, outPath) {
+export function renderThumbnail(slug, outPath, headline) {
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  const props = JSON.stringify({ slug, script: null });
+  const props = JSON.stringify({ slug, script: null, ...(typeof headline === 'string' ? {headline} : {}) });
   run("npx", ["remotion", "still", "Thumbnail", outPath, `--props=${props}`]);
 }
 
@@ -41,7 +41,7 @@ function main() {
   const concurrency = Number(process.env.RENDER_CONCURRENCY) || Math.max(1, os.cpus().length);
 
   if (args["thumbnail-only"]) {
-    renderThumbnail(slug, thumbOut);
+    renderThumbnail(slug, args.out || thumbOut, args['thumbnail-text']);
     return;
   }
 

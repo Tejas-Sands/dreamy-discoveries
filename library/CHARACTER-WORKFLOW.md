@@ -25,11 +25,13 @@ Use `characterBox(centerX, groundY, width)` to position its feet on the floor.
 ## Where designs live
 
 - `library/characters/*.json`: the actual renderable recipes and cast names.
-- `src/components/characters/Character.tsx`: silhouettes, limbs and attachment points.
-- `src/components/characters/parts.tsx`: ears, tails, features and clothing.
-- `src/components/characters/Face.tsx`: expressions and speaking faces.
-- `SpeciesBody.tsx`: equines, insects, aquatic animals, reptiles, frog, star, snowman and giraffe.
-- `MammalDetails.tsx`: species markings, fleece, quills, masks and distinctive tails.
+- `src/components/characters/Character.tsx`: shared rendering, placement and reach API.
+- `chartLayout.ts`: approved upright proportions and original reference cells.
+- `performanceProfiles.ts`: individual motion styles and cast alias resolution.
+- `StorybookBody.tsx` and `StorybookDetails.tsx`: connected limbs, heads, ears, tails and clothing.
+- `StorybookFace.tsx` and `Face.tsx`: shared eyes, expressions and speech parameters.
+- `SpeciesBody.tsx`: turtle, pony, aquatic, insect, reptile and other native anatomy.
+- `src/lib/rigHands.ts`: contact coordinates shared by reaching and carried props.
 
 Edit the artwork code when a shape needs changing. Descriptive JSON cannot add
 artwork that has no drawing implementation. The bible importer is a lossy bootstrap;
@@ -48,15 +50,29 @@ npx remotion still Sheet-Emotions out/characters/bunny-expressions.png
 npx remotion still Sheet-Actions out/characters/bunny-actions.png --props='{"kind":"bunny"}'
 ```
 
-All 38 characters now have a reviewed species design. Open `Cast-All-Motion` in
-Studio to check the whole cast resting, waving, walking and dancing. Equines and
-aquatic animals use profile artwork; mammals generally use front-facing artwork.
+All 38 existing recipes use the approved designs. The sole layout reference is
+`/home/citrux/Sides/arr/Pastel Kawaii Animal Limb Chart.png`, preserved unchanged
+under `public/references/`. Daisy and Ben guide motion and conversation timing.
+The six named story characters remain the closed cast; the additional recipes
+remain reusable library species.
+
+`turn` and `turnVelocity` control local head/body direction and follow-through;
+`performance` blends expressions and listening accents, while `mouthShape` follows
+cached word timings. `reach` plus `stageCenter` attaches supported paws, wings or
+Tilly's front flipper to objects. Use `heldProp` to render the carried object at the
+same contact point. `still` ignores performance and turn input for thumbnails.
+All animation depends on the requested frame, allowing independent render chunks.
 
 ```sh
+node scripts/preview-character-chart.mjs --kinds=raccoon,snowman
+node scripts/preview-character-chart.mjs --kinds=turtle,unicorn,whale --motion
 node scripts/check-character-designs.mjs
-npx remotion render Cast-All-Motion out/characters/all-species-motion.mp4 --codec=h264
+npm test
+npm run typecheck
 ```
 
-These are cutout rigs with a fixed drawing view per species. They support the existing stylized gestures;
-true side/back views or articulated hands require additional artwork. Keep the
-same component API when adding those views so episode scripts stay reusable.
+The chart tool generates a rebuildable gallery at `out/review/character-chart/`,
+reuses a browser, and cleans up its temporary bundle. `Cast-All-Motion`,
+`Library-Preview`, `Sheet-Species`, `Sheet-Actions` and `Sheet-Emotions` remain
+available in Studio. See [the animation guide](../docs/expressive-animation.md)
+for the production architecture and physical event format.

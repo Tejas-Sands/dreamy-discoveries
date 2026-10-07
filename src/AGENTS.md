@@ -50,12 +50,12 @@ Defined in `src/lib/timing.ts` (and mirrored in `scripts/lib/estimate.mjs`):
 
 ```
 Character.tsx        Public API: <Character kind="bunny" action="wave" emotion="happy" mouth={0} />
-  ├── CharacterBody  Applies rig type (biped, bird, fish, star, shell, longNeck, tRex, whale)
-  ├── Face.tsx       Renders eyes, eyebrows, mouth by emotion + mouth-open value
-  ├── parts.tsx      Ears, tails, features (snout, whiskers, mane, trunk, horns, spikes, antennae…)
-  │                  Clothing (scarf, sailor collar, headphones, saddle, striped beanie…)
-  ├── MammalDetails  Species markings, fleece, quills, masks, distinctive tails
-  └── SpeciesBody    Equines, insects, aquatic, reptiles, frog, star, snowman, giraffe
+  ├── StorybookBody      Upright chart layouts with connected paws, wings and hooves
+  ├── StorybookDetails   Heads, ears, tails, markings and clothing
+  ├── StorybookFace      Shared expressions, projected eyes and speaking mouths
+  ├── SpeciesBody        Turtle, pony, insect, aquatic, reptile and other native anatomy
+  ├── performanceProfiles  Per-species movement; aliases from library/cast.json
+  └── rigHands           Reach/contact coordinates shared with the visible limbs
 ```
 
 **Character component API:**
@@ -86,7 +86,7 @@ Use `characterBox(centerX, groundY, width)` from `src/lib/layout.ts` to position
 1. Edit `library/characters/<kind>.json` — change colors, markings, accessories
 2. Verify the recipe validates: `node scripts/check-character-designs.mjs`
 3. Preview: `npx remotion still Cast-Preview out/characters/preview.png --frame=0`
-4. If you need new artwork (new part shape), add it to `parts.tsx` or `SpeciesBody.tsx`
+4. If you need new artwork (new part shape), add it to `StorybookDetails.tsx` or `SpeciesBody.tsx`
 
 ---
 

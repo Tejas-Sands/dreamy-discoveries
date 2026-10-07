@@ -3,8 +3,8 @@
   "emoji": "🦛",
   "rig": "biped",
   "colors": {
-    "body": "#937db8",
-    "belly": "#b4a3d1",
+    "body": "#ac9bc9",
+    "belly": "#c4b5db",
     "limb": "#937db8",
     "accent": "#604d82",
     "dark": "#40333b"
@@ -15,13 +15,7 @@
     "hippoSnout"
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "stripedBeanie",
-      "color": "#58a69a",
-      "stripe": "#ffffff"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 64,
     "eyeY": 92,

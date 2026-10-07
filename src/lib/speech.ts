@@ -8,14 +8,16 @@ import type { Line } from "./types";
 export function mouthAt(line: Line | null | undefined, t: number): number {
   if (!line || t < 0) return 0;
   const dur = line.durationSec ?? 0;
-  if (dur > 0 && t > dur) return 0;
+  if (dur > 0 && t >= dur) return 0;
   const envelope = line.envelope;
   if (envelope && envelope.fps > 0 && envelope.values.length > 0) {
-    const sample = t * envelope.fps;
-    const index = Math.floor(sample);
-    const a = envelope.values[index] ?? 0;
-    const b = envelope.values[index + 1] ?? 0;
-    return Math.max(0,Math.min(1,a + (b-a) * (sample-index)));
+    const sampleAt = (time: number) => {
+      const sample = Math.max(0,time) * envelope.fps;
+      const index = Math.floor(sample);
+      const a = envelope.values[index] ?? 0, b = envelope.values[index+1] ?? 0;
+      return a+(b-a)*(sample-index);
+    };
+    return Math.max(0,Math.min(1,.25*sampleAt(t-.025)+.5*sampleAt(t)+.25*sampleAt(t+.025)));
   }
   const words = line.words;
   if (!words || words.length === 0) {
@@ -28,7 +30,7 @@ export function mouthAt(line: Line | null | undefined, t: number): number {
       const syllables = Math.max(1, Math.round(w.text.replace(/[^a-z]/gi, "").length / 3));
       const flap = Math.abs(Math.sin(k * Math.PI * syllables));
       const edge = Math.min(1, k / 0.15, (1 - k) / 0.15);
-      return 0.25 + 0.75 * flap * Math.min(1, edge + 0.4);
+      return (0.25 + 0.75 * flap) * Math.max(0,edge);
     }
   }
   return 0;

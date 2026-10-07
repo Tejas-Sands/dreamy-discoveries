@@ -3,9 +3,9 @@
   "emoji": "🐑",
   "rig": "biped",
   "colors": {
-    "body": "#f1d5b8",
-    "belly": "#fff5df",
-    "limb": "#c6aa98",
+    "body": "#f5dbe1",
+    "belly": "#fffcf2",
+    "limb": "#625463",
     "accent": "#f5d4bc",
     "dark": "#40333b"
   },
@@ -19,13 +19,7 @@
     }
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "collar",
-      "color": "#855b40",
-      "ring": "#c99d3e"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 44,
     "eyeY": 92,

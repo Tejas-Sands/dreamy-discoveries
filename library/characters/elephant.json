@@ -16,13 +16,7 @@
     "trunk"
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "headdress",
-      "color": "#e8b931",
-      "band": "#c43b50"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 63,
     "eyeY": 92,

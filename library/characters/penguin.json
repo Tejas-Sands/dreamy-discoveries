@@ -19,17 +19,7 @@
     }
   ],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "headphones",
-      "color": "#764fa3",
-      "pad": "#4a2c6e"
-    },
-    {
-      "kind": "vest",
-      "color": "#947656"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 43,
     "eyeY": 92,

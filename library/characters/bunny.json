@@ -1,10 +1,10 @@
 {
   "name": "bunny",
-  "emoji": "\ud83d\udc30",
+  "emoji": "🐰",
   "rig": "biped",
   "colors": {
-    "body": "#f3dce8",
-    "belly": "#fff4f5",
+    "body": "#fff4f7",
+    "belly": "#fffafb",
     "limb": "#f3dce8",
     "accent": "#c57596",
     "dark": "#5c8bb5",
@@ -20,7 +20,7 @@
   "accessories": [
     {
       "kind": "vest",
-      "color": "#5c8bb5"
+      "color": "#5794bd"
     }
   ],
   "tailOptions": {

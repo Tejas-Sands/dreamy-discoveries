@@ -3,10 +3,10 @@
   "emoji": "🦔",
   "rig": "biped",
   "colors": {
-    "body": "#d8b88c",
-    "belly": "#efdbb5",
+    "body": "#f0d5b1",
+    "belly": "#f0d5b1",
     "limb": "#bc9571",
-    "accent": "#4a3324",
+    "accent": "#a47359",
     "dark": "#40333b"
   },
   "ears": "round",

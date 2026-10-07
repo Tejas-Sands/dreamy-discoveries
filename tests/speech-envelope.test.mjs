@@ -22,12 +22,14 @@ test('compact PCM envelopes retain silence and amplitude changes without another
   assert.deepEqual(speechEnvelope(new Float32Array(1000),1000).values,Array(20).fill(0));
 });
 
-test('mouths sample measured envelopes, close in silence and interpolate independently of frame order', () => {
+test('mouths smooth measured envelopes, close in silence and interpolate independently of frame order', () => {
   const line={durationSec:1,envelope:{fps:20,values:[0,0,1,1,0]},words:[{text:'Hi!',start:0,end:1}]};
   assert.equal(mouthAt(line,0),0);
-  assert.equal(mouthAt(line,.1),1);
+  assert.equal(mouthAt(line,.1),.875);
+  assert.equal(mouthAt(line,.125),1);
   assert.ok(mouthAt(line,.075)>0 && mouthAt(line,.075)<1);
-  assert.equal(mouthAt(line,.2),0);
+  assert.ok(mouthAt(line,.2)<.13, "mouth eases shut at the last voiced sample");
+  assert.equal(mouthAt(line,.25),0);
   assert.equal(mouthAt(line,-1),0);
   assert.equal(mouthAt(line,1.1),0);
   const frames=[0,.05,.075,.1,.2],expected=frames.map(t=>mouthAt(line,t));

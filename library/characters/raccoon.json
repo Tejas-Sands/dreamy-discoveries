@@ -3,22 +3,17 @@
   "emoji": "🦝",
   "rig": "biped",
   "colors": {
-    "body": "#878a8f",
-    "belly": "#c3c7cc",
-    "limb": "#878a8f",
-    "accent": "#2c2d30",
+    "body": "#a59a9d",
+    "belly": "#ddd3cd",
+    "limb": "#62515f",
+    "accent": "#62545e",
     "dark": "#40333b"
   },
   "ears": "pointy",
   "tail": "none",
   "features": [],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "bandana",
-      "color": "#b53c3c"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 52,
     "eyeY": 92,

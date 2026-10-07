@@ -4,7 +4,7 @@
   "rig": "biped",
   "colors": {
     "body": "#f28f29",
-    "belly": "#ffffff",
+    "belly": "#fff1da",
     "limb": "#f28f29",
     "accent": "#49322c",
     "dark": "#40333b",
@@ -30,7 +30,7 @@
   "accessories": [
     {
       "kind": "necklace",
-      "color": "#c24a4a"
+      "color": "#aa8d6d"
     }
   ],
   "face": {

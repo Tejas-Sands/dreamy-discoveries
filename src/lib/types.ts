@@ -212,7 +212,7 @@ export interface SceneStaging {
   auto?: boolean;
 }
 export interface StageActorSample extends StagePoint {owner: string; moving: boolean; walkT: number; flip: boolean; stoppedFor: number | null}
-export interface StageReach {target: StagePoint; amount: number; crouch: number}
+export interface StageReach {target: StagePoint; amount: number; crouch: number; grip?: number}
 export interface StageSample {actors: Partial<Record<StageRole, StageActorSample>>; props: StageProp[]; reaches: Partial<Record<StageRole, StageReach>>; shot: SceneStaging['shot']}
 
 export interface YoutubeMeta {

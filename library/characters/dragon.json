@@ -3,9 +3,9 @@
   "emoji": "🐲",
   "rig": "tRex",
   "colors": {
-    "body": "#4eb85b",
-    "belly": "#e5d198",
-    "limb": "#4eb85b",
+    "body": "#84c36c",
+    "belly": "#c6df97",
+    "limb": "#79b967",
     "accent": "#528b43",
     "dark": "#40333b"
   },

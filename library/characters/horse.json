@@ -13,13 +13,7 @@
   "tail": "none",
   "features": [],
   "markings": [],
-  "accessories": [
-    {
-      "kind": "saddle",
-      "color": "#388c6f",
-      "trim": "#f5d76e"
-    }
-  ],
+  "accessories": [],
   "face": {
     "eyeGap": 0,
     "eyeY": 92,

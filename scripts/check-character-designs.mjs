@@ -6,7 +6,7 @@ import { validateCharacterRecipe } from "./lib/recipes.mjs";
 const root = new URL("../", import.meta.url);
 const dir = new URL("library/characters/", root);
 const recipes = fs.readdirSync(dir).filter(f => f.endsWith(".json")).map(f => JSON.parse(fs.readFileSync(new URL(f, dir), "utf8")));
-const expected = { horse: "quadruped", zebra: "quadruped", unicorn: "quadruped", bee: "insect", ladybug: "insect", frog: "frog", star: "star", snowman: "snowman", whale: "whale", fish: "fish", dinosaur: "tRex", dragon: "tRex", giraffe: "longNeck", bird: "bird", chick: "bird", penguin: "bird" };
+const expected = { turtle: "shell", horse: "quadruped", zebra: "biped", unicorn: "quadruped", bee: "insect", ladybug: "insect", frog: "frog", star: "star", snowman: "snowman", whale: "whale", fish: "fish", dinosaur: "tRex", dragon: "tRex", giraffe: "longNeck", bird: "bird", chick: "bird", penguin: "bird" };
 for (const recipe of recipes) {
   const clean = validateCharacterRecipe(recipe, recipe.name);
   assert(clean, `${recipe.name}: invalid recipe`);

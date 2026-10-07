@@ -3,9 +3,9 @@
   "emoji": "🐳",
   "rig": "whale",
   "colors": {
-    "body": "#5c9bb5",
-    "belly": "#a8d3e6",
-    "limb": "#6498b5",
+    "body": "#74acd6",
+    "belly": "#c9e9f4",
+    "limb": "#689dcc",
     "accent": "#2a5b73",
     "dark": "#40333b"
   },
@@ -16,10 +16,10 @@
   "accessories": [],
   "face": {
     "eyeGap": 0,
-    "eyeY": 92,
+    "eyeY": 98,
     "mouthY": 124,
-    "eyeSize": 0.85,
-    "mouthDx": -17
+    "eyeSize": 0.62,
+    "mouthDx": -38
   },
   "arm": "capsule",
   "foot": "none",
