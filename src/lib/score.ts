@@ -2,10 +2,13 @@ import type {KidsScript, MusicSpec, Scene} from './types';
 import type {Schedule} from './timing';
 import {sceneDirection} from './sceneDirection.mjs';
 
-const TRACKS: Record<'story' | 'bouncy' | 'lullaby', MusicSpec> = {
+const TRACKS: Record<'story' | 'bouncy' | 'lullaby' | 'tender' | 'curious' | 'resolution', MusicSpec> = {
   story: {file: 'story.wav', bpm: 96, mood: 'story'},
   bouncy: {file: 'bouncy.wav', bpm: 120, mood: 'bouncy'},
   lullaby: {file: 'lullaby.wav', bpm: 72, mood: 'lullaby'},
+  tender: {file:'tender-v1.wav',bpm:80,mood:'tender'},
+  curious: {file:'curious-v1.wav',bpm:96,mood:'curious'},
+  resolution: {file:'resolution-v1.wav',bpm:96,mood:'resolution'},
 };
 const clamp01 = (value: number) => Math.max(0, Math.min(1, value));
 const enabled = (music: MusicSpec | null | undefined): music is MusicSpec => !!music?.file && music.mood !== 'none';
@@ -21,6 +24,11 @@ export function sceneScore(scene: Scene & {music?: MusicSpec | null}, script: Ki
   const direction = sceneDirection(scene, script);
   if (direction === 'lullaby') return TRACKS.lullaby;
   if (direction === 'celebration') return TRACKS.bouncy;
+  if ((script.presentationVersion??0)>=4 && script.type==='story') {
+    if (scene.kind==='lesson'||scene.kind==='moral') return TRACKS.resolution;
+    if (direction==='tender') return TRACKS.tender;
+    if (direction==='thinking') return TRACKS.curious;
+  }
   if (script.type === 'story') return TRACKS.story;
   return base;
 }

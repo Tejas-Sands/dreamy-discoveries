@@ -62,7 +62,7 @@ ${castPrompt()}`;
 
 function finish(script, args) {
   const slug = script.slug;
-  const full = directScript({ ...script, presentationVersion: 3, voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
+  const full = directScript({ ...script, presentationVersion: 4, voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
   full.synthesis = voiceSettings(full,args);
   writeScript(slug, full);
   setLatestSlug(slug);

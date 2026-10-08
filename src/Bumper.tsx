@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, spring, staticFile, useCurrentFrame, useVideoConfig, type CalculateMetadataFunction } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Fredoka";
+import {fontFamily} from "./lib/fonts";
 import type { KidsScript } from "./lib/types";
 import { getPalette } from "./lib/palettes";
 import { Background } from "./components/backgrounds/Background";
@@ -9,7 +9,6 @@ import { Sparkles } from "./components/Particles";
 import { Sfx } from "./components/Sfx";
 import { CENTER_X, GROUND_Y } from "./lib/layout";
 
-const { fontFamily } = loadFont();
 
 export type BumperProps = { slug: string; script: KidsScript | null; label?: string };
 

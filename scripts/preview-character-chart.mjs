@@ -11,13 +11,14 @@ const all=fs.readdirSync(path.join(ROOT,'library/characters')).filter(name=>name
 const kinds=process.argv.find(arg=>arg.startsWith('--kinds='))?.slice(8).split(',')??all;
 const motion=process.argv.includes('--motion');
 if(kinds.some(kind=>!all.includes(kind)))throw new Error('Unknown character in --kinds');
-// Silent artwork reviews need only the chart, not the episode audio library.
+// Silent artwork reviews need the chart and local fonts, without episode audio.
 const buildDirectory=fs.mkdtempSync(path.join(output,'.build-'));
 const previewPublic=path.join(buildDirectory,'public');
 let browser;
 try {
 fs.mkdirSync(path.join(previewPublic,'references'),{recursive:true});
 fs.copyFileSync(path.join(ROOT,'public/references/pastel-kawaii-animal-limb-chart.png'),path.join(previewPublic,'references/pastel-kawaii-animal-limb-chart.png'));
+fs.cpSync(path.join(ROOT,'public/fonts'),path.join(previewPublic,'fonts'),{recursive:true});
 const serveUrl=await bundle({entryPoint:path.join(ROOT,'src/index.ts'),publicDir:previewPublic,outDir:path.join(buildDirectory,'bundle'),onProgress:()=>{}});
 browser=await openBrowser('chrome',{logLevel:'error'});
 for(const kind of kinds) {

@@ -218,13 +218,14 @@ jobs:
           key: kokoro-82m-v1.0-q8
 
       - name: Synthesize missing lines, assemble the video's audio folder
+        id: voice
         env:
           TARGET_MINUTES: ${{ inputs.minutes }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/generate-audio.mjs --slug "$SLUG"
 
       - name: Save the voice store (grows every run)
-        if: needs.plan.outputs.voice_needed == 'true'
+        if: needs.plan.outputs.voice_needed == 'true' || steps.voice.outputs.timing_added == 'true'
         uses: actions/cache/save@v4
         with:
           path: .cache/voice
@@ -268,11 +269,15 @@ jobs:
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
       - run: node scripts/render.mjs --slug "$SLUG" --audio-only --out "out/episodes/$SLUG.aac"
       - uses: actions/upload-artifact@v4
         with:
           name: audio-${{ env.SLUG }}
-          path: out/episodes/${{ env.SLUG }}.aac
+          path: |
+            out/episodes/${{ env.SLUG }}.aac
+            out/episodes/${{ env.SLUG }}.aac.loudness.json
+            out/episodes/${{ env.SLUG }}.aac.render.json
           retention-days: 7
 
   render:
@@ -313,11 +318,15 @@ jobs:
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure
+      - name: Identify the episode's background set
+        id: scenery
+        run: echo "key=$(node scripts/bake-backgrounds.mjs --slug "$SLUG" --cache-key)" >> "$GITHUB_OUTPUT"
       - name: Cache baked background stills
         uses: actions/cache@v4
         with:
           path: public/baked
-          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}
+          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}-${{ steps.scenery.outputs.key }}
+          restore-keys: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}-
       - run: node scripts/bake-backgrounds.mjs --slug "$SLUG"
       - name: Render frames ${{ matrix.chunk }}/${{ needs.plan.outputs.chunk_count }}
         run: |
@@ -329,7 +338,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: chunk-${{ env.SLUG }}-${{ matrix.chunk }}
-          path: out/chunks/${{ env.SLUG }}/chunk-${{ matrix.chunk }}.mp4
+          path: |
+            out/chunks/${{ env.SLUG }}/chunk-${{ matrix.chunk }}.mp4
+            out/chunks/${{ env.SLUG }}/chunk-${{ matrix.chunk }}.mp4.render.json
           retention-days: 3
 
   stitch:
@@ -352,7 +363,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
       - run: npm ci
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji ffmpeg > /dev/null
       - uses: actions/download-artifact@v4
         with:
           name: script-${{ env.SLUG }}
@@ -380,15 +391,19 @@ jobs:
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure
+      - name: Identify the episode's background set
+        id: scenery
+        run: echo "key=$(node scripts/bake-backgrounds.mjs --slug "$SLUG" --cache-key)" >> "$GITHUB_OUTPUT"
       - name: Cache baked background stills
         uses: actions/cache@v4
         with:
           path: public/baked
-          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}
+          key: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}-${{ steps.scenery.outputs.key }}
+          restore-keys: baked-${{ hashFiles('library/backgrounds/**', 'src/components/backgrounds/**', 'src/lib/palettes.ts', 'src/lib/random.ts', 'src/lib/layout.ts', 'src/Bake.tsx', 'scripts/bake-backgrounds.mjs') }}-
       - run: node scripts/bake-backgrounds.mjs --slug "$SLUG"
 
       - name: Stitch chunks + audio, thumbnail, metadata
-        run: node scripts/stitch.mjs --slug "$SLUG"
+        run: node scripts/stitch.mjs --slug "$SLUG" --expected-chunks "${{ needs.plan.outputs.chunk_count }}"
 
       - name: Publish as a GitHub Release (durable storage)
         id: release

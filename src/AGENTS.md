@@ -128,7 +128,7 @@ Background part renderer reads a recipe from `library/backgrounds/<name>.json` a
 - Run `npm run typecheck` to verify before committing
 - Do not use `any` — use `unknown` and narrow properly
 - Remotion imports: always `import { … } from "remotion"` (never CDN)
-- Google Fonts: always `import { … } from "@remotion/google-fonts/<FontName>"` — not `<link>` tags
+- Fonts: import `fontFamily` and `fontsReady` from `src/lib/fonts.ts`; Fredoka is served from `public/fonts/`, with no runtime font download.
 
 ---
 
@@ -136,7 +136,7 @@ Background part renderer reads a recipe from `library/backgrounds/<name>.json` a
 
 - **Bake static scenery** — the `static` background layer is pre-rendered to PNG by `bake-backgrounds.mjs`. Never render complex SVG trees on every frame if they don't animate.
 - **Chunk rendering** — the CI splits the video into ~3000-frame chunks rendered in parallel. Do not add any state that spans chunks (each chunk renders independently from frame 0 of its range).
-- **Font loading** — use `@remotion/google-fonts` preload utilities at the top of `Root.tsx` so fonts are ready before frame 0.
+- **Font loading** — await the shared `fontsReady` promise before measuring text. Preview bundles with a reduced public directory must include `public/fonts/`.
 - **Image assets** — use `<Img>` from `remotion` (not `<img>`) for cache-correct rendering.
 - **Audio assets** — use `<Audio>` from `remotion` with `staticFile()` paths.
 

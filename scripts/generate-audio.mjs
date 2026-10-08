@@ -22,6 +22,7 @@ import { directScript, songSceneCount } from "./lib/director.mjs";
 import { estimateVideoSec } from "./lib/estimate.mjs";
 import { VOICE_STORE, voiceSettings, voiceForSpeaker, voiceHash, storePaths, inStore, missingTexts } from "./lib/voice.mjs";
 import {speechEnvelope} from './lib/speech-envelope.mjs';
+import {timingForVoice} from './lib/speech-timing.mjs';
 
 loadDotEnv();
 
@@ -174,6 +175,7 @@ async function main() {
   const used = new Set();
   let synthCount = 0;
   let reusedCount = 0;
+  let timingAdded = false;
 
   const heroScene = { character: script.mainCharacter?.kind || script.hero || script.scenes[0]?.character };
   const speak = async (text, speaker = "character", scene = heroScene) => {
@@ -193,6 +195,9 @@ async function main() {
       fs.writeFileSync(store.meta, JSON.stringify({ text, durationSec: entry.durationSec, words: entry.words, envelope, synthesis: settings }));
       synthCount++;
       console.log(`[tts] ${file} ${durationSec.toFixed(2)}s  "${text}"`);
+    }
+    if((script.presentationVersion??0)>=4&&engine==='kokoro') {
+      entry={...entry,...timingForVoice({audio:store.audio,meta:store.meta,text,onCreate:()=>{timingAdded=true;}})};
     }
     // the video folder gets a copy (artifacts and the renderer only see public/)
     const local = path.join(dir, file);
@@ -259,6 +264,7 @@ async function main() {
   script.narratorVoice = narratorVoice;
   if (settings.cacheVersion === 3) script.synthesis = settings;
   writeScript(slug, script);
+  if(process.env.GITHUB_OUTPUT)fs.appendFileSync(process.env.GITHUB_OUTPUT,`timing_added=${timingAdded}\n`);
   const totalMin = (estimateVideoSec(script) / 60).toFixed(1);
   console.log(`[tts] done — ${synthCount} lines synthesized, ${reusedCount} reused from the store, ~${totalMin} min of video`);
 }

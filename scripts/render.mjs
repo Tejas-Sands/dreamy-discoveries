@@ -16,6 +16,10 @@ import { parseArgs, readScript, resolveSlug, OUT_DIR, ROOT } from "./lib/common.
 import { writeMetadata } from "./lib/metadata.mjs";
 import { buildRegistry } from "./build-registry.mjs";
 import { recordStory } from "./lib/universe.mjs";
+import {verifyVideo} from './verify-video.mjs';
+import {masterAudio} from './lib/audio-master.mjs';
+import {runMedia} from './lib/media-check.mjs';
+import {renderIdentity,writeRenderProof} from './lib/render-proof.mjs';
 
 function run(cmd, cmdArgs) {
   console.log(`[render] ${cmd} ${cmdArgs.join(" ")}`);
@@ -46,25 +50,52 @@ function main() {
   }
 
   if (args["audio-only"]) {
+    const identity=renderIdentity(script);
     const out = args.out || path.join(OUT_DIR, `${slug}.aac`);
     fs.mkdirSync(path.dirname(out), { recursive: true });
-    run("npx", ["remotion", "render", "Video", out, `--props=${props}`, "--codec=aac", `--concurrency=${concurrency}`]);
+    if((script.presentationVersion??0)>=4) {
+      const raw=`${out}.mix-${process.pid}.wav`;
+      try {
+        run('npx',['remotion','render','Video',raw,`--props=${props}`,'--codec=wav',`--concurrency=${concurrency}`]);
+        const report=masterAudio(raw,out);
+        fs.writeFileSync(`${out}.loudness.json`,JSON.stringify(report,null,2)+'\n');
+      } finally {if(fs.existsSync(raw))fs.unlinkSync(raw);}
+    } else run("npx", ["remotion", "render", "Video", out, `--props=${props}`, "--codec=aac", `--concurrency=${concurrency}`]);
+    writeRenderProof(out,identity);
     console.log(`[render] audio: ${out}`);
     return;
   }
 
-  const chunkMode = !!(args.frames || args.out);
+  const chunkMode = !!args.frames;
   const videoOut = args.out || path.join(OUT_DIR, `${slug}.mp4`);
+  const master=(script.presentationVersion??0)>=4&&!chunkMode;
+  const renderOut=chunkMode?videoOut:`${videoOut}.rendering-${process.pid}.mp4`;
   fs.mkdirSync(path.dirname(videoOut), { recursive: true });
   const extra = [`--concurrency=${concurrency}`];
+  const identity=chunkMode?renderIdentity(script):null;
   if (args.scale) extra.push(`--scale=${args.scale}`);
   if (args.frames) extra.push(`--frames=${args.frames}`);
   if (args.muted) extra.push("--muted");
-  run("npx", ["remotion", "render", "Video", videoOut, `--props=${props}`, "--codec=h264", ...extra]);
-
-  if (chunkMode) {
-    console.log(`[render] chunk: ${videoOut} (${(fs.statSync(videoOut).size / 1024 / 1024).toFixed(1)} MB)`);
-    return;
+  const audio=`${videoOut}.master-${process.pid}.aac`,finished=`${videoOut}.finishing-${process.pid}.mp4`;
+  try {
+    run("npx", ["remotion", "render", "Video", renderOut, `--props=${props}`, "--codec=h264", ...extra]);
+    if (chunkMode) {
+      writeRenderProof(videoOut,identity,String(args.frames).split('-').map(Number));
+      console.log(`[render] chunk: ${videoOut} (${(fs.statSync(videoOut).size / 1024 / 1024).toFixed(1)} MB)`);
+      return;
+    }
+    let report;
+    if(master) {
+      report=masterAudio(renderOut,audio);
+      runMedia('ffmpeg',['-y','-v','error','-i',renderOut,'-i',audio,'-map','0:v:0','-map','1:a:0','-c','copy','-movflags','+faststart',finished]);
+    }
+    const candidate=master?finished:renderOut;
+    const verification=verifyVideo(slug,candidate);
+    fs.renameSync(candidate,videoOut);
+    fs.writeFileSync(`${videoOut}.verification.json`,JSON.stringify({...verification,file:path.basename(videoOut)},null,2)+'\n');
+    if(report)fs.writeFileSync(`${videoOut}.loudness.json`,JSON.stringify(report,null,2)+'\n');
+  } finally {
+    if(!chunkMode)for(const file of [renderOut,audio,finished,`${renderOut}.verification.json`,`${finished}.verification.json`])if(fs.existsSync(file))fs.unlinkSync(file);
   }
   renderThumbnail(slug, thumbOut);
   writeMetadata(slug, script, OUT_DIR);

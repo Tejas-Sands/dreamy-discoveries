@@ -225,13 +225,13 @@ export interface MusicSpec {
   /** filename inside public/music/ */
   file: string;
   bpm: number;
-  mood: "bouncy" | "story" | "lullaby" | "none";
+  mood: "bouncy" | "story" | "lullaby" | "tender" | "curious" | "resolution" | "none";
 }
 
 export interface KidsScript {
   version?: 2;
   /** Opt in to new direction rules without changing existing episodes. */
-  presentationVersion?: 1 | 2 | 3;
+  presentationVersion?: 1 | 2 | 3 | 4;
   opening?: "hook" | "title";
   type: "rhyme" | "story";
   template?: string | null;

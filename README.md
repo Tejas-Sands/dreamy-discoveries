@@ -182,6 +182,22 @@ plus the background tour. Ambient activities are drawn live over cached scenery;
 quiet scenes slow them down, and thumbnails freeze them. The previews use existing
 artwork and do not write scripts or synthesize voices.
 
+### Review video quality
+
+New episodes use presentation version 4 for phrase captions, listener reactions,
+waveform-assisted speech timing, and a mastered audio mix. Existing slugs retain
+their saved presentation and cached voices. Full renders and stitched episodes
+are checked for complete video, audio, and valid frame counts before delivery.
+
+```bash
+npm run review:quality -- --source dev-animation-v3 --slug dev-quality-check --clips
+npm run verify:video -- --slug EXISTING
+```
+
+The comparison requires an already voiced source script. See the
+[quality workflow](docs/remotion-quality.md) for setup, review artifacts,
+render proofs, and local benchmarks. FFmpeg and ffprobe must be installed locally.
+
 ### Zero-AI story samples (no LLM, no keys)
 
 `sample-share` (sharing, bunny) and `sample-turtle` (making friends, shy turtle) are fully

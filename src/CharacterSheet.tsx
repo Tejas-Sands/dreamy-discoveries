@@ -1,12 +1,11 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Fredoka";
+import {fontFamily} from "./lib/fonts";
 import type { Action, Emotion } from "./lib/types";
 import { Character, characterBox } from "./components/characters/Character";
 import { CHARACTER_NAMES } from "./generated/registry";
 import cast from "../library/cast.json";
 
-const { fontFamily } = loadFont();
 
 const KINDS = CHARACTER_NAMES;
 const EMOTIONS: Emotion[] = ["happy", "excited", "sad", "surprised", "thinking", "sleepy", "love", "worried"];

@@ -485,6 +485,24 @@
       "durationSec": 470,
       "renderedAt": "2026-10-07T10:55:29.991Z",
       "run": "37607675458"
+    },
+    {
+      "slug": "counting-ozzy-315217",
+      "title": "Count With Ozzy!",
+      "type": "rhyme",
+      "template": "counting",
+      "topic": null,
+      "hero": "owl",
+      "heroName": "Ozzy",
+      "palette": "night",
+      "backgrounds": [
+        "night",
+        "sky"
+      ],
+      "lines": 122,
+      "durationSec": 426,
+      "renderedAt": "2026-09-30T11:43:31.520Z",
+      "release": null
     }
   ],
   "compilations": []

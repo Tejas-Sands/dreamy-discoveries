@@ -23,6 +23,11 @@ function hashFor(name) {
 
 async function main() {
   const args = parseArgs();
+  if(args['cache-key']) {
+    const names=args.slug?[...new Set(readScript(args.slug).scenes.map(scene=>scene.background))]:Object.keys(BACKGROUND_RECIPES);
+    console.log(crypto.createHash('sha256').update(JSON.stringify(names.sort())).digest('hex').slice(0,12));
+    return;
+  }
   buildRegistry();
   fs.mkdirSync(OUT, { recursive: true });
   const manifest = fs.existsSync(MANIFEST) ? JSON.parse(fs.readFileSync(MANIFEST, "utf8")) : {};

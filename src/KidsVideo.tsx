@@ -1,12 +1,12 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig, type CalculateMetadataFunction } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Fredoka";
+import {fontFamily, fontsReady} from "./lib/fonts";
 import type { Emotion, KidsScript, Scene, SfxName } from "./lib/types";
 import { BRAND_OUTRO_SEC, COUNTDOWN_SEC, FPS, computeSchedule, musicVolume, toFrames, TRANSITION_FRAMES, type SceneSlot } from "./lib/timing";
 import { getPalette, type Palette } from "./lib/palettes";
 import { CENTER_X, FRIEND_X, GROUND_Y, MAIN_X } from "./lib/layout";
 import { mouthAt, mouthShapeAt } from "./lib/speech";
-import {actorPerformance} from './lib/acting';
+import {preparePerformance,samplePerformance} from './lib/acting';
 import { beatPhase, easeInOutSine, easeOutBack, easeOutCubic, hop } from "./lib/anim";
 import { Background, BackgroundForeground } from "./components/backgrounds/Background";
 import { Character, characterBox } from "./components/characters/Character";
@@ -33,7 +33,6 @@ import {EnvironmentReaction} from './components/EnvironmentReaction';
 import {MusicBed} from './components/MusicBed';
 import {sceneScore,scoreSections} from './lib/score';
 
-const { fontFamily } = loadFont();
 
 export type KidsVideoProps = {
   slug: string;
@@ -55,6 +54,7 @@ function withDefaults(script: KidsScript): KidsScript {
 }
 
 export const calculateKidsVideoMetadata: CalculateMetadataFunction<KidsVideoProps> = async ({ props }) => {
+  await fontsReady;
   const res = await fetch(staticFile(`generated/${props.slug}/script.json`));
   if (!res.ok) {
     throw new Error(`Could not load script for slug "${props.slug}" — run the generate + tts steps first.`);
@@ -215,8 +215,12 @@ const SceneView: React.FC<{
   const friendEmotion = laugh !== null && voxFriend ? 'excited' : (script.presentationVersion ?? 0) >= 1
     ? danceBreak ? 'excited' : actorEmotion(scene,slot,'friend',frame,fps)
     : friendSpeaks ? emotion : emotion === 'thinking' || emotion === 'sad' || emotion === 'worried' ? 'happy' : emotion;
-  const mainPerformance = expressive ? actorPerformance(scene,slot,'character',frame,fps) : undefined;
-  const friendPerformance = expressive ? actorPerformance(scene,slot,'friend',frame,fps) : undefined;
+  const performanceTracks=useMemo(()=>expressive?{
+    character:preparePerformance(scene,slot,'character',fps,script.presentationVersion),
+    friend:preparePerformance(scene,slot,'friend',fps,script.presentationVersion),
+  }:null,[expressive,scene,slot,fps,script.presentationVersion]);
+  const mainPerformance = performanceTracks ? samplePerformance(performanceTracks.character,frame) : undefined;
+  const friendPerformance = performanceTracks ? samplePerformance(performanceTracks.friend,frame) : undefined;
   if (mainPerformance && (danceBreak || laugh !== null && !voxFriend)) mainPerformance.emotion = 'excited';
   if (friendPerformance && (danceBreak || laugh !== null && voxFriend)) friendPerformance.emotion = 'excited';
   const mainView = expressive && stage ? cinematicGaze(stage,scene,slot,'character',Math.max(0,frame),fps,preparedStage?.events,at=>sampleStage(preparedStage,at)) : undefined;
@@ -427,14 +431,14 @@ const SceneView: React.FC<{
       ) : null}
       {!isChant ? (
         active ? (
-          <Karaoke line={active.line} palette={palette} t={lineT} size={compact ? "small" : "big"} />
+          <Karaoke line={active.line} palette={palette} t={lineT} size={compact ? "small" : "big"} presentationVersion={script.presentationVersion} />
         ) : inHold && last ? (
           // keep the question on screen while the child thinks
-          <Karaoke line={last.line} palette={palette} t={999} size={compact ? "small" : "big"} />
+          <Karaoke line={last.line} palette={palette} t={999} size={compact ? "small" : "big"} presentationVersion={script.presentationVersion} />
         ) : null
       ) : active && !chantLines.includes(active.line.text) ? (
         // chant banner carries the rhyme lines; other lines (e.g. "Hooray!") keep the bottom pill
-        <Karaoke line={active.line} palette={palette} t={lineT} size="small" />
+        <Karaoke line={active.line} palette={palette} t={lineT} size="small" presentationVersion={script.presentationVersion} />
       ) : null}
 
       {/* ── audio: voice lines + sound effects (frames relative to this sequence) ── */}

@@ -1,10 +1,9 @@
 import React from "react";
 import { AbsoluteFill, Audio, Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Fredoka";
+import {fontFamily} from "./lib/fonts";
 import { Character, characterBox } from "./components/characters/Character";
 import { DreamLights } from "./components/BrandOutro";
 
-const { fontFamily } = loadFont();
 
 /** Only for baking the original static SVG artwork, never in an episode. */
 export const BrandArt: React.FC<{ scene: string }> = ({ scene }) => <AbsoluteFill>

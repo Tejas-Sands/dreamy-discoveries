@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, staticFile, type CalculateMetadataFunction} from 'remotion';
-import {loadFont} from '@remotion/google-fonts/Fredoka';
+import {fontFamily} from "./lib/fonts";
 import type {KidsScript} from './lib/types';
 import {getPalette} from './lib/palettes';
 import {Background} from './components/backgrounds/Background';
@@ -9,7 +9,6 @@ import {PropArt} from './components/StageProps';
 import {headlineLines, thumbnailPlan} from './lib/thumbnail';
 import {fetchBaked, type BakedMap} from './lib/baked';
 
-const {fontFamily} = loadFont();
 export type ThumbnailProps = {
   slug: string;
   script: KidsScript | null;

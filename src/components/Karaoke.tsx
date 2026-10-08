@@ -1,14 +1,16 @@
-import React from "react";
-import { spring, useVideoConfig } from "remotion";
+import React, {useEffect, useMemo, useState} from "react";
+import { continueRender, delayRender, spring, useVideoConfig } from "remotion";
 import type { Line } from "../lib/types";
 import type { Palette } from "../lib/palettes";
 import { easeOutBack } from "../lib/anim";
+import {captionPages,captionPageAt} from '../lib/captions';
+import {fontFamily,fontsReady} from '../lib/fonts';
 
 /**
  * The sing-along text pill. Words light up and pop as the voice reaches them.
  * `t` = seconds since the line's audio started.
  */
-export const Karaoke: React.FC<{ line: Line; palette: Palette; t: number; size?: "big" | "small" }> = ({ line, palette, t, size = "big" }) => {
+export const Karaoke: React.FC<{ line: Line; palette: Palette; t: number; size?: "big" | "small"; presentationVersion?:number }> = ({ line, palette, t, size = "big", presentationVersion=3 }) => {
   const { fps } = useVideoConfig();
   // entrance is keyed to the line start (t), not to the scene's frame clock
   const enter = spring({ frame: Math.max(0, Math.round(t * fps)), fps, config: { damping: 13, stiffness: 160 } });
@@ -18,6 +20,33 @@ export const Karaoke: React.FC<{ line: Line; palette: Palette; t: number; size?:
   const border = praise ? "#ffd23f" : palette.accent;
   const ball = praise ? "#ffd23f" : "#ff5d9e";
   const ballSize = size === "big" ? 30 : 26;
+  const modern=presentationVersion>=4;
+  const [fontReady,setFontReady]=useState(false);
+  const [fontHandle]=useState(()=>modern?delayRender('Measure captions with local Fredoka'):null);
+  useEffect(()=>{let mounted=true;void fontsReady.then(()=>{if(mounted)setFontReady(true);});return ()=>{mounted=false;if(fontHandle!==null)continueRender(fontHandle);};},[fontHandle]);
+  // Release only after React commits the pages measured with the loaded font.
+  useEffect(()=>{if(fontReady&&fontHandle!==null)continueRender(fontHandle);},[fontReady,fontHandle]);
+  const pages=useMemo(()=>{
+    if(!modern||!fontReady)return [];
+    const plain=line.text.split(/\s+/).filter(Boolean),duration=line.durationSec??Math.max(2.2,plain.length*.35);
+    const hasTiming=line.words?.length&&line.words.every(word=>Number.isFinite(word.start)&&Number.isFinite(word.end)&&word.end>word.start);
+    const timed=hasTiming?line.words!:plain.map((text,i)=>({text,start:duration*i/plain.length,end:duration*(i+1)/plain.length}));
+    const context=typeof document==='undefined'?null:document.createElement('canvas').getContext('2d');
+    if(context)context.font=`700 60px ${fontFamily}`;
+    return captionPages(timed,text=>context?.measureText(text).width??Array.from(text).length*34,{maxWidth:1450});
+  },[line,modern,fontReady]);
+  if(modern) {
+    const page=captionPageAt(pages,t);
+    if(!page)return null;
+    return <div data-caption-page={pages.indexOf(page)} style={{position:'absolute',left:'50%',bottom:32,width:1540,height:172,
+      transform:'translateX(-50%)',boxSizing:'border-box',padding:'14px 28px',border:`6px solid ${border}`,borderRadius:32,
+      background:palette.card,color:palette.text,fontFamily,fontSize:60,fontWeight:700,lineHeight:1.08,display:'flex',flexDirection:'column',justifyContent:'center',gap:0}}>
+      {page.rows.map((row,index)=><div key={index} style={{display:'flex',justifyContent:'center',gap:18,whiteSpace:'nowrap'}}>
+        {row.map((word,i)=><span key={i} style={{color:t>=word.start&&t<word.end?palette.highlight:palette.text,
+          textDecoration:t>=word.start&&t<word.end?'underline':'none',textDecorationThickness:4,textUnderlineOffset:7}}>{word.text}</span>)}
+      </div>)}
+    </div>;
+  }
 
   return (
     <div

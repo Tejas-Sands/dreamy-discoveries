@@ -6,7 +6,7 @@ import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {directScript} from '../scripts/lib/director.mjs';
 
-test('zero-AI generation enables v3, pins cast voices, and preserves immutable slug reruns',t=>{
+test('zero-AI generation enables v4, pins cast voices, and preserves immutable slug reruns',t=>{
   const root=new URL('../',import.meta.url).pathname,dir=fs.mkdtempSync(path.join(os.tmpdir(),'dreamy-animation-generation-'));
   t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
   for(const part of ['scripts','library','src/lib'])fs.cpSync(path.join(root,part),path.join(dir,part),{recursive:true,filter:file=>!file.endsWith('.db')});
@@ -18,7 +18,7 @@ test('zero-AI generation enables v3, pins cast voices, and preserves immutable s
   assert.equal(result.status,0,result.stderr);
   const generated=path.join(dir,'public/generated',slug,'script.json');
   const script=JSON.parse(fs.readFileSync(generated,'utf8'));
-  assert.equal(script.presentationVersion,3);
+  assert.equal(script.presentationVersion,4);
   assert.equal(script.synthesis.cacheVersion,3);
   assert.equal(new Set(Object.values(script.synthesis.castVoices)).size,6);
   assert.deepEqual(JSON.parse(JSON.stringify(directScript(script))),script);
@@ -26,7 +26,7 @@ test('zero-AI generation enables v3, pins cast voices, and preserves immutable s
 
   const permanentSlug='permanent-animation-v2';
   const permanent=path.join(dir,'library/scripts',`${permanentSlug}.json`);
-  const old={...script,slug:permanentSlug,presentationVersion:2};
+  const old={...script,slug:permanentSlug,presentationVersion:3};
   fs.writeFileSync(permanent,JSON.stringify(old));
   const before=fs.readFileSync(permanent,'utf8');
   const rerun=run(['--slug',permanentSlug]);assert.equal(rerun.status,0,rerun.stderr);

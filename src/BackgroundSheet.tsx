@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Fredoka";
+import {fontFamily} from "./lib/fonts";
 import { Background } from "./components/backgrounds/Background";
 import { BACKGROUND_NAMES } from "./generated/registry";
 import { getPalette } from "./lib/palettes";
@@ -8,7 +8,6 @@ import type { BakedMap } from "./lib/baked";
 import {Character, characterBox} from "./components/characters/Character";
 import cast from "../library/cast.json";
 
-const { fontFamily } = loadFont();
 export const backgroundStopSeconds=(seconds:unknown=2)=>typeof seconds==='number'&&Number.isFinite(seconds)?Math.max(1,Math.min(8,seconds)):2;
 
 /** Full-size review of one setting, or a short tour stop per recipe. */

@@ -144,3 +144,15 @@ test('a continuous track eases its gain into quiet scenes instead of jumping at 
   for(let i=1;i<levels.length;i++) assert.ok(Math.abs(levels[i]-levels[i-1])<=.012,'quiet scene gain jumps at the boundary');
   assert.ok(levels[0]>levels.at(-1));
 });
+
+test('v4 selects gentle story motifs while v3 and authored scene choices stay unchanged',()=>{
+  const modern={...baseScript,presentationVersion:4};
+  assert.equal(score.sceneScore(scene('tender'),modern).file,'tender-v1.wav');
+  assert.equal(score.sceneScore(scene('thinking'),modern).file,'curious-v1.wav');
+  assert.equal(score.sceneScore(scene('dialogue',{kind:'lesson'}),modern).file,'resolution-v1.wav');
+  assert.equal(score.sceneScore(scene('tender'),{...modern,presentationVersion:3}).file,'story.wav');
+  assert.equal(score.sceneScore(scene('tender',{music:null}),modern),null);
+  const custom={file:'bouncy.wav',bpm:120,mood:'bouncy'};
+  assert.deepEqual(score.sceneScore(scene('tender',{music:custom}),modern),custom);
+  assert.equal(score.sceneScore(scene('thinking'),{...modern,music:null}),null);
+});

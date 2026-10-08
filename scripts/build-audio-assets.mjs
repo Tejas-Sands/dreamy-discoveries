@@ -398,6 +398,22 @@ function buildLullaby() {
   return finalize(delay(t.buf, beat * 0.66, 0.4, 0.35), 0.7);
 }
 
+/** Sparse four-bar motifs. Versioned filenames keep older episode mixes intact. */
+function buildStoryMotif(mood) {
+  const bpm=mood==='tender'?80:96,beat=60/bpm;
+  const track=new Track(16*beat);
+  const chords=mood==='curious'?['Am','F','Am','G']:mood==='tender'?['C','Am','F','G']:['F','G','C','C'];
+  for(let bar=0;bar<4;bar++) {
+    const chord=CHORDS[chords[bar]],start=bar*4*beat;
+    for(const [index,note] of chord.entries()) {
+      track.add(softPad(midiHz(note-12),4*beat),start,.13,true);
+      track.add((mood==='curious'?marimba:musicBox)(midiHz(note+12),1.4),start+(index+(mood==='curious'?.5:0))*beat,.24,true);
+    }
+    if(mood==='resolution')track.add(pluck(midiHz(chord[0]),1.8,{seed:bar+210,bright:.25}),start,.3,true);
+  }
+  return finalize(track.buf,.65);
+}
+
 // ───────────────────────── sound effects ─────────────────────────
 function sweep(sec, f0, f1, { curve = 6, wobbleHz = 0, wobbleAmt = 0, harmonics = [[1, 1]] } = {}) {
   const len = secs(sec);
@@ -569,9 +585,10 @@ function main() {
   const args = parseArgs();
   const only = args.only;
   if (!only || only === "music") {
-    writeWav(path.join(ROOT, "public", "music", "bouncy.wav"), buildBouncy());
-    writeWav(path.join(ROOT, "public", "music", "story.wav"), buildStory());
-    writeWav(path.join(ROOT, "public", "music", "lullaby.wav"), buildLullaby());
+    const builders={bouncy:buildBouncy,story:buildStory,lullaby:buildLullaby,
+      'tender-v1':()=>buildStoryMotif('tender'),'curious-v1':()=>buildStoryMotif('curious'),'resolution-v1':()=>buildStoryMotif('resolution')};
+    if(args.name&&!Object.hasOwn(builders,args.name))throw new Error(`Unknown music asset: ${args.name}`);
+    for(const [name,make] of Object.entries(builders))if(!args.name||args.name===name)writeWav(path.join(ROOT,'public/music',`${name}.wav`),make());
   }
   if (!only || only === "sfx") {
     for (const [name, make] of Object.entries(SFX)) {

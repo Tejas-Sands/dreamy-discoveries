@@ -1,0 +1,24 @@
+{
+  "family": "Fredoka",
+  "version": "v17",
+  "sources": [
+    {
+      "subset": "hebrew",
+      "url": "https://fonts.gstatic.com/s/fredoka/v17/X7n64b87HvSqjb_WIi2yDCRwoQ_k7367_DWs89XyHw.woff2",
+      "sha256": "ab46fdbead875af9c6e967705a149f398554e9bb0f2f50c19d13b54ea4fa3195",
+      "bytes": 8852
+    },
+    {
+      "subset": "latin-ext",
+      "url": "https://fonts.gstatic.com/s/fredoka/v17/X7n64b87HvSqjb_WIi2yDCRwoQ_k7367_DWg89XyHw.woff2",
+      "sha256": "18a1723c878c0d8acc2e45a108fd62fbb976e408337804afa2908982fac13e2a",
+      "bytes": 4576
+    },
+    {
+      "subset": "latin",
+      "url": "https://fonts.gstatic.com/s/fredoka/v17/X7n64b87HvSqjb_WIi2yDCRwoQ_k7367_DWu89U.woff2",
+      "sha256": "99d6c78e043710d4f83ed90716779798b7b04eb690f73e0ad0e8f32d1f0e98c2",
+      "bytes": 29732
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 # Expressive animation
 
 **Current artwork reference (October 7):**
-`/home/citrux/Sides/arr/Pastel Kawaii Animal Limb Chart.png` is the sole source for
-character layout, proportions, native limbs, colors and clothing. An unchanged
-copy lives at `public/references/pastel-kawaii-animal-limb-chart.png`.
+The supplied Pastel Kawaii Animal Limb Chart is the sole source for character
+layout, proportions, native limbs, colors and clothing. An unchanged copy lives
+at [public/references/pastel-kawaii-animal-limb-chart.png](../public/references/pastel-kawaii-animal-limb-chart.png).
 This supersedes the earlier Daisy/Ben artwork expansion and character-bible
 appearance choices. Daisy and Ben remain references for motion timing and
 conversation behavior only. Existing character and cast IDs are retained.
@@ -32,7 +32,7 @@ and other specialist silhouettes. Tilly's carrying anchor follows the front
 flipper. All artwork remains deterministic SVG with the existing body-motion
 engine; the reference PNG is used only in developer comparisons.
 
-Newly generated episodes use `presentationVersion: 3`. The upgrade adds blended facial acting, delayed listener reactions, phrase accents, three-quarter/profile geometry, 38 individual motion profiles, spelling-based speech shapes, reactive ears/tails/scarf, physical object actions, and camera changes tied to the story. Important actions soften background movement. Questions and bedtime scenes retain steady framing.
+Expressive animation is enabled from `presentationVersion: 3`. Newly generated episodes now use version 4, which builds on this animation with the [Remotion quality improvements](remotion-quality.md). The animation upgrade adds blended facial acting, delayed listener reactions, phrase accents, three-quarter/profile geometry, 38 individual motion profiles, spelling-based speech shapes, reactive ears/tails/scarf, physical object actions, and camera changes tied to the story. Important actions soften background movement. Questions and bedtime scenes retain steady framing.
 
 The existing Director, SVG art, cached voices, and Remotion renderer supply everything. There are no new dependencies, paid services, generated assets, or AI stages. The writing prompt still uses the existing script-generation call; templates and the developer showcase use no AI.
 
@@ -98,7 +98,7 @@ cannot diverge through a separate list of species.
 The superseded body, part and separate-finger renderers and one-off Ben/Daisy
 approval scenes have been removed. Character review outputs can be regenerated
 using the chart tool; it reuses one browser and removes its build directory even
-if a render fails. It copies only the reference image instead of the voice library.
+if a render fails. It copies the reference image and local fonts without the voice library.
 Permanent scripts, voices and baked scenery are preserved.
 
 Run the complete checks after changes:
