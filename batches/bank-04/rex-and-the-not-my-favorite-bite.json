@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "rex-and-the-not-my-favorite-bite",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Rex and the Not-My-Favorite Bite",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "dinosaur",
+        "name": "Rex"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "You can say what you like without insulting someone else's food.",
+      "moralRhyme": [
+        "Not for me is fine to say,",
+        "Kind words leave a friendly way!"
+      ],
+      "youtube": {
+        "title": "Rex and the Not-My-Favorite Bite | Sunny Meadow",
+        "description": "Rex made a loud yuck beside Percy's picnic plate. Percy pulled his carefully prepared snack a little closer. A gentle friendship story. You can say what you like without insulting someone else's food. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Rex",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex made a loud yuck beside Percy's picnic plate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Percy pulled his carefully prepared snack a little closer.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That green spread looks absolutely dreadful!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is the pea spread I made for my lunch.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex had brought plain bread to their shared picnic.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Percy had offered some spread for him to try.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I have never tried a spread that color before.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You do not have to taste it if you do not want to.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex stared at the spread and wrinkled his nose.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Percy picked up his own small piece of bread.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It looks like squashed garden grass on a plate.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I like it. Those words make my lunch feel unwelcome.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex tried explaining his dislike even more loudly.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Percy stopped reaching for another little piece.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "But I am allowed not to want green food!",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Yes. I am asking you not to call my food dreadful.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍞",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does Rex have to like every flavor?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex looked at his plain bread beside Percy's plate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He imagined a friend calling his favorite bread awful.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I would not enjoy hearing that about my lunch.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "We can like different things at the same table.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex lowered his voice and spoke directly to Percy.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He did not ask his friend to change the snack.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I am sorry I called your food dreadful.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Thank you. It is still fine to choose plain bread.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex asked what the spread felt like on bread.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Percy described it without offering another spoonful.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Is it crunchy, or soft like mashed peas?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Soft. I like mine with this little piece of bread.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex decided he wanted one very tiny taste.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Percy let Rex choose the amount for himself.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I am curious now, but only a small dot.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You can stop after that if you want to.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex tasted the small dot on his bread.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He noticed the soft texture before the green pea flavor.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It feels smooth. I do not like that flavor much.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then plain bread is still waiting beside your plate.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍞",
+          "question": {
+            "answer": {
+              "text": "It is not my favorite!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What could Rex say about a food he dislikes?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex put the remaining spread back beside Percy.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He kept his words as small as his tasting bite.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It is not my favorite. Thank you for offering.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You are welcome. I am glad you told me kindly.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy enjoyed his pea spread while Rex ate plain bread.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Neither friend needed the other one's lunch to change.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "We have two different favorite things at this picnic.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And plenty of room for both on the cloth.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex asked Percy about the leaf-shaped bread pieces.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Percy pointed to the rounded ones beside his own plate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "You made these shapes especially for our picnic?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. Yours are the ones shaped like little dinosaur feet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex smiled at his very plain dinosaur-foot bread.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He thanked Percy for thinking about his favorite snack.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My bread has excellent toes, even without green spread.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I thought a dinosaur might appreciate that detail.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍞",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy offered a pretend shoe fitting for the last piece.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Rex held it above his very large real foot.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This shoe is much too small for the customer.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then the customer may enjoy eating his footwear.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

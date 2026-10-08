@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "nutty-and-the-basket-of-what-ifs",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Nutty and the Basket of What-Ifs",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "squirrel",
+        "name": "Nutty"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "One useful plan can help more than trying to prevent every what-if.",
+      "moralRhyme": [
+        "Pack what helps, then take a try,",
+        "Not each what-if needs a reply!"
+      ],
+      "youtube": {
+        "title": "Nutty and the Basket of What-Ifs | Sunny Meadow",
+        "description": "Nutty's picnic basket was too full to lift. Grandpa Tilly waited beside a mountain of extra things. A gentle friendship story. One useful plan can help more than trying to prevent every what-if. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Nutty",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty's picnic basket was too full to lift.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Grandpa Tilly waited beside a mountain of extra things.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "What if we need all this while we are out?",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "We seem to have packed for several very different picnics.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty had wanted a peaceful afternoon in the meadow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now his plans felt bigger than the little basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "What if the ground is wet or the wind blows?",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Those are possibilities. Which things will help us today?",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty added a second cloth beneath the first.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Then he packed a cushion for every imagined damp spot.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now we can sit somewhere dry on every side.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "And the basket has become much harder to carry.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty tied three spare bags around the wooden handle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He filled them with things for more imaginary problems.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "What if we drop a spoon, or lose the cloth?",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "We can manage a small problem without packing the whole room.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does Nutty need to pack everything he owns?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "The handle leaned beneath Nutty's extra little bags.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He could not move the picnic away from the bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps we should stay here and cancel going anywhere.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Would that be the afternoon you wanted to have?",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty looked toward the meadow through the open park gate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He still wanted the simple picnic he had imagined.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I wanted lunch beside the grass, not all this worrying.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Then let us choose what helps that small plan.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty unpacked the spare bags and three extra cushions.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He set them neatly beside their usual storage basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Food, water, and one cloth will do the main jobs.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "What will you do if a small surprise happens?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty considered a breeze lifting one corner of the cloth.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He placed one smooth pebble beside their picnic things.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I can hold the corner down if it flaps.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is one useful answer to one likely little problem.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty closed the basket after checking the drinking water.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "There was room around the things he actually needed.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I still have some what-ifs in my head.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "They can come along without filling every part of the basket.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Food, water, and a cloth!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What belongs in a simple picnic plan?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They walked through the gate onto the meadow path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Nutty carried the light basket in both front paws.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My picnic finally has room to leave the bench.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And we have room to notice the afternoon around us.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "meadow",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They spread the cloth where the ground felt dry.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One loose corner fluttered in a very gentle breeze.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Here is the small surprise I made a plan for.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your smooth pebble can help while we sit down.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty set the pebble on the fluttering cloth corner.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The other edge stayed still beneath his own basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That worked. I did not need six extra cushions.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now your lunch can come out instead of more equipment.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty noticed a tiny leaf drop beside his cup.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He moved it onto the grass without making another plan.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I did not pack anything for a leaf visitor.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You handled that small surprise with the paw you brought.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "squirrel",
+          "secondCharacter": "turtle",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They ate their picnic beneath the mild meadow sky.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Nutty glanced at his pleasantly light basket and smiled.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My biggest problem was bringing too many solutions.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "At least your spare cushions are having a comfortable day home.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1429 @@
+{
+  "type": "story",
+  "title": "Milo and the Banana Telephone",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "monkey",
+    "name": "Milo"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Milo and the Banana Telephone | Sunny Meadow",
+    "description": "Milo's banana telephone would not answer him. Kevin watched from the other garden bench. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Milo",
+      "funny story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo's banana telephone would not answer him.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Kevin watched from the other garden bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hello? Banana station? My picnic needs a delivery!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps your telephone is still having breakfast.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo wanted to play at ordering their lunch.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He held the yellow banana beside his ear.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🍌"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Two sandwiches, please, and one enormous apple!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You might need someone at the other end.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo turned the banana the other way around.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He spoke carefully into its curved little tip.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps I was speaking into the listening end.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It does have two very similar-looking ends.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🍌"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "The banana said absolutely nothing at all.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Milo gave it a very serious listening face.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Maybe the station cannot hear through the peel.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please do not peel your telephone until lunch.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 885,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 1095,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [
+          {
+            "kind": "give",
+            "propId": "prop-1f34c",
+            "line": 1,
+            "actor": "character",
+            "to": "friend",
+            "delaySec": 0.75,
+            "durationSec": 0.85
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍌",
+      "question": {
+        "answer": {
+          "text": "No, a pretend one!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Is Milo holding a real telephone?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo walked to a higher patch of grass.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He stretched the banana above his curly head.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you hear my important picnic order now?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can hear it very well from this bench.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo looked at the silent banana in surprise.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Kevin's voice had come from beyond his shoulder.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My telephone sounds exactly like my friend Kevin!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That could be because your friend Kevin answered.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo offered Kevin a second pretend telephone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Kevin chose a curved leaf beside the path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We need someone to play the lunch station.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I shall open a very small sandwich shop.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Kevin sat behind a nearby garden tree.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Milo waited where he could hear his voice.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hello, lunch station! Are you open for orders?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, but our manager is a very sleepy koala.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo called into the banana's yellow curve.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🍌"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Kevin lifted his leaf and answered from the tree.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Could we please have two imaginary apple sandwiches?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🍎"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Certainly. Would you like imaginary crusts as well?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍌",
+      "question": {
+        "answer": {
+          "text": "Kevin!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who answered from behind the tree?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Kevin offered an invisible lunch on a broad leaf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Milo collected it with a careful little bow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your service is wonderfully quick, Mister Lunch Station.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our kitchen has absolutely nothing to wash up.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 885,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 1095,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [
+          {
+            "kind": "give",
+            "propId": "prop-1f34c",
+            "line": 0,
+            "actor": "friend",
+            "to": "character",
+            "delaySec": 0.75,
+            "durationSec": 0.85
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo pretended to taste his invisible sandwich.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Kevin watched him chew several mouthfuls of air.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Delicious. But my real tummy is still hungry.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our pretend kitchen cannot solve that particular problem.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "They returned to their real picnic basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Milo set his banana beside Kevin's little leaf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The real lunch station appears to be this basket.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "At last, a shop with properly visible sandwiches.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "After lunch, Milo peeled his banana telephone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Kevin waved his leafy receiver from the bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Banana station will now be closed for eating.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please hold. Your caller is chewing the telephone.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "monkey",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍌",
+      "question": null,
+      "lines": [
+        {
+          "text": "Milo finished the last sweet banana mouthful.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Only the empty peel remained on his picnic plate.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our telephone seems to have lost all its insides.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Good thing we did not order a second call.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "fish"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f34c",
+            "kind": "object",
+            "label": "🍌",
+            "owner": "monkey",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "milo-and-the-banana-telephone",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "bb3749b81ee60f05474155f6ac2f2f23521853ad858d389ce3b08cacf9387ae3"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "af_heart",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

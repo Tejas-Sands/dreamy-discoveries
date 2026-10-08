@@ -1,0 +1,1566 @@
+{
+  "type": "story",
+  "title": "Gigi and the Goodbye That Needed a Plan",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "giraffe",
+    "name": "Gigi"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "You can miss a friend and still let them go do their plans.",
+  "moralRhyme": [
+    "Wave goodbye and make a start,",
+    "Keep your friend inside your heart!"
+  ],
+  "youtube": {
+    "title": "Gigi and the Goodbye That Needed a Plan | Sunny Meadow",
+    "description": "Gigi asked for one more game as Eli gathered his basket. He had already said he needed to leave. A gentle friendship story. You can miss a friend and still let them go do their plans. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Gigi",
+      "friendship story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi asked for one more game as Eli gathered his basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He had already said he needed to leave.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Could we play just one tiny round before you go?",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🌼"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I need to water my garden before the afternoon gets late.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi had loved their long visit at the park.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She wanted the happy part to keep going.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It feels too soon when we are having fun.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I enjoyed it too. I still need to do my watering.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi showed Eli a new game beside the bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He set his basket down for one short explanation.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Look! We could count all the yellow flowers here.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That would be lovely another time. I need to leave now.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi offered to walk along and keep talking.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Eli looked toward the path leading to his garden.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I could stay with you for the whole afternoon.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I was planning some quiet garden time by myself today.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🌼",
+      "question": {
+        "answer": {
+          "text": "No!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Does Eli leaving mean he stopped being Gigi's friend?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi stopped beside the edge of the clear path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her throat felt tight where another invitation wanted to come.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I do not like the feeling when a visit ends.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Goodbyes can feel sad even after a really nice visit.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi told Eli she would miss his quiet company.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She kept her feet beside the park bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want to ask you to stay, but I heard your plan.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you. I do want to spend time together again.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Eli offered another park visit after tomorrow's lunch.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Gigi thought about something they could do then.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Could we look for those yellow flowers tomorrow?",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Yes. After lunch, beside this same little bench.",
+          "speaker": "friend",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi repeated their plan in her own calm words.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then she moved her basket away from Eli's path.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tomorrow after lunch, at our little park bench.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And today I can go water my garden.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "They made a simple goodbye wave beside the gate.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Gigi let it finish without starting another game.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I liked our visit. See you after lunch tomorrow.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I liked it too. Thank you for a lovely afternoon.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": "elephant",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🌼",
+      "question": {
+        "answer": {
+          "text": "Make a simple meeting pl",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "What could help Gigi say goodbye?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Eli walked toward his garden with the little basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Gigi watched until the path curved beyond the trees.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I still feel a little sad now he has gone.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She let the sad feeling sit beside the happy memory.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi returned to the bench with her own little basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She noticed one yellow flower close to its wooden leg.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I can look at this one while I wait for tomorrow.",
+          "speaker": "character",
+          "emotion": "sad",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She studied its round middle and carefully pointed petals.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "giraffe",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi decided to draw the flower for herself.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The quiet page gave her afternoon a small new beginning.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This is something I can enjoy on my own today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her pencil made a long stem beneath a small yellow circle.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "peek",
+        "character": "bunny",
+        "side": "right",
+        "atSec": 2.2,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "giraffe",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Back home, Gigi set her flower drawing inside the basket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The visit was over, but its happy parts still mattered.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can miss Eli and still have an afternoon.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She walked home carrying the drawing and their simple plan.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "page",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 870,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "giraffe",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌼",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi looked at her flower before putting it away.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Its extremely long stem almost reached the page's edge.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tomorrow I must ask if flowers can be giraffes.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The thought gave her a small, unexpected goodbye-day giggle.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 870,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "giraffe",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "You can miss a friend and still let them go do their plans.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 870,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "giraffe",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Wave goodbye and make a start,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Keep your friend inside your heart!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "hedgehog",
+        "hippo"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 870,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "giraffe",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Wave goodbye and make a start,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Keep your friend inside your heart!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "hippo",
+        "horse"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 870,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "gigi-and-the-goodbye-that-needed-a-plan",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "55135b3a2ae8512e5f9a9eef90a06681c1418a98b1b4f75565c30076d88fcf36"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "af_heart",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

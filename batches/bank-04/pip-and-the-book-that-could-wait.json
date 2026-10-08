@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "pip-and-the-book-that-could-wait",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Pip and the Book That Could Wait",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "bird",
+        "name": "Pip"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A break can help you return to something you enjoy.",
+      "moralRhyme": [
+        "Mark your place and rest today,",
+        "Your book can wait while you go play!"
+      ],
+      "youtube": {
+        "title": "Pip and the Book That Could Wait | Sunny Meadow",
+        "description": "Pip read the same little page for the third time. Bao watched his friend's eyelids droop above the book. A gentle friendship story. A break can help you return to something you enjoy. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Pip",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip read the same little page for the third time.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Bao watched his friend's eyelids droop above the book.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I like this story, but the words keep slipping away.",
+              "speaker": "character",
+              "emotion": "sleepy",
+              "action": "nod"
+            },
+            {
+              "text": "You have been looking at it for a long while.",
+              "speaker": "friend",
+              "emotion": "sleepy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip wanted to finish before putting the book down.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Its painted forest had seemed exciting at first.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I promised myself I would reach the final page today.",
+              "speaker": "character",
+              "emotion": "sleepy",
+              "action": "nod"
+            },
+            {
+              "text": "Does that promise leave any room for a little rest?",
+              "speaker": "friend",
+              "emotion": "sleepy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip tried reading the page much faster.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The pictures passed before he noticed their small details.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now I have reached farther, but I missed that part.",
+              "speaker": "character",
+              "emotion": "sleepy",
+              "action": "nod"
+            },
+            {
+              "text": "You can turn back. There is no race inside the cover.",
+              "speaker": "friend",
+              "emotion": "sleepy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip tried sitting very straight to make himself concentrate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He opened his eyes as wide as he could.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps my sleepy eyes just need a stronger command.",
+              "speaker": "character",
+              "emotion": "sleepy",
+              "action": "nod"
+            },
+            {
+              "text": "Your eyes seem to be asking for a break instead.",
+              "speaker": "friend",
+              "emotion": "sleepy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does Pip have to finish the whole book now?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip closed the book without marking his place.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Then he opened it and could not find the forest page.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now taking a break has made another problem!",
+              "speaker": "character",
+              "emotion": "sleepy",
+              "action": "nod"
+            },
+            {
+              "text": "We could find your page and leave a marker there.",
+              "speaker": "friend",
+              "emotion": "sleepy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip looked through the pictures at a gentle pace.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He found the painted tree where his reading had stopped.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Here it is. I remember that very curly branch.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "A marker can keep that place while your eyes rest.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao offered a plain strip of clean spare paper.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Pip placed it between the forest page and the next.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This little strip can hold my place for me.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And you can close the book without losing your tree.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip shut the cover around his new paper bookmark.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "His wings felt lighter without the heavy open pages.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I thought stopping meant giving up on the whole story.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You can want to return and still rest right now.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They stepped outside to the quiet garden path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Pip stretched his wings while Bao looked at the flowers.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Real trees have very curly branches too.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And they stay here when we go back indoors.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "A bookmark!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What can save the place for later?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip enjoyed a short walk instead of rushing to finish.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The story waited where he had left it on the table.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I am beginning to wonder about the next picture again.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "We can head back when you want another look.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip chose to return after watching a small leaf fall.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "His paper marker stuck out from the waiting book.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My little strip has done an excellent keeping job.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It has stayed on the tree page all afternoon.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip read the forest page slowly enough to notice it.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He spotted a tiny painted bridge beside the roots.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I missed that bridge when I hurried before.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your rested eyes have found a new piece of the story.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip reached another page and decided to stop there.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He moved the paper marker before closing the cover.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I still have some story left for tomorrow.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then tomorrow already has something you want to visit.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "bird",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip gave the plain paper bookmark a friendly little bow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Bao admired its very important position inside the book.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for reading absolutely nothing while I rested.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A perfect job for someone with no eyes at all.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

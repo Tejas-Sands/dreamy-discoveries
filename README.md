@@ -114,6 +114,8 @@ without adding a moral chant. Keep the story's problem, attempts and resolution.
 
 `batches/bank-01/` contains 51 edited stories: 33 lesson stories and 18 comic endings.
 `batches/bank-02/` adds ten stories: five lesson stories and five comic endings.
+`batches/bank-03/` and `batches/bank-04/` add another twenty stories, split equally
+between lesson stories and comic endings, with twenty different heroes.
 
 ```bash
 npm run stories:feed -- ./batch-01.json --dry-run  # validate without saving

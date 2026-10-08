@@ -1,0 +1,1642 @@
+{
+  "type": "story",
+  "title": "Peep and the Two-Feelings Present",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "chick",
+    "name": "Peep"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "You can feel thankful and disappointed at the same time.",
+  "moralRhyme": [
+    "Glad and sad can share a day,",
+    "Both our feelings get a say!"
+  ],
+  "youtube": {
+    "title": "Peep and the Two-Feelings Present | Sunny Meadow",
+    "description": "Peep smiled at her present while her eyes felt watery. Squeaks held the ribbon from a tiny green scarf. A gentle friendship story. You can feel thankful and disappointed at the same time. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Peep",
+      "friendship story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep smiled at her present while her eyes felt watery.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Squeaks held the ribbon from a tiny green scarf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "color": "#3ecf4a",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        },
+        {
+          "text": "You made this scarf especially for me?",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. I remembered how much you enjoy getting cozy.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep had hoped for the yellow scarf in the window.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The green one was soft and carefully folded.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Thank you for thinking about my chilly neck.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I chose the softest little piece of green cloth.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "color": "#3ecf4a",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep tried smiling as brightly as she could.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The disappointed feeling stayed beneath her grateful one.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I should feel only happy about a present.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You do not have to put on a giant smile.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep wrapped the green scarf around her little neck.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "color": "#3ecf4a",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        },
+        {
+          "text": "It felt wonderfully soft but still looked green.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "color": "#3ecf4a",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Perhaps wearing it will change my other feeling.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Is it uncomfortable? We can loosen the knot.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧣",
+      "question": {
+        "answer": {
+          "text": "Yes, both can belong!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can Peep have two feelings at once?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep took the scarf off and held it carefully.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She did not want Squeaks to think she disliked her.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It is comfortable. I like how soft it feels.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then something else seems to be on your mind.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep pointed to the yellow flowers beyond the bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Squeaks sat close enough to hear her quiet voice.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I had imagined a scarf that color all week.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ah. You were hoping for a yellow one.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep nodded while her grateful feeling grew warmer.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her disappointed feeling had not vanished completely.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I feel glad you thought of me, and sad.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Those two feelings sound as though they arrived together.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Squeaks left the scarf folded in Peep's wings.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She did not hurry her friend into wearing it.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I like having a friend I can tell things to.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And I like knowing what you really enjoy.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep stroked the soft green edge with one wing.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧣"
+          },
+          "sfx": []
+        },
+        {
+          "text": "She noticed Squeaks's tiny careful stitches near the corner.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You spent time making this little part neat.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That corner kept folding, so I stitched it twice.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧣",
+      "question": {
+        "answer": {
+          "text": "No, Peep can tell her!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Does Squeaks have to guess what Peep likes?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep thanked Squeaks for the cozy fabric and stitches.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then she laid the scarf beside her for a while.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I would like to wear it when I feel chilly.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It can wait here until you want it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "A cool breeze passed between the garden flowers.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Peep picked up the scarf because her neck felt cold.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I would like its cozy green hug.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "color": "#3ecf4a",
+            "emoji": "🤗"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Shall I help you make a loose little knot?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep nodded and Squeaks helped settle the scarf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The yellow flowers bobbed beside their quiet bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I still like yellow best. This feels lovely too.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "You do not have to change your favorite color.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "They watched the green leaves beside the yellow flowers.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Peep's two feelings settled comfortably alongside each other.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Thank you for listening to the whole answer.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for trusting me with both parts.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "chick",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧣",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep tucked her chilly beak into the soft scarf.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Squeaks smiled at its small, carefully stitched corner.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My neck has decided it likes this present.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your neck gives a very snuggly review.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "chick",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "You can feel thankful and disappointed at the same time.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "chick",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Glad and sad can share a day,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Both our feelings get a say!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "giraffe",
+        "hedgehog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "chick",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Glad and sad can share a day,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Both our feelings get a say!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "hedgehog",
+        "hippo"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9e3",
+            "kind": "object",
+            "label": "🧣",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "peep-and-the-two-feelings-present",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "d96be0899064cb3ae6168bb9917c2f3d24cb3facf5b8774bcb2af3501bf69bec"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "af_heart",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

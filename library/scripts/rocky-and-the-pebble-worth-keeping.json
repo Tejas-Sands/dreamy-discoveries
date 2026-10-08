@@ -1,0 +1,1594 @@
+{
+  "type": "story",
+  "title": "Rocky and the Pebble Worth Keeping",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "raccoon",
+    "name": "Rocky"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Something can be precious because of what it means to you.",
+  "moralRhyme": [
+    "Big or little, gray or blue,",
+    "Keep what holds some joy for you!"
+  ],
+  "youtube": {
+    "title": "Rocky and the Pebble Worth Keeping | Sunny Meadow",
+    "description": "Rocky's favorite pebble looked dull beside Harry's shiny shell. He hid the gray stone behind his tail. A gentle friendship story. Something can be precious because of what it means to you. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Rocky",
+      "friendship story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky's favorite pebble looked dull beside Harry's shiny shell.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He hid the gray stone behind his tail.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My collection does not have anything that sparkles.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I brought this shell to show you its shiny middle.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky had planned a small show-and-tell on the bench.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He wanted to share yesterday's happy beach walk.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This pebble seemed very special when I found it.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "What made you choose that particular one?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky rubbed the stone against his soft little sleeve.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Its gray surface stayed exactly the same dull color.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps I can make it shine like your shell.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Some stones stay gray even after a good polish.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky stood it on a tall folded-paper stand.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The tiny pebble almost vanished behind its fancy label.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now my collection has a very grand display.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your label seems to be showing itself off.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🪨",
+      "question": {
+        "answer": {
+          "text": "No, he can keep it!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Must Rocky trade his favorite pebble?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Harry offered a spare shiny shell for a trade.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Rocky looked between the shell and his gray pebble.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I thought I wanted the shiniest thing here.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We do not have to trade unless you want to.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky put the pebble in the middle of his palm.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Its small shape fitted comfortably against his fingers.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I found it when we stopped watching the waves.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Beside the little curved path down to the sand?",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky remembered Harry making three slow hoofprints nearby.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "They had laughed at a wave washing the last one.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I kept it because our walk felt so happy.",
+          "speaker": "character",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I remember that walk. My last hoofprint became the sea.",
+          "speaker": "friend",
+          "emotion": "worried",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky held his pebble beside the glittering little shell.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "For the first time, he did not try comparing them.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your shell is shiny. My pebble remembers our walk.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then they have two very different stories to tell.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky told Harry he wanted to keep the gray pebble.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Harry put his spare shell back beside the first.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for offering. I will keep this one.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Of course. It belongs in the collection you enjoy.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🪨",
+      "question": {
+        "answer": {
+          "text": "It holds a happy memory!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Why is the pebble special to Rocky?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky folded his paper stand into a smaller little tray.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He set the pebble where it was easy to see.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This display leaves room for the pebble itself.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And room for its owner to tell the important part.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky described their beach walk before showing the stone.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Harry listened to the story behind its dull gray color.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This is the pebble from our happy wave-watching day.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "wave",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I know why you chose that particular one.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🪨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Harry showed the shell that reminded him of the water.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Neither friend asked whose collection was worth more.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your shell carries a piece of that walk too.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. We brought two different reminders home together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky tucked his pebble into a safe little pocket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The folded tray stayed beside Harry's shiny shells.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I will take it out when I miss the waves.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps next time we can visit the beach again.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "raccoon",
+      "secondCharacter": "horse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🪨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Harry looked at the gray pebble in Rocky's pocket.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Rocky gave it a very important introduction.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Small stone. Extremely large happy memory.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It must be a very roomy pebble inside.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 885,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 1095,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1faa8",
+            "kind": "object",
+            "label": "🪨",
+            "owner": "raccoon",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [
+          {
+            "kind": "give",
+            "propId": "prop-1faa8",
+            "line": 1,
+            "actor": "character",
+            "to": "friend",
+            "delaySec": 0.75,
+            "durationSec": 0.85
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "raccoon",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Rocky learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Something can be precious because of what it means to you.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "raccoon",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Big or little, gray or blue,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "🦝"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Keep what holds some joy for you!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "raccoon",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Big or little, gray or blue,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "🦝"
+          },
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Keep what holds some joy for you!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "rocky-and-the-pebble-worth-keeping",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "f4a232dbc0e81c2da591ede3d939e6590bbc1c96aaebccf3f8f2ed8ce65d902d"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "af_heart",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

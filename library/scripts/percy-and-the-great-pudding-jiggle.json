@@ -1,0 +1,1409 @@
+{
+  "type": "story",
+  "title": "Percy and the Great Pudding Jiggle",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "pig",
+    "name": "Percy"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Percy and the Great Pudding Jiggle | Sunny Meadow",
+    "description": "Percy's pudding would not sit still for its portrait. Cleo watched it wobble on a little plate. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Percy",
+      "funny story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy's pudding would not sit still for its portrait.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Cleo watched it wobble on a little plate.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please hold your pose, Your Pudding Majesty!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your model appears to have very wobbly knees.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy wanted to draw the pudding before snack time.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He placed his paper beside the kitchen table.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A beautiful portrait of a very important dessert.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let us begin before its sitting becomes our eating.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy turned the plate to find its best side.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The pudding shivered from bottom to rounded top.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have accidentally changed its whole expression!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps this pudding has more than one good side.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍮"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy held his breath and stared very carefully.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He pressed one elbow against the edge of the plate.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍮"
+          },
+          "sfx": []
+        },
+        {
+          "text": "There. Nobody breathe until I finish its outline.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your elbow has just started another pudding earthquake.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍮",
+      "question": {
+        "answer": {
+          "text": "It is soft and jiggly!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Why might a pudding wobble on its plate?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Cleo moved the plate onto a separate little mat.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Percy's paper stayed on his side of the table.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The pudding cannot feel my drawing elbow now.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then try looking while your paws stay still.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy began a very straight, serious pudding outline.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He stopped whenever the soft dessert gave a shimmy.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My model keeps changing from round to wavy.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps a wavy model needs a wavy portrait.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy offered the pudding a tiny paper crown.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He balanced it beside the plate instead of on top.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every royal portrait needs a splendid little crown.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That crown is wisely keeping away from the wobbles.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 885,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 1095,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "pig",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [
+          {
+            "kind": "give",
+            "propId": "prop-1f36e",
+            "line": 0,
+            "actor": "character",
+            "to": "friend",
+            "delaySec": 0.75,
+            "durationSec": 0.85
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy drew the crown with three pointed corners.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🍮"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Then he tried another perfectly straight pudding side.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A royal pudding must look very grand and still.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This royal pudding seems to prefer looking jiggly.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Cleo traced a tiny wiggle in the empty air.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Percy looked from her paw to the rounded dessert.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "What if the picture showed its favorite movement?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then our portrait could have a proper pudding jiggle.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍮",
+      "question": {
+        "answer": {
+          "text": "Yes, with wiggly lines!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can a drawing show the pudding moving?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy drew a curved line beside the pudding.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He added another little wiggle on the other side.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There! Those lines show where the wobble goes.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now your model looks exactly like itself.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy finished the drawing without moving the plate.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His pudding wore a crown and three cheerful wiggles.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🍮"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Presenting the royal portrait of King Jiggle!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A magnificent likeness of a very bendy ruler.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "They placed the portrait beside their waiting spoons.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Percy gave the actual pudding a small gentle bow.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for your extremely lively performance.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our model has earned a very delicious retirement.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Cleo tapped the plate lightly with her spoon.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The pudding gave one final grand little wobble.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍮"
+          },
+          "sfx": []
+        },
+        {
+          "text": "King Jiggle is bowing before the royal snack.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then we had better applaud before it falls asleep.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "pig",
+      "secondCharacter": "cat",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍮",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy giggled so hard that his own tummy shook.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Cleo pointed her spoon toward the laughing little pig.",
+          "speaker": "narrator",
+          "emotion": "neutral",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I think I have caught the pudding jiggle!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I must wait until your tummy stops.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "frog"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f36e",
+            "kind": "object",
+            "label": "🍮",
+            "owner": "cat",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "percy-and-the-great-pudding-jiggle",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "d8563fd36851d13a13e78bf9c28eff1f3fcac2904fc12c85986f68729447811a"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_heart",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

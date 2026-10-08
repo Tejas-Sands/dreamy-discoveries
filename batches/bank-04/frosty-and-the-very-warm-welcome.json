@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "frosty-and-the-very-warm-welcome",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Frosty and the Very Warm Welcome",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "snowman",
+        "name": "Frosty"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Frosty and the Very Warm Welcome | Sunny Meadow",
+        "description": "Frosty looked for a fan during Ben's warm welcome. Ben stood beside the snowy picnic bench. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Frosty",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty looked for a fan during Ben's warm welcome.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ben stood beside the snowy picnic bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Thank you, but could my welcome be colder?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I only meant I am very glad you came.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty had arrived for their little winter picnic.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ben wanted him to feel comfortable right away.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "You offered a warm welcome to a snowman.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Yes. Warm can also mean friendly and caring.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty inspected the cold bench and snowy ground.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He touched his own perfectly chilly little snow middle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "There is no warm thing anywhere near my seat.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "The welcome is in my words, not the weather.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty waved a leaf in front of the empty bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ben watched his friend fan an imaginary hot welcome.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I am cooling it down, just to be certain.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your welcome does not need a fan, Frosty.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "No, it means friendly!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does a warm welcome have to be hot?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben explained that some words have more than one meaning.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Frosty lowered the leaf and considered this carefully.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Then my welcome can feel warm while I stay cold?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Exactly. We are pleased to spend the afternoon together.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty settled beside the picnic basket with a smile.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ben offered him a place at the little cloth.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That is a very sweet thing to say.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Does sweet mean we have turned our words into sugar?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben laughed and shook his big soft head.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Frosty inspected the completely ordinary little picnic cups.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Sweet can mean kind, as well as sugary.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then our picnic has very kind cups, apparently.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty suggested making tiny snow pictures after lunch.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ben clapped his paws at the new little plan.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "We could draw circles beside this snowy path.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "What a cool idea! Let us try it.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty looked proudly at the very cold snow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Then he remembered Ben's explanation about different meanings.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Do you mean cool like winter, or cool like excellent?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "This time I mean excellent. Both meanings happen to fit.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "An excellent idea!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What does Ben mean by a cool idea?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "They made small pictures where the clear path widened.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Frosty drew a wavy line with one chilly finger.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This is a warm welcome drawn in very cool snow.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That might be our most excellent friendly picture yet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben drew a star beside Frosty's wavy line.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Frosty offered him a grand snow-artist introduction.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Meet Ben, who gives warm welcomes without any heaters.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Meet Frosty, who has stopped fanning the picnic bench.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty put the fan leaf beside their little basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He smiled at how strange their first conversation sounded.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I was trying to cool down something already friendly.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And I was trying to explain words using more words.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "They returned to the bench for a quiet rest.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ben moved the basket so both friends had room.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I am glad your welcome did not need changing.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It was always the same friendly invitation.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty gave Ben a very serious final compliment.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ben waited beside the abandoned little leaf fan.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "You are the coolest warm friend I know.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "An excellent review. I shall save it in the icebox.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

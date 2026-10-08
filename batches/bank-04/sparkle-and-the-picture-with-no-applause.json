@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "sparkle-and-the-picture-with-no-applause",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Sparkle and the Picture With No Applause",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "unicorn",
+        "name": "Sparkle"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "You can enjoy what you make even without a round of applause.",
+      "moralRhyme": [
+        "Draw the thing you like to see,",
+        "Your own joy can simply be!"
+      ],
+      "youtube": {
+        "title": "Sparkle and the Picture With No Applause | Sunny Meadow",
+        "description": "Sparkle waited for applause that never came. Ozzy was still reading the last page of his book. A gentle friendship story. You can enjoy what you make even without a round of applause. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Sparkle",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle waited for applause that never came.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy was still reading the last page of his book.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ta-da! My new rainbow has seven enormous stripes!",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I have one page left. May I look when I finish?",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle wanted her picture to feel worth making.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The silent moment made her rainbow seem smaller.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I thought you would clap as soon as you saw it.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I have not had a chance to look at it properly.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle added a giant gold star beside the rainbow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She held the page up higher than before.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps this star will make the picture exciting enough.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "Your picture can wait beside me while I finish reading.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle tried announcing it in a grand performer voice.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy kept his bookmark ready beside the little chair.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Presenting the most tremendous rainbow in Sunny Meadow!",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I heard you. I still need a moment with my book.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌈",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does silence mean Sparkle's picture is bad?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle lowered her page and stared at the new star.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She could not remember wanting it there before.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I put that star in because nobody clapped.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "What did you enjoy drawing before you hoped for applause?",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle looked at the long blue stripe near the middle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It curved more gently than all the other colors.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I liked making that blue part bend like a river.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "You can keep enjoying that part while I finish here.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle sat beside her crayons instead of announcing again.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She traced the curve in the air above her page.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I also like where the purple meets the blue.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Those sound like things you noticed for yourself.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle decided to add a tiny boat under the rainbow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She chose it because the blue curve suggested water.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My little river could have somewhere for a boat.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then make the part your own idea wants to see.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle drew a boat with one small triangular sail.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Her page became interesting before anyone said a word.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I like how the sail fits inside this space.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "She moved the crayon carefully along the boat's little side.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌈",
+          "question": {
+            "answer": {
+              "text": "Yes!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can Sparkle decide what she likes in her picture?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy finished his book and placed the bookmark inside.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He turned toward Sparkle without making a big announcement.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Would you like me to show you the boat?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. I have time to look at your picture now.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle described the blue curve and tiny sail.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy listened before pointing to the little boat.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That is my favorite part because it started a new idea.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I can see how the rainbow gave your river its shape.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy thanked Sparkle for showing him her work.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "There was no great cheering sound around the quiet table.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I thought I needed clapping to know I liked it.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You had already found several parts you enjoyed.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle set her drawing where she could see it later.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She put the gold crayon back beside the others.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The star can stay. I like its little crooked corner.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your boat seems to have an excellent view of it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌈",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle gave her tiny painted boat a solemn inspection.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy picked up his bookmark with a smile.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One problem. My passenger forgot to bring a sandwich.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then your next drawing may require a very small picnic.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

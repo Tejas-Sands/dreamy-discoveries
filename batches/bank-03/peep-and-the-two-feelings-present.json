@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "peep-and-the-two-feelings-present",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Peep and the Two-Feelings Present",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "chick",
+        "name": "Peep"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "You can feel thankful and disappointed at the same time.",
+      "moralRhyme": [
+        "Glad and sad can share a day,",
+        "Both our feelings get a say!"
+      ],
+      "youtube": {
+        "title": "Peep and the Two-Feelings Present | Sunny Meadow",
+        "description": "Peep smiled at her present while her eyes felt watery. Squeaks held the ribbon from a tiny green scarf. A gentle friendship story. You can feel thankful and disappointed at the same time. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Peep",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep smiled at her present while her eyes felt watery.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks held the ribbon from a tiny green scarf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "You made this scarf especially for me?",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Yes. I remembered how much you enjoy getting cozy.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep had hoped for the yellow scarf in the window.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The green one was soft and carefully folded.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for thinking about my chilly neck.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "I chose the softest little piece of green cloth.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep tried smiling as brightly as she could.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The disappointed feeling stayed beneath her grateful one.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I should feel only happy about a present.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "You do not have to put on a giant smile.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep wrapped the green scarf around her little neck.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It felt wonderfully soft but still looked green.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps wearing it will change my other feeling.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Is it uncomfortable? We can loosen the knot.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧣",
+          "question": {
+            "answer": {
+              "text": "Yes, both can belong!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can Peep have two feelings at once?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep took the scarf off and held it carefully.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She did not want Squeaks to think she disliked her.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It is comfortable. I like how soft it feels.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Then something else seems to be on your mind.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep pointed to the yellow flowers beyond the bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks sat close enough to hear her quiet voice.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I had imagined a scarf that color all week.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Ah. You were hoping for a yellow one.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep nodded while her grateful feeling grew warmer.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Her disappointed feeling had not vanished completely.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I feel glad you thought of me, and sad.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Those two feelings sound as though they arrived together.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks left the scarf folded in Peep's wings.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She did not hurry her friend into wearing it.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I like having a friend I can tell things to.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And I like knowing what you really enjoy.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep stroked the soft green edge with one wing.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She noticed Squeaks's tiny careful stitches near the corner.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "You spent time making this little part neat.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That corner kept folding, so I stitched it twice.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧣",
+          "question": {
+            "answer": {
+              "text": "No, Peep can tell her!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does Squeaks have to guess what Peep likes?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep thanked Squeaks for the cozy fabric and stitches.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Then she laid the scarf beside her for a while.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I would like to wear it when I feel chilly.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It can wait here until you want it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "A cool breeze passed between the garden flowers.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Peep picked up the scarf because her neck felt cold.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now I would like its cozy green hug.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Shall I help you make a loose little knot?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep nodded and Squeaks helped settle the scarf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The yellow flowers bobbed beside their quiet bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I still like yellow best. This feels lovely too.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You do not have to change your favorite color.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "They watched the green leaves beside the yellow flowers.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Peep's two feelings settled comfortably alongside each other.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for listening to the whole answer.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you for trusting me with both parts.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "chick",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧣",
+          "question": null,
+          "lines": [
+            {
+              "text": "Peep tucked her chilly beak into the soft scarf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks smiled at its small, carefully stitched corner.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My neck has decided it likes this present.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your neck gives a very snuggly review.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

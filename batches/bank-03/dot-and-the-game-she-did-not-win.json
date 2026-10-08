@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "dot-and-the-game-she-did-not-win",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Dot and the Game She Did Not Win",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "ladybug",
+        "name": "Dot"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Losing a game does not make you less welcome to play.",
+      "moralRhyme": [
+        "Win or lose, there is room to play,",
+        "Friends can try another day!"
+      ],
+      "youtube": {
+        "title": "Dot and the Game She Did Not Win | Sunny Meadow",
+        "description": "Dot's final ring missed the little garden peg. Buzz's ring stayed neatly around its rounded top. A gentle friendship story. Losing a game does not make you less welcome to play. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Dot",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot's final ring missed the little garden peg.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Buzz's ring stayed neatly around its rounded top.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I wanted to win that last turn so much.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I can see. Shall we collect our rings together?",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot folded her wings beside the playing mat.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She had enjoyed the game until the final score.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I liked tossing when I thought I might win.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "That last miss felt disappointing, did it not?",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot demanded another round before picking anything up.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Buzz agreed and put the peg back in place.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I will throw harder and win this time.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Then let us each have three turns again.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot tossed so hard her ring passed the mat.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Buzz took his turns and finished one point ahead.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now I have lost two whole games today!",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "Would you like a pause before another round?",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭕",
+          "question": {
+            "answer": {
+              "text": "No, she is still welcome!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does losing mean Dot cannot play again?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot tried pretending she did not care at all.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Her folded wings stayed tight against her back.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I do not like rings. This is a silly game.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "It is all right to like it and feel upset.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot sat on a small leaf beside the mat.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Buzz kept the rings nearby without starting alone.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I do need a little break before deciding.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I can wait while you rest your tossing arm.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot noticed a ring balancing on its thin edge.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It wobbled and fell like a sleepy little wheel.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That was the funniest part of my first turn.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I liked the way you called it a rolling donut.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot remembered laughing before they counted any points.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Her folded wings loosened a very small amount.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I did have fun before I knew the winner.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "We can count points and still enjoy those parts.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot picked up one ring and studied its shape.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She decided what she wanted from her next round.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I would like one turn that lands on the mat.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then you have a small goal of your own.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭕",
+          "question": {
+            "answer": {
+              "text": "Yes!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can Dot ask for a little break?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot asked Buzz to begin their third little game.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She breathed out before making her first gentle toss.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "No giant throwing. I will aim for the mat.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your ring stayed right where you wanted it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot's next ring touched the peg and rolled away.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Her final one settled beside her first good toss.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "None of mine stayed around the peg this time.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "But two stayed on the mat instead of flying past.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz finished with one ring around the little peg.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Dot felt a small sting and let it settle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I lost again. I am still glad I played.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I liked having you on the other side of the mat.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot helped collect the rings before their snack.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She set one upright to make the sleepy wheel again.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That part is funny whatever the score says.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The rolling donut has never checked a scoreboard.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "ladybug",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭕",
+          "question": null,
+          "lines": [
+            {
+              "text": "The ring wobbled into Buzz's waiting little feet.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Dot gave it an important pretend announcer's voice.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "First place in rolling goes to the donut!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And first place in snack time goes to both of us.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

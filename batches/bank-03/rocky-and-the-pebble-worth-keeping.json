@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "rocky-and-the-pebble-worth-keeping",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Rocky and the Pebble Worth Keeping",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "raccoon",
+        "name": "Rocky"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Something can be precious because of what it means to you.",
+      "moralRhyme": [
+        "Big or little, gray or blue,",
+        "Keep what holds some joy for you!"
+      ],
+      "youtube": {
+        "title": "Rocky and the Pebble Worth Keeping | Sunny Meadow",
+        "description": "Rocky's favorite pebble looked dull beside Harry's shiny shell. He hid the gray stone behind his tail. A gentle friendship story. Something can be precious because of what it means to you. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Rocky",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky's favorite pebble looked dull beside Harry's shiny shell.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He hid the gray stone behind his tail.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My collection does not have anything that sparkles.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "I brought this shell to show you its shiny middle.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky had planned a small show-and-tell on the bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He wanted to share yesterday's happy beach walk.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This pebble seemed very special when I found it.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "What made you choose that particular one?",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky rubbed the stone against his soft little sleeve.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Its gray surface stayed exactly the same dull color.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps I can make it shine like your shell.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Some stones stay gray even after a good polish.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky stood it on a tall folded-paper stand.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The tiny pebble almost vanished behind its fancy label.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now my collection has a very grand display.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Your label seems to be showing itself off.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪨",
+          "question": {
+            "answer": {
+              "text": "No, he can keep it!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Must Rocky trade his favorite pebble?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry offered a spare shiny shell for a trade.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Rocky looked between the shell and his gray pebble.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I thought I wanted the shiniest thing here.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "We do not have to trade unless you want to.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky put the pebble in the middle of his palm.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Its small shape fitted comfortably against his fingers.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I found it when we stopped watching the waves.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "Beside the little curved path down to the sand?",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky remembered Harry making three slow hoofprints nearby.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "They had laughed at a wave washing the last one.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I kept it because our walk felt so happy.",
+              "speaker": "character",
+              "emotion": "worried",
+              "action": "think"
+            },
+            {
+              "text": "I remember that walk. My last hoofprint became the sea.",
+              "speaker": "friend",
+              "emotion": "worried",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky held his pebble beside the glittering little shell.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "For the first time, he did not try comparing them.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Your shell is shiny. My pebble remembers our walk.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then they have two very different stories to tell.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky told Harry he wanted to keep the gray pebble.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Harry put his spare shell back beside the first.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for offering. I will keep this one.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Of course. It belongs in the collection you enjoy.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪨",
+          "question": {
+            "answer": {
+              "text": "It holds a happy memory!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Why is the pebble special to Rocky?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky folded his paper stand into a smaller little tray.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He set the pebble where it was easy to see.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This display leaves room for the pebble itself.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And room for its owner to tell the important part.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky described their beach walk before showing the stone.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Harry listened to the story behind its dull gray color.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This is the pebble from our happy wave-watching day.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "wave"
+            },
+            {
+              "text": "Now I know why you chose that particular one.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry showed the shell that reminded him of the water.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Neither friend asked whose collection was worth more.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Your shell carries a piece of that walk too.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. We brought two different reminders home together.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky tucked his pebble into a safe little pocket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The folded tray stayed beside Harry's shiny shells.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I will take it out when I miss the waves.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps next time we can visit the beach again.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "raccoon",
+          "secondCharacter": "horse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry looked at the gray pebble in Rocky's pocket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Rocky gave it a very important introduction.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Small stone. Extremely large happy memory.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It must be a very roomy pebble inside.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "hugo-and-the-bubble-museum",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Hugo and the Bubble Museum",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "hippo",
+        "name": "Hugo"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Hugo and the Bubble Museum | Sunny Meadow",
+        "description": "Hugo's most beautiful bubble vanished before his museum opened. Freddy stared at the suddenly empty patch of air. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Hugo",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo's most beautiful bubble vanished before his museum opened.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Freddy stared at the suddenly empty patch of air.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That was my entire collection of precious bubbles!",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "Your museum is having a very quiet beginning.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo wanted to exhibit one enormous rainbow bubble.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "His bubble wand waited beside a little soapy bowl.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Please admire the largest round treasure in the garden!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I would, but your treasure has already popped.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo blew a new bubble above the broad grass.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He hurried to put an open jar beneath it.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This jar can be its special museum room.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Careful. A bubble does not understand moving day.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "The bubble touched the rim and disappeared.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One tiny wet dot remained on Hugo's jar.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Our museum room appears to be empty again.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps your visitor disliked that very narrow doorway.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🫧",
+          "question": {
+            "answer": {
+              "text": "No, it can pop!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Will a real soap bubble last forever?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo tried blowing a bubble beside a flat leaf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He hoped the leaf would hold it like a plate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "A room with no doorway might be more comfortable.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your bubble is already floating away from its room.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "The bright bubble drifted beyond their little display.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It popped while Hugo watched from the garden path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My collection keeps leaving before anyone visits!",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps a bubble museum needs a different collection.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo blew several tiny bubbles very gently.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Freddy watched them drift in the warm garden light.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "These little ones might be easier to keep.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "They are lovely, but they still enjoy floating away.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "The last tiny bubble popped beside Hugo's nose.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He made a little round shape with both hands.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I wish the rainbow part could stay for longer.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You could remember it on your drawing paper.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo drew one enormous circle with a crayon.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He added blue, yellow, and pink around its edge.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This bubble has all the colors I remember.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And it has not attempted to leave the paper.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🫧",
+          "question": {
+            "answer": {
+              "text": "Draw a picture!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "How could Hugo remember a vanished bubble?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo drew three smaller bubbles beneath the first.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Freddy helped him prop the picture beside the bowl.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Welcome to my collection of bubbles I have seen!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A museum whose pictures stay until closing time.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo set the empty jar beside his colorful drawing.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He wrote a short label on a folded leaf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This room held one bubble for almost no time.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a remarkably brief historical visit.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy pretended to inspect the display very carefully.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Hugo led him past the wand and soapy bowl.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Here is the tool that made our precious treasures.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Much easier to see than your mysterious empty jar.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo pointed proudly to the empty little jar.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Freddy leaned forward without touching its glass edge.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "And here is yesterday's most magnificent bubble!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "But you only started your museum this morning.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "frog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo gave his empty jar a very serious nod.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Freddy waited for the museum keeper's grand explanation.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "An ancient bubble, from earlier this morning!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please whisper. We must not disturb its imaginary nap.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

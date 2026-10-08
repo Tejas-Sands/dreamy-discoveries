@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "gigi-and-the-goodbye-that-needed-a-plan",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Gigi and the Goodbye That Needed a Plan",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "giraffe",
+        "name": "Gigi"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "You can miss a friend and still let them go do their plans.",
+      "moralRhyme": [
+        "Wave goodbye and make a start,",
+        "Keep your friend inside your heart!"
+      ],
+      "youtube": {
+        "title": "Gigi and the Goodbye That Needed a Plan | Sunny Meadow",
+        "description": "Gigi asked for one more game as Eli gathered his basket. He had already said he needed to leave. A gentle friendship story. You can miss a friend and still let them go do their plans. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Gigi",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi asked for one more game as Eli gathered his basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He had already said he needed to leave.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Could we play just one tiny round before you go?",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I need to water my garden before the afternoon gets late.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi had loved their long visit at the park.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She wanted the happy part to keep going.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It feels too soon when we are having fun.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I enjoyed it too. I still need to do my watering.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi showed Eli a new game beside the bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He set his basket down for one short explanation.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Look! We could count all the yellow flowers here.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "point"
+            },
+            {
+              "text": "That would be lovely another time. I need to leave now.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi offered to walk along and keep talking.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Eli looked toward the path leading to his garden.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Then I could stay with you for the whole afternoon.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "I was planning some quiet garden time by myself today.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌼",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does Eli leaving mean he stopped being Gigi's friend?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi stopped beside the edge of the clear path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Her throat felt tight where another invitation wanted to come.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I do not like the feeling when a visit ends.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "Goodbyes can feel sad even after a really nice visit.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi told Eli she would miss his quiet company.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She kept her feet beside the park bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I want to ask you to stay, but I heard your plan.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you. I do want to spend time together again.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli offered another park visit after tomorrow's lunch.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi thought about something they could do then.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Could we look for those yellow flowers tomorrow?",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "point"
+            },
+            {
+              "text": "Yes. After lunch, beside this same little bench.",
+              "speaker": "friend",
+              "emotion": "sad",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi repeated their plan in her own calm words.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Then she moved her basket away from Eli's path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Tomorrow after lunch, at our little park bench.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And today I can go water my garden.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "They made a simple goodbye wave beside the gate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi let it finish without starting another game.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I liked our visit. See you after lunch tomorrow.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I liked it too. Thank you for a lovely afternoon.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": "elephant",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌼",
+          "question": {
+            "answer": {
+              "text": "Make a simple meeting plan!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What could help Gigi say goodbye?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": null,
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli walked toward his garden with the little basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi watched until the path curved beyond the trees.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I still feel a little sad now he has gone.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "nod"
+            },
+            {
+              "text": "She let the sad feeling sit beside the happy memory.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": null,
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi returned to the bench with her own little basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She noticed one yellow flower close to its wooden leg.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I can look at this one while I wait for tomorrow.",
+              "speaker": "character",
+              "emotion": "sad",
+              "action": "point"
+            },
+            {
+              "text": "She studied its round middle and carefully pointed petals.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "giraffe",
+          "secondCharacter": null,
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi decided to draw the flower for herself.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The quiet page gave her afternoon a small new beginning.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This is something I can enjoy on my own today.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Her pencil made a long stem beneath a small yellow circle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "giraffe",
+          "secondCharacter": null,
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Back home, Gigi set her flower drawing inside the basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The visit was over, but its happy parts still mattered.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I can miss Eli and still have an afternoon.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "She walked home carrying the drawing and their simple plan.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "giraffe",
+          "secondCharacter": null,
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi looked at her flower before putting it away.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Its extremely long stem almost reached the page's edge.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Tomorrow I must ask if flowers can be giraffes.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The thought gave her a small, unexpected goodbye-day giggle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

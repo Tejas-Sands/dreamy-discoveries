@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "buster-and-the-invisible-door",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Buster and the Invisible Door",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "dog",
+        "name": "Buster"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Buster and the Invisible Door | Sunny Meadow",
+        "description": "Buster stopped Shaun halfway along an open path. He pointed to a very empty patch of air. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Buster",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster stopped Shaun halfway along an open path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He pointed to a very empty patch of air.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Sorry! My new invisible door is firmly shut.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then where exactly is your invisible wall?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster was playing at guarding a grand pretend palace.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Two little stones marked its important front doorway.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Visitors must enter through the official royal door.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your palace has a wonderfully airy front garden.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster reached for an invisible golden handle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He pulled so hard his ears tilted backward.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Oh dear. My invisible handle seems to be stuck.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Would an invisible push work any better?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster pushed the air with both his paws.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Nothing moved except his own waggling little tail.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This is an extremely stubborn invisible door.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps it has forgotten that you invented it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🚪",
+          "question": {
+            "answer": {
+              "text": "An open path!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What is beside their pretend door?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster searched his imaginary pockets for a key.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Shaun waited beside the two little doorway stones.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The golden key must be in my other coat.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "You do not appear to be wearing this coat.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun took one step around the nearest stone.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now he stood beyond the very official doorway.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wait! How did you enter my royal palace?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I walked around the part with no wall.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster looked both ways along the open path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "His grand palace suddenly seemed remarkably easy to enter.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I should have invented the walls first.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Or invented a door that enjoys opening.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster decided to try a very polite knock.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He tapped the air beside Shaun's woolly shoulder.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Knock, knock! May we open the palace door?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Who is answering if we are both outside?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster hurried around the stone to answer himself.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "His important palace voice became deep and grand.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Come in! The palace welcomes friendly visitors today!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then please tell your door to welcome us too.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🚪",
+          "question": {
+            "answer": {
+              "text": "No, they can pretend!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does their invisible door need a real key?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster returned and tried his invisible handle again.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This time he swept one paw through the air.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It opens! Politeness has repaired the entire palace.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Or its inventor has changed his excellent mind.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun stepped carefully between the two little stones.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He gave the invisible doorway a very real bow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Mind the doorframe. It is extremely invisible overhead.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you. My wool is an expert at ducking.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster offered a grand tour of empty space.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Shaun admired the completely invisible palace chairs.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "And here is our magnificent royal dining room.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your dining table has a remarkably clear view.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster's tummy rumbled during the royal tour.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Shaun looked toward their picnic basket on the bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The royal palace requests a real little snack.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then let us leave through the very official doorway.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "dog",
+          "secondCharacter": "sheep",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🚪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster stepped over a stone without opening anything.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Shaun pointed to the forgotten invisible handle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Your door was closed when you walked through it.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. The palace has just installed a dog flap.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "milo-and-the-banana-telephone",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Milo and the Banana Telephone",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "monkey",
+        "name": "Milo"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Milo and the Banana Telephone | Sunny Meadow",
+        "description": "Milo's banana telephone would not answer him. Kevin watched from the other garden bench. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Milo",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo's banana telephone would not answer him.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Kevin watched from the other garden bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Hello? Banana station? My picnic needs a delivery!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps your telephone is still having breakfast.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo wanted to play at ordering their lunch.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He held the yellow banana beside his ear.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Two sandwiches, please, and one enormous apple!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You might need someone at the other end.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo turned the banana the other way around.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He spoke carefully into its curved little tip.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps I was speaking into the listening end.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It does have two very similar-looking ends.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "The banana said absolutely nothing at all.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Milo gave it a very serious listening face.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Maybe the station cannot hear through the peel.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please do not peel your telephone until lunch.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍌",
+          "question": {
+            "answer": {
+              "text": "No, a pretend one!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Is Milo holding a real telephone?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo walked to a higher patch of grass.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He stretched the banana above his curly head.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Can you hear my important picnic order now?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I can hear it very well from this bench.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo looked at the silent banana in surprise.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Kevin's voice had come from beyond his shoulder.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My telephone sounds exactly like my friend Kevin!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That could be because your friend Kevin answered.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo offered Kevin a second pretend telephone.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Kevin chose a curved leaf beside the path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "We need someone to play the lunch station.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then I shall open a very small sandwich shop.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin sat behind a nearby garden tree.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Milo waited where he could hear his voice.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Hello, lunch station! Are you open for orders?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes, but our manager is a very sleepy koala.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo called into the banana's yellow curve.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Kevin lifted his leaf and answered from the tree.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Could we please have two imaginary apple sandwiches?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Certainly. Would you like imaginary crusts as well?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍌",
+          "question": {
+            "answer": {
+              "text": "Kevin!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Who answered from behind the tree?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin offered an invisible lunch on a broad leaf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Milo collected it with a careful little bow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Your service is wonderfully quick, Mister Lunch Station.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our kitchen has absolutely nothing to wash up.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo pretended to taste his invisible sandwich.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Kevin watched him chew several mouthfuls of air.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Delicious. But my real tummy is still hungry.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our pretend kitchen cannot solve that particular problem.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "They returned to their real picnic basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Milo set his banana beside Kevin's little leaf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The real lunch station appears to be this basket.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "At last, a shop with properly visible sandwiches.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "After lunch, Milo peeled his banana telephone.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Kevin waved his leafy receiver from the bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Banana station will now be closed for eating.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please hold. Your caller is chewing the telephone.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍌",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo finished the last sweet banana mouthful.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Only the empty peel remained on his picnic plate.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Our telephone seems to have lost all its insides.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Good thing we did not order a second call.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

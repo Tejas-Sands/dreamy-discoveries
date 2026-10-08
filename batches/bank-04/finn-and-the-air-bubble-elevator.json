@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "finn-and-the-air-bubble-elevator",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Finn and the Air-Bubble Elevator",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "fish",
+        "name": "Finn"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Finn and the Air-Bubble Elevator | Sunny Meadow",
+        "description": "Finn missed his third pretend elevator in a row. Wally watched another little bubble rise above the rock. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Finn",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn missed his third pretend elevator in a row.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally watched another little bubble rise above the rock.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wait! I have not finished announcing my floor!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Your elevator has a very impatient timetable.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn wanted to play at riding an ocean elevator.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He had chosen the bubble stream beside a small rock.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "First floor, seaweed. Second floor, the bright water!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then I shall be your very grand elevator announcer.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn pressed an imaginary button beside the rock.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The next bubble rose without slowing down at all.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Going up, please! I have pressed the correct button!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps that button is attached to an imaginary elevator.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn tried giving the next bubble a ticket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He held a loose bit of seaweed in one fin.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One journey to the bright water, please.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Your passenger ticket seems larger than the elevator.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🫧",
+          "question": {
+            "answer": {
+              "text": "No, they keep rising!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Do bubbles wait for a pretend elevator button?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "The bubble passed the little ticket and kept rising.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn circled back to his rock with a sigh.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It has gone without inspecting my excellent ticket.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "This service has a remarkably quick ticket check.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn tried waiting a little higher in the water.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Another bubble slipped past before he began his announcement.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now I have missed the second floor instead!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps your elevator is designed for bubble passengers only.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn watched three small bubbles rising close together.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He realized he could swim beside their little path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I do not have to sit inside the bubble.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "You could escort it to its imaginary destinations.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn asked Wally to announce the first departure.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally gave a gentle, grand elevator voice.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Please stand back. One bubble service is now leaving!",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I am swimming alongside with my ticket ready.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn swam beside a bubble as it rose.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He kept his own fins moving at its gentle pace.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally announced the seaweed floor in a grand whisper.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn paused beside the leaves while the bubble continued.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🫧",
+          "question": {
+            "answer": {
+              "text": "Swim beside it!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "How can Finn travel alongside a bubble?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn joined the next bubble for the second pretend floor.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The water grew brighter above the little rock.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Second floor, coming up! All fins moving comfortably!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your elevator passenger appears to be doing the swimming.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn stopped at his chosen bright patch of water.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "A tiny bubble continued beyond their pretend floor.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Arrival complete. This elevator ride has excellent exercise.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our machinery is powered by one enthusiastic little fish.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "They swam back beside the rock to swap their roles.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn took the announcer's place near the seaweed leaves.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Next passenger, please. One very grand whale coming through!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I may need more than one bubble for my journey.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally floated upward beside a string of tiny bubbles.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn announced every imaginary floor with great ceremony.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Mind the doors! Actually, there are no doors.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I shall mind my very enormous tail instead.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "fish",
+          "secondCharacter": "whale",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🫧",
+          "question": null,
+          "lines": [
+            {
+              "text": "The last bubble vanished into the brighter water above.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn gave the quiet elevator rock a polite nod.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Service closed. The elevators have gone home for lunch.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps tomorrow they can wait until we finish speaking.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

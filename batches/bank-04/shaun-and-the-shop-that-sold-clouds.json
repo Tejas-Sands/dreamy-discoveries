@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "shaun-and-the-shop-that-sold-clouds",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Shaun and the Shop That Sold Clouds",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "sheep",
+        "name": "Shaun"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Shaun and the Shop That Sold Clouds | Sunny Meadow",
+        "description": "Shaun's first cloud for sale changed shape before opening. Gigi watched a cloudy rabbit become a long spoon. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Shaun",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun's first cloud for sale changed shape before opening.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi watched a cloudy rabbit become a long spoon.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My rabbit-shaped cloud has become different merchandise!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It now looks excellent for stirring enormous imaginary soup.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun wanted to open a pretend cloud shop.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He had made a small sign beside the meadow bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Clouds for pretend sale! Choose a favorite shape!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I would like something fluffy enough for a giant pillow.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun pointed to a cloud above the nearby tree.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It looked like a pillow with two uneven corners.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One giant pillow, fresh from the afternoon sky.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "How do I carry it home from up there?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun offered an empty basket beneath the drifting cloud.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi held its handle while he inspected the sky.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps it will float down into your shopping basket.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It appears to be shopping in the other direction.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "☁️",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can Shaun really own a cloud in the sky?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun pointed to a smaller cloud beside the first.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi watched it spread into a feathery little streak.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This one might fit into a smaller shopping bag.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It is getting thinner while we discuss the wrapping.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun tried drawing a boundary around the sky with his paws.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Every cloud ignored his very official imaginary shelves.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Please stay in your proper sections, fluffy customers!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I think your shelves might need to be as big as the sky.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi asked whether everyone could still watch the clouds.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Shaun looked beyond his small pretend shop sign.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Of course. These are pretend sales, not real ones.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then I shall admire mine without carrying it away.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun offered a cloud-watching tour from their little bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi chose the changing spoon above the meadow tree.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "That cloud is becoming a surprisingly tall giraffe.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A fine choice. It has excellent taste in long necks.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "The giraffe-shaped cloud stretched into a wavy ribbon.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Shaun adjusted the imaginary label with great seriousness.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Your giraffe has become a scarf at no extra charge.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I have never owned such an energetic imaginary purchase.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "☁️",
+          "question": {
+            "answer": {
+              "text": "A paper cloud!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What could their pretend shop hand to a visitor?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun drew the scarf cloud on a scrap of paper.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He offered the picture instead of the changing sky.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Here is something your shopping basket can actually carry.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It fits wonderfully, and it has stopped changing shape.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi drew a pillow cloud for Shaun's little display.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "They set the two paper pictures beside the shop sign.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now visitors can choose a drawing of their favorite.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And the real clouds can keep going wherever they like.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "They admired a new little cloud above the meadow.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It looked round enough for an imaginary biscuit.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One biscuit cloud, with absolutely no crumbs included!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then it is not suitable for my real snack.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun packed away the drawings when their game ended.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Gigi looked at his woolly, very cloud-shaped middle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Do you have one final fluffy cloud for sale?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I am the shopkeeper, not the remaining stock.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "sheep",
+          "secondCharacter": "giraffe",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "☁️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi gave the woolly shopkeeper a warm little smile.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Shaun lifted the sign beside his very ordinary sheep feet.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This cloud can walk home after closing time.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "An excellent feature. None of the others had feet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

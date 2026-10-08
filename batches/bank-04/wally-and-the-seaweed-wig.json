@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "wally-and-the-seaweed-wig",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Wally and the Seaweed Wig",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "whale",
+        "name": "Wally"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Wally and the Seaweed Wig | Sunny Meadow",
+        "description": "Wally's grand new hairstyle floated away from his head. Finn watched the loose seaweed wave above him. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Wally",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally's grand new hairstyle floated away from his head.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn watched the loose seaweed wave above him.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Please come back! My portrait is not finished!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Your hair appears to be going for a swim.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally wanted a splendid look for a pretend portrait.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He had found a loose ribbon of seaweed drifting by.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One fine green curl for one extremely grand whale.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I shall remember your pose and draw it afterward.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally balanced the loose seaweed above his forehead.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The moving water lifted it into a green loop.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I have invented a hairstyle with its own waving arm.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is greeting the entire ocean without asking you.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally tried turning his head away from the current.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The loose curl swirled toward his little side fin.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now my hairstyle has become a fashionable side scarf.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It does seem uncertain which job it applied for.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌿",
+          "question": {
+            "answer": {
+              "text": "The water moves it!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Why does the seaweed move above Wally?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally held the seaweed near his head with one fin.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He tilted his enormous face into a very serious pose.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "There. A dignified whale with a dignified green curl.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And a fin that cannot wave at its portrait artist.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "wave"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn waited while Wally tried to greet him.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The seaweed floated off as soon as the fin moved.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My hair only stays while I hold it still.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps this hairstyle would prefer a different model.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally looked toward a clump growing beside a rock.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn pointed at their loose drifting ribbon instead.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Could that rooted seaweed stay above my head?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Let the growing seaweed stay. We have our loose piece.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally returned to the ribbon floating between them.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He stopped trying to make it sit on his forehead.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This curl has excellent ideas about moving around.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps its portrait needs a moving hairstyle.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn suggested posing beside the drifting seaweed.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally left his head bare and gave a grand little nod.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "I can stand beside my fashionable green assistant.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now I can remember your whole face and both fins.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌿",
+          "question": {
+            "answer": {
+              "text": "No, use the loose piece!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Should they pull growing seaweed for a wig?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "They posed while the loose seaweed waved nearby.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally's own fins stayed free for a cheerful greeting.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Please paint my assistant's most important green curl.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I shall remember its extremely independent personality.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn described the picture he would make later.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally liked his uncovered head in the imaginary frame.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One grand whale, with seaweed beside him.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your hairstyle is now a separate member of the portrait.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "The current carried the loose ribbon past a small rock.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally watched it settle like a very fancy hat.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It has found someone who holds still for longer.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That rock might be the model it wanted all along.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "Wally gave the newly decorated rock a polite nod.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Finn circled its green and remarkably wavy crown.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Your new hair suits you, Mister Very Still Rock.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It has no complaints about the styling appointment.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "underwater",
+          "character": "whale",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌿",
+          "question": null,
+          "lines": [
+            {
+              "text": "The loose seaweed floated off the rock once more.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Wally watched it swirl away through the gentle water.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Our hairdresser has apparently resigned from both jobs.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is opening a salon somewhere farther along.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

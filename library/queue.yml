@@ -557,6 +557,166 @@ items:
     hero: taffy
     minutes: 5.5
     addedAt: 2026-10-08
+  - id: story-buster-and-the-invisible-door
+    status: pending
+    slug: buster-and-the-invisible-door
+    topic: Buster and the Invisible Door
+    type: story
+    hero: dog
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-dot-and-the-game-she-did-not-win
+    status: pending
+    slug: dot-and-the-game-she-did-not-win
+    topic: Dot and the Game She Did Not Win
+    type: story
+    hero: ladybug
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-eli-and-the-word-he-did-not-know
+    status: pending
+    slug: eli-and-the-word-he-did-not-know
+    topic: Eli and the Word He Did Not Know
+    type: story
+    hero: elephant
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-hugo-and-the-bubble-museum
+    status: pending
+    slug: hugo-and-the-bubble-museum
+    topic: Hugo and the Bubble Museum
+    type: story
+    hero: hippo
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-milo-and-the-banana-telephone
+    status: pending
+    slug: milo-and-the-banana-telephone
+    topic: Milo and the Banana Telephone
+    type: story
+    hero: monkey
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-peep-and-the-two-feelings-present
+    status: pending
+    slug: peep-and-the-two-feelings-present
+    topic: Peep and the Two-Feelings Present
+    type: story
+    hero: chick
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-percy-and-the-great-pudding-jiggle
+    status: pending
+    slug: percy-and-the-great-pudding-jiggle
+    topic: Percy and the Great Pudding Jiggle
+    type: story
+    hero: pig
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-rocky-and-the-pebble-worth-keeping
+    status: pending
+    slug: rocky-and-the-pebble-worth-keeping
+    topic: Rocky and the Pebble Worth Keeping
+    type: story
+    hero: raccoon
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-tigress-and-the-afternoon-with-no-plan
+    status: pending
+    slug: tigress-and-the-afternoon-with-no-plan
+    topic: Tigress and the Afternoon With No Plan
+    type: story
+    hero: tiger
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-ziggy-and-the-disappearing-zebra
+    status: pending
+    slug: ziggy-and-the-disappearing-zebra
+    topic: Ziggy and the Disappearing Zebra
+    type: story
+    hero: zebra
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-buzz-and-the-queue-for-nothing
+    status: pending
+    slug: buzz-and-the-queue-for-nothing
+    topic: Buzz and the Queue for Nothing
+    type: story
+    hero: bee
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-finn-and-the-air-bubble-elevator
+    status: pending
+    slug: finn-and-the-air-bubble-elevator
+    topic: Finn and the Air-Bubble Elevator
+    type: story
+    hero: fish
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-frosty-and-the-very-warm-welcome
+    status: pending
+    slug: frosty-and-the-very-warm-welcome
+    topic: Frosty and the Very Warm Welcome
+    type: story
+    hero: snowman
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-gigi-and-the-goodbye-that-needed-a-plan
+    status: pending
+    slug: gigi-and-the-goodbye-that-needed-a-plan
+    topic: Gigi and the Goodbye That Needed a Plan
+    type: story
+    hero: giraffe
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-nutty-and-the-basket-of-what-ifs
+    status: pending
+    slug: nutty-and-the-basket-of-what-ifs
+    topic: Nutty and the Basket of What-Ifs
+    type: story
+    hero: squirrel
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-pip-and-the-book-that-could-wait
+    status: pending
+    slug: pip-and-the-book-that-could-wait
+    topic: Pip and the Book That Could Wait
+    type: story
+    hero: bird
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-rex-and-the-not-my-favorite-bite
+    status: pending
+    slug: rex-and-the-not-my-favorite-bite
+    topic: Rex and the Not-My-Favorite Bite
+    type: story
+    hero: dinosaur
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-shaun-and-the-shop-that-sold-clouds
+    status: pending
+    slug: shaun-and-the-shop-that-sold-clouds
+    topic: Shaun and the Shop That Sold Clouds
+    type: story
+    hero: sheep
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-sparkle-and-the-picture-with-no-applause
+    status: pending
+    slug: sparkle-and-the-picture-with-no-applause
+    topic: Sparkle and the Picture With No Applause
+    type: story
+    hero: unicorn
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-wally-and-the-seaweed-wig
+    status: pending
+    slug: wally-and-the-seaweed-wig
+    topic: Wally and the Seaweed Wig
+    type: story
+    hero: whale
+    minutes: 5.5
+    addedAt: 2026-10-08
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

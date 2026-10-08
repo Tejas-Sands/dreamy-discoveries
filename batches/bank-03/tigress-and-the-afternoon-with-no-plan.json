@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "tigress-and-the-afternoon-with-no-plan",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Tigress and the Afternoon With No Plan",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "tiger",
+        "name": "Tigress"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A small idea of your own can begin a new game.",
+      "moralRhyme": [
+        "Start with one small thing today,",
+        "See where your idea can play!"
+      ],
+      "youtube": {
+        "title": "Tigress and the Afternoon With No Plan | Sunny Meadow",
+        "description": "Tigress sighed at an afternoon with nothing planned. Rocky rested beside an empty little basket. A gentle friendship story. A small idea of your own can begin a new game. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Tigress",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress sighed at an afternoon with nothing planned.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Rocky rested beside an empty little basket.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "There is absolutely nothing interesting to do today.",
+              "speaker": "character",
+              "emotion": "neutral",
+              "action": "nod"
+            },
+            {
+              "text": "I have not planned an afternoon game either.",
+              "speaker": "friend",
+              "emotion": "neutral",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress wanted a grand adventure before snack time.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She searched the basket for something wonderfully exciting.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "This basket should contain a ready-made adventure.",
+              "speaker": "character",
+              "emotion": "neutral",
+              "action": "nod"
+            },
+            {
+              "text": "It seems to contain one leaf and some air.",
+              "speaker": "friend",
+              "emotion": "neutral",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress took out the leaf and inspected it.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It was small, green, and completely ordinary.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps the adventure is hiding underneath the leaf.",
+              "speaker": "character",
+              "emotion": "neutral",
+              "action": "nod"
+            },
+            {
+              "text": "There is definitely more air under that part.",
+              "speaker": "friend",
+              "emotion": "neutral",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress asked Rocky to invent an enormous new game.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "He considered the quiet path beside their bench.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Could you invent an enormous new game instead?",
+              "speaker": "character",
+              "emotion": "neutral",
+              "action": "nod"
+            },
+            {
+              "text": "I cannot think of an enormous one right now.",
+              "speaker": "friend",
+              "emotion": "neutral",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does a new game need a brand-new toy?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress set the leaf on her knee and sighed.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "A soft breeze nudged its pointed little end.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Even this leaf seems bored with my knee!",
+              "speaker": "character",
+              "emotion": "neutral",
+              "action": "nod"
+            },
+            {
+              "text": "A little breeze is sending it sliding away.",
+              "speaker": "friend",
+              "emotion": "neutral",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress stopped it from sliding onto the ground.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She balanced it on the basket's broad wooden handle.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Now it looks like a little green roof.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps someone needs a house under that roof.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress placed a smooth pebble beneath the leaf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Rocky watched the small house take shape.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The pebble is a very round, very quiet guest.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "What sort of game does your guest enjoy?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress made a rule for delivering the pebble home.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She carried it on the flat part of the leaf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "One careful delivery without dropping our round guest.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That leaf looks rather slippery for a moving van.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "The pebble rolled onto the grass beside her feet.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Tigress picked it up and studied the leaf.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My moving van needs a gentler cornering rule.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You could choose a shorter route to the basket.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "The rules!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What can Tigress change in her own game?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress moved the basket closer and tried again.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "She kept the leaf level through one small turn.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Delivery complete! One pebble arriving at its green roof.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your guest has reached home with all its roundness.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky asked for a turn at the new delivery game.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Tigress explained the short route before handing it over.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "You may carry the leaf with both paws.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I shall be the careful afternoon delivery service.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "They invented a second home beside a smaller stone.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "The short route became a little neighborhood path.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "We could add a station where deliveries pause.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And a rule that drivers take turns at the basket.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress looked at the leaf that seemed ordinary before.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "It now had two homes and a delivery route.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "My adventure did not arrive already packed in here.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You started it with that little roof idea.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "tiger",
+          "secondCharacter": "raccoon",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky pretended to knock on the pebble's leafy house.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Tigress answered in a very grand pebble voice.",
+              "speaker": "narrator",
+              "emotion": "neutral",
+              "action": "look"
+            },
+            {
+              "text": "Sorry, no more deliveries. The resident is having a nap.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "An excellent idea. Even pebbles need quiet afternoons.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
