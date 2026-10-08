@@ -1,0 +1,1373 @@
+{
+  "type": "story",
+  "title": "Fiona and the Do-Nothing Championship",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "fox",
+    "name": "Fiona"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Fiona and the Do-Nothing Championship | Sunny Meadow",
+    "description": "Fiona lost her new contest before it started. Ben watched her feet jiggle beneath the bench. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Fiona",
+      "funny story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona lost her new contest before it started.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben watched her feet jiggle beneath the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Today I shall win at doing absolutely nothing!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your feet appear to have entered a different event.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona wanted a championship with no running.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She drew a finish star beside their seats.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No racing, no dancing, and definitely no hopping.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Does eating a sandwich count as doing something?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona sat very straight on her little chair.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She placed both paws neatly on her knees.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I am now a magnificent statue of stillness.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your left ear is conducting a tiny parade.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "A loose leaf brushed Fiona's ticklish ear.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She scratched it with one quick paw.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That leaf has interrupted an official sporting event!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can scratch. We are only playing a game.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "An empty chair!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who can stay still without ever blinking?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona tried staring at one perfectly still pebble.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben sat beside her with his paws folded.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "If I look at nothing moving, I will stay still.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That pebble has a very serious expression.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona blinked and Ben's tummy rumbled loudly.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Both friends broke into a little laugh.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My eyes moved before the pebble's eyes did!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My stomach has apparently requested the lunch interval.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "They reset the contest with a more comfortable pose.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona let her feet rest flat on the grass.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No stiff statues. We can just sit comfortably.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I like this rule better than the sandwich rule.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "A cloud changed shape above the little bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona pointed before remembering the championship.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look! A cloud shaped exactly like a spoon!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "An excellent spoon. An unfortunate championship pointing paw.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben shifted to let a leaf fall past him.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona noticed their empty third chair nearby.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That chair has not blinked once all morning.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It has also refused to scratch either ear.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "No!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Will the chair give a winner’s speech?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "They inspected the chair from every side.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona waved a leaf near its wooden back.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Not a twitch! A truly astonishing performance.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It has trained very hard at being a chair.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona awarded the empty chair a paper star.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben clapped softly for the silent new champion.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "First place in the Do-Nothing Championship!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Second place goes to that extremely serious pebble.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "They placed the prize beside the chair's cushion.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona offered an imaginary microphone to its back.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would our champion like to make a speech?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It appears to prefer a quiet acceptance ceremony.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona and Ben started a comfortable hopping game.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The chair remained beneath its little paper star.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our winner is still defending its title.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A champion's work is apparently never started.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "fox",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona returned for one final championship interview.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben waited beside the very silent wooden seat.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "What is your secret, Your Extremely Still Majesty?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No comment. The champion is busy doing nothing.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "giraffe"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "fox",
+            "x": 730,
+            "y": 826,
+            "location": "park"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "fiona-and-the-do-nothing-championship",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "ef2af4c32a71abfd6caf2b2a72bb5486c4fcd179c236f38a53f21a504f3d5b79"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "af_heart",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

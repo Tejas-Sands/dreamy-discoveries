@@ -477,6 +477,86 @@ items:
     hero: cow
     minutes: 5.5
     addedAt: 2026-10-08
+  - id: story-bao-and-the-picture-that-stayed-private
+    status: pending
+    slug: bao-and-the-picture-that-stayed-private
+    topic: Bao and the Picture That Stayed Private
+    type: story
+    hero: panda
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-ben-and-the-restaurant-for-one-pea
+    status: pending
+    slug: ben-and-the-restaurant-for-one-pea
+    topic: Ben and the Restaurant for One Pea
+    type: story
+    hero: ben
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-cleo-and-the-apology-with-a-but
+    status: pending
+    slug: cleo-and-the-apology-with-a-but
+    topic: Cleo and the Apology With a But
+    type: story
+    hero: cat
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-daisy-and-the-tune-with-two-makers
+    status: pending
+    slug: daisy-and-the-tune-with-two-makers
+    topic: Daisy and the Tune with Two Makers
+    type: story
+    hero: daisy
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-fiona-and-the-do-nothing-championship
+    status: pending
+    slug: fiona-and-the-do-nothing-championship
+    topic: Fiona and the Do-Nothing Championship
+    type: story
+    hero: fiona
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-freddy-and-the-treasure-that-smelled-like-lunch
+    status: pending
+    slug: freddy-and-the-treasure-that-smelled-like-lunch
+    topic: Freddy and the Treasure That Smelled Like Lunch
+    type: story
+    hero: frog
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-gigi-and-the-welcome-wave
+    status: pending
+    slug: gigi-and-the-welcome-wave
+    topic: Gigi and the Welcome Wave
+    type: story
+    hero: giraffe
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-grandpa-tilly-and-not-right-now
+    status: pending
+    slug: grandpa-tilly-and-not-right-now
+    topic: Grandpa Tilly and Not Right Now
+    type: story
+    hero: tilly
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-ozzy-and-the-indoor-weather-report
+    status: pending
+    slug: ozzy-and-the-indoor-weather-report
+    topic: Ozzy and the Indoor Weather Report
+    type: story
+    hero: ozzy
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-taffy-and-the-cardboard-express
+    status: pending
+    slug: taffy-and-the-cardboard-express
+    topic: Taffy and the Cardboard Express
+    type: story
+    hero: taffy
+    minutes: 5.5
+    addedAt: 2026-10-08
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

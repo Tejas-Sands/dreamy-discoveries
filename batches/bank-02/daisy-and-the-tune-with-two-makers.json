@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "daisy-and-the-tune-with-two-makers",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Daisy and the Tune with Two Makers",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "duck",
+        "name": "Daisy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Giving someone credit helps them feel their work belongs.",
+      "moralRhyme": [
+        "Say who helped the tune along,",
+        "Two friends helped to make our song!"
+      ],
+      "youtube": {
+        "title": "Daisy and the Tune with Two Makers | Sunny Meadow",
+        "description": "Squeaks stopped tapping during Daisy's new tune. Daisy looked down at the suddenly quiet bench. A gentle friendship story. Giving someone credit helps them feel their work belongs. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Daisy",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks stopped tapping during Daisy's new tune.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy looked down at the suddenly quiet bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Why has our little rhythm disappeared?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You told everyone you made the whole thing.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy wanted to present a tune at their picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She had made a cheerful three-note melody.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I worked hard on those three happy notes.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And I made the tapping pattern underneath them.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy sang her part without Squeaks's taps.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The pauses felt longer than she remembered.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My melody seems to have lost its little feet.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Those little feet were the rhythm I brought.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy tried tapping while singing both parts.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Her wings rushed ahead of the last note.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can do everything if I practice faster.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is not what made me feel left out.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "Squeaks!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Who made the little tapping part?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy stopped and listened to the quiet bench.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks held her tiny tapping sticks still.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Was it because you wanted a louder tapping turn?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It was because my part sounded like it belonged to nobody.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy offered to call the tune a picnic tune.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks looked at the unnamed little rhythm picture.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That name says where we will play it.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But it still does not say who made our parts.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy thought about their first practice together.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks had invented the taps before the melody settled.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "You made the beat that helped my notes fit.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And you made the notes that gave my beat a home.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy changed the words of her introduction.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She pointed to both friends on their little poster.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Melody by Daisy. Tapping rhythm by Squeaks.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That introduction has a place for both of us.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They practiced the beginning without rushing anything.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy waited for Squeaks's first little tap.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your rhythm can tell my melody when to start.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I shall give it a very clear welcome.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "Yes, both friends!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can Daisy name both makers?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks tapped and Daisy sang their short melody.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The two parts fitted around the same gentle pauses.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There are our little musical feet again!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And nobody has to hide behind the notes.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy invited Squeaks to stand beside the poster.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She tried the new introduction before their picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "We made this tune together, with two different parts.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I am ready to play my part with yours.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They performed for their pretend picnic audience.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy named both makers before beginning the tune.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Please listen for Squeaks's wonderful tapping rhythm.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And Daisy's three cheerful notes above it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Their final note ended on Squeaks's final tap.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy offered her friend a warm little bow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for telling me what I missed.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you for making room for my work.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "duck",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They put both names beneath the little music picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The tapping sticks rested beside Daisy's notes.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our tune has two makers and one happy ending.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And a very small mouse with properly introduced feet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

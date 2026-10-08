@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "taffy-and-the-cardboard-express",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Taffy and the Cardboard Express",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "bunny",
+        "name": "Taffy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Taffy and the Cardboard Express | Sunny Meadow",
+        "description": "Taffy's cardboard train refused to leave the station. Fiona sat patiently in the second empty box. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Taffy",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy's cardboard train refused to leave the station.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona sat patiently in the second empty box.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "All aboard! Next stop, the sparkling seaside!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "An excellent destination. When do we start moving?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy wanted a grand pretend train journey.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She had drawn wheels on the cardboard sides.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Four wonderful wheels on every carriage!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "They look splendid, but they are only drawings.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy blew a pretend whistle as loudly as possible.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Both boxes stayed beside the playground bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps the train has not heard its conductor.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It heard you. So did most of the playground.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy whispered the whistle directly into her box.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona leaned forward to hear the result.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Maybe this engine understands only tiny whistles.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now it is being extremely quietly stationary.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Yes!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can they pretend to travel in a still train?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy drew more wheels along the cardboard.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She added a big round one near the door.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A train with extra wheels must be extra fast.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Or extra decorated while sitting perfectly still.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona pretended to consult a very important timetable.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Taffy waited beside the newly drawn wheels.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "We are three imaginary minutes late already.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Can an imaginary journey use imaginary movement?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy looked beyond their cardboard carriage windows.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A real cloud drifted above the playground trees.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "We can describe everything our train passes!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then I shall bring my finest imaginary binoculars.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy called a station beside a pretend mountain.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona leaned left while the boxes stayed still.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The train is turning around a very tall hill!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please mind the mountain goat made of cloud.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They imagined a beach beyond the cardboard windows.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Taffy made a soft rolling sound with her voice.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Whoosh, shush! The waves are beside the tracks.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I can almost smell an imaginary seaside sandwich.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "beach",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "The waves!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Which sound belongs at the pretend seaside?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona showed an invisible ticket to the conductor.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Taffy punched it with one careful little finger.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One return journey, with a very sandy stop.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please keep all imaginary sand off the seats.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They stepped out beside their pretend seaside station.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Taffy spread a leaf as a tiny picnic cloth.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The train brought us here without moving an inch.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Its fuel bill must be wonderfully small.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They climbed back into their waiting cardboard boxes.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The playground appeared beyond their real windows again.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Next stop, the place where we started!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I recognize that bench from an earlier adventure.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy inspected the train's many painted wheels.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona returned her invisible ticket with a bow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This express has traveled all the way to the sea.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And has absolutely no mud on its wheels.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bunny",
+          "secondCharacter": "fox",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona asked about the next grand train journey.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Taffy studied her stomach like a railway clock.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The Cardboard Express is now stopping for lunch.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Finally! A destination my real feet can visit.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

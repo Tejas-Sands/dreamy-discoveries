@@ -1,0 +1,1587 @@
+{
+  "type": "story",
+  "title": "Gigi and the Welcome Wave",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "giraffe",
+    "name": "Gigi"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "A warm welcome respects how a friend wants to be greeted.",
+  "moralRhyme": [
+    "A wave can say hello today,",
+    "Let friends choose their welcome way!"
+  ],
+  "youtube": {
+    "title": "Gigi and the Welcome Wave | Sunny Meadow",
+    "description": "Gigi opened her arms and Spike stepped back. Her garden welcome suddenly felt very awkward. A gentle friendship story. A warm welcome respects how a friend wants to be greeted. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Gigi",
+      "friendship story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi opened her arms and Spike stepped back.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her garden welcome suddenly felt very awkward.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Oh! I wanted you to feel welcome here.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you. I would rather not have a hug.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi lowered her arms beside the garden gate.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Spike stood comfortably on the other side.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then we can leave the hugging out.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That would help me feel much more comfortable.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi had planned a welcome full of surprises.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A little cushion waited beside the flower beds.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I also planned a big welcome trumpet noise.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Could we leave that surprise out as well?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi looked at her carefully arranged welcome things.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Spike studied the quiet flowers beyond the gate.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I planned everything without asking what you liked.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I do like being invited to see your garden.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🌸",
+      "question": {
+        "answer": {
+          "text": "No, he can choose!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Does Spike have to accept a hug?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi put the pretend trumpet beneath her cushion.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She wondered what to do with her empty hands.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "What greeting would you like instead of hugging?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A wave, with a little space between us.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi stepped back and gave a gentle wave.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Spike waved back without leaving his comfortable spot.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hello, Spike. I am glad you came today.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hello, Gigi. That is a very nice welcome.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi offered the cushion beside the tallest flowers.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Spike shook his head and looked at the path.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like to sit here first?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I would rather walk and see the small flowers.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi moved her cushion away from the path.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The smallest flowers grew close to the ground.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can choose where our garden tour begins.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then let us start with those tiny purple ones.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike bent down beside a little purple flower.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Gigi lowered her long neck to look too.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I almost missed that one among the tall stems.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It looks like a little umbrella for a beetle.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🌸",
+      "question": {
+        "answer": {
+          "text": "A friendly wave!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "What greeting did Spike choose?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi found another small flower behind a leaf.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She pointed without picking it from its stem.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like me to move that leaf?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, please. Now we can both see it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "They explored the flower beds at Spike's pace.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Gigi asked before choosing their next little stop.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Shall we visit the yellow flowers or rest?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I would enjoy a rest beside this purple one.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi brought her cushion to a nearby shady spot.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Spike settled beside her with comfortable space.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My welcome is different from the one I planned.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And it feels as though you planned it for me.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "When Spike was ready, they returned to the gate.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Gigi left her arms comfortably at her sides.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like a goodbye wave as well?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, please. I have become quite good at waving.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "giraffe",
+      "secondCharacter": "hedgehog",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🌸",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their two gentle waves bobbed above the flowers.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The pretend trumpet stayed quietly under its cushion.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My trumpet did not get a single turn today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It gave a wonderful performance of being quiet.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "giraffe",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Gigi learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "A warm welcome respects how a friend wants to be greeted.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "giraffe",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A wave can say hello today,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let friends choose their welcome way!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog",
+        "hippo"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "garden",
+      "character": "giraffe",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A wave can say hello today,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Let friends choose their welcome way!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "hippo",
+        "horse"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "flower",
+            "kind": "flower",
+            "label": "flower",
+            "owner": "giraffe",
+            "x": 730,
+            "y": 826,
+            "location": "garden"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "gigi-and-the-welcome-wave",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "c3ea11ac31663f0024cdd21c77c945b7e0e3f1931a0958d44d09ab8808ac7e76"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "af_heart",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

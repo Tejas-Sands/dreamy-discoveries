@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "grandpa-tilly-and-not-right-now",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Grandpa Tilly and Not Right Now",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "turtle",
+        "name": "Grandpa Tilly"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A friend can say not right now and still care about you.",
+      "moralRhyme": [
+        "A little rest, a quiet day,",
+        "Friends can choose another way!"
+      ],
+      "youtube": {
+        "title": "Grandpa Tilly and Not Right Now | Sunny Meadow",
+        "description": "Grandpa Tilly's quiet seat became a football goal. Ben rolled a ball toward the shady bench. A gentle friendship story. A friend can say not right now and still care about you. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Grandpa Tilly",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Grandpa Tilly's quiet seat became a football goal.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben rolled a ball toward the shady bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I came to watch the pond and rest my feet.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Would you like to be our goalkeeper, Grandpa?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly wanted a peaceful break after his walk.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben was eager to begin their new game.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps I could stop just one little ball.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You can stay on your very comfortable seat.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly caught the first ball beside his toes.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben hurried to collect it for another turn.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That was quite enough running for my feet.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "But you hardly moved. One more little goal?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly shifted to the other end of the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The next ball rolled beneath his resting chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My quiet bench has become a busy stadium.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I thought a sitting game might suit you.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⚽",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does Tilly have to join every game?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly offered to keep score instead of catching.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Ben called numbers after every pretend goal.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One goal, then another, then two more points.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your game has brought an awful lot to remember.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly lost track while watching a pond ripple.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Ben waited for the latest imaginary score.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I cannot rest while counting every new goal.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then what would you enjoy doing right now?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly took a comfortable breath before answering.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He kept his voice gentle and very clear.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I care about you. I am not playing now.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "You would like your quiet pond break instead?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly nodded and settled back against the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben picked up the ball without another roll.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Yes. A quiet rest is what I need today.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I can take the ball to the far grass.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "They chose a play space beyond the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Tilly could see it without joining its game.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That leaves the pond corner peaceful for resting.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And plenty of grass for my imaginary football team.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⚽",
+          "question": {
+            "answer": {
+              "text": "Play farther away!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What can Ben do while Tilly rests?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": null,
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben took his ball to the open grass.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The shady bench finally had no score to keep.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can watch one little ripple at a time.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The pond ripples traveled quietly past the reeds.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": null,
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tilly rested while the nearby leaves barely stirred.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "His feet stayed comfortably on the firm path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nobody needs to win a quiet pond break.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He closed his eyes for a comfortable moment.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben returned after finishing his football game.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He left the ball well away from the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My pond break had a very relaxed winning team.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Was it a turtle and several quiet ripples?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben asked before sitting beside Tilly's cushion.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Tilly made room on the cool shaded seat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I have room for quiet company beside me.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I would enjoy sitting here for a while.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "turtle",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⚽",
+          "question": null,
+          "lines": [
+            {
+              "text": "They watched the pond without keeping any score.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The ball waited patiently on the distant grass.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "We did different things and stayed good friends.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And this bench has finally retired from football.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

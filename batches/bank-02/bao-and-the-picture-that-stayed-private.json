@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "bao-and-the-picture-that-stayed-private",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Bao and the Picture That Stayed Private",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "panda",
+        "name": "Bao"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Ask before sharing someone else's work, and respect their answer.",
+      "moralRhyme": [
+        "Some pictures stay tucked away,",
+        "Their makers choose the sharing day!"
+      ],
+      "youtube": {
+        "title": "Bao and the Picture That Stayed Private | Sunny Meadow",
+        "description": "Bao's little gallery had one very empty frame. Sparkle carried a folded picture past the table. A gentle friendship story. Ask before sharing someone else's work, and respect their answer. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Bao",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao's little gallery had one very empty frame.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sparkle carried a folded picture past the table.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your picture could fill my biggest empty frame!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "This picture is just for me, Bao.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao looked at his carefully decorated gallery sign.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had hoped for two pictures on the wall.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Then I will leave your picture with you.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you. I would like to keep it folded.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle put her picture inside a plain envelope.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao turned his empty frame over in his paws.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Could I help you find something else to display?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. I have only finished the gallery sign.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao had spent all morning decorating empty frames.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "His own drawing paper was still completely blank.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps I can draw a whole garden very quickly.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I can help put your colors where you need them.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🖼️",
+          "question": {
+            "answer": {
+              "text": "No, it stays private!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can Bao display Sparkle's private picture?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao drew six stems in a great hurry.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The last three flowers had no room for petals.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "My enormous garden has run out of paper.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "There is room for something smaller on another sheet.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao tried making the petals tiny as dots.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He could hardly see them from the gallery door.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "My visitors will need extremely small eyes.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps choose one thing you really want to draw.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao looked at his round painting-water bowl.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One small leaf floated gently on the surface.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I like that little leaf beside the window.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then you could give that one leaf a whole page.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao drew a large leaf with a crooked stem.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He followed its shape without rushing the pencil.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This stem bends differently from the real one.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It still looks like a leaf enjoying its bowl.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle moved her envelope away from a wet brush.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao offered a dry spot beside her chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your picture can stay here while we work.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes, with the envelope closed. That spot is perfect.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🖼️",
+          "question": {
+            "answer": {
+              "text": "Sparkle does!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Who chooses when Sparkle shares her picture?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao added the bowl beneath his finished leaf.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The simple picture fitted his largest empty frame.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One leaf was enough to fill my picture.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And there is plenty of room for its bowl.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao placed his own drawing on the gallery table.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He left Sparkle's closed envelope beside her chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My gallery will show the picture I made today.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I would be happy to help write its label.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle wrote Bao's name beneath the leaf picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao gave their fancy gallery sign a final wipe.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for helping without lending your picture.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I can enjoy your gallery and keep mine private.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "They stepped back to admire the framed little leaf.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sparkle tucked her closed envelope into her bag.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would you like to tell me about your picture?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Not today, but I can tell you about yours.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "unicorn",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖼️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle pointed to Bao's very round painted bowl.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Its crooked leaf seemed to lean toward the sign.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I think your leaf is inspecting the gallery hours.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then we had better open before it gets impatient.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "freddy-and-the-treasure-that-smelled-like-lunch",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Freddy and the Treasure That Smelled Like Lunch",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "frog",
+        "name": "Freddy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Freddy and the Treasure That Smelled Like Lunch | Sunny Meadow",
+        "description": "Freddy's treasure map led straight into a flowerbed. Nutty stopped on the path before the flowers. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Freddy",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy's treasure map led straight into a flowerbed.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty stopped on the path before the flowers.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I am certain the treasure is not a tulip.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your map's tree is pointing away from our tree.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy wanted to guide Nutty to a secret prize.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had hidden a covered basket before breakfast.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A splendid treasure awaits two daring explorers!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Does it contain anything worth eating after exploring?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy held the map with its tree upside down.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He followed an arrow toward the garden wall.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Three steps forward, then turn beside the round rock.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That rock is on the other side of us.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They checked their route from the clear path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The painted pond was behind their shoulders.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our map seems to have put the garden backward.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps the map needs turning, not the whole garden.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Toward the real tree!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Which way should the map’s tree face?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy rotated the paper without checking the tree.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A different arrow now pointed toward the gate.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This way! The secret prize is almost certainly near.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "We have almost certainly arrived where we started.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty compared the real tree with its picture.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Freddy turned the map until both matched.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now the rock and pond are in their proper places!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And we can see where our explorers should begin.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They followed the arrow past the round rock.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Freddy checked each landmark before the next turn.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One real rock beside one painted rock.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "This expedition has become much less backward.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "A delicious apple smell drifted along the path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty sniffed above the folded little map.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our treasure seems to be giving us directions.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is very considerate behavior from a hidden prize.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They reached the bench shown by the final arrow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A covered basket waited in its cool shade.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "We have found the mysterious treasure chest!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is remarkably similar to our picnic basket.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Their picnic basket!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What might smell like apples near the treasure?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy lifted the cloth with a grand flourish.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Apples and sandwiches filled the little basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Behold! A treasure you can actually have for lunch!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "At last, an expedition with an excellent ending.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They spread the cover beside their recovered prize.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty counted the sandwiches before choosing one.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This treasure has no crowns or shiny coins.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That makes it much easier to chew.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy offered Nutty the first crisp apple.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The map lay correctly facing their picnic bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "How would you rate my magnificent treasure hunt?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Very tasty, once the garden stopped turning around.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty found a tiny crumb beneath the basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He placed it in Freddy's empty treasure hand.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A second secret treasure has been discovered!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That prize is rather small for two explorers.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy pretended to open a miniature treasure vault.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty watched him guard the crumb very solemnly.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "No thieves! This treasure belongs in my tummy.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your tummy is a very hungry treasure chest.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

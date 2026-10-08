@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "gigi-and-the-welcome-wave",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Gigi and the Welcome Wave",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "giraffe",
+        "name": "Gigi"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A warm welcome respects how a friend wants to be greeted.",
+      "moralRhyme": [
+        "A wave can say hello today,",
+        "Let friends choose their welcome way!"
+      ],
+      "youtube": {
+        "title": "Gigi and the Welcome Wave | Sunny Meadow",
+        "description": "Gigi opened her arms and Spike stepped back. Her garden welcome suddenly felt very awkward. A gentle friendship story. A warm welcome respects how a friend wants to be greeted. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Gigi",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi opened her arms and Spike stepped back.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Her garden welcome suddenly felt very awkward.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Oh! I wanted you to feel welcome here.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you. I would rather not have a hug.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi lowered her arms beside the garden gate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Spike stood comfortably on the other side.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Then we can leave the hugging out.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That would help me feel much more comfortable.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi had planned a welcome full of surprises.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A little cushion waited beside the flower beds.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I also planned a big welcome trumpet noise.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Could we leave that surprise out as well?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi looked at her carefully arranged welcome things.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Spike studied the quiet flowers beyond the gate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I planned everything without asking what you liked.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I do like being invited to see your garden.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌸",
+          "question": {
+            "answer": {
+              "text": "No, he can choose!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Does Spike have to accept a hug?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi put the pretend trumpet beneath her cushion.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She wondered what to do with her empty hands.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "What greeting would you like instead of hugging?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "A wave, with a little space between us.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi stepped back and gave a gentle wave.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Spike waved back without leaving his comfortable spot.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Hello, Spike. I am glad you came today.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Hello, Gigi. That is a very nice welcome.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi offered the cushion beside the tallest flowers.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Spike shook his head and looked at the path.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Would you like to sit here first?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I would rather walk and see the small flowers.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi moved her cushion away from the path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The smallest flowers grew close to the ground.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "You can choose where our garden tour begins.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then let us start with those tiny purple ones.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike bent down beside a little purple flower.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Gigi lowered her long neck to look too.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I almost missed that one among the tall stems.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It looks like a little umbrella for a beetle.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌸",
+          "question": {
+            "answer": {
+              "text": "A friendly wave!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What greeting did Spike choose?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi found another small flower behind a leaf.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She pointed without picking it from its stem.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would you like me to move that leaf?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes, please. Now we can both see it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "They explored the flower beds at Spike's pace.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Gigi asked before choosing their next little stop.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Shall we visit the yellow flowers or rest?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I would enjoy a rest beside this purple one.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi brought her cushion to a nearby shady spot.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Spike settled beside her with comfortable space.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My welcome is different from the one I planned.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And it feels as though you planned it for me.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "When Spike was ready, they returned to the gate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Gigi left her arms comfortably at her sides.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would you like a goodbye wave as well?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes, please. I have become quite good at waving.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "giraffe",
+          "secondCharacter": "hedgehog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌸",
+          "question": null,
+          "lines": [
+            {
+              "text": "Their two gentle waves bobbed above the flowers.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The pretend trumpet stayed quietly under its cushion.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My trumpet did not get a single turn today.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It gave a wonderful performance of being quiet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

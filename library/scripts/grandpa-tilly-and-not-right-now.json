@@ -1,0 +1,1563 @@
+{
+  "type": "story",
+  "title": "Grandpa Tilly and Not Right Now",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "turtle",
+    "name": "Grandpa Tilly"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "A friend can say not right now and still care about you.",
+  "moralRhyme": [
+    "A little rest, a quiet day,",
+    "Friends can choose another way!"
+  ],
+  "youtube": {
+    "title": "Grandpa Tilly and Not Right Now | Sunny Meadow",
+    "description": "Grandpa Tilly's quiet seat became a football goal. Ben rolled a ball toward the shady bench. A gentle friendship story. A friend can say not right now and still care about you. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Grandpa Tilly",
+      "friendship story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly's quiet seat became a football goal.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben rolled a ball toward the shady bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I came to watch the pond and rest my feet.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like to be our goalkeeper, Grandpa?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.45,
+                "to": {
+                  "x": 820,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 730,
+            "y": 826,
+            "location": "pond"
+          }
+        ],
+        "events": [
+          {
+            "kind": "roll",
+            "propId": "ball",
+            "line": 1,
+            "actor": "friend",
+            "delaySec": 0.55,
+            "durationSec": 1.05,
+            "endpoint": {
+              "x": 490,
+              "y": 826
+            }
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly wanted a peaceful break after his walk.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben was eager to begin their new game.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps I could stop just one little ball.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⚽"
+          },
+          "sfx": []
+        },
+        {
+          "text": "You can stay on your very comfortable seat.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly caught the first ball beside his toes.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben hurried to collect it for another turn.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That was quite enough running for my feet.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But you hardly moved. One more little goal?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly shifted to the other end of the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The next ball rolled beneath his resting chair.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My quiet bench has become a busy stadium.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I thought a sitting game might suit you.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⚽",
+      "question": {
+        "answer": {
+          "text": "No!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Does Tilly have to join every game?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly offered to keep score instead of catching.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben called numbers after every pretend goal.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One goal, then another, then two more points.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "count",
+            "emoji": "⚽",
+            "count": 2
+          },
+          "sfx": []
+        },
+        {
+          "text": "Your game has brought an awful lot to remember.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly lost track while watching a pond ripple.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben waited for the latest imaginary score.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I cannot rest while counting every new goal.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then what would you enjoy doing right now?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐢",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly took a comfortable breath before answering.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He kept his voice gentle and very clear.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I care about you. I am not playing now.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You would like your quiet pond break instead?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly nodded and settled back against the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ben picked up the ball without another roll.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. A quiet rest is what I need today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I can take the ball to the far grass.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 820,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.55,
+                "to": {
+                  "x": 400,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": null,
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [
+          {
+            "kind": "pick-up",
+            "propId": "ball",
+            "line": 1,
+            "actor": "friend",
+            "delaySec": 0.6,
+            "durationSec": 0.8
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "They chose a play space beyond the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly could see it without joining its game.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That leaves the pond corner peaceful for resting.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And plenty of grass for my imaginary football team.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🫧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 400,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": "bear",
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⚽",
+      "question": {
+        "answer": {
+          "text": "Play farther away!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "What can Ben do while Tilly rests?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 400,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": "bear",
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben took his ball to the open grass.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The shady bench finally had no score to keep.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can watch one little ripple at a time.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⚽"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The pond ripples traveled quietly past the reeds.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": null,
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Tilly rested while the nearby leaves barely stirred.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His feet stayed comfortably on the firm path.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Nobody needs to win a quiet pond break.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He closed his eyes for a comfortable moment.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben returned after finishing his football game.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He left the ball well away from the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My pond break had a very relaxed winning team.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Was it a turtle and several quiet ripples?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 400,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": "bear",
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben asked before sitting beside Tilly's cushion.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tilly made room on the cool shaded seat.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have room for quiet company beside me.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I would enjoy sitting here for a while.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 400,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": "bear",
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "pond",
+      "character": "turtle",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⚽",
+      "question": null,
+      "lines": [
+        {
+          "text": "They watched the pond without keeping any score.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The ball waited patiently on the distant grass.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We did different things and stayed good friends.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And this bench has finally retired from football.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 400,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "ball",
+            "kind": "ball",
+            "label": "ball",
+            "owner": "bear",
+            "x": 490,
+            "y": 826,
+            "location": "pond",
+            "rotation": -257.99225296697483
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "pond",
+      "character": "turtle",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Grandpa Tilly learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "A friend can say not right now and still care about you.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "pond",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A little rest, a quiet day,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Friends can choose another way!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "hedgehog",
+        "hippo"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "pond",
+      "character": "turtle",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "A little rest, a quiet day,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Friends can choose another way!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "hippo",
+        "horse"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "grandpa-tilly-and-not-right-now",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "4da7e259ae4b8870ae79809bc72f663d0268d62f7c09af0349afe49b99c33c5b"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "af_heart",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

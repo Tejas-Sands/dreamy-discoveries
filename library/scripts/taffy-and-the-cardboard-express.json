@@ -1,0 +1,1381 @@
+{
+  "type": "story",
+  "title": "Taffy and the Cardboard Express",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "bunny",
+    "name": "Taffy"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Taffy and the Cardboard Express | Sunny Meadow",
+    "description": "Taffy's cardboard train refused to leave the station. Fiona sat patiently in the second empty box. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Taffy",
+      "funny story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy's cardboard train refused to leave the station.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona sat patiently in the second empty box.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "All aboard! Next stop, the sparkling seaside!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "An excellent destination. When do we start moving?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy wanted a grand pretend train journey.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She had drawn wheels on the cardboard sides.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Four wonderful wheels on every carriage!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "4",
+            "emoji": "🧺"
+          },
+          "sfx": []
+        },
+        {
+          "text": "They look splendid, but they are only drawings.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy blew a pretend whistle as loudly as possible.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Both boxes stayed beside the playground bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps the train has not heard its conductor.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It heard you. So did most of the playground.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy whispered the whistle directly into her box.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona leaned forward to hear the result.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Maybe this engine understands only tiny whistles.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now it is being extremely quietly stationary.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧺",
+      "question": {
+        "answer": {
+          "text": "Yes!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can they pretend to travel in a still train?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy drew more wheels along the cardboard.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She added a big round one near the door.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧺"
+          },
+          "sfx": []
+        },
+        {
+          "text": "A train with extra wheels must be extra fast.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Or extra decorated while sitting perfectly still.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona pretended to consult a very important timetable.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy waited beside the newly drawn wheels.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We are three imaginary minutes late already.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🧺"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Can an imaginary journey use imaginary movement?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy looked beyond their cardboard carriage windows.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A real cloud drifted above the playground trees.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can describe everything our train passes!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I shall bring my finest imaginary binoculars.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy called a station beside a pretend mountain.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona leaned left while the boxes stayed still.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The train is turning around a very tall hill!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please mind the mountain goat made of cloud.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "They imagined a beach beyond the cardboard windows.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy made a soft rolling sound with her voice.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Whoosh, shush! The waves are beside the tracks.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can almost smell an imaginary seaside sandwich.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "ripple",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🫧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧺",
+      "question": {
+        "answer": {
+          "text": "The waves!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Which sound belongs at the pretend seaside?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona showed an invisible ticket to the conductor.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy punched it with one careful little finger.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧺"
+          },
+          "sfx": []
+        },
+        {
+          "text": "One return journey, with a very sandy stop.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧺"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Please keep all imaginary sand off the seats.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "They stepped out beside their pretend seaside station.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy spread a leaf as a tiny picnic cloth.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The train brought us here without moving an inch.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Its fuel bill must be wonderfully small.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐠",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "They climbed back into their waiting cardboard boxes.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The playground appeared beyond their real windows again.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Next stop, the place where we started!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I recognize that bench from an earlier adventure.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Taffy inspected the train's many painted wheels.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Fiona returned her invisible ticket with a bow.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This express has traveled all the way to the sea.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And has absolutely no mud on its wheels.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bunny",
+      "secondCharacter": "fox",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Fiona asked about the next grand train journey.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Taffy studied her stomach like a railway clock.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The Cardboard Express is now stopping for lunch.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Finally! A destination my real feet can visit.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "giraffe"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "bunny",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "taffy-and-the-cardboard-express",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "d29a63a4dde0c613952d0b22ce38b16ef804c119927e330f4f491f6580909f6a"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

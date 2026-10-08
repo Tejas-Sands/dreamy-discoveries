@@ -113,6 +113,7 @@ Stories may also finish with a comic payoff instead of a stated lesson. Set both
 without adding a moral chant. Keep the story's problem, attempts and resolution.
 
 `batches/bank-01/` contains 51 edited stories: 33 lesson stories and 18 comic endings.
+`batches/bank-02/` adds ten stories: five lesson stories and five comic endings.
 
 ```bash
 npm run stories:feed -- ./batch-01.json --dry-run  # validate without saving

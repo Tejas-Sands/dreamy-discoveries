@@ -1,0 +1,1403 @@
+{
+  "type": "story",
+  "title": "Ozzy and the Indoor Weather Report",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "owl",
+    "name": "Professor Ozzy"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Ozzy and the Indoor Weather Report | Sunny Meadow",
+    "description": "Ozzy announced rain under a bright blue sky. Daisy held a completely dry umbrella. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Professor Ozzy",
+      "funny story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy announced rain under a bright blue sky.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Daisy held a completely dry umbrella.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I heard splashing. A downpour must be coming!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Are you sure that sound came from outdoors?",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy wanted to give the morning weather report.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He had made a little paper microphone.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our picnic guests need a reliable forecast.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then perhaps start with the kitchen window.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy closed his eyes to listen carefully.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Water splashed again behind his reading chair.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Heavy rain! Bring boots and enormous umbrellas!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That forecast sounds extremely serious, Professor.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy lifted a spoon from her washing bowl.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A few drops fell into the bubbly water.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My rain appears to be washing the spoons.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your forecast has excellent kitchen manners.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "The washing bowl!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Where could the splashing sound be coming from?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy crossed out rain on his little chart.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He opened the window a very small amount.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I shall report only the sounds I recognize.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I shall finish drying this damp tablecloth.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy shook the cloth above the empty sink.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A great soft whoosh passed Ozzy's ears.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Strong winds! Hold onto all your picnic hats!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My tablecloth is certainly moving very quickly.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy peered around the edge of his chair.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy held the now perfectly still cloth.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Was that wind also inside the kitchen?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Only a very local tablecloth weather system.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy put his chart beside the window.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He looked at the leaves beyond the glass.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The garden leaves are hardly moving at all.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And the sky has no dark clouds in it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "They stepped into the garden to check.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sunshine warmed the quiet little picnic table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our guests will need shade, not rain boots.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is a forecast they can actually use.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "leaf",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "Yes, look outside!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Ozzy check outside before reporting wind?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy drew a sun beside his crossed-out storm.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy set two cups in the garden shade.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Sunny now, with a gentle breeze by the fence.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And a reliable chance of lunch on this table.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "A soft rumble interrupted the weather report.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy looked up toward the clear blue sky.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "☁️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Thunder? But there is not a storm cloud anywhere!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That was your tummy asking about lunch.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy pressed one wing against his middle.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Another small rumble answered from beneath it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This weather station appears to require a sandwich.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I predict the thunder will stop after eating.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "They returned to the kitchen for their picnic.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A biscuit crumb fell from Ozzy's little plate.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A sudden shower of crumbs near the microphone!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your indoor forecast is finally completely accurate.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "wipe",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "owl",
+      "secondCharacter": "duck",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy raised the paper microphone one last time.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Daisy waited with a very professional nod.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Tomorrow: sunshine, with a strong chance of biscuits.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Especially around one extremely hungry weather professor.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📖"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "giraffe"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "ozzy-and-the-indoor-weather-report",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "80316bd240cccd5a5f356aa044440ca4d7ce4b770e0a3ca8f3853242e3780b50"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "af_heart",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

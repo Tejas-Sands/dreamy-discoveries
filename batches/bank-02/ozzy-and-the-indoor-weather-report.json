@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "ozzy-and-the-indoor-weather-report",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Ozzy and the Indoor Weather Report",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "owl",
+        "name": "Professor Ozzy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Ozzy and the Indoor Weather Report | Sunny Meadow",
+        "description": "Ozzy announced rain under a bright blue sky. Daisy held a completely dry umbrella. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Professor Ozzy",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy announced rain under a bright blue sky.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy held a completely dry umbrella.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I heard splashing. A downpour must be coming!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Are you sure that sound came from outdoors?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy wanted to give the morning weather report.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had made a little paper microphone.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our picnic guests need a reliable forecast.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then perhaps start with the kitchen window.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy closed his eyes to listen carefully.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Water splashed again behind his reading chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Heavy rain! Bring boots and enormous umbrellas!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That forecast sounds extremely serious, Professor.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy lifted a spoon from her washing bowl.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A few drops fell into the bubbly water.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My rain appears to be washing the spoons.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your forecast has excellent kitchen manners.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "The washing bowl!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Where could the splashing sound be coming from?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy crossed out rain on his little chart.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He opened the window a very small amount.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I shall report only the sounds I recognize.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I shall finish drying this damp tablecloth.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy shook the cloth above the empty sink.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A great soft whoosh passed Ozzy's ears.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Strong winds! Hold onto all your picnic hats!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "My tablecloth is certainly moving very quickly.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy peered around the edge of his chair.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Daisy held the now perfectly still cloth.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Was that wind also inside the kitchen?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Only a very local tablecloth weather system.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy put his chart beside the window.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He looked at the leaves beyond the glass.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The garden leaves are hardly moving at all.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And the sky has no dark clouds in it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They stepped into the garden to check.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sunshine warmed the quiet little picnic table.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our guests will need shade, not rain boots.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a forecast they can actually use.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "Yes, look outside!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Should Ozzy check outside before reporting wind?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy drew a sun beside his crossed-out storm.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy set two cups in the garden shade.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sunny now, with a gentle breeze by the fence.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And a reliable chance of lunch on this table.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "A soft rumble interrupted the weather report.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy looked up toward the clear blue sky.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thunder? But there is not a storm cloud anywhere!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That was your tummy asking about lunch.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy pressed one wing against his middle.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Another small rumble answered from beneath it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This weather station appears to require a sandwich.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I predict the thunder will stop after eating.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They returned to the kitchen for their picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A biscuit crumb fell from Ozzy's little plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A sudden shower of crumbs near the microphone!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your indoor forecast is finally completely accurate.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "owl",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy raised the paper microphone one last time.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy waited with a very professional nod.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Tomorrow: sunshine, with a strong chance of biscuits.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Especially around one extremely hungry weather professor.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

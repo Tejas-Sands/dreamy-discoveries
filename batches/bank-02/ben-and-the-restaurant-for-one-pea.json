@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "ben-and-the-restaurant-for-one-pea",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Ben and the Restaurant for One Pea",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "bear",
+        "name": "Ben"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Ben and the Restaurant for One Pea | Sunny Meadow",
+        "description": "Ben's pretend restaurant had no pretend customers. Cleo discovered one pea beside the picnic basket. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Ben",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben's pretend restaurant had no pretend customers.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo discovered one pea beside the picnic basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "We polished every plate, and nobody has arrived!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "This little pea looks like a patient customer.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben wanted to practice being a grand waiter.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo had folded menus from scrap paper.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Welcome, tiny guest! Your table awaits you.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our customer appears to have traveled very lightly.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben set the pea on an enormous cushion.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "It disappeared between two deep fabric folds.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our guest has gone straight to the basement!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please rescue him before you announce the soup.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo held the cushion while Ben found the pea.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He placed it safely on a flat little plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This restaurant needs seats with fewer secret tunnels.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Especially for customers smaller than a button.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "A little leaf!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Which seat would fit a tiny pretend guest?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben brought a spoon for a pretend high chair.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The round pea rolled into its curved middle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A fine silver chair for our distinguished guest.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "He seems to be reclining before the first course.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben tilted the spoon to show the menu.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Cleo caught the pea on its waiting plate.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Our guest has attempted an early departure!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps choose furniture that stays still, sir.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben placed a little leaf on the plate.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The pea settled into its shallow, folded center.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A chair exactly the right size for our visitor.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And no ticket required for the basement.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo propped a tiny paper menu nearby.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben bowed until his nose almost touched the plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Today's special is imaginary soup with pretend noodles.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our guest has made no complaints so far.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben pretended to pour a drop of soup.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo watched the perfectly motionless little pea.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would you like a little imaginary pepper, sir?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He is maintaining a very dignified silence.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "No, it is make-believe!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Can a real pea eat the pretend dinner?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "They brought the guest a miniature paper napkin.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben unfolded a real napkin beside his own chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our napkins are almost the size of his house.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then please do not offer him your tablecloth.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo announced an invisible pudding for dessert.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben carried an empty leaf with great ceremony.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One enormous pudding for our extremely tiny guest!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He has saved a remarkable amount of room.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben bowed after presenting the imaginary bill.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "His paper waiter hat slipped onto the pea's plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our customer has moved beneath my hat!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps he prefers a private dining room.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo lifted the hat and found the pea.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben set the guest back in its leaf chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sir, you have stayed for the entire dinner.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And he has eaten absolutely none of it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "bear",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben inspected the pretend restaurant's empty cash box.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo placed the pea beside an imaginary coin.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our customer has paid exactly one pea!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "An excellent tip from such a small diner.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

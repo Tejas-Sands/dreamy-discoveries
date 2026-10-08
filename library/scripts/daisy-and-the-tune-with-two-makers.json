@@ -1,0 +1,1609 @@
+{
+  "type": "story",
+  "title": "Daisy and the Tune with Two Makers",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "duck",
+    "name": "Daisy"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Giving someone credit helps them feel their work belongs.",
+  "moralRhyme": [
+    "Say who helped the tune along,",
+    "Two friends helped to make our song!"
+  ],
+  "youtube": {
+    "title": "Daisy and the Tune with Two Makers | Sunny Meadow",
+    "description": "Squeaks stopped tapping during Daisy's new tune. Daisy looked down at the suddenly quiet bench. A gentle friendship story. Giving someone credit helps them feel their work belongs. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Daisy",
+      "friendship story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Squeaks stopped tapping during Daisy's new tune.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy looked down at the suddenly quiet bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Why has our little rhythm disappeared?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You told everyone you made the whole thing.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy wanted to present a tune at their picnic.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She had made a cheerful three-note melody.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I worked hard on those three happy notes.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "And I made the tapping pattern underneath them.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy sang her part without Squeaks's taps.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The pauses felt longer than she remembered.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My melody seems to have lost its little feet.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Those little feet were the rhythm I brought.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy tried tapping while singing both parts.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Her wings rushed ahead of the last note.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can do everything if I practice faster.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is not what made me feel left out.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "Squeaks!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who made the little tapping part?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy stopped and listened to the quiet bench.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Squeaks held her tiny tapping sticks still.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Was it because you wanted a louder tapping turn?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It was because my part sounded like it belonged to nobody.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy offered to call the tune a picnic tune.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Squeaks looked at the unnamed little rhythm picture.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That name says where we will play it.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But it still does not say who made our parts.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy thought about their first practice together.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Squeaks had invented the taps before the melody settled.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You made the beat that helped my notes fit.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And you made the notes that gave my beat a home.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy changed the words of her introduction.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She pointed to both friends on their little poster.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Melody by Daisy. Tapping rhythm by Squeaks.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That introduction has a place for both of us.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "They practiced the beginning without rushing anything.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy waited for Squeaks's first little tap.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your rhythm can tell my melody when to start.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I shall give it a very clear welcome.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "Yes, both friends!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can Daisy name both makers?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Squeaks tapped and Daisy sang their short melody.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The two parts fitted around the same gentle pauses.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "There are our little musical feet again!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And nobody has to hide behind the notes.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy invited Squeaks to stand beside the poster.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She tried the new introduction before their picnic.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We made this tune together, with two different parts.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I am ready to play my part with yours.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "They performed for their pretend picnic audience.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy named both makers before beginning the tune.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Please listen for Squeaks's wonderful tapping rhythm.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And Daisy's three cheerful notes above it.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "📖"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their final note ended on Squeaks's final tap.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Daisy offered her friend a warm little bow.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for telling me what I missed.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for making room for my work.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "park",
+      "character": "duck",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "They put both names beneath the little music picture.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The tapping sticks rested beside Daisy's notes.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our tune has two makers and one happy ending.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And a very small mouse with properly introduced feet.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "duck",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Daisy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Giving someone credit helps them feel their work belongs.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Say who helped the tune along,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Two friends helped to make our song!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "park",
+      "character": "duck",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Say who helped the tune along,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Two friends helped to make our song!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "hedgehog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "duck",
+            "x": 730,
+            "y": 826,
+            "location": "park",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "daisy-and-the-tune-with-two-makers",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "34bede06f26b72a5db6231b6c395ddda6fbccb0f49318ae98cb1d2b9c3230a52"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_heart",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

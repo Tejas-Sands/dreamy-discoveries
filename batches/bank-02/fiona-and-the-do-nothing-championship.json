@@ -1,0 +1,584 @@
+{
+  "stories": [
+    {
+      "slug": "fiona-and-the-do-nothing-championship",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Fiona and the Do-Nothing Championship",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "fox",
+        "name": "Fiona"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Fiona and the Do-Nothing Championship | Sunny Meadow",
+        "description": "Fiona lost her new contest before it started. Ben watched her feet jiggle beneath the bench. A playful adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Fiona",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona lost her new contest before it started.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben watched her feet jiggle beneath the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Today I shall win at doing absolutely nothing!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your feet appear to have entered a different event.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona wanted a championship with no running.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She drew a finish star beside their seats.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "No racing, no dancing, and definitely no hopping.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Does eating a sandwich count as doing something?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona sat very straight on her little chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She placed both paws neatly on her knees.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I am now a magnificent statue of stillness.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your left ear is conducting a tiny parade.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "A loose leaf brushed Fiona's ticklish ear.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She scratched it with one quick paw.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That leaf has interrupted an official sporting event!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You can scratch. We are only playing a game.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭐",
+          "question": {
+            "answer": {
+              "text": "An empty chair!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Who can stay still without ever blinking?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona tried staring at one perfectly still pebble.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Ben sat beside her with his paws folded.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "If I look at nothing moving, I will stay still.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That pebble has a very serious expression.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona blinked and Ben's tummy rumbled loudly.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Both friends broke into a little laugh.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "My eyes moved before the pebble's eyes did!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "My stomach has apparently requested the lunch interval.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "They reset the contest with a more comfortable pose.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Fiona let her feet rest flat on the grass.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "No stiff statues. We can just sit comfortably.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I like this rule better than the sandwich rule.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "A cloud changed shape above the little bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona pointed before remembering the championship.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Look! A cloud shaped exactly like a spoon!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "An excellent spoon. An unfortunate championship pointing paw.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben shifted to let a leaf fall past him.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona noticed their empty third chair nearby.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That chair has not blinked once all morning.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It has also refused to scratch either ear.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭐",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Will the chair give a winner’s speech?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "They inspected the chair from every side.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona waved a leaf near its wooden back.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Not a twitch! A truly astonishing performance.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It has trained very hard at being a chair.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona awarded the empty chair a paper star.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben clapped softly for the silent new champion.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "First place in the Do-Nothing Championship!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Second place goes to that extremely serious pebble.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "They placed the prize beside the chair's cushion.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona offered an imaginary microphone to its back.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would our champion like to make a speech?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It appears to prefer a quiet acceptance ceremony.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona and Ben started a comfortable hopping game.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The chair remained beneath its little paper star.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our winner is still defending its title.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A champion's work is apparently never started.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "fox",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona returned for one final championship interview.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben waited beside the very silent wooden seat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "What is your secret, Your Extremely Still Majesty?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "No comment. The champion is busy doing nothing.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

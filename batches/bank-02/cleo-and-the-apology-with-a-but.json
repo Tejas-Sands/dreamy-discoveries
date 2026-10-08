@@ -1,0 +1,587 @@
+{
+  "stories": [
+    {
+      "slug": "cleo-and-the-apology-with-a-but",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Cleo and the Apology With a But",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "cat",
+        "name": "Cleo"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A helpful apology owns the mistake and helps repair the harm.",
+      "moralRhyme": [
+        "Own the bump and help repair,",
+        "Show your friend you really care!"
+      ],
+      "youtube": {
+        "title": "Cleo and the Apology With a But | Sunny Meadow",
+        "description": "Cleo's grand spinning bow scattered Fiona's petal picture. Yellow petals flew across the garden path. A gentle friendship story. A helpful apology owns the mistake and helps repair the harm. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Cleo",
+          "friendship story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo's grand spinning bow scattered Fiona's petal picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Yellow petals flew across the garden path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ta-da! Oh. That was not my planned ending.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "My flower picture was nearly finished.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo had wanted to make Fiona laugh.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now Fiona crouched beside the scattered yellow petals.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps it looks like a very windy sunflower?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I was making a flower with all its petals.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo picked a petal from her own tail.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona straightened the picture's bent little stem.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sorry, but you put it beside my dancing spot.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I was working here before you started spinning.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo opened her mouth for another quick excuse.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Then she saw Fiona sorting the scattered pieces.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I did not notice how close I stood.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You could have looked before making a big spin.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌼",
+          "question": {
+            "answer": {
+              "text": "No, it needs help!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "Will a joke repair Fiona's petal picture?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo set the rescued petal beside Fiona's paw.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Her fancy bow no longer felt very important.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I knocked your picture apart. I am sorry.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I worked a long time arranging those colors.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo sat down away from the remaining petals.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She kept her tail still behind her paws.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Would you like help putting the picture back?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Yes. Please gather the yellow petals from the path.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo collected the petals one at a time.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She placed them beside Fiona without guessing positions.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I found two near the garden gate.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Those small ones belong at the flower's middle.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo reached for a large bright yellow petal.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Its edge had folded beneath her dancing paw.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This one is bent. I cannot make it flat.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Leave it here. I will choose what to do.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona studied the bent petal beside the straight ones.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo waited instead of making another flower joke.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would it help if I found a different petal?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please find one about the same size.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌼",
+          "question": {
+            "answer": {
+              "text": "Help repair the picture!",
+              "emoji": "💡"
+            },
+            "praise": "You thought about our friends!"
+          },
+          "lines": [
+            {
+              "text": "What can Cleo offer to do?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo searched beneath the nearby garden flowers.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She picked up a fallen petal from the grass.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This one fell already, and its edge is smooth.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That looks just right for the missing place.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Fiona fitted the new petal around the flower's middle.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo held the little stem while Fiona adjusted it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Tell me when to let go of the stem.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now, please. The flower can stay together again.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "They sat back from the repaired petal picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One yellow petal remained beside Cleo's paw.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "It still looks a little different from before.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. I am glad you helped me repair it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo looked at an empty patch farther down the path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She pointed before trying another little performance.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Is that clear spot far enough for a bow?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. A small bow would be fine over there.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cat",
+          "secondCharacter": "fox",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌼",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo bowed with both feet firmly on the ground.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Fiona smiled beside her carefully repaired flower.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My tail would like to apologize separately.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Tell it the flower accepts absolutely no more dancing.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

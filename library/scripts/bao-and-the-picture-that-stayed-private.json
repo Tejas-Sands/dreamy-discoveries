@@ -1,0 +1,1588 @@
+{
+  "type": "story",
+  "title": "Bao and the Picture That Stayed Private",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "panda",
+    "name": "Bao"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Ask before sharing someone else's work, and respect their answer.",
+  "moralRhyme": [
+    "Some pictures stay tucked away,",
+    "Their makers choose the sharing day!"
+  ],
+  "youtube": {
+    "title": "Bao and the Picture That Stayed Private | Sunny Meadow",
+    "description": "Bao's little gallery had one very empty frame. Sparkle carried a folded picture past the table. A gentle friendship story. Ask before sharing someone else's work, and respect their answer. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Bao",
+      "friendship story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao's little gallery had one very empty frame.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🖼️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Sparkle carried a folded picture past the table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your picture could fill my biggest empty frame!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This picture is just for me, Bao.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao looked at his carefully decorated gallery sign.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He had hoped for two pictures on the wall.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🖼️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Then I will leave your picture with you.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you. I would like to keep it folded.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle put her picture inside a plain envelope.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Bao turned his empty frame over in his paws.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Could I help you find something else to display?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. I have only finished the gallery sign.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao had spent all morning decorating empty frames.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His own drawing paper was still completely blank.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps I can draw a whole garden very quickly.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can help put your colors where you need them.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🖼️",
+      "question": {
+        "answer": {
+          "text": "No, it stays private!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can Bao display Sparkle's private picture?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao drew six stems in a great hurry.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "6",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The last three flowers had no room for petals.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "My enormous garden has run out of paper.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "There is room for something smaller on another sheet.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao tried making the petals tiny as dots.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He could hardly see them from the gallery door.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My visitors will need extremely small eyes.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps choose one thing you really want to draw.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🖼️"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao looked at his round painting-water bowl.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One small leaf floated gently on the surface.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I like that little leaf beside the window.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then you could give that one leaf a whole page.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao drew a large leaf with a crooked stem.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He followed its shape without rushing the pencil.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This stem bends differently from the real one.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "It still looks like a leaf enjoying its bowl.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle moved her envelope away from a wet brush.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Bao offered a dry spot beside her chair.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your picture can stay here while we work.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes, with the envelope closed. That spot is perfect.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 885,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": [
+              {
+                "line": 1,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 1095,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "panda",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [
+          {
+            "kind": "give",
+            "propId": "prop-1f5bc-fe0f",
+            "line": 1,
+            "actor": "character",
+            "to": "friend",
+            "delaySec": 0.75,
+            "durationSec": 0.85
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🖼️",
+      "question": {
+        "answer": {
+          "text": "Sparkle does!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who chooses when Sparkle shares her picture?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "think",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You thought about our friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao added the bowl beneath his finished leaf.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The simple picture fitted his largest empty frame.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One leaf was enough to fill my picture.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "And there is plenty of room for its bowl.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao placed his own drawing on the gallery table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He left Sparkle's closed envelope beside her chair.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My gallery will show the picture I made today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I would be happy to help write its label.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle wrote Bao's name beneath the leaf picture.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Bao gave their fancy gallery sign a final wipe.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for helping without lending your picture.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can enjoy your gallery and keep mine private.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "They stepped back to admire the framed little leaf.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sparkle tucked her closed envelope into her bag.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like to tell me about your picture?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Not today, but I can tell you about yours.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "panda",
+      "secondCharacter": "unicorn",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🖼️",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle pointed to Bao's very round painted bowl.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Its crooked leaf seemed to lean toward the sign.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I think your leaf is inspecting the gallery hours.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then we had better open before it gets impatient.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1095,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f5bc-fe0f",
+            "kind": "object",
+            "label": "🖼️",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "panda",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Ask before sharing someone else's work, and respect their answer.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "panda",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Some pictures stay tucked away,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Their makers choose the sharing day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog",
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "panda",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Some pictures stay tucked away,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Their makers choose the sharing day!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "giraffe",
+        "hedgehog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "bao-and-the-picture-that-stayed-private",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "3b8b6b75d3581b34d7f3be130f311b03bb91127e5377016df9250aef84440d85"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "af_heart",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}
