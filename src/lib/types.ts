@@ -233,6 +233,8 @@ export interface KidsScript {
   /** Opt in to new direction rules without changing existing episodes. */
   presentationVersion?: 1 | 2 | 3 | 4;
   opening?: "hook" | "title";
+  /** Enable bell artwork only for videos that are not marked Made for kids. */
+  subscription?: {bellEnabled?: boolean};
   type: "rhyme" | "story";
   template?: string | null;
   slug: string;

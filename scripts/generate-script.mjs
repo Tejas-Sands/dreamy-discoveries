@@ -43,7 +43,7 @@ Use type "${type}". Palette: ${PALETTES.join(', ')}. Cast kinds: ${CAST_KINDS.jo
 Backgrounds: ${BACKGROUNDS.join(', ')}. Emotions: ${EMOTIONS.join(', ')}. Actions: ${ACTIONS.join(', ')}.
 "character" speaks for the scene's character; "friend" speaks for its secondCharacter; "narrator" describes their actions. Never use friend without secondCharacter.
 Do not invent characters, backgrounds, recipes, music, callouts or visual effects. The deterministic Director supplies these.
-Write about ${Math.round(minutes * (type === 'story' ? 13 : 16))} spoken lines for ${minutes} minutes, across 25-35 scenes with 1-3 lines each (hard bounds: 3-40 scenes, 1-6 lines per scene).
+Write ${Math.ceil(minutes * (type === 'story' ? 11 : 16))} spoken lines for ${minutes} minutes in ${Math.min(40, Math.max(6, Math.ceil(minutes * (type === 'story' ? 11 : 16) / 2)))} scenes. Most scenes contain 2-3 lines (hard bounds: 3-40 scenes, 1-6 lines per scene).${type === 'story' ? ` Never return fewer than ${Math.floor(minutes * 9)} spoken lines total; count the lines before finishing.` : ''}
 Every line uses 4-10 simple words. Narration uses vivid verbs and natural contractions. Keep introductions brief; start the first scene directly with the story problem.
 ${type === 'story' ? 'Set intro to null. Open with a visible object problem or surprising discovery already happening. For a rolling ball/apple, use a first-line reaction such as "Oops! My ball is rolling away!" or "Oh! My apple rolled away!" and set the scene prop to the matching ball/apple. A closed picture book is another concrete discovery. The hero is already visible, with a brief title overlay.' : ''}
 ${type === 'story' ? `Tell one focused story and one moral, using the supplied deterministic episode brief. Its selected cast and setting are binding. Let the setting cause a practical obstacle.
@@ -119,23 +119,25 @@ async function main() {
     random: rng(`${topic}|${heroSel?.id ?? ''}|${new Date().toISOString().slice(0, 10)}`)}) : null;
   const userContent = `Topic: ${topic}\n${storyBrief ? `Episode brief (follow its cast, setting, attempts and repair): ${JSON.stringify(storyBrief)}` : heroSel ? `Hero: ${heroSel.name} (${heroSel.kind}).` : ''}`;
   const messages = [{role: "system", content: systemPrompt(type, minutes)}, {role: "user", content: userContent}];
-  const raw = await chat(messages, {schema: scriptJsonSchema});
-  const script = ScriptSchema.parse(extractJson(raw));
-  if (script.type !== type) throw new Error(`Requested ${type}, but the writer returned ${script.type}`);
-  if (type === 'story') {
-    const quality = storyQualityReport(script, minutes);
-    const issues = quality.issues;
-    const allowed = [storyBrief.hero.kind, storyBrief.friend.kind];
-    if (script.mainCharacter.kind !== storyBrief.hero.kind || script.mainCharacter.name !== storyBrief.hero.name) issues.push('use the exact hero from the brief');
-    for (const scene of script.scenes) {
-      if (!allowed.includes(scene.character) || scene.secondCharacter && !allowed.includes(scene.secondCharacter)) issues.push('use only the cast pair from the brief');
-      if (!storyBrief.settings.includes(scene.background)) issues.push('use the setting from the brief');
-      if (scene.lines.some(line => line.speaker === 'friend') && !scene.secondCharacter) issues.push('friend dialogue needs a secondCharacter');
+  const script = await chat(messages, {schema: scriptJsonSchema, validate: raw => {
+    const script = ScriptSchema.parse(extractJson(raw));
+    if (script.type !== type) throw new Error(`Requested ${type}, but the writer returned ${script.type}`);
+    if (type === 'story') {
+      const quality = storyQualityReport(script, minutes);
+      const issues = quality.issues;
+      const allowed = [storyBrief.hero.kind, storyBrief.friend.kind];
+      if (script.mainCharacter.kind !== storyBrief.hero.kind || script.mainCharacter.name !== storyBrief.hero.name) issues.push('use the exact hero from the brief');
+      for (const scene of script.scenes) {
+        if (!allowed.includes(scene.character) || scene.secondCharacter && !allowed.includes(scene.secondCharacter)) issues.push('use only the cast pair from the brief');
+        if (!storyBrief.settings.includes(scene.background)) issues.push('use the setting from the brief');
+        if (scene.lines.some(line => line.speaker === 'friend') && !scene.secondCharacter) issues.push('friend dialogue needs a secondCharacter');
+      }
+      if (issues.length) throw new Error(`Story quality check failed: ${[...new Set(issues)].join('; ')}`);
+      const candidates = Object.entries(quality.audit.beats).filter(([, beat]) => beat.status === 'candidate').map(([name]) => name);
+      console.log(`[generate] advisory story audit: candidates=${candidates.join(',') || 'none'}; warnings=${quality.audit.findings.length}. Review the written script with scripts/audit-story.mjs.`);
     }
-    if (issues.length) throw new Error(`Story quality check failed: ${[...new Set(issues)].join('; ')}`);
-    const candidates = Object.entries(quality.audit.beats).filter(([, beat]) => beat.status === 'candidate').map(([name]) => name);
-    console.log(`[generate] advisory story audit: candidates=${candidates.join(',') || 'none'}; warnings=${quality.audit.findings.length}. Review the written script with scripts/audit-story.mjs.`);
-  }
+    return script;
+  }});
 
   if (script.type === "rhyme") {
     script.moral = null;

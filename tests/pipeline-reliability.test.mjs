@@ -15,7 +15,7 @@ const timer = globalThis.setTimeout;
 globalThis.setTimeout = (fn, ms, ...args) => timer(fn, [10000, 20000].includes(ms) ? 1 : ms, ...args);
 globalThis.fetch = async (url, request) => {
   fs.appendFileSync(process.env.MOCK_REQUESTS, new URL(url).hostname + '\\n');
-  if (process.env.MOCK_MODE === 'outage' || !url.includes('api.groq.com')) return Response.json({error: {message: 'high demand'}}, {status: 503});
+  if (process.env.MOCK_MODE === 'outage' || process.env.MOCK_MODE === 'success' && !url.includes('api.groq.com')) return Response.json({error: {message: 'high demand'}}, {status: 503});
   const body = JSON.parse(request.body);
   const brief = JSON.parse(body.messages.at(-1).content.split('Episode brief (follow its cast, setting, attempts and repair): ')[1]);
   const scenes = Array.from({length: 25}, (_, i) => ({
@@ -25,10 +25,20 @@ globalThis.fetch = async (url, request) => {
     question: [7, 16].includes(i) ? {answer: {text: 'Tell the truth!', emoji: '💛'}, praise: 'Yes! Friends can help us repair things.'} : null,
     lines: Array.from({length: 3}, () => ({text: 'We can tell the truth and mend it together.', speaker: 'character', emotion: 'happy', action: 'nod'})),
   }));
-  const content = JSON.stringify({type: 'story', title: 'A Small Honest Choice', palette: 'meadow',
+  const script = {type: 'story', title: 'A Small Honest Choice', palette: 'meadow',
     mainCharacter: {kind: brief.hero.kind, name: brief.hero.name}, intro: null, outro: null,
     moral: 'Telling the truth helps friends repair mistakes.', moralRhyme: ['Tell the truth and show you care!', 'Friends can help us to repair!'],
-    youtube: {title: 'A Small Honest Choice', description: 'A gentle story about honesty.', tags: ['kids', 'story', 'honesty']}, scenes});
+    youtube: {title: 'A Small Honest Choice', description: 'A gentle story about honesty.', tags: ['kids', 'story', 'honesty']}, scenes};
+  let content;
+  if (url.includes('generativelanguage.googleapis.com')) {
+    if (process.env.MOCK_MODE === 'short') script.scenes = scenes.map(scene => ({...scene, lines: scene.lines.slice(0, 1)}));
+    if (process.env.MOCK_MODE === 'invalid-enum') script.scenes[0].energy = 'excited';
+    if (process.env.MOCK_MODE === 'wrong-type') script.type = 'rhyme';
+    if (process.env.MOCK_MODE === 'wrong-hero') script.mainCharacter.name = 'New Friend';
+    if (process.env.MOCK_MODE === 'wrong-setting') script.scenes[0].background = 'space';
+    if (process.env.MOCK_MODE === 'invalid-json') content = '{';
+  }
+  content ??= JSON.stringify(script);
   return Response.json({choices: [{finish_reason: 'stop', message: {content}}]});
 };
 `;
@@ -91,6 +101,26 @@ test('the planner survives Gemini 503s, directs the Groq result, and preserves c
   assert.equal(read(`library/scripts/${slug}.json`), permanent);
   assert.equal(fs.readFileSync(requests, 'utf8'), '');
   assert.ok(fs.existsSync(path.join(dir, 'public/generated', slug, 'script.json')));
+});
+
+test('rejected Gemini scripts fall through to a validated Groq story before anything is saved', t => {
+  const {dir, run, read, requests} = workspace(t);
+  for (const mode of ['short', 'invalid-json', 'invalid-enum', 'wrong-type', 'wrong-hero', 'wrong-setting']) {
+    fs.writeFileSync(requests, '');
+    const result = run('plan', ['--topic', 'A friend learns honesty', '--hero', 'ben', '--library'], mode);
+    assert.equal(result.status, 0, `${mode}: ${result.stderr}`);
+    assert.match(result.stdout, /provider=groq/);
+    assert.match(result.stdout, /script_source=llm/);
+    assert.deepEqual(fs.readFileSync(requests, 'utf8').trim().split('\n'), [
+      'generativelanguage.googleapis.com', 'api.groq.com',
+    ]);
+    const {slug} = JSON.parse(read('public/generated/latest.json'));
+    const script = JSON.parse(read(`library/scripts/${slug}.json`));
+    assert.equal(script.mainCharacter.name, 'Ben');
+    assert.ok(script.scenes.reduce((total, scene) => total + scene.lines.length, 0) >= 49);
+    assert.equal(script.stars.total, 2);
+    assert.ok(script.scenes.some(scene => scene.kind === 'moral'));
+  }
 });
 
 test('a complete provider outage uses an unused standby and stops clearly when the reserve is exhausted', t => {

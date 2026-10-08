@@ -34,7 +34,8 @@ function storyPage(script, status) {
     }
     content.push('');
   }
-  content.push('## Read the story', '', `**${script.mainCharacter.name}:** ${script.intro.text}`, '');
+  content.push('## Read the story', '');
+  if (script.intro?.text) content.push(`**${script.mainCharacter.name}:** ${script.intro.text}`, '');
   for (const [index, scene] of script.scenes.entries()) {
     content.push(`### ${index + 1}. ${scene.kind === 'moral' ? 'Moral chant' : scene.kind === 'question' ? 'Child choice' : scene.kind === 'lesson' ? 'Repair' : 'Story'} · ${scene.background}`, '');
     const lines = scene.lines.filter(line => line.role !== 'praise');
@@ -48,8 +49,8 @@ function storyPage(script, status) {
     if (scene.question) content.push('*Pause for the child to answer.*', '', `**Answer reveal:** ${scene.question.answer.text}`, '');
     praise.forEach(spoken);
   }
-  content.push(`**${script.mainCharacter.name}:** ${script.outro.text}`, '',
-    '*This readable copy is generated from the permanent production script. Update it with `node scripts/standby.mjs sync`.*', '');
+  if (script.outro?.text) content.push(`**${script.mainCharacter.name}:** ${script.outro.text}`, '');
+  content.push('*This readable copy is generated from the permanent production script. Update it with `node scripts/standby.mjs sync`.*', '');
   return content.join('\n');
 }
 

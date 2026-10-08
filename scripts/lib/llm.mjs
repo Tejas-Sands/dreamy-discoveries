@@ -20,6 +20,7 @@ export function resolveProviders(env = process.env) {
   return providers;
 }
 
+/** validate(content), when supplied, must throw for unusable output and returns the accepted script. */
 export async function chat(messages, options = {}) {
   const providers = resolveProviders(options.env ?? process.env);
   const request = options.fetch ?? globalThis.fetch;
@@ -56,16 +57,20 @@ export async function chat(messages, options = {}) {
         if (response.ok) {
           const data = await response.json();
           const choice = data.choices?.[0];
-          // A successful completion gets validated locally, never an extra AI repair pass.
+          // Validate before accepting a provider; a failed draft advances to the next writer.
           if (choice?.finish_reason === 'length') throw new Error('truncated completion: increase the output budget or shorten the prompt');
           if (typeof choice?.message?.content !== 'string' || !choice.message.content.trim()) throw new Error('empty completion');
+          const result = options.validate ? await options.validate(choice.message.content) : choice.message.content;
+          remaining();
           logger.log(`[llm] provider=${provider.name} model=${provider.model} attempt=${attempt}`);
-          return choice.message.content;
+          return result;
         }
         const text = await response.text();
         failures.push(`${provider.name} ${response.status}: ${redact(text)}`);
         logger.warn(`[llm] ${failures.at(-1)}`);
-        if (response.status === 400 && /response_format|json_schema|json_object/i.test(text) && /unsupported|not supported|not available/i.test(text)) {
+        const unsupportedFormat = /response_format|json_schema|json_object/i.test(text) && /unsupported|not supported|not available/i.test(text);
+        const rejectedGeneration = options.validate && format === 'json_schema' && /json_validate_failed|failed to (?:generate|validate) json|generated json does not match the expected schema/i.test(text);
+        if (response.status === 400 && (unsupportedFormat || rejectedGeneration)) {
           format = format === 'json_schema' ? 'json_object' : null;
           retry = true;
           delay = 0;
@@ -82,9 +87,8 @@ export async function chat(messages, options = {}) {
         }
       } catch (err) {
         failures.push(`${provider.name}: ${redact(err.message)}`);
-        // Retry transport failures; a received completion is not regenerated.
+        // Retry transport failures; rejected completions use an independent provider.
         retry = controller.signal.aborted || err instanceof TypeError && /fetch|network|socket/i.test(err.message);
-        if (!retry) throw new Error(`[llm] ${failures.at(-1)}`);
         logger.warn(`[llm] ${failures.at(-1)}`);
       } finally {
         clearTimeout(timer);

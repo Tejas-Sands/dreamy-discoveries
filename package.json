@@ -21,6 +21,8 @@
     "compile": "node scripts/compile.mjs",
     "plan": "node scripts/plan.mjs",
     "standby": "node scripts/standby.mjs",
+    "stories:brief": "node scripts/stories.mjs brief",
+    "stories:feed": "node scripts/stories.mjs feed",
     "review:quality": "node scripts/review-quality.mjs",
     "benchmark:render": "node scripts/benchmark-render.mjs",
     "verify:video": "node scripts/verify-video.mjs"

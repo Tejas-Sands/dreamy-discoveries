@@ -72,7 +72,7 @@ test('long daily-quota waits use another provider instead of holding the runner'
   assert.equal(calls, 2);
 });
 
-test('only an explicit unsupported format error downgrades JSON schema', async () => {
+test('an explicit unsupported format error downgrades JSON schema', async () => {
   assert.equal(typeof chat, 'function');
   const formats = [];
   await chat(messages, options(async (_, request) => {
@@ -81,6 +81,44 @@ test('only an explicit unsupported format error downgrades JSON schema', async (
     return formats.length === 1 ? error(400, 'response_format json_schema is not supported') : ok();
   }, {schema: {type: 'object', properties: {}, required: [], additionalProperties: false}}));
   assert.deepEqual(formats, ['json_schema', 'json_object']);
+});
+
+test('provider-generated schema violations retry JSON object once with local validation', async () => {
+  const attempts = [];
+  const result = await chat(messages, options(async (url, request) => {
+    attempts.push([new URL(url).hostname, JSON.parse(request.body).response_format.type]);
+    return attempts.length <= 2
+      ? error(400, 'Generated JSON does not match the expected schema. Please adjust your prompt. See failed_generation for the generated JSON. jsonschema: energy must be one of calm, upbeat')
+      : ok();
+  }, {schema: {type: 'object'}, validate: JSON.parse}));
+  assert.deepEqual(result, {title: 'A kind choice'});
+  assert.deepEqual(attempts, [
+    ['generativelanguage.googleapis.com', 'json_schema'],
+    ['generativelanguage.googleapis.com', 'json_object'],
+    ['api.groq.com', 'json_schema'],
+  ]);
+});
+
+test('schema validation errors require a local validator before relaxing the provider format', async () => {
+  const attempts = [];
+  await chat(messages, options(async (url, request) => {
+    attempts.push([new URL(url).hostname, JSON.parse(request.body).response_format.type]);
+    return attempts.length === 1 ? error(400, 'json_validate_failed') : ok();
+  }, {schema: {type: 'object'}}));
+  assert.deepEqual(attempts, [
+    ['generativelanguage.googleapis.com', 'json_schema'], ['api.groq.com', 'json_schema'],
+  ]);
+});
+
+test('ordinary bad requests advance providers without relaxing schema', async () => {
+  const attempts = [];
+  await chat(messages, options(async (url, request) => {
+    attempts.push([new URL(url).hostname, JSON.parse(request.body).response_format.type]);
+    return attempts.length === 1 ? error(400, 'invalid temperature') : ok();
+  }, {schema: {type: 'object'}, validate: JSON.parse}));
+  assert.deepEqual(attempts, [
+    ['generativelanguage.googleapis.com', 'json_schema'], ['api.groq.com', 'json_schema'],
+  ]);
 });
 
 test('network interruptions retry without adding another writing stage', async () => {
@@ -119,6 +157,50 @@ test('truncated or empty completions are rejected rather than saved as scripts',
     {choices: [{message: {content: '{'}, finish_reason: 'length'}]},
     {choices: [{message: {content: null}, finish_reason: 'stop'}]},
   ]) await assert.rejects(chat(messages, options(async () => Response.json(response), {env: {GEMINI_API_KEY: 'x'}})), /truncat|empty/i);
+});
+
+test('truncated and empty completions advance to an independent writer', async () => {
+  for (const rejected of [
+    {choices: [{message: {content: '{'}, finish_reason: 'length'}]},
+    {choices: [{message: {content: null}, finish_reason: 'stop'}]},
+  ]) {
+    const hosts = [];
+    const result = await chat(messages, options(async url => {
+      hosts.push(new URL(url).hostname);
+      return hosts.length === 1 ? Response.json(rejected) : ok();
+    }));
+    assert.match(result, /kind choice/);
+    assert.deepEqual(hosts, ['generativelanguage.googleapis.com', 'api.groq.com']);
+  }
+});
+
+test('invalid JSON and rejected script content advance writers before accepting a parsed script', async () => {
+  const hosts = [];
+  const rejected = ['{', '{"title":"Too short"}'];
+  const result = await chat(messages, options(async url => {
+    hosts.push(new URL(url).hostname);
+    return hosts.length <= rejected.length
+      ? Response.json({choices: [{message: {content: rejected[hosts.length - 1]}, finish_reason: 'stop'}]})
+      : ok();
+  }, {validate: raw => {
+    const script = JSON.parse(raw);
+    if (script.title === 'Too short') throw new Error('include at least 49 spoken lines');
+    return script;
+  }}));
+  assert.deepEqual(result, {title: 'A kind choice'});
+  assert.deepEqual(hosts, ['generativelanguage.googleapis.com', 'api.groq.com', 'openrouter.ai']);
+});
+
+test('completion validation failures are redacted and reported after all providers fail', async () => {
+  let calls = 0;
+  await assert.rejects(chat(messages, options(async () => {calls++; return ok();}, {
+    validate: () => {throw new Error('invalid script gemini-secret groq-secret router-secret');},
+  })), err => {
+    assert.match(err.message, /all configured providers failed/);
+    assert.doesNotMatch(err.message, /gemini-secret|groq-secret|router-secret/);
+    return true;
+  });
+  assert.equal(calls, 3);
 });
 
 test('story output has room for JSON and keeps thinking effort low on supported writers', async () => {

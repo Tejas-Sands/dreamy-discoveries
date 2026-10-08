@@ -20,6 +20,8 @@ import { Sfx, SfxLoop } from "./components/Sfx";
 import { StarHud } from "./components/StarHud";
 import { Countdown, EndCard, TitleCard, hopIn } from "./components/Cards";
 import { MoralChant } from "./components/MoralChant";
+import {SubscribeReminder} from './components/SubscribeReminder';
+import {subscriptionReminders} from './lib/subscription.mjs';
 import { VoxAudio, laughMouth, voxAt, voxEvents } from "./components/Vox";
 import { fetchBaked, type BakedMap } from "./lib/baked";
 import { BrandOutro } from "./components/BrandOutro";
@@ -476,6 +478,7 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
   const episodeFrame = useCurrentFrame();
   const script = useMemo(() => rawScript ? withDefaults(rawScript) : null, [rawScript]);
   const schedule = useMemo(() => script ? computeSchedule(script) : null, [script]);
+  const reminders = useMemo(() => script && schedule ? subscriptionReminders(script, schedule, FPS) : [], [script, schedule]);
   const scores=useMemo(()=>script&&schedule&&(script.presentationVersion??0)>=2?scoreSections(script,schedule):[],[script,schedule]);
   const ambient = useMemo(() => {
     const rates = script?.scenes.map(scene => motionProfile(sceneDirection(scene,script)).ambient) ?? [];
@@ -547,6 +550,11 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
           <StarHud total={starsTotal} earnedAt={earnedAt.map((f) => f - schedule.intro)} />
         </Sequence>
       ) : null}
+      {reminders.map(reminder => (
+        <Sequence key={reminder.placement} from={reminder.from} durationInFrames={reminder.duration} name={`Subscribe: ${reminder.placement}`}>
+          <SubscribeReminder placement={reminder.placement} durationInFrames={reminder.duration} bellEnabled={script.subscription?.bellEnabled === true}/>
+        </Sequence>
+      ))}
     </AbsoluteFill>
   );
 };

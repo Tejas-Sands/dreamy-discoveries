@@ -60,6 +60,10 @@ Script writing tries Gemini → Groq → OpenRouter using whichever keys are con
 Temporary errors (including Gemini 503 and rate limits) get up to three attempts per
 provider with backoff and `Retry-After`, bounded by an eight-minute overall budget.
 Authentication failures and missing models move straight to the next provider.
+Returned scripts also pass local validation before a provider is accepted: short,
+malformed, empty, truncated or invalid drafts move to the next configured provider.
+A generated-schema rejection permits one JSON-object retry with the same local
+checks. No separate AI repair stage is added, and the overall deadline stays fixed.
 Defaults are `gemini-3.6-flash`, `openai/gpt-oss-120b` and `openrouter/free`;
 optional repository Variables `GEMINI_MODEL`, `GROQ_MODEL` and `OPENROUTER_MODEL`
 override them independently. OpenRouter overrides must be `:free` models.
@@ -85,6 +89,57 @@ npm run standby -- list
 npm run standby -- used --slug <story-slug> --release <video-url>
 npm run standby -- sync
 ```
+
+### Prepare a bank of 50 original stories in your own chat
+
+Export a small writing kit with the current six characters, 25 backgrounds,
+allowed actions/emotions, used and unused story summaries, output schema and a
+complete example:
+
+```bash
+npm run stories:brief
+```
+
+Paste `out/story-kit/PROMPT.md` into your chat model. If attachments are supported,
+also attach `story.schema.json` and `example-story.json` from the same directory.
+The prompt targets at least **50 distinct narrative stories**, produced **three at
+a time** to avoid truncated replies. It asks for concrete goals, distinct attempts,
+gentle comedy, visible repairs and earned endings. Save the complete JSON response
+as `batch-01.json`. Review the stories for originality, fun and emotional impact;
+schema and story-audit checks cannot judge those qualities for you.
+
+```bash
+npm run stories:feed -- ./batch-01.json --dry-run  # validate without saving
+npm run stories:feed -- ./batch-01.json            # import and queue
+```
+
+Feed accepts one story object, an array, `{ "stories": [...] }`, or a directory of
+JSON files. The complete batch must validate before anything is saved. It runs the
+Director, adds new permanent scripts and registers them in `library/standby.json`.
+Each queued entry carries the saved slug, so the daily workflow loads it with
+**zero LLM calls**. Existing scripts cannot be overwritten; identical reimports do
+not duplicate queue entries. `--no-queue` stores stories in the reserve without
+scheduling them. Refeeding an unused stored story without that flag queues it;
+already used stories are not automatically queued again.
+
+Commit and push imported library changes with `[skip ci]` so GitHub Actions can
+see them. Refresh the brief after each batch to include the enlarged inventory.
+Use `npm run stories:brief -- --batch 1` for a single story or `--batch 5` for a
+larger response. These commands do not call an LLM, synthesize voices or render.
+The kit is generated under ignored `out/`; it contains no secrets or cached audio.
+
+Stories can move between available settings by changing `scene.background` where
+the action changes location. Keep the same background through continuous action;
+the renderer follows those assignments. Normal story generation still follows
+the deterministic brief's chosen setting.
+
+Episodes show a five-second parent-directed subscribe reminder near halfway and
+during the end card. These are visual overlays, so existing voice caches and
+episode duration stay valid. YouTube disables notifications for content marked
+Made for kids ([YouTube Help](https://support.google.com/youtube/answer/7389684?hl=en)),
+so the default does not promise bell notifications. For other content, explicitly
+setting `subscription.bellEnabled: true` in a new production script enables bell
+artwork and wording. Keep Made for kids episodes on the default.
 
 Stories use a seeded brief: hero and friend, a setting-specific obstacle, two
 different attempts, a gentle consequence, and a visible repair that earns the
