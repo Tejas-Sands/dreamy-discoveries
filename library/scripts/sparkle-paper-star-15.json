@@ -1,0 +1,1474 @@
+{
+  "type": "story",
+  "title": "Sparkle and the Lopsided Paper Star",
+  "palette": "candy",
+  "mainCharacter": {
+    "kind": "unicorn",
+    "name": "Sparkle"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "A mistake can become part of a new idea.",
+  "moralRhyme": [
+    "Try a different little way,",
+    "See what changes come today!"
+  ],
+  "youtube": {
+    "title": "Sparkle and the Lopsided Paper Star | Sunny Meadow",
+    "description": "Sparkle's paper star had one crooked point. Percy studied it beside the craft basket. A mistake can become part of a new idea. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Sparkle",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle's paper star had one crooked point.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Percy studied it beside the craft basket.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "My star looks like it bumped its head.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Perhaps it is trying to wave at us.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle wanted a star for her window.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She had chosen bright yellow paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I wanted five very neat little points.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "This one certainly has five very interesting points.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "5",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle folded the crooked point tightly backward.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It creased across the star's little middle.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now that point cannot look bent anymore.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now your star has a very large elbow.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle unfolded the paper and pressed it flat.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The crease remained across the yellow surface.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "⭐"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "I cannot rub that little fold away.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Maybe we can use the fold in a picture.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "No!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Must every star have matching points?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! No!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle trimmed the point to match another.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The two short points looked even smaller.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I have made two little star feet!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "They look ready for a walk across the sky.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle stopped cutting and held up the star.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Percy made it bob above the table.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "It really does look like it is walking.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "A walking star might need somewhere to go.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle drew a tiny face in the middle.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She placed the crease beneath its smile.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That fold looks like a waving little arm.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your star is greeting someone at the window.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy brought a sheet of dark blue paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Sparkle set her star above its lower edge.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The blue can be a quiet night sky.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "And the short points can be dancing feet.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⭐",
+      "question": {
+        "answer": {
+          "text": "A waving arm!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "What can the bent point become?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A waving arm!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle glued her walking star onto the sky.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She drew a little moon beside it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now it has a friend to wave to.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The moon looks pleased to meet your star.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "They hung the picture beside the window.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Sparkle stepped back to see its little face.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I would not change that bent point now.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It is what makes this star your star.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Percy tried walking like the paper star.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He waved one arm and shuffled both feet.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Your feet are doing a very fine moonwalk.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My knees think the moon is rather far away.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "unicorn",
+      "secondCharacter": "pig",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⭐",
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle waved at the star before leaving.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The curtain brushed its crooked paper point.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Look! It is waving back through the curtain.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then we should say goodnight before it dances off.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "dragon"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "unicorn",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Sparkle learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "A mistake can become part of a new idea.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "unicorn",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Try a different little way,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "See what changes come today!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "elephant",
+        "fish"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "unicorn",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Try a different little way,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "See what changes come today!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "fish",
+        "frog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "star",
+            "kind": "star",
+            "label": "star",
+            "owner": "unicorn",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "sparkle-paper-star-15",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "e844d45894f98fae20c1a2b62c6de2448ed662574c41819ff1cf057a1d0bda64"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

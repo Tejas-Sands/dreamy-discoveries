@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "frosty-leaf-leaf-13",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Frosty and the Leaf Mustache",
+      "palette": "forest",
+      "mainCharacter": {
+        "kind": "snowman",
+        "name": "Frosty"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Frosty and the Leaf Mustache | Sunny Meadow",
+        "description": "Frosty's favorite leaf disappeared from his basket. Buster searched the neat pile beside him. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Frosty",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty's favorite leaf disappeared from his basket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Buster searched the neat pile beside him.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It was the curliest leaf in the park!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Perhaps it is hiding among the straight ones.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty wanted a picture made from leaves.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The curly leaf would be a smiling mouth.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My leaf face needs a very grand smile.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then we had better find that special leaf.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty shook the basket above the blanket.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A little rain of leaves covered Buster.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Any curly smiles coming down over there?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Only one dog wearing a very leafy coat.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster sorted the fallen leaves by shape.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Frosty peered behind the empty basket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I have found three noses and two ears.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "But our smile is still missing somewhere.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "Under Frosty’s nose!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Under Frosty’s nose!"
+          },
+          "lines": [
+            {
+              "text": "Where did the curly leaf go?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty tried using a straight leaf instead.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It made the picture look terribly serious.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This face is waiting for a late bus.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps it needs a very serious hat.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster held a leaf above the picture's eyes.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Frosty bent down and nodded solemnly.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Good afternoon. Your bus is not here yet.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Good afternoon. I shall continue looking unhappy.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty's nose tickled as he leaned closer.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Buster suddenly looked up from the picture.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Why are you looking at my face like that?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your face has grown a little mustache.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "The curly leaf clung beneath Frosty's nose.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buster carefully lifted one end of it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My missing smile was visiting my nose!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It makes an excellent snowy mustache too.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "The curly one!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The curly one!"
+          },
+          "lines": [
+            {
+              "text": "Which leaf will make a good mustache?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty set the leaf on their picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The serious face finally looked cheerful.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now our picture knows a good joke.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "But your own face looks rather bare.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster found two smaller curly leaves.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He held them below his own nose.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can be the Assistant Mustache Inspector.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I must inspect your excellent leaf work.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "They bowed to the smiling leaf picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Frosty put one spare curl under his nose.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This is a very distinguished art gallery.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "All visitors must have a proper leaf mustache.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "autumn",
+          "character": "snowman",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "A breeze carried Buster's mustache away.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He watched it tumble along the path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That visitor has left without saying goodbye.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Clearly a very rude mustache indeed.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

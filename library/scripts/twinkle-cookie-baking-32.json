@@ -1,0 +1,1434 @@
+{
+  "type": "story",
+  "title": "Twinkle and the Too-Hot Cookie Tray",
+  "palette": "meadow",
+  "mainCharacter": {
+    "kind": "star",
+    "name": "Twinkle"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Waiting for a grown-up’s help can keep a fun task safe.",
+  "moralRhyme": [
+    "Little seeds need time to grow,",
+    "Watch the changes, soft and slow!"
+  ],
+  "youtube": {
+    "title": "Twinkle and the Too-Hot Cookie Tray | Sunny Meadow",
+    "description": "Twinkle reached toward a steaming cookie tray. Finn called from his cool water bowl. Waiting for a grown-up’s help can keep a fun task safe. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Twinkle",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle reached toward a steaming cookie tray.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Finn called from his cool water bowl.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Those cookies smell ready for our picnic!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The tray is still very hot, Twinkle.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle wanted to arrange a cookie plate.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A grown-up had left the tray to cool.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can carry the cookies to the table.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's wait until the tray is safe to touch.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle waved a paper fan above the tray.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She hoped the steam would disappear at once.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I have brought the cookies their own breeze.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A little breeze does not cool hot metal instantly.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle put the fan down and waited.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The tray still gave off a faint warm shimmer.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "My fan has not finished the job yet.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The cookies need more cooling time.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍪",
+      "question": {
+        "answer": {
+          "text": "No, wait!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Twinkle touch the hot tray?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! No, wait!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle looked for something to cover her hands.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She found a thin paper napkin nearby.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can this little napkin make the tray safe?",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No. Let's ask a grown-up to move it.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle left the tray exactly where it was.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "She called for help from the kitchen doorway.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Please help us move the hot cookie tray.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "That is a much safer plan than guessing.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "A grown-up moved the tray to the cooling rack.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Twinkle stayed beside Finn until it was settled.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can prepare the picnic while they cool.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can help you count the empty plates.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle placed one plate at each seat.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍪"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Finn pointed to the extra chair near the window.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We need a place for the person helping us.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then I shall put a thank-you plate here.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍪",
+      "question": {
+        "answer": {
+          "text": "A grown-up!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who can move the hot tray?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A grown-up!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "They washed their hands before handling the food.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The grown-up checked that the cookies were cool.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now we have permission to fill the plates.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The waiting has made the picnic ready too.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle lifted cookies onto the waiting plates.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She kept the empty tray on its rack.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every friend has a safe, cool cookie now.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And nobody had to touch a hot tray.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle offered their helper the first plate.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Finn bobbed beside his little picnic bowl.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for helping with the hot part.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We took care of the cool part together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "star",
+      "secondCharacter": "fish",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍪",
+      "question": null,
+      "lines": [
+        {
+          "text": "The paper fan rested beside the empty plates.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Twinkle waved it gently toward Finn.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Would you like a little breeze with lunch?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Only if it does not blow away my cookie.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "dragon"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "star",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Twinkle learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Waiting for a grown-up’s help can keep a fun task safe.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "star",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Little seeds need time to grow,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Watch the changes, soft and slow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "elephant",
+        "frog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "star",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Little seeds need time to grow,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Watch the changes, soft and slow!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog",
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "cookie",
+            "kind": "cookie",
+            "label": "cookie",
+            "owner": "star",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "twinkle-cookie-baking-32",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "9382740aed2b168736498dd5c1c19c14e93ace91152c574dcaabefe966f848c0"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

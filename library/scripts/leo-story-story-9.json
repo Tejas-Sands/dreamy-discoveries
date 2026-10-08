@@ -1,0 +1,1476 @@
+{
+  "type": "story",
+  "title": "Leo and the Tiny Roar Library",
+  "palette": "ocean",
+  "mainCharacter": {
+    "kind": "lion",
+    "name": "Leo"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Listening carefully can help everyone enjoy a story together.",
+  "moralRhyme": [
+    "Leave a little space to hear,",
+    "Every friend can join us here!"
+  ],
+  "youtube": {
+    "title": "Leo and the Tiny Roar Library | Sunny Meadow",
+    "description": "Leo's roar covered the end of Buzz's story. Buzz closed the book on one tiny finger. Listening carefully can help everyone enjoy a story together. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Leo",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Leo's roar covered the end of Buzz's story.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Buzz closed the book on one tiny finger.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "I cannot hear where the little boat goes!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "That is the part I am trying to read.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Leo wanted a thrilling afternoon story.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Buzz had chosen a book about a boat.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can make all the exciting sounds.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's leave room for the words between them.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Leo roared whenever he saw blue waves.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Buzz tried to read the next sentence.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Roar! Those waves sound very enormous!",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They do, but nobody can hear the boat.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz waited for the roar to finish.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Leo leaned close to the open page.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Why has our story stopped sailing?",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "It needs this little sentence to move on.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "Listen!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Leo roar over Buzz or listen?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Listen!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Leo tried whispering a roar instead.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The long rumble still covered Buzz's words.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Rrrrr. I have made a tiny roar.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It is tiny, but it is very long.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "The boat stayed beside the same painted rock.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Leo noticed Buzz's finger had not moved.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "We have sailed the same rock three times.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "⛵"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "I am still on the same sentence.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Leo tucked his paws beneath his chin.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He listened while Buzz read one whole page.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Now I can hear what the boat needs.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A little breeze, and a clear way home.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz pointed to a small sound mark.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Leo waited until Buzz nodded at him.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Is this the place for my breeze?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes. One soft whoosh after my sentence.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📖"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "📖",
+      "question": {
+        "answer": {
+          "text": "Buzz!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who gets to finish the next sentence?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Buzz!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz read about the boat opening its sail.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Leo gave one short, gentle whoosh.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Whoosh! Then I will listen again.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now the words and the breeze fit together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "The boat sailed safely past the painted rock.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Buzz finished the page without stopping.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I finally heard how they got home.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And your breeze helped make the trip exciting.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Leo asked Buzz to read the ending again.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He kept his little sound until the nod.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I want to hear the harbor bell this time.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then wait until the boat reaches the dock.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "lion",
+      "secondCharacter": "bee",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "📖",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz rang an imaginary bell very softly.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Leo answered with one satisfied little purr.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "📖"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That was the smallest harbor bell ever.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It was built for a very tiny reader.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "elephant"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "lion",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Leo learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Listening carefully can help everyone enjoy a story together.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "lion",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Leave a little space to hear,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every friend can join us here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "fish",
+        "frog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "lion",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Leave a little space to hear,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Every friend can join us here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog",
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "book",
+            "kind": "book",
+            "label": "book",
+            "owner": "lion",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom",
+            "openProgress": 0
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "leo-story-story-9",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "89217f2eb4d8f127e277f23fff7fd6599bac0f116b2eccd6a50f75849bdba4e3"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

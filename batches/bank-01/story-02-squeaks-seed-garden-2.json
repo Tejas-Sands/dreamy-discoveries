@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "squeaks-seed-garden-2",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Squeaks and the Mixed-Up Seed Rows",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "mouse",
+        "name": "Squeaks"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Finding out what a seed needs helps it grow.",
+      "moralRhyme": [
+        "Little seeds need time to grow,",
+        "Watch the changes, soft and slow!"
+      ],
+      "youtube": {
+        "title": "Squeaks and the Mixed-Up Seed Rows | Sunny Meadow",
+        "description": "Squeaks stared at three empty garden rows. Daisy held the opened seed packets. Finding out what a seed needs helps it grow. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Squeaks",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks stared at three empty garden rows.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Daisy held the opened seed packets.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The pictures promised carrots and flowers!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Have you put anything under the soil?",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks wanted a bright little garden.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She loved the pictures on the packets.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I will plant a rainbow right here.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's keep the carrots in their own row.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks pushed the colorful packets into soil.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Their paper corners stuck out like flags.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now the pictures can turn into flowers.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But the seeds are still in this bowl.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "A sprinkle of water soaked the packets.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The flower picture curled into a tube.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My sunflower is getting very wrinkly.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Paper needs a different kind of care.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "The seeds!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The seeds!"
+          },
+          "lines": [
+            {
+              "text": "Should Squeaks plant the picture or the seeds?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks poured every seed into one hole.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She tucked the empty bowl beside it.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This spot will grow the whole rainbow.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "The seeds might need room between them.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "The hole filled with a crowded seed pile.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Daisy could not see the bottom anymore.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "There is no room for the carrots!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's check the packets before covering it.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "They laid the packets beside the path.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks examined the pictures on their backs.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "These marks show gaps between the seeds.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "We can make little spaces like those.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks sorted the remaining seeds into bowls.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy helped uncover the crowded hole.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The long seeds go in this bowl.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "These round ones match the flower packet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "Their seed packets!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Their seed packets!"
+          },
+          "lines": [
+            {
+              "text": "What should mark the new rows?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks planted small rows with careful gaps.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy gently covered each row with soil.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now every seed has a little space.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's water softly without moving them.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "They fixed the packets to small sticks.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Each picture stood beside its matching row.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now I know where the carrots sleep.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And I know where the flowers will grow.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Days later, tiny green shoots appeared.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks checked the signs before watering.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The carrot row has little green tops!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The flower row is waking up too.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "mouse",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks measured a shoot beside her nose.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy crouched to admire the tiny garden.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This garden is nearly as tall as me!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then you picked the perfect rainbow size.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

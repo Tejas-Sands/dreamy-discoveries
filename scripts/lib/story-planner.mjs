@@ -122,15 +122,17 @@ export function storyQualityIssues(script, minutes = 5.5) {
   );
   const lineCount = scenes.reduce((total, scene) => total + (Array.isArray(scene?.lines) ? scene.lines.length : 0), 0);
   const minimumLines = Math.floor(Number(minutes || 5.5) * 9);
+  // Explicit nulls opt into a story ending without a moral or chant.
+  const comic = script?.moral === null && script?.moralRhyme === null;
   const issues = [];
   if (script?.type !== "story") issues.push("type must be story");
-  if (!sentence(script?.moral)) issues.push("moral must be one nonempty sentence");
-  if (!Array.isArray(script?.moralRhyme) || script.moralRhyme.length !== 2 || !script.moralRhyme.every(sentence)) {
+  if (!comic && !sentence(script?.moral)) issues.push("moral must be one nonempty sentence");
+  if (!comic && (!Array.isArray(script?.moralRhyme) || script.moralRhyme.length !== 2 || !script.moralRhyme.every(sentence))) {
     issues.push("moralRhyme must contain exactly two nonempty lines");
   }
   if (scenes[0]?.kind !== "story") issues.push("the opening scene must be the story hook");
   if (storyScenes.length < 6) issues.push("include at least six story scenes");
-  if (!lessonScenes.length) issues.push("include a lesson scene where the hero understands and repairs the problem");
+  if (!comic && !lessonScenes.length) issues.push("include a lesson scene where the hero understands and repairs the problem");
   if (questions.length < 2) issues.push("include at least two question scenes with an answer and praise");
   if (lineCount < minimumLines) issues.push(`include at least ${minimumLines} spoken lines for a ${Number(minutes || 5.5)}-minute story`);
   return issues;

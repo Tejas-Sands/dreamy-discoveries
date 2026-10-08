@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "milo-seed-garden-42",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Milo and the Garden Shortcut",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "monkey",
+        "name": "Milo"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Watching where you step can protect something that is still growing.",
+      "moralRhyme": [
+        "Little seeds need time to grow,",
+        "Watch the changes, soft and slow!"
+      ],
+      "youtube": {
+        "title": "Milo and the Garden Shortcut | Sunny Meadow",
+        "description": "Bao stopped Milo beside a narrow garden row. A tiny green shoot bent near his foot. Watching where you step can protect something that is still growing. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Milo",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao stopped Milo beside a narrow garden row.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "A tiny green shoot bent near his foot.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My shortcut almost stepped on your little plant!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "That row has several new shoots waking up.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo wanted to carry water to the back bed.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The curved garden path seemed very long.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A straight line would get me there sooner.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Only if there is nothing growing in the middle.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo tried stepping between the smallest shoots.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "His wide watering can hid the ground below.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I can fit my feet in these little gaps.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But you cannot see the next gap from there.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo stopped and lowered the can onto the path.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The smallest shoot brushed his toes.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The plants are closer than they looked.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's go around while we work out a clear route.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "Use the path!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Use the path!"
+          },
+          "lines": [
+            {
+              "text": "Should Milo cross the new row or use the path?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo planned to jump over the whole row.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Bao pointed to the leaves on the far side.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One little jump should clear the first plants.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "There are more plants where you would land.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo stayed on the firm path instead.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "He looked along the bed from its edge.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My shortcut keeps finding new garden problems.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "The curved path was made to avoid those plants.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao brought short sticks for the row ends.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Milo set them in clear spaces beside the shoots.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "These marks show where the hidden plants begin.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "We can leave a wide space around them.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo carried a smaller watering can along the path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He could see both feet past its handle.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can watch my steps with this one.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And the path has room for you to turn.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "Small row markers!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Small row markers!"
+          },
+          "lines": [
+            {
+              "text": "What can mark a place for tiny plants?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "They watered the back bed without crossing the row.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Milo set the can on the clear path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "All the little plants are still standing.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your water arrived without a shortcut after all.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Milo checked the shoot he had nearly touched.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Its leaves stood upright beside the marker.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I am glad we stopped to look closely.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Tiny plants can be hard to see from above.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao drew a winding path on their garden plan.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Milo traced it around the seed rows.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This bend is not wasting our steps.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is giving the plants room to grow.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "monkey",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "They walked back along the marked garden path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Milo waved to the smallest green shoot.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Enjoy your new space, tiny garden neighbor.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And we shall enjoy our very clear walk home.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

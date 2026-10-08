@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "ziggy-paint-painting-48",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Ziggy and the Striped Painting",
+      "palette": "forest",
+      "mainCharacter": {
+        "kind": "zebra",
+        "name": "Ziggy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Checking the evidence can be kinder than blaming a friend.",
+      "moralRhyme": [
+        "Stop and look before you go,",
+        "Check the things you need to know!"
+      ],
+      "youtube": {
+        "title": "Ziggy and the Striped Painting | Sunny Meadow",
+        "description": "Ziggy's blue sky had three dark stripes. Squeaks held a small yellow paintbrush. Checking the evidence can be kinder than blaming a friend. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Ziggy",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy's blue sky had three dark stripes.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks held a small yellow paintbrush.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Someone has painted zebra stripes on my clouds!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "My little brush has only yellow on it.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy wanted a clear sky for his picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had set several brushes beside the paper.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I used the big blue brush a moment ago.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's see what else touched the wet sky.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy looked at Squeaks's nearby brush.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He nearly blamed the friend beside his painting.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Your brush was the closest one to my paper.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But closeness does not tell us which brush painted.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks made a tiny yellow dot on scrap.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The mark was much smaller than the stripes.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Your brush cannot make these broad dark lines.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then we need another clue from the table.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🎨",
+          "question": {
+            "answer": {
+              "text": "Check the trail!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Check the trail!"
+          },
+          "lines": [
+            {
+              "text": "Should Ziggy blame Squeaks or check the paint trail?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy tried wiping one stripe with a cloth.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It spread into a wider dark patch.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now the sky has an enormous storm cloud.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Let's stop rubbing until we know what happened.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "A wet trail led toward Ziggy's broad brush.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "He had laid it across the picture's upper edge.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My own brush rested on the blue sky!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Its dark bristles match all three stripes.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy lifted the brush onto an empty saucer.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He looked at Squeaks with a small, sorry smile.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I nearly blamed you without checking the marks.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Thank you for looking at the clues with me.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "They used the broad patch as a cloud.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ziggy drew little rain beneath its lower edge.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The mistake can become part of this picture.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A rainy sky can be lovely as well.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🎨",
+          "question": {
+            "answer": {
+              "text": "Ziggy’s broad brush!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Ziggy’s broad brush!"
+          },
+          "lines": [
+            {
+              "text": "Which brush made the broad marks?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks painted yellow flowers below the rain.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ziggy added bright green stems beside them.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your yellow brush has its own perfect job.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And your broad brush can shade the big cloud.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "They put every wet brush on a saucer.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ziggy checked the clean edges of the paper.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "No more surprise stripes from resting paintbrushes.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a good place for wet brushes to wait.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy admired the finished rainy garden.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks pointed to one tiny painted rainbow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That rainbow would never have arrived without rain.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our picture found a different kind of sunny ending.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "zebra",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy offered Squeaks the first view of the painting.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He kept his broad brush in its saucer.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Next time I will look before guessing.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then your clouds can choose their own stripes.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

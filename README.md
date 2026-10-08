@@ -108,6 +108,12 @@ gentle comedy, visible repairs and earned endings. Save the complete JSON respon
 as `batch-01.json`. Review the stories for originality, fun and emotional impact;
 schema and story-audit checks cannot judge those qualities for you.
 
+Stories may also finish with a comic payoff instead of a stated lesson. Set both
+`moral` and `moralRhyme` to `null` for those stories; the Director keeps the ending
+without adding a moral chant. Keep the story's problem, attempts and resolution.
+
+`batches/bank-01/` contains 51 edited stories: 33 lesson stories and 18 comic endings.
+
 ```bash
 npm run stories:feed -- ./batch-01.json --dry-run  # validate without saving
 npm run stories:feed -- ./batch-01.json            # import and queue

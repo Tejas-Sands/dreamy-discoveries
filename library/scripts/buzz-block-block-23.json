@@ -1,0 +1,1450 @@
+{
+  "type": "story",
+  "title": "Buzz and the Tower Traffic Jam",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "bee",
+    "name": "Buzz"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Taking turns can give each person room to do their part.",
+  "moralRhyme": [
+    "Leave a little space to hear,",
+    "Every friend can join us here!"
+  ],
+  "youtube": {
+    "title": "Buzz and the Tower Traffic Jam | Sunny Meadow",
+    "description": "Buzz's block bridge had stopped halfway across. Professor Ozzy stood at its crowded little doorway. Taking turns can give each person room to do their part. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Buzz",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz's block bridge had stopped halfway across.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Professor Ozzy stood at its crowded little doorway.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "We keep bumping blocks instead of building!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "There is only room for one builder here.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz wanted a bridge for a toy boat.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy carried the wide blocks for its base.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My small blocks can make the curved top.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then we need a way to reach both sides.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz rushed through the opening with three blocks.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ozzy tried coming in from the opposite side.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Excuse me! I have an important delivery.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "So do I, and neither delivery can pass.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Their blocks tapped together in the narrow gap.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "They both backed out to the same side.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "We have built a very small traffic jam.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "With a surprisingly large amount of buzzing.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⛵",
+      "question": {
+        "answer": {
+          "text": "Not easily!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Can two builders use one doorway at once?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Not easily!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz tried handing blocks over Ozzy's head.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One block rested on the unfinished curve.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "I can deliver from up here instead.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But we cannot see whether the base is ready.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "The loose block slipped into the boat space.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Buzz set the rest down before continuing.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The boat has received our building supplies.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Let's decide whose turn the doorway needs.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy placed one wide block on the base.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Buzz watched from beside the opening.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your base block makes a steady place for mine.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then you can take the next turn through.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz carried one small block into the gap.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⛵"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He placed it above Ozzy's sturdy base.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My turn is finished. The doorway is clear.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I can bring the next wide block.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "⛵",
+      "question": {
+        "answer": {
+          "text": "Professor Ozzy!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Who places a block after Buzz?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Professor Ozzy!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "They alternated their trips through the opening.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The bridge grew without another bump.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "One delivery, then one clear doorway.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And both builders can see what is happening.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz set the final block across the top.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy guided the little boat beneath it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The boat fits through our finished bridge!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Nobody has to carry blocks over anybody's head.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🪁",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "They watched the boat pass under the arch.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Buzz announced the next imaginary arrival.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Bridge traffic is flowing very nicely today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "All boats must wait for the builder's lunch.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "playground",
+      "character": "bee",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "⛵",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy offered Buzz a tiny pretend sandwich.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Buzz parked beside the bridge entrance.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This delivery can have the next turn.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It appears to be a very urgent sandwich.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "fish"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "playground",
+      "character": "bee",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Buzz learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Taking turns can give each person room to do their part.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "playground",
+      "character": "bee",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Leave a little space to hear,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every friend can join us here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog",
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "playground",
+      "character": "bee",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Leave a little space to hear,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Every friend can join us here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "giraffe",
+        "hedgehog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "boat",
+            "kind": "boat",
+            "label": "boat",
+            "owner": "bee",
+            "x": 730,
+            "y": 826,
+            "location": "playground"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "buzz-block-block-23",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "459ee91b6a3217816a1e9fd4fbb359a1d16ad84d23c664bf2ad4ef978aed358e"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "af_heart",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

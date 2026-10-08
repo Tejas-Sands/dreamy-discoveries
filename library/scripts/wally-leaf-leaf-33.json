@@ -1,0 +1,1437 @@
+{
+  "type": "story",
+  "title": "Wally and the Windy Leaf Delivery",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "whale",
+    "name": "Wally"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Securing a load can make carrying it easier.",
+  "moralRhyme": [
+    "Stop and look before you go,",
+    "Check the things you need to know!"
+  ],
+  "youtube": {
+    "title": "Wally and the Windy Leaf Delivery | Sunny Meadow",
+    "description": "Wally's leaf bundle scattered along the path. Kevin caught a yellow leaf against his chest. Securing a load can make carrying it easier. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Wally",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally's leaf bundle scattered along the path.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Kevin caught a yellow leaf against his chest.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🍃"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Our art supplies have become autumn birds!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "This one seems to have landed on me.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": null,
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [
+          {
+            "kind": "catch",
+            "propId": "leaf",
+            "line": 1,
+            "actor": "friend",
+            "delaySec": 0.55,
+            "durationSec": 1.05
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally wanted to bring leaves to the craft table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He had gathered red, gold and brown ones.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "color": "#ff3b3b",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The whole picture is in this loose bundle.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then we need to keep the bundle together.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally squeezed the leaves between both flippers.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The wind lifted their edges above his paws.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can hold them very tightly from here.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The top leaves are still free to flap.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "A red leaf slipped past Wally's cheek.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "color": "#ff3b3b",
+            "emoji": "🍃"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "He stopped to keep the rest from falling.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "We are losing the sunset part of our picture.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "I can catch it beside that little rock.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "autumn",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍃",
+      "question": {
+        "answer": {
+          "text": "In a basket!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should the leaves travel loose or in a basket?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! In a basket!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally balanced the leaves on a flat board.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He carried it like a large serving tray.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now they all have a place to lie.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But the tray has no sides against the breeze.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "autumn",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Another gust lifted the leaves like little sails.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Kevin gathered them from the grass again.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Our picture has attempted a second flight.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Let's use a basket with a light cover.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "They walked back to the garden basket shelf.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wally found a wide basket for the leaves.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This has sides tall enough for the bundle.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can lay a cloth loosely over the top.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "leaf",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "garden",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally arranged the leaves without squeezing them.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Kevin spread the light cloth across the opening.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The leaves have room without sticking out.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And this corner can stay beneath the handle.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "garden",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🍃",
+      "question": {
+        "answer": {
+          "text": "A light cover!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "What will stop the top leaves blowing away?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! A light cover!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "garden",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "They tested the basket beside the windy gate.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The cover fluttered while the leaves stayed inside.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The wind can wave without taking our picture.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is a much quieter sort of delivery.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally carried the basket to the craft table.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Kevin held the door while they entered.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every color has arrived in the same basket!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our sunset can finally stay on one sheet.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "page",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "They uncovered the leaves beside the paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Wally chose the red leaf that had escaped.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "color": "#ff3b3b",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "This one has already visited half the garden.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then it deserves the best place in the picture.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "whale",
+      "secondCharacter": "koala",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🍃",
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally placed the red leaf above their tree.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "RED",
+            "color": "#ff3b3b",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Kevin arranged small yellow leaves beneath it.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🍃"
+          },
+          "sfx": []
+        },
+        {
+          "text": "There is our sunset without another windy chase.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And no autumn birds left on the path.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "dragon"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "leaf",
+            "kind": "leaf",
+            "label": "leaf",
+            "owner": "koala",
+            "x": 730,
+            "y": 826,
+            "location": "autumn"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "whale",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Wally learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Securing a load can make carrying it easier.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "whale",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Stop and look before you go,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Check the things you need to know!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "elephant",
+        "fish"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "whale",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Stop and look before you go,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Check the things you need to know!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "fish",
+        "frog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "wally-leaf-leaf-33",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "33f846a37feeb88904bcafd1772dd45d0a31efa944023f4773ac36f910254000"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "af_heart",
+      "zebra": "af_sarah"
+    }
+  }
+}

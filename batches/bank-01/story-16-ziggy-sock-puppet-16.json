@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "ziggy-sock-puppet-16",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Ziggy and the Sock Puppet Sneezes",
+      "palette": "sunshine",
+      "mainCharacter": {
+        "kind": "zebra",
+        "name": "Ziggy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Ziggy and the Sock Puppet Sneezes | Sunny Meadow",
+        "description": "Ziggy's sock puppet had lost its nose. Daisy checked the little stage curtain. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Ziggy",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy's sock puppet had lost its nose.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Daisy checked the little stage curtain.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Our famous puppet cannot smell his own lunch!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Perhaps his nose is waiting behind the stage.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy wanted to perform a puppet picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "His sock puppet wore two paper eyes.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He is the world's hungriest little sock.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then he will certainly notice a missing nose.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy looked beneath the puppet's tiny hat.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A loose paper button fell onto the stage.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That is not his nose. That is his hat button.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your puppet has very untidy pockets.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy checked inside the little puppet basket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Ziggy made the puppet peer over its edge.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Have you seen a small round nose anywhere?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Only a puppet looking extremely surprised.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Ziggy is talking!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Ziggy is talking!"
+          },
+          "lines": [
+            {
+              "text": "Is the puppet talking or is Ziggy talking?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy drew a new nose on paper.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He held it against the sock without glue.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There! A magnificent temporary sniffing nose.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Be careful. It is only resting there.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "The paper nose fluttered down to the floor.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Ziggy made the puppet sigh dramatically.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Another nose has gone on holiday!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Your puppet should charge them rent.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Something tickled Ziggy's fingers inside the sock.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He held the puppet still and peered in.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There is a little round thing near my thumb.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Could the first nose have fallen inside?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy turned the sock carefully inside out.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The original paper nose dropped into his palm.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our missing guest has finally come home!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He was enjoying a very private puppet picnic.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Inside the sock!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Inside the sock!"
+          },
+          "lines": [
+            {
+              "text": "Where is the puppet’s missing nose?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They fixed the nose firmly onto the sock.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy reopened their little stage curtain.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The show can start with a proper sniff.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let us introduce our very hungry hero.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy made the puppet sniff an imaginary pie.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy waved a leaf beside its face.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "What a wonderful smell of sock pudding!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is because you are wearing the pudding.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "The leaf tickled Ziggy's real nose.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He sneezed into his elbow behind the curtain.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Achoo! Excuse me. That one was mine.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your puppet thinks the whole stage just sneezed.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "zebra",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ziggy raised the puppet above the curtain.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy waited for its grand final line.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Does this theater have a smaller earthquake?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Only if you bring a smaller puppeteer.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

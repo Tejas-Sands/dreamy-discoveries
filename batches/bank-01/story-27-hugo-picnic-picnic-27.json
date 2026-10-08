@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "hugo-picnic-picnic-27",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Hugo and the Picnic Blanket River",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "hippo",
+        "name": "Hugo"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Sharing a task can make a heavy job manageable.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "youtube": {
+        "title": "Hugo and the Picnic Blanket River | Sunny Meadow",
+        "description": "Hugo's picnic basket sank into the blanket. Buster could barely see its little handles. Sharing a task can make a heavy job manageable. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Hugo",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo's picnic basket sank into the blanket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Buster could barely see its little handles.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I packed enough for a very hungry picnic!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "You also packed the picnic underneath it.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo wanted lunch beside the garden pond.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had added plates, fruit and a blanket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can carry the whole picnic at once.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's check whether you can see your feet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo lifted the overloaded basket against his chest.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Its blanket trailed between his steps.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The picnic seems to have grown a tail.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Please stop before your foot catches that corner.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo set the basket on the path.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Three apples rolled into the loose blanket folds.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Our lunch has made a tiny river valley.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "The apples are camping at the bottom.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Use smaller trips!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Use smaller trips!"
+          },
+          "lines": [
+            {
+              "text": "Should Hugo carry everything in one trip?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo wrapped the blanket around the whole basket.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He tried gathering its corners into one bundle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One enormous bundle should be easier to hold.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But your plates are hiding under your lunch.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "The bundle leaned heavily to one side.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Hugo carefully lowered it onto the grass.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I cannot carry this without squeezing everything.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "We can give different things different trips.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster laid the blanket flat beside them.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Hugo sorted fruit from plates and cups.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I can carry the fruit in this basket.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I can bring the light plates and the blanket.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo removed the spare plates they did not need.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buster folded the blanket into a small square.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Two friends need two plates, not twelve.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our picnic has been expecting a football team.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "The lighter picnic things!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The lighter picnic things!"
+          },
+          "lines": [
+            {
+              "text": "What can Buster carry?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "pond",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They carried their smaller loads toward the pond.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Hugo kept the basket below his line of sight.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now I can see every step on the path.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And my blanket has stopped chasing your feet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They spread the blanket beside the water.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buster unpacked while Hugo held the fruit basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That was much easier with two small jobs.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And nothing arrived squashed at the bottom.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Hugo offered Buster a crisp little apple.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buster put the spare fruit in the basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for carrying the lighter things.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you for leaving enough hands to help.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "pond",
+          "character": "hippo",
+          "secondCharacter": "dog",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They sat with their feet outside the blanket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A tiny folded corner bobbed in the breeze.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our blanket river is calm again.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then this apple has reached a perfect picnic shore.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

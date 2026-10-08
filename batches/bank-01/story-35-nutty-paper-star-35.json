@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "nutty-paper-star-35",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Nutty and the Star Delivery Mix-Up",
+      "palette": "candy",
+      "mainCharacter": {
+        "kind": "squirrel",
+        "name": "Nutty"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Checking names before delivering can save someone a confusing surprise.",
+      "moralRhyme": [
+        "Stop and look before you go,",
+        "Check the things you need to know!"
+      ],
+      "youtube": {
+        "title": "Nutty and the Star Delivery Mix-Up | Sunny Meadow",
+        "description": "Ben opened a parcel full of paper stars. Nutty held a card meant for somebody else. Checking names before delivering can save someone a confusing surprise. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Nutty",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben opened a parcel full of paper stars.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Nutty held a card meant for somebody else.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I thought you ordered a picture of acorns!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "I did. These acorns look very pointy.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty wanted to deliver two handmade pictures.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One showed stars and the other showed acorns.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I put them into matching little parcels.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then the labels will help tell them apart.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty chose the larger parcel for Ben.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He guessed it must contain the bigger picture.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Your acorns needed a very large envelope.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But the picture inside has a yellow moon.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben looked at the small name label.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Nutty turned the other parcel in his paws.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "This says Professor Ozzy, not Ben.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then your acorns are still in my basket.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭐",
+          "question": {
+            "answer": {
+              "text": "Read the label!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Read the label!"
+          },
+          "lines": [
+            {
+              "text": "Should Nutty guess the name or read the label?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty tried remembering which parcel he wrapped first.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He closed his eyes and pointed hopefully.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The first parcel must be the acorn one.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Or we could look at the names together.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty opened his eyes and checked both labels.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Each parcel had a clear little name.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I was making a guessing game from a delivery.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "The labels already know the right answer.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty placed Ben's label beside Ben's parcel.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He checked the acorn picture before closing it.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "These are the acorns you were expecting.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And those stars can go back to Ozzy's parcel.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben helped Nutty keep the two pictures separate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty tied each label onto its matching handle.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now the name stays beside the picture.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's read it once more before you deliver it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭐",
+          "question": {
+            "answer": {
+              "text": "Its named friend!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Its named friend!"
+          },
+          "lines": [
+            {
+              "text": "Who should get the star picture?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty handed Ben the checked acorn picture.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben pointed to a tiny painted squirrel.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That squirrel is collecting tomorrow's breakfast.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He has an excellent eye for acorns.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "They walked to Ozzy's quiet garden corner.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty read the second label before knocking.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Professor Ozzy gets the star picture this time.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And Ben gets to keep his own acorns.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty returned with an empty delivery basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben had hung his picture beside the door.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Both pictures found their proper homes today.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Reading was quicker than guessing twice.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "squirrel",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty checked the basket's last little label.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "It read simply, Basket belongs to Nutty.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "At least I delivered myself to the right owner.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a very promising start for tomorrow.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "eli-paint-painting-8",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Eli and the Thank-You Paint Spots",
+      "palette": "forest",
+      "mainCharacter": {
+        "kind": "elephant",
+        "name": "Eli"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A specific thank-you helps someone know their help mattered.",
+      "moralRhyme": [
+        "Name the help a friend gave you,",
+        "Say a warm and kind thank-you!"
+      ],
+      "youtube": {
+        "title": "Eli and the Thank-You Paint Spots | Sunny Meadow",
+        "description": "Eli's yellow paint turned a muddy brown. Cleo stopped her brush above the paper. A specific thank-you helps someone know their help mattered. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Eli",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli's yellow paint turned a muddy brown.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Cleo stopped her brush above the paper.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My sunny picture has become a puddle!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "There is blue paint on that yellow brush.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli wanted to make a thank-you card.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had drawn a little sunny garden.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "You helped carry my heavy books yesterday.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I will enjoy your sunny picture.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli dipped every brush into one cup.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He hoped the yellow would cover the blue.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A little more paint should fix this.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That brush is bringing more blue with it.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "A green streak crossed the paper sun.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Eli stared at the strange new color.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My sun looks like an enormous pea.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It is a very bright pea, though.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🎨",
+          "question": {
+            "answer": {
+              "text": "The matching brush!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The matching brush!"
+          },
+          "lines": [
+            {
+              "text": "Which brush belongs in each paint cup?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli wiped the brush on his picture.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A long blue trail reached the garden path.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I can rub the blue away right here.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Paper does not wash like a paintbrush.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "The rubbing made a little paper tear.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Eli put the brush down beside it.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Now my garden has a secret tunnel.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's save this sheet for color practice.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo brought a cup of clean water.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Eli watched her rinse the blue brush.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The water carries the loose paint away.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then dry the brush before choosing yellow.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli rinsed each brush and dried it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He placed one brush beside each paint cup.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This little brush belongs with the yellow.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And the wide one can stay with blue.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🎨",
+          "question": {
+            "answer": {
+              "text": "The mixed paint!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The mixed paint!"
+          },
+          "lines": [
+            {
+              "text": "What did Cleo help Eli fix?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli started a fresh card beside the cups.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He used the clean yellow brush first.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There is my sunny garden again!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The sun has stopped looking like a pea.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli painted two friends carrying a book.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He added a small heart beside them.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This is us carrying my heavy books.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a lovely thing to remember.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli offered the finished card to Cleo.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He pointed to the painted little book.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for helping carry that heavy pile.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now I know just what your card means.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo put the card beside her reading chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Eli kept the green sun for practice.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I might paint a pea garden next time.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then your first sun will feel at home.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "percy-drum-drum-26",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Percy and the Drumbeat Nobody Could Follow",
+      "palette": "sunshine",
+      "mainCharacter": {
+        "kind": "pig",
+        "name": "Percy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Leaving room to listen can make playing together more fun.",
+      "moralRhyme": [
+        "Leave a little space to hear,",
+        "Every friend can join us here!"
+      ],
+      "youtube": {
+        "title": "Percy and the Drumbeat Nobody Could Follow | Sunny Meadow",
+        "description": "Taffy stopped halfway around the music circle. Percy's drumbeat raced ahead of her feet. Leaving room to listen can make playing together more fun. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Percy",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy stopped halfway around the music circle.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Percy's drumbeat raced ahead of her feet.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My ears cannot catch up with that beat!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "I thought faster music would make faster dancing.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy wanted a marching tune for Taffy.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She had planned four small hopping steps.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can play the biggest drum sound here.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then help me hear where each step belongs.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy drummed as quickly as his paws could move.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Taffy tried following with very tiny hops.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "My paws sound like falling popcorn!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "My feet feel like they are chasing it.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy sat down beside the circle.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Percy stopped when he noticed her still feet.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Why has our march turned into a rest?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Because the beat has run away without me.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🥁",
+          "question": {
+            "answer": {
+              "text": "Listen first!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Listen first!"
+          },
+          "lines": [
+            {
+              "text": "Should Percy play over Taffy or listen first?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy played only loud beats instead.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The space between them changed each time.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now every step has a giant sound.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But I cannot guess when the next one comes.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy showed four evenly spaced little hops.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Percy watched her feet before touching the drum.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Your steps leave the same space each time.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "That space lets me land before hopping again.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy tapped a slow beat with one paw.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Taffy answered with one comfortable hop.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Tap, and a little room to breathe.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Hop, and a little room to land.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "They practiced four beats and a pause.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Percy waited while Taffy turned around.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The quiet bit helps you change direction.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And it gives your paws a tiny rest.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🥁",
+          "question": {
+            "answer": {
+              "text": "Yes!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Yes!"
+          },
+          "lines": [
+            {
+              "text": "Can a pause be part of a rhythm?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy kept the same easy rhythm.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Taffy marched around the whole circle.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can follow every beat you play now!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I can hear your feet joining my drum.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "They invited two imaginary dancers to their game.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Percy left plenty of space between the beats.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This tune has room for all our steps.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Even for a very small pretend dancer.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy gave Percy a turn to march.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She tapped the drum while he circled it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now I know how the rhythm feels outside.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And I know how it feels inside the drum.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "pig",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "They finished with one soft final tap.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Both friends landed on the same beat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That was a march we made together.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The quiet spaces were part of the music too.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

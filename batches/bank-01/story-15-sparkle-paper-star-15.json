@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "sparkle-paper-star-15",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Sparkle and the Lopsided Paper Star",
+      "palette": "candy",
+      "mainCharacter": {
+        "kind": "unicorn",
+        "name": "Sparkle"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A mistake can become part of a new idea.",
+      "moralRhyme": [
+        "Try a different little way,",
+        "See what changes come today!"
+      ],
+      "youtube": {
+        "title": "Sparkle and the Lopsided Paper Star | Sunny Meadow",
+        "description": "Sparkle's paper star had one crooked point. Percy studied it beside the craft basket. A mistake can become part of a new idea. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Sparkle",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle's paper star had one crooked point.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Percy studied it beside the craft basket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My star looks like it bumped its head.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Perhaps it is trying to wave at us.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle wanted a star for her window.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She had chosen bright yellow paper.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I wanted five very neat little points.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "This one certainly has five very interesting points.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle folded the crooked point tightly backward.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It creased across the star's little middle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now that point cannot look bent anymore.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Now your star has a very large elbow.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle unfolded the paper and pressed it flat.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The crease remained across the yellow surface.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I cannot rub that little fold away.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Maybe we can use the fold in a picture.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭐",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! No!"
+          },
+          "lines": [
+            {
+              "text": "Must every star have matching points?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle trimmed the point to match another.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The two short points looked even smaller.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I have made two little star feet!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "They look ready for a walk across the sky.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle stopped cutting and held up the star.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Percy made it bob above the table.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It really does look like it is walking.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "A walking star might need somewhere to go.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle drew a tiny face in the middle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She placed the crease beneath its smile.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That fold looks like a waving little arm.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your star is greeting someone at the window.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy brought a sheet of dark blue paper.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sparkle set her star above its lower edge.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The blue can be a quiet night sky.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And the short points can be dancing feet.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⭐",
+          "question": {
+            "answer": {
+              "text": "A waving arm!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A waving arm!"
+          },
+          "lines": [
+            {
+              "text": "What can the bent point become?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle glued her walking star onto the sky.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She drew a little moon beside it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now it has a friend to wave to.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The moon looks pleased to meet your star.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "They hung the picture beside the window.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Sparkle stepped back to see its little face.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I would not change that bent point now.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is what makes this star your star.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy tried walking like the paper star.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He waved one arm and shuffled both feet.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your feet are doing a very fine moonwalk.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "My knees think the moon is rather far away.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "unicorn",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "⭐",
+          "question": null,
+          "lines": [
+            {
+              "text": "Sparkle waved at the star before leaving.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The curtain brushed its crooked paper point.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Look! It is waving back through the curtain.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then we should say goodnight before it dances off.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

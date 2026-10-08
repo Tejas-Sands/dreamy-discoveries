@@ -1,0 +1,1271 @@
+{
+  "type": "story",
+  "title": "Spike and the Hedgehog Paintbrush",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "hedgehog",
+    "name": "Spike"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": null,
+  "moralRhyme": null,
+  "youtube": {
+    "title": "Spike and the Hedgehog Paintbrush | Sunny Meadow",
+    "description": "Spike found purple dots behind his painting chair. Bao traced the little dotted trail. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Spike",
+      "funny story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike found purple dots behind his painting chair.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "🎨"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Bao traced the little dotted trail.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "My picture has escaped onto the floor!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Or your paintbrush has been walking backward.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike wanted to paint a starry night.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He placed purple paint beside his chair.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Every star will be one perfect little dot.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Then you need a very small brush tip.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike dipped the largest brush into the paint.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It made a broad purple puddle on paper.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That star appears to have eaten the sky.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Perhaps your brush brought too much paint with it.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao wiped the dripping brush over the pot.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Spike leaned back to admire the large blot.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "It looks like an extremely sleepy cloud.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "A cloud can be part of a night picture.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎨",
+      "question": {
+        "answer": {
+          "text": "Use a brush!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Spike paint with his quills?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Use a brush!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike tried turning to reach a smaller brush.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "His quills brushed the wet edge of the paper.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I think my back has helped with the painting.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your back has made three more purple dots.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🎨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike walked away from the table to look.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "A few damp quill tips dotted the chair.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The picture really is following me!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "You have become a traveling paintbrush.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao held a mirror beside Spike's back.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Spike studied the little purple quill tips.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "🎨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Those dots are supposed to be in the sky.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's clean them gently before sitting down again.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike washed the damp tips with a cloth.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Bao moved the paint away from his chair.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My back is officially off painting duty.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "It has earned a completely dry rest.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎨",
+      "question": {
+        "answer": {
+          "text": "The end of a brush!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "What can make tiny dots?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! The end of a brush!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike used the end of a small brush.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Little dots appeared above the purple cloud.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "☁️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Now these stars are exactly the right size.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your cloud has found a very lovely sky.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "They added a pale moon beside the cloud.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Spike checked the floor before standing up.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No more stars beneath my feet today.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The sky has stopped leaking into our room.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Bao noticed one purple dot on his own nose.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "⭐"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Spike raised the clean little mirror.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You seem to have a star as well.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is the artist's official inspection light.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "hedgehog",
+      "secondCharacter": "panda",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Spike pointed the mirror at the painted sky.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Bao held his dotted nose very proudly.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Presenting Professor Purple-Nose and his night sky!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "PURPLE",
+            "color": "#a55eea",
+            "emoji": "🎨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Thank you. Autographs are one small dot each.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎨"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "dragon"
+      ],
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "hedgehog",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "spike-paint-painting-28",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "cba604f82857736aaf3c8356d451716a75ade834998f5bb667e6bc2aee0731ba"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "af_heart",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

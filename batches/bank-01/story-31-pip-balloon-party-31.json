@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "pip-balloon-party-31",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Pip and the Balloon Penguin",
+      "palette": "sunshine",
+      "mainCharacter": {
+        "kind": "penguin",
+        "name": "Pip"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Pip and the Balloon Penguin | Sunny Meadow",
+        "description": "A round black balloon waddled across the floor. Professor Ozzy watched Pip follow it. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Pip",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "A round black balloon waddled across the floor.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Professor Ozzy watched Pip follow it.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Another penguin has arrived for my party!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "He seems to have brought only one foot.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip wanted to decorate the party doorway.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had drawn a face on a balloon.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This little guest looks exactly like me.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He is rather rounder around the middle.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip invited the balloon to sit beside him.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It bounced away before he finished speaking.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That guest has very busy little feet.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It is the breeze moving past the open window.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip placed a paper hat on the balloon.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The hat slid down over its painted eyes.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Now our guest cannot see his own party.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then we had better rescue his hat.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! No!"
+          },
+          "lines": [
+            {
+              "text": "Is the balloon a real penguin?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip tied a short ribbon to the balloon.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He tried guiding it through a little dance.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One step left, and a very round bow.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your partner prefers floating straight backward.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "The balloon turned its painted face toward Ozzy.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Pip stopped to admire the strange little turn.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I think it wants you as its dance partner.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It has excellent taste in ballroom teachers.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy showed Pip how the breeze moved the ribbon.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Pip held it still between two fingers.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The wind is doing all the funny walking!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "You can use that for a party game.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip set the balloon beside the doorway.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He fixed the ribbon to a low basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our guest can welcome everyone right here.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And nobody has to chase him through the room.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "The breeze!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The breeze!"
+          },
+          "lines": [
+            {
+              "text": "What makes the balloon waddle?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They practiced matching the balloon's tiny sways.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Pip leaned left whenever its ribbon drifted.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Welcome to the very round penguin dance!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please leave your enormous hats at the door.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip bowed when the balloon bounced forward.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy gave an extremely formal little clap.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our guest has invented a splendid bow.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He must have practiced all morning in the breeze.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "A draft turned the painted face upside down.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Pip copied it by bending sideways.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This is a very advanced penguin step!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I suggest keeping your actual feet on the floor.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "penguin",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy placed a tiny crown above the ribbon.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Pip introduced the balloon with a grand wave.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Presenting the world's roundest dancing penguin!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "His Majesty requests a larger supply of air.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

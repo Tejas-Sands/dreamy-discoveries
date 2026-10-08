@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "kevin-kite-kite-5",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Kevin and the Kite That Would Not Fly",
+      "palette": "candy",
+      "mainCharacter": {
+        "kind": "koala",
+        "name": "Kevin"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Changing one small thing can help when a plan fails.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "youtube": {
+        "title": "Kevin and the Kite That Would Not Fly | Sunny Meadow",
+        "description": "Kevin's kite lay flat beside a tree. Professor Ozzy studied its tangled string. Changing one small thing can help when a plan fails. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Kevin",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin's kite lay flat beside a tree.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Professor Ozzy studied its tangled string.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It has forgotten how to be a kite!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Perhaps something is stopping it from moving.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin wanted one high, gentle kite flight.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He held the string above his head.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I made a tail with three ribbons.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's see whether the string can move freely.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin pulled hard without checking the string.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A loop tightened around a low twig.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Up you go, my colorful kite!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your kite is tied to that branch.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "The branch bent while the kite stayed still.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Kevin stopped when he saw the loop.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I have been flying the tree instead.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "The tree would rather keep its roots.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪁",
+          "question": {
+            "answer": {
+              "text": "Untangling!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Untangling!"
+          },
+          "lines": [
+            {
+              "text": "Does a tangled string need pulling or untangling?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin freed the loop and held more string.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He tried beside the same leafy branches.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now the kite has plenty of room.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "The branches are still blocking the breeze.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "A ribbon caught on a leaf overhead.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The kite spun and settled on the grass.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It has found another leafy friend.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's find a place without branches first.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "They walked to the open meadow.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Kevin carried the kite low beside him.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I can feel the breeze on my face.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And there is nothing above the kite now.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin spread the string straight on the grass.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy checked the knots along its length.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This little knot was hiding in a loop.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's loosen it before we try again.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "meadow",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪁",
+          "question": {
+            "answer": {
+              "text": "An open space!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! An open space!"
+          },
+          "lines": [
+            {
+              "text": "Where can Kevin test the kite?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "meadow",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin held the kite into the breeze.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He took a few steps with loose string.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "It is lifting without a big tug!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Give it a little string as it rises.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "The ribbons streamed behind the climbing kite.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Kevin kept the string comfortably in his paws.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The smallest change made such a difference.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You checked each thing that blocked the flight.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin brought the kite down gently.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy held its ribbons away from the grass.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Next time I will check the string first.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And choose a clear place for the breeze.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "koala",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "The kite rested beside its carefully wound string.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Kevin waved goodbye to the open sky.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "You can have another flight tomorrow.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your kite has earned a quiet landing.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

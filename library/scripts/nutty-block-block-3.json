@@ -1,0 +1,1470 @@
+{
+  "type": "story",
+  "title": "Nutty Builds a Tower for Two",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "squirrel",
+    "name": "Nutty"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Listening to a partner can make a shared plan stronger.",
+  "moralRhyme": [
+    "Leave a little space to hear,",
+    "Every friend can join us here!"
+  ],
+  "youtube": {
+    "title": "Nutty Builds a Tower for Two | Sunny Meadow",
+    "description": "Nutty's block tower leaned toward the rug. Professor Ozzy caught its topmost block. Listening to a partner can make a shared plan stronger. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Nutty",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty's block tower leaned toward the rug.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Professor Ozzy caught its topmost block.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "It was supposed to reach the window!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "First it needs to stay on the floor.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": null,
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty wanted a tower with two doorways.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ozzy had drawn room for both friends.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Mine will have a window at the top.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then we need a wide doorway underneath.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": null,
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty stacked the smallest blocks first.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He balanced bigger blocks above their heads.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Little ones are easier to lift.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But they have much more weight above them.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": [
+              {
+                "line": 2,
+                "durationSec": 0.55,
+                "to": {
+                  "x": 640,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": null,
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [
+          {
+            "kind": "pick-up",
+            "propId": "prop-1f9f1",
+            "line": 2,
+            "actor": "character",
+            "delaySec": 0.6,
+            "durationSec": 0.8
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "The narrow bottom shifted under the stack.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Ozzy lowered the top before it fell.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Our tower is trying to sit down.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Let's place these blocks beside the rug.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "squirrel",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧱",
+      "question": {
+        "answer": {
+          "text": "Low!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should the wide blocks go high or low?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Low!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "squirrel",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty pressed both hands against one side.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧱"
+          },
+          "sfx": []
+        },
+        {
+          "text": "He asked Ozzy to stack another block.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I can hold the whole thing upright.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "How will you get inside the doorway?",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 895,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 1105,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "squirrel",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [
+          {
+            "kind": "give",
+            "propId": "prop-1f9f1",
+            "line": 0,
+            "actor": "character",
+            "to": "friend",
+            "delaySec": 0.75,
+            "durationSec": 0.85
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty shuffled sideways toward the door.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The tower leaned the moment he moved.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Oh. I have become part of the wall.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "A wall should not need tired arms.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ozzy spread the drawing on the floor.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Nutty compared its bottom with their tower.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your drawing has a much wider base.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We can use your window idea above it.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty picked the wide blocks for the bottom.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy left two spaces between them.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🧱"
+          },
+          "sfx": []
+        },
+        {
+          "text": "This doorway is for your big feet.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And this smaller one is just for you.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧱"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧱",
+      "question": {
+        "answer": {
+          "text": "Both friends!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Whose idea can help the tower?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Both friends!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Together they stacked lighter blocks on top.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Nutty stopped when the base began to shift.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's finish here instead of adding more.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "We still have room for your window.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty set one flat block across the opening.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🧱"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ozzy tested both doorways with a gentle tap.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our tower stays up without my hands!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now we can both visit the window.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty peered through the upper little gap.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ozzy waved from the doorway below.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hello down there, Professor Doorway!",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Good afternoon, Captain Upstairs Window.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "bedroom",
+      "character": "squirrel",
+      "secondCharacter": "owl",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🧱",
+      "question": null,
+      "lines": [
+        {
+          "text": "They placed two cushions beside the tower.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🧱"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Nutty invited Ozzy to their imaginary tea.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your doorway idea saved my window.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And your window lets the sunlight in.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "elephant"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1105,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f9f1",
+            "kind": "object",
+            "label": "🧱",
+            "owner": "owl",
+            "x": 730,
+            "y": 826,
+            "location": "bedroom"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "squirrel",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Nutty learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Listening to a partner can make a shared plan stronger.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "squirrel",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Leave a little space to hear,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Every friend can join us here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "fish",
+        "frog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "bedroom",
+      "character": "squirrel",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Leave a little space to hear,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Every friend can join us here!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog",
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 895,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "nutty-block-block-3",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "827e9fd216b4109d2c8273e1b550eb9b3b6355147db2a61faaf64f87bbd30a85"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_heart",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

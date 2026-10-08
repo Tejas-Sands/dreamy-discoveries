@@ -1,0 +1,1488 @@
+{
+  "type": "story",
+  "title": "Ziggy and the Striped Painting",
+  "palette": "forest",
+  "mainCharacter": {
+    "kind": "zebra",
+    "name": "Ziggy"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Checking the evidence can be kinder than blaming a friend.",
+  "moralRhyme": [
+    "Stop and look before you go,",
+    "Check the things you need to know!"
+  ],
+  "youtube": {
+    "title": "Ziggy and the Striped Painting | Sunny Meadow",
+    "description": "Ziggy's blue sky had three dark stripes. Squeaks held a small yellow paintbrush. Checking the evidence can be kinder than blaming a friend. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Ziggy",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy's blue sky had three dark stripes.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "☁️"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Squeaks held a small yellow paintbrush.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "☁️"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Someone has painted zebra stripes on my clouds!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "My little brush has only yellow on it.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "☁️"
+          },
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐦",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy wanted a clear sky for his picture.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He had set several brushes beside the paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I used the big blue brush a moment ago.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "🎨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Let's see what else touched the wet sky.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy looked at Squeaks's nearby brush.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He nearly blamed the friend beside his painting.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Your brush was the closest one to my paper.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🙂"
+          },
+          "sfx": []
+        },
+        {
+          "text": "But closeness does not tell us which brush painted.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Squeaks made a tiny yellow dot on scrap.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🎨"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "The mark was much smaller than the stripes.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Your brush cannot make these broad dark lines.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Then we need another clue from the table.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🦋",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎨",
+      "question": {
+        "answer": {
+          "text": "Check the trail!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Should Ziggy blame Squeaks or check the paint trail?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Check the trail!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy tried wiping one stripe with a cloth.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "☁️"
+          },
+          "sfx": []
+        },
+        {
+          "text": "It spread into a wider dark patch.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now the sky has an enormous storm cloud.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Let's stop rubbing until we know what happened.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "A wet trail led toward Ziggy's broad brush.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "He had laid it across the picture's upper edge.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "My own brush rested on the blue sky!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "BLUE",
+            "color": "#2f8cff",
+            "emoji": "🎨"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Its dark bristles match all three stripes.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🎨"
+          },
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🎈",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy lifted the brush onto an empty saucer.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He looked at Squeaks with a small, sorry smile.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "I nearly blamed you without checking the marks.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Thank you for looking at the clues with me.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "They used the broad patch as a cloud.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ziggy drew little rain beneath its lower edge.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The mistake can become part of this picture.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "A rainy sky can be lovely as well.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🎨",
+      "question": {
+        "answer": {
+          "text": "Ziggy’s broad brush!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Which brush made the broad marks?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Yes! Ziggy’s broad brush!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Squeaks painted yellow flowers below the rain.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ziggy added bright green stems beside them.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "color",
+            "text": "GREEN",
+            "color": "#3ecf4a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Your yellow brush has its own perfect job.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "color",
+            "text": "YELLOW",
+            "color": "#ffd60a",
+            "emoji": "🌸"
+          },
+          "sfx": []
+        },
+        {
+          "text": "And your broad brush can shade the big cloud.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "They put every wet brush on a saucer.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Ziggy checked the clean edges of the paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "No more surprise stripes from resting paintbrushes.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "That is a good place for wet brushes to wait.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐝",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy admired the finished rainy garden.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Squeaks pointed to one tiny painted rainbow.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🎨"
+          },
+          "sfx": []
+        },
+        {
+          "text": "That rainbow would never have arrived without rain.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Our picture found a different kind of sunny ending.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "kitchen",
+      "character": "zebra",
+      "secondCharacter": "mouse",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🎨",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy offered Squeaks the first view of the painting.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "He kept his broad brush in its saucer.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Next time I will look before guessing.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then your clouds can choose their own stripes.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "dragon"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 885,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.7,
+                "to": {
+                  "x": 1095,
+                  "y": 870
+                }
+              }
+            ]
+          }
+        },
+        "props": [
+          {
+            "id": "prop-1f3a8",
+            "kind": "object",
+            "label": "🎨",
+            "owner": "zebra",
+            "x": 730,
+            "y": 826,
+            "location": "kitchen"
+          }
+        ],
+        "events": [
+          {
+            "kind": "give",
+            "propId": "prop-1f3a8",
+            "line": 0,
+            "actor": "character",
+            "to": "friend",
+            "delaySec": 0.75,
+            "durationSec": 0.85
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "zebra",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Ziggy learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Checking the evidence can be kinder than blaming a friend.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "zebra",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Stop and look before you go,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Check the things you need to know!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "elephant",
+        "fish"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "kitchen",
+      "character": "zebra",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Stop and look before you go,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Check the things you need to know!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "fish",
+        "frog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 885,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "ziggy-paint-painting-48",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "95eacd0409d4d5b14940b7dab80ae721a1e79926324541013be9b00989f9fcbd"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "bf_emma",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_heart"
+    }
+  }
+}

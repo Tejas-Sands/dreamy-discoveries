@@ -138,6 +138,16 @@ test("a hook-led moral story passes the structural quality gate", () => {
   assert.deepEqual(storyQualityIssues(validStory(), 5.5), []);
 });
 
+test('a comic story can deliberately omit its moral, rhyme and lesson scene', () => {
+  const script = validStory();
+  script.moral = null;
+  script.moralRhyme = null;
+  script.scenes = script.scenes.map(scene => scene.kind === 'lesson' ? {...scene, kind: 'story'} : scene);
+  assert.deepEqual(storyQualityIssues(script, 5.5), []);
+  script.moralRhyme = ['Unexpected chant!', 'Please do not chant!'];
+  assert.ok(storyQualityIssues(script, 5.5).length);
+});
+
 test('directed questions retain valid praise after it moves into a spoken line', () => {
   const script = validStory();
   for (const scene of script.scenes.filter(scene => scene.kind === 'question')) {

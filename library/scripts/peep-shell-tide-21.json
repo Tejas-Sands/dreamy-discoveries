@@ -1,0 +1,1494 @@
+{
+  "type": "story",
+  "title": "Peep and the Three Special Shells",
+  "palette": "sunshine",
+  "mainCharacter": {
+    "kind": "chick",
+    "name": "Peep"
+  },
+  "intro": null,
+  "outro": {
+    "text": "See you next time in Sunny Meadow!",
+    "role": "greeting",
+    "speaker": "character",
+    "emotion": "happy",
+    "action": "wave"
+  },
+  "moral": "Choosing what you need can leave enough for another day.",
+  "moralRhyme": [
+    "Little choices, thoughtful care,",
+    "Make a happier world to share!"
+  ],
+  "youtube": {
+    "title": "Peep and the Three Special Shells | Sunny Meadow",
+    "description": "Peep's shell basket was too heavy to lift. Ben counted a heap of spirals and circles. Choosing what you need can leave enough for another day. #SunnyMeadow #DreamyDiscoveries",
+    "tags": [
+      "kids story",
+      "Sunny Meadow",
+      "Dreamy Discoveries",
+      "Peep",
+      "moral story"
+    ]
+  },
+  "scenes": [
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep's shell basket was too heavy to lift.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Ben counted a heap of spirals and circles.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "My little picture has become an enormous collection!",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "How many shells does your picture really need?",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "point",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 620,
+            "y": 870,
+            "moves": [
+              {
+                "line": 0,
+                "durationSec": 0.55,
+                "to": {
+                  "x": 640,
+                  "y": 870
+                }
+              }
+            ]
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": null,
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [
+          {
+            "kind": "pick-up",
+            "propId": "basket",
+            "line": 0,
+            "actor": "character",
+            "delaySec": 0.6,
+            "durationSec": 0.8
+          }
+        ],
+        "shot": "prop",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep wanted three shapes for a seaside picture.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "She had drawn three spaces on her paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "A circle, a spiral and a long little oval.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Then let's look for one shell for each space.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep gathered every round shell she could see.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The basket filled before she found a spiral.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "All these circles look very lovely together.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "But your picture still needs two other shapes.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": {
+            "kind": "number",
+            "text": "2",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "She tipped the basket onto a blanket.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Round shells covered the three little picture spaces.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "I cannot even see where my picture goes.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "We can put the extra circles back on the sand.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐙",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧺",
+      "question": {
+        "answer": {
+          "text": "Just three!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Does Peep need every shell or just three?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Yes! Just three!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 0,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep chose only the biggest shells next.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Three large shapes crowded the little paper.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "These must be the finest shells on the beach.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "They are beautiful, but they do not fit your picture.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Ben held the paper beside the shell pile.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Peep compared its spaces with the large shells.",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "look",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "My picture needs small shapes, not giant prizes.",
+          "speaker": "character",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        },
+        {
+          "text": "Then the best shells are the ones that fit.",
+          "speaker": "friend",
+          "emotion": "surprised",
+          "action": "nod",
+          "callout": null,
+          "sfx": [
+            "pop"
+          ]
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🐢",
+        "side": "right",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "discovery",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep found one small empty round shell.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "1",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben left the other circles beside the blanket.",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "This one fits exactly inside its little space.",
+          "speaker": "character",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now we can look for a small empty spiral.",
+          "speaker": "friend",
+          "emotion": "thinking",
+          "action": "think",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "They chose a spiral and a smooth oval.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Peep checked the three shells on her paper.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Three different shapes, with room around each one.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "And a basket you can actually carry home.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "question",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 3,
+      "prop": "🧺",
+      "question": {
+        "answer": {
+          "text": "Different-shaped ones!",
+          "emoji": "💡"
+        }
+      },
+      "lines": [
+        {
+          "text": "Which shells will show three different shapes?",
+          "speaker": "narrator",
+          "emotion": "thinking",
+          "action": "point",
+          "role": "question",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Yes! Different-shaped ones!",
+          "role": "praise",
+          "speaker": "character",
+          "action": "cheer",
+          "emotion": "excited",
+          "callout": null,
+          "sfx": [
+            "tada",
+            "ding",
+            "applause"
+          ]
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "thinking",
+      "starIndex": 1,
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "lesson",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "calm",
+      "holdSec": 2,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep returned the extra shells to the sand.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "She left them where other visitors could see.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "These can stay here for another seaside picture.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Or just keep being lovely shells on the beach.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "fade",
+      "camera": "still",
+      "extras": null,
+      "direction": "tender",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep carried the three chosen shells to the bench.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "Ben brought the paper without another heavy load.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "My little collection is finally the right size.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "The picture helped you know what you needed.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": {
+        "kind": "flyby",
+        "emoji": "🫧",
+        "side": "left",
+        "atSec": 1.6,
+        "auto": true
+      },
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 1,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "They arranged the shells without gluing them down.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Peep traced each shape with a crayon.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Now I have their shapes even without the shells.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "You can make another arrangement another day.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": null,
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "story",
+      "background": "beach",
+      "character": "chick",
+      "secondCharacter": "bear",
+      "energy": "upbeat",
+      "holdSec": 2,
+      "prop": "🧺",
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep placed the three shells beside her drawing.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": {
+            "kind": "number",
+            "text": "3",
+            "emoji": "🐚"
+          },
+          "sfx": []
+        },
+        {
+          "text": "The empty basket rested lightly at her feet.",
+          "speaker": "narrator",
+          "emotion": "happy",
+          "action": "look",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Three special shells make one lovely seaside memory.",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "And a much easier walk home for little feet.",
+          "speaker": "friend",
+          "emotion": "happy",
+          "action": "nod",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "transition": "none",
+      "camera": "still",
+      "extras": [
+        "fish"
+      ],
+      "direction": "demonstration",
+      "gag": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          },
+          "friend": {
+            "x": 1360,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "dialogue",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "beach",
+      "character": "chick",
+      "energy": "calm",
+      "transition": "fade",
+      "camera": "zoom-in",
+      "holdSec": 0.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Peep learned something very important!",
+          "speaker": "narrator",
+          "emotion": "surprised",
+          "action": "think",
+          "sfx": [
+            "magic"
+          ],
+          "role": "moral",
+          "callout": null
+        },
+        {
+          "text": "Choosing what you need can leave enough for another day.",
+          "speaker": "character",
+          "emotion": "love",
+          "action": "nod",
+          "role": "moral",
+          "callout": {
+            "kind": "emoji",
+            "emoji": "💡"
+          },
+          "sfx": []
+        }
+      ],
+      "direction": "tender",
+      "secondCharacter": null,
+      "gag": null,
+      "extras": null,
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "quiet",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "beach",
+      "character": "chick",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 1.6,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Little choices, thoughtful care,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Make a happier world to share!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "dance",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Can you say it with me?",
+          "speaker": "character",
+          "emotion": "happy",
+          "action": "point",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "frog",
+        "giraffe"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    },
+    {
+      "kind": "moral",
+      "background": "beach",
+      "character": "chick",
+      "energy": "upbeat",
+      "transition": "pop",
+      "holdSec": 0.8,
+      "prop": null,
+      "question": null,
+      "lines": [
+        {
+          "text": "Little choices, thoughtful care,",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": [
+            "tada"
+          ]
+        },
+        {
+          "text": "Make a happier world to share!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "moral",
+          "callout": null,
+          "sfx": []
+        },
+        {
+          "text": "Hooray! You did it!",
+          "speaker": "character",
+          "emotion": "excited",
+          "action": "cheer",
+          "role": "praise",
+          "sfx": [
+            "tada",
+            "applause"
+          ],
+          "callout": null
+        }
+      ],
+      "direction": "celebration",
+      "secondCharacter": null,
+      "camera": "still",
+      "gag": null,
+      "extras": [
+        "giraffe",
+        "hedgehog"
+      ],
+      "staging": {
+        "actors": {
+          "character": {
+            "x": 640,
+            "y": 870,
+            "moves": []
+          }
+        },
+        "props": [
+          {
+            "id": "basket",
+            "kind": "basket",
+            "label": "basket",
+            "owner": "chick",
+            "x": 730,
+            "y": 826,
+            "location": "beach"
+          }
+        ],
+        "events": [],
+        "shot": "celebration",
+        "auto": true
+      }
+    }
+  ],
+  "slug": "peep-shell-tide-21",
+  "targetMinutes": 5.5,
+  "presentationVersion": 4,
+  "template": null,
+  "imported": {
+    "sourceHash": "f11ebb875cad42f1f099eab6287cf68064218722e866ff2abd1766f7043e0732"
+  },
+  "version": 2,
+  "opening": "hook",
+  "stars": {
+    "total": 2
+  },
+  "music": {
+    "file": "story.wav",
+    "bpm": 96,
+    "mood": "story"
+  },
+  "directed": true,
+  "synthesis": {
+    "engine": "kokoro",
+    "ext": "wav",
+    "voice": "af_heart",
+    "narratorVoice": "af_bella",
+    "speed": 0.95,
+    "model": "Kokoro-82M-v1.0-ONNX:q8:peak-v1",
+    "cacheVersion": 3,
+    "castVoices": {
+      "bunny": "af_heart",
+      "bear": "am_michael",
+      "duck": "af_sarah",
+      "fox": "bf_emma",
+      "turtle": "bm_george",
+      "owl": "am_fenrir",
+      "bee": "am_michael",
+      "bird": "am_michael",
+      "cat": "am_michael",
+      "chick": "af_heart",
+      "cow": "am_michael",
+      "dinosaur": "am_fenrir",
+      "dog": "af_heart",
+      "dragon": "am_michael",
+      "elephant": "bm_george",
+      "fish": "bm_george",
+      "frog": "am_fenrir",
+      "giraffe": "bm_george",
+      "hedgehog": "am_fenrir",
+      "hippo": "af_heart",
+      "horse": "bf_emma",
+      "koala": "af_sarah",
+      "ladybug": "af_sarah",
+      "lion": "af_heart",
+      "monkey": "bf_emma",
+      "mouse": "af_sarah",
+      "panda": "bf_emma",
+      "penguin": "am_michael",
+      "pig": "af_sarah",
+      "raccoon": "am_michael",
+      "sheep": "am_fenrir",
+      "snowman": "am_fenrir",
+      "squirrel": "af_sarah",
+      "star": "af_heart",
+      "tiger": "bm_george",
+      "unicorn": "af_heart",
+      "whale": "am_fenrir",
+      "zebra": "af_sarah"
+    }
+  }
+}

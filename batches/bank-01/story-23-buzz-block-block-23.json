@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "buzz-block-block-23",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Buzz and the Tower Traffic Jam",
+      "palette": "forest",
+      "mainCharacter": {
+        "kind": "bee",
+        "name": "Buzz"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Taking turns can give each person room to do their part.",
+      "moralRhyme": [
+        "Leave a little space to hear,",
+        "Every friend can join us here!"
+      ],
+      "youtube": {
+        "title": "Buzz and the Tower Traffic Jam | Sunny Meadow",
+        "description": "Buzz's block bridge had stopped halfway across. Professor Ozzy stood at its crowded little doorway. Taking turns can give each person room to do their part. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Buzz",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz's block bridge had stopped halfway across.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Professor Ozzy stood at its crowded little doorway.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "We keep bumping blocks instead of building!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "There is only room for one builder here.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz wanted a bridge for a toy boat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy carried the wide blocks for its base.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My small blocks can make the curved top.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then we need a way to reach both sides.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz rushed through the opening with three blocks.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy tried coming in from the opposite side.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Excuse me! I have an important delivery.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "So do I, and neither delivery can pass.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Their blocks tapped together in the narrow gap.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "They both backed out to the same side.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "We have built a very small traffic jam.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "With a surprisingly large amount of buzzing.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⛵",
+          "question": {
+            "answer": {
+              "text": "Not easily!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Not easily!"
+          },
+          "lines": [
+            {
+              "text": "Can two builders use one doorway at once?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz tried handing blocks over Ozzy's head.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One block rested on the unfinished curve.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I can deliver from up here instead.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But we cannot see whether the base is ready.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "The loose block slipped into the boat space.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Buzz set the rest down before continuing.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The boat has received our building supplies.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's decide whose turn the doorway needs.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy placed one wide block on the base.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Buzz watched from beside the opening.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Your base block makes a steady place for mine.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then you can take the next turn through.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz carried one small block into the gap.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He placed it above Ozzy's sturdy base.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My turn is finished. The doorway is clear.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now I can bring the next wide block.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "⛵",
+          "question": {
+            "answer": {
+              "text": "Professor Ozzy!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Professor Ozzy!"
+          },
+          "lines": [
+            {
+              "text": "Who places a block after Buzz?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "They alternated their trips through the opening.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The bridge grew without another bump.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One delivery, then one clear doorway.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And both builders can see what is happening.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz set the final block across the top.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy guided the little boat beneath it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The boat fits through our finished bridge!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Nobody has to carry blocks over anybody's head.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "They watched the boat pass under the arch.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buzz announced the next imaginary arrival.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bridge traffic is flowing very nicely today.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "All boats must wait for the builder's lunch.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "playground",
+          "character": "bee",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "⛵",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy offered Buzz a tiny pretend sandwich.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buzz parked beside the bridge entrance.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This delivery can have the next turn.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It appears to be a very urgent sandwich.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

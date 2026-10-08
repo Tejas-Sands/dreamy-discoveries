@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "tigress-sand-sand-14",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Tigress and the Sandcastle Door",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "tiger",
+        "name": "Tigress"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Making room for someone can matter more than making something bigger.",
+      "moralRhyme": [
+        "Make some room for me and you,",
+        "There is space to join in too!"
+      ],
+      "youtube": {
+        "title": "Tigress and the Sandcastle Door | Sunny Meadow",
+        "description": "Bao could not enter Tigress's sandcastle courtyard. Tigress stood proudly beside its tiny doorway. Making room for someone can matter more than making something bigger. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Tigress",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao could not enter Tigress's sandcastle courtyard.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Tigress stood proudly beside its tiny doorway.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My castle has the tallest wall on the beach!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "It also has the smallest way inside.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress wanted a courtyard for two friends.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao held a bucket for their pretend picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "We can have our tea behind this wall.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I would love to come through the door.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress added more sand above the opening.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She thought a taller doorway would help.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now it reaches higher than my bucket.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But it is still too narrow beside me.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao turned sideways without touching the wall.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "His bucket could not fit through either.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My picnic is waiting outside with me.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's find a way to bring you both in.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🏰",
+          "question": {
+            "answer": {
+              "text": "A wider door!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A wider door!"
+          },
+          "lines": [
+            {
+              "text": "Does Bao need a taller wall or a wider door?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress suggested lifting the picnic over the wall.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Bao carefully set the bucket on top.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "At least our tea can visit the castle.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But I would rather sit there with you.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "The bucket made a small dent in the wall.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Tigress lowered it before the sand crumbled.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "A castle picnic needs people, not just buckets.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Your courtyard has plenty of space inside.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress measured the opening with Bao's bucket.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She marked a wider space on the sand.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This doorway should fit your picnic first.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then I can follow right behind it.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress rebuilt the sides farther apart.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao brought damp sand to strengthen each edge.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "We can keep the wall lower here.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A wide doorway looks welcoming from outside.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🏰",
+          "question": {
+            "answer": {
+              "text": "Bao!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Bao!"
+          },
+          "lines": [
+            {
+              "text": "Who should test the new doorway?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao carried his bucket through the new door.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nothing brushed the sand on either side.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our castle finally has room for your picnic!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And room for the friend carrying it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "They sat together inside the sandy courtyard.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Tigress set two shells on their pretend table.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would you like some imaginary sandy tea?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Only if it comes with imaginary sandy biscuits.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress drew a welcoming sign above the gate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao traced a big open doorway beside it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This is my favorite part of the castle.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is mine too. I can actually use it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "tiger",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "A little wave stopped below the castle wall.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Tigress invited Bao to build a garden next.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Let's leave a wide path to this garden.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "So every picnic can find its way in.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "harry-fruit-fruit-17",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Harry and the Rolling Fruit Stand",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "horse",
+        "name": "Harry"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "A helpful plan should fit the person using it.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "youtube": {
+        "title": "Harry and the Rolling Fruit Stand | Sunny Meadow",
+        "description": "Harry's apples rolled off the picnic board. Professor Ozzy caught one against a book. A helpful plan should fit the person using it. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Harry",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry's apples rolled off the picnic board.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Professor Ozzy caught one against a book.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My fruit stand has become a fruit slide!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "This board is leaning toward the path.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry wanted a snack stand for friends.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He arranged apples along a narrow wooden board.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Everyone can choose an apple on the way.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then the apples need a place to wait.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry lined the apples against one another.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He hoped the row would stop the rolling.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "If this one stays, the rest will stay.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "The last one has nothing beside it.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "The end apple slipped and started the row.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Harry followed three apples down the board.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My apples have decided to queue themselves!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Their queue is heading in the wrong direction.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍎",
+          "question": {
+            "answer": {
+              "text": "A flat tray!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A flat tray!"
+          },
+          "lines": [
+            {
+              "text": "Should round fruit sit on a slope or a flat tray?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry balanced a book beneath the low end.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The board tipped too far the other way.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now they will roll back to me.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But friends need a steady place to choose.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "An apple bumped into Harry's waiting hoof.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "He put the tilted board down flat.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I have made a fruit stand that cannot stand.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's use something that already has sides.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy opened the empty picnic basket.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Harry tested its broad, flat bottom.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There is room for all our apples in here.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And the sides can stop them rolling away.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry placed the basket on a low bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He checked that shorter friends could reach it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This bench is lower than my first stand.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now everyone can see what they are choosing.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍎",
+          "question": {
+            "answer": {
+              "text": "A basket!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A basket!"
+          },
+          "lines": [
+            {
+              "text": "What can keep the fruit together?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry filled the basket without making a mound.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy set a small bowl beside it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The extra apples can wait in this bowl.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then nothing has to balance on top.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Their friends stopped to choose their snacks.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Harry held the basket steady on the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Pick whichever apple looks good to you.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your snack stand finally has a proper stand.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry offered Ozzy the first rescued apple.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy turned it over with a smile.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for catching my runaway lunch.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I was reading when it joined my book.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "farm",
+          "character": "horse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry put the unused board beside the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A leaf slid down its smooth surface.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The fruit slide can become a leaf slide.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a much less bumpy sort of snack.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

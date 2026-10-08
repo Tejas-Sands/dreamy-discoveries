@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "eli-button-sewing-40",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Eli and the Button Detective",
+      "palette": "candy",
+      "mainCharacter": {
+        "kind": "elephant",
+        "name": "Eli"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Eli and the Button Detective | Sunny Meadow",
+        "description": "Eli could not find his large blue button. Taffy studied the round marks on his apron. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Eli",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli could not find his large blue button.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Taffy studied the round marks on his apron.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Someone has stolen my finest sewing button!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Your apron has several suspicious blue circles.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli wanted a button for a puppet coat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had set it beside his craft basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The puppet cannot attend dinner without his coat.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then this is a very important button case.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli pointed to a blue spot on the table.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Taffy peered at it from one side.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There! Our missing button is hiding in plain sight.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That is a paint spot with no little holes.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli tried another circle on his apron.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It stayed where it was when he touched it.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "This suspect refuses to leave my apron.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "That suspect also appears to be paint.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "A paint spot!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A paint spot!"
+          },
+          "lines": [
+            {
+              "text": "Is the round mark a button or a paint spot?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli found a round blue shape in a drawing.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He held the paper up like evidence.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The button has escaped into my picture!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Or you drew a button during yesterday's painting.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy arranged the three false clues in a row.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Eli looked at his empty craft basket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Our detective trail is full of circles.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's remember where you put the real button.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli remembered moving the basket before lunch.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He had tucked something small into his pocket.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I saved a little round thing from falling.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That sounds like a clue with actual holes.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli opened the pocket of his apron.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The button rested beside a clean little cloth.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The thief has been living in my pocket!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "An extremely suspicious location, Detective Eli.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "In his pocket!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! In his pocket!"
+          },
+          "lines": [
+            {
+              "text": "Where can Eli check for the missing button?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They fixed the button onto the puppet coat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Eli checked that it held the front closed.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The case is solved and dinner is saved.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Our puppet should thank his secret pocket.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli put the spare buttons in their box.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Taffy made a paper detective badge for him.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "No more chasing paint spots this afternoon.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "This badge certifies an expert in round mysteries.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Eli attached the badge to his apron.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A blue paint spot showed beneath its edge.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There is another suspicious circle beside my badge.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That one has been cleared of all charges.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "elephant",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy peered very seriously into Eli's pocket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He waited for her final detective report.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Anything else hiding in there, Detective?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "One handkerchief. It claims to be entirely innocent.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "gigi-lamp-tent-39",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Gigi and the Lantern in the Wrong Place",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "giraffe",
+        "name": "Gigi"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Checking from another person’s height can reveal what they need.",
+      "moralRhyme": [
+        "Stop and look before you go,",
+        "Check the things you need to know!"
+      ],
+      "youtube": {
+        "title": "Gigi and the Lantern in the Wrong Place | Sunny Meadow",
+        "description": "Nutty could not see their tent path. Gigi's lantern shone above the tallest branch. Checking from another person’s height can reveal what they need. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Gigi",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty could not see their tent path.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Gigi's lantern shone above the tallest branch.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Everything is bright up here beside me.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Down here, the stepping stones are still dark.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi wanted a clear path to the tent.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty carried a little evening picnic basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This high hook seems perfect for a lantern.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's see what it lights from the ground.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi lifted the lantern to a taller hook.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Leaves glowed while the stones stayed in shadow.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now the tree looks beautifully golden.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But my feet are not walking through the tree.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty stopped beside the first dark stone.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Gigi lowered her head toward his basket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I can see leaves, but not your next step.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "That is the part I need the light for.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Not easily!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Not easily!"
+          },
+          "lines": [
+            {
+              "text": "Can Nutty see above the tall lantern?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi held the lantern directly behind Nutty.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "His own shadow covered the path ahead.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The light is much closer to you now.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Yes, but my shadow has taken the front seat.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi moved beside Nutty and bent low.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "She looked along the path from his height.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Now I can see the shadow across your stones.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps the light belongs beside the path instead.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They chose a steady lantern stand nearby.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Gigi set the lantern where it shone sideways.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The light reaches between the stepping stones.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And our shadows fall away from the path.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty tested the first two steps slowly.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Gigi watched for dark patches near the turn.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This little corner still needs more light.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I can turn the stand slightly toward it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧺",
+          "question": {
+            "answer": {
+              "text": "Nutty’s view!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Nutty’s view!"
+          },
+          "lines": [
+            {
+              "text": "Whose view should Gigi check?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi adjusted the lantern without lifting it higher.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The whole short path became clear.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can see every stone from here!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then it is ready for feet of your size.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "They followed the lit stones to their tent.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty carried the basket without stopping.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That was a much easier evening walk.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your view showed me what my height missed.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "Gigi sat beside the little tent entrance.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty set out two cups for their picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The light does not have to reach the clouds.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It only has to reach where we are going.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "giraffe",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧺",
+          "question": null,
+          "lines": [
+            {
+              "text": "A moth circled above the lantern stand.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Gigi watched it from the tent doorway.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our little visitor seems to enjoy the light too.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "At least someone here still prefers the high seats.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

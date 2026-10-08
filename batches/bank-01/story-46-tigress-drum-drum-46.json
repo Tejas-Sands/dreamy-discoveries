@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "tigress-drum-drum-46",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Tigress and the Underwater Drum Solo",
+      "palette": "sunshine",
+      "mainCharacter": {
+        "kind": "tiger",
+        "name": "Tigress"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Tigress and the Underwater Drum Solo | Sunny Meadow",
+        "description": "Finn blinked while Tigress finished her drum solo. She waited for her tiny friend's applause. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Tigress",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Finn blinked while Tigress finished her drum solo.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "She waited for her tiny friend's applause.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "That was my most magnificent drumroll!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "From here it looked like very busy paws.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress wanted a concert Finn could enjoy.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "His little bowl stood beside the music mat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can make the biggest sound in the room.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I see the drum moving more than I hear it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress played faster and leaned closer.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Finn watched the drumsticks blur past the glass.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Did that grand finale reach your seat?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It reached my eyes at remarkable speed.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress stopped before playing any louder.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "She studied Finn's view from beside the bowl.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps your concert seat needs a different show.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "A little movement would be lovely to follow.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🥁",
+          "question": {
+            "answer": {
+              "text": "Not the same way!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Not the same way!"
+          },
+          "lines": [
+            {
+              "text": "Is Finn hearing the drum clearly through the bowl?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress tapped behind a folded curtain.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She hoped the surprise would improve the music.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now you must guess my invisible rhythm!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I appear to have paid for a very still curtain.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress reopened the curtain with a flourish.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Finn bobbed toward the newly visible drum.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Then no more secret concerts behind curtains.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "A splendid decision from the theater management.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "She lifted one paw and then the other.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Finn swam slowly left and right in reply.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "You can answer my moves with your swimming.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "At last, a dance floor with excellent water.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress added a clear pause between moves.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn turned whenever her paws stopped.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our quiet beat has a place for your turn.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And a place for a very elegant fish bow.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🥁",
+          "question": {
+            "answer": {
+              "text": "Moving paws!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Moving paws!"
+          },
+          "lines": [
+            {
+              "text": "What can make a visible rhythm?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "They made a little concert of taps and waves.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn followed every visible change of direction.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This is a drum solo with two performers!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then the word solo needs a short holiday.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress finished with both paws above her head.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn blew three bubbles near the surface.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That is the bubbliest applause I have received.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I saved my finest bubbles for the finale.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress made a pretend bubble with her cheeks.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn stared at the enormous round expression.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "May I join the bubble orchestra too?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Only if you can make one without becoming a balloon.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "tiger",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🥁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Tigress released a tiny puff of air.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn gave a very solemn little nod.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Was that my official bubble audition?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. The orchestra offers you a job waving.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "freddy-kite-kite-25",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Freddy and the Kite in His Pocket",
+      "palette": "candy",
+      "mainCharacter": {
+        "kind": "frog",
+        "name": "Freddy"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Freddy and the Kite in His Pocket | Sunny Meadow",
+        "description": "Freddy's kite spun in one tight circle. Nutty watched its crumpled tail at his side. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Freddy",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy's kite spun in one tight circle.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Nutty watched its crumpled tail at his side.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My kite is chasing its own nose!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Its tail seems to be chasing your pocket.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy wanted to fly his new green kite.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had folded its tail for the walk.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I kept it neat while crossing the garden.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now the tail needs room to stretch out.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy pulled the string without unfolding anything.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The kite spun and settled against his knee.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It has chosen a very low flying route.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your pocket is a very short runway.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty pointed to the ribbon at Freddy's side.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Freddy tugged the kite farther from his coat.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Why does it keep coming back to me?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "You are wearing part of its flight equipment.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪁",
+          "question": {
+            "answer": {
+              "text": "Not properly!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Not properly!"
+          },
+          "lines": [
+            {
+              "text": "Can the kite lift with its tail tucked away?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy took one ribbon out of his pocket.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Two more remained tucked behind the first.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There! I have released its whole tail.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That seems like a rather short whole tail.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "The kite turned another little circle.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Freddy counted the ribbons he could see.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I made three ribbons. Where are the others?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Your pocket is keeping two as souvenirs.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy laid the kite on the grass.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He emptied every ribbon onto the ground.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This pocket was running a secret ribbon shop.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It has a very colorful collection.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "He unfolded all three tail ribbons.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty helped separate their overlapping ends.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now the tail reaches past my toes.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a much better length for a kite.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪁",
+          "question": {
+            "answer": {
+              "text": "The kite tail!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The kite tail!"
+          },
+          "lines": [
+            {
+              "text": "What must Freddy unfold before flying?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy held the kite into the open breeze.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The ribbons streamed behind it in a line.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "It is going straight instead of spinning!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your pocket has finally approved the flight.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "They watched the green kite climb gently.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Freddy kept the string loose in his hands.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I wonder whether my pocket misses its ribbons.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It looks delighted to have some room again.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nutty dropped a small leaf into the pocket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Freddy patted it with great seriousness.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A new tenant for the empty ribbon shop.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Does it have a license to sell leaves?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "meadow",
+          "character": "frog",
+          "secondCharacter": "squirrel",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Freddy pulled out the leaf and bowed.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nutty pretended to inspect its little stem.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Grand opening! One leaf, no tangled tails.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I will take it, provided it does not fly.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

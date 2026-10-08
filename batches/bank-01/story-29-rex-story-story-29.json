@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "rex-story-story-29",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Rex and the Story Cushion Mountain",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "dinosaur",
+        "name": "Rex"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Making space for another reader can improve a shared adventure.",
+      "moralRhyme": [
+        "Make some room for me and you,",
+        "There is space to join in too!"
+      ],
+      "youtube": {
+        "title": "Rex and the Story Cushion Mountain | Sunny Meadow",
+        "description": "Percy could see cushions but not the storybook. Rex sat on top of a towering soft pile. Making space for another reader can improve a shared adventure. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Rex",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy could see cushions but not the storybook.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Rex sat on top of a towering soft pile.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Is our story hiding behind a mountain?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "I made a grand reading throne for us.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex wanted a cozy shared reading corner.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had brought every cushion in the room.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A bigger pile must mean a better story.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Only if we can both see the book.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex added a cushion beneath the book.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He hoped it would raise the pictures into view.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now the book has a throne of its own.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Its throne is blocking the lower half of the page.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy tried looking around the cushion pile.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Rex tilted the book toward his own face.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I can see the dragon's tail beautifully.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "I can see a very impressive cushion seam.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "A clear view!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A clear view!"
+          },
+          "lines": [
+            {
+              "text": "Does the book need a higher pile or a clear view?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex put another cushion beneath Percy.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The little seat leaned toward the larger pile.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There! Now you are almost as high as me.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Almost high enough to fall off this pillow.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex helped Percy down onto the rug.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "They looked at the empty space beside the wall.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Our reading corner needs less mountain.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "And more room for the two of us.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex moved the spare cushions into a basket.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Percy set two broad cushions side by side.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This seat does not wobble when I turn.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And your seat is right beside mine now.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex held the book between their cushions.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Percy checked the view from his own place.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Can you see the whole dragon this time?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "From his nose to his very last toe.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "Beside Rex!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Beside Rex!"
+          },
+          "lines": [
+            {
+              "text": "Where can Percy sit to see the pictures?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They opened the book to the missing page.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Rex read while Percy followed the pictures.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The dragon was looking for a comfortable cave.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I think we know how that dragon feels.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rex offered Percy the next page to read.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He listened without lifting the book away.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your turn to find the cozy cave.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "First the dragon removes some enormous rocks.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy pointed at their basket of cushions.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Rex gave it a very thoughtful look.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our cushions are the dragon's enormous rocks.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then our reading corner is the finished cave.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "dinosaur",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They settled comfortably beside the open book.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Rex left the mountain in its basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This throne is much better for two readers.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And the book does not need a crown.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

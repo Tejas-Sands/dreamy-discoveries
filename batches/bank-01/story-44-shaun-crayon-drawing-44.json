@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "shaun-crayon-drawing-44",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Shaun and the Crayon That Looked Broken",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "sheep",
+        "name": "Shaun"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Looking closely before giving up can reveal a useful new way.",
+      "moralRhyme": [
+        "Stop and look before you go,",
+        "Check the things you need to know!"
+      ],
+      "youtube": {
+        "title": "Shaun and the Crayon That Looked Broken | Sunny Meadow",
+        "description": "Shaun's green crayon snapped into two pieces. Daisy picked up the shorter bit. Looking closely before giving up can reveal a useful new way. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Shaun",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun's green crayon snapped into two pieces.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Daisy picked up the shorter bit.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My meadow picture has lost its best color!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Both pieces are still green inside.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun wanted a soft grassy field in his drawing.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The paper sky was already finished.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I need enough green for all this empty space.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's try what these two pieces can do.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun pressed the long piece very hard.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Its tip made a dark narrow scratch.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That line looks more like a fence than grass.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps it needs less pressure on the point.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "He eased his hoof and tried again.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The line became lighter but stayed narrow.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "This will take a thousand little lines.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "There may be another part of the crayon to use.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🖍️",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! No!"
+          },
+          "lines": [
+            {
+              "text": "Is the short crayon useless?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun pushed the short piece toward the scrap box.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He thought it was too small to hold.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This one cannot draw anything with that tiny tip.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It still has a whole green side.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy laid the short piece flat on paper.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "She moved it gently across one corner.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The side makes a wide soft green patch.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "That looks just like the grass I wanted.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun rolled the short piece onto its side.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He practiced on a separate scrap of paper.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A little pressure gives a gentle color.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And you can turn it for a narrower edge.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun colored the meadow with the short crayon.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy held the paper steady at its corners.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My grassy field is growing much faster now!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The short piece has a very wide painting job.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🖍️",
+          "question": {
+            "answer": {
+              "text": "A wide patch of color!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A wide patch of color!"
+          },
+          "lines": [
+            {
+              "text": "What can a crayon’s side draw?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "He used the long piece for thin stems.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The short piece shaded around their bases.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "These two pieces can do different things.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your broken crayon has become a small drawing team.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun added yellow flowers across the meadow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Daisy pointed to the soft grass beneath them.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That is exactly the field I pictured before.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And you found another way to make it.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun put both green pieces back in the box.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He left a space for each beside the yellow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "No scrap box for my little grass helper.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It has an important job in tomorrow's picture.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "sheep",
+          "secondCharacter": "duck",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Daisy drew one tiny crayon in the corner.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Shaun gave it a very proud little face.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There is the artist who painted our meadow.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He is shorter than me, but much greener.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

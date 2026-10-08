@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "harry-story-story-49",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Harry and the Story That Lost Its Ending",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "horse",
+        "name": "Harry"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Harry and the Story That Lost Its Ending | Sunny Meadow",
+        "description": "Harry reached the last page and found no ending. Ben peered over the top of the book. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Harry",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry reached the last page and found no ending.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Ben peered over the top of the book.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Our story has stopped before the bear gets home!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "That is a very inconvenient place for a bear.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry wanted to finish their bedtime adventure.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The book showed a bear beside a dark cave.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He has traveled all day to find his blanket.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then he certainly deserves a proper bedtime.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry invented an ending with a flying sandwich.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Ben looked doubtful beside the little cave picture.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The sandwich can carry him straight into bed!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Wouldn't he eat his transport before arriving?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry changed the sandwich into a giant spoon.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Ben imagined the sleepy bear wobbling on it.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Then the spoon can scoop him through the doorway.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "This journey is becoming extremely kitchen-shaped.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "Unfolding!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Unfolding!"
+          },
+          "lines": [
+            {
+              "text": "Does the folded page need a new story or unfolding?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry turned backward to look for more clues.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One page corner lifted but did not open fully.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There is a very thick patch of paper here.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps a page has folded across the ending.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben held the book while Harry inspected the fold.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "A little printed paw showed beneath the flap.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Our missing bear has left a tiny clue!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Careful. The folded corner only needs gentle fingers.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry eased the page open without tugging.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A whole painted bed appeared underneath it.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "There is the blanket and the cave window!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Our bear was hiding behind his own bedroom door.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry smoothed the folded corner on the table.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben checked that the page would turn freely.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now we can find the ending without a spoon.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The bear will be relieved about his transport.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "The story’s sleepy bear!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The story’s sleepy bear!"
+          },
+          "lines": [
+            {
+              "text": "Who was hiding beneath the flap?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They read the bear climbing into his little bed.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Harry gave the last sentence a sleepy voice.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "And then he snuggled beneath the warm blanket.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A very sensible ending for a traveling bear.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ben tucked himself against a reading cushion.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Harry placed a bookmark between the proper pages.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That bear has the right idea about resting.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "So does this bear beside your reading chair.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry picked up the pretend flying sandwich again.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben opened one eye at the mention of lunch.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "What happened to our heroic sandwich, then?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It flew directly into a very hungry mouth.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "horse",
+          "secondCharacter": "bear",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Harry bowed to the sleeping storybook bear.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ben gave a small satisfied yawn.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Goodnight, brave bear. Please enjoy your blanket.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And no more spoons in my bedtime stories.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

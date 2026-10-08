@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "pip-seed-garden-22",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Pip and the Seed Hat",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "bird",
+        "name": "Pip"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Pip and the Seed Hat | Sunny Meadow",
+        "description": "Seeds pattered down around Pip's feet. Cleo looked up at his grass hat. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Pip",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Seeds pattered down around Pip's feet.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Cleo looked up at his grass hat.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Why is it raining in just this spot?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Your hat seems to be making the weather.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip wanted to carry seeds to the garden.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had filled his hat instead of a basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A hat is a bowl with excellent style.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is also sitting on a moving head.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip balanced the hat on one wing.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The round seeds slid toward its low edge.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I shall fly extremely level and slowly.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps walking would be a better first test.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip took one careful step along the path.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "A seed bounced straight onto Cleo's nose.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The seed has chosen a new garden!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "My nose does not have enough soil.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "They may roll off!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! They may roll off!"
+          },
+          "lines": [
+            {
+              "text": "Will seeds stay on a round hat?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip put the seed hat back on his head.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He hoped its brim would catch the spills.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now my head can keep the middle steady.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your head keeps bobbing when you walk.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "A little trail appeared behind Pip's feet.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Cleo followed it back to their starting place.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Your hat has planted our entire journey.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then I am a very efficient gardening machine.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Cleo opened a small basket beside the path.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Pip compared its flat bottom with his hat.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That basket has much steadier little sides.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And nobody has to wear it while walking.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip tipped the remaining seeds into the basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo helped gather the clean spilled seeds.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There is no more rain beneath my hat.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The forecast has improved considerably.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "park",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "A little basket!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A little basket!"
+          },
+          "lines": [
+            {
+              "text": "What can carry the seeds safely?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "They carried the basket to the garden.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Pip set his empty hat beside the seed row.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "At last, seeds where seeds ought to be.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And a hat where a hat can rest.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip planted seeds with room between them.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo marked the row with a little stick.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our garden has a sensible straight line.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Unlike the one you planted down the path.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "A single seed dropped from Pip's hat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He stared into the brim in surprise.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One last shower from the evening weather.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Should I bring a very small umbrella?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "bird",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Pip put a leaf umbrella over Cleo's nose.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She looked at it with great dignity.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There. Your nose garden is protected.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Wonderful. Please forecast sunshine until lunchtime.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

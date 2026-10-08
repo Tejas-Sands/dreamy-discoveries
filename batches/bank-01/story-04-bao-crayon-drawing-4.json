@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "bao-crayon-drawing-4",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Bao and the Disappearing Drawing",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "panda",
+        "name": "Bao"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Bao and the Disappearing Drawing | Sunny Meadow",
+        "description": "Bao could not find his fish drawing. Finn circled inside a clear little bowl. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Bao",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao could not find his fish drawing.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Finn circled inside a clear little bowl.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It was right here a moment ago!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "I can see a very big orange tail.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao wanted to draw Finn for a card.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He placed the bowl on his drawing paper.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Stay still while I draw your face.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "My face keeps following the water around.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao leaned close and drew around the bowl.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "His pencil made one enormous circle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That circle will be your lovely head.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "My head has never been quite that round.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao added a tail beside the circle.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The real Finn swam across his view.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "You have moved inside my picture!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps your picture has moved under me.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🖍️",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! No!"
+          },
+          "lines": [
+            {
+              "text": "Can Bao see the paper under the fishbowl?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao lifted the paper by one corner.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The bowl stayed firmly in its middle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I will pull my drawing out carefully.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Please lift the bowl first, not the water.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao stopped before the bowl could tilt.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "He put the paper corner down again.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My card feels much heavier than paper.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "There is a whole pond on it.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao looked through the side of the bowl.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The water made his drawn tail look huge.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That tail is bigger than my paw!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I was hoping you would notice my beauty.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao moved the bowl onto a folded cloth.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The paper appeared where it had been hiding.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There you are, my missing masterpiece!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I liked being a very large fish.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🖍️",
+          "question": {
+            "answer": {
+              "text": "Beside it!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Beside it!"
+          },
+          "lines": [
+            {
+              "text": "Should the paper go under or beside the bowl?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "He drew a second Finn beside the circle.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This time he looked at the bowl sideways.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now I can see your proper shape.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please remember my excellent little fins.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao colored the picture with orange crayons.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn followed the moving crayon through the glass.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "You are chasing your own painted cousin.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He looks fast. I should introduce myself.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao held the finished card beside the bowl.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn turned to study the enormous first circle.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Which picture looks most like you, Finn?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The tiny one is me before breakfast.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "panda",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🖍️",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao pointed to the enormous round fish.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn blew one very small bubble.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "And this great big fish after breakfast?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is me after TWO breakfasts.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

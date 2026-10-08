@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "twinkle-cookie-baking-32",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Twinkle and the Too-Hot Cookie Tray",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "star",
+        "name": "Twinkle"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Waiting for a grown-up’s help can keep a fun task safe.",
+      "moralRhyme": [
+        "Little seeds need time to grow,",
+        "Watch the changes, soft and slow!"
+      ],
+      "youtube": {
+        "title": "Twinkle and the Too-Hot Cookie Tray | Sunny Meadow",
+        "description": "Twinkle reached toward a steaming cookie tray. Finn called from his cool water bowl. Waiting for a grown-up’s help can keep a fun task safe. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Twinkle",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle reached toward a steaming cookie tray.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Finn called from his cool water bowl.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Those cookies smell ready for our picnic!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "The tray is still very hot, Twinkle.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle wanted to arrange a cookie plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A grown-up had left the tray to cool.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can carry the cookies to the table.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's wait until the tray is safe to touch.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle waved a paper fan above the tray.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She hoped the steam would disappear at once.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I have brought the cookies their own breeze.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "A little breeze does not cool hot metal instantly.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle put the fan down and waited.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The tray still gave off a faint warm shimmer.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My fan has not finished the job yet.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "The cookies need more cooling time.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍪",
+          "question": {
+            "answer": {
+              "text": "No, wait!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! No, wait!"
+          },
+          "lines": [
+            {
+              "text": "Should Twinkle touch the hot tray?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle looked for something to cover her hands.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She found a thin paper napkin nearby.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Can this little napkin make the tray safe?",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "No. Let's ask a grown-up to move it.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle left the tray exactly where it was.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "She called for help from the kitchen doorway.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Please help us move the hot cookie tray.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "That is a much safer plan than guessing.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "A grown-up moved the tray to the cooling rack.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Twinkle stayed beside Finn until it was settled.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "We can prepare the picnic while they cool.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I can help you count the empty plates.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle placed one plate at each seat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn pointed to the extra chair near the window.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "We need a place for the person helping us.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I shall put a thank-you plate here.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍪",
+          "question": {
+            "answer": {
+              "text": "A grown-up!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A grown-up!"
+          },
+          "lines": [
+            {
+              "text": "Who can move the hot tray?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "They washed their hands before handling the food.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The grown-up checked that the cookies were cool.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now we have permission to fill the plates.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The waiting has made the picnic ready too.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle lifted cookies onto the waiting plates.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She kept the empty tray on its rack.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Every friend has a safe, cool cookie now.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And nobody had to touch a hot tray.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Twinkle offered their helper the first plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Finn bobbed beside his little picnic bowl.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for helping with the hot part.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "We took care of the cool part together.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "star",
+          "secondCharacter": "fish",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "The paper fan rested beside the empty plates.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Twinkle waved it gently toward Finn.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Would you like a little breeze with lunch?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Only if it does not blow away my cookie.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

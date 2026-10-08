@@ -77,6 +77,22 @@ test('feed directs a single story and queues a slug without a writer call; repea
   assert.equal(queued().length, 1);
 });
 
+test('comic endings import without adding a moral chant', t => {
+  const {root, file, story, write} = workspace(t);
+  story.moral = null;
+  story.moralRhyme = null;
+  story.scenes = story.scenes.map(scene => scene.kind === 'lesson' ? {...scene, kind: 'story'} : scene);
+  write(story);
+  importStories(file, {root});
+  const saved = JSON.parse(fs.readFileSync(path.join(root, 'library/scripts', `${story.slug}.json`), 'utf8'));
+  assert.equal(saved.moral, null);
+  assert.equal(saved.moralRhyme, null);
+  assert.ok(saved.scenes.every(scene => scene.kind !== 'moral'));
+  assert.equal(saved.stars.total, 2);
+  const inventory = buildStoryKit({root}).context.unusedStories.find(entry => entry.slug === story.slug);
+  assert.ok(inventory.summary?.length, 'comic stories still need plot summaries for future writing batches');
+});
+
 test('a malformed batch writes nothing, and changed or unsafe slugs cannot overwrite scripts', t => {
   const {root, file, story, write} = workspace(t);
   const queueFile = path.join(root, 'library/queue.yml');

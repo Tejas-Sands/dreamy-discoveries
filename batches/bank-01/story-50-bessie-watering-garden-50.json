@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "bessie-watering-garden-50",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Bessie and the Patient Little Seed",
+      "palette": "candy",
+      "mainCharacter": {
+        "kind": "cow",
+        "name": "Bessie"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Waiting and watching can be part of caring for something.",
+      "moralRhyme": [
+        "Little seeds need time to grow,",
+        "Watch the changes, soft and slow!"
+      ],
+      "youtube": {
+        "title": "Bessie and the Patient Little Seed | Sunny Meadow",
+        "description": "Bessie's seed had not become a flower by lunchtime. Cleo studied the small brown patch of soil. Waiting and watching can be part of caring for something. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Bessie",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bessie's seed had not become a flower by lunchtime.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Cleo studied the small brown patch of soil.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I watered it this morning. Where are the petals?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "A seed needs more than one morning to grow.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bessie wanted a flower beside the garden path.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She had chosen a seed and a sunny spot.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I imagined a yellow flower by the gate.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's give the seed time to begin underground.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bessie leaned close and called into the soil.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Cleo waited beside her with a little notebook.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Hello, seed! Your flower appointment is today!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "I do not think seeds use appointment books.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Nothing moved on the top of the soil.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Bessie sighed and checked the sunny gate.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps it did not hear my invitation.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It may be working where we cannot see.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "Leave it planted!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Leave it planted!"
+          },
+          "lines": [
+            {
+              "text": "Should Bessie dig up the seed to check it?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bessie reached for a small garden spoon.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She wanted to see what was happening below.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I could lift it out for one quick look.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That might disturb the roots it is making.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bessie set the spoon beside the empty pots.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Cleo opened the notebook on a dry stone.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "How can I watch without digging it up?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "We can draw what we see each day.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bessie drew the seed spot beside the gate.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Cleo added a little sun above the picture.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Today there is soil and a very patient cow.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Tomorrow we can look again from this same place.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "They checked the soil before adding any water.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bessie left it alone when it felt damp.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The seed does not need another big drink.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then today's care can be a quiet check.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🌱",
+          "question": {
+            "answer": {
+              "text": "A garden diary!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A garden diary!"
+          },
+          "lines": [
+            {
+              "text": "What can help her notice changes?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Several days passed in their little garden diary.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One morning a green loop appeared above the soil.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My flower has sent a tiny green message!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's draw that loop beside yesterday's brown patch.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "The loop opened into two small leaves.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bessie compared it with her first drawing.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The changes look bigger when I see them together.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your diary kept the parts you might have missed.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bessie kept checking the little plant gently.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Cleo helped mark its height beside the gate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can enjoy the growing before the flower arrives.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "There is something new to notice along the way.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "garden",
+          "character": "cow",
+          "secondCharacter": "cat",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🌱",
+          "question": null,
+          "lines": [
+            {
+              "text": "A yellow bud finally opened above the leaves.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bessie held the filled notebook beside it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My flower took longer than one lunchtime.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And gave us a whole book of garden mornings.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

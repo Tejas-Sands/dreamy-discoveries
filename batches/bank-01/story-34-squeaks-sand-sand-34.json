@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "squeaks-sand-sand-34",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Squeaks and the Sand Giant",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "mouse",
+        "name": "Squeaks"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Squeaks and the Sand Giant | Sunny Meadow",
+        "description": "A giant mouse shape stretched across the sandcastle. Professor Ozzy followed its very long tail. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Squeaks",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "A giant mouse shape stretched across the sandcastle.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Professor Ozzy followed its very long tail.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "There is an enormous mouse visiting my wall!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "It seems to move when you move.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks wanted a tiny castle by sunset.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "She had built a door just her size.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My castle is too small for that visitor.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps we should ask whether it needs a room.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks stood tall and waved both paws.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The giant shape waved above the castle tower.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It is copying my most royal greeting!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your visitor has remarkably familiar little ears.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks stepped behind the castle wall.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The huge shape slipped out of sight.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I have hidden from the enormous guest.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Or the enormous guest has hidden with you.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🏰",
+          "question": {
+            "answer": {
+              "text": "A shadow!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A shadow!"
+          },
+          "lines": [
+            {
+              "text": "Is the enormous shape a giant or a shadow?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks placed a bucket over her head.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Her shadow suddenly grew a round helmet.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now it has come dressed as a knight!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "A knight with a very small bucket.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy pointed to the low evening sun.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks looked from the sun to the sand.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The light is stretching my own little shape.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Your castle visitor is a shadow of you.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks lifted the bucket from her ears.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The knight's round helmet disappeared as well.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Then I can make the visitor change its hat!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Only if you change your own hat first.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "She held a leaf above one ear.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The giant shadow grew a feathered crown.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Welcome, King Mouse of the Long Sand Tail!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your Majesty has a remarkably leafy crown.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🏰",
+          "question": {
+            "answer": {
+              "text": "Her shadow changes!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Her shadow changes!"
+          },
+          "lines": [
+            {
+              "text": "What happens when Squeaks moves away from the light?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy made a little arch with his wings.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks walked her shadow beneath its edge.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now the giant can enter a shadow castle.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That castle has room for any size of guest.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "They made two shadow towers on the sand.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks watched them move as the sun lowered.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our pretend castle is getting taller without blocks.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It is the easiest building job of the day.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks bowed low to the last long shadow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Ozzy bowed beside her with equal dignity.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Goodnight, gigantic invisible castle visitor.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please remember to take your enormous tail home.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "beach",
+          "character": "mouse",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🏰",
+          "question": null,
+          "lines": [
+            {
+              "text": "They walked away along the quiet beach.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks's shadow followed behind her little feet.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He is coming home with us, Professor!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then I hope he likes very tiny sandwiches.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

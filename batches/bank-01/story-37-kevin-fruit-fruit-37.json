@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "kevin-fruit-fruit-37",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Kevin and the Very Long Banana",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "koala",
+        "name": "Kevin"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Kevin and the Very Long Banana | Sunny Meadow",
+        "description": "Kevin pulled a yellow strip from his basket. Buzz watched it unroll across the table. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Kevin",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin pulled a yellow strip from his basket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Buzz watched it unroll across the table.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "This is the longest banana I have ever packed!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "It seems to have a remarkably flat peel.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin wanted fruit for their puppet picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Two identical baskets stood beside the window.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One has craft supplies. One has our snacks.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Perhaps check which basket you picked first.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin tugged the yellow strip a little farther.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It curled around the picnic blanket edge.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This banana could feed a whole marching band.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Only if the band eats paper ribbons.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz held the strip against the sunlight.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Kevin studied its straight, thin sides.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "No spots. No soft middle. No lovely smell.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Those are rather important banana details.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍎",
+          "question": {
+            "answer": {
+              "text": "A ribbon!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! A ribbon!"
+          },
+          "lines": [
+            {
+              "text": "Is the long yellow thing fruit or a ribbon?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin searched the same basket for another fruit.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He found a round red paper circle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "An apple as flat as the table!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your fruit has had a very unusual morning.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin laid both paper shapes beside his plate.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The craft basket was suddenly very clear.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I appear to have brought the pretend picnic.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then the real snacks must be in the other one.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin fetched the second basket from the window.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "A real apple rested beside a real banana.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "At last! Fruit with proper middles!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "And no need to peel it with scissors.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "They set the craft supplies away from the food.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Kevin washed his hands before unpacking snacks.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our puppets can have the paper picnic.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "We can have the much tastier actual one.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍎",
+          "question": {
+            "answer": {
+              "text": "The snack basket!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The snack basket!"
+          },
+          "lines": [
+            {
+              "text": "Which basket has the real fruit?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz built a tiny paper plate for a puppet.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Kevin curled the long ribbon above it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This banana is too big for our tiny actor.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then he will need a very long lunch break.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "They ate while the puppet admired its ribbon.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Kevin offered Buzz an ordinary banana slice.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your slice is only a sensible little length.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you. I left my marching band at home.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin gave the puppet the paper apple too.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buzz made it stare at the enormous ribbon.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Which course would you like first, Mr Puppet?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I shall begin at the nearest banana end.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "koala",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍎",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin unrolled another armful of yellow ribbon.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buzz bowed solemnly to the little stage.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "And when will you finish your banana, sir?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Tuesday. Please bring a very large napkin.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

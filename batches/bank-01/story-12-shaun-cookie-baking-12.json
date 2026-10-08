@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "shaun-cookie-baking-12",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Shaun and the Missing Cookie Shares",
+      "palette": "meadow",
+      "mainCharacter": {
+        "kind": "sheep",
+        "name": "Shaun"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Fair shares can leave room for everyone at the table.",
+      "moralRhyme": [
+        "Make some room for me and you,",
+        "There is space to join in too!"
+      ],
+      "youtube": {
+        "title": "Shaun and the Missing Cookie Shares | Sunny Meadow",
+        "description": "Shaun found an empty plate beside the cookies. Taffy held a tray with one last cookie. Fair shares can leave room for everyone at the table. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Shaun",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun found an empty plate beside the cookies.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Taffy held a tray with one last cookie.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Someone's snack has vanished before snack time!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Let's count the places around our table.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun wanted cookies for their little picnic.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had promised a share to every guest.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I counted six plates before we started.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then each plate needs its own cookie.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun put two cookies on his favorite plate.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He set single cookies on the next ones.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This big plate looks rather hungry.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Plates do not eat cookies, but friends do.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "The tray emptied before the last plate.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Shaun looked at the two on the first.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Oh. That last friend has no snack.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "We still have the same number of cookies.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍪",
+          "question": {
+            "answer": {
+              "text": "Every plate!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Every plate!"
+          },
+          "lines": [
+            {
+              "text": "How many plates need a cookie?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun moved one empty plate under another.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He hoped the table would look complete.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now there are only five places to fill.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "But our sixth friend still needs a place.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Taffy placed the hidden plate back in view.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Shaun counted the chairs along the blanket.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Moving a plate does not move our guest.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's spread the cookies before choosing places.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun arranged all six plates in a row.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Taffy returned the cookies to the tray.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "One cookie for the first little plate.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then one for the next, all the way along.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun placed one cookie on each plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He checked the table from end to end.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "There are six cookies and six places.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now nobody has to wait for a share.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍪",
+          "question": {
+            "answer": {
+              "text": "Yes, count first!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Yes, count first!"
+          },
+          "lines": [
+            {
+              "text": "Should they count before taking seconds?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "One cookie was slightly smaller than the rest.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Shaun chose that plate for himself.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Mine looks like a little cookie moon.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Would you like half of my big one?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Shaun split Taffy's cookie into two pieces.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "They put a piece beside each smaller share.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now these two plates match much better.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And we still have a place for everyone.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "Their friends arrived at the picnic table.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Shaun showed them the neatly counted plates.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I saved a cookie place for each of you.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The table feels much happier with everyone here.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "sheep",
+          "secondCharacter": "bunny",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍪",
+          "question": null,
+          "lines": [
+            {
+              "text": "A crumb fell onto Shaun's empty napkin.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He set it beside a tiny pretend plate.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "And this place is for my imaginary mouse.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please tell your mouse the kitchen is closed.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

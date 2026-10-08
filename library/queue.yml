@@ -69,6 +69,414 @@ items:
     hero: ozzy
     minutes: 5.5
     startedAt: 2026-10-08T10:50:15.939Z
+  - id: story-hugo-and-the-big-achoo-parade
+    status: pending
+    slug: hugo-and-the-big-achoo-parade
+    topic: Hugo and the Achoo Parade
+    type: story
+    hero: hippo
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-wally-shell-tide-1
+    status: pending
+    slug: wally-shell-tide-1
+    topic: Wally and the Upside-Down Picnic
+    type: story
+    hero: whale
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-squeaks-seed-garden-2
+    status: pending
+    slug: squeaks-seed-garden-2
+    topic: Squeaks and the Mixed-Up Seed Rows
+    type: story
+    hero: mouse
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-nutty-block-block-3
+    status: pending
+    slug: nutty-block-block-3
+    topic: Nutty Builds a Tower for Two
+    type: story
+    hero: squirrel
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-bao-crayon-drawing-4
+    status: pending
+    slug: bao-crayon-drawing-4
+    topic: Bao and the Disappearing Drawing
+    type: story
+    hero: panda
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-kevin-kite-kite-5
+    status: pending
+    slug: kevin-kite-kite-5
+    topic: Kevin and the Kite That Would Not Fly
+    type: story
+    hero: koala
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-dot-drum-drum-6
+    status: pending
+    slug: dot-drum-drum-6
+    topic: Dot and the Very Quiet Drum
+    type: story
+    hero: ladybug
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-gigi-picnic-picnic-7
+    status: pending
+    slug: gigi-picnic-picnic-7
+    topic: Gigi and the Picnic in the Tree
+    type: story
+    hero: giraffe
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-eli-paint-painting-8
+    status: pending
+    slug: eli-paint-painting-8
+    topic: Eli and the Thank-You Paint Spots
+    type: story
+    hero: elephant
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-leo-story-story-9
+    status: pending
+    slug: leo-story-story-9
+    topic: Leo and the Tiny Roar Library
+    type: story
+    hero: lion
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-milo-watering-garden-10
+    status: pending
+    slug: milo-watering-garden-10
+    topic: Milo and the Rainy Flowerpot
+    type: story
+    hero: monkey
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-rocky-balloon-party-11
+    status: pending
+    slug: rocky-balloon-party-11
+    topic: Rocky and the Balloon That Followed Him
+    type: story
+    hero: raccoon
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-shaun-cookie-baking-12
+    status: pending
+    slug: shaun-cookie-baking-12
+    topic: Shaun and the Missing Cookie Shares
+    type: story
+    hero: sheep
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-frosty-leaf-leaf-13
+    status: pending
+    slug: frosty-leaf-leaf-13
+    topic: Frosty and the Leaf Mustache
+    type: story
+    hero: snowman
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-tigress-sand-sand-14
+    status: pending
+    slug: tigress-sand-sand-14
+    topic: Tigress and the Sandcastle Door
+    type: story
+    hero: tiger
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-sparkle-paper-star-15
+    status: pending
+    slug: sparkle-paper-star-15
+    topic: Sparkle and the Lopsided Paper Star
+    type: story
+    hero: unicorn
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-ziggy-sock-puppet-16
+    status: pending
+    slug: ziggy-sock-puppet-16
+    topic: Ziggy and the Sock Puppet Sneezes
+    type: story
+    hero: zebra
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-harry-fruit-fruit-17
+    status: pending
+    slug: harry-fruit-fruit-17
+    topic: Harry and the Rolling Fruit Stand
+    type: story
+    hero: horse
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-bessie-towel-pool-18
+    status: pending
+    slug: bessie-towel-pool-18
+    topic: Bessie and the Missing Dry Towel
+    type: story
+    hero: cow
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-buster-lamp-tent-19
+    status: pending
+    slug: buster-lamp-tent-19
+    topic: Buster and the Lantern Shadow Monster
+    type: story
+    hero: dog
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-cleo-button-sewing-20
+    status: pending
+    slug: cleo-button-sewing-20
+    topic: Cleo and the Button Borrowing Box
+    type: story
+    hero: cat
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-peep-shell-tide-21
+    status: pending
+    slug: peep-shell-tide-21
+    topic: Peep and the Three Special Shells
+    type: story
+    hero: chick
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-pip-seed-garden-22
+    status: pending
+    slug: pip-seed-garden-22
+    topic: Pip and the Seed Hat
+    type: story
+    hero: bird
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-buzz-block-block-23
+    status: pending
+    slug: buzz-block-block-23
+    topic: Buzz and the Tower Traffic Jam
+    type: story
+    hero: bee
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-finn-crayon-drawing-24
+    status: pending
+    slug: finn-crayon-drawing-24
+    topic: Finn and the Picture Nobody Could See
+    type: story
+    hero: fish
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-freddy-kite-kite-25
+    status: pending
+    slug: freddy-kite-kite-25
+    topic: Freddy and the Kite in His Pocket
+    type: story
+    hero: frog
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-percy-drum-drum-26
+    status: pending
+    slug: percy-drum-drum-26
+    topic: Percy and the Drumbeat Nobody Could Follow
+    type: story
+    hero: pig
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-hugo-picnic-picnic-27
+    status: pending
+    slug: hugo-picnic-picnic-27
+    topic: Hugo and the Picnic Blanket River
+    type: story
+    hero: hippo
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-spike-paint-painting-28
+    status: pending
+    slug: spike-paint-painting-28
+    topic: Spike and the Hedgehog Paintbrush
+    type: story
+    hero: hedgehog
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-rex-story-story-29
+    status: pending
+    slug: rex-story-story-29
+    topic: Rex and the Story Cushion Mountain
+    type: story
+    hero: dinosaur
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-spike-watering-garden-30
+    status: pending
+    slug: spike-watering-garden-30
+    topic: Spike and the Too-Helpful Watering Can
+    type: story
+    hero: dragon
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-pip-balloon-party-31
+    status: pending
+    slug: pip-balloon-party-31
+    topic: Pip and the Balloon Penguin
+    type: story
+    hero: penguin
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-twinkle-cookie-baking-32
+    status: pending
+    slug: twinkle-cookie-baking-32
+    topic: Twinkle and the Too-Hot Cookie Tray
+    type: story
+    hero: star
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-wally-leaf-leaf-33
+    status: pending
+    slug: wally-leaf-leaf-33
+    topic: Wally and the Windy Leaf Delivery
+    type: story
+    hero: whale
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-squeaks-sand-sand-34
+    status: pending
+    slug: squeaks-sand-sand-34
+    topic: Squeaks and the Sand Giant
+    type: story
+    hero: mouse
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-nutty-paper-star-35
+    status: pending
+    slug: nutty-paper-star-35
+    topic: Nutty and the Star Delivery Mix-Up
+    type: story
+    hero: squirrel
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-bao-sock-puppet-36
+    status: pending
+    slug: bao-sock-puppet-36
+    topic: Bao and the Puppet That Would Not Bow
+    type: story
+    hero: panda
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-kevin-fruit-fruit-37
+    status: pending
+    slug: kevin-fruit-fruit-37
+    topic: Kevin and the Very Long Banana
+    type: story
+    hero: koala
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-dot-towel-pool-38
+    status: pending
+    slug: dot-towel-pool-38
+    topic: Dot and the Towel Bigger Than Her
+    type: story
+    hero: ladybug
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-gigi-lamp-tent-39
+    status: pending
+    slug: gigi-lamp-tent-39
+    topic: Gigi and the Lantern in the Wrong Place
+    type: story
+    hero: giraffe
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-eli-button-sewing-40
+    status: pending
+    slug: eli-button-sewing-40
+    topic: Eli and the Button Detective
+    type: story
+    hero: elephant
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-leo-shell-tide-41
+    status: pending
+    slug: leo-shell-tide-41
+    topic: Leo and the Tide Pool Reflection
+    type: story
+    hero: lion
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-milo-seed-garden-42
+    status: pending
+    slug: milo-seed-garden-42
+    topic: Milo and the Garden Shortcut
+    type: story
+    hero: monkey
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-rocky-block-block-43
+    status: pending
+    slug: rocky-block-block-43
+    topic: Rocky and the Tower with a Tail
+    type: story
+    hero: raccoon
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-shaun-crayon-drawing-44
+    status: pending
+    slug: shaun-crayon-drawing-44
+    topic: Shaun and the Crayon That Looked Broken
+    type: story
+    hero: sheep
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-frosty-kite-kite-45
+    status: pending
+    slug: frosty-kite-kite-45
+    topic: Frosty and the Kite That Wanted a Scarf
+    type: story
+    hero: snowman
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-tigress-drum-drum-46
+    status: pending
+    slug: tigress-drum-drum-46
+    topic: Tigress and the Underwater Drum Solo
+    type: story
+    hero: tiger
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-sparkle-picnic-picnic-47
+    status: pending
+    slug: sparkle-picnic-picnic-47
+    topic: Sparkle and the Picnic Promise
+    type: story
+    hero: unicorn
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-ziggy-paint-painting-48
+    status: pending
+    slug: ziggy-paint-painting-48
+    topic: Ziggy and the Striped Painting
+    type: story
+    hero: zebra
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-harry-story-story-49
+    status: pending
+    slug: harry-story-story-49
+    topic: Harry and the Story That Lost Its Ending
+    type: story
+    hero: horse
+    minutes: 5.5
+    addedAt: 2026-10-08
+  - id: story-bessie-watering-garden-50
+    status: pending
+    slug: bessie-watering-garden-50
+    topic: Bessie and the Patient Little Seed
+    type: story
+    hero: cow
+    minutes: 5.5
+    addedAt: 2026-10-08
 pausedTemplates:
   - id: qmtyjw1qn
     status: running

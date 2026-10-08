@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "rocky-block-block-43",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Rocky and the Tower with a Tail",
+      "palette": "forest",
+      "mainCharacter": {
+        "kind": "raccoon",
+        "name": "Rocky"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Rocky and the Tower with a Tail | Sunny Meadow",
+        "description": "Rocky's block tower fell when he turned around. Percy caught one block beside his foot. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Rocky",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky's block tower fell when he turned around.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Percy caught one block beside his foot.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "That tower was standing perfectly a moment ago!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Something fluffy passed straight through its doorway.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky wanted a tower for his toy basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He stacked blocks in a little ring.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The basket can park in the middle.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your tail may need somewhere to park too.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky rebuilt the ring closer to himself.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He turned to collect one final block.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This tower will be much easier to reach.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your tail is reaching it before your paws do.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "His tail brushed the low wall again.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Three blocks slid harmlessly onto the rug.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The tower has sneezed all over the floor!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "I think I saw the fluffy sneeze this time.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧱",
+          "question": {
+            "answer": {
+              "text": "No!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! No!"
+          },
+          "lines": [
+            {
+              "text": "Is Rocky’s tail a block?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky held his tail forward while building.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He had only one free paw left.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I can keep the tower safe like this.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Then how will you lift that wide block?",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky tried carrying a block against his shoulder.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "His tail slipped back behind him.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My building assistant has escaped again.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Let's give your tail its own clear space.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy laid a small mat beside the tower.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Rocky stood with his tail above its middle.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "This mat is the official tail parking place.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Please keep all fluffy vehicles inside the lines.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky built the walls beyond the mat's edge.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Percy passed blocks from the clear side.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My tail can move without touching this wall.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And both your paws are free to build.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🧱",
+          "question": {
+            "answer": {
+              "text": "His tail!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! His tail!"
+          },
+          "lines": [
+            {
+              "text": "What should stay clear of the tower?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "The finished tower stood around its basket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Rocky turned slowly and checked behind him.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Nothing fell when I looked away!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your tail has become an excellent parked visitor.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "They placed a paper sign beside the mat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Rocky pointed proudly at its empty border.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Reserved for one extremely important fluffy tail.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "No blocks allowed in the tail neighborhood.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Percy tried sitting on the little mat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Rocky's tail rested gently beside his back.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That parking place appears to be full, sir.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I am only inspecting the very soft upholstery.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "raccoon",
+          "secondCharacter": "pig",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🧱",
+          "question": null,
+          "lines": [
+            {
+              "text": "Rocky gave Percy a tiny pretend parking ticket.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Percy accepted it with a serious nod.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "One cookie for unauthorized tail parking.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Can I pay with a very polite oink?",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

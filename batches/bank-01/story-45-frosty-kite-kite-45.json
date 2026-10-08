@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "frosty-kite-kite-45",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Frosty and the Kite That Wanted a Scarf",
+      "palette": "candy",
+      "mainCharacter": {
+        "kind": "snowman",
+        "name": "Frosty"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Adapting a plan to the weather can help it work better.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "youtube": {
+        "title": "Frosty and the Kite That Wanted a Scarf | Sunny Meadow",
+        "description": "Frosty's kite dragged a long scarf through the snow. Professor Ozzy lifted its soggy end. Adapting a plan to the weather can help it work better. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Frosty",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty's kite dragged a long scarf through the snow.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Professor Ozzy lifted its soggy end.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My kite looks cold up in this winter breeze.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "It also looks much heavier down here.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty wanted a bright kite for the snowy field.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He had wrapped its tail in a warm scarf.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A scarf keeps me looking very comfortable.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A kite needs a light tail more than warmth.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty pulled the kite with its scarf attached.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It lifted briefly and sank toward his feet.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It has decided to fly only ankle-high.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That scarf is pulling its tail toward the ground.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty folded the scarf into a shorter length.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The heavy bundle stayed beneath the kite.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "A smaller scarf should make a smaller problem.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It is shorter, but it weighs just as much.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪁",
+          "question": {
+            "answer": {
+              "text": "Yes!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Yes!"
+          },
+          "lines": [
+            {
+              "text": "Is the long scarf too heavy for the kite?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "The kite tilted backward in the cold breeze.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Frosty lowered it onto a dry bench.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps its winter clothes are too heavy.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Let's compare them with the original ribbon tail.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy showed Frosty three light paper ribbons.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Frosty felt how little they weighed.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "These move with the wind instead of drooping.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "They can help the kite balance without dragging it.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty removed the scarf and set it aside.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He fixed the ribbon tail back in place.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The kite looks much less bundled up now.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It is dressed for flying rather than standing still.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "They chose a clear part of the snowy field.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Frosty checked the string for tangled loops.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The breeze can reach it freely over here.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then give it room to lift gently.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🪁",
+          "question": {
+            "answer": {
+              "text": "The paper ribbons!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The paper ribbons!"
+          },
+          "lines": [
+            {
+              "text": "Which tail is lighter?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "The kite rose above its light ribbon tail.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Frosty followed its bright shape with a grin.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "It has remembered how to fly at last!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "You chose a tail that suited its real job.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty brought the kite down after its flight.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He put the scarf back around his own neck.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "This scarf has found a better winter customer.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "A very stylish customer with excellent snowy shoulders.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Ozzy admired the kite beside Frosty's scarf.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A tiny ribbon fluttered near the bench.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Your kite can wave at your warm scarf now.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "They have agreed to keep separate wardrobes.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "snow",
+          "character": "snowman",
+          "secondCharacter": "owl",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🪁",
+          "question": null,
+          "lines": [
+            {
+              "text": "Frosty bowed toward the returning breeze.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "The kite rested safely beside its wound string.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Thank you for visiting our winter air show.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Please leave all oversized scarves at the entrance.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

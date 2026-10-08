@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "dot-drum-drum-6",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Dot and the Very Quiet Drum",
+      "palette": "sunshine",
+      "mainCharacter": {
+        "kind": "ladybug",
+        "name": "Dot"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Dot and the Very Quiet Drum | Sunny Meadow",
+        "description": "Dot's drum made almost no sound. Squeaks leaned close to listen carefully. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Dot",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot's drum made almost no sound.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks leaned close to listen carefully.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Did you hear my enormous drum solo?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "I think a leaf fell somewhere nearby.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot wanted a concert for small friends.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Her drum was a large dry leaf.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "It has the finest green drum skin.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It also has a hole near the middle.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot tapped the leaf with a grass stem.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The stem bent without making a beat.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Perhaps my drumstick needs a little rest.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It looks more like a tickling stick.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot tried tapping with both front feet.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The leaf shook silently beneath her.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I am playing twice as loudly now!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then twice as quietly must be very quiet.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "Not a loud one!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Not a loud one!"
+          },
+          "lines": [
+            {
+              "text": "Can a leaf make a loud drumbeat?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot placed her drum on a soft cushion.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She thought a stage would improve the sound.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Welcome to my grand concert hall!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your hall is swallowing all the little taps.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks put an ear against the cushion.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Dot waited for an encouraging announcement.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "What does my magnificent concert sound like?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "A very sleepy mouse thinking about breakfast.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot moved the leaf onto a hollow box.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "She tested one tiny tap near its edge.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Oh! That sound came back to me!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "The box is helping your little beat.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot tapped once and then twice.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks tapped the wooden floor in reply.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Can you answer my secret drum message?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Tap tap. That means I am listening.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🍃",
+          "question": {
+            "answer": {
+              "text": "Tap tap tap!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Tap tap tap!"
+          },
+          "lines": [
+            {
+              "text": "What sound can tiny feet make?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "They tried a slow tapping pattern.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Dot left a little pause after each beat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My feet can play the small parts.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And my paws can play the low parts.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Their little concert filled the quiet room.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Dot bowed from the edge of her leaf.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Please clap softly for our tiny orchestra.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I will give a very small enormous cheer.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Squeaks opened his mouth for the cheer.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A squeak came out before he could clap.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That was our loudest instrument yet!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "I did not know my nose was musical.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "ladybug",
+          "secondCharacter": "mouse",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🍃",
+          "question": null,
+          "lines": [
+            {
+              "text": "Dot announced one final surprise drum solo.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Squeaks covered his mouth and nodded seriously.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Presenting Squeaks and his magnificent nose!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Squeak! Tickets are one tiny crumb each.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

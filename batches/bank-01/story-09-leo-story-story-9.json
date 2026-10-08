@@ -1,0 +1,515 @@
+{
+  "stories": [
+    {
+      "slug": "leo-story-story-9",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Leo and the Tiny Roar Library",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "lion",
+        "name": "Leo"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": "Listening carefully can help everyone enjoy a story together.",
+      "moralRhyme": [
+        "Leave a little space to hear,",
+        "Every friend can join us here!"
+      ],
+      "youtube": {
+        "title": "Leo and the Tiny Roar Library | Sunny Meadow",
+        "description": "Leo's roar covered the end of Buzz's story. Buzz closed the book on one tiny finger. Listening carefully can help everyone enjoy a story together. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Leo",
+          "moral story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Leo's roar covered the end of Buzz's story.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Buzz closed the book on one tiny finger.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "I cannot hear where the little boat goes!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "That is the part I am trying to read.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Leo wanted a thrilling afternoon story.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buzz had chosen a book about a boat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I can make all the exciting sounds.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Let's leave room for the words between them.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Leo roared whenever he saw blue waves.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Buzz tried to read the next sentence.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Roar! Those waves sound very enormous!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "They do, but nobody can hear the boat.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz waited for the roar to finish.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Leo leaned close to the open page.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Why has our story stopped sailing?",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It needs this little sentence to move on.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "Listen!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Listen!"
+          },
+          "lines": [
+            {
+              "text": "Should Leo roar over Buzz or listen?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Leo tried whispering a roar instead.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The long rumble still covered Buzz's words.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Rrrrr. I have made a tiny roar.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "It is tiny, but it is very long.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "The boat stayed beside the same painted rock.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Leo noticed Buzz's finger had not moved.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "We have sailed the same rock three times.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "I am still on the same sentence.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Leo tucked his paws beneath his chin.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "He listened while Buzz read one whole page.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now I can hear what the boat needs.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "A little breeze, and a clear way home.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz pointed to a small sound mark.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Leo waited until Buzz nodded at him.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Is this the place for my breeze?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Yes. One soft whoosh after my sentence.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "Buzz!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Buzz!"
+          },
+          "lines": [
+            {
+              "text": "Who gets to finish the next sentence?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "lesson",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz read about the boat opening its sail.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Leo gave one short, gentle whoosh.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Whoosh! Then I will listen again.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Now the words and the breeze fit together.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "The boat sailed safely past the painted rock.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buzz finished the page without stopping.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I finally heard how they got home.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And your breeze helped make the trip exciting.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Leo asked Buzz to read the ending again.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He kept his little sound until the nod.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "I want to hear the harbor bell this time.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then wait until the boat reaches the dock.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "bedroom",
+          "character": "lion",
+          "secondCharacter": "bee",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buzz rang an imaginary bell very softly.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Leo answered with one satisfied little purr.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "That was the smallest harbor bell ever.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It was built for a very tiny reader.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

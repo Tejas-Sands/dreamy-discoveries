@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "buster-lamp-tent-19",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Buster and the Lantern Shadow Monster",
+      "palette": "ocean",
+      "mainCharacter": {
+        "kind": "dog",
+        "name": "Buster"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Buster and the Lantern Shadow Monster | Sunny Meadow",
+        "description": "A giant dog shape covered the tent wall. Kevin stared while Buster held the lantern. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Buster",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "A giant dog shape covered the tent wall.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Kevin stared while Buster held the lantern.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "That dog has ears bigger than our picnic!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "It also appears to have your tail.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster wanted light for their bedtime book.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He placed the lantern close behind himself.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now we can see every little picture.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And every enormous Buster on the wall.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster stepped sideways to escape the shape.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The shadow followed across the pale fabric.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It keeps copying every move I make!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps it wants to hear our story too.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster waved one paw at the shadow.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "An enormous dark paw waved in reply.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It is a very polite giant dog.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "It has learned its manners from you.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "No, it is Buster’s shadow!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! No, it is Buster’s shadow!"
+          },
+          "lines": [
+            {
+              "text": "Is the large shadow another dog?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster put a cushion over his own head.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "His shadow grew a lumpy new top.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Now it cannot recognize my face.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Now it looks like a dog wearing a mountain.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin laughed and pointed at the lantern.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Buster lifted the cushion from his ears.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The light is shining straight past you.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "Then perhaps we can move the light instead.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin held the lantern farther from Buster.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "The giant shape shrank along the wall.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Its ears are getting smaller already!",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "That is what happens when we change the light.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster set the lantern safely on its stand.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Kevin moved the book into its warm glow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now I am the right size again.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "And our story has a very good reading light.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "📖",
+          "question": {
+            "answer": {
+              "text": "The shadow gets smaller!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The shadow gets smaller!"
+          },
+          "lines": [
+            {
+              "text": "What happens when the lantern moves farther away?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "They read about a tiny dog in a boat.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buster made a small ear shape with his paws.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My little shadow can be the boat captain.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then let him listen without covering the page.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin turned the book toward the tent wall.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buster moved his ears after the final word.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Captain Shadow has reached the harbor!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "He should park beside the pillow mountain.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Buster stretched his paws into long ears.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "A rabbit-shaped shadow appeared above the pillow.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Our captain has turned into a rabbit!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is a very surprising promotion.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "campfire",
+          "character": "dog",
+          "secondCharacter": "koala",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "📖",
+          "question": null,
+          "lines": [
+            {
+              "text": "Kevin made a tiny round shadow beside it.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Buster waited for its grand introduction.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "And who is this very small passenger?",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The captain's enormous invisible biscuit.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

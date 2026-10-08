@@ -1,0 +1,512 @@
+{
+  "stories": [
+    {
+      "slug": "spike-paint-painting-28",
+      "targetMinutes": 5.5,
+      "type": "story",
+      "title": "Spike and the Hedgehog Paintbrush",
+      "palette": "forest",
+      "mainCharacter": {
+        "kind": "hedgehog",
+        "name": "Spike"
+      },
+      "intro": null,
+      "outro": "See you next time in Sunny Meadow!",
+      "moral": null,
+      "moralRhyme": null,
+      "youtube": {
+        "title": "Spike and the Hedgehog Paintbrush | Sunny Meadow",
+        "description": "Spike found purple dots behind his painting chair. Bao traced the little dotted trail. A playful preschool adventure with a funny ending. #SunnyMeadow #DreamyDiscoveries",
+        "tags": [
+          "kids story",
+          "Sunny Meadow",
+          "Dreamy Discoveries",
+          "Spike",
+          "funny story"
+        ]
+      },
+      "scenes": [
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike found purple dots behind his painting chair.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Bao traced the little dotted trail.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "My picture has escaped onto the floor!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "point"
+            },
+            {
+              "text": "Or your paintbrush has been walking backward.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike wanted to paint a starry night.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "He placed purple paint beside his chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Every star will be one perfect little dot.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Then you need a very small brush tip.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike dipped the largest brush into the paint.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "It made a broad purple puddle on paper.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "That star appears to have eaten the sky.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Perhaps your brush brought too much paint with it.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao wiped the dripping brush over the pot.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "Spike leaned back to admire the large blot.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "It looks like an extremely sleepy cloud.",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "A cloud can be part of a night picture.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🎨",
+          "question": {
+            "answer": {
+              "text": "Use a brush!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! Use a brush!"
+          },
+          "lines": [
+            {
+              "text": "Should Spike paint with his quills?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike tried turning to reach a smaller brush.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "His quills brushed the wet edge of the paper.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "I think my back has helped with the painting.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Your back has made three more purple dots.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike walked away from the table to look.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "A few damp quill tips dotted the chair.",
+              "speaker": "narrator",
+              "emotion": "surprised",
+              "action": "look"
+            },
+            {
+              "text": "The picture really is following me!",
+              "speaker": "character",
+              "emotion": "surprised",
+              "action": "nod"
+            },
+            {
+              "text": "You have become a traveling paintbrush.",
+              "speaker": "friend",
+              "emotion": "surprised",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao held a mirror beside Spike's back.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Spike studied the little purple quill tips.",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "look"
+            },
+            {
+              "text": "Those dots are supposed to be in the sky.",
+              "speaker": "character",
+              "emotion": "thinking",
+              "action": "think"
+            },
+            {
+              "text": "Let's clean them gently before sitting down again.",
+              "speaker": "friend",
+              "emotion": "thinking",
+              "action": "think"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike washed the damp tips with a cloth.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao moved the paint away from his chair.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "My back is officially off painting duty.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "It has earned a completely dry rest.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "question",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 3,
+          "prop": "🎨",
+          "question": {
+            "answer": {
+              "text": "The end of a brush!",
+              "emoji": "💡"
+            },
+            "praise": "Yes! The end of a brush!"
+          },
+          "lines": [
+            {
+              "text": "What can make tiny dots?",
+              "speaker": "narrator",
+              "emotion": "thinking",
+              "action": "point"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "calm",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike used the end of a small brush.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Little dots appeared above the purple cloud.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Now these stars are exactly the right size.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Your cloud has found a very lovely sky.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "They added a pale moon beside the cloud.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Spike checked the floor before standing up.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "No more stars beneath my feet today.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "The sky has stopped leaking into our room.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 1,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Bao noticed one purple dot on his own nose.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Spike raised the clean little mirror.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "You seem to have a star as well.",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "That is the artist's official inspection light.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        },
+        {
+          "kind": "story",
+          "background": "kitchen",
+          "character": "hedgehog",
+          "secondCharacter": "panda",
+          "energy": "upbeat",
+          "holdSec": 2,
+          "prop": "🎨",
+          "question": null,
+          "lines": [
+            {
+              "text": "Spike pointed the mirror at the painted sky.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Bao held his dotted nose very proudly.",
+              "speaker": "narrator",
+              "emotion": "happy",
+              "action": "look"
+            },
+            {
+              "text": "Presenting Professor Purple-Nose and his night sky!",
+              "speaker": "character",
+              "emotion": "happy",
+              "action": "nod"
+            },
+            {
+              "text": "Thank you. Autographs are one small dot each.",
+              "speaker": "friend",
+              "emotion": "happy",
+              "action": "nod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
