@@ -31,17 +31,17 @@ import { castMembers, castKinds, castOrder } from "./cast.mjs";
 import { sceneDirection, sceneTransition } from "../../src/lib/sceneDirection.mjs";
 import { stageStory } from './staging.mjs';
 
-/** the Sunny Meadow universe — the species that may appear on screen (plus the legacy zoo for old samples) */
+/** Every installed character design may appear as a hero, friend or cameo. */
 const UNIVERSE_KINDS = castKinds();
 
 const SPECIES_EMOJI = CHARACTER_EMOJI;
 
-/** LLM-proposed backgrounds: validate and save to the library (characters never — Sunny Meadow is closed) */
+/** Adopt background recipes; characters use artwork already installed in the library. */
 function adoptNewRecipes(script) {
   const adopted = [];
   for (const item of Array.isArray(script.newCharacters) ? script.newCharacters : []) {
     const name = item?.name ?? item?.recipe?.name;
-    console.warn(`[director] ignored new character "${name}" — the world only has the library/cast.json cast`);
+    console.warn(`[director] ignored character recipe "${name}" — choose an existing library/characters design`);
   }
   for (const item of Array.isArray(script.newBackgrounds) ? script.newBackgrounds : []) {
     const name = item?.name ?? item?.recipe?.name;
@@ -58,7 +58,7 @@ function adoptNewRecipes(script) {
 }
 
 const resolveCharacter = (raw, fallback) => {
-  const aliased = CHARACTER_ALIASES[raw] || raw;
+  const aliased = isOneOf(CHARACTERS, raw) ? raw : CHARACTER_ALIASES[raw] || raw;
   if (aliased === "none") return "none";
   return isOneOf(CHARACTERS, aliased) ? aliased : hintCharacter(aliased, CHARACTERS) ?? fallback;
 };
@@ -370,7 +370,7 @@ function inferKind(scene, script, choruses) {
 }
 
 function otherSpecies(exclude, n = 0) {
-  // cameos come from the Sunny Meadow cast only
+  // Cameos use existing library artwork.
   const pool = UNIVERSE_KINDS.filter((k) => !exclude.includes(k));
   return pool.length ? pool[n % pool.length] : "bunny";
 }
@@ -529,7 +529,9 @@ export function directScript(input, opts = {}) {
     if (script.type === "story" && scene.secondCharacter === undefined && scene.character !== "none") {
       const joined = scene.lines.map((l) => l.text).join(" ");
       let mentioned = UNIVERSE_KINDS.find(
-        (k) => k !== scene.character && k !== main.kind && new RegExp(`\\b${k}s?\\b`, "i").test(joined)
+        (k) => k !== scene.character && k !== main.kind &&
+          [...joined.matchAll(new RegExp(`\\b${k}s?\\b`, 'gi'))].some(match =>
+            !/\b(?:paper|toy|wooden|plastic|picture of a|drawing of a)\s+$/i.test(joined.slice(0, match.index)))
       );
       if (!mentioned) {
         for (const m of castMembers()) {
@@ -703,7 +705,7 @@ export function directScript(input, opts = {}) {
     script.youtube = { title: script.title, description: "", tags: [] };
   }
   script.directed = true;
-  stageStory(script);
+  stageStory(script,{cast:castMembers()});
   if ((script.presentationVersion ?? 0) >= 3) {
     // The object's setup/contact/reaction supplies the comedy during a physical sequence.
     // Explicit gags retain their authored timing; unrelated automatic flybys yield the stage.

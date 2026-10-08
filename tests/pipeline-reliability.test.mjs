@@ -144,7 +144,7 @@ test('bad inputs and missing rerun slugs are reported instead of silently substi
   const {run, requests} = workspace(t);
   for (const args of [
     ['--topic', 'Honesty', '--minutes', 'bad', '--standby'],
-    ['--topic', 'Honesty', '--hero', 'unicorn', '--standby'],
+    ['--topic', 'Honesty', '--hero', 'missing-design', '--standby'],
     ['--slug', 'does-not-exist', '--standby'],
   ]) {
     const result = run('plan', args, 'outage');

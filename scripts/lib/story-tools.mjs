@@ -72,7 +72,7 @@ export function buildStoryKit({root = ROOT, batch = 3, target = 50} = {}) {
 
 I am building a bank of at least ${target} original, fun and emotionally meaningful preschool stories. Write ${batch} complete stories in this response. These are narrative stories, not template songs. Return ONLY valid JSON: {"stories":[ ...complete story objects... ]}. Do not return outlines, markdown fences, ellipses or incomplete stories. Never squeeze all ${target} stories into one response. In later batches, also avoid every story already written in this chat.
 
-Use only the SIX cast members below. Do not introduce named family members, other animals or new characters. Rotate heroes and pairs. Let personalities create different dialogue, comic moments and choices. Avoid reproducing any used OR unused story below: new titles alone do not make a new plot. Vary the goal, object, obstacle, mistaken attempts, practical repair, setting and emotional payoff.
+Use any of the ${cast.length} renderable characters below, including the animals outside the six established personality cards. All available library character designs can be heroes, friends or cameos. Use their exact listed kinds and names; do not invent unavailable designs or separate family characters without their own recipe. Rotate heroes and pairs. Let personalities create different dialogue, comic moments and choices. Avoid reproducing any used OR unused story below: new titles alone do not make a new plot. Vary the goal, object, obstacle, mistaken attempts, practical repair, setting and emotional payoff.
 
 Each story: a visible problem in the first line; a concrete goal; two meaningfully different failed attempts; a gentle comic cause-and-effect sequence; two brief child choices; an achievable repair PERFORMED by the hero; and a warm ending showing the original goal now working. Show feelings through actions and dialogue. No shaming, frightening danger, lectures, instant magic solutions, padding or repeated generic lines. The elder may help, but never solves the problem for the hero. Keep the moral outside ordinary dialogue; the Director adds its short closing chant. Use 4–10 simple words per spoken line and occasional natural reactions. Distinct stories should still feel like one consistent world.
 
@@ -134,7 +134,7 @@ export function importStories(input, {root = ROOT, dryRun = false, queue = true}
     const raw = parsed.data;
     const quality = storyQualityReport(raw, targetMinutes);
     if (raw.type !== 'story') quality.issues.push('only narrative stories can be fed into the story bank');
-    if (raw.mainCharacter.name !== castMemberByKind(raw.mainCharacter.kind)?.name) quality.issues.push('use the exact established hero name');
+    if (raw.mainCharacter.name !== castMemberByKind(raw.mainCharacter.kind)?.name) quality.issues.push('use the exact listed hero name');
     for (const scene of raw.scenes) {
       if (!['story', 'question', 'lesson'].includes(scene.kind)) quality.issues.push('use story, question or lesson scenes; the Director supplies the moral chant');
       if (scene.character === scene.secondCharacter) quality.issues.push('a scene character and friend must be different');

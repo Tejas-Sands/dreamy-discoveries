@@ -99,7 +99,7 @@ test('valid authored direction, camera, action, energy and extras survive quiet 
   assert.deepEqual(output.extras, ['fox']);
 });
 
-test('generated party guests exclude legacy zoo characters seen earlier', () => {
+test('generated party guests can include any installed character seen earlier', () => {
   const output = directScript(script([
     scene({character: 'monkey', secondCharacter: 'lion'}),
     scene({kind: 'chorus'}),
@@ -108,7 +108,7 @@ test('generated party guests exclude legacy zoo characters seen earlier', () => 
   assert.ok(output.scenes[1].extras.every((kind) => castKinds().includes(kind)));
 });
 
-test('paper stars and toy animals do not introduce legacy cast members', () => {
+test('paper stars and toy animals remain props while named friends are inferred', () => {
   for (const text of ['Share a paper star with your friend.', 'A toy lion sits beside the paper crown.']) {
     const output = directScript(script([scene({lines: [{text}]})]));
     assert.equal(output.scenes[0].secondCharacter, null);

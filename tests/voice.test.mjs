@@ -7,6 +7,7 @@ import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 import {directScript} from '../scripts/lib/director.mjs';
+import {CHARACTER_RECIPES} from '../scripts/lib/library.mjs';
 import * as voiceStore from "../scripts/lib/voice.mjs";
 const {collectUtterances, missingTexts, voiceForSpeaker, voiceSettings, lineHash, voiceHash} = voiceStore;
 
@@ -122,6 +123,58 @@ test('version 2 routes all six cast members to installed local voices across ani
     assert.ok(!voices.includes(voiceForSpeaker(settings,'narrator')));
     assert.equal(voiceForSpeaker(settings,'unknown-animal'),settings.voice);
     assert.equal(voiceForSpeaker(settings,'friend',{character:'bunny',secondCharacter:null}),settings.voice);
+  });
+});
+
+test('every character recipe has a stable installed Kokoro voice as hero and friend', async () => {
+  const {KokoroTTS} = await import('kokoro-js');
+  const available = new KokoroTTS().voices;
+  withEnv({TTS_ENGINE:'kokoro',TTS_SPEED:'.95',TTS_VOICE:undefined,NARRATOR_VOICE:undefined}, () => {
+    const settings = voiceSettings({presentationVersion:4,mainCharacter:{kind:'bunny'}});
+    for (const kind of Object.keys(CHARACTER_RECIPES)) {
+      const assigned = settings.castVoices[kind];
+      assert.ok(available[assigned], `${kind} must have an installed local voice`);
+      const hero = voiceSettings({presentationVersion:4,mainCharacter:{kind}});
+      assert.equal(hero.voice, assigned, `${kind} must use its own assigned hero voice`);
+      assert.equal(voiceForSpeaker(settings, kind), assigned);
+      assert.equal(voiceForSpeaker(settings, 'character', {character:kind}), assigned);
+      assert.equal(voiceForSpeaker(settings, 'friend', {secondCharacter:kind}), assigned);
+      assert.equal(voiceForSpeaker(hero, kind.toUpperCase()), assigned);
+      assert.deepEqual(voiceSettings({presentationVersion:4,mainCharacter:{kind}}), hero);
+    }
+    assert.deepEqual(Object.fromEntries(['bunny','bear','duck','fox','turtle','owl'].map(kind => [kind,settings.castVoices[kind]])), {
+      bunny:'af_heart', bear:'am_michael', duck:'af_sarah', fox:'bf_emma', turtle:'bm_george', owl:'am_fenrir',
+    });
+  });
+});
+
+test('expanded heroes retain authored voice overrides and pin their assignments across environment changes', () => {
+  withEnv({TTS_ENGINE:'kokoro',TTS_SPEED:'.95',TTS_VOICE:undefined,NARRATOR_VOICE:undefined}, () => {
+    const script = {presentationVersion:4,mainCharacter:{kind:'dragon'},castVoices:{dragon:'am_puck',cat:'af_nicole'}};
+    const initial = voiceSettings(script);
+    assert.equal(initial.voice, 'am_puck');
+    assert.equal(voiceForSpeaker(initial,'friend',{secondCharacter:'cat'}), 'af_nicole');
+    const key = voiceHash(initial, initial.voice, 'Hello from our dragon!');
+    process.env.TTS_VOICE='af_nova'; process.env.TTS_SPEED='1.3'; process.env.TTS_ENGINE='edge';
+    const pinned = voiceSettings({...script,synthesis:initial});
+    assert.deepEqual(pinned, initial);
+    assert.equal(voiceHash(pinned, pinned.voice, 'Hello from our dragon!'), key);
+  });
+});
+
+test('pinned six-character and generic legacy recordings keep their voice maps and cache keys', () => {
+  withEnv({TTS_ENGINE:'kokoro',TTS_SPEED:'.95',TTS_VOICE:undefined,NARRATOR_VOICE:undefined}, () => {
+    const original = {engine:'kokoro',ext:'wav',voice:'am_michael',narratorVoice:'af_bella',speed:.95,
+      model:'Kokoro-82M-v1.0-ONNX:q8:peak-v1',cacheVersion:3,
+      castVoices:{bunny:'af_heart',bear:'am_michael',duck:'af_sarah',fox:'bf_emma',turtle:'bm_george',owl:'am_fenrir'}};
+    const result = voiceSettings({presentationVersion:4,mainCharacter:{kind:'bear'},synthesis:original});
+    assert.deepEqual(result, original);
+    assert.equal(voiceForSpeaker(result,'cat'), 'am_michael');
+    assert.equal(voiceHash(result, 'am_michael', 'A cached hello.'), voiceHash(original, 'am_michael', 'A cached hello.'));
+    const {castVoices, ...generic} = original;
+    const genericResult = voiceSettings({presentationVersion:4,mainCharacter:{kind:'dragon'},synthesis:generic});
+    assert.deepEqual(genericResult, generic);
+    assert.equal(voiceForSpeaker(genericResult,'dragon'), 'am_michael');
   });
 });
 

@@ -6,6 +6,7 @@ import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import YAML from 'yaml';
 import {buildStoryKit, importStories, rawStoryExample} from '../scripts/lib/story-tools.mjs';
+import {castMemberByKind} from '../scripts/lib/cast.mjs';
 
 const repo = new URL('../', import.meta.url);
 function workspace(t) {
@@ -19,9 +20,12 @@ function workspace(t) {
   return {root, file, story, write};
 }
 
-test('brief contains the closed cast, settings, used and unused histories and exact batch format', () => {
+test('brief contains every renderable library character, settings, histories and exact batch format', () => {
   const kit = buildStoryKit();
-  assert.equal(kit.context.counts.characters, 6);
+  const designs = fs.readdirSync(new URL('library/characters/', repo)).filter(file => file.endsWith('.json')).map(file => file.slice(0, -5)).sort();
+  assert.equal(kit.context.counts.characters, designs.length);
+  assert.deepEqual(kit.context.cast.map(member => member.kind).sort(), designs);
+  for (const member of kit.context.cast) assert.equal(member.name, castMemberByKind(member.kind).name);
   assert.ok(kit.context.counts.backgrounds >= 25);
   assert.ok(kit.context.usedStories.length >= 6);
   assert.ok(kit.context.unusedStories.length >= 21);
@@ -29,9 +33,27 @@ test('brief contains the closed cast, settings, used and unused histories and ex
   assert.match(kit.prompt, /50/);
   assert.match(kit.prompt, /3 complete/);
   assert.match(kit.prompt, /background/);
+  assert.match(kit.prompt, new RegExp(`${designs.length} renderable characters`));
+  assert.doesNotMatch(kit.prompt, /only the SIX|closed cast/i);
   assert.match(kit.prompt, /"stories"/);
   assert.ok(kit.schema.anyOf.length >= 2);
   assert.equal(kit.example.type, 'story');
+});
+
+test('an elephant hero and lion friend survive import, Director enrichment and queue selection', t => {
+  const {root, file, story, write} = workspace(t);
+  story.mainCharacter = {kind: 'elephant', name: castMemberByKind('elephant').name};
+  story.scenes = story.scenes.map(scene => ({...scene, character: 'elephant', secondCharacter: scene.secondCharacter ? 'lion' : null}));
+  write(story);
+  const result = importStories(file, {root});
+  assert.deepEqual(result.added, [story.slug]);
+  const saved = JSON.parse(fs.readFileSync(path.join(root, 'library/scripts', `${story.slug}.json`), 'utf8'));
+  assert.deepEqual(saved.mainCharacter, story.mainCharacter);
+  assert.ok(saved.scenes.some(scene => scene.character === 'elephant' && scene.secondCharacter === 'lion'));
+  assert.ok(saved.scenes.some(scene => scene.kind === 'moral'));
+  const queued = YAML.parse(fs.readFileSync(path.join(root, 'library/queue.yml'), 'utf8')).items.find(item => item.slug === story.slug);
+  assert.equal(queued.hero, castMemberByKind('elephant').id);
+  assert.equal(queued.type, 'story');
 });
 
 test('feed directs a single story and queues a slug without a writer call; repeating is a no-op', t => {

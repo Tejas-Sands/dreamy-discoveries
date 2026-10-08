@@ -1,6 +1,6 @@
 import type {KidsScript, Scene, StageSample,StageActorSample,Action,StageEvent,StagePoint,StageProp,StageRole,SceneStaging} from '../../src/lib/types';
 import type {SceneSlot} from '../../src/lib/timing';
-export function stageStory<T extends KidsScript>(script:T):T;
+export function stageStory<T extends KidsScript>(script:T,options?:{cast?:Array<{kind:string;id?:string;name?:string}>}):T;
 export interface PreparedStage {
   actors: Partial<Record<StageRole, StagePoint & {owner:string; moves:Array<{from:number;until:number;toPoint:StagePoint}>}>>;
   props: StageProp[];

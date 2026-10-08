@@ -57,10 +57,10 @@ The most complex module. Takes a raw `script.json` and enriches it deterministic
 
 ### `cast.mjs`
 
-Sunny Meadow cast graph. Reads `library/cast.json`.
+Sunny Meadow cast helpers. Discover every renderable design in `library/characters/` and merge the six established personality and relationship cards from `library/cast.json`. Other designs use their recipe names and words.
 
 ```js
-castKinds()           // ['taffy','ben','daisy','fiona','tilly','ozzy']
+castKinds()           // all recipe kinds, e.g. ['bunny','bear',...,'elephant','lion',...]
 castMemberByKind(k)   // full cast entry
 castFriendsOf(k)      // array of kinds
 castRivalsOf(k)       // array of kinds
@@ -69,7 +69,7 @@ castOrder()           // canonical display order
 castPrompt()          // the block fed to the LLM prompt
 ```
 
-**Never add new cast members programmatically.** Edit `library/cast.json` and this module together if a character is added (requires consensus with the project owner).
+All available character recipes may appear in stories, templates, parties and gags. Adding a renderable recipe makes that design available through these helpers; add an optional `library/cast.json` card for a specific personality or relationship. Do not propose phantom family members without distinct renderable recipes.
 
 ### `universe.mjs`
 

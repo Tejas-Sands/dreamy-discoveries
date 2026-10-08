@@ -6,23 +6,23 @@ Context: The `library/` directory is the **persistent memory** of the studio. Ev
 
 ## File Reference
 
-### `cast.json` — The Sunny Meadow Cast (source of truth)
+### `cast.json` — Sunny Meadow Personality and Relationship Cards
 
-The complete graph of the six main characters. Used by `scripts/lib/cast.mjs`, the Director, the LLM prompt builder, and the template engine.
+The six established personality and relationship cards. `scripts/lib/cast.mjs` merges these overrides with every renderable design in `library/characters/`, which supplies the full cast inventory. Used by the Director, the prompt builder, and the template engine.
 
-**Do not add new characters here.** The cast is closed. Only edit existing entries to fix catchphrases, descriptions, or relationship data.
+All library character designs are available as heroes, friends and cameos. Other designs use their recipe labels unless a card here overrides them. Add personality cards only for renderable designs; historical family records do not create separate characters without their own recipes.
 
 Schema per entry:
 ```jsonc
 {
   "id": "taffy",
   "name": "Taffy",
-  "species": "bunny",
+  "kind": "bunny",
   "catchphrase": "Hop, hop, hooray!",
   "role": "the hero",
   "friends": ["ben", "daisy", "fiona"],
   "rivals": ["fiona"],
-  "family": ["toto"]
+  "family": []
 }
 ```
 
@@ -32,7 +32,7 @@ Imported once by `scripts/import-character-bible.mjs`. This is the design source
 
 ### `characters/*.json` — Character Recipes
 
-One JSON file per character. Powers the `Character` Remotion component. The recipe picks a rig, colors, ears, tail, features, markings, and accessories.
+One JSON file per character, currently 38 available designs. Powers the `Character` Remotion component and defines the supported cast inventory. The recipe picks a rig, colors, ears, tail, features, markings, and accessories; its words provide the default character name.
 
 **To change a character's appearance:**
 1. Edit `library/characters/<kind>.json`
@@ -195,6 +195,6 @@ Custom template overrides. Files here take precedence over `scripts/lib/template
 ❌ **Don't:**
 - Delete or rename existing `scripts/*.json` entries
 - Write `universe.json` directly (always use the helper)
-- Add characters to `cast.json` without project owner approval
+- Introduce a character or separate family member without a renderable recipe
 - Rename existing backgrounds (existing scripts reference them by name)
 - Set `"autopilot": false` in `config.json` unless intentionally pausing the channel

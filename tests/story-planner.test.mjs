@@ -10,7 +10,7 @@ test('story briefs give every hero a concrete goal, setting, attempts and repair
     const brief = planner.buildStoryBrief({topic: storyTopic(honesty), hero, random: () => .2});
     assert.equal(brief.hero.id, hero.id);
     assert.notEqual(brief.friend.id, hero.id);
-    assert.ok(['bunny', 'bear', 'duck', 'fox', 'turtle', 'owl'].includes(brief.friend.kind));
+    assert.ok(castMembers().some(member => member.kind === brief.friend.kind));
     for (const key of ['goal', 'firstAttempt', 'secondAttempt', 'consequence', 'repair', 'ending', 'fingerprint']) assert.ok(brief[key]?.length > 8, key);
     assert.notEqual(brief.firstAttempt, brief.secondAttempt);
     assert.ok(brief.settings.length >= 1 && brief.settings.length <= 2);
@@ -26,7 +26,7 @@ test('recent story combinations are avoided even with the same deterministic cho
   assert.notEqual(next.fingerprint, first.fingerprint);
 });
 
-test('generated cast prompt names only the six approved animals', () => {
+test('generated cast prompt includes every available design and skips unrenderable family names', () => {
   const prompt = castPrompt();
   assert.doesNotMatch(prompt, /Toto|Grandma Nana/);
   for (const hero of castMembers()) assert.ok(prompt.includes(hero.name));
@@ -49,7 +49,7 @@ test('unnamed heroes rotate through the least-used cast with seeded tie breaking
   const episodes = [{hero: 'bunny'}, {hero: 'bear'}, {hero: 'duck'}, {hero: 'fox'}, {hero: 'turtle'}];
   const brief = planner.buildStoryBrief({topic: 'A friend keeps a promise', episodes, random: () => 0});
   assert.equal(brief.hero.id, 'ozzy');
-  assert.equal(planner.buildStoryBrief({topic: 'A friend keeps a promise', random: () => .99}).hero.id, 'ozzy');
+  assert.equal(planner.buildStoryBrief({topic: 'A friend keeps a promise', random: () => .99}).hero.id, castMembers().at(-1).id);
   assert.equal(planner.buildStoryBrief({topic: 'A shy turtle learns to share', hero: castMembers()[1]}).hero.id, 'ben');
 });
 

@@ -13,7 +13,7 @@
 4. **The library grows, never shrinks.** Scripts, voices, backgrounds and recipes are committed to `library/` and `.cache/`. Never delete cached items; only add.
 5. **Idempotent by design.** Every script stage can be re-run with `--slug <existing>` and must produce the same result. Never overwrite a committed script unless the user explicitly asks.
 6. **Commit with `[skip ci]`** when writing back to the library so you don't trigger infinite loops.
-7. **The cast is closed.** The six Sunny Meadow animals (Taffy, Ben, Daisy, Fiona, Grandpa Tilly, Professor Ozzy) are the whole world. Do not invent new named animal characters.
+7. **Use the full character library.** Every renderable design in `library/characters/` is available for heroes, friends and cameos (currently 38). Taffy, Ben, Daisy, Fiona, Grandpa Tilly and Professor Ozzy retain their established personality cards; other designs use their recipe names. Do not introduce characters without a renderable recipe, including separate family characters without their own designs.
 
 ---
 
@@ -78,9 +78,9 @@ src/
     Question.tsx, StarHud.tsx, Transition.tsx, Vox.tsx, Sfx.tsx
 
 library/
-  cast.json           # Sunny Meadow cast graph (source of truth for characters)
+  cast.json           # Sunny Meadow personality/relationship overrides for six established characters
   character-bible.json # Full character bible (imported once by import-character-bible.mjs)
-  characters/*.json   # Individual character recipes (6 main + 32 legacy zoo)
+  characters/*.json   # All 38 available character designs (source of truth for renderable cast)
   backgrounds/*.json  # 25 background recipes
   scripts/*.json      # Every produced script (hand-editable; re-run with --slug)
   universe.json       # Universe ledger: stories told, canon, cast usage

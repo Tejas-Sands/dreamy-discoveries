@@ -16,6 +16,7 @@ export const ENGINE_DEFAULT_NARRATOR_VOICE = { kokoro: "af_bella", edge: "en-US-
 
 // These English voices ship with kokoro-js 1.2.1; no extra model or service is used.
 const KOKORO_CAST_VOICES = { bunny: "af_heart", bear: "am_michael", duck: "af_sarah", fox: "bf_emma", turtle: "bm_george", owl: "am_fenrir" };
+const KOKORO_VOICE_POOL = Object.values(KOKORO_CAST_VOICES);
 const castAlias = value => typeof value === "string" ? value.trim().toLowerCase().replace(/[\s_-]+/g, " ") : "";
 function castKind(value) {
   const alias = castAlias(value);
@@ -49,6 +50,11 @@ export function voiceSettings(script, args = {}) {
   // A previously pinned generic recording stays generic even if its script is version 2.
   if ((script?.presentationVersion ?? 0) >= 2 && engine === "kokoro" && (!pinned || pinned.castVoices)) {
     castVoices = { ...KOKORO_CAST_VOICES };
+    // New kinds reuse installed voices; hashing the kind keeps assignments stable as the library grows.
+    // Existing pins retain their original map and fallback voice for uncatalogued speakers.
+    if (!pinned) for (const {kind} of castMembers()) {
+      castVoices[kind] ??= KOKORO_VOICE_POOL[crypto.createHash('sha1').update(kind).digest()[0] % KOKORO_VOICE_POOL.length];
+    }
     for (const overrides of [pinned?.castVoices || script?.castVoices, args.castVoices]) {
       if (!overrides || typeof overrides !== "object") continue;
       for (const [animal, selectedVoice] of Object.entries(overrides)) {

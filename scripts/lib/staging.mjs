@@ -15,15 +15,15 @@ const declaredProp=raw=> {
 const committed=(text)=>!/[?]/.test(text)&&! /\b(if|should|could|would|might|never|not|don't|doesn't|didn't|will|going to|let|may|can|want|hope|wish|try|tries|tried|attempt|attempted|fail|failed|miss|missed|refuse|refuses|refused|cannot|unable)\b/i.test(text);
 const actionKind=text=> /\b(pick(?:s|ed)? up|lift(?:s|ed)?)\b/i.test(text)?'pick-up':/\b(drop(?:s|ped)?|put(?:s)? down|set(?:s)? down|placed)\b/i.test(text)?'drop':/\b(give|gives|gave|hand(?:s|ed)?|pass(?:es|ed)?|offer(?:s|ed)?|share(?:s|d)?)\b/i.test(text)?'give':null;
 const physicalKinds=new Set(['push','roll','catch','open','water','build']);
-const physicalAction=text=> {
+const physicalAction=(text,subjectPattern)=> {
   if(!committed(text)||/\b(almost|nearly|pretend|pretends|pretended|without|isn't|wasn't|won't|couldn't|wouldn't|hasn't|haven't|hadn't|can't)\b/i.test(text))return null;
-  const match=String(text).match(/^\s*(?:I|we|(?:grandpa\s+|professor\s+)?(?:taffy|ben|daisy|fiona|tilly|ozzy|bunny|bear|duck|fox|turtle|owl))\s+(?:(?:gently|carefully|slowly|quickly|happily|then|finally)\s+)*(push(?:es|ed)?|roll(?:s|ed)?|catch(?:es)?|caught|open(?:s|ed)?|water(?:s|ed)?|build(?:s)?|built)\b/i);
+  const match=String(text).match(subjectPattern);
   const verb=match?.[1]?.toLowerCase();
   return verb?.startsWith('push')?'push':verb?.startsWith('roll')?'roll':/^(catch|caught)/.test(verb??'')?'catch':verb?.startsWith('open')?'open':verb?.startsWith('water')?'water':/^(build|built)/.test(verb??'')?'build':null;
 };
-const physicalObject=(text,prop)=> {
+const physicalObject=(text,prop,names)=> {
   const object=String(text).replace(/^.*?\b(?:push(?:es|ed)?|roll(?:s|ed)?|catch(?:es)?|caught|open(?:s|ed)?|water(?:s|ed)?|build(?:s)?|built)\b\s*/i,'');
-  const modifiers='(?:(?:a|an|the|my|our|his|her|their|your|small|little|big|red|blue|green|yellow|paper|sand|snow|beautiful|new|old|tiny|heavy|round|taffy[’\x27]s|ben[’\x27]s|daisy[’\x27]s|fiona[’\x27]s|tilly[’\x27]s|ozzy[’\x27]s)\\s+)*';
+  const modifiers=`(?:(?:a|an|the|my|our|his|her|their|your|small|little|big|red|blue|green|yellow|paper|sand|snow|beautiful|new|old|tiny|heavy|round|(?:${names})[’']s)\\s+)*`;
   const name=prop.kind==='castle'?'(?:sandcastle|castle)':prop.kind==='snowman'?'(?:snowman|snow\\s+friend)':prop.kind;
   return new RegExp(`^${modifiers}(?:${name}s?|it|this|that)\\b`,'i').test(object);
 };
@@ -31,20 +31,35 @@ const roles=['character','friend'];
 const ownerFor=(scene,role)=>animal(role==='friend'?scene.secondCharacter:scene.character);
 
 /** A narrow visual hook: a present speaker notices an already rolling concrete object. */
-const movingOpening=(script,scene,sceneIndex,line,lineIndex)=> {
+const movingOpening=(script,scene,sceneIndex,line,lineIndex,matchesActor)=> {
   if((script.presentationVersion??0)<3||script.opening!=='hook'||sceneIndex!==0||lineIndex!==0||scene.question||line?.role==='question'||!committed(line?.text??''))return false;
   const match=String(line?.text??'').match(/^\s*(?:(?:oh|oops|look|uh oh)[!,:.]\s*)?(?:my|our|the|a)\s+(?:(?:little|small|red|blue|round)\s+)*(ball|apple)\s+(?:rolls?|rolled|is rolling)(?:\s+away)?[!.]*\s*$/i);
   const declared=declaredProp(scene.prop);
   if(!match||declared?.kind!==match[1].toLowerCase())return false;
   const speaker=line?.speaker??'character';
   if(speaker==='narrator')return false;
-  const owner=speaker==='character'||speaker==='friend'?ownerFor(scene,speaker):animal(speaker);
-  return ['bunny','bear','duck','fox','turtle','owl'].includes(owner)&&roles.some(role=>ownerFor(scene,role)===owner);
+  return roles.some(role=>{
+    const owner=ownerFor(scene,role);
+    return owner&&owner!=='none'&&matchesActor(speaker===role?owner:speaker,owner);
+  });
 };
 
 /** Populate only missing staging. Authored stages and all older episodes survive unchanged. */
-export function stageStory(script) {
+export function stageStory(script,{cast=[]}={}) {
   if((script.presentationVersion??0)<2)return script;
+  const actorAliases=new Map();
+  const addAlias=(kind,name)=>{
+    if(!name)return;
+    if(!actorAliases.has(kind))actorAliases.set(kind,new Set([kind]));
+    actorAliases.get(kind).add(String(name).trim().toLowerCase());
+  };
+  for(const [id,kind] of Object.entries(aliases))addAlias(kind,id);
+  for(const member of cast)for(const name of [member.kind,member.id,member.name])addAlias(member.kind,name);
+  const matchesActor=(name,kind)=>actorAliases.get(kind)?.has(String(name).trim().toLowerCase())??false;
+  const names=[...new Set([...actorAliases.values()].flatMap(names=>[...names]))].sort((a,b)=>b.length-a.length)
+    .map(name=>name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|');
+  const namedSubject=new RegExp(`^\\s*(?:grandpa\\s+|professor\\s+)?(${names})\\b`,'i');
+  const physicalSubject=new RegExp(`^\\s*(?:I|we|(?:grandpa\\s+|professor\\s+)?(?:${names}))\\s+(?:(?:gently|carefully|slowly|quickly|happily|then|finally)\\s+)*(push(?:es|ed)?|roll(?:s|ed)?|catch(?:es)?|caught|open(?:s|ed)?|water(?:s|ed)?|build(?:s)?|built)\\b`,'i');
   const v3=(script.presentationVersion??0)>=3;
   const world=new Map(),positions=new Map();let previousBackground;
   for(const [sceneIndex,scene] of (script.scenes??[]).entries()) {
@@ -55,7 +70,7 @@ export function stageStory(script) {
       const declared=declaredProp(scene.prop);
       if(declared&&!world.has(declared.id)) {
         const pickup=(scene.lines??[]).some(l=>committed(l.text)&&actionKind(l.text)==='pick-up');
-        const ground=movingOpening(script,scene,sceneIndex,scene.lines?.[0],0)||v3&&['push','roll','catch','water','build'].some(kind=>(scene.lines??[]).some(l=>physicalAction(l.text)===kind));
+        const ground=movingOpening(script,scene,sceneIndex,scene.lines?.[0],0,matchesActor)||v3&&['push','roll','catch','water','build'].some(kind=>(scene.lines??[]).some(l=>physicalAction(l.text,physicalSubject)===kind));
         world.set(declared.id,{...declared,owner:pickup||ground||['castle','snowman'].includes(declared.kind)?null:ownerFor(scene,'character'),x:actors.character?.x+110||980,y:826,location:scene.background,...(v3&&declared.kind==='book'?{openProgress:0}:{}),...(v3&&['castle','snowman'].includes(declared.kind)?{buildProgress:0}:{})});
       }
       const props=[...world.values()].filter(p=>p.owner?present.some(role=>ownerFor(scene,role)===p.owner):p.location===scene.background).map(p=>({...p}));
@@ -63,16 +78,16 @@ export function stageStory(script) {
       const events=[];
       for(const [line,l] of (scene.lines??[]).entries()) {
         if(!committed(l.text)||l.role==='question'||scene.question)continue;
-        const openingRoll=movingOpening(script,scene,sceneIndex,l,line);
-        const kind=actionKind(l.text)??(v3?physicalAction(l.text):null)??(openingRoll?'roll':null);if(!kind)continue;
+        const openingRoll=movingOpening(script,scene,sceneIndex,l,line,matchesActor);
+        const kind=actionKind(l.text)??(v3?physicalAction(l.text,physicalSubject):null)??(openingRoll?'roll':null);if(!kind)continue;
         const candidate=declared?props.find(p=>p.id===declared.id):props.find(p=>new RegExp(`\\b${p.kind}\\b`,'i').test(l.text));if(!candidate)continue;
         const prop=working.get(candidate.id);
-        if(physicalKinds.has(kind)) {if(!openingRoll&&!physicalObject(l.text,prop))continue;}
+        if(physicalKinds.has(kind)) {if(!openingRoll&&!physicalObject(l.text,prop,names))continue;}
         else if(!new RegExp(`\\b${prop.kind}\\b|\\b(it|this|that)\\b`,'i').test(l.text)&&prop.kind!=='object')continue;
-        const subject=l.text.match(/^\s*(?:grandpa\s+|professor\s+)?(taffy|ben|daisy|fiona|tilly|ozzy|bunny|bear|duck|fox|turtle|owl)\b/i)?.[1]?.toLowerCase();
-        const namedRole=subject?present.find(role=>ownerFor(scene,role)===animal(subject)):null;
+        const subject=l.text.match(namedSubject)?.[1]?.toLowerCase();
+        const namedRole=subject?present.find(role=>matchesActor(subject,ownerFor(scene,role))):null;
         if(l.speaker==='narrator'&&!namedRole)continue;
-        const speakingRole=present.find(role=>ownerFor(scene,role)===animal(l.speaker));
+        const speakingRole=present.find(role=>matchesActor(l.speaker,ownerFor(scene,role)));
         if(v3&&physicalKinds.has(kind)&&subject&&!namedRole)continue;
         if(v3&&physicalKinds.has(kind)&&l.speaker&&!['character','friend','narrator'].includes(l.speaker)&&!speakingRole&&!namedRole)continue;
         const actor=namedRole??speakingRole??(l.speaker==='friend'?'friend':'character');if(!actors[actor])continue;

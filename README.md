@@ -31,7 +31,7 @@ cheaper than the last. You watch it and upload to YouTube — the only human ste
 | --- | --- |
 | Evergreen songs from templates | **none** |
 | Stories and original rhymes | one text call (~5k tokens, free tier) |
-| Characters and settings | the six Sunny Meadow animals and existing background recipes, selected by deterministic code |
+| Characters and settings | all 38 library character designs and existing background recipes, selected by deterministic code |
 | Voice | a local neural model, no API, cached forever per line |
 | Music, sound effects, drawing, animation, thumbnails, compilations | none |
 
@@ -92,7 +92,7 @@ npm run standby -- sync
 
 ### Prepare a bank of 50 original stories in your own chat
 
-Export a small writing kit with the current six characters, 25 backgrounds,
+Export a small writing kit with every available library character (currently 38), 25 backgrounds,
 allowed actions/emotions, used and unused story summaries, output schema and a
 complete example:
 
@@ -228,7 +228,7 @@ npm run typecheck
 ### Review hands and background activity
 
 ```bash
-node scripts/preview-living-world.mjs                  # six cast members + all 25 settings
+node scripts/preview-living-world.mjs                  # six established characters + all 25 settings
 node scripts/preview-living-world.mjs --stills-only    # faster still gallery
 ```
 
@@ -274,11 +274,11 @@ stars, gags, party guests and music — everything that makes the LLM path engag
 
 ```
 library/
-  cast.json           the Sunny Meadow universe (below): 6 animals, names, catchphrases, friend/rival/family graph
-  characters/*.json   recipes: the 6 cast members (bunny bear fox duck turtle owl) plus the legacy zoo
+  cast.json           personality and relationship overrides for the 6 established Sunny Meadow characters
+  characters/*.json   all 38 available character designs, with default names and vocabulary
                       (cat dog elephant frog lion pig monkey fish star penguin chick bird giraffe mouse cow
                       sheep horse zebra tiger panda koala hippo whale bee ladybug dinosaur unicorn dragon
-                      snowman raccoon squirrel hedgehog — usable by scripts but not by new stories)
+                      snowman raccoon squirrel hedgehog — all available for new stories)
   backgrounds/*.json  25 recipes: meadow forest night underwater sky candy beach snow space farm
                       bedroom jungle city playground kitchen garden mountain desert castle circus
                       rainy autumn park pond campfire
@@ -290,27 +290,31 @@ library/
 
 ## The Sunny Meadow universe
 
-A fixed cast of **six animals** lives in one world, and every story, rhyme,
-party guest and gag comes from it. The relationships are a graph you pull from
-in one place — `library/cast.json`:
+Every renderable design in `library/characters/` can be a hero, friend, party guest
+or gag cameo in Sunny Meadow: **38 available characters** today, including elephants,
+lions and the six established characters below. `library/cast.json` preserves those
+six personality and relationship cards; the other designs use their recipe names
+and vocabulary. Cast helpers discover the full library automatically.
 
-| Who | Catchphrase | Role | Friends | Rivals | Family |
-| --- | --- | --- | --- | --- | --- |
-| Taffy (bunny) | "Hop, hop, hooray!" | the hero | Ben, Daisy, Fiona | Fiona | Toto (baby brother, bunny) |
-| Ben (bear) | "Big bear hug!" | gentle giant | Taffy, Daisy | Fiona | Grandma Nana (bear) |
-| Daisy (duck) | "Quack a-lacka-doodle!" | the singer | Taffy, Ben, Fiona | — | — |
-| Fiona (fox) | "Fast and clever!" | speedy rival | Daisy | Taffy, Ben | — |
-| Grandpa Tilly (turtle) | "Slow and steady!" | wise elder | everyone | — | — |
-| Professor Ozzy (owl) | "Hoohoo! Let's learn together!" | the teacher | everyone | — | — |
+| Who | Catchphrase | Role | Friends | Rivals |
+| --- | --- | --- | --- | --- |
+| Taffy (bunny) | "Hop, hop, hooray!" | the hero | Ben, Daisy, Fiona | Fiona |
+| Ben (bear) | "Big bear hug!" | gentle giant | Taffy, Daisy | Fiona |
+| Daisy (duck) | "Quack a-lacka-doodle!" | the singer | Taffy, Ben, Fiona | — |
+| Fiona (fox) | "Fast and clever!" | speedy rival | Daisy | Taffy, Ben |
+| Grandpa Tilly (turtle) | "Slow and steady!" | wise elder | everyone | — |
+| Professor Ozzy (owl) | "Hoohoo! Let's learn together!" | the teacher | everyone | — |
 
 Rules: rivalry only exists in the friendly *Sunny Meadow Games* (always ends in
-high fives); family members (Toto, Grandma Nana) appear for cozy moments;
+high fives); historical family records do not create separate characters without
+their own renderable recipes;
 Grandpa Tilly and Professor Ozzy are the grown-ups. `scripts/lib/cast.mjs`
 exposes these as helpers — `castKinds()`, `castMemberByKind(kind)`,
 `castFriendsOf(kind)`, `castRivalsOf(kind)`, `castFamilyOf(kind)`, `castOrder()`
 and `castPrompt()` (the block the LLM prompt is built from). The Director picks
-party guests and gag cameos from this graph, and the LLM is told the cast is the
-whole world — the story prompt never proposes a new animal again.
+party guests and gag cameos from the full supported inventory. The writing prompt
+exports every available design and its exact name, so elephant and lion stories
+are supported alongside the established six.
 
 ### The universe ledger
 

@@ -1,5 +1,4 @@
-/** Per-species words the templates need — restricted to the Sunny Meadow cast
- *  (plus the sleepy star, a sky thing, kept only for the lullaby). */
+/** Per-species template words from every available character design. */
 import { CHARACTER_RECIPES } from "../library.mjs";
 import { castMembers } from "../cast.mjs";
 

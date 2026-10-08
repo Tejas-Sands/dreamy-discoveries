@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {stageStory,prepareStage,sampleStage} from '../scripts/lib/staging.mjs';
+import {castMembers} from '../scripts/lib/cast.mjs';
+import {directScript} from '../scripts/lib/director.mjs';
 import fs from 'node:fs';
 import {createRequire} from 'node:module';
 import ts from 'typescript';
@@ -15,6 +17,60 @@ const {propMotion}=require('../src/lib/propMotion.ts');
 const scene=(text,prop='ball',extra={})=>({background:'meadow',character:'bunny',secondCharacter:'bear',prop,lines:[{text,speaker:'character',durationSec:3}],...extra});
 const slot=(count=1)=>({duration:count*100,lines:Array.from({length:count},(_,i)=>({from:i*100+8,duration:90,line:{durationSec:3}}))});
 const authored=(kind,prop='ball',options={})=>scene('',prop,{staging:{actors:{character:{x:700,y:870},friend:{x:1200,y:870}},props:[{id:prop,kind:prop,owner:null,x:790,y:826,openProgress:0,buildProgress:0}],events:[{kind,propId:prop,line:0,actor:'character',durationSec:1,...options}],shot:'prop'}});
+
+test('every installed cast kind and established name can narrate a completed object action',()=>{
+  const cast=castMembers();
+  for(const member of cast)for(const subject of [member.kind,member.id,member.name]){
+    const text=`${subject} rolls the ball.`;
+    const s=scene(text,'ball',{character:member.kind,secondCharacter:undefined,lines:[{text,speaker:'narrator'}]});
+    const script={presentationVersion:3,scenes:[s]};stageStory(script,{cast});
+    assert.equal(s.staging.events[0]?.kind,'roll',`${member.kind}: ${subject}`);
+    assert.equal(s.staging.events[0]?.actor,'character');
+    const p=prepareStage(s,slot());assert.ok(sampleStage(p,99).props[0].x>sampleStage(p,0).props[0].x);
+    const before=JSON.stringify(script);stageStory(script,{cast});assert.equal(JSON.stringify(script),before);
+  }
+});
+
+test('elephant and lion named narration follows the present actor across friend roles',()=>{
+  const s=scene('','ball',{character:'elephant',secondCharacter:'lion',lines:[
+    {text:'Eli rolls the ball.',speaker:'narrator'},
+    {text:'Leo catches the ball.',speaker:'narrator'},
+  ]});
+  stageStory({presentationVersion:3,scenes:[s]},{cast:castMembers()});
+  assert.deepEqual(s.staging.events.map(({kind,actor})=>({kind,actor})),[{kind:'roll',actor:'character'},{kind:'catch',actor:'friend'}]);
+  assert.equal(sampleStage(prepareStage(s,slot(2)),199).props[0].owner,'lion');
+  for(const text of ['Eli almost rolls the ball.','Can Leo catch the ball?','Sam rolls the ball.','Ben rolls the ball.']){
+    const absent=scene(text,'ball',{character:'elephant',secondCharacter:'lion',lines:[{text,speaker:'narrator'}]});
+    stageStory({presentationVersion:3,scenes:[absent]},{cast:castMembers()});assert.equal(absent.staging.events.length,0,text);
+  }
+});
+
+test('expanded cast names can identify a physical action object possessively',()=>{
+  for(const text of ["Eli rolls Leo's ball.","Leo rolls Eli’s ball."]){
+    const s=scene(text,'ball',{character:'elephant',secondCharacter:'lion',lines:[{text,speaker:'narrator'}]});
+    stageStory({presentationVersion:3,scenes:[s]},{cast:castMembers()});
+    assert.equal(s.staging.events[0]?.kind,'roll',text);
+  }
+});
+
+test('every installed cast can own a moving opening hook, including named speakers',()=>{
+  const cast=castMembers();
+  for(const member of cast)for(const speaker of ['character',member.kind,member.name]){
+    const text='Oops! My ball rolled away!';
+    const s=scene(text,'ball',{character:member.kind,secondCharacter:undefined,lines:[{text,speaker}]});
+    stageStory({presentationVersion:3,opening:'hook',scenes:[s]},{cast});
+    assert.equal(s.staging.events[0]?.kind,'roll',`${member.kind}: ${speaker}`);
+    assert.equal(s.staging.events[0]?.delaySec,0);
+    assert.equal(s.staging.props[0].owner,null);
+  }
+});
+
+test('the Director supplies the expanded cast to physical staging',()=>{
+  const script=directScript({presentationVersion:4,type:'story',title:'Eli Rolls a Ball',palette:'meadow',
+    mainCharacter:{kind:'elephant',name:'Eli'},moral:null,
+    scenes:[scene('Eli rolls the ball.','ball',{kind:'story',character:'elephant',secondCharacter:'lion',lines:[{text:'Eli rolls the ball.',speaker:'narrator'}]})]});
+  assert.ok(script.scenes.some(s=>s.character==='elephant'&&s.staging?.events.some(e=>e.kind==='roll')));
+});
 
 // Missing action inference would leave the prop static and omit the interaction.
 for(const [kind,text,prop] of [['push','I push the ball.','ball'],['roll','I roll the ball.','ball'],['catch','Ben catches the ball.','ball'],['open','I open the book.','book'],['water','I water the flower.','flower'],['build','I build the castle.','castle']])test(`version 3 infers completed ${kind} and leaves older episodes alone`,()=>{
