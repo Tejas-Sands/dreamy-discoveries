@@ -69,6 +69,7 @@ items:
     hero: ozzy
     minutes: 5.5
     startedAt: 2026-10-09T10:48:56.767Z
+    slug: standby-ozzy-and-the-paper-crown
   - id: story-hugo-and-the-big-achoo-parade
     status: pending
     slug: hugo-and-the-big-achoo-parade
