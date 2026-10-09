@@ -62,13 +62,13 @@ items:
     slug: standby-tilly-and-the-unfinished-promise
     doneAt: 2026-10-07T10:55:30.347Z
   - id: auto-2026-10-08
-    status: pending
+    status: running
     topic: "Moral: Telling the truth helps us fix our mistakes. Story problem: The
       hero accidentally damages something a friend made and wants to hide it."
     type: story
     hero: ozzy
     minutes: 5.5
-    startedAt: 2026-10-08T10:50:15.939Z
+    startedAt: 2026-10-09T10:48:56.767Z
   - id: story-hugo-and-the-big-achoo-parade
     status: pending
     slug: hugo-and-the-big-achoo-parade
