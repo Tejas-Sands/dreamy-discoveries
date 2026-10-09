@@ -1,16 +1,16 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-07T10:53:41.703Z",
+  "updatedAt": "2026-10-09T11:14:47.101Z",
   "counts": {
-    "stories": 13,
+    "stories": 14,
     "rhymes": 4,
-    "episodes": 17,
-    "stars": 56
+    "episodes": 18,
+    "stars": 58
   },
   "usage": {
     "tilly": 3,
-    "ozzy": 2,
+    "ozzy": 3,
     "daisy": 3,
     "taffy": 3,
     "ben": 3,
@@ -20,8 +20,8 @@
     "tilly": 7,
     "daisy": 8,
     "fiona": 6,
-    "ozzy": 5,
-    "taffy": 6,
+    "ozzy": 6,
+    "taffy": 7,
     "ben": 8
   },
   "canon": [
@@ -764,6 +764,46 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-tilly-and-the-unfinished-promise",
         "tag": "video-standby-tilly-and-the-unfinished-promise"
+      }
+    },
+    {
+      "id": "standby-ozzy-and-the-paper-crown",
+      "type": "story",
+      "title": "Ozzy and the Paper Crown",
+      "hero": "ozzy",
+      "heroName": "Professor Ozzy",
+      "cast": [
+        "ozzy",
+        "taffy"
+      ],
+      "moral": "A caring leader apologizes for bossing friends and gives their ideas a real turn.",
+      "moralRhyme": [
+        "Hear a friend and follow through!",
+        "Share the crown and choices too!"
+      ],
+      "catchphrases": [
+        "Hoohoo! Let's learn together!"
+      ],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "castle"
+      ],
+      "palette": "berry",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-09"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-paper-crown",
+        "tag": "video-standby-ozzy-and-the-paper-crown"
       }
     }
   ]

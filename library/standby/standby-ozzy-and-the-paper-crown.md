@@ -1,6 +1,6 @@
 # Ozzy and the Paper Crown
 
-**Status:** Available
+**Status:** Used · 2026-10-09
 
 **Hero:** Professor Ozzy
 
@@ -17,6 +17,8 @@ Professor Ozzy keeps every castle choice for himself, even during Taffy’s supp
 [Production script](../scripts/standby-ozzy-and-the-paper-crown.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `standby-ozzy-and-the-paper-crown`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-paper-crown)
 
 ## Story beats
 

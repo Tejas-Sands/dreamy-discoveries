@@ -503,6 +503,29 @@
       "durationSec": 426,
       "renderedAt": "2026-09-30T11:43:31.520Z",
       "release": null
+    },
+    {
+      "slug": "standby-ozzy-and-the-paper-crown",
+      "title": "Ozzy and the Paper Crown",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "owl",
+      "heroName": "Professor Ozzy",
+      "palette": "berry",
+      "backgrounds": [
+        "castle"
+      ],
+      "lines": 93,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-paper-crown",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-paper-crown",
+      "durationSec": 467,
+      "renderedAt": "2026-10-09T11:16:33.485Z",
+      "run": "37919871676"
     }
   ],
   "compilations": []
