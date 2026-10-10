@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-09T11:14:47.101Z",
+  "updatedAt": "2026-10-10T10:17:21.222Z",
   "counts": {
-    "stories": 14,
+    "stories": 15,
     "rhymes": 4,
-    "episodes": 18,
-    "stars": 58
+    "episodes": 19,
+    "stars": 60
   },
   "usage": {
     "tilly": 3,
@@ -14,7 +14,8 @@
     "daisy": 3,
     "taffy": 3,
     "ben": 3,
-    "fiona": 3
+    "fiona": 3,
+    "hippo": 1
   },
   "appeared": {
     "tilly": 7,
@@ -22,7 +23,9 @@
     "fiona": 6,
     "ozzy": 6,
     "taffy": 7,
-    "ben": 8
+    "ben": 8,
+    "hippo": 1,
+    "frog": 1
   },
   "canon": [
     {
@@ -54,6 +57,16 @@
       "event": "First appearance: Ben the bear.",
       "story": "shapes-ben-373382",
       "at": "2026-09-14"
+    },
+    {
+      "event": "First appearance: Hugo the hippo.",
+      "story": "hugo-and-the-big-achoo-parade",
+      "at": "2026-10-10"
+    },
+    {
+      "event": "First appearance: Freddy the frog.",
+      "story": "hugo-and-the-big-achoo-parade",
+      "at": "2026-10-10"
     }
   ],
   "stories": [
@@ -804,6 +817,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-standby-ozzy-and-the-paper-crown",
         "tag": "video-standby-ozzy-and-the-paper-crown"
+      }
+    },
+    {
+      "id": "hugo-and-the-big-achoo-parade",
+      "type": "story",
+      "title": "Hugo and the Achoo Parade",
+      "hero": "hippo",
+      "heroName": "Hugo",
+      "cast": [
+        "hippo",
+        "frog"
+      ],
+      "moral": "Covering a sneeze and washing hands helps care for friends.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "park",
+        "garden"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-10"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-and-the-big-achoo-parade",
+        "tag": "video-hugo-and-the-big-achoo-parade"
       }
     }
   ]

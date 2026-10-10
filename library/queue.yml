@@ -72,7 +72,7 @@ items:
     slug: standby-ozzy-and-the-paper-crown
     doneAt: 2026-10-09T11:16:33.924Z
   - id: story-hugo-and-the-big-achoo-parade
-    status: running
+    status: done
     slug: hugo-and-the-big-achoo-parade
     topic: Hugo and the Achoo Parade
     type: story
@@ -80,6 +80,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-10-10T10:03:39.340Z
+    doneAt: 2026-10-10T10:18:23.405Z
   - id: story-wally-shell-tide-1
     status: pending
     slug: wally-shell-tide-1

@@ -1,6 +1,6 @@
 # Hugo and the Achoo Parade
 
-**Status:** Available
+**Status:** Used · 2026-10-10
 
 **Hero:** Hugo
 
@@ -17,6 +17,8 @@ Covering a sneeze and washing hands helps care for friends.
 [Production script](../scripts/hugo-and-the-big-achoo-parade.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `hugo-and-the-big-achoo-parade`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-and-the-big-achoo-parade)
 
 ## Read the story
 

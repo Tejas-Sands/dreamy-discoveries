@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 101 available · 7 used**
+**108 stories · 100 available · 8 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -175,7 +175,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Hugo and the Achoo Parade](standby/hugo-and-the-big-achoo-parade.md) | Freddy | park, garden | Covering a sneeze and washing hands helps care for friends. | Available |
+| [Hugo and the Achoo Parade](standby/hugo-and-the-big-achoo-parade.md) | Freddy | park, garden | Covering a sneeze and washing hands helps care for friends. | Used · 2026-10-10 |
 | [Hugo and the Picnic Blanket River](standby/hugo-picnic-picnic-27.md) | Buster | garden, pond | Sharing a task can make a heavy job manageable. | Available |
 | [Hugo and the Bubble Museum](standby/hugo-and-the-bubble-museum.md) | Freddy | garden |  | Available |
 
