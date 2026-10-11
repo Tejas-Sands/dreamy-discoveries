@@ -82,13 +82,14 @@ items:
     startedAt: 2026-10-10T10:03:39.340Z
     doneAt: 2026-10-10T10:18:23.405Z
   - id: story-wally-shell-tide-1
-    status: pending
+    status: running
     slug: wally-shell-tide-1
     topic: Wally and the Upside-Down Picnic
     type: story
     hero: whale
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-10-11T10:14:00.727Z
   - id: story-squeaks-seed-garden-2
     status: pending
     slug: squeaks-seed-garden-2
