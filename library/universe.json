@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-10T10:17:21.222Z",
+  "updatedAt": "2026-10-11T10:27:55.034Z",
   "counts": {
-    "stories": 15,
+    "stories": 16,
     "rhymes": 4,
-    "episodes": 19,
-    "stars": 60
+    "episodes": 20,
+    "stars": 62
   },
   "usage": {
     "tilly": 3,
@@ -15,7 +15,8 @@
     "taffy": 3,
     "ben": 3,
     "fiona": 3,
-    "hippo": 1
+    "hippo": 1,
+    "whale": 1
   },
   "appeared": {
     "tilly": 7,
@@ -25,7 +26,9 @@
     "taffy": 7,
     "ben": 8,
     "hippo": 1,
-    "frog": 1
+    "frog": 1,
+    "whale": 1,
+    "pig": 1
   },
   "canon": [
     {
@@ -67,6 +70,16 @@
       "event": "First appearance: Freddy the frog.",
       "story": "hugo-and-the-big-achoo-parade",
       "at": "2026-10-10"
+    },
+    {
+      "event": "First appearance: Wally the whale.",
+      "story": "wally-shell-tide-1",
+      "at": "2026-10-11"
+    },
+    {
+      "event": "First appearance: Percy the pig.",
+      "story": "wally-shell-tide-1",
+      "at": "2026-10-11"
     }
   ],
   "stories": [
@@ -856,6 +869,41 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-and-the-big-achoo-parade",
         "tag": "video-hugo-and-the-big-achoo-parade"
+      }
+    },
+    {
+      "id": "wally-shell-tide-1",
+      "type": "story",
+      "title": "Wally and the Upside-Down Picnic",
+      "hero": "whale",
+      "heroName": "Wally",
+      "cast": [
+        "whale",
+        "pig"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "beach"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-11"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-wally-shell-tide-1",
+        "tag": "video-wally-shell-tide-1"
       }
     }
   ]

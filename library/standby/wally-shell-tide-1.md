@@ -1,6 +1,6 @@
 # Wally and the Upside-Down Picnic
 
-**Status:** Available
+**Status:** Used · 2026-10-11
 
 **Hero:** Wally
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/wally-shell-tide-1.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `wally-shell-tide-1`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-wally-shell-tide-1)
 
 ## Read the story
 

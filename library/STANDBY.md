@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 100 available · 8 used**
+**108 stories · 99 available · 9 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -302,7 +302,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Wally and the Upside-Down Picnic](standby/wally-shell-tide-1.md) | Percy | beach |  | Available |
+| [Wally and the Upside-Down Picnic](standby/wally-shell-tide-1.md) | Percy | beach |  | Used · 2026-10-11 |
 | [Wally and the Windy Leaf Delivery](standby/wally-leaf-leaf-33.md) | Kevin | autumn, garden, bedroom | Securing a load can make carrying it easier. | Available |
 | [Wally and the Seaweed Wig](standby/wally-and-the-seaweed-wig.md) | Finn | underwater |  | Available |
 

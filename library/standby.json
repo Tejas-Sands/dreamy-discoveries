@@ -158,6 +158,12 @@
       "usedAt": "2026-10-10T10:18:23.012Z",
       "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-and-the-big-achoo-parade",
       "runId": "38043560287"
+    },
+    "wally-shell-tide-1": {
+      "status": "used",
+      "usedAt": "2026-10-11T10:28:36.105Z",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-wally-shell-tide-1",
+      "runId": "38131193807"
     }
   }
 }
