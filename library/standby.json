@@ -164,6 +164,12 @@
       "usedAt": "2026-10-11T10:28:36.105Z",
       "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-wally-shell-tide-1",
       "runId": "38131193807"
+    },
+    "squeaks-seed-garden-2": {
+      "status": "used",
+      "usedAt": "2026-10-12T11:29:13.997Z",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-squeaks-seed-garden-2",
+      "runId": "38241180578"
     }
   }
 }

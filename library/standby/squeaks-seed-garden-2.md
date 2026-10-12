@@ -1,6 +1,6 @@
 # Squeaks and the Mixed-Up Seed Rows
 
-**Status:** Available
+**Status:** Used · 2026-10-12
 
 **Hero:** Squeaks
 
@@ -17,6 +17,8 @@ Finding out what a seed needs helps it grow.
 [Production script](../scripts/squeaks-seed-garden-2.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `squeaks-seed-garden-2`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-squeaks-seed-garden-2)
 
 ## Read the story
 

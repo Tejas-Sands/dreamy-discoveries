@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-11T10:27:55.034Z",
+  "updatedAt": "2026-10-12T11:28:15.995Z",
   "counts": {
-    "stories": 16,
+    "stories": 17,
     "rhymes": 4,
-    "episodes": 20,
-    "stars": 62
+    "episodes": 21,
+    "stars": 64
   },
   "usage": {
     "tilly": 3,
@@ -16,11 +16,12 @@
     "ben": 3,
     "fiona": 3,
     "hippo": 1,
-    "whale": 1
+    "whale": 1,
+    "mouse": 1
   },
   "appeared": {
     "tilly": 7,
-    "daisy": 8,
+    "daisy": 9,
     "fiona": 6,
     "ozzy": 6,
     "taffy": 7,
@@ -28,7 +29,8 @@
     "hippo": 1,
     "frog": 1,
     "whale": 1,
-    "pig": 1
+    "pig": 1,
+    "mouse": 1
   },
   "canon": [
     {
@@ -80,6 +82,11 @@
       "event": "First appearance: Percy the pig.",
       "story": "wally-shell-tide-1",
       "at": "2026-10-11"
+    },
+    {
+      "event": "First appearance: Squeaks the mouse.",
+      "story": "squeaks-seed-garden-2",
+      "at": "2026-10-12"
     }
   ],
   "stories": [
@@ -904,6 +911,44 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-wally-shell-tide-1",
         "tag": "video-wally-shell-tide-1"
+      }
+    },
+    {
+      "id": "squeaks-seed-garden-2",
+      "type": "story",
+      "title": "Squeaks and the Mixed-Up Seed Rows",
+      "hero": "mouse",
+      "heroName": "Squeaks",
+      "cast": [
+        "mouse",
+        "daisy"
+      ],
+      "moral": "Finding out what a seed needs helps it grow.",
+      "moralRhyme": [
+        "Little seeds need time to grow,",
+        "Watch the changes, soft and slow!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "garden"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-12"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-squeaks-seed-garden-2",
+        "tag": "video-squeaks-seed-garden-2"
       }
     }
   ]

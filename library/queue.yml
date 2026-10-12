@@ -92,7 +92,7 @@ items:
     startedAt: 2026-10-11T10:14:00.727Z
     doneAt: 2026-10-11T10:28:36.338Z
   - id: story-squeaks-seed-garden-2
-    status: running
+    status: done
     slug: squeaks-seed-garden-2
     topic: Squeaks and the Mixed-Up Seed Rows
     type: story
@@ -100,6 +100,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-10-12T11:13:01.968Z
+    doneAt: 2026-10-12T11:29:14.375Z
   - id: story-nutty-block-block-3
     status: pending
     slug: nutty-block-block-3

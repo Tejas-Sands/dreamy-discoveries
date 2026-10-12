@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 99 available · 9 used**
+**108 stories · 98 available · 10 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -220,7 +220,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Squeaks and the Mixed-Up Seed Rows](standby/squeaks-seed-garden-2.md) | Daisy | garden | Finding out what a seed needs helps it grow. | Available |
+| [Squeaks and the Mixed-Up Seed Rows](standby/squeaks-seed-garden-2.md) | Daisy | garden | Finding out what a seed needs helps it grow. | Used · 2026-10-12 |
 | [Squeaks and the Sand Giant](standby/squeaks-sand-sand-34.md) | Professor Ozzy | beach |  | Available |
 
 ## Bao

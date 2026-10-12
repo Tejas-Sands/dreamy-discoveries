@@ -573,6 +573,29 @@
       "durationSec": 216,
       "renderedAt": "2026-10-11T10:28:36.105Z",
       "run": "38131193807"
+    },
+    {
+      "slug": "squeaks-seed-garden-2",
+      "title": "Squeaks and the Mixed-Up Seed Rows",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "mouse",
+      "heroName": "Squeaks",
+      "palette": "meadow",
+      "backgrounds": [
+        "garden"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-squeaks-seed-garden-2",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-squeaks-seed-garden-2",
+      "durationSec": 243,
+      "renderedAt": "2026-10-12T11:29:13.997Z",
+      "run": "38241180578"
     }
   ],
   "compilations": []
