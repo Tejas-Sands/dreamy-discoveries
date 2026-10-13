@@ -102,13 +102,14 @@ items:
     startedAt: 2026-10-12T11:13:01.968Z
     doneAt: 2026-10-12T11:29:14.375Z
   - id: story-nutty-block-block-3
-    status: pending
+    status: running
     slug: nutty-block-block-3
     topic: Nutty Builds a Tower for Two
     type: story
     hero: squirrel
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-10-13T10:54:27.109Z
   - id: story-bao-crayon-drawing-4
     status: pending
     slug: bao-crayon-drawing-4
