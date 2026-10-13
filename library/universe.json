@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-12T11:28:15.995Z",
+  "updatedAt": "2026-10-13T11:08:30.801Z",
   "counts": {
-    "stories": 17,
+    "stories": 18,
     "rhymes": 4,
-    "episodes": 21,
-    "stars": 64
+    "episodes": 22,
+    "stars": 66
   },
   "usage": {
     "tilly": 3,
@@ -17,20 +17,22 @@
     "fiona": 3,
     "hippo": 1,
     "whale": 1,
-    "mouse": 1
+    "mouse": 1,
+    "squirrel": 1
   },
   "appeared": {
     "tilly": 7,
     "daisy": 9,
     "fiona": 6,
-    "ozzy": 6,
+    "ozzy": 7,
     "taffy": 7,
     "ben": 8,
     "hippo": 1,
     "frog": 1,
     "whale": 1,
     "pig": 1,
-    "mouse": 1
+    "mouse": 1,
+    "squirrel": 1
   },
   "canon": [
     {
@@ -87,6 +89,11 @@
       "event": "First appearance: Squeaks the mouse.",
       "story": "squeaks-seed-garden-2",
       "at": "2026-10-12"
+    },
+    {
+      "event": "First appearance: Nutty the squirrel.",
+      "story": "nutty-block-block-3",
+      "at": "2026-10-13"
     }
   ],
   "stories": [
@@ -949,6 +956,44 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-squeaks-seed-garden-2",
         "tag": "video-squeaks-seed-garden-2"
+      }
+    },
+    {
+      "id": "nutty-block-block-3",
+      "type": "story",
+      "title": "Nutty Builds a Tower for Two",
+      "hero": "squirrel",
+      "heroName": "Nutty",
+      "cast": [
+        "squirrel",
+        "ozzy"
+      ],
+      "moral": "Listening to a partner can make a shared plan stronger.",
+      "moralRhyme": [
+        "Leave a little space to hear,",
+        "Every friend can join us here!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "bedroom"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-13"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-nutty-block-block-3",
+        "tag": "video-nutty-block-block-3"
       }
     }
   ]

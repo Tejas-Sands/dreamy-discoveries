@@ -1,6 +1,6 @@
 # Nutty Builds a Tower for Two
 
-**Status:** Available
+**Status:** Used · 2026-10-13
 
 **Hero:** Nutty
 
@@ -17,6 +17,8 @@ Listening to a partner can make a shared plan stronger.
 [Production script](../scripts/nutty-block-block-3.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `nutty-block-block-3`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-nutty-block-block-3)
 
 ## Read the story
 

@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 98 available · 10 used**
+**108 stories · 97 available · 11 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -272,7 +272,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Nutty Builds a Tower for Two](standby/nutty-block-block-3.md) | Professor Ozzy | bedroom | Listening to a partner can make a shared plan stronger. | Available |
+| [Nutty Builds a Tower for Two](standby/nutty-block-block-3.md) | Professor Ozzy | bedroom | Listening to a partner can make a shared plan stronger. | Used · 2026-10-13 |
 | [Nutty and the Star Delivery Mix-Up](standby/nutty-paper-star-35.md) | Ben | bedroom, garden | Checking names before delivering can save someone a confusing surprise. | Available |
 | [Nutty and the Basket of What-Ifs](standby/nutty-and-the-basket-of-what-ifs.md) | Grandpa Tilly | park, meadow | One useful plan can help more than trying to prevent every what-if. | Available |
 

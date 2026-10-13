@@ -596,6 +596,29 @@
       "durationSec": 243,
       "renderedAt": "2026-10-12T11:29:13.997Z",
       "run": "38241180578"
+    },
+    {
+      "slug": "nutty-block-block-3",
+      "title": "Nutty Builds a Tower for Two",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "squirrel",
+      "heroName": "Nutty",
+      "palette": "forest",
+      "backgrounds": [
+        "bedroom"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-nutty-block-block-3",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-nutty-block-block-3",
+      "durationSec": 232,
+      "renderedAt": "2026-10-13T11:09:14.473Z",
+      "run": "38386506247"
     }
   ],
   "compilations": []
