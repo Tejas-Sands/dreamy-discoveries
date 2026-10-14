@@ -619,6 +619,29 @@
       "durationSec": 232,
       "renderedAt": "2026-10-13T11:09:14.473Z",
       "run": "38386506247"
+    },
+    {
+      "slug": "bao-crayon-drawing-4",
+      "title": "Bao and the Disappearing Drawing",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "panda",
+      "heroName": "Bao",
+      "palette": "ocean",
+      "backgrounds": [
+        "bedroom"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bao-crayon-drawing-4",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bao-crayon-drawing-4",
+      "durationSec": 216,
+      "renderedAt": "2026-10-14T09:12:24.393Z",
+      "run": "38538709885"
     }
   ],
   "compilations": []

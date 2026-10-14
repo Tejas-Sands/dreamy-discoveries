@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-13T11:08:30.801Z",
+  "updatedAt": "2026-10-14T09:11:30.747Z",
   "counts": {
-    "stories": 18,
+    "stories": 19,
     "rhymes": 4,
-    "episodes": 22,
-    "stars": 66
+    "episodes": 23,
+    "stars": 68
   },
   "usage": {
     "tilly": 3,
@@ -18,7 +18,8 @@
     "hippo": 1,
     "whale": 1,
     "mouse": 1,
-    "squirrel": 1
+    "squirrel": 1,
+    "panda": 1
   },
   "appeared": {
     "tilly": 7,
@@ -32,7 +33,9 @@
     "whale": 1,
     "pig": 1,
     "mouse": 1,
-    "squirrel": 1
+    "squirrel": 1,
+    "panda": 1,
+    "fish": 1
   },
   "canon": [
     {
@@ -94,6 +97,16 @@
       "event": "First appearance: Nutty the squirrel.",
       "story": "nutty-block-block-3",
       "at": "2026-10-13"
+    },
+    {
+      "event": "First appearance: Bao the panda.",
+      "story": "bao-crayon-drawing-4",
+      "at": "2026-10-14"
+    },
+    {
+      "event": "First appearance: Finn the fish.",
+      "story": "bao-crayon-drawing-4",
+      "at": "2026-10-14"
     }
   ],
   "stories": [
@@ -994,6 +1007,41 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-nutty-block-block-3",
         "tag": "video-nutty-block-block-3"
+      }
+    },
+    {
+      "id": "bao-crayon-drawing-4",
+      "type": "story",
+      "title": "Bao and the Disappearing Drawing",
+      "hero": "panda",
+      "heroName": "Bao",
+      "cast": [
+        "panda",
+        "fish"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "bedroom"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-14"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bao-crayon-drawing-4",
+        "tag": "video-bao-crayon-drawing-4"
       }
     }
   ]

@@ -112,7 +112,7 @@ items:
     startedAt: 2026-10-13T10:54:27.109Z
     doneAt: 2026-10-13T11:09:14.721Z
   - id: story-bao-crayon-drawing-4
-    status: running
+    status: done
     slug: bao-crayon-drawing-4
     topic: Bao and the Disappearing Drawing
     type: story
@@ -120,6 +120,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-10-14T08:56:50.957Z
+    doneAt: 2026-10-14T09:12:24.814Z
   - id: story-kevin-kite-kite-5
     status: pending
     slug: kevin-kite-kite-5

@@ -1,6 +1,6 @@
 # Bao and the Disappearing Drawing
 
-**Status:** Available
+**Status:** Used · 2026-10-14
 
 **Hero:** Bao
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/bao-crayon-drawing-4.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `bao-crayon-drawing-4`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bao-crayon-drawing-4)
 
 ## Read the story
 

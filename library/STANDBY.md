@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 97 available · 11 used**
+**108 stories · 96 available · 12 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -227,7 +227,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Bao and the Disappearing Drawing](standby/bao-crayon-drawing-4.md) | Finn | bedroom |  | Available |
+| [Bao and the Disappearing Drawing](standby/bao-crayon-drawing-4.md) | Finn | bedroom |  | Used · 2026-10-14 |
 | [Bao and the Puppet That Would Not Bow](standby/bao-sock-puppet-36.md) | Cleo | bedroom | Practicing one small step can make a tricky performance easier. | Available |
 | [Bao and the Picture That Stayed Private](standby/bao-and-the-picture-that-stayed-private.md) | Sparkle | bedroom | Ask before sharing someone else's work, and respect their answer. | Available |
 
