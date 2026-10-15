@@ -122,7 +122,7 @@ items:
     startedAt: 2026-10-14T08:56:50.957Z
     doneAt: 2026-10-14T09:12:24.814Z
   - id: story-kevin-kite-kite-5
-    status: running
+    status: done
     slug: kevin-kite-kite-5
     topic: Kevin and the Kite That Would Not Fly
     type: story
@@ -130,6 +130,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-10-15T08:30:43.056Z
+    doneAt: 2026-10-15T08:46:56.125Z
   - id: story-dot-drum-drum-6
     status: pending
     slug: dot-drum-drum-6

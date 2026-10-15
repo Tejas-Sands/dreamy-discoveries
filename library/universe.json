@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-14T09:11:30.747Z",
+  "updatedAt": "2026-10-15T08:45:57.116Z",
   "counts": {
-    "stories": 19,
+    "stories": 20,
     "rhymes": 4,
-    "episodes": 23,
-    "stars": 68
+    "episodes": 24,
+    "stars": 70
   },
   "usage": {
     "tilly": 3,
@@ -19,13 +19,14 @@
     "whale": 1,
     "mouse": 1,
     "squirrel": 1,
-    "panda": 1
+    "panda": 1,
+    "koala": 1
   },
   "appeared": {
     "tilly": 7,
     "daisy": 9,
     "fiona": 6,
-    "ozzy": 7,
+    "ozzy": 8,
     "taffy": 7,
     "ben": 8,
     "hippo": 1,
@@ -35,7 +36,8 @@
     "mouse": 1,
     "squirrel": 1,
     "panda": 1,
-    "fish": 1
+    "fish": 1,
+    "koala": 1
   },
   "canon": [
     {
@@ -107,6 +109,11 @@
       "event": "First appearance: Finn the fish.",
       "story": "bao-crayon-drawing-4",
       "at": "2026-10-14"
+    },
+    {
+      "event": "First appearance: Kevin the koala.",
+      "story": "kevin-kite-kite-5",
+      "at": "2026-10-15"
     }
   ],
   "stories": [
@@ -1042,6 +1049,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bao-crayon-drawing-4",
         "tag": "video-bao-crayon-drawing-4"
+      }
+    },
+    {
+      "id": "kevin-kite-kite-5",
+      "type": "story",
+      "title": "Kevin and the Kite That Would Not Fly",
+      "hero": "koala",
+      "heroName": "Kevin",
+      "cast": [
+        "koala",
+        "ozzy"
+      ],
+      "moral": "Changing one small thing can help when a plan fails.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "park",
+        "meadow"
+      ],
+      "palette": "candy",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-15"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-kevin-kite-kite-5",
+        "tag": "video-kevin-kite-kite-5"
       }
     }
   ]

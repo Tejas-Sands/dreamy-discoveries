@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 96 available · 12 used**
+**108 stories · 95 available · 13 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -190,7 +190,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Kevin and the Kite That Would Not Fly](standby/kevin-kite-kite-5.md) | Professor Ozzy | park, meadow | Changing one small thing can help when a plan fails. | Available |
+| [Kevin and the Kite That Would Not Fly](standby/kevin-kite-kite-5.md) | Professor Ozzy | park, meadow | Changing one small thing can help when a plan fails. | Used · 2026-10-15 |
 | [Kevin and the Very Long Banana](standby/kevin-fruit-fruit-37.md) | Buzz | kitchen |  | Available |
 
 ## Dot

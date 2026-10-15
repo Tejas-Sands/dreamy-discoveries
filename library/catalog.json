@@ -642,6 +642,30 @@
       "durationSec": 216,
       "renderedAt": "2026-10-14T09:12:24.393Z",
       "run": "38538709885"
+    },
+    {
+      "slug": "kevin-kite-kite-5",
+      "title": "Kevin and the Kite That Would Not Fly",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "koala",
+      "heroName": "Kevin",
+      "palette": "candy",
+      "backgrounds": [
+        "park",
+        "meadow"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-kevin-kite-kite-5",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-kevin-kite-kite-5",
+      "durationSec": 233,
+      "renderedAt": "2026-10-15T08:46:55.725Z",
+      "run": "38706119063"
     }
   ],
   "compilations": []

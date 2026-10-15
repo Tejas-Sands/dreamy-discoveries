@@ -1,6 +1,6 @@
 # Kevin and the Kite That Would Not Fly
 
-**Status:** Available
+**Status:** Used · 2026-10-15
 
 **Hero:** Kevin
 
@@ -17,6 +17,8 @@ Changing one small thing can help when a plan fails.
 [Production script](../scripts/kevin-kite-kite-5.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `kevin-kite-kite-5`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-kevin-kite-kite-5)
 
 ## Read the story
 
