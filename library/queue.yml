@@ -132,13 +132,14 @@ items:
     startedAt: 2026-10-15T08:30:43.056Z
     doneAt: 2026-10-15T08:46:56.125Z
   - id: story-dot-drum-drum-6
-    status: pending
+    status: running
     slug: dot-drum-drum-6
     topic: Dot and the Very Quiet Drum
     type: story
     hero: ladybug
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-10-16T08:24:08.088Z
   - id: story-gigi-picnic-picnic-7
     status: pending
     slug: gigi-picnic-picnic-7
