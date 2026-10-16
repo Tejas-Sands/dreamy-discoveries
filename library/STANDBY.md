@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 95 available · 13 used**
+**108 stories · 94 available · 14 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -197,7 +197,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Dot and the Very Quiet Drum](standby/dot-drum-drum-6.md) | Squeaks | bedroom |  | Available |
+| [Dot and the Very Quiet Drum](standby/dot-drum-drum-6.md) | Squeaks | bedroom |  | Used · 2026-10-16 |
 | [Dot and the Towel Bigger Than Her](standby/dot-towel-pool-38.md) | Freddy | pond | Choosing a job that fits can make everyone’s help useful. | Available |
 | [Dot and the Game She Did Not Win](standby/dot-and-the-game-she-did-not-win.md) | Buzz | garden | Losing a game does not make you less welcome to play. | Available |
 

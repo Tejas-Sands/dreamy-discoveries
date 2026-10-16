@@ -666,6 +666,29 @@
       "durationSec": 233,
       "renderedAt": "2026-10-15T08:46:55.725Z",
       "run": "38706119063"
+    },
+    {
+      "slug": "dot-drum-drum-6",
+      "title": "Dot and the Very Quiet Drum",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "ladybug",
+      "heroName": "Dot",
+      "palette": "sunshine",
+      "backgrounds": [
+        "bedroom"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-dot-drum-drum-6",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-dot-drum-drum-6",
+      "durationSec": 215,
+      "renderedAt": "2026-10-16T08:41:20.574Z",
+      "run": "38873408724"
     }
   ],
   "compilations": []

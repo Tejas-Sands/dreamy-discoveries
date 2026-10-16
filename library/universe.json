@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-15T08:45:57.116Z",
+  "updatedAt": "2026-10-16T08:40:24.791Z",
   "counts": {
-    "stories": 20,
+    "stories": 21,
     "rhymes": 4,
-    "episodes": 24,
-    "stars": 70
+    "episodes": 25,
+    "stars": 72
   },
   "usage": {
     "tilly": 3,
@@ -20,7 +20,8 @@
     "mouse": 1,
     "squirrel": 1,
     "panda": 1,
-    "koala": 1
+    "koala": 1,
+    "ladybug": 1
   },
   "appeared": {
     "tilly": 7,
@@ -33,11 +34,12 @@
     "frog": 1,
     "whale": 1,
     "pig": 1,
-    "mouse": 1,
+    "mouse": 2,
     "squirrel": 1,
     "panda": 1,
     "fish": 1,
-    "koala": 1
+    "koala": 1,
+    "ladybug": 1
   },
   "canon": [
     {
@@ -114,6 +116,11 @@
       "event": "First appearance: Kevin the koala.",
       "story": "kevin-kite-kite-5",
       "at": "2026-10-15"
+    },
+    {
+      "event": "First appearance: Dot the ladybug.",
+      "story": "dot-drum-drum-6",
+      "at": "2026-10-16"
     }
   ],
   "stories": [
@@ -1088,6 +1095,41 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-kevin-kite-kite-5",
         "tag": "video-kevin-kite-kite-5"
+      }
+    },
+    {
+      "id": "dot-drum-drum-6",
+      "type": "story",
+      "title": "Dot and the Very Quiet Drum",
+      "hero": "ladybug",
+      "heroName": "Dot",
+      "cast": [
+        "ladybug",
+        "mouse"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "bedroom"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-16"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-dot-drum-drum-6",
+        "tag": "video-dot-drum-drum-6"
       }
     }
   ]

@@ -1,6 +1,6 @@
 # Dot and the Very Quiet Drum
 
-**Status:** Available
+**Status:** Used · 2026-10-16
 
 **Hero:** Dot
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/dot-drum-drum-6.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `dot-drum-drum-6`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-dot-drum-drum-6)
 
 ## Read the story
 
