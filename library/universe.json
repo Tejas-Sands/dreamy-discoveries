@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-16T08:40:24.791Z",
+  "updatedAt": "2026-10-17T08:10:21.901Z",
   "counts": {
-    "stories": 21,
+    "stories": 22,
     "rhymes": 4,
-    "episodes": 25,
-    "stars": 72
+    "episodes": 26,
+    "stars": 74
   },
   "usage": {
     "tilly": 3,
@@ -21,7 +21,8 @@
     "squirrel": 1,
     "panda": 1,
     "koala": 1,
-    "ladybug": 1
+    "ladybug": 1,
+    "giraffe": 1
   },
   "appeared": {
     "tilly": 7,
@@ -29,7 +30,7 @@
     "fiona": 6,
     "ozzy": 8,
     "taffy": 7,
-    "ben": 8,
+    "ben": 9,
     "hippo": 1,
     "frog": 1,
     "whale": 1,
@@ -39,7 +40,8 @@
     "panda": 1,
     "fish": 1,
     "koala": 1,
-    "ladybug": 1
+    "ladybug": 1,
+    "giraffe": 1
   },
   "canon": [
     {
@@ -121,6 +123,11 @@
       "event": "First appearance: Dot the ladybug.",
       "story": "dot-drum-drum-6",
       "at": "2026-10-16"
+    },
+    {
+      "event": "First appearance: Gigi the giraffe.",
+      "story": "gigi-picnic-picnic-7",
+      "at": "2026-10-17"
     }
   ],
   "stories": [
@@ -1130,6 +1137,41 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-dot-drum-drum-6",
         "tag": "video-dot-drum-drum-6"
+      }
+    },
+    {
+      "id": "gigi-picnic-picnic-7",
+      "type": "story",
+      "title": "Gigi and the Picnic in the Tree",
+      "hero": "giraffe",
+      "heroName": "Gigi",
+      "cast": [
+        "giraffe",
+        "ben"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "park"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-17"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-gigi-picnic-picnic-7",
+        "tag": "video-gigi-picnic-picnic-7"
       }
     }
   ]

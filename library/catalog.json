@@ -689,6 +689,29 @@
       "durationSec": 215,
       "renderedAt": "2026-10-16T08:41:20.574Z",
       "run": "38873408724"
+    },
+    {
+      "slug": "gigi-picnic-picnic-7",
+      "title": "Gigi and the Picnic in the Tree",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "giraffe",
+      "heroName": "Gigi",
+      "palette": "meadow",
+      "backgrounds": [
+        "park"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-gigi-picnic-picnic-7",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-gigi-picnic-picnic-7",
+      "durationSec": 219,
+      "renderedAt": "2026-10-17T08:11:08.147Z",
+      "run": "39015559131"
     }
   ],
   "compilations": []

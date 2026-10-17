@@ -1,6 +1,6 @@
 # Gigi and the Picnic in the Tree
 
-**Status:** Available
+**Status:** Used · 2026-10-17
 
 **Hero:** Gigi
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/gigi-picnic-picnic-7.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `gigi-picnic-picnic-7`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-gigi-picnic-picnic-7)
 
 ## Read the story
 

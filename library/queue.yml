@@ -142,7 +142,7 @@ items:
     startedAt: 2026-10-16T08:24:08.088Z
     doneAt: 2026-10-16T08:41:20.978Z
   - id: story-gigi-picnic-picnic-7
-    status: running
+    status: done
     slug: gigi-picnic-picnic-7
     topic: Gigi and the Picnic in the Tree
     type: story
@@ -150,6 +150,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-10-17T07:57:56.321Z
+    doneAt: 2026-10-17T08:11:08.448Z
   - id: story-eli-paint-painting-8
     status: pending
     slug: eli-paint-painting-8

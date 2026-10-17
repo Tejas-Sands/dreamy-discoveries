@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 94 available · 14 used**
+**108 stories · 93 available · 15 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -160,7 +160,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Gigi and the Picnic in the Tree](standby/gigi-picnic-picnic-7.md) | Ben | park |  | Available |
+| [Gigi and the Picnic in the Tree](standby/gigi-picnic-picnic-7.md) | Ben | park |  | Used · 2026-10-17 |
 | [Gigi and the Lantern in the Wrong Place](standby/gigi-lamp-tent-39.md) | Nutty | campfire | Checking from another person’s height can reveal what they need. | Available |
 | [Gigi and the Welcome Wave](standby/gigi-and-the-welcome-wave.md) | Spike | garden | A warm welcome respects how a friend wants to be greeted. | Available |
 | [Gigi and the Goodbye That Needed a Plan](standby/gigi-and-the-goodbye-that-needed-a-plan.md) | Eli | park, bedroom | You can miss a friend and still let them go do their plans. | Available |
