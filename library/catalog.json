@@ -712,6 +712,29 @@
       "durationSec": 219,
       "renderedAt": "2026-10-17T08:11:08.147Z",
       "run": "39015559131"
+    },
+    {
+      "slug": "eli-paint-painting-8",
+      "title": "Eli and the Thank-You Paint Spots",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "elephant",
+      "heroName": "Eli",
+      "palette": "forest",
+      "backgrounds": [
+        "kitchen"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-eli-paint-painting-8",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-eli-paint-painting-8",
+      "durationSec": 236,
+      "renderedAt": "2026-10-18T08:29:44.501Z",
+      "run": "39110658036"
     }
   ],
   "compilations": []

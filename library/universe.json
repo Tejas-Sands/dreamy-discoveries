@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-17T08:10:21.901Z",
+  "updatedAt": "2026-10-18T08:29:03.240Z",
   "counts": {
-    "stories": 22,
+    "stories": 23,
     "rhymes": 4,
-    "episodes": 26,
-    "stars": 74
+    "episodes": 27,
+    "stars": 76
   },
   "usage": {
     "tilly": 3,
@@ -22,7 +22,8 @@
     "panda": 1,
     "koala": 1,
     "ladybug": 1,
-    "giraffe": 1
+    "giraffe": 1,
+    "elephant": 1
   },
   "appeared": {
     "tilly": 7,
@@ -41,7 +42,9 @@
     "fish": 1,
     "koala": 1,
     "ladybug": 1,
-    "giraffe": 1
+    "giraffe": 1,
+    "elephant": 1,
+    "cat": 1
   },
   "canon": [
     {
@@ -128,6 +131,16 @@
       "event": "First appearance: Gigi the giraffe.",
       "story": "gigi-picnic-picnic-7",
       "at": "2026-10-17"
+    },
+    {
+      "event": "First appearance: Eli the elephant.",
+      "story": "eli-paint-painting-8",
+      "at": "2026-10-18"
+    },
+    {
+      "event": "First appearance: Cleo the cat.",
+      "story": "eli-paint-painting-8",
+      "at": "2026-10-18"
     }
   ],
   "stories": [
@@ -1172,6 +1185,44 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-gigi-picnic-picnic-7",
         "tag": "video-gigi-picnic-picnic-7"
+      }
+    },
+    {
+      "id": "eli-paint-painting-8",
+      "type": "story",
+      "title": "Eli and the Thank-You Paint Spots",
+      "hero": "elephant",
+      "heroName": "Eli",
+      "cast": [
+        "elephant",
+        "cat"
+      ],
+      "moral": "A specific thank-you helps someone know their help mattered.",
+      "moralRhyme": [
+        "Name the help a friend gave you,",
+        "Say a warm and kind thank-you!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "kitchen"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-18"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-eli-paint-painting-8",
+        "tag": "video-eli-paint-painting-8"
       }
     }
   ]

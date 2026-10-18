@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 93 available · 15 used**
+**108 stories · 92 available · 16 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -138,7 +138,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Eli and the Thank-You Paint Spots](standby/eli-paint-painting-8.md) | Cleo | kitchen | A specific thank-you helps someone know their help mattered. | Available |
+| [Eli and the Thank-You Paint Spots](standby/eli-paint-painting-8.md) | Cleo | kitchen | A specific thank-you helps someone know their help mattered. | Used · 2026-10-18 |
 | [Eli and the Button Detective](standby/eli-button-sewing-40.md) | Taffy | kitchen |  | Available |
 | [Eli and the Word He Did Not Know](standby/eli-and-the-word-he-did-not-know.md) | Professor Ozzy | bedroom | Asking what a word means helps you learn what to do. | Available |
 

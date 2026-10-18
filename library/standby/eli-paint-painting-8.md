@@ -1,6 +1,6 @@
 # Eli and the Thank-You Paint Spots
 
-**Status:** Available
+**Status:** Used · 2026-10-18
 
 **Hero:** Eli
 
@@ -17,6 +17,8 @@ A specific thank-you helps someone know their help mattered.
 [Production script](../scripts/eli-paint-painting-8.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `eli-paint-painting-8`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-eli-paint-painting-8)
 
 ## Read the story
 

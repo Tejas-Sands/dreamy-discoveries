@@ -152,7 +152,7 @@ items:
     startedAt: 2026-10-17T07:57:56.321Z
     doneAt: 2026-10-17T08:11:08.448Z
   - id: story-eli-paint-painting-8
-    status: running
+    status: done
     slug: eli-paint-painting-8
     topic: Eli and the Thank-You Paint Spots
     type: story
@@ -160,6 +160,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-10-18T08:14:23.453Z
+    doneAt: 2026-10-18T08:29:44.749Z
   - id: story-leo-story-story-9
     status: pending
     slug: leo-story-story-9
