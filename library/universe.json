@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-18T08:29:03.240Z",
+  "updatedAt": "2026-10-19T09:28:15.890Z",
   "counts": {
-    "stories": 23,
+    "stories": 24,
     "rhymes": 4,
-    "episodes": 27,
-    "stars": 76
+    "episodes": 28,
+    "stars": 78
   },
   "usage": {
     "tilly": 3,
@@ -23,7 +23,8 @@
     "koala": 1,
     "ladybug": 1,
     "giraffe": 1,
-    "elephant": 1
+    "elephant": 1,
+    "lion": 1
   },
   "appeared": {
     "tilly": 7,
@@ -44,7 +45,9 @@
     "ladybug": 1,
     "giraffe": 1,
     "elephant": 1,
-    "cat": 1
+    "cat": 1,
+    "lion": 1,
+    "bee": 1
   },
   "canon": [
     {
@@ -141,6 +144,16 @@
       "event": "First appearance: Cleo the cat.",
       "story": "eli-paint-painting-8",
       "at": "2026-10-18"
+    },
+    {
+      "event": "First appearance: Leo the lion.",
+      "story": "leo-story-story-9",
+      "at": "2026-10-19"
+    },
+    {
+      "event": "First appearance: Buzz the bee.",
+      "story": "leo-story-story-9",
+      "at": "2026-10-19"
     }
   ],
   "stories": [
@@ -1223,6 +1236,44 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-eli-paint-painting-8",
         "tag": "video-eli-paint-painting-8"
+      }
+    },
+    {
+      "id": "leo-story-story-9",
+      "type": "story",
+      "title": "Leo and the Tiny Roar Library",
+      "hero": "lion",
+      "heroName": "Leo",
+      "cast": [
+        "lion",
+        "bee"
+      ],
+      "moral": "Listening carefully can help everyone enjoy a story together.",
+      "moralRhyme": [
+        "Leave a little space to hear,",
+        "Every friend can join us here!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "bedroom"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-19"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-leo-story-story-9",
+        "tag": "video-leo-story-story-9"
       }
     }
   ]

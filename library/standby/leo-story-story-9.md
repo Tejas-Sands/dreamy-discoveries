@@ -1,6 +1,6 @@
 # Leo and the Tiny Roar Library
 
-**Status:** Available
+**Status:** Used · 2026-10-19
 
 **Hero:** Leo
 
@@ -17,6 +17,8 @@ Listening carefully can help everyone enjoy a story together.
 [Production script](../scripts/leo-story-story-9.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `leo-story-story-9`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-leo-story-story-9)
 
 ## Read the story
 

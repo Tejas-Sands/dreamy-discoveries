@@ -735,6 +735,29 @@
       "durationSec": 236,
       "renderedAt": "2026-10-18T08:29:44.501Z",
       "run": "39110658036"
+    },
+    {
+      "slug": "leo-story-story-9",
+      "title": "Leo and the Tiny Roar Library",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "lion",
+      "heroName": "Leo",
+      "palette": "ocean",
+      "backgrounds": [
+        "bedroom"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-leo-story-story-9",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-leo-story-story-9",
+      "durationSec": 246,
+      "renderedAt": "2026-10-19T09:29:19.025Z",
+      "run": "39228191954"
     }
   ],
   "compilations": []

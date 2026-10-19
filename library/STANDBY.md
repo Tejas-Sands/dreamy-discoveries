@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 92 available · 16 used**
+**108 stories · 91 available · 17 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -205,7 +205,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Leo and the Tiny Roar Library](standby/leo-story-story-9.md) | Buzz | bedroom | Listening carefully can help everyone enjoy a story together. | Available |
+| [Leo and the Tiny Roar Library](standby/leo-story-story-9.md) | Buzz | bedroom | Listening carefully can help everyone enjoy a story together. | Used · 2026-10-19 |
 | [Leo and the Tide Pool Reflection](standby/leo-shell-tide-41.md) | Buster | beach | Looking carefully can explain something that first seems mysterious. | Available |
 
 ## Milo
