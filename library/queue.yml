@@ -162,13 +162,14 @@ items:
     startedAt: 2026-10-18T08:14:23.453Z
     doneAt: 2026-10-18T08:29:44.749Z
   - id: story-leo-story-story-9
-    status: pending
+    status: running
     slug: leo-story-story-9
     topic: Leo and the Tiny Roar Library
     type: story
     hero: lion
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-10-19T09:11:55.589Z
   - id: story-milo-watering-garden-10
     status: pending
     slug: milo-watering-garden-10
