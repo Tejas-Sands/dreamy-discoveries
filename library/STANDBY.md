@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 91 available · 17 used**
+**108 stories · 90 available · 18 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -212,7 +212,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Milo and the Rainy Flowerpot](standby/milo-watering-garden-10.md) | Freddy | garden |  | Available |
+| [Milo and the Rainy Flowerpot](standby/milo-watering-garden-10.md) | Freddy | garden |  | Used · 2026-10-20 |
 | [Milo and the Garden Shortcut](standby/milo-seed-garden-42.md) | Bao | garden | Watching where you step can protect something that is still growing. | Available |
 | [Milo and the Banana Telephone](standby/milo-and-the-banana-telephone.md) | Kevin | garden |  | Available |
 

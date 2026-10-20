@@ -1,6 +1,6 @@
 # Milo and the Rainy Flowerpot
 
-**Status:** Available
+**Status:** Used · 2026-10-20
 
 **Hero:** Milo
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/milo-watering-garden-10.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `milo-watering-garden-10`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-milo-watering-garden-10)
 
 ## Read the story
 

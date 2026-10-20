@@ -172,7 +172,7 @@ items:
     startedAt: 2026-10-19T09:11:55.589Z
     doneAt: 2026-10-19T09:29:19.431Z
   - id: story-milo-watering-garden-10
-    status: running
+    status: done
     slug: milo-watering-garden-10
     topic: Milo and the Rainy Flowerpot
     type: story
@@ -180,6 +180,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-10-20T08:47:35.338Z
+    doneAt: 2026-10-20T09:03:11.292Z
   - id: story-rocky-balloon-party-11
     status: pending
     slug: rocky-balloon-party-11
