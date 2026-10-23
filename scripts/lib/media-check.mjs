@@ -25,7 +25,9 @@ export function probeMedia(file) {
 
 const rate=value=>{const [n,d=1]=String(value).split('/').map(Number);return n/d;};
 const videoInfo=stream=>({frames:Number(stream.nb_read_frames??stream.nb_frames),fps:rate(stream.avg_frame_rate),
-  width:stream.width,height:stream.height,codec:stream.codec_name,pixelFormat:stream.pix_fmt});
+  width:stream.width,height:stream.height,codec:stream.codec_name,pixelFormat:stream.pix_fmt,
+  colorSpace:stream.color_space??null,colorRange:stream.color_range??null,
+  colorPrimaries:stream.color_primaries??null,colorTransfer:stream.color_transfer??null});
 
 export function audioDuration(stream,format) {
   // Raw ADTS duration is bitrate-estimated. Decoded AAC frames are exact (1024 samples).
@@ -50,8 +52,9 @@ export function validateChunks(files,{frames,count=files.length,fps=30}) {
     if(!stream)throw new Error(`Chunk has no video: ${file}`);
     const video=videoInfo(stream),[start,end]=ranges[index].split('-').map(Number);
     checkVideo(video,end-start+1,fps,file);
-    const shape=JSON.stringify([video.width,video.height,video.codec,video.pixelFormat,stream.time_base]);
-    if(geometry&&geometry!==shape)throw new Error(`Incompatible chunk geometry or encoding: ${file}`);
+    const shape=JSON.stringify([video.width,video.height,video.codec,video.pixelFormat,stream.time_base,
+      video.colorSpace,video.colorRange,video.colorPrimaries,video.colorTransfer]);
+    if(geometry&&geometry!==shape)throw new Error(`Incompatible chunk geometry, encoding or color metadata: ${file}`);
     geometry=shape;
     return {file:path.basename(file),from:start,to:end,...video};
   });

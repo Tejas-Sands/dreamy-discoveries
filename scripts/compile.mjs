@@ -22,26 +22,42 @@ function run(cmd, args, opts = {}) {
 function ensureEpisode(slug) {
   const mp4 = path.join(OUT_DIR, `${slug}.mp4`);
   const scriptFile = path.join(GENERATED_DIR, slug, "script.json");
-  if (!fs.existsSync(mp4)) {
-    console.log(`[compile] downloading ${slug} from release video-${slug}`);
-    run("gh", ["release", "download", `video-${slug}`, "-p", `${slug}.mp4`, "-p", `${slug}.script.json`, "-D", OUT_DIR, "--clobber"]);
-  }
-  if (!fs.existsSync(scriptFile)) {
-    const fromRelease = path.join(OUT_DIR, `${slug}.script.json`);
-    const fromLibrary = path.join(ROOT, "library", "scripts", `${slug}.json`);
-    const src = fs.existsSync(fromRelease) ? fromRelease : fromLibrary;
-    if (!fs.existsSync(src)) throw new Error(`no script for ${slug}`);
-    fs.mkdirSync(path.dirname(scriptFile), { recursive: true });
-    fs.copyFileSync(src, scriptFile);
-  }
+  fs.mkdirSync(OUT_DIR, {recursive: true});
+  const downloadDir = fs.mkdtempSync(path.join(OUT_DIR, '.download-'));
+  const download = (name, required = false) => {
+    const result = spawnSync('gh', ['release', 'download', `video-${slug}`, '-p', name, '-D', downloadDir, '--clobber'], {cwd: ROOT, encoding: 'utf8'});
+    const file = path.join(downloadDir, name);
+    if (result.status === 0 && fs.existsSync(file) && fs.statSync(file).size > 0) return file;
+    if (required) throw new Error(`Could not download ${name}: ${result.stderr || result.error?.message || 'missing release asset'}`);
+    return null;
+  };
+  try {
+    if (!fs.existsSync(mp4)) {
+      console.log(`[compile] downloading ${slug} from release video-${slug}`);
+      fs.renameSync(download(`${slug}.mp4`, true), mp4);
+    }
+    if (!fs.existsSync(scriptFile)) {
+      const fromRelease = path.join(OUT_DIR, `${slug}.script.json`);
+      if (!fs.existsSync(fromRelease)) {
+        const finalScript = download(`${slug}.script.json`) ?? download('script.json');
+        if (finalScript) fs.renameSync(finalScript, fromRelease);
+      }
+      const fromLibrary = path.join(ROOT, "library", "scripts", `${slug}.json`);
+      const src = fs.existsSync(fromRelease) ? fromRelease : fromLibrary;
+      if (!fs.existsSync(src)) throw new Error(`no script for ${slug}`);
+      fs.mkdirSync(path.dirname(scriptFile), { recursive: true });
+      fs.copyFileSync(src, scriptFile);
+    }
+  } finally {fs.rmSync(downloadDir, {recursive: true, force: true});}
   return mp4;
 }
 
 function renderBumper(slug, index) {
-  const out = path.join(OUT_DIR, "compile", `${slug}.bumper.mp4`);
+  const label = index === 0 ? "First up!" : "Next up!";
+  const out = path.join(OUT_DIR, "compile", `${slug}.${index === 0 ? 'first' : 'next'}.bumper.mp4`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   if (!fs.existsSync(out)) {
-    const props = JSON.stringify({ slug, script: null, label: index === 0 ? "First up!" : "Next up!" });
+    const props = JSON.stringify({ slug, script: null, label });
     run("npx", ["remotion", "render", "Bumper", out, `--props=${props}`, "--codec=h264", "--log=error"]);
   }
   return out;
@@ -96,7 +112,11 @@ function main() {
   writeMetadata(name, meta, OUT_DIR);
   fs.writeFileSync(path.join(OUT_DIR, `${name}.json`), JSON.stringify({ name, title, slugs, heroes }, null, 2));
   console.log(`[compile] done: ${out} (${(fs.statSync(out).size / 1024 / 1024).toFixed(0)} MB), ${name}.png, ${name}.metadata.txt`);
-  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `name=${name}\ntitle=${title}\n`);
+  if (process.env.GITHUB_OUTPUT) {
+    let delimiter = 'DREAMY_COMPILATION_TITLE';
+    while (String(title).split(/\r?\n/).includes(delimiter)) delimiter += '_';
+    fs.appendFileSync(process.env.GITHUB_OUTPUT, `name=${name}\ntitle<<${delimiter}\n${title}\n${delimiter}\n`);
+  }
 }
 
 main();

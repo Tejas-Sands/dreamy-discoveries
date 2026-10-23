@@ -1,3 +1,4 @@
+import {VIDEO_ENCODING} from './lib/render-profile.mjs';
 /** Reproducible local rendering measurements; no library, queue or voice mutations.
  * node scripts/benchmark-render.mjs --slug dev-engagement-v1 --frames 0-119 --scale 0.5 --runs 3
  */
@@ -38,7 +39,7 @@ async function main() {
   const seconds=[];
   for (let i=0;i<runs;i++) {
     const started=performance.now();
-    await renderMedia({serveUrl,composition,inputProps,frameRange,scale,concurrency,codec:'h264',muted:true,imageFormat,
+    await renderMedia({...VIDEO_ENCODING,serveUrl,composition,inputProps,frameRange,scale,concurrency,codec:'h264',muted:true,imageFormat,
       outputLocation:path.join(directory,`concurrency-${concurrency}-run-${i+1}.mp4`),logLevel:'error'});
     seconds.push(+((performance.now()-started)/1000).toFixed(3));
     console.log(`[benchmark] concurrency ${concurrency} run ${i+1}/${runs}: ${seconds.at(-1)}s`);

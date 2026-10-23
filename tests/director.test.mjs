@@ -139,3 +139,54 @@ test('repeated choruses preserve quiet intent and authored scene gestures', () =
     assert.deepEqual(output.scenes[1].lines.map(l=>l.action), output.scenes[0].lines.map(l=>l.action));
   }
 });
+
+test('question answers retain complete words and remain idempotent', () => {
+  const answer = 'Make a simple meeting plan';
+  const once = directScript(script([scene({kind: 'question', question: {answer: {text: `  ${answer}  `}}, lines: [{text: 'What can we make?'}]})]));
+  assert.equal(once.scenes[0].question.answer.text, answer);
+  assert.deepEqual(directScript(once), once);
+});
+
+test('newly generated moral scenes are normalized on their first directing pass', () => {
+  const output = directScript(script([scene()], {presentationVersion: 4, moral: 'Sharing helps everyone.', moralRhyme: ['Share a smile today!', 'Help a friend and play!']}));
+  assert.equal(output.scenes.filter(scene => scene.kind === 'moral').length, 3);
+  assert.deepEqual(directScript(output), output);
+});
+
+test('named onstage dialogue keeps its actor while unavailable speakers use the normal fallback', () => {
+  const kinds = castKinds();
+  for (const [i, hero] of kinds.entries()) {
+    const friend = kinds[(i + 1) % kinds.length], offstage = kinds[(i + 2) % kinds.length];
+    const output = directScript(script([scene({character: hero, secondCharacter: friend, lines: [
+      {speaker: hero, text: 'Hello, dear friend!'}, {speaker: friend, text: 'Hello, I can help!'},
+      {speaker: 'narrator', text: 'The friends looked up.'}, {speaker: 'missing-design', text: 'The wind was gentle.'},
+      {speaker: offstage, text: 'The wind was gentle.'},
+    ]})]));
+    assert.deepEqual(output.scenes[0].lines.map(line => line.speaker), ['character', 'friend', 'narrator', 'narrator', 'narrator']);
+    assert.deepEqual(directScript(output), output);
+  }
+  const aliased = directScript(script([scene({character: 'taffy', secondCharacter: 'ben', lines: [
+    {speaker: 'taffy', text: 'Hello, Ben!'}, {speaker: 'ben', text: 'Hello, Taffy!'},
+  ]})]));
+  assert.deepEqual(aliased.scenes[0].lines.map(line => line.speaker), ['character', 'friend']);
+  assert.equal(aliased.scenes[0].character, 'bunny');
+  assert.equal(aliased.scenes[0].secondCharacter, 'bear');
+  const extras = directScript(script([scene({extras: ['duck'], lines: [{speaker: 'daisy', text: 'Good morning!'}]})]));
+  assert.equal(extras.scenes[0].lines[0].speaker, 'duck');
+  assert.deepEqual(directScript(extras), extras);
+});
+
+test('automatic counting needs a clear one-to-n enumeration rather than a numeric comparison', () => {
+  for (const [text, count] of [['One, two, three!', 3], ['1, 2, 3, 4!', 4], ['One little star, two little stars,', 2]]) {
+    const line = directScript(script([scene({lines: [{text}]})])).scenes[0].lines[0];
+    assert.equal(line.callout?.kind, 'count', text);
+    assert.equal(line.callout.count, count, text);
+  }
+  for (const text of ['Taffy had used three throws while Fiona had used four.', 'Four little stars, five stars bright,', 'We have one biscuit, and we have two friends.', 'One goal, then another, then two more points.']) {
+    assert.notEqual(directScript(script([scene({lines: [{text}]})])).scenes[0].lines[0].callout?.kind, 'count', text);
+  }
+  const authored = {kind: 'count', count: 5, emoji: '⭐'};
+  const output = directScript(script([scene({lines: [{text: 'Four little stars, five stars bright,', callout: authored}]})]));
+  assert.deepEqual(output.scenes[0].lines[0].callout, authored);
+  assert.deepEqual(directScript(output), output);
+});

@@ -3,6 +3,8 @@ import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Question as QuestionSpec } from "../lib/types";
 import type { Palette } from "../lib/palettes";
 import { Confetti } from "./Particles";
+import {fitAnswerText} from '../lib/answerLayout';
+import {fontFamily} from '../lib/fonts';
 
 const OUT = "#2f2438";
 
@@ -61,7 +63,12 @@ export const QuestionOverlay: React.FC<{
   const answerLife = (frame - revealFrom) / fps;
   const a = spec.answer;
   const bg = a.color ?? palette.accent;
-  const textSize = a.text.length > 10 ? 88 : a.text.length > 6 ? 110 : 140;
+  const layout = React.useMemo(() => {
+    const context = typeof document === 'undefined' ? null : document.createElement('canvas').getContext('2d');
+    return fitAnswerText(a.text, {hasEmoji: !!a.emoji, ...(context ? {measure: (text: string, size: number) => {
+      context.font = `700 ${size}px ${fontFamily}`; return context.measureText(text).width;
+    }} : {})});
+  }, [a.text, a.emoji]);
   const asNumber = /^\d+$/.test(a.text) ? Number(a.text) : 0;
   const countRow = a.emoji && asNumber >= 2 && asNumber <= 10 ? asNumber : 0;
 
@@ -93,10 +100,12 @@ export const QuestionOverlay: React.FC<{
                 ))}
               </div>
             ) : a.emoji ? (
-              <div style={{ fontSize: 230, lineHeight: 1, transform: `scale(${1 + 0.05 * Math.sin(answerLife * 6)})` }}>{a.emoji}</div>
+              <div style={{ fontSize: layout.emojiSize, lineHeight: 1, transform: `scale(${1 + 0.05 * Math.sin(answerLife * 6)})` }}>{a.emoji}</div>
             ) : null}
-            <div style={{ marginTop: a.emoji ? 12 : 0, background: bg, border: "10px solid #fff", borderRadius: 48, padding: "16px 48px", boxShadow: "0 14px 0 rgba(0,0,0,0.18)" }}>
-              <div style={{ fontSize: textSize, fontWeight: 700, color: "#fff", WebkitTextStroke: `9px ${OUT}`, paintOrder: "stroke fill", lineHeight: 1.05, whiteSpace: "nowrap" }}>{a.text}</div>
+            <div style={{ marginTop: a.emoji ? 12 : 0, background: bg, border: "10px solid #fff", borderRadius: 48, padding: "16px 24px", width: layout.width, maxWidth: 720, boxSizing: 'border-box', boxShadow: "0 14px 0 rgba(0,0,0,0.18)" }}>
+              <div style={{ fontFamily, fontSize: layout.fontSize, fontWeight: 700, color: "#fff", WebkitTextStroke: `${Math.min(9, Math.max(3, layout.fontSize * .06))}px ${OUT}`, paintOrder: "stroke fill", lineHeight: 1.05, textAlign: 'center' }}>
+                {layout.lines.map((line, i) => <div key={i} style={{whiteSpace: 'nowrap'}}>{line}</div>)}
+              </div>
             </div>
           </div>
         </>

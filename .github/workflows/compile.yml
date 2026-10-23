@@ -68,7 +68,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           NAME: ${{ steps.compile.outputs.name }}
-        run: node scripts/publish-release.mjs --slug "$NAME" --tag "$NAME" --files "out/episodes/$NAME.mp4,out/episodes/$NAME.png,out/episodes/$NAME.metadata.txt,out/episodes/$NAME.json" --title "${{ steps.compile.outputs.title }}"
+          TITLE: ${{ steps.compile.outputs.title }}
+        run: node scripts/publish-release.mjs --slug "$NAME" --compilation --tag "$NAME" --files "out/episodes/$NAME.mp4,out/episodes/$NAME.png,out/episodes/$NAME.metadata.txt,out/episodes/$NAME.json" --title "$TITLE"
       - name: Tell Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

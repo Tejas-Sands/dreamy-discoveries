@@ -1,5 +1,6 @@
 import React from "react";
-import { AbsoluteFill, Audio, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import {MixAudio as Audio} from '../lib/audioMix';
 import { BRAND_OUTRO_SEC } from "../lib/timing";
 import { rand } from "../lib/random";
 

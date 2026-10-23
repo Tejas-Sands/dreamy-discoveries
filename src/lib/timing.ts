@@ -18,6 +18,10 @@ export const TRANSITION_FRAMES = 12;
 const DEFAULT_LINE_SEC = 2.2;
 
 export const toFrames = (sec: number) => Math.round(sec * FPS);
+const pinnedPre = (line: Line | null | undefined) => line?.vox?.some(cue => cue.file !== undefined) ? toFrames(line.voxPreSec ?? 0) : 0;
+/** Keep old card anchors unless a planned start recording requires more room. */
+export const introSpeakFrame = (line: Line | null | undefined) => Math.max(toFrames(INTRO_SPEAK_AT_SEC), pinnedPre(line));
+export const outroSpeakFrame = (line: Line | null | undefined) => Math.max(toFrames(.8), pinnedPre(line));
 
 export interface LineSlot {
   /** frames, relative to scene start, where the SPEECH starts (the slot itself starts `pre` frames earlier) */
@@ -57,15 +61,24 @@ export interface Schedule {
 }
 
 /** speech + gap, plus the room reserved for a recorded vocalization before / after it */
-const lineFrames = (line: Line) => toFrames((line.voxPreSec ?? 0) + (line.durationSec ?? DEFAULT_LINE_SEC) + LINE_GAP_SEC + (line.voxPostSec ?? 0));
+const lineFrames = (line: Line, precise: boolean) => precise
+  ? toFrames(line.voxPreSec ?? 0) + toFrames(line.durationSec ?? DEFAULT_LINE_SEC) + toFrames(LINE_GAP_SEC) + toFrames(line.voxPostSec ?? 0)
+  : toFrames((line.voxPreSec ?? 0) + (line.durationSec ?? DEFAULT_LINE_SEC) + LINE_GAP_SEC + (line.voxPostSec ?? 0));
 const preFrames = (line: Line) => toFrames(line.voxPreSec ?? 0);
 
 export function computeSchedule(script: KidsScript): Schedule {
   const voice: Array<[number, number]> = [];
+  const precise = (script.presentationVersion ?? 0) >= 4;
   const introSpeech = script.intro?.durationSec ?? 0;
   const hook = (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook';
-  const intro = hook ? 0 : toFrames(Math.max(INTRO_MIN_SEC, INTRO_SPEAK_AT_SEC + introSpeech + 0.4 + COUNTDOWN_SEC));
-  if (!hook && introSpeech > 0) voice.push([toFrames(INTRO_SPEAK_AT_SEC), toFrames(INTRO_SPEAK_AT_SEC + introSpeech)]);
+  const introAt = precise ? introSpeakFrame(script.intro) : toFrames(INTRO_SPEAK_AT_SEC);
+  const introPost = precise ? toFrames(script.intro?.voxPostSec ?? 0) : 0;
+  const intro = hook ? 0 : precise
+    ? Math.max(toFrames(INTRO_MIN_SEC),introAt + toFrames(introSpeech) + introPost + toFrames(.4 + COUNTDOWN_SEC))
+    : toFrames(Math.max(INTRO_MIN_SEC, INTRO_SPEAK_AT_SEC + introSpeech + 0.4 + COUNTDOWN_SEC));
+  if (!hook && (introSpeech > 0 || precise && (pinnedPre(script.intro) + introPost > 0))) {
+    voice.push([introAt - (precise ? pinnedPre(script.intro) : 0), precise ? introAt + toFrames(introSpeech) + introPost : toFrames(INTRO_SPEAK_AT_SEC + introSpeech)]);
+  }
 
   let cursor = intro;
   const scenes: SceneSlot[] = script.scenes.map((scene) => {
@@ -75,7 +88,7 @@ export function computeSchedule(script: KidsScript): Schedule {
     const lines: LineSlot[] = [];
     let local = 0;
     for (const line of asked) {
-      const duration = lineFrames(line);
+      const duration = lineFrames(line,precise);
       const pre = preFrames(line);
       lines.push({ from: local + pre, pre, duration, line });
       local += duration;
@@ -91,7 +104,7 @@ export function computeSchedule(script: KidsScript): Schedule {
       local = revealFrom + revealDuration;
       praiseFrom = local;
       for (const line of praise) {
-        const duration = lineFrames(line);
+        const duration = lineFrames(line,precise);
         const pre = preFrames(line);
         lines.push({ from: local + pre, pre, duration, line });
         local += duration;
@@ -100,7 +113,7 @@ export function computeSchedule(script: KidsScript): Schedule {
     } else {
       // non-question scenes keep praise-role lines in order (moral chant ending)
       for (const line of praise) {
-        const duration = lineFrames(line);
+        const duration = lineFrames(line,precise);
         const pre = preFrames(line);
         lines.push({ from: local + pre, pre, duration, line });
         local += duration;
@@ -132,8 +145,13 @@ export function computeSchedule(script: KidsScript): Schedule {
 
   const endFrom = cursor;
   const outroSpeech = script.outro?.durationSec ?? 0;
-  const endDuration = toFrames(Math.max(END_MIN_SEC, 0.8 + outroSpeech + 1.6));
-  if (outroSpeech > 0) voice.push([endFrom + toFrames(0.8), endFrom + toFrames(0.8 + outroSpeech)]);
+  const outroAt = precise ? outroSpeakFrame(script.outro) : toFrames(.8);
+  const outroPost = precise ? toFrames(script.outro?.voxPostSec ?? 0) : 0;
+  const endDuration = precise ? Math.max(toFrames(END_MIN_SEC),outroAt + toFrames(outroSpeech) + outroPost + toFrames(1.6))
+    : toFrames(Math.max(END_MIN_SEC, 0.8 + outroSpeech + 1.6));
+  if (outroSpeech > 0 || precise && (pinnedPre(script.outro) + outroPost > 0)) {
+    voice.push([endFrom + outroAt - (precise ? pinnedPre(script.outro) : 0), precise ? endFrom + outroAt + toFrames(outroSpeech) + outroPost : endFrom + toFrames(.8 + outroSpeech)]);
+  }
   cursor += endDuration;
   const brandFrom = cursor;
   cursor += toFrames(BRAND_OUTRO_SEC);

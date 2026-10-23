@@ -1,3 +1,4 @@
+import {VIDEO_ENCODING} from './lib/render-profile.mjs';
 /** Local visual review: all six hands and every setting, without script or voice writes. */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -14,7 +15,7 @@ async function clip(composition,props,output) {
   const config=await selectComposition({serveUrl,id:composition,inputProps:props,logLevel:'error'});
   const requested=Number(process.env.RENDER_CONCURRENCY);
   const concurrency=Number.isFinite(requested)&&requested>0?Math.max(1,Math.floor(requested)):2;
-  await renderMedia({serveUrl,composition:config,inputProps:props,outputLocation:output,codec:'h264',
+  await renderMedia({...VIDEO_ENCODING,serveUrl,composition:config,inputProps:props,outputLocation:output,codec:'h264',
     scale:.5,concurrency,muted:true,logLevel:'error',overwrite:true});
   console.log(`[review] ${path.basename(output)}: ${(config.durationInFrames/config.fps).toFixed(1)}s`);
 }

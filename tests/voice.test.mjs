@@ -102,6 +102,14 @@ test('invalid Kokoro speeds fail before cache planning instead of producing an i
   for(const speed of ['nope','0','5']) withEnv({TTS_ENGINE:'kokoro',TTS_SPEED:speed},()=>assert.throws(()=>voiceSettings({presentationVersion:1}),/speed/i));
 });
 
+test('unavailable Kokoro hero, narrator and cast voices fail before inference or cache planning', () => {
+  withEnv({TTS_ENGINE:'kokoro',TTS_SPEED:'.95',TTS_VOICE:undefined,NARRATOR_VOICE:undefined}, () => {
+    for(const script of [{voice:'zz_missing'},{narratorVoice:'zz_missing'},{mainCharacter:{kind:'bunny'},castVoices:{bear:'zz_missing'}}]) {
+      assert.throws(()=>voiceSettings({presentationVersion:4,...script}),/Kokoro.*voice.*zz_missing/i);
+    }
+  });
+});
+
 test('version 2 routes all six cast members to installed local voices across animal aliases and roles', async () => {
   const {KokoroTTS} = await import('kokoro-js');
   const available = new KokoroTTS().voices; // Metadata only; no model download or inference.

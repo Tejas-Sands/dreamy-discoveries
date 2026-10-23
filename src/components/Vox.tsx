@@ -1,9 +1,10 @@
 import React from "react";
-import { Audio, Sequence, staticFile } from "remotion";
+import { Sequence, staticFile } from "remotion";
+import {MixAudio as Audio} from '../lib/audioMix';
 import type { Line } from "../lib/types";
 import { VOX } from "../generated/registry";
-import { seedOf } from "../lib/random";
 import { toFrames } from "../lib/timing";
+import {resolveVoxEvents} from '../lib/voxTiming.mjs';
 
 /** a recording scheduled on the current sequence's clock */
 export interface VoxEvent {
@@ -21,26 +22,7 @@ export interface VoxEvent {
  * and reprises don't always giggle the same way.
  */
 export function voxEvents(line: Line | null | undefined, speechFrom: number, pre: number, key: string): VoxEvent[] {
-  const out: VoxEvent[] = [];
-  // several cues on the same side play one after another
-  let startCursor = speechFrom - pre;
-  let endCursor = speechFrom + toFrames(line?.durationSec ?? 2.2) + 3;
-  (line?.vox ?? []).forEach((cue, i) => {
-    const list = VOX[cue.kind];
-    if (!list || list.length === 0) return; // no recording of that kind on disk: silence beats a fake "ha ha"
-    const pick = list[seedOf(`${key}:${cue.kind}:${i}`) % list.length];
-    const len = toFrames(pick.durationSec) + 2;
-    let from: number;
-    if (cue.at === "start") {
-      from = startCursor;
-      startCursor += len;
-    } else {
-      from = endCursor;
-      endCursor += len;
-    }
-    out.push({ ...pick, from, kind: cue.kind, speaker: cue.speaker ?? line?.speaker });
-  });
-  return out;
+  return resolveVoxEvents(line,speechFrom,pre,key,VOX);
 }
 
 export const VoxAudio: React.FC<{ events: VoxEvent[]; volume?: number }> = ({ events, volume = 0.9 }) => (

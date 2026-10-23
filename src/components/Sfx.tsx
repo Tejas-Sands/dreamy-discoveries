@@ -1,5 +1,6 @@
 import React from "react";
-import { Audio, Sequence, staticFile } from "remotion";
+import { Sequence, staticFile } from "remotion";
+import {MixAudio as Audio} from '../lib/audioMix';
 import type { SfxName } from "../lib/types";
 
 /** One-shot sound effect at frame `at` (relative to the current sequence). */

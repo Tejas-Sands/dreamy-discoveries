@@ -1,5 +1,6 @@
 import React from "react";
-import { AbsoluteFill, Audio, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import {MixAudio as Audio} from '../lib/audioMix';
 import type { KidsScript, Line } from "../lib/types";
 import type { Palette } from "../lib/palettes";
 import { Background } from "./backgrounds/Background";
@@ -10,7 +11,7 @@ import { Sfx } from "./Sfx";
 import { CENTER_X, GROUND_Y } from "../lib/layout";
 import { rand } from "../lib/random";
 import { mouthAt } from "../lib/speech";
-import { COUNTDOWN_SEC, INTRO_SPEAK_AT_SEC, toFrames } from "../lib/timing";
+import { COUNTDOWN_SEC, introSpeakFrame, outroSpeakFrame, toFrames } from "../lib/timing";
 import { easeOutBack, easeOutCubic, hop } from "../lib/anim";
 import type { BakedMap } from "../lib/baked";
 import { VoxAudio, laughMouth, voxAt, voxEvents } from "./Vox";
@@ -124,9 +125,9 @@ export const Countdown: React.FC<{ script: KidsScript; palette: Palette; muted?:
 export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; countdownFrom: number; baked?: BakedMap; ambientT?: number; muted?: boolean }> = ({ script, palette, slug, countdownFrom, baked, ambientT, muted=false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const speakAt = toFrames(INTRO_SPEAK_AT_SEC);
+  const speakAt = introSpeakFrame(script.intro);
   const t = (frame - speakAt) / fps;
-  const vox = voxEvents(script.intro, speakAt, 24, `${slug}:intro`);
+  const vox = voxEvents(script.intro, speakAt, (script.presentationVersion ?? 0) >= 4 ? toFrames(script.intro?.voxPreSec ?? 0) : 24, `${slug}:intro`);
   const mouth = laughMouth(voxAt(vox, frame, fps)) ?? mouthAt(script.intro, t);
   const box = characterBox(TITLE_HERO_X, GROUND_Y + 20, 470);
   const bg = script.scenes[0]?.background ?? "meadow";
@@ -194,9 +195,9 @@ export const castOf = (script: KidsScript, max = 3): string[] => {
 export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: string; starsEarned: number; baked?: BakedMap; ambientT?: number; muted?: boolean }> = ({ script, palette, slug, starsEarned, baked, ambientT, muted=false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const speakAt = Math.round(0.8 * fps);
+  const speakAt = outroSpeakFrame(script.outro);
   const t = (frame - speakAt) / fps;
-  const vox = voxEvents(script.outro, speakAt, 20, `${slug}:outro`);
+  const vox = voxEvents(script.outro, speakAt, (script.presentationVersion ?? 0) >= 4 ? toFrames(script.outro?.voxPreSec ?? 0) : 20, `${slug}:outro`);
   const mouth = laughMouth(voxAt(vox, frame, fps)) ?? mouthAt(script.outro, t);
   const bg = script.scenes[script.scenes.length - 1]?.background ?? "meadow";
   const total = script.stars?.total ?? 0;
@@ -221,12 +222,12 @@ export const EndCard: React.FC<{ script: KidsScript; palette: Palette; slug: str
       <Background kind={bg} palette={palette} baked={baked} animationT={ambientT} />
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 18%, ${palette.accentSoft}24, transparent 65%)` }} />
       <Sparkles count={16} />
-      <Confetti from={2} x={960} y={300} count={60} spread={1100} />
+      {!sleepy ? <Confetti from={2} x={960} y={300} count={60} spread={1100} /> : null}
       {!sleepy ? <Confetti from={50} x={400} y={350} count={40} spread={900} /> : null}
       {!sleepy ? <Confetti from={70} x={1500} y={350} count={40} spread={900} /> : null}
-      {allStars ? <Confetti from={100} x={960} y={250} count={80} spread={1300} /> : null}
-      {!muted ? <Sfx name="tada" at={0} volume={0.7} /> : null}
-      {allStars && !muted ? <Sfx name="applause" at={4} volume={0.5} /> : null}
+      {allStars && !sleepy ? <Confetti from={100} x={960} y={250} count={80} spread={1300} /> : null}
+      {!sleepy && !muted ? <Sfx name="tada" at={0} volume={0.7} /> : null}
+      {allStars && !sleepy && !muted ? <Sfx name="applause" at={4} volume={0.5} /> : null}
       {!muted ? <SpokenLine line={script.outro} slug={slug} at={speakAt} /> : null}
       {!muted ? <VoxAudio events={vox} /> : null}
       <div style={{ position: "absolute", left: 0, right: 0, top: 60, display: "flex", justifyContent: "center" }}>

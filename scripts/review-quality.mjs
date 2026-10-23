@@ -1,3 +1,4 @@
+import {VIDEO_ENCODING} from './lib/render-profile.mjs';
 /** Local v3/v4 comparison using existing voices. Never writes library/history. */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -76,7 +77,7 @@ async function main() {
       if(args.clips)for(const pick of picks.filter(p=>['handover','walking'].includes(p.kind))) {
         const frameRange=[Math.max(0,pick.frame-25),Math.min(composition.durationInFrames-1,pick.frame+34)];
         const file=`${pick.kind}-v${version}.mp4`;
-        await renderMedia({serveUrl,composition,inputProps,puppeteerInstance:browser,frameRange,scale:.5,concurrency:2,codec:'h264',imageFormat:'jpeg',outputLocation:path.join(directory,file),logLevel:'error'});
+        await renderMedia({...VIDEO_ENCODING,serveUrl,composition,inputProps,puppeteerInstance:browser,frameRange,scale:.5,concurrency:2,codec:'h264',imageFormat:'jpeg',outputLocation:path.join(directory,file),logLevel:'error'});
         manifest.clips.push({file,version,frameRange});console.log(`[review] ${file}`);
       }
     }

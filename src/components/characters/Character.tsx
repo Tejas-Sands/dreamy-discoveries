@@ -1,7 +1,7 @@
 import React, { useId } from "react";
 import type {ActorPerformance} from "../../lib/acting";
 import type {MouthShape} from "../../lib/speech";
-import {solveReach, handAnchor, rigToWorld} from '../../lib/rigHands';
+import {solveReach} from '../../lib/rigHands';
 import {PropArt} from '../StageProps';
 import type {StagePoint,StageReach} from '../../lib/types';
 import { useCurrentFrame, useVideoConfig } from "remotion";
@@ -12,9 +12,11 @@ import type { CharacterRecipe } from "./recipe";
 import { SpeciesBody } from "./SpeciesBody";
 import { CHARACTER_RECIPES } from "../../generated/registry";
 import { STORYBOOK_KINDS, StorybookBody } from "./StorybookBody";
-import { UPRIGHT_KINDS, REACHABLE_KINDS, FEATHERED_KINDS, speciesKind } from './performanceProfiles';
+import { UPRIGHT_KINDS, REACHABLE_KINDS, speciesKind } from './performanceProfiles';
 import { SpeciesStorybookFace } from './StorybookFace';
-import { StorybookPaint, softMix } from "./StorybookPaint";
+import { StorybookPaint } from "./StorybookPaint";
+import {characterColorGrade, type ColorGradeMode} from '../../lib/colorGrade';
+import {propScale} from '../../lib/propGeometry';
 
 /** The rig lives in this viewBox; feet at y=250, head top around y=-32 (bunny ears) */
 export const RIG_VB = { x: -20, y: -50, w: 240, h: 310 };
@@ -31,11 +33,14 @@ export const characterEmoji = (kind: string): string => (kind === "none" ? "⭐"
 
 export interface CharacterProps {
   kind: string;
+  colorGrade?: ColorGradeMode;
   emotion?: Emotion;
   action?: Action;
   /** 0..1 how open the mouth is (speech), from the parent */
   mouth?: number;
   performance?: ActorPerformance;
+  /** Optional frame-sampled acting pose; copied before reach/scaling mutates it. */
+  authoredPose?: Pose;
   mouthShape?: MouthShape;
   /** Local signed head/body turn; external flip mirrors this. */
   turn?: number;
@@ -54,7 +59,7 @@ export interface CharacterProps {
   /** Look offset in rig pixels, applied to the shared face renderer. */
   gaze?: { x: number; y: number };
   reach?: StageReach;
-  /** Draw carried artwork at the solved contact, including a small finger overlap. */
+  /** Draw carried artwork at its world center, above the limb touching its edge. */
   heldProp?: {kind: string; label?: string; size?: number; offset?: StagePoint; openProgress?: number; buildProgress?: number; waterAmount?: number};
   stageCenter?: StagePoint;
   bpm?: number;
@@ -81,13 +86,12 @@ function blinkAmount(frame: number, seed: number): number {
   return 0;
 }
 
-export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", action = "idle", mouth = 0, performance: performanceProp, mouthShape: mouthShapeProp, turn: turnProp, turnVelocity: turnVelocityProp, actionT, previousAction, blend = 1, musicT, clockT, motionScale = 1, gaze, reach, heldProp, stageCenter, bpm = 120, width = 400, flip = false, seed: seedProp, still = false, groove = false, shadow = true, style }) => {
+export const Character: React.FC<CharacterProps> = ({ kind, colorGrade = 'production', emotion = "happy", action = "idle", mouth = 0, performance: performanceProp, authoredPose, mouthShape: mouthShapeProp, turn: turnProp, turnVelocity: turnVelocityProp, actionT, previousAction, blend = 1, musicT, clockT, motionScale = 1, gaze, reach, heldProp, stageCenter, bpm = 120, width = 400, flip = false, seed: seedProp, still = false, groove = false, shadow = true, style }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const uid = `character-${useId().replace(/:/g, "")}`;
   if (kind === "none") return null;
   const recipe = getRecipe(kind);
-  const c = recipe.colors;
   const seed = seedProp ?? characterSeed(kind);
   const performance=still?undefined:performanceProp;
   const mouthShape=still?undefined:mouthShapeProp;
@@ -96,7 +100,9 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   const t = still ? 0.35 : (actionT ?? frame / fps);
   const legless = recipe.rig === "fish" || recipe.rig === "whale";
   const input = { action, t, bpm, seed, legless, groove, storybook: STORYBOOK_KINDS.has(recipe.name), kind:recipe.name, performance, turn, turnVelocity, musicT: still ? 0.35 : musicT, clockT: still ? 0.35 : clockT };
-  const incoming = computePose(input);
+  const incoming = authoredPose && !still
+    ? {...authoredPose, head: {...authoredPose.head}, eyes: {...authoredPose.eyes}, secondary: authoredPose.secondary ? {...authoredPose.secondary} : undefined}
+    : computePose(input);
   const pose: Pose = previousAction && !still && blend < 1
     ? blendPoses(computePose({ ...input, action: previousAction.action, t: previousAction.t, musicT: musicT === undefined ? undefined : musicT - t, clockT: clockT === undefined ? undefined : clockT - t }), incoming, blend)
     : incoming;
@@ -124,7 +130,8 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
     pose.x = 0;
     pose.vy = 0;
   }
-  const solved=reach&&stageCenter&&!still&&REACHABLE_KINDS.has(recipe.name)?solveReach(pose,recipe.name,flip,width,stageCenter,reach):null;
+  const objectReach=reach&&heldProp?{...reach,object:reach.object??heldProp}:reach;
+  const solved=objectReach&&stageCenter&&!still&&REACHABLE_KINDS.has(recipe.name)?solveReach(pose,recipe.name,flip,width,stageCenter,objectReach):null;
   const armExtension=solved?{[solved.side]:solved.extension}:undefined;
   const grip = Math.max(0,Math.min(1,reach?.grip??reach?.amount??0));
   const handGrip=solved?{[solved.side]:grip}:undefined;
@@ -145,24 +152,19 @@ export const Character: React.FC<CharacterProps> = ({ kind, emotion = "happy", a
   const flipX = (flip ? -1 : 1) * pose.flip;
   // A single contact shadow grounds the artwork without a costly silhouette filter.
   const k = width / RIG_VB.w;
-  const contact = solved && heldProp ? rigToWorld(handAnchor(recipe.name,pose,solved.side,solved.extension),pose,flip,240,{x:100,y:250}) : null;
+  const contact = solved && heldProp && reach && stageCenter
+    ? {x:100+(reach.target.x-stageCenter.x)/k,y:250+(reach.target.y-stageCenter.y)/k} : null;
   const shadowRx = 62 * shadowScale * k;
   const shadowRy = 11 * shadowScale * k;
   return (
-    <div style={{ width, height, position: "relative", ...style }}>
+    <div style={{ width, height, position: "relative", filter: characterColorGrade(colorGrade), ...style }}>
       {shadow && !still ? (
         <div style={{ position: "absolute", left: (120 + pose.x) * k - shadowRx, top: 304 * k - shadowRy, width: shadowRx * 2, height: shadowRy * 2, borderRadius: "50%", background: "#2f2438", opacity: shadowOpacity }} />
       ) : null}
       <svg viewBox={`${RIG_VB.x} ${RIG_VB.y} ${RIG_VB.w} ${RIG_VB.h}`} width={width} height={height} style={{ overflow: "visible", position: "absolute", left: 0, top: 0 }}>
         <g transform={`translate(${100 + pose.x} 250) rotate(${pose.lean}) scale(${flipX * pose.sx} ${pose.sy}) translate(-100 -250) translate(0 ${pose.y})`}>{UPRIGHT_KINDS.has(recipe.name) ? body : <StorybookPaint recipe={recipe} uid={uid}>{body}</StorybookPaint>}</g>
         {contact && heldProp ? <g data-held-prop={heldProp.kind} transform={`translate(${contact.x} ${contact.y}) scale(${1/k})`}>
-          <g transform={`translate(${heldProp.offset?.x??0} ${heldProp.offset?.y??0}) scale(${heldProp.size??1})`}><PropArt {...heldProp}/></g>
-          <g opacity={grip} fill={recipe.name==='duck'?'#f4cd58':recipe.foot==='hoof'?softMix(c.limb,'#604950',.65):recipe.name==='panda'?c.limb:c.body} stroke={recipe.name==='duck'?'#ae772d':recipe.name==='bear'?'#79503d':softMix(c.body,'#67516c',.58)} strokeWidth="2.5" strokeLinecap="round">
-            {FEATHERED_KINDS.has(recipe.name) ? <path d="M-17 -7Q-22 7 -13 16Q-9 20 -5 13Q0 22 5 14Q13 18 16 7L13 -5"/> : recipe.name==='penguin' ? <path d="M-17 -7Q-24 9 -11 18Q1 25 16 8L14 -5"/> : recipe.foot==='hoof' ? <><path d="M-18 -6Q-23 6 -13 14L-2 13L0 3L2 13L15 13Q24 4 18 -6"/><path d="M0 3v-6" fill="none"/></> : <>
-              <path d="M-17 -6Q-25 -1 -20 10Q-16 15 -11 8L-9 -2"/>
-              <path d="M-4 -5Q-10 1 -6 11Q-1 15 3 8L4 -3M9 -6Q4 1 8 9Q13 12 17 5L16 -5"/>
-            </>}
-          </g>
+          <g transform={`translate(${heldProp.offset?.x??0} ${heldProp.offset?.y??0}) scale(${heldProp.size??propScale(heldProp.kind)})`}><PropArt {...heldProp}/></g>
         </g> : null}
       </svg>
     </div>

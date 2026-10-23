@@ -13,7 +13,7 @@ export function renderIdentity(script,root=ROOT) {
     if(fs.statSync(absolute).isDirectory())for(const child of fs.readdirSync(absolute).sort())visit(`${relative}/${child}`);
     else digest.update(relative).update(fs.readFileSync(absolute));
   };
-  for(const relative of ['src','scripts/lib/staging.mjs','remotion.config.ts','package-lock.json','library/characters','library/backgrounds','library/cast.json','public/fonts','public/brand','public/music','public/sfx','public/vox'])visit(relative);
+  for(const relative of ['src','scripts/lib/staging.mjs','scripts/lib/render-profile.mjs','remotion.config.ts','package-lock.json','library/characters','library/backgrounds','library/cast.json','public/fonts','public/brand','public/music','public/sfx','public/vox'])visit(relative);
   return digest.digest('hex');
 }
 export function writeRenderProof(file,identity,range=null) {

@@ -1,3 +1,4 @@
+import {VIDEO_ENCODING} from './lib/render-profile.mjs';
 /** Rebuildable visual comparisons of the production rigs against the original chart. */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -31,7 +32,7 @@ for(const kind of kinds) {
     for(const [side,second] of [['right',2],['left',6]]) {
       await renderStill({serveUrl,puppeteerInstance:browser,composition:motionComposition,inputProps:motionProps,frame:second*motionComposition.fps,imageFormat:'png',output:path.join(output,`${kind}-${side}.png`),logLevel:'error'});
     }
-    await renderMedia({serveUrl,puppeteerInstance:browser,composition:motionComposition,inputProps:motionProps,codec:'h264',crf:18,concurrency:2,muted:true,outputLocation:path.join(output,`${kind}.mp4`),logLevel:'error'});
+    await renderMedia({...VIDEO_ENCODING,serveUrl,puppeteerInstance:browser,composition:motionComposition,inputProps:motionProps,codec:'h264',crf:18,concurrency:2,muted:true,outputLocation:path.join(output,`${kind}.mp4`),logLevel:'error'});
   }
   console.log(`[chart] ${kind} saved`);
 }

@@ -10,6 +10,8 @@ import type { BakedMap } from "../../lib/baked";
 import {sceneryColor, StorybookDetails, StorybookDistance} from "./StorybookScenery";
 import {isActorForeground, sceneryParallax} from '../../lib/environment';
 import {BackgroundLife} from './BackgroundLife';
+import {backgroundColorGrade} from '../../lib/colorGrade';
+import type {ColorGradeMode} from '../../lib/colorGrade';
 
 export const getBackgroundRecipe = (kind: string): BackgroundRecipe => BACKGROUND_RECIPES[kind] ?? BACKGROUND_RECIPES.meadow;
 
@@ -51,9 +53,9 @@ export const BackgroundLayer: React.FC<{ recipe: BackgroundRecipe; group: PartGr
  * A scene background: gradient → animated back layer → scenery (a baked PNG when
  * available, else drawn live) → animated front layer.
  */
-export interface BackgroundProps {kind: string; palette: Palette; frameOffset?: number; motion?: number; animationT?: number; baked?: BakedMap; splitForeground?: boolean; parallax?: {x: number; y: number}}
+export interface BackgroundProps {kind: string; palette: Palette; frameOffset?: number; motion?: number; animationT?: number; baked?: BakedMap; splitForeground?: boolean; parallax?: {x: number; y: number}; colorGrade?: ColorGradeMode}
 
-export const Background: React.FC<BackgroundProps> = ({ kind, palette, frameOffset = 0, motion = 0.55, animationT, baked, splitForeground = false, parallax }) => {
+export const Background: React.FC<BackgroundProps> = ({ kind, palette, frameOffset = 0, motion = 0.55, animationT, baked, splitForeground = false, parallax, colorGrade = 'production' }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = animationT ?? (frame + frameOffset) / fps;
@@ -70,6 +72,7 @@ export const Background: React.FC<BackgroundProps> = ({ kind, palette, frameOffs
   return (
     <AbsoluteFill style={{
       background: `linear-gradient(${a}, ${b})`,
+      filter: backgroundColorGrade(recipe.palette ?? 'meadow', colorGrade),
     }}>
       {!night ? <AbsoluteFill style={{ background: "radial-gradient(ellipse at 70% 30%, #fff2d94a, transparent 60%)", pointerEvents: "none" }} /> : null}
       <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{ position: "absolute", left: 0, top: 0, transform:layered ? `translate(${depth.back.x}px, ${depth.back.y}px) scale(1.012)` : `translateX(${drift*5}px) scale(1.012)` }}>
@@ -98,14 +101,14 @@ export const Background: React.FC<BackgroundProps> = ({ kind, palette, frameOffs
 };
 
 /** Only selected foliage/weather sits in front of actors; caption space is clipped clear. */
-export const BackgroundForeground: React.FC<BackgroundProps> = ({kind, frameOffset = 0, motion = .55, animationT, parallax, splitForeground = true}) => {
+export const BackgroundForeground: React.FC<BackgroundProps> = ({kind, frameOffset = 0, motion = .55, animationT, parallax, splitForeground = true, colorGrade = 'production'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const uid = `foreground-${useId().replace(/:/g, '')}`;
   const t = animationT ?? (frame + frameOffset) / fps;
   const recipe = getBackgroundRecipe(kind), depth = sceneryParallax(t, motion, parallax).front;
   if (!splitForeground) return null;
-  return <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{position: 'absolute', left: 0, top: 0, pointerEvents: 'none'}}>
+  return <svg width={W} height={1080} viewBox={`0 0 ${W} 1080`} style={{position: 'absolute', left: 0, top: 0, pointerEvents: 'none', filter: backgroundColorGrade(recipe.palette ?? 'meadow', colorGrade)}}>
     <defs><clipPath id={uid}><rect width={W} height={925} /></clipPath></defs>
     <g clipPath={`url(#${uid})`} opacity={.55 + Math.max(0, Math.min(1, motion)) * .45}>
       <g transform={`translate(${depth.x} ${depth.y})`}>

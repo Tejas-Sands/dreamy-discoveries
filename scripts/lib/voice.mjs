@@ -5,6 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import {createRequire} from 'node:module';
 import { ROOT } from "./common.mjs";
 import { getClient } from "./db.mjs";
 import { castMembers } from "./cast.mjs";
@@ -17,6 +18,8 @@ export const ENGINE_DEFAULT_NARRATOR_VOICE = { kokoro: "af_bella", edge: "en-US-
 // These English voices ship with kokoro-js 1.2.1; no extra model or service is used.
 const KOKORO_CAST_VOICES = { bunny: "af_heart", bear: "am_michael", duck: "af_sarah", fox: "bf_emma", turtle: "bm_george", owl: "am_fenrir" };
 const KOKORO_VOICE_POOL = Object.values(KOKORO_CAST_VOICES);
+const require = createRequire(import.meta.url);
+let installedKokoroVoices;
 const castAlias = value => typeof value === "string" ? value.trim().toLowerCase().replace(/[\s_-]+/g, " ") : "";
 function castKind(value) {
   const alias = castAlias(value);
@@ -28,7 +31,11 @@ function heroKind(script) {
 }
 
 function validVoice(engine, voice, fallback) {
-  if (engine === "kokoro" && !/^[a-z]{2}_[a-z]+$/.test(voice)) return fallback;
+  if (engine === 'kokoro') {
+    // Constructor metadata only: no from_pretrained(), model weights, inference or network.
+    installedKokoroVoices ??= new (require('kokoro-js').KokoroTTS)().voices;
+    if (!Object.hasOwn(installedKokoroVoices,voice)) throw new Error(`Unavailable Kokoro voice: ${voice}`);
+  }
   if (engine === "edge" && !/Neural/i.test(voice)) return fallback;
   return voice;
 }

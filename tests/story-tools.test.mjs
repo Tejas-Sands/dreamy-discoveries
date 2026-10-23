@@ -167,6 +167,7 @@ test('real feed, scheduled queue selection and slug planning work with every wri
   fs.cpSync(new URL('scripts/', repo), path.join(root, 'scripts'), {recursive: true});
   fs.mkdirSync(path.join(root, 'src/lib'), {recursive: true});
   fs.copyFileSync(new URL('src/lib/sceneDirection.mjs', repo), path.join(root, 'src/lib/sceneDirection.mjs'));
+  fs.copyFileSync(new URL('src/lib/voxTiming.mjs', repo), path.join(root, 'src/lib/voxTiming.mjs'));
   fs.symlinkSync(new URL('node_modules/', repo).pathname, path.join(root, 'node_modules'));
   fs.writeFileSync(path.join(root, 'library/queue.yml'), YAML.stringify({items: []}));
   const guard = path.join(root, 'no-network.mjs');

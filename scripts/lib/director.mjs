@@ -24,7 +24,7 @@ import {
 } from "./vocab.mjs";
 
 import { validateBackgroundRecipe } from "./recipes.mjs";
-import { extractVox, normalizeVox, VOX_PRE_SEC, VOX_POST_SEC } from "./vox.mjs";
+import { extractVox, normalizeVox, planVox, VOX_PRE_SEC, VOX_POST_SEC } from "./vox.mjs";
 import { hintCharacter, hintBackground } from "./hints.mjs";
 import { saveRecipe } from "./library.mjs";
 import { castMembers, castKinds, castOrder } from "./cast.mjs";
@@ -58,7 +58,9 @@ function adoptNewRecipes(script) {
 }
 
 const resolveCharacter = (raw, fallback) => {
-  const aliased = isOneOf(CHARACTERS, raw) ? raw : CHARACTER_ALIASES[raw] || raw;
+  const alias = String(raw ?? '').trim().toLowerCase();
+  const named = castMembers().find(member => [member.id, member.name].some(name => name.toLowerCase() === alias));
+  const aliased = isOneOf(CHARACTERS, raw) ? raw : named?.kind ?? CHARACTER_ALIASES[raw] ?? raw;
   if (aliased === "none") return "none";
   return isOneOf(CHARACTERS, aliased) ? aliased : hintCharacter(aliased, CHARACTERS) ?? fallback;
 };
@@ -165,6 +167,28 @@ function numberTokens(text) {
   return out;
 }
 
+/** A list counts one thing; comparisons and changing nouns remain ordinary dialogue. */
+function countingEnumeration(text, nums) {
+  if (nums.length < 2 || nums.some((n, i) => n !== i + 1)) return false;
+  const numbers = [...text.matchAll(/\b(one|two|three|four|five|six|seven|eight|nine|ten|10|[1-9])\b/gi)];
+  if (numbers.length !== nums.length) return false;
+  const phrase = value => norm(value).replace(/\band\s*$/, '').trim().split(' ').map(word => word.replace(/ies$/, 'y').replace(/(?<!s)s$/, '')).join(' ');
+  const between = numbers.slice(0, -1).map((match, i) => phrase(text.slice(match.index + match[0].length, numbers[i + 1].index)));
+  if (between.every(value => !value)) return true;
+  const noun = between[0];
+  if (!noun || /\b(while|versus|but|more|another|then|have|had|was|were|became|is|are)\b/.test(noun) || between.some(value => value !== noun)) return false;
+  const last = numbers.at(-1), ending = phrase(text.slice(last.index + last[0].length).split(/[,.!?;:]/)[0]);
+  return !ending || ending === noun || ending.startsWith(`${noun} `);
+}
+
+function onstageSpeaker(scene, raw) {
+  if (['character', 'friend', 'narrator'].includes(raw)) return raw;
+  const kind = resolveCharacter(raw, null);
+  if (kind === scene.character) return 'character';
+  if (kind && kind === scene.secondCharacter) return 'friend';
+  return kind && scene.extras?.includes(kind) ? kind : undefined;
+}
+
 function findEmoji(texts, fallback) {
   for (const t of texts) {
     for (const raw of norm(t).split(" ")) {
@@ -182,11 +206,7 @@ function inferCallout(line, scene, main) {
   const emoji = findEmoji([text, ...scene.lines.map((l) => l.text)], fallbackEmoji);
 
   // Counting up: "one little hop, two little hops, three..."
-  if (nums.length >= 2) {
-    let ascending = true;
-    for (let i = 1; i < nums.length; i++) if (nums[i] !== nums[i - 1] + 1) ascending = false;
-    if (ascending) return { kind: "count", emoji, count: Math.min(10, nums[nums.length - 1]) };
-  }
+  if (countingEnumeration(text, nums)) return { kind: "count", emoji, count: nums.at(-1) };
   if (nums.length === 1 && nums[0] <= 10) {
     return { kind: "number", text: String(nums[0]), emoji };
   }
@@ -317,7 +337,7 @@ function normalizeScene(raw, main) {
         : a && typeof a === "object" && typeof a.text === "string"
           ? { text: a.text, emoji: a.emoji, color: a.color }
           : null;
-    scene.question = answer ? { answer: { ...answer, text: answer.text.trim().slice(0, 24) } } : null;
+    scene.question = answer ? { answer: { ...answer, text: answer.text.trim() } } : null;
     if (typeof raw.question?.praise === "string" && raw.question.praise.trim()) {
       scene.question = { ...(scene.question || { answer: { text: "Yes!" } }), praise: raw.question.praise.trim() };
     }
@@ -452,7 +472,7 @@ export function directScript(input, opts = {}) {
     const last = script.scenes[script.scenes.length - 1];
     const bg = last?.background ?? "meadow";
     const chant = script.moralRhyme ?? [moral];
-    script.scenes.push(
+    script.scenes.push(...[
       {
         kind: "moral",
         background: bg,
@@ -496,7 +516,7 @@ export function directScript(input, opts = {}) {
           { text: "Hooray! You did it!", speaker: "character", emotion: "excited", action: "cheer", role: "praise", sfx: ["tada", "applause"] },
         ],
       }
-    );
+    ].map(scene => normalizeScene(scene, main)));
   }
 
   // ── scenes ──
@@ -568,7 +588,7 @@ export function directScript(input, opts = {}) {
         const praiseText =
           scene.question.praise ||
           PRAISE_TEMPLATES[praiseIdx++ % PRAISE_TEMPLATES.length].replace("{A}", a.text.replace(/[!.]+$/, ""));
-        scene.lines.push({ text: praiseText, role: "praise" });
+        scene.lines.push(normalizeLine({ text: praiseText, role: "praise" }));
       }
       delete scene.question.praise;
       for (const l of scene.lines) if (l.role !== "praise") l.role = "question";
@@ -578,7 +598,7 @@ export function directScript(input, opts = {}) {
     // per-line enrichment
     scene.lines.forEach((line, li) => {
       const isPraise = line.role === "praise";
-      line.speaker = pick(["character", "narrator", "friend"], line.speaker, undefined);
+      line.speaker = onstageSpeaker(scene, line.speaker);
       if (line.speaker === "friend" && !scene.secondCharacter) line.speaker = "character";
       if (!line.speaker) {
         line.speaker =
@@ -705,6 +725,7 @@ export function directScript(input, opts = {}) {
     script.youtube = { title: script.title, description: "", tags: [] };
   }
   script.directed = true;
+  planVox(script);
   stageStory(script,{cast:castMembers()});
   if ((script.presentationVersion ?? 0) >= 3) {
     // The object's setup/contact/reaction supplies the comedy during a physical sequence.

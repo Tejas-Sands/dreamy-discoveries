@@ -1,5 +1,6 @@
 import React, {useMemo} from 'react';
-import {Audio, Sequence, staticFile} from 'remotion';
+import {Sequence, staticFile} from 'remotion';
+import {MixAudio as Audio} from '../lib/audioMix';
 import type {KidsScript} from '../lib/types';
 import type {Schedule} from '../lib/timing';
 import {scoreSections, scoreVolume} from '../lib/score';

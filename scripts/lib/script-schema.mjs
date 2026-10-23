@@ -3,7 +3,7 @@ import {BACKGROUNDS, PALETTES, EMOTIONS, ACTIONS, SCENE_KINDS} from './vocab.mjs
 import {castKinds} from './cast.mjs';
 
 const kinds = castKinds();
-const question = z.object({answer: z.object({text: z.string().min(1), emoji: z.string()}), praise: z.string().min(1)});
+const question = z.object({answer: z.object({text: z.string().min(1).max(120), emoji: z.string()}), praise: z.string().min(1)});
 const line = z.object({text: z.string().min(1).max(160), speaker: z.enum(['character', 'friend', 'narrator']),
   emotion: z.enum(EMOTIONS), action: z.enum(ACTIONS)}).strict();
 export const ScriptSchema = z.object({
@@ -17,7 +17,7 @@ export const ScriptSchema = z.object({
     prop: z.string().nullable(), question: question.nullable(), lines: z.array(line).min(1).max(6)}).strict()).min(3).max(40),
 }).strict();
 
-// A small strict schema, shared by Gemini/Groq. Detailed bounds stay in local Zod validation.
+// Small strict provider schema; enforce the answer layout limit here and other bounds in Zod.
 const string = {type: 'string'};
 const enumOf = values => ({type: 'string', enum: values});
 const nullable = schema => ({anyOf: [schema, {type: 'null'}]});
@@ -30,7 +30,7 @@ export const scriptJsonSchema = objectOf({
   youtube: objectOf({title: string, description: string, tags: arrayOf(string)}),
   scenes: arrayOf(objectOf({kind: enumOf(SCENE_KINDS), background: enumOf(BACKGROUNDS), character: enumOf(kinds),
     secondCharacter: nullable(enumOf(kinds)), energy: enumOf(['calm', 'upbeat']), holdSec: {type: 'number'},
-    prop: nullable(string), question: nullable(objectOf({answer: objectOf({text: string, emoji: string}), praise: string})),
+    prop: nullable(string), question: nullable(objectOf({answer: objectOf({text: {...string, maxLength: 120}, emoji: string}), praise: string})),
     lines: arrayOf(objectOf({text: string, speaker: enumOf(['character', 'friend', 'narrator']), emotion: enumOf(EMOTIONS), action: enumOf(ACTIONS)})),
   })),
 });

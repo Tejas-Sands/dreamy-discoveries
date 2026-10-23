@@ -2,6 +2,7 @@ import type {Pose} from '../components/characters/pose';
 import type {StagePoint, StageReach} from './types';
 import {FEATHERED_KINDS, speciesKind} from '../components/characters/performanceProfiles';
 import {UPRIGHT_LAYOUTS} from '../components/characters/chartLayout';
+import {propSurfaceContact} from './propGeometry';
 type BodyPose=Pick<Pose,'x'|'y'|'lean'|'sx'|'sy'|'flip'|'armL'|'armR'> & Partial<Pick<Pose,'torsoTilt'|'torsoTurn'>>;
 const radians=(a:number)=>a*Math.PI/180;
 const rotate=(p:StagePoint,a:number)=>({x:p.x*Math.cos(a)-p.y*Math.sin(a),y:p.x*Math.sin(a)+p.y*Math.cos(a)});
@@ -41,7 +42,8 @@ export function solveReach(pose:BodyPose,kind:string,flip:boolean,width:number,c
   // A carrying paw needs a visible front rig even during an authored spin.
   pose.flip=pose.flip*(1-amount)+amount;
   if(Math.abs(pose.flip)<.1)pose.flip=.1;
-  const target=tiltTorso(worldToRig(reach.target,pose,flip,width,center),-(pose.torsoTilt??0));
+  const contact=reach.object?propSurfaceContact(reach.target,center,reach.object):reach.target;
+  const target=tiltTorso(worldToRig(contact,pose,flip,width,center),-(pose.torsoTilt??0));
   const side=target.x>=100?'R':'L',g=geometry(kind,side,pose);
   const dx=target.x-g.shoulder.x,dy=target.y-g.shoulder.y;
   const extension=Math.max(.5,Math.min(2.2,Math.sqrt(Math.max(0,dx*dx+dy*dy-g.paw.x*g.paw.x))/g.paw.y));

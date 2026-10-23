@@ -58,6 +58,7 @@ function workspace(t) {
   fs.writeFileSync(path.join(dir, 'library/standby.json'), JSON.stringify({...manifest, usage: {}}));
   fs.mkdirSync(path.join(dir, 'src/lib'), {recursive: true});
   fs.copyFileSync(path.join(root, 'src/lib/sceneDirection.mjs'), path.join(dir, 'src/lib/sceneDirection.mjs'));
+  fs.copyFileSync(path.join(root, 'src/lib/voxTiming.mjs'), path.join(dir, 'src/lib/voxTiming.mjs'));
   fs.symlinkSync(path.join(root, 'node_modules'), path.join(dir, 'node_modules'));
   const preload = path.join(dir, 'mock-writer.mjs');
   fs.writeFileSync(preload, mockWriter);

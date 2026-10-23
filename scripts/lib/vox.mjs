@@ -14,6 +14,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT } from "./common.mjs";
+import {voxRecording, voxRoom} from '../../src/lib/voxTiming.mjs';
 
 export const VOX_KINDS = ["giggle", "laugh", "yay", "wow", "gasp", "yum", "yawn", "hmm", "aww", "sigh"];
 /** room reserved before / after the speech when a cue sits at the start / end of a line (seconds) */
@@ -83,27 +84,56 @@ export function normalizeVox(list) {
     if (out.some((o) => o.kind === kind && o.at === at)) continue;
     const cue = { kind, at };
     if (v?.speaker === "character" || v?.speaker === "friend" || v?.speaker === "narrator") cue.speaker = v.speaker;
+    if (v?.file === null) Object.assign(cue, {file: null, durationSec: 0});
+    else if (typeof v?.file === 'string' && Number.isFinite(v.durationSec) && v.durationSec > 0) {
+      Object.assign(cue, {file: v.file, durationSec: v.durationSec});
+    }
     out.push(cue);
   }
   // start cues first, then end cues, in the order written
   return [...out.filter((o) => o.at === "start"), ...out.filter((o) => o.at === "end")];
 }
 
-/** duration of a 16-bit PCM WAV from its header (the importer always writes this format) */
+/** Read RIFF chunks: FFmpeg can insert metadata before the PCM data. */
 export function wavDurationSec(file) {
-  const fd = fs.openSync(file, "r");
-  try {
-    const head = Buffer.alloc(64);
-    fs.readSync(fd, head, 0, 64, 0);
-    if (head.toString("ascii", 0, 4) !== "RIFF") return null;
-    const channels = head.readUInt16LE(22);
-    const rate = head.readUInt32LE(24);
-    const bits = head.readUInt16LE(34);
-    const size = fs.statSync(file).size - 44;
-    return size / (rate * channels * (bits / 8));
-  } finally {
-    fs.closeSync(fd);
+  const bytes = fs.readFileSync(file);
+  if (bytes.length < 12 || bytes.toString('ascii',0,4) !== 'RIFF' || bytes.toString('ascii',8,12) !== 'WAVE') return null;
+  let byteRate, dataSize;
+  for (let offset = 12; offset + 8 <= bytes.length;) {
+    const name = bytes.toString('ascii',offset,offset+4), size = bytes.readUInt32LE(offset+4), start = offset+8;
+    if (start + size > bytes.length) return null;
+    if (name === 'fmt ' && size >= 16) byteRate = bytes.readUInt32LE(start+8);
+    if (name === 'data') dataSize = size;
+    offset = start + size + size % 2;
   }
+  return byteRate > 0 && dataSize > 0 ? dataSize / byteRate : null;
+}
+
+/** Pin derived modern scripts before duration estimation; permanent source scripts stay untouched. */
+export function planVox(script, catalog) {
+  if ((script.presentationVersion ?? 0) < 4) return script;
+  catalog ??= scanVox();
+  const planLine = (line, key) => {
+    if (!line?.vox?.length) return;
+    line.vox = line.vox.map((cue, index) => {
+      if (typeof cue.file === 'string') {
+        const installed = (catalog[cue.kind] ?? []).find(item => item.file === cue.file);
+        if (!installed) throw new Error(`Pinned reaction recording is unavailable: ${cue.file}`);
+        if (!Number.isFinite(cue.durationSec) || Math.abs(cue.durationSec - installed.durationSec) > .0011) {
+          throw new Error(`Pinned reaction duration differs from its recording: ${cue.file}`);
+        }
+      }
+      const recording = voxRecording(cue,key,index,catalog,true);
+      return {...cue, ...(recording ?? {file: null, durationSec: 0})};
+    });
+    const room = voxRoom(line.vox);
+    line.voxPreSec = room.pre || undefined;
+    line.voxPostSec = room.post || undefined;
+  };
+  planLine(script.intro,`${script.slug}:intro`);
+  script.scenes?.forEach((scene,si) => scene.lines?.forEach((line,li) => planLine(line,`${script.slug}:${si}:${li}`)));
+  planLine(script.outro,`${script.slug}:outro`);
+  return script;
 }
 
 /** every recording on disk, grouped by kind: { giggle: [{ file: "vox/giggle-1.wav", durationSec }], ... } */

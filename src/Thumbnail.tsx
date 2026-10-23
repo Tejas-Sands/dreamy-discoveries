@@ -63,10 +63,10 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({script,compilation,headline
       ? 'linear-gradient(105deg,#eee2ff38,#eae3ffcc 65%,#fff2dfed),radial-gradient(ellipse at 28% 48%,#fff5dc99,transparent 56%)'
       : 'linear-gradient(105deg,#fff2dc18,#fff1dbcc 65%,#fff6e7ee),radial-gradient(ellipse at 28% 48%,#fff6debb,transparent 58%)'}} />
     <div style={{position:'absolute',left:120,top:280,width:890,height:750,borderRadius:'50%',background:'radial-gradient(ellipse,#fff7e9aa,transparent 70%)'}} />
-    <div style={{position:'absolute',...characterBox(565,1230,1130),filter:'saturate(1.12) drop-shadow(0 12px 0 #72546b25)'}}>
+    <div style={{position:'absolute',...characterBox(565,1230,1130),filter:'drop-shadow(0 12px 0 #72546b25)'}}>
       <Character kind={plan.hero} emotion={plan.emotion} action={plan.action} width={1130} still gaze={{x:plan.prop&&!plan.quiet?3:0,y:0}} />
     </div>
-    {plan.friend ? <div style={{position:'absolute',...characterBox(plan.prop?1080:1400,1100,600),filter:'saturate(1.1) drop-shadow(0 10px 0 #72546b22)'}}>
+    {plan.friend ? <div style={{position:'absolute',...characterBox(plan.prop?1080:1400,1100,600),filter:'drop-shadow(0 10px 0 #72546b22)'}}>
       <Character kind={plan.friend} emotion={plan.quiet?'sleepy':'happy'} action={plan.quiet?'sleep':'idle'} width={600} still flip />
     </div> : null}
     {plan.prop ? <svg viewBox='0 0 1920 1080' style={{position:'absolute',inset:0,width:'100%',height:'100%'}} aria-label={plan.prop.label}>

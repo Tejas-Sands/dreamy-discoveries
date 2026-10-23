@@ -108,6 +108,9 @@ export interface VoxCue {
   at: "start" | "end";
   /** who makes the sound when it is not the line's own speaker (a laugh moved from the next line) */
   speaker?: "character" | "narrator" | "friend";
+  /** Planned recording; null pins silence when a kind has no installed recording. */
+  file?: string | null;
+  durationSec?: number;
 }
 
 export interface Line {
@@ -212,7 +215,11 @@ export interface SceneStaging {
   auto?: boolean;
 }
 export interface StageActorSample extends StagePoint {owner: string; moving: boolean; walkT: number; flip: boolean; stoppedFor: number | null}
-export interface StageReach {target: StagePoint; amount: number; crouch: number; grip?: number}
+export interface StagePropGeometry {kind: string; size?: number; rotation?: number; openProgress?: number}
+export interface StageReach {
+  /** World-space object center, or an exact point when object is omitted. */
+  target: StagePoint; amount: number; crouch: number; grip?: number; object?: StagePropGeometry;
+}
 export interface StageSample {actors: Partial<Record<StageRole, StageActorSample>>; props: StageProp[]; reaches: Partial<Record<StageRole, StageReach>>; shot: SceneStaging['shot']}
 
 export interface YoutubeMeta {

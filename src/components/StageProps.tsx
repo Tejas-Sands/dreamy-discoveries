@@ -1,6 +1,8 @@
 import React, {useId} from 'react';
 import type {StageProp} from '../lib/types';
 import {propMotion, type PropCue} from '../lib/propMotion';
+import {characterColorGrade, type ColorGradeMode} from '../lib/colorGrade';
+import {propScale} from '../lib/propGeometry';
 
 /** Small reusable vector objects; no downloaded or generated artwork is needed. */
 const unit=(value:number)=>Math.max(0,Math.min(1,Number.isFinite(value)?value:0));
@@ -45,10 +47,11 @@ export const PropArt:React.FC<{kind:string;label?:string;openProgress?:number;bu
   </g>;
 };
 
-export const StageProps:React.FC<{props:StageProp[];events?:readonly PropCue[];frame?:number;fps?:number;quiet?:boolean}>=({props,events=[],frame=0,fps=30,quiet=false})=><svg viewBox='0 0 1920 1080' style={{position:'absolute',inset:0,width:'100%',height:'100%',pointerEvents:'none',overflow:'visible'}}>
-  {props.filter(p=>!p.hidden).map(p=>{const motion=propMotion(p.id,events,frame,fps,quiet),size=p.kind==='basket'?1.45:1.3;return <g key={p.id} aria-label={p.label??p.kind}>
+export const StageProps:React.FC<{props:StageProp[];events?:readonly PropCue[];frame?:number;fps?:number;quiet?:boolean;colorGrade?:ColorGradeMode}>=({props,events=[],frame=0,fps=30,quiet=false,colorGrade='production'})=><svg viewBox='0 0 1920 1080' style={{position:'absolute',inset:0,width:'100%',height:'100%',pointerEvents:'none',overflow:'visible',filter:characterColorGrade(colorGrade)}}>
+  {props.filter(p=>!p.hidden).map(p=>{const motion=p.owner?{rotation:0,sx:1,sy:1,accent:0}:propMotion(p.id,events,frame,fps,quiet),size=propScale(p.kind);return <g key={p.id} aria-label={p.label??p.kind}>
     {!p.owner?<ellipse cx={p.x} cy='869' rx='55' ry='10' fill='#554763' opacity='.14'/>:null}
-    <g transform={`translate(${p.x} ${p.y}) rotate(${(p.rotation??0)+motion.rotation}) scale(${size*motion.sx} ${size*motion.sy})`}><PropArt kind={p.kind} label={p.label} openProgress={p.openProgress} buildProgress={p.buildProgress} waterAmount={p.waterAmount}/></g>
+    {/* Contact geometry uses the authoritative stage rotation and size. */}
+    <g transform={`translate(${p.x} ${p.y}) rotate(${p.rotation??0}) scale(${size} ${size})`}><PropArt kind={p.kind} label={p.label} openProgress={p.openProgress} buildProgress={p.buildProgress} waterAmount={p.waterAmount}/></g>
     {p.watering?<WateringTool water={p.watering} frame={frame} fps={fps}/>:null}
     {motion.accent>0?<g transform={`translate(${p.x} ${p.y})`} stroke='#e7bd69' strokeWidth='3.5' strokeLinecap='round' opacity={motion.accent}>
       {[35,145,215,325].map(angle=><path key={angle} d='M0 -69v-10' transform={`rotate(${angle})`}/>)}

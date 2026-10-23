@@ -199,7 +199,7 @@ function sampleActors(stage,frame) {
 function heldAt(actors,role) {
   const other=actors[role==='character'?'friend':'character'];
   const side=other&&other.x<actors[role].x?-1:1;
-  return {x:actors[role].x+side*90,y:actors[role].y-135};
+  return {x:clamp(actors[role].x+side*90,300,1600),y:clamp(actors[role].y-135,350,900)};
 }
 const propPoint=p=>({x:clamp(p?.x??960,300,1600),y:clamp(p?.y??826,350,900)});
 const increment=(value,amount,defaultValue=0)=>clamp((value??defaultValue)+clamp(amount??.34,0,1),0,1);
@@ -272,7 +272,11 @@ export function sampleStage(stage,frame) {
     }
     role=roleOf(p.owner);
     if(role&&!active){at=heldAt(actors,role);propReaches[role]={target:at,amount:1,crouch:0};}
-    if(!p.hidden)Object.assign(reaches,propReaches);
+    if(!p.hidden) {
+      for(const reach of Object.values(propReaches))if(reach.target.x===at.x&&reach.target.y===at.y)
+        reach.object={kind:p.kind,size:p.kind==='basket'?1.45:1.3,rotation:p.rotation??0,openProgress:p.openProgress};
+      Object.assign(reaches,propReaches);
+    }
     p.x=clamp(at.x,300,1600);p.y=clamp(at.y,350,900);
   }
   return {actors,props:props.filter(p=>p.owner?!!roleOf(p.owner):!p.location||p.location===stage.background),reaches,shot:stage.shot};

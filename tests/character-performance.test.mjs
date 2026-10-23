@@ -30,6 +30,21 @@ const line=(from,speaker,emotion,text='Look! A beautiful ball!')=>({from,pre:0,d
 const scene={character:'taffy',secondCharacter:'ben',emotion:'neutral',lines:[]};
 const slot={from:100,duration:250,lines:[line(0,'taffy','sad'),line(69,'ben','excited')],holdFrom:138,holdDuration:60,revealFrom:-1,praiseFrom:-1};
 
+test('authored acting poses remain reusable through reach solving and thumbnail rendering',()=>{
+  const authoredPose=computePose({action:'point',t:.6,bpm:100,seed:7,storybook:true,kind:'bunny'});
+  const original=structuredClone(authoredPose);
+  for(const value of Object.values(authoredPose))if(value&&typeof value==='object')Object.freeze(value);
+  Object.freeze(authoredPose);
+  const props={kind:'bunny',authoredPose,width:440,motionScale:.7,stageCenter:{x:900,y:870},
+    reach:{target:{x:1040,y:710},amount:.8,crouch:.1,grip:1}};
+  const first=draw(Character,props);
+  assert.deepEqual(authoredPose,original,'reach solving must not mutate a shared sampled pose');
+  assert.equal(draw(Character,props),first,'the same pose must render identically on a later seek');
+  assert.notEqual(first,draw(Character,{...props,authoredPose:undefined}),'authored body pose must be visible');
+  assert.equal(draw(Character,{kind:'bunny',still:true,authoredPose}),draw(Character,{kind:'bunny',still:true}),
+    'thumbnail poses must retain their established appearance');
+});
+
 test('speaking emotions ease, listeners react after a delay, and aliases seek identically',()=>{
   assert.equal(typeof actorPerformance,'function');
   const start=actorPerformance(scene,slot,'character',0,30),mid=actorPerformance(scene,slot,'character',5,30),settled=actorPerformance(scene,slot,'character',30,30);

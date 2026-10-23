@@ -23,7 +23,7 @@ const ChantLine: React.FC<{
   sceneT: number;
 }> = ({ text, words, active, t, index, palette, bpm, sceneT }) => {
   const { fps } = useVideoConfig();
-  const enter = spring({ frame: index * 6, fps, config: { damping: 12, stiffness: 120 } });
+  const enter = spring({ frame: Math.round(sceneT * fps) - index * 6, fps, config: { damping: 12, stiffness: 120 } });
   const tokens = words && words.length ? words : text.split(/\s+/).map((w) => ({ text: w, start: 0, end: 0 }));
   const beat = beatPhase(sceneT, bpm);
   return (
@@ -53,7 +53,8 @@ const ChantLine: React.FC<{
               color: active ? (on ? palette.accent : done ? palette.text : `${palette.text}cc`) : `${palette.text}66`,
               transform: `translateY(${lift}px) scale(${pop}) rotate(${(rand(i + index * 9) - 0.5) * 5}deg)`,
               textShadow: "0 6px 0 rgba(0,0,0,0.16)",
-              whiteSpace: "nowrap",
+              maxWidth: '100%',
+              overflowWrap: 'anywhere',
             }}
           >
             {word.text}
@@ -79,7 +80,7 @@ export const MoralChant: React.FC<{
   sceneT: number;
 }> = ({ rhyme, active, prompt, promptT, palette, bpm, sceneT }) => {
   const { fps } = useVideoConfig();
-  const card = spring({ frame: 0, fps, config: { damping: 11, stiffness: 110 } });
+  const card = spring({ frame: Math.round(sceneT * fps), fps, config: { damping: 11, stiffness: 110 } });
   const pSpring = spring({ frame: Math.max(0, Math.round(promptT * fps)), fps, config: { damping: 10, stiffness: 170 } });
   return (
     <div style={{ position: "absolute", left: 0, right: 0, top: 118, display: "flex", flexDirection: "column", alignItems: "center", gap: 22, pointerEvents: "none" }}>
@@ -89,6 +90,12 @@ export const MoralChant: React.FC<{
           border: `10px solid ${palette.accent}`,
           borderRadius: 64,
           padding: "30px 60px 34px",
+          width: 1640,
+          maxWidth: 'calc(100% - 120px)',
+          boxSizing: 'border-box',
+          fontSize: 72,
+          fontWeight: 700,
+          lineHeight: 1.2,
           boxShadow: "0 20px 44px rgba(0,0,0,0.24)",
           transform: `scale(${0.9 + card * 0.1})`,
           display: "flex",

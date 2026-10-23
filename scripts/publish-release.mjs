@@ -5,6 +5,7 @@
  * writes release_url to $GITHUB_OUTPUT. Locally without gh it just says so.
  */
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { parseArgs, readScript, resolveSlug, OUT_DIR, GENERATED_DIR } from "./lib/common.mjs";
@@ -19,7 +20,8 @@ function main() {
   const args = parseArgs();
   const slug = resolveSlug(args);
   const scriptFile = path.join(GENERATED_DIR, slug, "script.json");
-  const script = fs.existsSync(scriptFile) ? readScript(slug) : { title: args.title || slug, youtube: null };
+  if (!args.compilation && !fs.existsSync(scriptFile)) throw new Error(`Missing episode script: ${scriptFile}`);
+  const script = args.compilation ? { title: args.title || slug, youtube: null } : readScript(slug);
   const tag = args.tag || `video-${slug}`;
   const title = args.title || script.title;
   const files = (args.files ? String(args.files).split(",") : [
@@ -27,7 +29,8 @@ function main() {
     path.join(OUT_DIR, `${slug}.png`),
     path.join(OUT_DIR, `${slug}.metadata.txt`),
     path.join(GENERATED_DIR, slug, "script.json"),
-  ]).filter((f) => fs.existsSync(f));
+  ]);
+  for (const file of files) if (!fs.existsSync(file)) throw new Error(`Missing release asset: ${file}`);
 
   if (!gh(["--version"]).ok) {
     console.log("[release] gh CLI not available — skipping (this step runs in GitHub Actions)");
@@ -41,16 +44,24 @@ function main() {
     if (!created.ok) throw new Error(`gh release create failed: ${created.err}`);
     url = gh(["release", "view", tag, "--json", "url", "-q", ".url"]).out;
   }
-  // script.json would collide across releases in the asset list, so rename it
-  const uploads = files.map((f) => (path.basename(f) === "script.json" ? `${f}#${slug}.script.json` : f));
-  const up = gh(["release", "upload", tag, ...uploads, "--clobber"]);
-  if (!up.ok) throw new Error(`gh release upload failed: ${up.err}`);
-  recordStory(slug, {
+  // gh's # suffix is only a display label; the asset needs a real filename.
+  const uploadDir = fs.mkdtempSync(path.join(os.tmpdir(), "dreamy-release-"));
+  try {
+    const uploads = files.map(file => {
+      if (path.basename(file) !== "script.json") return file;
+      const named = path.join(uploadDir, `${slug}.script.json`);
+      fs.copyFileSync(file, named);
+      return named;
+    });
+    const up = gh(["release", "upload", tag, ...uploads, "--clobber"]);
+    if (!up.ok) throw new Error(`gh release upload failed: ${up.err}`);
+  } finally { fs.rmSync(uploadDir, {recursive: true, force: true}); }
+  if (!args.compilation) recordStory(slug, {
     status: "released",
     release: { url, tag },
     timeline: { released: new Date().toISOString().slice(0, 10) },
   });
-  console.log(`[release] ${url} (${files.length} files) — recorded in library/universe.json`);
+  console.log(`[release] ${url} (${files.length} files)${args.compilation ? "" : " — recorded in library/universe.json"}`);
   if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `release_url=${url}\n`);
 }
 

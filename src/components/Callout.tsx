@@ -10,12 +10,23 @@ const NUMBER_WORDS: Record<string, number> = { one: 1, two: 2, three: 3, four: 4
 /** seconds (into the line) at which each counted object pops: on the number words when we have timings */
 export function countTimes(spec: CalloutSpec, words: Word[] | undefined, lineSec: number): number[] {
   const n = Math.max(1, Math.min(10, spec.count ?? 3));
-  const numberWords = (words ?? []).filter((w) => NUMBER_WORDS[w.text.toLowerCase().replace(/[^a-z]/g, "")] || /^(10|[1-9])$/.test(w.text.replace(/[^0-9]/g, "")));
-  const times: number[] = [];
-  for (let i = 0; i < n; i++) {
-    times.push(numberWords[i] ? numberWords[i].start : 0.2 + ((lineSec - 0.6) * i) / Math.max(1, n - 1));
-  }
-  return times;
+  const numbers = (words ?? []).flatMap(word => {
+    const token = word.text.toLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
+    const value = NUMBER_WORDS[token] ?? (/^(10|[1-9])$/.test(token) ? Number(token) : 0);
+    return value && Number.isFinite(word.start) ? [{value, start: Math.max(0, word.start)}] : [];
+  });
+  return Array.from({length: n}, (_, i) => {
+    const value = i + 1, exact = numbers.find(word => word.value === value);
+    if (exact) return exact.start;
+    const previous = numbers.filter(word => word.value < value).at(-1), next = numbers.find(word => word.value > value);
+    // A line beginning at four already has three objects in its initial arrangement.
+    if (next && !previous) return 0;
+    if (previous) {
+      const end = next?.start ?? Math.max(previous.start, lineSec - .2), last = next?.value ?? n;
+      return previous.start + (end - previous.start) * (value - previous.value) / (last - previous.value);
+    }
+    return .2 + Math.max(0, lineSec - .6) * i / Math.max(1, n - 1);
+  });
 }
 
 const OutlinedText: React.FC<{ text: string; size: number; color: string; stroke?: string; strokeWidth?: number }> = ({ text, size, color, stroke = "#2f2438", strokeWidth = 8 }) => (
