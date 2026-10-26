@@ -155,6 +155,22 @@ test('bad inputs and missing rerun slugs are reported instead of silently substi
   assert.equal(fs.readFileSync(requests, 'utf8'), '');
 });
 
+test('range-only planning emits only frame ranges on a fresh runner without database work', t => {
+  const {dir, run, read, requests} = workspace(t);
+  const slug = 'range-only-retry';
+  // An empty hook episode contains the five-second end card and six-second bumper: 330 frames.
+  const permanent = JSON.stringify({slug, type: 'story', presentationVersion: 4, opening: 'hook', scenes: []});
+  fs.writeFileSync(path.join(dir, 'library/scripts', `${slug}.json`), permanent);
+  for (const [chunk, expected] of [['0/2', '0-164\n'], ['1/2', '165-329\n']]) {
+    const result = run('plan', ['--slug', slug, '--range', chunk], 'outage');
+    assert.equal(result.status, 0, result.stderr);
+    assert.equal(result.stdout, expected);
+  }
+  assert.equal(fs.existsSync(path.join(dir, 'library/local.db')), false);
+  assert.equal(read(`library/scripts/${slug}.json`), permanent);
+  assert.equal(fs.readFileSync(requests, 'utf8'), '');
+});
+
 test('template planning stays AI-free and commits a directed script', t => {
   const {run, read, requests} = workspace(t);
   const result = run('plan', ['--template', 'counting', '--hero', 'bunny', '--seed', '42', '--library'], 'outage');

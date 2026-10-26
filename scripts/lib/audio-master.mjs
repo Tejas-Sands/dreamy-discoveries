@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {runMedia} from './media-check.mjs';
+import {ffmpegBin,runMedia} from './media-check.mjs';
 
 // Project mix targets; cached individual voice recordings are never modified.
 export const MIX_TARGET={integrated:-16,truePeak:-2,range:11};
@@ -18,7 +18,7 @@ export function parseLoudness(stderr) {
 }
 
 export function measureAudio(input) {
-  return parseLoudness(runMedia('ffmpeg',['-hide_banner','-nostats','-i',input,'-vn','-af',`loudnorm=${target}:print_format=json`,'-f','null','-']).stderr);
+  return parseLoudness(runMedia(ffmpegBin(),['-hide_banner','-nostats','-i',input,'-vn','-af',`loudnorm=${target}:print_format=json`,'-f','null','-']).stderr);
 }
 
 export function masterAudio(input,output) {
@@ -30,9 +30,10 @@ export function masterAudio(input,output) {
     const args=['-y','-hide_banner','-loglevel','error','-i',input,'-vn'];
     if(!before.silent)args.push('-af',`loudnorm=${target}:measured_I=${before.integrated}:measured_TP=${before.truePeak}:measured_LRA=${before.range}:measured_thresh=${before.threshold}:offset=${before.offset}:linear=true`);
     args.push('-ar','48000','-c:a','aac','-b:a','192k','-f','adts',temporary);
-    runMedia('ffmpeg',args);
+    // Match Remotion's pinned encoder: Ubuntu's FFmpeg 6 AAC overshoots the peak limit.
+    runMedia(ffmpegBin(),args);
     const after=measureAudio(temporary);
-    if(!before.silent&&(after.silent||Math.abs(after.integrated-MIX_TARGET.integrated)>1||after.truePeak>-1.5))throw new Error('Mastered audio did not meet loudness/peak limits');
+    if(!before.silent&&(after.silent||Math.abs(after.integrated-MIX_TARGET.integrated)>1||after.truePeak>-1.5))throw new Error(`Mastered audio did not meet loudness/peak limits: I=${after.integrated} LUFS, TP=${after.truePeak} dBTP (expected I=${MIX_TARGET.integrated} +/-1, TP<=-1.5)`);
     fs.renameSync(temporary,output);
     return {version:1,target:MIX_TARGET,before,after,silent:!!before.silent};
   } finally {if(fs.existsSync(temporary))fs.unlinkSync(temporary);}

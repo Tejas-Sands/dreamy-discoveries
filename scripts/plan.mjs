@@ -60,7 +60,6 @@ function loadFromLibrary(slug) {
 import { initDbSchema, seedFromFiles } from "./lib/db.mjs";
 
 function main() {
-  initDbSchema().then(seedFromFiles).catch(() => {});
   const args = parseArgs();
   if (args.minutes !== undefined && (!Number.isFinite(Number(args.minutes)) || Number(args.minutes) < 1 || Number(args.minutes) > 8)) {
     throw new Error('minutes must be between 1 and 8');
@@ -91,6 +90,9 @@ function main() {
     }
     return;
   }
+
+  // Range-only stdout is consumed as --frames; do not start background DB logging there.
+  initDbSchema().then(seedFromFiles).catch(() => {});
 
   let slug;
   let scriptSource = args.slug ? 'library' : args.template ? 'template' : 'llm';

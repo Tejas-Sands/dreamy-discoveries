@@ -1,7 +1,30 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {spawnSync} from 'node:child_process';
 import YAML from 'yaml';
+
+test('planning keeps available media tools without package installation or PATH replacement',t=>{
+  const {jobs}=YAML.parse(fs.readFileSync(new URL('../.github/workflows/make-video.yml',import.meta.url),'utf8'));
+  const setup=jobs.plan.steps.find(step=>/media tools for regression tests/i.test(step.name??''));
+  assert.ok(setup);
+  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'dreamy-ci-media-'));
+  t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
+  const output=path.join(dir,'github-path');
+  const mediaPath=new URL('../node_modules/@remotion/compositor-linux-x64-gnu',import.meta.url).pathname;
+  const result=spawnSync('/bin/bash',['-e','-c',setup.run],{
+    cwd:new URL('../',import.meta.url),encoding:'utf8',env:{...process.env,PATH:mediaPath,GITHUB_PATH:output},
+  });
+  assert.ifError(result.error);assert.equal(result.status,0,result.stderr);
+  assert.equal(fs.existsSync(output),false,'fixture generation must keep its full host FFmpeg');
+  for(const tool of ['ffmpeg','ffprobe']) {
+    const version=spawnSync(tool,['-version'],{encoding:'utf8',env:{...process.env,PATH:mediaPath}});
+    assert.ifError(version.error);assert.equal(version.status,0,version.stderr);
+    assert.match(version.stdout,new RegExp(`${tool} version`));
+  }
+});
 
 test('CI restores and saves the engine selected by the script before checking voice needs', () => {
   const {jobs}=YAML.parse(fs.readFileSync(new URL('../.github/workflows/make-video.yml',import.meta.url),'utf8'));
