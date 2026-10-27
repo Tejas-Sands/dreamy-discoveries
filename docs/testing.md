@@ -46,6 +46,19 @@ The fast suite and TypeScript run on Node 22 and 24; real rendering and local vo
 checks run on Node 22 after those pass. Chrome, npm and Kokoro model caches are
 retained. The daily video planner also retains its existing tests/typecheck gate.
 
+All test, episode and compilation jobs share `.github/scripts/install-media.sh`.
+It reuses installed tools/fonts, tries the runner's cached package indexes first,
+and permits one Ubuntu-only index refresh and one install retry. Every package
+operation has a 60-second total limit, a five-second termination grace period,
+and 15-second lock/network limits. Package logs remain visible, and package hooks
+run noninteractively. Offline regressions exercise stale indexes, refresh timeouts,
+persistent failures, preinstalled tools, and the font-only/render setup paths.
+
+The first hosted test run (`40500723099`) exposed this setup gap: Node 24 passed
+all 374 tests, while Node 22's quiet package setup timed out before tests started.
+Local test success alone did not establish hosted setup reliability. Follow-up
+changes must be verified through completion on GitHub, including both smoke jobs.
+
 ## The October 27 audio failure
 
 In run `40479332004`, local voice generation succeeded. The AAC encoder reconstructed

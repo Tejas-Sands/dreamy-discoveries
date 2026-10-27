@@ -98,10 +98,7 @@ jobs:
 
       - name: Install media tools for regression tests
         timeout-minutes: 4
-        run: |
-          if command -v ffmpeg >/dev/null && command -v ffprobe >/dev/null; then exit 0; fi
-          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update -qq
-          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y -qq ffmpeg > /dev/null
+        run: /bin/bash .github/scripts/install-media.sh
 
       - name: Check script and animation regressions
         run: npm test && npm run typecheck
@@ -278,7 +275,9 @@ jobs:
           restore-keys: |
             remotion-${{ hashFiles('package-lock.json') }}-
       - run: npx remotion browser ensure
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Prepare media tools
+        timeout-minutes: 4
+        run: /bin/bash .github/scripts/install-media.sh
       - run: node scripts/render.mjs --slug "$SLUG" --audio-only --out "out/episodes/$SLUG.aac"
       - uses: actions/upload-artifact@v4
         with:
@@ -308,7 +307,8 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Install emoji font (callouts, props)
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null
+        timeout-minutes: 4
+        run: /bin/bash .github/scripts/install-media.sh --emoji-only
       - uses: actions/download-artifact@v4
         with:
           name: script-${{ env.SLUG }}
@@ -372,7 +372,9 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
       - run: npm ci
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-color-emoji ffmpeg > /dev/null
+      - name: Prepare media tools and emoji font
+        timeout-minutes: 4
+        run: /bin/bash .github/scripts/install-media.sh --emoji
       - uses: actions/download-artifact@v4
         with:
           name: script-${{ env.SLUG }}

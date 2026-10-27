@@ -30,3 +30,9 @@ AAC overshoot after normalization; too-short loudness windows; source/output pre
 - Independent review found no remaining critical/important issues. Its environment-dependent fixture finding was fixed; the final smoke rerun explicitly selects Edge in the parent environment. Added and passed its suggested correction-exhaustion test, covering the three-encode cap and preservation of existing output after encoding starts.
 
 - Final verification: `npm run verify` passed all 374 tests and TypeScript. The complete pipeline smoke passed again with Edge selected in the parent environment (524 frames, -16.27 LUFS, -2.03 dBTP, 221 seconds). The real Kokoro smoke passed four syntheses and a zero-synthesis rerun. Workflow YAML parses and `git diff --check` passes. GitHub-hosted jobs have not been run with these local changes.
+
+## Hosted setup follow-up
+
+Run `40500723099` passed all 374 tests on Node 24, but the Node 22 runner timed out in quiet package setup before tests started. The log does not establish whether update or install was stalled. Replaced the repeated inline package setup in tests, episode production and compilation with `.github/scripts/install-media.sh`: reuse installed tools/fonts; first use cached package indexes; one Ubuntu-only refresh and one install retry; 60-second operation caps plus five-second kill grace and 15-second lock/network limits; noninteractive hooks and visible logs. Existing job limits and all caches remain unchanged.
+
+Seven offline setup regressions now cover installed tools, cached indexes, stale indexes, timed-out refresh, persistent failure, font-only rendering, and combined setup reuse. The original setup failed these regressions. The full updated suite passes 381 tests and TypeScript locally. Completion requires the actual hosted Node 22/24 jobs and both smoke jobs to finish successfully.
