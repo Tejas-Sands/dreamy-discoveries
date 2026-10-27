@@ -187,7 +187,8 @@ async function main() {
     const store = storePaths(hash, ext);
     let entry;
     if (inStore(hash, ext)) {
-      entry = { ...JSON.parse(fs.readFileSync(store.meta, "utf8")), audio: file };
+      const {durationSec,words,envelope}=JSON.parse(fs.readFileSync(store.meta,"utf8"));
+      entry = { audio: file, durationSec, words, envelope };
       reusedCount++;
     } else {
       const { durationSec, words, envelope } = await synthesize(text, selectedVoice, store.audio, settings);

@@ -1,0 +1,91 @@
+name: Test studio pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: studio-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Tests and types (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: true
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - name: Install media tools if missing
+        timeout-minutes: 4
+        run: |
+          if command -v ffmpeg >/dev/null && command -v ffprobe >/dev/null; then exit 0; fi
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update -qq
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y -qq ffmpeg > /dev/null
+      - run: npm run verify
+
+  render-smoke:
+    name: Real audio, chunks and stitch
+    needs: checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install media tools and emoji font
+        timeout-minutes: 4
+        run: |
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update -qq
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
+      - name: Cache Chrome Headless Shell and bundler cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.remotion
+            node_modules/.cache/webpack
+          key: remotion-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**', 'scripts/lib/staging.mjs') }}
+          restore-keys: remotion-${{ hashFiles('package-lock.json') }}-
+      - run: npx remotion browser ensure
+      - run: npm run test:integration
+
+  voice-smoke:
+    name: Local Kokoro synthesis and cache rerun
+    needs: checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Install media tools if missing
+        timeout-minutes: 4
+        run: |
+          if command -v ffmpeg >/dev/null && command -v ffprobe >/dev/null; then exit 0; fi
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update -qq
+          sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y -qq ffmpeg > /dev/null
+      - name: Cache the Kokoro model
+        uses: actions/cache@v4
+        with:
+          path: .cache/models
+          key: kokoro-82m-v1.0-q8
+      - run: npm run test:tts

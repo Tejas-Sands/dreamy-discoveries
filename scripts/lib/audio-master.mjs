@@ -27,14 +27,26 @@ export function masterAudio(input,output) {
   fs.mkdirSync(path.dirname(output),{recursive:true});
   const temporary=path.join(path.dirname(output),`.${path.basename(output)}.mastering-${process.pid}.aac`);
   try {
-    const args=['-y','-hide_banner','-loglevel','error','-i',input,'-vn'];
-    if(!before.silent)args.push('-af',`loudnorm=${target}:measured_I=${before.integrated}:measured_TP=${before.truePeak}:measured_LRA=${before.range}:measured_thresh=${before.threshold}:offset=${before.offset}:linear=true`);
-    args.push('-ar','48000','-c:a','aac','-b:a','192k','-f','adts',temporary);
-    // Match Remotion's pinned encoder: Ubuntu's FFmpeg 6 AAC overshoots the peak limit.
-    runMedia(ffmpegBin(),args);
-    const after=measureAudio(temporary);
-    if(!before.silent&&(after.silent||Math.abs(after.integrated-MIX_TARGET.integrated)>1||after.truePeak>-1.5))throw new Error(`Mastered audio did not meet loudness/peak limits: I=${after.integrated} LUFS, TP=${after.truePeak} dBTP (expected I=${MIX_TARGET.integrated} +/-1, TP<=-1.5)`);
-    fs.renameSync(temporary,output);
-    return {version:1,target:MIX_TARGET,before,after,silent:!!before.silent};
+    let peak=MIX_TARGET.truePeak,offset=before.offset,after;
+    for(let attempts=1;attempts<=3;attempts++) {
+      const args=['-y','-hide_banner','-loglevel','error','-i',input,'-vn'];
+      if(!before.silent)args.push('-af',`loudnorm=I=${MIX_TARGET.integrated}:TP=${peak}:LRA=${MIX_TARGET.range}:measured_I=${before.integrated}:measured_TP=${before.truePeak}:measured_LRA=${before.range}:measured_thresh=${before.threshold}:offset=${offset}:linear=true`);
+      args.push('-ar','48000','-c:a','aac','-b:a','192k','-f','adts',temporary);
+      runMedia(ffmpegBin(),args);
+      after=measureAudio(temporary);
+      if(before.silent||!after.silent&&Math.abs(after.integrated-MIX_TARGET.integrated)<=1&&after.truePeak<=-1.5) {
+        fs.renameSync(temporary,output);
+        return {version:1,target:MIX_TARGET,before,after,silent:!!before.silent,attempts};
+      }
+      if(after.silent)break;
+      // AAC can reconstruct peaks above the PCM limiter ceiling, even with the
+      // pinned encoder. Correct measured overshoot, always from the original mix.
+      const reduction=Math.max(0,after.truePeak-(-1.75)); // 0.25 dB below the acceptance limit.
+      peak=Math.max(-9,peak-reduction);
+      // A lower limiter ceiling can lower loudness too; compensate on the next
+      // source encode and validate both measurements again, rather than scaling AAC.
+      offset=Math.max(-99,Math.min(99,offset+MIX_TARGET.integrated-after.integrated+reduction));
+    }
+    throw new Error(`Mastered audio did not meet loudness/peak limits after correction: I=${after.integrated} LUFS, TP=${after.truePeak} dBTP (expected I=${MIX_TARGET.integrated} +/-1, TP<=-1.5)`);
   } finally {if(fs.existsSync(temporary))fs.unlinkSync(temporary);}
 }

@@ -13,6 +13,7 @@ Context: This directory holds the five GitHub Actions workflows that form the co
 | `compile.yml` | Manual dispatch | Stitch finished episodes into a compilation; zero AI, zero re-rendering |
 | `telegram-calendar.yml` | Manual; 5-minute cron gated by `TELEGRAM_CALENDAR_ENABLED` | Owner upload confirmations → calendar + optional Turso mirror |
 | `assets.yml` | Push to `build-audio-assets.mjs` + manual | Rebuild music loops + SFX WAVs |
+| `test.yml` | Push to main, pull request, manual | Node 22/24 tests and types, real rendering/stitching, local Kokoro smoke tests |
 
 ---
 

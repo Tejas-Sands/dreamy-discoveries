@@ -289,7 +289,7 @@ test('audio generation uses the same scene animal as cache planning and reruns w
   for (const text of texts) for (const voice of [...Object.values(settings.castVoices),'af_bella']) {
     const key = hash(voice,text);
     fs.writeFileSync(path.join(storeDir,`${key}.wav`),Buffer.from(`cached voice: ${voice}`));
-    fs.writeFileSync(path.join(storeDir,`${key}.json`),JSON.stringify({text,durationSec:.3,words:[]}));
+    fs.writeFileSync(path.join(storeDir,`${key}.json`),JSON.stringify({text,durationSec:.3,words:[],synthesis:settings}));
   }
   const cacheBefore = fs.readdirSync(storeDir).sort().map(file => [file,fs.readFileSync(path.join(storeDir,file),'hex')]);
   const env = {...process.env,TTS_ENGINE:'kokoro',TTS_VOICE:'af_nova',NARRATOR_VOICE:'af_nova',TTS_SPEED:'1.4',TURSO_URL:'',TURSO_AUTH_TOKEN:''};
@@ -303,6 +303,9 @@ test('audio generation uses the same scene animal as cache planning and reruns w
   assert.match(run([]),/0 lines synthesized/);
   const read = () => JSON.parse(fs.readFileSync(path.join(episodeDir,'script.json'),'utf8'));
   const generated = read();
+  for(const line of [generated.intro,generated.outro,...generated.scenes.flatMap(scene=>scene.lines)]) {
+    assert.equal(Object.hasOwn(line,'synthesis'),false,'cache bookkeeping must not be copied into script lines');
+  }
   const shared = generated.scenes.slice(0,2).map(scene => scene.lines.filter(line => line.text === 'We can do it!').map(line => line.audio));
   assert.deepEqual(shared,[
     [`line-${hash('af_heart','We can do it!')}.wav`,`line-${hash('am_michael','We can do it!')}.wav`],
