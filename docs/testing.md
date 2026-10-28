@@ -47,17 +47,33 @@ checks run on Node 22 after those pass. Chrome, npm and Kokoro model caches are
 retained. The daily video planner also retains its existing tests/typecheck gate.
 
 All test, episode and compilation jobs share `.github/scripts/install-media.sh`.
-It reuses installed tools/fonts, tries the runner's cached package indexes first,
-and permits one Ubuntu-only index refresh and one install retry. Every package
-operation has a 60-second total limit, a five-second termination grace period,
-and 15-second lock/network limits. Package logs remain visible, and package hooks
-run noninteractively. Offline regressions exercise stale indexes, refresh timeouts,
-persistent failures, preinstalled tools, and the font-only/render setup paths.
+It reuses installed tools/fonts and tries the runner's cached package indexes
+first. Package downloads run with `--download-only`, with one Ubuntu-only index
+refresh and one download retry. Only after downloads finish does a separate
+`--no-download` install unpack and configure cached packages. Downloads and
+installation each have a 60-second limit; refreshing indexes has a 30-second
+limit. The worst case, including four five-second kill grace periods, is 230
+seconds inside the unchanged four-minute setup step. Lock/network limits remain
+15 seconds, logs stay visible, and package hooks run noninteractively.
+
+Offline regressions exercise slow and timed-out downloads, interrupted package
+state, stale indexes, refresh timeouts, persistent download failures, failed
+unpacking, preinstalled tools, and the font-only/render setup paths. Failed
+unpacking stops clearly; refreshing indexes cannot repair an interrupted dpkg
+transaction.
 
 The first hosted test run (`40500723099`) exposed this setup gap: Node 24 passed
 all 374 tests, while Node 22's quiet package setup timed out before tests started.
 Local test success alone did not establish hosted setup reliability. Follow-up
 changes must be verified through completion on GitHub, including both smoke jobs.
+
+In run `40668038554` on October 28, the voice, audio and both render jobs passed.
+The stitch job spent nearly a minute downloading FFmpeg dependencies; the old
+combined download/install timeout then killed dpkg during unpacking. Its index
+refresh succeeded, but the retry failed with “dpkg was interrupted.” The earlier
+setup doubles returned failed exits without modeling partial package state. The
+slow-download regression now reproduces that exact failure against the old
+setup and requires the download phase to finish before unpacking can start.
 
 ## The October 27 audio failure
 
