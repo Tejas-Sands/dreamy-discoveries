@@ -75,6 +75,21 @@ setup doubles returned failed exits without modeling partial package state. The
 slow-download regression now reproduces that exact failure against the old
 setup and requires the download phase to finish before unpacking can start.
 
+The follow-up [hosted verification run](https://github.com/Tejas-Sands/dreamy-discoveries/actions/runs/40677289058)
+passed all 384 regressions and TypeScript on Node 22 and 24, plus the real
+render/stitch and Kokoro/cache smoke jobs. Its render runner spent 51 seconds
+downloading 62.8 MB of dependencies; setup took 63 seconds overall and succeeded
+because unpacking received a fresh timeout. The media smoke verified 524 frames,
+-16.27 LUFS and -2.03 dBTP. This verifies the shared setup on a hosted runner as
+well as the offline recovery control flow.
+
+Retrying only the failed final job in [the original production run](https://github.com/Tejas-Sands/dreamy-discoveries/actions/runs/40668038554)
+also succeeded. Its first download actually hit the 60-second cap; the bounded
+refresh and download retry recovered before installation began. It reused the
+saved audio and two video chunks, verified and published all four release assets,
+delivered the Telegram review video, and committed catalog, universe and completed
+queue state. No story regeneration, voice synthesis or chunk rerender was needed.
+
 ## The October 27 audio failure
 
 In run `40479332004`, local voice generation succeeded. The AAC encoder reconstructed
