@@ -53,6 +53,14 @@ version of an existing story, run `node scripts/plan.mjs --slug SOURCE --welcome
 enables this flag for queued scripts. An ordinary `--slug SOURCE` rerun retains
 the existing episode. Story revisions reuse all existing voice identities.
 
+The [hosted welcome verification](https://github.com/Tejas-Sands/dreamy-discoveries/actions/runs/40683421646)
+passed all 396 tests and TypeScript on Node 22 and 24, including both real-media
+smoke jobs. The [revised Rocky production run](https://github.com/Tejas-Sands/dreamy-discoveries/actions/runs/40683431331)
+then completed through release and Telegram: one new greeting synthesized,
+59 recordings reused, three chunks stitched and verified, and all four release
+assets published. Rocky's greeting is 4.975 seconds; the story starts at 8.967
+seconds after the logo/title welcome. The original episode remains available.
+
 ## CI
 
 `.github/workflows/test.yml` runs on main pushes, pull requests and manual dispatch.

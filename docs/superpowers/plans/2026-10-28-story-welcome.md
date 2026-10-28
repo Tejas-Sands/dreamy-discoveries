@@ -8,24 +8,24 @@
 
 ## Task 1: Opening policy, revision and timing
 
-- [ ] Add failing behavioral tests for logo → complete greeting → story timing, long speech/vox, planner parity and unchanged legacy openings.
-- [ ] Add deterministic welcome revisions to the Director; preserve the original story and synthesis identity. New generation defaults to welcome and prompts for a brief contextual greeting within the existing writing call.
-- [ ] Add `plan --welcome` to create/reuse a new permanent revision, with collision checks; pin `revisionOf` in catalog/universe summaries so standby selection consumes the original story too.
-- [ ] Add opt-in workflow input and enable it for scheduled stories. Preserve normal `--slug` reruns and all existing caches/limits. Test the production CLI and workflow argument paths.
-- [ ] Run focused tests, watch failures before implementation, then verify the fixes.
+- [x] Add failing behavioral tests for logo → complete greeting → story timing, long speech/vox, planner parity and unchanged legacy openings.
+- [x] Add deterministic welcome revisions to the Director; preserve the original story and synthesis identity. New generation defaults to welcome and prompts for a brief contextual greeting within the existing writing call.
+- [x] Add `plan --welcome` to create/reuse a new permanent revision, with collision checks; pin `revisionOf` in catalog/universe summaries so standby selection consumes the original story too.
+- [x] Add opt-in workflow input and enable it for scheduled stories. Preserve normal `--slug` reruns and all existing caches/limits. Test the production CLI and workflow argument paths.
+- [x] Run focused tests, watch failures before implementation, then verify the fixes.
 
 ## Task 2: Brand and title rendering
 
-- [ ] Add failing component checks for the branded opening and greeting card, audio muting, and exclusive opening phases.
-- [ ] Reuse existing brand artwork for the 2.4-second intro with a faded local musical signature. Schedule the title card afterwards; suppress the hook overlay/countdown for welcome episodes and keep the hero greeting visible.
-- [ ] Start the episode music after the brand signature, and duck it under the greeting. Verify frame-stable rendering and no speech overlap.
+- [x] Add failing component checks for the branded opening and greeting card, audio muting, and exclusive opening phases.
+- [x] Reuse existing brand artwork for the 2.4-second intro with a faded local musical signature. Schedule the title card afterwards; suppress the hook overlay/countdown for welcome episodes and keep the hero greeting visible.
+- [x] Start the episode music after the brand signature, and duck it under the greeting. Verify frame-stable rendering and no speech overlap.
 
 ## Task 3: Complete verification and revised episode
 
-- [ ] Extend real rendering/stitching and Kokoro/cache smoke coverage to include welcome speech and opening phase boundaries.
-- [ ] Run the full suite, TypeScript, real media smoke and real voice checks; inspect actual opening stills/clip.
-- [ ] Request one independent final code review; resolve material findings.
-- [ ] Create `rocky-balloon-party-11-welcome` through the Director, preserving original script/audio. Commit/push the reviewed change and revised script, verify hosted tests, and run the existing video workflow for the revised episode through release and Telegram.
+- [x] Extend real rendering/stitching and Kokoro/cache smoke coverage to include welcome speech and opening phase boundaries.
+- [x] Run the full suite, TypeScript, real media smoke and real voice checks; inspect actual opening stills/clip.
+- [x] Request one independent final code review; resolve material findings.
+- [x] Create `rocky-balloon-party-11-welcome` through the Director, preserving original script/audio. Commit/push the reviewed change and revised script, verify hosted tests, and run the existing video workflow for the revised episode through release and Telegram.
 
 ## Review focus
 
@@ -38,3 +38,4 @@ Cached speech must retain its identity; revised scripts must never overwrite the
 - Ruling: the legacy hook regression remains valid for explicit historical hooks. The new welcome has separate tests; changing all historical timing would violate permanent-script reruns.
 - Real local Kokoro smoke passed five syntheses including the greeting, then zero on cache rerun. Rocky's actual greeting took 4.975 seconds, the story starts at 8.967 seconds, and only one new line was synthesized with 59 existing recordings reused. Rendering and independent review are underway.
 - The actual 1s/4s/9.5s preview frames show the logo, visible title/greeting and story in order. Real render/audio/chunk/stitch smoke passed: 715 frames, -16.22 LUFS, -2.09 dBTP. Independent review found the rolling-object opening gate still required `hook`; a failing welcome regression reproduced it, and the narrow gate now also accepts `welcome`. The final full rerun passed all 396 tests and TypeScript. Reviewer verified 21 focused tests and no remaining material findings. Original Rocky scene values, voice identities and Director idempotence are preserved.
+- Hosted verification run `40683421646` completed successfully on Node 22 and 24 and both smoke jobs. Production run `40683431331` completed successfully: one new greeting, 59 reused recordings, three validated chunks, all four release files, Telegram video delivery, and catalog/universe records carrying the source revision link. Release: https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rocky-balloon-party-11-welcome.
