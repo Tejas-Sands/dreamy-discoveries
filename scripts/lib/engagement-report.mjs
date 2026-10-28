@@ -1,4 +1,4 @@
-import {FPS, T} from './estimate.mjs';
+import {FPS, T, estimateIntroFrames, estimateFrames} from './estimate.mjs';
 import {auditStory} from './story-audit.mjs';
 
 const header = value => String(value).normalize('NFKD').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -100,15 +100,16 @@ export function parseStudioExport(source, {format} = {}) {
 const frames = sec => Math.round(sec * FPS);
 function episodeTimeline(script) {
   if (!script) return null;
-  let cursor = (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook' ? 0 :
-    frames(Math.max(T.INTRO_MIN, T.INTRO_SPEAK_AT + (script.intro?.durationSec ?? 0) + .4 + T.COUNTDOWN));
+  let cursor = estimateIntroFrames(script);
   const scenes = [];
   let estimated = false;
   for (const [sceneIndex, scene] of (script.scenes ?? []).entries()) {
     const startFrame = cursor;
     const spoken = line => {
       if (!Number.isFinite(line.durationSec)) estimated = true;
-      return frames((line.voxPreSec ?? 0) + (line.durationSec ?? T.DEFAULT_LINE) + T.LINE_GAP + (line.voxPostSec ?? 0));
+      return (script.presentationVersion ?? 0) >= 4
+        ? frames(line.voxPreSec ?? 0) + frames(line.durationSec ?? T.DEFAULT_LINE) + frames(T.LINE_GAP) + frames(line.voxPostSec ?? 0)
+        : frames((line.voxPreSec ?? 0) + (line.durationSec ?? T.DEFAULT_LINE) + T.LINE_GAP + (line.voxPostSec ?? 0));
     };
     for (const line of scene.lines ?? []) cursor += spoken(line);
     cursor += frames(scene.holdSec ?? 0) + frames(T.SCENE_PAD);
@@ -116,9 +117,8 @@ function episodeTimeline(script) {
     scenes.push({sceneIndex, sceneNumber: sceneIndex + 1, kind: scene.kind, startFrame, endFrame: cursor,
       startSec: startFrame / FPS, endSec: cursor / FPS});
   }
-  cursor += frames(Math.max(T.END_MIN, .8 + (script.outro?.durationSec ?? 0) + 1.6)) + frames(T.BRAND_OUTRO);
   if (script.intro?.text && !Number.isFinite(script.intro.durationSec) || script.outro?.text && !Number.isFinite(script.outro.durationSec)) estimated = true;
-  return {fps: FPS, durationSec: cursor / FPS, timing: estimated ? 'estimated' : 'voice-timed', scenes};
+  return {fps: FPS, durationSec: estimateFrames(script) / FPS, timing: estimated ? 'estimated' : 'voice-timed', scenes};
 }
 
 const rounded = value => Math.round(value * 100) / 100;

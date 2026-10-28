@@ -48,7 +48,7 @@ export interface ScoreSection {
 /** Adjacent identical tracks form one loop; only actual story score changes restart audio. */
 export function scoreSections(script: KidsScript, schedule: Schedule): ScoreSection[] {
   const spans: Array<{from: number; to: number; music: MusicSpec | null}> = [];
-  if (schedule.intro > 0) spans.push({from: 0, to: schedule.intro, music: defaultScore(script)});
+  if (schedule.intro > 0) spans.push({from: schedule.brandIntro ?? 0, to: schedule.intro, music: defaultScore(script)});
   script.scenes.forEach((scene, index) => {
     const slot = schedule.scenes[index];
     if (slot) spans.push({from: slot.from, to: slot.from + slot.duration, music: sceneScore(scene, script)});

@@ -411,6 +411,14 @@ function partyGuests(script, scene, si, count, main) {
 const VERSE_CYCLE = ["idle", "nod", "wave", "dance", "look", "jump"];
 const STORY_CYCLE = ["idle", "walk", "look", "nod", "idle", "think"];
 
+/** Explicit opt-in: a presentation revision never replaces its permanent source. */
+export function welcomeRevision(input) {
+  if (input.type !== 'story' || input.opening === 'welcome') return clone(input);
+  return {...clone(input),slug:`${input.slug}-welcome`,revisionOf:input.revisionOf ?? input.slug,
+    presentationVersion:Math.max(4,input.presentationVersion ?? 0),
+    opening:'welcome'};
+}
+
 export function directScript(input, opts = {}) {
   const script = clone(input);
   script.version = 2;
@@ -428,7 +436,8 @@ export function directScript(input, opts = {}) {
   // ── greeting over the title card ──
   const intro = script.intro ? normalizeLine(script.intro) : null;
   if ((script.presentationVersion ?? 0) >= 1) {
-    script.opening = script.opening === 'title' || script.type !== 'story' || intro ? 'title' : 'hook';
+    script.opening = script.opening === 'welcome' && script.type === 'story' ? 'welcome'
+      : script.opening === 'title' || script.type !== 'story' || intro ? 'title' : 'hook';
   }
   if (intro && !intro.text) intro.text = `Hi friends! I'm ${main.name}!`;
   script.intro = script.opening === 'hook' && (script.presentationVersion ?? 0) >= 1 ? null : intro
@@ -436,7 +445,9 @@ export function directScript(input, opts = {}) {
     : normalizeLine({
         text:
           script.type === "story"
-            ? `Hi friends! I'm ${main.name}! I have a story for you. Are you ready?`
+            ? script.opening === 'welcome'
+              ? `Hi friends! I'm ${main.name}. Welcome to Dreamy Discoveries! Let's start our story!`
+              : `Hi friends! I'm ${main.name}! I have a story for you. Are you ready?`
             : `Hi friends! I'm ${main.name}! Are you ready to sing? Let's go!`,
         role: "greeting",
         speaker: "character",

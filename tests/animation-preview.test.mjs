@@ -13,17 +13,18 @@ const preview=fs.existsSync(previewPath)?await import(previewPath.href):{};
 const require=createRequire(import.meta.url);
 require.extensions['.ts']=require.extensions['.tsx']=(module,file)=>module._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true,target:ts.ScriptTarget.ES2022}}).outputText,file);
 let frame=15;
+const sequences=[];
 const originalLoad=Module._load;
 Module._load=function(name,...args){
   if(name.startsWith('@remotion/google-fonts/'))return {loadFont:()=>({fontFamily:'sans-serif'})};
-  if(name==='remotion')return {...originalLoad.call(this,name,...args),useCurrentFrame:()=>frame,useVideoConfig:()=>({fps:30,width:1920,height:1080,durationInFrames:2000}),Sequence:({children})=>React.createElement(React.Fragment,null,children),AbsoluteFill:({children,style})=>React.createElement('div',{style},children),Audio:props=>React.createElement('audio',{src:props.src}),Img:props=>React.createElement('img',props)};
+  if(name==='remotion')return {...originalLoad.call(this,name,...args),useCurrentFrame:()=>frame,useVideoConfig:()=>({fps:30,width:1920,height:1080,durationInFrames:2000}),Sequence:({children,...props})=>{sequences.push(props);return React.createElement(React.Fragment,null,children);},AbsoluteFill:({children,style})=>React.createElement('div',{style},children),Audio:props=>React.createElement('audio',{src:props.src}),Img:props=>React.createElement('img',props)};
   return originalLoad.call(this,name,...args);
 };
 const comparisonPath=new URL('../src/AnimationComparison.tsx',import.meta.url);
 const comparison=fs.existsSync(comparisonPath)?require('../src/AnimationComparison.tsx'):{};
 const {KidsVideo}=require('../src/KidsVideo.tsx');
 const {TitleCard,Countdown,EndCard}=require('../src/components/Cards.tsx');
-const {BrandOutro}=require('../src/components/BrandOutro.tsx');
+const {BrandOutro,BrandIntro}=require('../src/components/BrandOutro.tsx');
 Module._load=originalLoad;
 const {computeSchedule}=require('../src/lib/timing.ts');
 const {getPalette}=require('../src/lib/palettes.ts');
@@ -71,6 +72,45 @@ test('muted video, title, countdown, endcard and brand remove all audio while de
   for(const [Component,props] of [[KidsVideo,{slug:script.slug,script,baked:{}}],[TitleCard,{slug:script.slug,script,palette,countdownFrom:70,baked:{}}],[Countdown,{script,palette}],[EndCard,{slug:script.slug,script,palette,starsEarned:0,baked:{}}],[BrandOutro,{}]]){
     const draw=extension=>renderToStaticMarkup(React.createElement(Component,{...props,...extension}));assert.doesNotMatch(draw({muted:true}),/<audio /,Component.name);assert.match(draw({}),/<audio /,Component.name);assert.equal(draw({muted:false}),draw({}));
   }
+});
+
+test('welcome branding uses the existing logo/music and is silent in muted render chunks',()=>{
+  assert.equal(typeof BrandIntro,'function');
+  const draw=muted=>renderToStaticMarkup(React.createElement(BrandIntro,{muted}));
+  frame=30;
+  const first=draw(false);
+  assert.match(first,/brand\/dreamy-d-original\.png/);
+  assert.match(first,/brand\/dream-sky\.png/);
+  assert.match(first,/sfx\/dreamy-outro\.wav/);
+  assert.doesNotMatch(draw(true),/<audio /);
+  frame=60;draw(false);frame=30;
+  assert.equal(draw(false),first,'seeking into the opening must reproduce the same frame');
+});
+
+test('a welcome greeting stays visible and does not enter an absent countdown',()=>{
+  frame=60;
+  const script={slug:'dev-welcome',type:'story',presentationVersion:4,opening:'welcome',title:'Rocky and the Balloon',
+    palette:'meadow',mainCharacter:{kind:'raccoon',name:'Rocky'},intro:{text:'Hi friends! I am Rocky!',audio:'intro.wav',durationSec:5},
+    scenes:[{kind:'story',background:'park',character:'raccoon',lines:[]}]};
+  const markup=renderToStaticMarkup(React.createElement(TitleCard,{script,palette:getPalette('meadow'),slug:script.slug,countdownFrom:-1,baked:{}}));
+  const panel=markup.match(/<div style="([^"]*left:960px[^"]*width:770px[^"]*)"/);
+  assert.ok(panel,'the greeting panel must be rendered');
+  assert.doesNotMatch(panel[1],/opacity:0(?:;|$)/,'an absent countdown must not hide the welcome');
+  assert.match(markup,/Hi friends! I am Rocky!/);
+  assert.doesNotMatch(markup,/sfx\/intro\.wav/,'the title must not restart the channel sting');
+});
+
+test('the composition mounts logo, title/greeting and first story in separate ordered sequences',()=>{
+  frame=30;sequences.length=0;
+  const script={slug:'dev-welcome-phases',type:'story',presentationVersion:4,opening:'welcome',title:'Rocky and the Balloon',
+    palette:'meadow',mainCharacter:{kind:'raccoon',name:'Rocky'},intro:{text:'Hi friends! I am Rocky!',audio:'intro.wav',durationSec:5},
+    scenes:[{kind:'story',background:'park',character:'raccoon',transition:'none',lines:[{text:'Our story begins!',audio:'story.wav',durationSec:2}]}]};
+  renderToStaticMarkup(React.createElement(KidsVideo,{script,slug:script.slug,baked:{}}));
+  assert.equal(sequences.find(s=>s.name==='Channel welcome').durationInFrames,72);
+  assert.equal(sequences.find(s=>s.name==='Title').from,72);
+  assert.equal(sequences.find(s=>s.name.startsWith('Scene 1:')).from,270);
+  assert.equal(sequences.find(s=>s.name==='greeting').from,30,'the greeting uses the local title clock');
+  assert.ok(!sequences.some(s=>s.name==='Story title'||s.name==='Countdown'));
 });
 
 test('comparison metadata loads the measured script and caps both halves at the same endcard boundary',async()=>{

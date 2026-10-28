@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import {MixAudio as Audio} from '../lib/audioMix';
-import { BRAND_OUTRO_SEC } from "../lib/timing";
+import { BRAND_INTRO_SEC, BRAND_OUTRO_SEC } from "../lib/timing";
 import { rand } from "../lib/random";
 
 // Original circular insignia and lettering, isolated by a deterministic SVG mask.
@@ -28,11 +28,11 @@ export const DreamLights: React.FC<{ count?: number }> = ({ count = 34 }) => {
 };
 
 /** Identical content and local frame clock in every episode. */
-export const BrandOutro: React.FC<{muted?: boolean}> = ({muted=false}) => {
+export const BrandOutro: React.FC<{muted?: boolean; durationSec?: number}> = ({muted=false,durationSec=BRAND_OUTRO_SEC}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const enter = spring({ frame, fps, config: { damping: 22, stiffness: 70 } });
-  const fade = interpolate(frame, [0, 14, BRAND_OUTRO_SEC * fps - 16, BRAND_OUTRO_SEC * fps - 1], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const fade = interpolate(frame, [0, 14, durationSec * fps - 16, durationSec * fps - 1], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return <AbsoluteFill style={{ background: "#eee4f5" }}>
     <AbsoluteFill style={{ opacity: fade }}>
       <Img src={staticFile("brand/dream-sky.png")} style={{ width: "100%", height: "100%", transform: `scale(${1.035 - frame * 0.00012})` }} />
@@ -41,6 +41,10 @@ export const BrandOutro: React.FC<{muted?: boolean}> = ({muted=false}) => {
         <ChannelLogo width={1080} />
       </div>
     </AbsoluteFill>
-    {!muted ? <Audio src={staticFile("sfx/dreamy-outro.wav")} volume={0.62} /> : null}
+    {!muted ? <Audio src={staticFile("sfx/dreamy-outro.wav")} volume={durationSec === BRAND_OUTRO_SEC ? 0.62
+      : f => .62 * Math.max(0,Math.min(1,f/6,(durationSec*fps-1-f)/14))} /> : null}
   </AbsoluteFill>;
 };
+
+/** A short opening signature reuses the original artwork and local music. */
+export const BrandIntro: React.FC<{muted?: boolean}> = ({muted=false}) => <BrandOutro muted={muted} durationSec={BRAND_INTRO_SEC}/>;

@@ -89,6 +89,8 @@ test('the planner survives Gemini 503s, directs the Groq result, and preserves c
   const permanent = read(`library/scripts/${slug}.json`);
   const script = JSON.parse(permanent);
   assert.equal(script.mainCharacter.name, 'Ben');
+  assert.equal(script.opening, 'welcome');
+  assert.ok(script.intro?.text, 'new stories need a greeting before their first scene');
   assert.equal(script.stars.total, 2);
   assert.ok(script.scenes.some(scene => scene.kind === 'moral'));
   assert.deepEqual(fs.readFileSync(requests, 'utf8').trim().split('\n'), [

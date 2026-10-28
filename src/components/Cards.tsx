@@ -133,20 +133,20 @@ export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: s
   const bg = script.scenes[0]?.background ?? "meadow";
   const mood = introMood(script);
   const bpm = script.music?.bpm ?? 120;
-  const inCountdown = frame >= countdownFrom;
+  const inCountdown = countdownFrom >= 0 && frame >= countdownFrom;
   const cdT = (frame - countdownFrom) / fps;
   const hopT = frame / fps;
   const { dx, dy } = hopIn(hopT, 1, 1100, 0.8);
   const speaking = t >= 0 && t <= (script.intro?.durationSec ?? 0);
-  const topics = episodeOverview(script);
-  const previewOpacity = Math.max(0, Math.min(1, (countdownFrom - frame) / 10));
+  const topics = script.opening === 'welcome' ? [] : episodeOverview(script);
+  const previewOpacity = countdownFrom < 0 ? 1 : Math.max(0, Math.min(1, (countdownFrom - frame) / 10));
   const action = inCountdown ? (mood === "countdown" ? "jump" : mood === "story" ? "cheer" : "wave") : speaking ? (script.intro?.action ?? "wave") : hopT < 0.8 ? "jump" : "wave";
   return (
     <AbsoluteFill>
       <Background kind={bg} palette={palette} baked={baked} animationT={ambientT} />
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 18%, ${palette.accentSoft}24, transparent 65%)` }} />
       <Sparkles count={14} />
-      {!muted ? <Sfx name="intro" at={0} volume={0.45} /> : null}
+      {!muted && script.opening !== 'welcome' ? <Sfx name="intro" at={0} volume={0.45} /> : null}
       {!muted ? <Sfx name="sparkle" at={6} volume={0.5} /> : null}
       {!muted ? <SpokenLine line={script.intro} slug={slug} at={speakAt} /> : null}
       {!muted ? <VoxAudio events={vox} /> : null}
@@ -157,7 +157,7 @@ export const TitleCard: React.FC<{ script: KidsScript; palette: Palette; slug: s
         <Character kind={script.mainCharacter.kind} emotion={inCountdown ? "excited" : script.intro?.emotion ?? "excited"} action={action} mouth={mouth} width={470} seed={1} actionT={inCountdown ? cdT : hopT} bpm={bpm} groove={mood === "countdown"} />
       </div>
       <div style={{ position: "absolute", left: 960, top: 375, width: 770, textAlign: "center", opacity: previewOpacity }}>
-        <div style={{ fontSize: 44, color: "#58446f", fontWeight: 600, marginBottom: 26, textShadow: "0 2px 0 #fff9eb" }}>Today, let's discover...</div>
+        <div style={{ fontSize: 44, color: "#58446f", fontWeight: 600, marginBottom: 26, textShadow: "0 2px 0 #fff9eb" }}>{script.opening === 'welcome' ? 'A Dreamy Discoveries story' : "Today, let's discover..."}</div>
         {topics.length ? <div style={{ display: "flex", justifyContent: "center", gap: 22 }}>
           {topics.map((c, i) => {
             const appear = spring({ frame: frame - 18 - i * 8, fps, config: { damping: 18, stiffness: 100 } });

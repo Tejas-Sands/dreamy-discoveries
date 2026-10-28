@@ -21,8 +21,8 @@ const releaseUrl = release => typeof release === 'string' ? release : release?.u
 /** The durable usage marker also works for videos uploaded outside this workflow. */
 export function standbyStatus(slug, usage = {}, episodes = [], stories = []) {
   const marker = usage[slug];
-  const episode = episodes.find(entry => entry.slug === slug);
-  const story = stories.find(entry => (entry.id ?? entry.slug) === slug &&
+  const episode = episodes.find(entry => entry.slug === slug || entry.revisionOf === slug);
+  const story = stories.find(entry => ((entry.id ?? entry.slug) === slug || entry.revisionOf === slug) &&
     (['rendered', 'released'].includes(entry.status) || entry.release));
   if (marker?.status !== 'used' && !episode && !story) return {status: 'available'};
   return {status: 'used', usedAt: marker?.usedAt ?? episode?.renderedAt ?? story?.timeline?.rendered ?? story?.timeline?.released ?? null,

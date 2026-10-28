@@ -47,6 +47,11 @@ on:
         required: false
         default: false
         type: boolean
+      welcome:
+        description: "Create a saved version of an existing story with the branded welcome"
+        required: false
+        default: false
+        type: boolean
   workflow_call:
     outputs:
       slug:
@@ -61,6 +66,7 @@ on:
       minutes: { required: false, type: string, default: "5.5" }
       voice: { required: false, type: string, default: "" }
       preview: { required: false, type: boolean, default: false }
+      welcome: { required: false, type: boolean, default: false }
       queue_id: { required: false, type: string, default: "" }
       schedule_id: { required: false, type: string, default: "" }
 
@@ -120,6 +126,7 @@ jobs:
           IN_SLUG: ${{ inputs.slug }}
           IN_VOICE: ${{ inputs.voice }}
           IN_PREVIEW: ${{ inputs.preview }}
+          IN_WELCOME: ${{ inputs.welcome }}
         run: |
           ARGS=(--library --minutes "${TARGET_MINUTES:-5.5}")
           if [ -n "$IN_SLUG" ]; then ARGS+=(--slug "$IN_SLUG")
@@ -128,6 +135,7 @@ jobs:
           else echo "Give a topic, a template, or a slug"; exit 1; fi
           [ -n "$IN_VOICE" ] && ARGS+=(--voice "$IN_VOICE")
           [ "$IN_PREVIEW" = "true" ] && ARGS+=(--preview)
+          [ "$IN_WELCOME" = "true" ] && ARGS+=(--welcome)
           node scripts/plan.mjs "${ARGS[@]}"
 
       - name: Restore the global voice store (to know which lines are missing)

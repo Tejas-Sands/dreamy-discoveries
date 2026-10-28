@@ -71,6 +71,7 @@ jobs:
       minutes: ${{ needs.pick.outputs.minutes }}
       queue_id: ${{ needs.pick.outputs.id }}
       slug: ${{ needs.pick.outputs.slug }}
+      welcome: true
 
   recover:
     needs: [pick, make]

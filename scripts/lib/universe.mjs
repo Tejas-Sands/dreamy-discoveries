@@ -20,6 +20,7 @@ export const UNIVERSE_FILE = path.join(ROOT, "library", "universe.json");
 
 const StoryRecord = z.object({
   id: z.string(),
+  revisionOf: z.string().optional(),
   type: z.enum(["story", "rhyme"]),
   title: z.string(),
   hero: z.string().nullable(),
@@ -129,6 +130,7 @@ export function recordStory(slug, { status = "released", release = null, timelin
     ? { ...prev, status, release: release ?? prev.release, timeline: { ...prev.timeline, ...timeline } }
     : {
         id: slug,
+        ...(script.revisionOf ? {revisionOf: script.revisionOf} : {}),
         type: script.type === "story" ? "story" : "rhyme",
         title: script.title,
         hero,

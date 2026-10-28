@@ -5,21 +5,29 @@
  * `node scripts/plan.mjs --verify-timing`).
  */
 export const FPS = 30;
-export const T = { INTRO_MIN: 3.4, INTRO_SPEAK_AT: 1.0, COUNTDOWN: 1.9, LINE_GAP: 0.3, SCENE_PAD: 0.55, REVEAL: 1.7, END_MIN: 5, BRAND_OUTRO: 6, DEFAULT_LINE: 2.2 };
+export const T = { INTRO_MIN: 3.4, INTRO_SPEAK_AT: 1.0, COUNTDOWN: 1.9, LINE_GAP: 0.3, SCENE_PAD: 0.55, REVEAL: 1.7, END_MIN: 5, BRAND_OUTRO: 6, BRAND_INTRO: 2.4, DEFAULT_LINE: 2.2 };
 const toFrames = (sec) => Math.round(sec * FPS);
 const lineFrames = (line,precise) => precise
   ? toFrames(line.voxPreSec ?? 0) + toFrames(line.durationSec ?? T.DEFAULT_LINE) + toFrames(T.LINE_GAP) + toFrames(line.voxPostSec ?? 0)
   : toFrames((line.voxPreSec ?? 0) + (line.durationSec ?? T.DEFAULT_LINE) + T.LINE_GAP + (line.voxPostSec ?? 0));
 const pinnedPre = line => line?.vox?.some(cue => cue.file !== undefined) ? toFrames(line.voxPreSec ?? 0) : 0;
 
-/** total frames of the composition for this script (same as computeSchedule(script).total) */
-export function estimateFrames(script) {
+/** Shared opening offset for planning and local scene reports. */
+export function estimateIntroFrames(script) {
   const precise = (script.presentationVersion ?? 0) >= 4;
   const introSpeech = script.intro?.durationSec ?? 0;
   const introAt = Math.max(toFrames(T.INTRO_SPEAK_AT),pinnedPre(script.intro));
-  let cursor = (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook' ? 0 : precise
+  return script.opening === 'welcome'
+    ? toFrames(T.BRAND_INTRO) + Math.max(toFrames(T.INTRO_MIN),introAt + toFrames(introSpeech) + (precise ? toFrames(script.intro?.voxPostSec ?? 0) : 0) + toFrames(.6))
+    : (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook' ? 0 : precise
     ? Math.max(toFrames(T.INTRO_MIN),introAt + toFrames(introSpeech) + toFrames(script.intro?.voxPostSec ?? 0) + toFrames(.4 + T.COUNTDOWN))
     : toFrames(Math.max(T.INTRO_MIN, T.INTRO_SPEAK_AT + introSpeech + 0.4 + T.COUNTDOWN));
+}
+
+/** total frames of the composition for this script (same as computeSchedule(script).total) */
+export function estimateFrames(script) {
+  const precise = (script.presentationVersion ?? 0) >= 4;
+  let cursor = estimateIntroFrames(script);
   for (const scene of script.scenes ?? []) {
     const asked = scene.lines.filter((l) => l.role !== "praise");
     const praise = scene.lines.filter((l) => l.role === "praise");

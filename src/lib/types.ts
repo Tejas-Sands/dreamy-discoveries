@@ -239,7 +239,9 @@ export interface KidsScript {
   version?: 2;
   /** Opt in to new direction rules without changing existing episodes. */
   presentationVersion?: 1 | 2 | 3 | 4;
-  opening?: "hook" | "title";
+  opening?: "hook" | "title" | "welcome";
+  /** Permanent source story when this slug is a presentation revision. */
+  revisionOf?: string;
   /** Enable bell artwork only for videos that are not marked Made for kids. */
   subscription?: {bellEnabled?: boolean};
   type: "rhyme" | "story";

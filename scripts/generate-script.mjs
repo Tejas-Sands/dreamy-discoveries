@@ -45,7 +45,7 @@ Backgrounds: ${BACKGROUNDS.join(', ')}. Emotions: ${EMOTIONS.join(', ')}. Action
 Do not invent characters, backgrounds, recipes, music, callouts or visual effects. The deterministic Director supplies these.
 Write ${Math.ceil(minutes * (type === 'story' ? 11 : 16))} spoken lines for ${minutes} minutes in ${Math.min(40, Math.max(6, Math.ceil(minutes * (type === 'story' ? 11 : 16) / 2)))} scenes. Most scenes contain 2-3 lines (hard bounds: 3-40 scenes, 1-6 lines per scene).${type === 'story' ? ` Never return fewer than ${Math.floor(minutes * 9)} spoken lines total; count the lines before finishing.` : ''}
 Every line uses 4-10 simple words. Narration uses vivid verbs and natural contractions. Keep introductions brief; start the first scene directly with the story problem.
-${type === 'story' ? 'Set intro to null. Open with a visible object problem or surprising discovery already happening. For a rolling ball/apple, use a first-line reaction such as "Oops! My ball is rolling away!" or "Oh! My apple rolled away!" and set the scene prop to the matching ball/apple. A closed picture book is another concrete discovery. The hero is already visible, with a brief title overlay.' : ''}
+${type === 'story' ? 'Write a brief friendly intro spoken by the hero: introduce their name and today\'s activity in 12-20 simple words, for example "Hi friends, I\'m Rocky! Today, we\'re getting ready for a balloon party!". The Director adds the channel logo and episode title before the story. Then open the first story scene with a visible object problem or surprising discovery. For a rolling ball/apple, use a reaction such as "Oops! My ball is rolling away!" and set the scene prop to the matching object. A closed picture book is another concrete discovery.' : ''}
 ${type === 'story' ? `Tell one focused story and one moral, using the supplied deterministic episode brief. Its selected cast and setting are binding. Let the setting cause a practical obstacle.
 Follow: immediate hook -> hero's concrete goal -> first mistaken attempt -> different second attempt -> child choice -> gentle consequence -> hero chooses a repair -> warm ending proving the repair works.
 Make the goal visible in spoken text with a concrete object and activity. Each attempt changes the strategy, names its action, and shows why it fails; repeating the same action harder does not count as a new attempt. Give the choice actual alternatives and let the hero decide.
@@ -62,7 +62,7 @@ ${castPrompt()}`;
 
 function finish(script, args) {
   const slug = script.slug;
-  const full = directScript({ ...script, presentationVersion: 4, voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
+  const full = directScript({ ...script, presentationVersion: 4, ...(script.type === 'story' ? {opening:'welcome'} : {}), voice: args.voice || process.env.TTS_VOICE || null, music: args.music ?? script.music ?? undefined });
   full.synthesis = voiceSettings(full,args);
   writeScript(slug, full);
   setLatestSlug(slug);

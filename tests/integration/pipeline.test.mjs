@@ -6,6 +6,7 @@ import crypto from 'node:crypto';
 import {directScript} from '../../scripts/lib/director.mjs';
 import {collectUtterances,voiceHash,voiceSettings} from '../../scripts/lib/voice.mjs';
 import {estimateFrames} from '../../scripts/lib/estimate.mjs';
+import {estimateIntroFrames} from '../../scripts/lib/estimate.mjs';
 import {measureAudio} from '../../scripts/lib/audio-master.mjs';
 import {probeMedia,verifyEpisode} from '../../scripts/lib/media-check.mjs';
 import {pipelineWorkspace,root} from '../helpers/pipeline-workspace.mjs';
@@ -17,8 +18,8 @@ test('directed script → cached speech → real Remotion audio/chunks → stitc
   const slug='integration-story';
   // Short scenes exercise dialogue, narration, overlapping SFX, music and the
   // full end card/logo. The Director remains part of the production path.
-  const script=directScript({slug,type:'story',title:'Ben Shares a Ball',presentationVersion:4,palette:'meadow',
-    mainCharacter:{kind:'bear',name:'Ben'},intro:null,outro:{text:'Goodbye, friends!'},moral:null,
+  const script=directScript({slug,type:'story',title:'Ben Shares a Ball',presentationVersion:4,opening:'welcome',palette:'meadow',
+    mainCharacter:{kind:'bear',name:'Ben'},intro:{text:"Hi friends, I'm Ben! Today, we're sharing a ball!"},outro:{text:'Goodbye, friends!'},moral:null,
     scenes:[
       {kind:'story',background:'meadow',character:'bear',secondCharacter:'bunny',energy:'upbeat',holdSec:0,
         lines:[{text:'Here is our ball!',speaker:'character',action:'cheer',sfx:['tada']}]},
@@ -51,6 +52,9 @@ test('directed script → cached speech → real Remotion audio/chunks → stitc
   assert.equal(read(`public/generated/${slug}/script.json`),generated);
   assert.deepEqual(cache(),warmed,'warm-cache reruns must not change recordings or timing sidecars');
   const frames=estimateFrames(JSON.parse(generated));
+  const greeting=JSON.parse(generated).intro;
+  assert.ok(greeting.audio&&greeting.durationSec>0,'the welcome must use a genuine cached speech recording');
+  assert.ok(estimateIntroFrames(JSON.parse(generated))>72+30+Math.round(greeting.durationSec*30),'story speech must follow the entire welcome');
   const audio=file(`out/episodes/${slug}.aac`);
   run('render',['--slug',slug,'--audio-only','--out',audio]);
   const loudness=measureAudio(audio);

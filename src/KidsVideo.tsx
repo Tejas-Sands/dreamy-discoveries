@@ -24,7 +24,7 @@ import {SubscribeReminder} from './components/SubscribeReminder';
 import {subscriptionReminders} from './lib/subscription.mjs';
 import { VoxAudio, laughMouth, voxAt, voxEvents } from "./components/Vox";
 import { fetchBaked, type BakedMap } from "./lib/baked";
-import { BrandOutro } from "./components/BrandOutro";
+import { BrandIntro, BrandOutro } from "./components/BrandOutro";
 import { sceneDirection } from "./lib/sceneDirection.mjs";
 import { actionTrack, sampleAction, gagFrame, motionProfile, contactSounds, CONTACT_SFX, emotionalPushIn, actorEmotion, actorRole, ambientTimeline, ambientAt } from "./lib/sceneMotion";
 import { impactAt } from "./lib/actionMotion";
@@ -501,7 +501,11 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
         </Sequence>
       ) : null : null}
 
-      {schedule.intro > 0 ? <Sequence durationInFrames={schedule.intro + T} name="Title">
+      {schedule.brandIntro > 0 ? <Sequence durationInFrames={schedule.brandIntro} name="Channel welcome">
+        <BrandIntro muted={muted}/>
+      </Sequence> : null}
+
+      {schedule.intro > 0 ? <Sequence from={schedule.brandIntro} durationInFrames={schedule.intro - schedule.brandIntro + T} name="Title">
         <TitleCard script={script} palette={palette} slug={slug} countdownFrom={schedule.countdownFrom} baked={baked} ambientT={ambientT} muted={muted} />
       </Sequence> : null}
 
@@ -528,9 +532,9 @@ export const KidsVideo: React.FC<KidsVideoProps> = ({ slug, script: rawScript, b
       {/* "Ready… set… GO!" sits above the title card AND the first scene popping in */}
       {schedule.countdownFrom >= 0 ? <Sequence from={schedule.countdownFrom} durationInFrames={toFrames(COUNTDOWN_SEC) + 24} name="Countdown">
         <Countdown script={script} palette={palette} muted={muted}/>
-      </Sequence> : <Sequence durationInFrames={toFrames(2.8)} name="Story title">
+      </Sequence> : script.opening === 'hook' ? <Sequence durationInFrames={toFrames(2.8)} name="Story title">
         <HookTitle title={script.title} />
-      </Sequence>}
+      </Sequence> : null}
 
       <Sequence from={schedule.brandFrom} durationInFrames={toFrames(BRAND_OUTRO_SEC)} name="Dreamy Discoveries">
         <BrandOutro muted={muted}/>

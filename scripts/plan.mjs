@@ -17,7 +17,7 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadDotEnv, parseArgs, readScript, writeScript, setLatestSlug, GENERATED_DIR, ROOT } from "./lib/common.mjs";
-import { directScript } from "./lib/director.mjs";
+import { directScript, welcomeRevision } from "./lib/director.mjs";
 import { estimateFrames, chunkRanges } from "./lib/estimate.mjs";
 import { voiceSettings, missingTexts } from "./lib/voice.mjs";
 import { LIBRARY_DIR } from "./lib/catalog.mjs";
@@ -106,7 +106,24 @@ function main() {
     slug = loadFromLibrary(reserve.slug);
     scriptSource = 'standby';
   }
-  let script = directScript(readScript(slug));
+  let script = readScript(slug);
+  if (args.welcome && script.type === 'story' && script.opening !== 'welcome') {
+    const source = script;
+    script = welcomeRevision(source);
+    // Pin the source settings before applying any presentation changes.
+    script.synthesis ??= voiceSettings(source);
+    const saved = path.join(LIBRARY_DIR, 'scripts', `${script.slug}.json`);
+    const generated = path.join(GENERATED_DIR, script.slug, 'script.json');
+    if (fs.existsSync(saved) || fs.existsSync(generated)) {
+      const existing = JSON.parse(fs.readFileSync(fs.existsSync(saved) ? saved : generated, 'utf8'));
+      if (existing.slug !== script.slug || existing.revisionOf !== script.revisionOf || existing.opening !== 'welcome') {
+        throw new Error(`Welcome revision collision: ${script.slug} belongs to another script`);
+      }
+      script = existing;
+    }
+    slug = script.slug;
+  }
+  script = directScript(script);
   if (args.minutes) script.targetMinutes = Number(args.minutes);
   const settings = voiceSettings(script, args);
   if ((script.presentationVersion ?? 0) >= 1) script.synthesis = settings;

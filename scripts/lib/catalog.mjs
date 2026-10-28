@@ -112,6 +112,7 @@ export function upsertEpisode(entry) {
 export function summarizeScript(script, extra = {}) {
   return {
     slug: script.slug,
+    ...(script.revisionOf ? {revisionOf: script.revisionOf} : {}),
     title: script.title,
     type: script.type,
     template: script.template ?? null,

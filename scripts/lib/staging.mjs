@@ -30,9 +30,9 @@ const physicalObject=(text,prop,names)=> {
 const roles=['character','friend'];
 const ownerFor=(scene,role)=>animal(role==='friend'?scene.secondCharacter:scene.character);
 
-/** A narrow visual hook: a present speaker notices an already rolling concrete object. */
+/** The first story action, including after a welcome: notice an already rolling object. */
 const movingOpening=(script,scene,sceneIndex,line,lineIndex,matchesActor)=> {
-  if((script.presentationVersion??0)<3||script.opening!=='hook'||sceneIndex!==0||lineIndex!==0||scene.question||line?.role==='question'||!committed(line?.text??''))return false;
+  if((script.presentationVersion??0)<3||!['hook','welcome'].includes(script.opening)||sceneIndex!==0||lineIndex!==0||scene.question||line?.role==='question'||!committed(line?.text??''))return false;
   const match=String(line?.text??'').match(/^\s*(?:(?:oh|oops|look|uh oh)[!,:.]\s*)?(?:my|our|the|a)\s+(?:(?:little|small|red|blue|round)\s+)*(ball|apple)\s+(?:rolls?|rolled|is rolling)(?:\s+away)?[!.]*\s*$/i);
   const declared=declaredProp(scene.prop);
   if(!match||declared?.kind!==match[1].toLowerCase())return false;

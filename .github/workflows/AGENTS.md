@@ -46,6 +46,7 @@ plan (ubuntu-latest, 15 min)
 | `minutes` | `5.5` | Target video length |
 | `voice` | blank | TTS voice override |
 | `preview` | `false` | 540p fast preview instead of full render |
+| `welcome` | `false` | Create/reuse a permanent `-welcome` story revision; the daily scheduler sets this to `true` |
 | `queue_id` | blank | Internal: set by `schedule.yml` |
 
 ---

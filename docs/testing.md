@@ -32,12 +32,26 @@ thumbnail, write metadata, and decode/verify the result. It checks stale audio a
 missing chunks are rejected without replacing a verified output, then verifies
 the legacy direct-AAC path. External fetches are blocked.
 
-The Kokoro check starts with an empty temporary voice store. It synthesizes hero,
-friend, narrator and goodbye lines with the actual CPU model, validates audible
+The Kokoro check starts with an empty temporary voice store. It synthesizes welcome,
+hero, friend, narrator and goodbye lines with the actual CPU model, validates audible
 24 kHz WAV output and speech timings, and verifies a second run synthesizes
 nothing. Only public model download hosts are allowed. Both integration checks
 remove API credentials from child environments, use temporary production history,
 and leave permanent scripts and existing cached recordings untouched.
+
+Story welcome checks verify the 2.4-second logo, complete measured greeting/vox,
+and first story line use separate ordered phases. They cover visible greetings,
+muted chunks, no countdown/hook overlay during welcomes, music ducking after the
+logo, analytics scene timestamps, and unchanged historical opening timing. The
+real render/stitch smoke includes a spoken welcome; the Kokoro smoke performs
+five real syntheses followed by a zero-synthesis rerun.
+
+Newly generated stories use `opening: "welcome"`. To create a saved welcome
+version of an existing story, run `node scripts/plan.mjs --slug SOURCE --welcome
+--library`. The original is preserved, the revision is reused on retries, and
+`revisionOf` keeps standby usage linked to the original story. The daily scheduler
+enables this flag for queued scripts. An ordinary `--slug SOURCE` rerun retains
+the existing episode. Story revisions reuse all existing voice identities.
 
 ## CI
 

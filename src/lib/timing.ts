@@ -12,6 +12,7 @@ export const SCENE_PAD_SEC = 0.55;
 export const REVEAL_SEC = 1.7;
 export const END_MIN_SEC = 5;
 export const BRAND_OUTRO_SEC = 6;
+export const BRAND_INTRO_SEC = 2.4;
 /** scenes overlap the previous scene by this many frames so transitions can animate on top of it */
 export const TRANSITION_FRAMES = 12;
 /** Fallback when a line has no measured audio duration (e.g. in the Studio before TTS ran) */
@@ -48,6 +49,8 @@ export interface SceneSlot {
 
 export interface Schedule {
   intro: number;
+  /** Logo signature before the title/greeting; zero for historical openings. */
+  brandIntro: number;
   scenes: SceneSlot[];
   endFrom: number;
   endDuration: number;
@@ -71,13 +74,15 @@ export function computeSchedule(script: KidsScript): Schedule {
   const precise = (script.presentationVersion ?? 0) >= 4;
   const introSpeech = script.intro?.durationSec ?? 0;
   const hook = (script.presentationVersion ?? 0) >= 1 && script.opening === 'hook';
+  const welcome = script.opening === 'welcome';
+  const brandIntro = welcome ? toFrames(BRAND_INTRO_SEC) : 0;
   const introAt = precise ? introSpeakFrame(script.intro) : toFrames(INTRO_SPEAK_AT_SEC);
   const introPost = precise ? toFrames(script.intro?.voxPostSec ?? 0) : 0;
-  const intro = hook ? 0 : precise
+  const intro = welcome ? brandIntro + Math.max(toFrames(INTRO_MIN_SEC),introAt + toFrames(introSpeech) + introPost + toFrames(.6)) : hook ? 0 : precise
     ? Math.max(toFrames(INTRO_MIN_SEC),introAt + toFrames(introSpeech) + introPost + toFrames(.4 + COUNTDOWN_SEC))
     : toFrames(Math.max(INTRO_MIN_SEC, INTRO_SPEAK_AT_SEC + introSpeech + 0.4 + COUNTDOWN_SEC));
   if (!hook && (introSpeech > 0 || precise && (pinnedPre(script.intro) + introPost > 0))) {
-    voice.push([introAt - (precise ? pinnedPre(script.intro) : 0), precise ? introAt + toFrames(introSpeech) + introPost : toFrames(INTRO_SPEAK_AT_SEC + introSpeech)]);
+    voice.push([brandIntro + introAt - (precise ? pinnedPre(script.intro) : 0), brandIntro + (precise ? introAt + toFrames(introSpeech) + introPost : toFrames(INTRO_SPEAK_AT_SEC + introSpeech))]);
   }
 
   let cursor = intro;
@@ -156,7 +161,7 @@ export function computeSchedule(script: KidsScript): Schedule {
   const brandFrom = cursor;
   cursor += toFrames(BRAND_OUTRO_SEC);
 
-  return { intro, scenes, endFrom, endDuration, brandFrom, total: cursor, voice, countdownFrom: hook ? -1 : intro - toFrames(COUNTDOWN_SEC) };
+  return { intro, brandIntro, scenes, endFrom, endDuration, brandFrom, total: cursor, voice, countdownFrom: hook || welcome ? -1 : intro - toFrames(COUNTDOWN_SEC) };
 }
 
 /** music gain for a frame: ducks under speech, fades in/out at the ends */
@@ -169,7 +174,7 @@ export function musicVolume(frame: number, schedule: Schedule, base = 0.36, duck
       v = Math.min(v, ducked + (base - ducked) * edge);
     }
   }
-  const fadeIn = Math.min(1, frame / 20);
+  const fadeIn = Math.max(0, Math.min(1, (frame - schedule.brandIntro) / 20));
   const fadeOut = Math.min(1, Math.max(0, (schedule.brandFrom - frame) / 45));
   return v * fadeIn * fadeOut;
 }
