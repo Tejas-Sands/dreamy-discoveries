@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-28T11:15:44.404Z",
+  "updatedAt": "2026-10-28T12:07:56.737Z",
   "counts": {
-    "stories": 26,
+    "stories": 27,
     "rhymes": 4,
-    "episodes": 30,
-    "stars": 82
+    "episodes": 31,
+    "stars": 84
   },
   "usage": {
     "tilly": 3,
@@ -26,7 +26,7 @@
     "elephant": 1,
     "lion": 1,
     "monkey": 1,
-    "raccoon": 1
+    "raccoon": 2
   },
   "appeared": {
     "tilly": 7,
@@ -40,7 +40,7 @@
     "whale": 1,
     "pig": 1,
     "mouse": 2,
-    "squirrel": 2,
+    "squirrel": 3,
     "panda": 1,
     "fish": 1,
     "koala": 1,
@@ -51,7 +51,7 @@
     "lion": 1,
     "bee": 1,
     "monkey": 1,
-    "raccoon": 1
+    "raccoon": 2
   },
   "canon": [
     {
@@ -1361,6 +1361,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rocky-balloon-party-11",
         "tag": "video-rocky-balloon-party-11"
+      }
+    },
+    {
+      "id": "rocky-balloon-party-11-welcome",
+      "revisionOf": "rocky-balloon-party-11",
+      "type": "story",
+      "title": "Rocky and the Balloon That Followed Him",
+      "hero": "raccoon",
+      "heroName": "Rocky",
+      "cast": [
+        "raccoon",
+        "squirrel"
+      ],
+      "moral": "Checking a problem before pulling can prevent a bigger tangle.",
+      "moralRhyme": [
+        "Stop and look before you go,",
+        "Check the things you need to know!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "park"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-28"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rocky-balloon-party-11-welcome",
+        "tag": "video-rocky-balloon-party-11-welcome"
       }
     }
   ]

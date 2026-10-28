@@ -804,6 +804,30 @@
       "durationSec": 245,
       "renderedAt": "2026-10-28T11:16:49.334Z",
       "run": "40668038554"
+    },
+    {
+      "slug": "rocky-balloon-party-11-welcome",
+      "revisionOf": "rocky-balloon-party-11",
+      "title": "Rocky and the Balloon That Followed Him",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "raccoon",
+      "heroName": "Rocky",
+      "palette": "sunshine",
+      "backgrounds": [
+        "park"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rocky-balloon-party-11-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rocky-balloon-party-11-welcome",
+      "durationSec": 254,
+      "renderedAt": "2026-10-28T12:08:49.716Z",
+      "run": "40683431331"
     }
   ],
   "compilations": []
