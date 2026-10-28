@@ -1,6 +1,6 @@
 # Rocky and the Balloon That Followed Him
 
-**Status:** Available
+**Status:** Used · 2026-10-28
 
 **Hero:** Rocky
 
@@ -17,6 +17,8 @@ Checking a problem before pulling can prevent a bigger tangle.
 [Production script](../scripts/rocky-balloon-party-11.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `rocky-balloon-party-11`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rocky-balloon-party-11)
 
 ## Read the story
 

@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 90 available · 18 used**
+**108 stories · 89 available · 19 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -248,7 +248,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Rocky and the Balloon That Followed Him](standby/rocky-balloon-party-11.md) | Nutty | park | Checking a problem before pulling can prevent a bigger tangle. | Available |
+| [Rocky and the Balloon That Followed Him](standby/rocky-balloon-party-11.md) | Nutty | park | Checking a problem before pulling can prevent a bigger tangle. | Used · 2026-10-28 |
 | [Rocky and the Tower with a Tail](standby/rocky-block-block-43.md) | Percy | bedroom |  | Available |
 | [Rocky and the Pebble Worth Keeping](standby/rocky-and-the-pebble-worth-keeping.md) | Harry | park | Something can be precious because of what it means to you. | Available |
 
