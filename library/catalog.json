@@ -828,6 +828,30 @@
       "durationSec": 254,
       "renderedAt": "2026-10-28T12:08:49.716Z",
       "run": "40683431331"
+    },
+    {
+      "slug": "shaun-cookie-baking-12-welcome",
+      "revisionOf": "shaun-cookie-baking-12",
+      "title": "Shaun and the Missing Cookie Shares",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "sheep",
+      "heroName": "Shaun",
+      "palette": "meadow",
+      "backgrounds": [
+        "kitchen"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shaun-cookie-baking-12-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shaun-cookie-baking-12-welcome",
+      "durationSec": 249,
+      "renderedAt": "2026-10-29T10:31:31.178Z",
+      "run": "40856489428"
     }
   ],
   "compilations": []

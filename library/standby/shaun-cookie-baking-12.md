@@ -1,6 +1,6 @@
 # Shaun and the Missing Cookie Shares
 
-**Status:** Available
+**Status:** Used · 2026-10-29
 
 **Hero:** Shaun
 
@@ -17,6 +17,8 @@ Fair shares can leave room for everyone at the table.
 [Production script](../scripts/shaun-cookie-baking-12.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `shaun-cookie-baking-12`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shaun-cookie-baking-12-welcome)
 
 ## Read the story
 

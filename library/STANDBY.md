@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 89 available · 19 used**
+**108 stories · 88 available · 20 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -256,7 +256,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Shaun and the Missing Cookie Shares](standby/shaun-cookie-baking-12.md) | Taffy | kitchen | Fair shares can leave room for everyone at the table. | Available |
+| [Shaun and the Missing Cookie Shares](standby/shaun-cookie-baking-12.md) | Taffy | kitchen | Fair shares can leave room for everyone at the table. | Used · 2026-10-29 |
 | [Shaun and the Crayon That Looked Broken](standby/shaun-crayon-drawing-44.md) | Daisy | bedroom | Looking closely before giving up can reveal a useful new way. | Available |
 | [Shaun and the Shop That Sold Clouds](standby/shaun-and-the-shop-that-sold-clouds.md) | Gigi | meadow |  | Available |
 

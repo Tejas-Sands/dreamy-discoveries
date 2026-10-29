@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-28T12:07:56.737Z",
+  "updatedAt": "2026-10-29T10:30:42.348Z",
   "counts": {
-    "stories": 27,
+    "stories": 28,
     "rhymes": 4,
-    "episodes": 31,
-    "stars": 84
+    "episodes": 32,
+    "stars": 86
   },
   "usage": {
     "tilly": 3,
@@ -26,14 +26,15 @@
     "elephant": 1,
     "lion": 1,
     "monkey": 1,
-    "raccoon": 2
+    "raccoon": 2,
+    "sheep": 1
   },
   "appeared": {
     "tilly": 7,
     "daisy": 9,
     "fiona": 6,
     "ozzy": 8,
-    "taffy": 7,
+    "taffy": 8,
     "ben": 9,
     "hippo": 1,
     "frog": 2,
@@ -51,7 +52,8 @@
     "lion": 1,
     "bee": 1,
     "monkey": 1,
-    "raccoon": 2
+    "raccoon": 2,
+    "sheep": 1
   },
   "canon": [
     {
@@ -168,6 +170,11 @@
       "event": "First appearance: Rocky the raccoon.",
       "story": "rocky-balloon-party-11",
       "at": "2026-10-28"
+    },
+    {
+      "event": "First appearance: Shaun the sheep.",
+      "story": "shaun-cookie-baking-12-welcome",
+      "at": "2026-10-29"
     }
   ],
   "stories": [
@@ -1400,6 +1407,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rocky-balloon-party-11-welcome",
         "tag": "video-rocky-balloon-party-11-welcome"
+      }
+    },
+    {
+      "id": "shaun-cookie-baking-12-welcome",
+      "revisionOf": "shaun-cookie-baking-12",
+      "type": "story",
+      "title": "Shaun and the Missing Cookie Shares",
+      "hero": "sheep",
+      "heroName": "Shaun",
+      "cast": [
+        "sheep",
+        "taffy"
+      ],
+      "moral": "Fair shares can leave room for everyone at the table.",
+      "moralRhyme": [
+        "Make some room for me and you,",
+        "There is space to join in too!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "kitchen"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-29"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shaun-cookie-baking-12-welcome",
+        "tag": "video-shaun-cookie-baking-12-welcome"
       }
     }
   ]
