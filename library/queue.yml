@@ -193,7 +193,7 @@ items:
     doneAt: 2026-10-28T11:16:49.738Z
   - id: story-shaun-cookie-baking-12
     status: running
-    slug: shaun-cookie-baking-12
+    slug: shaun-cookie-baking-12-welcome
     topic: Shaun and the Missing Cookie Shares
     type: story
     hero: sheep
