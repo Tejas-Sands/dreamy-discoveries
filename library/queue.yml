@@ -192,13 +192,14 @@ items:
     startedAt: 2026-10-28T09:55:57.415Z
     doneAt: 2026-10-28T11:16:49.738Z
   - id: story-shaun-cookie-baking-12
-    status: pending
+    status: running
     slug: shaun-cookie-baking-12
     topic: Shaun and the Missing Cookie Shares
     type: story
     hero: sheep
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-10-29T10:18:42.165Z
   - id: story-frosty-leaf-leaf-13
     status: pending
     slug: frosty-leaf-leaf-13
