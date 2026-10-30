@@ -202,13 +202,14 @@ items:
     startedAt: 2026-10-29T10:18:42.165Z
     doneAt: 2026-10-29T10:31:31.507Z
   - id: story-frosty-leaf-leaf-13
-    status: pending
+    status: running
     slug: frosty-leaf-leaf-13
     topic: Frosty and the Leaf Mustache
     type: story
     hero: snowman
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-10-30T10:20:51.788Z
   - id: story-tigress-sand-sand-14
     status: pending
     slug: tigress-sand-sand-14
