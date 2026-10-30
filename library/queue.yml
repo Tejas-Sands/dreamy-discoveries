@@ -203,7 +203,7 @@ items:
     doneAt: 2026-10-29T10:31:31.507Z
   - id: story-frosty-leaf-leaf-13
     status: running
-    slug: frosty-leaf-leaf-13
+    slug: frosty-leaf-leaf-13-welcome
     topic: Frosty and the Leaf Mustache
     type: story
     hero: snowman
