@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 88 available · 20 used**
+**108 stories · 87 available · 21 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -264,7 +264,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Frosty and the Leaf Mustache](standby/frosty-leaf-leaf-13.md) | Buster | autumn |  | Available |
+| [Frosty and the Leaf Mustache](standby/frosty-leaf-leaf-13.md) | Buster | autumn |  | Used · 2026-10-30 |
 | [Frosty and the Kite That Wanted a Scarf](standby/frosty-kite-kite-45.md) | Professor Ozzy | snow | Adapting a plan to the weather can help it work better. | Available |
 | [Frosty and the Very Warm Welcome](standby/frosty-and-the-very-warm-welcome.md) | Ben | snow |  | Available |
 

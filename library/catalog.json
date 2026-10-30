@@ -852,6 +852,30 @@
       "durationSec": 249,
       "renderedAt": "2026-10-29T10:31:31.178Z",
       "run": "40856489428"
+    },
+    {
+      "slug": "frosty-leaf-leaf-13-welcome",
+      "revisionOf": "frosty-leaf-leaf-13",
+      "title": "Frosty and the Leaf Mustache",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "snowman",
+      "heroName": "Frosty",
+      "palette": "forest",
+      "backgrounds": [
+        "autumn"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-frosty-leaf-leaf-13-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-frosty-leaf-leaf-13-welcome",
+      "durationSec": 227,
+      "renderedAt": "2026-10-30T10:42:48.252Z",
+      "run": "41040006808"
     }
   ],
   "compilations": []

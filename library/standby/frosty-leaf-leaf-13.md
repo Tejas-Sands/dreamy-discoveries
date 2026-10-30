@@ -1,6 +1,6 @@
 # Frosty and the Leaf Mustache
 
-**Status:** Available
+**Status:** Used · 2026-10-30
 
 **Hero:** Frosty
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/frosty-leaf-leaf-13.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `frosty-leaf-leaf-13`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-frosty-leaf-leaf-13-welcome)
 
 ## Read the story
 

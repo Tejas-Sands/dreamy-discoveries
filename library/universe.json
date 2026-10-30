@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-29T10:30:42.348Z",
+  "updatedAt": "2026-10-30T10:41:48.350Z",
   "counts": {
-    "stories": 28,
+    "stories": 29,
     "rhymes": 4,
-    "episodes": 32,
-    "stars": 86
+    "episodes": 33,
+    "stars": 88
   },
   "usage": {
     "tilly": 3,
@@ -27,7 +27,8 @@
     "lion": 1,
     "monkey": 1,
     "raccoon": 2,
-    "sheep": 1
+    "sheep": 1,
+    "snowman": 1
   },
   "appeared": {
     "tilly": 7,
@@ -53,7 +54,9 @@
     "bee": 1,
     "monkey": 1,
     "raccoon": 2,
-    "sheep": 1
+    "sheep": 1,
+    "snowman": 1,
+    "dog": 1
   },
   "canon": [
     {
@@ -175,6 +178,16 @@
       "event": "First appearance: Shaun the sheep.",
       "story": "shaun-cookie-baking-12-welcome",
       "at": "2026-10-29"
+    },
+    {
+      "event": "First appearance: Frosty the snowman.",
+      "story": "frosty-leaf-leaf-13-welcome",
+      "at": "2026-10-30"
+    },
+    {
+      "event": "First appearance: Buster the dog.",
+      "story": "frosty-leaf-leaf-13-welcome",
+      "at": "2026-10-30"
     }
   ],
   "stories": [
@@ -1446,6 +1459,42 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-shaun-cookie-baking-12-welcome",
         "tag": "video-shaun-cookie-baking-12-welcome"
+      }
+    },
+    {
+      "id": "frosty-leaf-leaf-13-welcome",
+      "revisionOf": "frosty-leaf-leaf-13",
+      "type": "story",
+      "title": "Frosty and the Leaf Mustache",
+      "hero": "snowman",
+      "heroName": "Frosty",
+      "cast": [
+        "snowman",
+        "dog"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "autumn"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-30"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-frosty-leaf-leaf-13-welcome",
+        "tag": "video-frosty-leaf-leaf-13-welcome"
       }
     }
   ]
