@@ -876,6 +876,30 @@
       "durationSec": 227,
       "renderedAt": "2026-10-30T10:42:48.252Z",
       "run": "41040006808"
+    },
+    {
+      "slug": "tigress-sand-sand-14-welcome",
+      "revisionOf": "tigress-sand-sand-14",
+      "title": "Tigress and the Sandcastle Door",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "tiger",
+      "heroName": "Tigress",
+      "palette": "ocean",
+      "backgrounds": [
+        "beach"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-10",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-tigress-sand-sand-14-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-tigress-sand-sand-14-welcome",
+      "durationSec": 260,
+      "renderedAt": "2026-10-31T10:10:01.105Z",
+      "run": "41190430081"
     }
   ],
   "compilations": []

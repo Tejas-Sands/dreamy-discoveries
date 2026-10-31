@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-30T10:41:48.350Z",
+  "updatedAt": "2026-10-31T10:08:53.728Z",
   "counts": {
-    "stories": 29,
+    "stories": 30,
     "rhymes": 4,
-    "episodes": 33,
-    "stars": 88
+    "episodes": 34,
+    "stars": 90
   },
   "usage": {
     "tilly": 3,
@@ -28,7 +28,8 @@
     "monkey": 1,
     "raccoon": 2,
     "sheep": 1,
-    "snowman": 1
+    "snowman": 1,
+    "tiger": 1
   },
   "appeared": {
     "tilly": 7,
@@ -43,7 +44,7 @@
     "pig": 1,
     "mouse": 2,
     "squirrel": 3,
-    "panda": 1,
+    "panda": 2,
     "fish": 1,
     "koala": 1,
     "ladybug": 1,
@@ -56,7 +57,8 @@
     "raccoon": 2,
     "sheep": 1,
     "snowman": 1,
-    "dog": 1
+    "dog": 1,
+    "tiger": 1
   },
   "canon": [
     {
@@ -188,6 +190,11 @@
       "event": "First appearance: Buster the dog.",
       "story": "frosty-leaf-leaf-13-welcome",
       "at": "2026-10-30"
+    },
+    {
+      "event": "First appearance: Tigress the tiger.",
+      "story": "tigress-sand-sand-14-welcome",
+      "at": "2026-10-31"
     }
   ],
   "stories": [
@@ -1495,6 +1502,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-frosty-leaf-leaf-13-welcome",
         "tag": "video-frosty-leaf-leaf-13-welcome"
+      }
+    },
+    {
+      "id": "tigress-sand-sand-14-welcome",
+      "revisionOf": "tigress-sand-sand-14",
+      "type": "story",
+      "title": "Tigress and the Sandcastle Door",
+      "hero": "tiger",
+      "heroName": "Tigress",
+      "cast": [
+        "tiger",
+        "panda"
+      ],
+      "moral": "Making room for someone can matter more than making something bigger.",
+      "moralRhyme": [
+        "Make some room for me and you,",
+        "There is space to join in too!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "beach"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-10",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-10-31"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-tigress-sand-sand-14-welcome",
+        "tag": "video-tigress-sand-sand-14-welcome"
       }
     }
   ]

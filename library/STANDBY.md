@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 87 available · 21 used**
+**108 stories · 86 available · 22 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -286,7 +286,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Tigress and the Sandcastle Door](standby/tigress-sand-sand-14.md) | Bao | beach | Making room for someone can matter more than making something bigger. | Available |
+| [Tigress and the Sandcastle Door](standby/tigress-sand-sand-14.md) | Bao | beach | Making room for someone can matter more than making something bigger. | Used · 2026-10-31 |
 | [Tigress and the Underwater Drum Solo](standby/tigress-drum-drum-46.md) | Finn | bedroom |  | Available |
 | [Tigress and the Afternoon With No Plan](standby/tigress-and-the-afternoon-with-no-plan.md) | Rocky | park | A small idea of your own can begin a new game. | Available |
 

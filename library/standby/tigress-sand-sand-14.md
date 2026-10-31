@@ -1,6 +1,6 @@
 # Tigress and the Sandcastle Door
 
-**Status:** Available
+**Status:** Used · 2026-10-31
 
 **Hero:** Tigress
 
@@ -17,6 +17,8 @@ Making room for someone can matter more than making something bigger.
 [Production script](../scripts/tigress-sand-sand-14.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `tigress-sand-sand-14`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-tigress-sand-sand-14-welcome)
 
 ## Read the story
 
