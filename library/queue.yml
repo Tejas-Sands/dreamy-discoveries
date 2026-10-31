@@ -213,7 +213,7 @@ items:
     doneAt: 2026-10-30T10:42:48.668Z
   - id: story-tigress-sand-sand-14
     status: running
-    slug: tigress-sand-sand-14
+    slug: tigress-sand-sand-14-welcome
     topic: Tigress and the Sandcastle Door
     type: story
     hero: tiger
