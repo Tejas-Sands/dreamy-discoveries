@@ -212,13 +212,14 @@ items:
     startedAt: 2026-10-30T10:20:51.788Z
     doneAt: 2026-10-30T10:42:48.668Z
   - id: story-tigress-sand-sand-14
-    status: pending
+    status: running
     slug: tigress-sand-sand-14
     topic: Tigress and the Sandcastle Door
     type: story
     hero: tiger
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-10-31T09:52:30.397Z
   - id: story-sparkle-paper-star-15
     status: pending
     slug: sparkle-paper-star-15
