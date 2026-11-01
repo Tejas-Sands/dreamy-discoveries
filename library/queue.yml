@@ -223,7 +223,7 @@ items:
     doneAt: 2026-10-31T10:10:01.518Z
   - id: story-sparkle-paper-star-15
     status: running
-    slug: sparkle-paper-star-15
+    slug: sparkle-paper-star-15-welcome
     topic: Sparkle and the Lopsided Paper Star
     type: story
     hero: unicorn
