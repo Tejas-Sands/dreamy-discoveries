@@ -222,7 +222,7 @@ items:
     startedAt: 2026-10-31T09:52:30.397Z
     doneAt: 2026-10-31T10:10:01.518Z
   - id: story-sparkle-paper-star-15
-    status: running
+    status: done
     slug: sparkle-paper-star-15-welcome
     topic: Sparkle and the Lopsided Paper Star
     type: story
@@ -230,6 +230,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-11-01T10:43:15.534Z
+    doneAt: 2026-11-01T10:58:36.965Z
   - id: story-ziggy-sock-puppet-16
     status: pending
     slug: ziggy-sock-puppet-16

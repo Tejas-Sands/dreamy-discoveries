@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-10-31T10:08:53.728Z",
+  "updatedAt": "2026-11-01T10:57:35.870Z",
   "counts": {
-    "stories": 30,
+    "stories": 31,
     "rhymes": 4,
-    "episodes": 34,
-    "stars": 90
+    "episodes": 35,
+    "stars": 92
   },
   "usage": {
     "tilly": 3,
@@ -29,7 +29,8 @@
     "raccoon": 2,
     "sheep": 1,
     "snowman": 1,
-    "tiger": 1
+    "tiger": 1,
+    "unicorn": 1
   },
   "appeared": {
     "tilly": 7,
@@ -41,7 +42,7 @@
     "hippo": 1,
     "frog": 2,
     "whale": 1,
-    "pig": 1,
+    "pig": 2,
     "mouse": 2,
     "squirrel": 3,
     "panda": 2,
@@ -58,7 +59,8 @@
     "sheep": 1,
     "snowman": 1,
     "dog": 1,
-    "tiger": 1
+    "tiger": 1,
+    "unicorn": 1
   },
   "canon": [
     {
@@ -195,6 +197,11 @@
       "event": "First appearance: Tigress the tiger.",
       "story": "tigress-sand-sand-14-welcome",
       "at": "2026-10-31"
+    },
+    {
+      "event": "First appearance: Sparkle the unicorn.",
+      "story": "sparkle-paper-star-15-welcome",
+      "at": "2026-11-01"
     }
   ],
   "stories": [
@@ -1541,6 +1548,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-tigress-sand-sand-14-welcome",
         "tag": "video-tigress-sand-sand-14-welcome"
+      }
+    },
+    {
+      "id": "sparkle-paper-star-15-welcome",
+      "revisionOf": "sparkle-paper-star-15",
+      "type": "story",
+      "title": "Sparkle and the Lopsided Paper Star",
+      "hero": "unicorn",
+      "heroName": "Sparkle",
+      "cast": [
+        "unicorn",
+        "pig"
+      ],
+      "moral": "A mistake can become part of a new idea.",
+      "moralRhyme": [
+        "Try a different little way,",
+        "See what changes come today!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "bedroom"
+      ],
+      "palette": "candy",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-01"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-sparkle-paper-star-15-welcome",
+        "tag": "video-sparkle-paper-star-15-welcome"
       }
     }
   ]

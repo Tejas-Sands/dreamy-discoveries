@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 86 available · 22 used**
+**108 stories · 85 available · 23 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -294,7 +294,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Sparkle and the Lopsided Paper Star](standby/sparkle-paper-star-15.md) | Percy | bedroom | A mistake can become part of a new idea. | Available |
+| [Sparkle and the Lopsided Paper Star](standby/sparkle-paper-star-15.md) | Percy | bedroom | A mistake can become part of a new idea. | Used · 2026-11-01 |
 | [Sparkle and the Picnic Promise](standby/sparkle-picnic-picnic-47.md) | Kevin | park, garden | Keeping a promise includes returning to finish the job. | Available |
 | [Sparkle and the Picture With No Applause](standby/sparkle-and-the-picture-with-no-applause.md) | Professor Ozzy | bedroom | You can enjoy what you make even without a round of applause. | Available |
 

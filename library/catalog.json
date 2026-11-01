@@ -900,6 +900,30 @@
       "durationSec": 260,
       "renderedAt": "2026-10-31T10:10:01.105Z",
       "run": "41190430081"
+    },
+    {
+      "slug": "sparkle-paper-star-15-welcome",
+      "revisionOf": "sparkle-paper-star-15",
+      "title": "Sparkle and the Lopsided Paper Star",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "unicorn",
+      "heroName": "Sparkle",
+      "palette": "candy",
+      "backgrounds": [
+        "bedroom"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-sparkle-paper-star-15-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-sparkle-paper-star-15-welcome",
+      "durationSec": 254,
+      "renderedAt": "2026-11-01T10:58:36.557Z",
+      "run": "41298686957"
     }
   ],
   "compilations": []

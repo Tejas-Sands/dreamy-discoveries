@@ -1,6 +1,6 @@
 # Sparkle and the Lopsided Paper Star
 
-**Status:** Available
+**Status:** Used · 2026-11-01
 
 **Hero:** Sparkle
 
@@ -17,6 +17,8 @@ A mistake can become part of a new idea.
 [Production script](../scripts/sparkle-paper-star-15.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `sparkle-paper-star-15`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-sparkle-paper-star-15-welcome)
 
 ## Read the story
 
