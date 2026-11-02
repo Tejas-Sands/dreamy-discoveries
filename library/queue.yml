@@ -232,13 +232,14 @@ items:
     startedAt: 2026-11-01T10:43:15.534Z
     doneAt: 2026-11-01T10:58:36.965Z
   - id: story-ziggy-sock-puppet-16
-    status: pending
+    status: running
     slug: ziggy-sock-puppet-16
     topic: Ziggy and the Sock Puppet Sneezes
     type: story
     hero: zebra
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-02T11:33:32.934Z
   - id: story-harry-fruit-fruit-17
     status: pending
     slug: harry-fruit-fruit-17
