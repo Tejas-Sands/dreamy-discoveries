@@ -233,7 +233,7 @@ items:
     doneAt: 2026-11-01T10:58:36.965Z
   - id: story-ziggy-sock-puppet-16
     status: running
-    slug: ziggy-sock-puppet-16
+    slug: ziggy-sock-puppet-16-welcome
     topic: Ziggy and the Sock Puppet Sneezes
     type: story
     hero: zebra
