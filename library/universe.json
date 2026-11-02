@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-01T10:57:35.870Z",
+  "updatedAt": "2026-11-02T11:49:56.156Z",
   "counts": {
-    "stories": 31,
+    "stories": 32,
     "rhymes": 4,
-    "episodes": 35,
-    "stars": 92
+    "episodes": 36,
+    "stars": 94
   },
   "usage": {
     "tilly": 3,
@@ -30,11 +30,12 @@
     "sheep": 1,
     "snowman": 1,
     "tiger": 1,
-    "unicorn": 1
+    "unicorn": 1,
+    "zebra": 1
   },
   "appeared": {
     "tilly": 7,
-    "daisy": 9,
+    "daisy": 10,
     "fiona": 6,
     "ozzy": 8,
     "taffy": 8,
@@ -60,7 +61,8 @@
     "snowman": 1,
     "dog": 1,
     "tiger": 1,
-    "unicorn": 1
+    "unicorn": 1,
+    "zebra": 1
   },
   "canon": [
     {
@@ -202,6 +204,11 @@
       "event": "First appearance: Sparkle the unicorn.",
       "story": "sparkle-paper-star-15-welcome",
       "at": "2026-11-01"
+    },
+    {
+      "event": "First appearance: Ziggy the zebra.",
+      "story": "ziggy-sock-puppet-16-welcome",
+      "at": "2026-11-02"
     }
   ],
   "stories": [
@@ -1587,6 +1594,42 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-sparkle-paper-star-15-welcome",
         "tag": "video-sparkle-paper-star-15-welcome"
+      }
+    },
+    {
+      "id": "ziggy-sock-puppet-16-welcome",
+      "revisionOf": "ziggy-sock-puppet-16",
+      "type": "story",
+      "title": "Ziggy and the Sock Puppet Sneezes",
+      "hero": "zebra",
+      "heroName": "Ziggy",
+      "cast": [
+        "zebra",
+        "daisy"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "bedroom"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-02"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-ziggy-sock-puppet-16-welcome",
+        "tag": "video-ziggy-sock-puppet-16-welcome"
       }
     }
   ]

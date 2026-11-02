@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 85 available · 23 used**
+**108 stories · 84 available · 24 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -310,6 +310,6 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Ziggy and the Sock Puppet Sneezes](standby/ziggy-sock-puppet-16.md) | Daisy | bedroom |  | Available |
+| [Ziggy and the Sock Puppet Sneezes](standby/ziggy-sock-puppet-16.md) | Daisy | bedroom |  | Used · 2026-11-02 |
 | [Ziggy and the Striped Painting](standby/ziggy-paint-painting-48.md) | Squeaks | kitchen | Checking the evidence can be kinder than blaming a friend. | Available |
 | [Ziggy and the Disappearing Zebra](standby/ziggy-and-the-disappearing-zebra.md) | Daisy | playground |  | Available |

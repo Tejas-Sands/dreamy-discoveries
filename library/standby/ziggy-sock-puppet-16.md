@@ -1,6 +1,6 @@
 # Ziggy and the Sock Puppet Sneezes
 
-**Status:** Available
+**Status:** Used · 2026-11-02
 
 **Hero:** Ziggy
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/ziggy-sock-puppet-16.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `ziggy-sock-puppet-16`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-ziggy-sock-puppet-16-welcome)
 
 ## Read the story
 

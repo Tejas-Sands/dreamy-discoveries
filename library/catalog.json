@@ -924,6 +924,30 @@
       "durationSec": 254,
       "renderedAt": "2026-11-01T10:58:36.557Z",
       "run": "41298686957"
+    },
+    {
+      "slug": "ziggy-sock-puppet-16-welcome",
+      "revisionOf": "ziggy-sock-puppet-16",
+      "title": "Ziggy and the Sock Puppet Sneezes",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "zebra",
+      "heroName": "Ziggy",
+      "palette": "sunshine",
+      "backgrounds": [
+        "bedroom"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-ziggy-sock-puppet-16-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-ziggy-sock-puppet-16-welcome",
+      "durationSec": 235,
+      "renderedAt": "2026-11-02T11:50:53.644Z",
+      "run": "41437720520"
     }
   ],
   "compilations": []
