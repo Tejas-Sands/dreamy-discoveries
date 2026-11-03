@@ -243,7 +243,7 @@ items:
     doneAt: 2026-11-02T11:50:54.073Z
   - id: story-harry-fruit-fruit-17
     status: running
-    slug: harry-fruit-fruit-17
+    slug: harry-fruit-fruit-17-welcome
     topic: Harry and the Rolling Fruit Stand
     type: story
     hero: horse
