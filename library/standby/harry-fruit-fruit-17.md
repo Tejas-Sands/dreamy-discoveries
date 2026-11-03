@@ -1,6 +1,6 @@
 # Harry and the Rolling Fruit Stand
 
-**Status:** Available
+**Status:** Used · 2026-11-03
 
 **Hero:** Harry
 
@@ -17,6 +17,8 @@ A helpful plan should fit the person using it.
 [Production script](../scripts/harry-fruit-fruit-17.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `harry-fruit-fruit-17`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-harry-fruit-fruit-17-welcome)
 
 ## Read the story
 

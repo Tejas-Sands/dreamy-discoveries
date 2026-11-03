@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-02T11:49:56.156Z",
+  "updatedAt": "2026-11-03T11:30:41.773Z",
   "counts": {
-    "stories": 32,
+    "stories": 33,
     "rhymes": 4,
-    "episodes": 36,
-    "stars": 94
+    "episodes": 37,
+    "stars": 96
   },
   "usage": {
     "tilly": 3,
@@ -31,13 +31,14 @@
     "snowman": 1,
     "tiger": 1,
     "unicorn": 1,
-    "zebra": 1
+    "zebra": 1,
+    "horse": 1
   },
   "appeared": {
     "tilly": 7,
     "daisy": 10,
     "fiona": 6,
-    "ozzy": 8,
+    "ozzy": 9,
     "taffy": 8,
     "ben": 9,
     "hippo": 1,
@@ -62,7 +63,8 @@
     "dog": 1,
     "tiger": 1,
     "unicorn": 1,
-    "zebra": 1
+    "zebra": 1,
+    "horse": 1
   },
   "canon": [
     {
@@ -209,6 +211,11 @@
       "event": "First appearance: Ziggy the zebra.",
       "story": "ziggy-sock-puppet-16-welcome",
       "at": "2026-11-02"
+    },
+    {
+      "event": "First appearance: Harry the horse.",
+      "story": "harry-fruit-fruit-17-welcome",
+      "at": "2026-11-03"
     }
   ],
   "stories": [
@@ -1630,6 +1637,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-ziggy-sock-puppet-16-welcome",
         "tag": "video-ziggy-sock-puppet-16-welcome"
+      }
+    },
+    {
+      "id": "harry-fruit-fruit-17-welcome",
+      "revisionOf": "harry-fruit-fruit-17",
+      "type": "story",
+      "title": "Harry and the Rolling Fruit Stand",
+      "hero": "horse",
+      "heroName": "Harry",
+      "cast": [
+        "horse",
+        "ozzy"
+      ],
+      "moral": "A helpful plan should fit the person using it.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "farm"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-03"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-harry-fruit-fruit-17-welcome",
+        "tag": "video-harry-fruit-fruit-17-welcome"
       }
     }
   ]

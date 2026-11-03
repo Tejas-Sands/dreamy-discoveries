@@ -242,7 +242,7 @@ items:
     startedAt: 2026-11-02T11:33:32.934Z
     doneAt: 2026-11-02T11:50:54.073Z
   - id: story-harry-fruit-fruit-17
-    status: running
+    status: done
     slug: harry-fruit-fruit-17-welcome
     topic: Harry and the Rolling Fruit Stand
     type: story
@@ -250,6 +250,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-11-03T11:12:55.077Z
+    doneAt: 2026-11-03T11:31:24.996Z
   - id: story-bessie-towel-pool-18
     status: pending
     slug: bessie-towel-pool-18

@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 84 available · 24 used**
+**108 stories · 83 available · 25 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -183,7 +183,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Harry and the Rolling Fruit Stand](standby/harry-fruit-fruit-17.md) | Professor Ozzy | farm | A helpful plan should fit the person using it. | Available |
+| [Harry and the Rolling Fruit Stand](standby/harry-fruit-fruit-17.md) | Professor Ozzy | farm | A helpful plan should fit the person using it. | Used · 2026-11-03 |
 | [Harry and the Story That Lost Its Ending](standby/harry-story-story-49.md) | Ben | bedroom |  | Available |
 
 ## Kevin

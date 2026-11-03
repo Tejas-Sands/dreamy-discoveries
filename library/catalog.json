@@ -948,6 +948,30 @@
       "durationSec": 235,
       "renderedAt": "2026-11-02T11:50:53.644Z",
       "run": "41437720520"
+    },
+    {
+      "slug": "harry-fruit-fruit-17-welcome",
+      "revisionOf": "harry-fruit-fruit-17",
+      "title": "Harry and the Rolling Fruit Stand",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "horse",
+      "heroName": "Harry",
+      "palette": "meadow",
+      "backgrounds": [
+        "farm"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-harry-fruit-fruit-17-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-harry-fruit-fruit-17-welcome",
+      "durationSec": 247,
+      "renderedAt": "2026-11-03T11:31:24.762Z",
+      "run": "41625614001"
     }
   ],
   "compilations": []
