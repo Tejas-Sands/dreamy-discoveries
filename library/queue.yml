@@ -252,13 +252,14 @@ items:
     startedAt: 2026-11-03T11:12:55.077Z
     doneAt: 2026-11-03T11:31:24.996Z
   - id: story-bessie-towel-pool-18
-    status: pending
+    status: running
     slug: bessie-towel-pool-18
     topic: Bessie and the Missing Dry Towel
     type: story
     hero: cow
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-04T11:23:39.929Z
   - id: story-buster-lamp-tent-19
     status: pending
     slug: buster-lamp-tent-19
