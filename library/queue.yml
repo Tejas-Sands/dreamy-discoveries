@@ -253,7 +253,7 @@ items:
     doneAt: 2026-11-03T11:31:24.996Z
   - id: story-bessie-towel-pool-18
     status: running
-    slug: bessie-towel-pool-18
+    slug: bessie-towel-pool-18-welcome
     topic: Bessie and the Missing Dry Towel
     type: story
     hero: cow
