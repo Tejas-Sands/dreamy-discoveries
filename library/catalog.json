@@ -972,6 +972,30 @@
       "durationSec": 247,
       "renderedAt": "2026-11-03T11:31:24.762Z",
       "run": "41625614001"
+    },
+    {
+      "slug": "bessie-towel-pool-18-welcome",
+      "revisionOf": "bessie-towel-pool-18",
+      "title": "Bessie and the Missing Dry Towel",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "cow",
+      "heroName": "Bessie",
+      "palette": "forest",
+      "backgrounds": [
+        "pond"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bessie-towel-pool-18-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bessie-towel-pool-18-welcome",
+      "durationSec": 261,
+      "renderedAt": "2026-11-04T11:38:53.628Z",
+      "run": "41820420641"
     }
   ],
   "compilations": []

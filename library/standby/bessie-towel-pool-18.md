@@ -1,6 +1,6 @@
 # Bessie and the Missing Dry Towel
 
-**Status:** Available
+**Status:** Used · 2026-11-04
 
 **Hero:** Bessie
 
@@ -17,6 +17,8 @@ Keeping wet and dry things separate can help the next person.
 [Production script](../scripts/bessie-towel-pool-18.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `bessie-towel-pool-18`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bessie-towel-pool-18-welcome)
 
 ## Read the story
 

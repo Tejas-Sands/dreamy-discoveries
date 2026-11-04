@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 83 available · 25 used**
+**108 stories · 82 available · 26 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -111,7 +111,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Bessie and the Missing Dry Towel](standby/bessie-towel-pool-18.md) | Finn | pond | Keeping wet and dry things separate can help the next person. | Available |
+| [Bessie and the Missing Dry Towel](standby/bessie-towel-pool-18.md) | Finn | pond | Keeping wet and dry things separate can help the next person. | Used · 2026-11-04 |
 | [Bessie and the Patient Little Seed](standby/bessie-watering-garden-50.md) | Cleo | garden | Waiting and watching can be part of caring for something. | Available |
 
 ## Rex
