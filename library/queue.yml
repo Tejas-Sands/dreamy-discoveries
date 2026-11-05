@@ -262,13 +262,14 @@ items:
     startedAt: 2026-11-04T11:23:39.929Z
     doneAt: 2026-11-04T11:38:53.878Z
   - id: story-buster-lamp-tent-19
-    status: pending
+    status: running
     slug: buster-lamp-tent-19
     topic: Buster and the Lantern Shadow Monster
     type: story
     hero: dog
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-05T11:21:04.105Z
   - id: story-cleo-button-sewing-20
     status: pending
     slug: cleo-button-sewing-20
