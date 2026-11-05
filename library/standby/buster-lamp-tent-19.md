@@ -1,6 +1,6 @@
 # Buster and the Lantern Shadow Monster
 
-**Status:** Available
+**Status:** Used · 2026-11-05
 
 **Hero:** Buster
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/buster-lamp-tent-19.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `buster-lamp-tent-19`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buster-lamp-tent-19-welcome)
 
 ## Read the story
 

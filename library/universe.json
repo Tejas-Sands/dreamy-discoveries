@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-04T11:38:05.502Z",
+  "updatedAt": "2026-11-05T11:36:30.068Z",
   "counts": {
-    "stories": 34,
+    "stories": 35,
     "rhymes": 4,
-    "episodes": 38,
-    "stars": 98
+    "episodes": 39,
+    "stars": 100
   },
   "usage": {
     "tilly": 3,
@@ -33,7 +33,8 @@
     "unicorn": 1,
     "zebra": 1,
     "horse": 1,
-    "cow": 1
+    "cow": 1,
+    "dog": 1
   },
   "appeared": {
     "tilly": 7,
@@ -50,7 +51,7 @@
     "squirrel": 3,
     "panda": 2,
     "fish": 2,
-    "koala": 1,
+    "koala": 2,
     "ladybug": 1,
     "giraffe": 1,
     "elephant": 1,
@@ -61,7 +62,7 @@
     "raccoon": 2,
     "sheep": 1,
     "snowman": 1,
-    "dog": 1,
+    "dog": 2,
     "tiger": 1,
     "unicorn": 1,
     "zebra": 1,
@@ -1722,6 +1723,42 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-bessie-towel-pool-18-welcome",
         "tag": "video-bessie-towel-pool-18-welcome"
+      }
+    },
+    {
+      "id": "buster-lamp-tent-19-welcome",
+      "revisionOf": "buster-lamp-tent-19",
+      "type": "story",
+      "title": "Buster and the Lantern Shadow Monster",
+      "hero": "dog",
+      "heroName": "Buster",
+      "cast": [
+        "dog",
+        "koala"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "campfire"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-05"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buster-lamp-tent-19-welcome",
+        "tag": "video-buster-lamp-tent-19-welcome"
       }
     }
   ]

@@ -996,6 +996,30 @@
       "durationSec": 261,
       "renderedAt": "2026-11-04T11:38:53.628Z",
       "run": "41820420641"
+    },
+    {
+      "slug": "buster-lamp-tent-19-welcome",
+      "revisionOf": "buster-lamp-tent-19",
+      "title": "Buster and the Lantern Shadow Monster",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "dog",
+      "heroName": "Buster",
+      "palette": "ocean",
+      "backgrounds": [
+        "campfire"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buster-lamp-tent-19-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buster-lamp-tent-19-welcome",
+      "durationSec": 232,
+      "renderedAt": "2026-11-05T11:37:23.798Z",
+      "run": "42018200017"
     }
   ],
   "compilations": []

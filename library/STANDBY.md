@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 82 available · 26 used**
+**108 stories · 81 available · 27 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -125,7 +125,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Buster and the Lantern Shadow Monster](standby/buster-lamp-tent-19.md) | Kevin | campfire |  | Available |
+| [Buster and the Lantern Shadow Monster](standby/buster-lamp-tent-19.md) | Kevin | campfire |  | Used · 2026-11-05 |
 | [Buster and the Invisible Door](standby/buster-and-the-invisible-door.md) | Shaun | park |  | Available |
 
 ## Spike
