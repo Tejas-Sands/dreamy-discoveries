@@ -272,13 +272,14 @@ items:
     startedAt: 2026-11-05T11:21:04.105Z
     doneAt: 2026-11-05T11:37:24.133Z
   - id: story-cleo-button-sewing-20
-    status: pending
+    status: running
     slug: cleo-button-sewing-20
     topic: Cleo and the Button Borrowing Box
     type: story
     hero: cat
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-06T11:19:32.808Z
   - id: story-peep-shell-tide-21
     status: pending
     slug: peep-shell-tide-21
