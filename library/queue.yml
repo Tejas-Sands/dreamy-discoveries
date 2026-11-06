@@ -273,7 +273,7 @@ items:
     doneAt: 2026-11-05T11:37:24.133Z
   - id: story-cleo-button-sewing-20
     status: running
-    slug: cleo-button-sewing-20
+    slug: cleo-button-sewing-20-welcome
     topic: Cleo and the Button Borrowing Box
     type: story
     hero: cat
