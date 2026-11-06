@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-05T11:36:30.068Z",
+  "updatedAt": "2026-11-06T11:33:36.907Z",
   "counts": {
-    "stories": 35,
+    "stories": 36,
     "rhymes": 4,
-    "episodes": 39,
-    "stars": 100
+    "episodes": 40,
+    "stars": 102
   },
   "usage": {
     "tilly": 3,
@@ -34,7 +34,8 @@
     "zebra": 1,
     "horse": 1,
     "cow": 1,
-    "dog": 1
+    "dog": 1,
+    "cat": 1
   },
   "appeared": {
     "tilly": 7,
@@ -47,7 +48,7 @@
     "frog": 2,
     "whale": 1,
     "pig": 2,
-    "mouse": 2,
+    "mouse": 3,
     "squirrel": 3,
     "panda": 2,
     "fish": 2,
@@ -55,7 +56,7 @@
     "ladybug": 1,
     "giraffe": 1,
     "elephant": 1,
-    "cat": 1,
+    "cat": 2,
     "lion": 1,
     "bee": 1,
     "monkey": 1,
@@ -1759,6 +1760,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buster-lamp-tent-19-welcome",
         "tag": "video-buster-lamp-tent-19-welcome"
+      }
+    },
+    {
+      "id": "cleo-button-sewing-20-welcome",
+      "revisionOf": "cleo-button-sewing-20",
+      "type": "story",
+      "title": "Cleo and the Button Borrowing Box",
+      "hero": "cat",
+      "heroName": "Cleo",
+      "cast": [
+        "cat",
+        "mouse"
+      ],
+      "moral": "Asking before borrowing protects someone else’s plans.",
+      "moralRhyme": [
+        "Little choices, thoughtful care,",
+        "Make a happier world to share!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "bedroom"
+      ],
+      "palette": "candy",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-06"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-cleo-button-sewing-20-welcome",
+        "tag": "video-cleo-button-sewing-20-welcome"
       }
     }
   ]

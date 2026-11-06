@@ -1,6 +1,6 @@
 # Cleo and the Button Borrowing Box
 
-**Status:** Available
+**Status:** Used · 2026-11-06
 
 **Hero:** Cleo
 
@@ -17,6 +17,8 @@ Asking before borrowing protects someone else’s plans.
 [Production script](../scripts/cleo-button-sewing-20.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `cleo-button-sewing-20`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-cleo-button-sewing-20-welcome)
 
 ## Read the story
 

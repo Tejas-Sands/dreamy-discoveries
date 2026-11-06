@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 81 available · 27 used**
+**108 stories · 80 available · 28 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -97,7 +97,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Cleo and the Button Borrowing Box](standby/cleo-button-sewing-20.md) | Squeaks | bedroom | Asking before borrowing protects someone else’s plans. | Available |
+| [Cleo and the Button Borrowing Box](standby/cleo-button-sewing-20.md) | Squeaks | bedroom | Asking before borrowing protects someone else’s plans. | Used · 2026-11-06 |
 | [Cleo and the Apology With a But](standby/cleo-and-the-apology-with-a-but.md) | Fiona | garden | A helpful apology owns the mistake and helps repair the harm. | Available |
 
 ## Peep
