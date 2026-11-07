@@ -1,6 +1,6 @@
 # Peep and the Three Special Shells
 
-**Status:** Available
+**Status:** Used · 2026-11-07
 
 **Hero:** Peep
 
@@ -17,6 +17,8 @@ Choosing what you need can leave enough for another day.
 [Production script](../scripts/peep-shell-tide-21.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `peep-shell-tide-21`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-peep-shell-tide-21-welcome)
 
 ## Read the story
 

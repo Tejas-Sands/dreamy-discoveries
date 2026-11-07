@@ -1044,6 +1044,30 @@
       "durationSec": 261,
       "renderedAt": "2026-11-06T11:34:20.851Z",
       "run": "42209348625"
+    },
+    {
+      "slug": "peep-shell-tide-21-welcome",
+      "revisionOf": "peep-shell-tide-21",
+      "title": "Peep and the Three Special Shells",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "chick",
+      "heroName": "Peep",
+      "palette": "sunshine",
+      "backgrounds": [
+        "beach"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-peep-shell-tide-21-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-peep-shell-tide-21-welcome",
+      "durationSec": 270,
+      "renderedAt": "2026-11-07T10:49:19.837Z",
+      "run": "42364458401"
     }
   ],
   "compilations": []

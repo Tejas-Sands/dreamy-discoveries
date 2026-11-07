@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-06T11:33:36.907Z",
+  "updatedAt": "2026-11-07T10:48:14.024Z",
   "counts": {
-    "stories": 36,
+    "stories": 37,
     "rhymes": 4,
-    "episodes": 40,
-    "stars": 102
+    "episodes": 41,
+    "stars": 104
   },
   "usage": {
     "tilly": 3,
@@ -35,7 +35,8 @@
     "horse": 1,
     "cow": 1,
     "dog": 1,
-    "cat": 1
+    "cat": 1,
+    "chick": 1
   },
   "appeared": {
     "tilly": 7,
@@ -43,7 +44,7 @@
     "fiona": 6,
     "ozzy": 9,
     "taffy": 8,
-    "ben": 9,
+    "ben": 10,
     "hippo": 1,
     "frog": 2,
     "whale": 1,
@@ -68,7 +69,8 @@
     "unicorn": 1,
     "zebra": 1,
     "horse": 1,
-    "cow": 1
+    "cow": 1,
+    "chick": 1
   },
   "canon": [
     {
@@ -225,6 +227,11 @@
       "event": "First appearance: Bessie the cow.",
       "story": "bessie-towel-pool-18-welcome",
       "at": "2026-11-04"
+    },
+    {
+      "event": "First appearance: Peep the chick.",
+      "story": "peep-shell-tide-21-welcome",
+      "at": "2026-11-07"
     }
   ],
   "stories": [
@@ -1799,6 +1806,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-cleo-button-sewing-20-welcome",
         "tag": "video-cleo-button-sewing-20-welcome"
+      }
+    },
+    {
+      "id": "peep-shell-tide-21-welcome",
+      "revisionOf": "peep-shell-tide-21",
+      "type": "story",
+      "title": "Peep and the Three Special Shells",
+      "hero": "chick",
+      "heroName": "Peep",
+      "cast": [
+        "chick",
+        "ben"
+      ],
+      "moral": "Choosing what you need can leave enough for another day.",
+      "moralRhyme": [
+        "Little choices, thoughtful care,",
+        "Make a happier world to share!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "beach"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-07"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-peep-shell-tide-21-welcome",
+        "tag": "video-peep-shell-tide-21-welcome"
       }
     }
   ]

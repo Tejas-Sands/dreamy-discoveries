@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 80 available · 28 used**
+**108 stories · 79 available · 29 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -104,7 +104,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Peep and the Three Special Shells](standby/peep-shell-tide-21.md) | Ben | beach | Choosing what you need can leave enough for another day. | Available |
+| [Peep and the Three Special Shells](standby/peep-shell-tide-21.md) | Ben | beach | Choosing what you need can leave enough for another day. | Used · 2026-11-07 |
 | [Peep and the Two-Feelings Present](standby/peep-and-the-two-feelings-present.md) | Squeaks | garden | You can feel thankful and disappointed at the same time. | Available |
 
 ## Bessie
