@@ -292,13 +292,14 @@ items:
     startedAt: 2026-11-07T10:33:51.162Z
     doneAt: 2026-11-07T10:49:20.251Z
   - id: story-pip-seed-garden-22
-    status: pending
+    status: running
     slug: pip-seed-garden-22
     topic: Pip and the Seed Hat
     type: story
     hero: bird
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-08T10:40:14.323Z
   - id: story-buzz-block-block-23
     status: pending
     slug: buzz-block-block-23
