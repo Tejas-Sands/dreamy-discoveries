@@ -301,13 +301,14 @@ items:
     addedAt: 2026-10-08
     startedAt: 2026-11-08T10:40:14.323Z
   - id: story-buzz-block-block-23
-    status: pending
+    status: running
     slug: buzz-block-block-23
     topic: Buzz and the Tower Traffic Jam
     type: story
     hero: bee
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-09T11:57:17.449Z
   - id: story-finn-crayon-drawing-24
     status: pending
     slug: finn-crayon-drawing-24
