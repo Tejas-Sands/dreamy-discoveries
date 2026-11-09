@@ -302,7 +302,7 @@ items:
     startedAt: 2026-11-08T10:40:14.323Z
   - id: story-buzz-block-block-23
     status: running
-    slug: buzz-block-block-23
+    slug: buzz-block-block-23-welcome
     topic: Buzz and the Tower Traffic Jam
     type: story
     hero: bee
