@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-07T10:48:14.024Z",
+  "updatedAt": "2026-11-09T12:10:30.023Z",
   "counts": {
-    "stories": 37,
+    "stories": 38,
     "rhymes": 4,
-    "episodes": 41,
-    "stars": 104
+    "episodes": 42,
+    "stars": 106
   },
   "usage": {
     "tilly": 3,
@@ -36,13 +36,14 @@
     "cow": 1,
     "dog": 1,
     "cat": 1,
-    "chick": 1
+    "chick": 1,
+    "bee": 1
   },
   "appeared": {
     "tilly": 7,
     "daisy": 10,
     "fiona": 6,
-    "ozzy": 9,
+    "ozzy": 10,
     "taffy": 8,
     "ben": 10,
     "hippo": 1,
@@ -59,7 +60,7 @@
     "elephant": 1,
     "cat": 2,
     "lion": 1,
-    "bee": 1,
+    "bee": 2,
     "monkey": 1,
     "raccoon": 2,
     "sheep": 1,
@@ -1845,6 +1846,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-peep-shell-tide-21-welcome",
         "tag": "video-peep-shell-tide-21-welcome"
+      }
+    },
+    {
+      "id": "buzz-block-block-23-welcome",
+      "revisionOf": "buzz-block-block-23",
+      "type": "story",
+      "title": "Buzz and the Tower Traffic Jam",
+      "hero": "bee",
+      "heroName": "Buzz",
+      "cast": [
+        "bee",
+        "ozzy"
+      ],
+      "moral": "Taking turns can give each person room to do their part.",
+      "moralRhyme": [
+        "Leave a little space to hear,",
+        "Every friend can join us here!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "playground"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-09"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buzz-block-block-23-welcome",
+        "tag": "video-buzz-block-block-23-welcome"
       }
     }
   ]

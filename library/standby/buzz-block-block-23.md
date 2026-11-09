@@ -1,6 +1,6 @@
 # Buzz and the Tower Traffic Jam
 
-**Status:** Available
+**Status:** Used · 2026-11-09
 
 **Hero:** Buzz
 
@@ -17,6 +17,8 @@ Taking turns can give each person room to do their part.
 [Production script](../scripts/buzz-block-block-23.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `buzz-block-block-23`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buzz-block-block-23-welcome)
 
 ## Read the story
 

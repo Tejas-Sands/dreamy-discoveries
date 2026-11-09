@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 79 available · 29 used**
+**108 stories · 78 available · 30 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -83,7 +83,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Buzz and the Tower Traffic Jam](standby/buzz-block-block-23.md) | Professor Ozzy | playground | Taking turns can give each person room to do their part. | Available |
+| [Buzz and the Tower Traffic Jam](standby/buzz-block-block-23.md) | Professor Ozzy | playground | Taking turns can give each person room to do their part. | Used · 2026-11-09 |
 | [Buzz and the Queue for Nothing](standby/buzz-and-the-queue-for-nothing.md) | Nutty | garden |  | Available |
 
 ## Pip
