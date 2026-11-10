@@ -311,7 +311,7 @@ items:
     startedAt: 2026-11-09T11:57:17.449Z
     doneAt: 2026-11-09T12:11:35.713Z
   - id: story-finn-crayon-drawing-24
-    status: running
+    status: pending
     slug: finn-crayon-drawing-24
     topic: Finn and the Picture Nobody Could See
     type: story
