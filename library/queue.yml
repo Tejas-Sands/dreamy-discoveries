@@ -312,7 +312,7 @@ items:
     doneAt: 2026-11-09T12:11:35.713Z
   - id: story-finn-crayon-drawing-24
     status: running
-    slug: finn-crayon-drawing-24
+    slug: finn-crayon-drawing-24-welcome
     topic: Finn and the Picture Nobody Could See
     type: story
     hero: fish
