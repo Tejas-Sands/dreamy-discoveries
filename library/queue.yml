@@ -311,14 +311,14 @@ items:
     startedAt: 2026-11-09T11:57:17.449Z
     doneAt: 2026-11-09T12:11:35.713Z
   - id: story-finn-crayon-drawing-24
-    status: pending
+    status: running
     slug: finn-crayon-drawing-24
     topic: Finn and the Picture Nobody Could See
     type: story
     hero: fish
     minutes: 5.5
     addedAt: 2026-10-08
-    startedAt: 2026-11-10T11:31:35.794Z
+    startedAt: 2026-11-11T11:20:13.148Z
   - id: story-freddy-kite-kite-25
     status: pending
     slug: freddy-kite-kite-25
