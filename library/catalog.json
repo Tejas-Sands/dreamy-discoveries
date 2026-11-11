@@ -1092,6 +1092,30 @@
       "durationSec": 254,
       "renderedAt": "2026-11-09T12:11:35.301Z",
       "run": "42613001552"
+    },
+    {
+      "slug": "finn-crayon-drawing-24-welcome",
+      "revisionOf": "finn-crayon-drawing-24",
+      "title": "Finn and the Picture Nobody Could See",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "fish",
+      "heroName": "Finn",
+      "palette": "ocean",
+      "backgrounds": [
+        "pond"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-finn-crayon-drawing-24-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-finn-crayon-drawing-24-welcome",
+      "durationSec": 249,
+      "renderedAt": "2026-11-11T11:36:51.172Z",
+      "run": "43011035868"
     }
   ],
   "compilations": []

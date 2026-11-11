@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-09T12:10:30.023Z",
+  "updatedAt": "2026-11-11T11:35:47.813Z",
   "counts": {
-    "stories": 38,
+    "stories": 39,
     "rhymes": 4,
-    "episodes": 42,
-    "stars": 106
+    "episodes": 43,
+    "stars": 108
   },
   "usage": {
     "tilly": 3,
@@ -37,7 +37,8 @@
     "dog": 1,
     "cat": 1,
     "chick": 1,
-    "bee": 1
+    "bee": 1,
+    "fish": 1
   },
   "appeared": {
     "tilly": 7,
@@ -47,13 +48,13 @@
     "taffy": 8,
     "ben": 10,
     "hippo": 1,
-    "frog": 2,
+    "frog": 3,
     "whale": 1,
     "pig": 2,
     "mouse": 3,
     "squirrel": 3,
     "panda": 2,
-    "fish": 2,
+    "fish": 3,
     "koala": 2,
     "ladybug": 1,
     "giraffe": 1,
@@ -1885,6 +1886,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-buzz-block-block-23-welcome",
         "tag": "video-buzz-block-block-23-welcome"
+      }
+    },
+    {
+      "id": "finn-crayon-drawing-24-welcome",
+      "revisionOf": "finn-crayon-drawing-24",
+      "type": "story",
+      "title": "Finn and the Picture Nobody Could See",
+      "hero": "fish",
+      "heroName": "Finn",
+      "cast": [
+        "fish",
+        "frog"
+      ],
+      "moral": "Checking another person’s view can help you share an idea.",
+      "moralRhyme": [
+        "Make some room for me and you,",
+        "There is space to join in too!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "pond"
+      ],
+      "palette": "ocean",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-11"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-finn-crayon-drawing-24-welcome",
+        "tag": "video-finn-crayon-drawing-24-welcome"
       }
     }
   ]

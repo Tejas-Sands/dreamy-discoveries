@@ -1,6 +1,6 @@
 # Finn and the Picture Nobody Could See
 
-**Status:** Available
+**Status:** Used · 2026-11-11
 
 **Hero:** Finn
 
@@ -17,6 +17,8 @@ Checking another person’s view can help you share an idea.
 [Production script](../scripts/finn-crayon-drawing-24.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `finn-crayon-drawing-24`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-finn-crayon-drawing-24-welcome)
 
 ## Read the story
 
