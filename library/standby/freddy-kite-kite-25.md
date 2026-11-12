@@ -1,6 +1,6 @@
 # Freddy and the Kite in His Pocket
 
-**Status:** Available
+**Status:** Used · 2026-11-12
 
 **Hero:** Freddy
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/freddy-kite-kite-25.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `freddy-kite-kite-25`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-freddy-kite-kite-25-welcome)
 
 ## Read the story
 

@@ -1116,6 +1116,30 @@
       "durationSec": 249,
       "renderedAt": "2026-11-11T11:36:51.172Z",
       "run": "43011035868"
+    },
+    {
+      "slug": "freddy-kite-kite-25-welcome",
+      "revisionOf": "freddy-kite-kite-25",
+      "title": "Freddy and the Kite in His Pocket",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "frog",
+      "heroName": "Freddy",
+      "palette": "candy",
+      "backgrounds": [
+        "meadow"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-freddy-kite-kite-25-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-freddy-kite-kite-25-welcome",
+      "durationSec": 230,
+      "renderedAt": "2026-11-12T12:02:43.447Z",
+      "run": "43211007956"
     }
   ],
   "compilations": []

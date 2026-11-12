@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-11T11:35:47.813Z",
+  "updatedAt": "2026-11-12T12:01:58.095Z",
   "counts": {
-    "stories": 39,
+    "stories": 40,
     "rhymes": 4,
-    "episodes": 43,
-    "stars": 108
+    "episodes": 44,
+    "stars": 110
   },
   "usage": {
     "tilly": 3,
@@ -38,7 +38,8 @@
     "cat": 1,
     "chick": 1,
     "bee": 1,
-    "fish": 1
+    "fish": 1,
+    "frog": 1
   },
   "appeared": {
     "tilly": 7,
@@ -48,11 +49,11 @@
     "taffy": 8,
     "ben": 10,
     "hippo": 1,
-    "frog": 3,
+    "frog": 4,
     "whale": 1,
     "pig": 2,
     "mouse": 3,
-    "squirrel": 3,
+    "squirrel": 4,
     "panda": 2,
     "fish": 3,
     "koala": 2,
@@ -1925,6 +1926,42 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-finn-crayon-drawing-24-welcome",
         "tag": "video-finn-crayon-drawing-24-welcome"
+      }
+    },
+    {
+      "id": "freddy-kite-kite-25-welcome",
+      "revisionOf": "freddy-kite-kite-25",
+      "type": "story",
+      "title": "Freddy and the Kite in His Pocket",
+      "hero": "frog",
+      "heroName": "Freddy",
+      "cast": [
+        "frog",
+        "squirrel"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "meadow"
+      ],
+      "palette": "candy",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-12"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-freddy-kite-kite-25-welcome",
+        "tag": "video-freddy-kite-kite-25-welcome"
       }
     }
   ]

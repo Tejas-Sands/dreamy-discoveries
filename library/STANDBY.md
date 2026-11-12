@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 77 available · 31 used**
+**108 stories · 76 available · 32 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -153,7 +153,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Freddy and the Kite in His Pocket](standby/freddy-kite-kite-25.md) | Nutty | meadow |  | Available |
+| [Freddy and the Kite in His Pocket](standby/freddy-kite-kite-25.md) | Nutty | meadow |  | Used · 2026-11-12 |
 | [Freddy and the Treasure That Smelled Like Lunch](standby/freddy-and-the-treasure-that-smelled-like-lunch.md) | Nutty | garden |  | Available |
 
 ## Gigi
