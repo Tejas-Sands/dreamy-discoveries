@@ -321,13 +321,14 @@ items:
     startedAt: 2026-11-11T11:20:13.148Z
     doneAt: 2026-11-11T11:36:51.586Z
   - id: story-freddy-kite-kite-25
-    status: pending
+    status: running
     slug: freddy-kite-kite-25
     topic: Freddy and the Kite in His Pocket
     type: story
     hero: frog
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-12T11:39:45.999Z
   - id: story-percy-drum-drum-26
     status: pending
     slug: percy-drum-drum-26
