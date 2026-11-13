@@ -1,6 +1,6 @@
 # Percy and the Drumbeat Nobody Could Follow
 
-**Status:** Available
+**Status:** Used · 2026-11-13
 
 **Hero:** Percy
 
@@ -17,6 +17,8 @@ Leaving room to listen can make playing together more fun.
 [Production script](../scripts/percy-drum-drum-26.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `percy-drum-drum-26`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-percy-drum-drum-26-welcome)
 
 ## Read the story
 

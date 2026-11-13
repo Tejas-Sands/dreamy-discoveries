@@ -1140,6 +1140,30 @@
       "durationSec": 230,
       "renderedAt": "2026-11-12T12:02:43.447Z",
       "run": "43211007956"
+    },
+    {
+      "slug": "percy-drum-drum-26-welcome",
+      "revisionOf": "percy-drum-drum-26",
+      "title": "Percy and the Drumbeat Nobody Could Follow",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "pig",
+      "heroName": "Percy",
+      "palette": "sunshine",
+      "backgrounds": [
+        "playground"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-percy-drum-drum-26-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-percy-drum-drum-26-welcome",
+      "durationSec": 251,
+      "renderedAt": "2026-11-13T11:40:31.418Z",
+      "run": "43416642379"
     }
   ],
   "compilations": []

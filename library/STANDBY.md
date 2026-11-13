@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 76 available · 32 used**
+**108 stories · 75 available · 33 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -241,7 +241,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Percy and the Drumbeat Nobody Could Follow](standby/percy-drum-drum-26.md) | Taffy | playground | Leaving room to listen can make playing together more fun. | Available |
+| [Percy and the Drumbeat Nobody Could Follow](standby/percy-drum-drum-26.md) | Taffy | playground | Leaving room to listen can make playing together more fun. | Used · 2026-11-13 |
 | [Percy and the Great Pudding Jiggle](standby/percy-and-the-great-pudding-jiggle.md) | Cleo | kitchen |  | Available |
 
 ## Rocky

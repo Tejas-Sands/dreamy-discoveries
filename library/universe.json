@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-12T12:01:58.095Z",
+  "updatedAt": "2026-11-13T11:39:29.893Z",
   "counts": {
-    "stories": 40,
+    "stories": 41,
     "rhymes": 4,
-    "episodes": 44,
-    "stars": 110
+    "episodes": 45,
+    "stars": 112
   },
   "usage": {
     "tilly": 3,
@@ -39,19 +39,20 @@
     "chick": 1,
     "bee": 1,
     "fish": 1,
-    "frog": 1
+    "frog": 1,
+    "pig": 1
   },
   "appeared": {
     "tilly": 7,
     "daisy": 10,
     "fiona": 6,
     "ozzy": 10,
-    "taffy": 8,
+    "taffy": 9,
     "ben": 10,
     "hippo": 1,
     "frog": 4,
     "whale": 1,
-    "pig": 2,
+    "pig": 3,
     "mouse": 3,
     "squirrel": 4,
     "panda": 2,
@@ -1962,6 +1963,45 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-freddy-kite-kite-25-welcome",
         "tag": "video-freddy-kite-kite-25-welcome"
+      }
+    },
+    {
+      "id": "percy-drum-drum-26-welcome",
+      "revisionOf": "percy-drum-drum-26",
+      "type": "story",
+      "title": "Percy and the Drumbeat Nobody Could Follow",
+      "hero": "pig",
+      "heroName": "Percy",
+      "cast": [
+        "pig",
+        "taffy"
+      ],
+      "moral": "Leaving room to listen can make playing together more fun.",
+      "moralRhyme": [
+        "Leave a little space to hear,",
+        "Every friend can join us here!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "playground"
+      ],
+      "palette": "sunshine",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-13"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-percy-drum-drum-26-welcome",
+        "tag": "video-percy-drum-drum-26-welcome"
       }
     }
   ]
