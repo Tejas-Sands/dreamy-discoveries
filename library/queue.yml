@@ -332,7 +332,7 @@ items:
     doneAt: 2026-11-12T12:02:43.714Z
   - id: story-percy-drum-drum-26
     status: running
-    slug: percy-drum-drum-26
+    slug: percy-drum-drum-26-welcome
     topic: Percy and the Drumbeat Nobody Could Follow
     type: story
     hero: pig
