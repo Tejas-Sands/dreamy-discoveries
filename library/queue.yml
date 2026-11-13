@@ -331,13 +331,14 @@ items:
     startedAt: 2026-11-12T11:39:45.999Z
     doneAt: 2026-11-12T12:02:43.714Z
   - id: story-percy-drum-drum-26
-    status: pending
+    status: running
     slug: percy-drum-drum-26
     topic: Percy and the Drumbeat Nobody Could Follow
     type: story
     hero: pig
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-13T11:23:29.857Z
   - id: story-hugo-picnic-picnic-27
     status: pending
     slug: hugo-picnic-picnic-27
