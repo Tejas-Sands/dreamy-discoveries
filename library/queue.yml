@@ -342,7 +342,7 @@ items:
     doneAt: 2026-11-13T11:40:31.834Z
   - id: story-hugo-picnic-picnic-27
     status: running
-    slug: hugo-picnic-picnic-27
+    slug: hugo-picnic-picnic-27-welcome
     topic: Hugo and the Picnic Blanket River
     type: story
     hero: hippo
