@@ -341,7 +341,7 @@ items:
     startedAt: 2026-11-13T11:23:29.857Z
     doneAt: 2026-11-13T11:40:31.834Z
   - id: story-hugo-picnic-picnic-27
-    status: running
+    status: done
     slug: hugo-picnic-picnic-27-welcome
     topic: Hugo and the Picnic Blanket River
     type: story
@@ -349,6 +349,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-11-14T10:46:34.810Z
+    doneAt: 2026-11-14T11:03:30.736Z
   - id: story-spike-paint-painting-28
     status: pending
     slug: spike-paint-painting-28

@@ -1,6 +1,6 @@
 # Hugo and the Picnic Blanket River
 
-**Status:** Available
+**Status:** Used · 2026-11-14
 
 **Hero:** Hugo
 
@@ -17,6 +17,8 @@ Sharing a task can make a heavy job manageable.
 [Production script](../scripts/hugo-picnic-picnic-27.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `hugo-picnic-picnic-27`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-picnic-picnic-27-welcome)
 
 ## Read the story
 

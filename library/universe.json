@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-13T11:39:29.893Z",
+  "updatedAt": "2026-11-14T11:02:40.113Z",
   "counts": {
-    "stories": 41,
+    "stories": 42,
     "rhymes": 4,
-    "episodes": 45,
-    "stars": 112
+    "episodes": 46,
+    "stars": 114
   },
   "usage": {
     "tilly": 3,
@@ -15,7 +15,7 @@
     "taffy": 3,
     "ben": 3,
     "fiona": 3,
-    "hippo": 1,
+    "hippo": 2,
     "whale": 1,
     "mouse": 1,
     "squirrel": 1,
@@ -49,7 +49,7 @@
     "ozzy": 10,
     "taffy": 9,
     "ben": 10,
-    "hippo": 1,
+    "hippo": 2,
     "frog": 4,
     "whale": 1,
     "pig": 3,
@@ -68,7 +68,7 @@
     "raccoon": 2,
     "sheep": 1,
     "snowman": 1,
-    "dog": 2,
+    "dog": 3,
     "tiger": 1,
     "unicorn": 1,
     "zebra": 1,
@@ -2002,6 +2002,46 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-percy-drum-drum-26-welcome",
         "tag": "video-percy-drum-drum-26-welcome"
+      }
+    },
+    {
+      "id": "hugo-picnic-picnic-27-welcome",
+      "revisionOf": "hugo-picnic-picnic-27",
+      "type": "story",
+      "title": "Hugo and the Picnic Blanket River",
+      "hero": "hippo",
+      "heroName": "Hugo",
+      "cast": [
+        "hippo",
+        "dog"
+      ],
+      "moral": "Sharing a task can make a heavy job manageable.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "garden",
+        "pond"
+      ],
+      "palette": "meadow",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-14"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-picnic-picnic-27-welcome",
+        "tag": "video-hugo-picnic-picnic-27-welcome"
       }
     }
   ]

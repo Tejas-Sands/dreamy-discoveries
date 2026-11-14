@@ -1164,6 +1164,31 @@
       "durationSec": 251,
       "renderedAt": "2026-11-13T11:40:31.418Z",
       "run": "43416642379"
+    },
+    {
+      "slug": "hugo-picnic-picnic-27-welcome",
+      "revisionOf": "hugo-picnic-picnic-27",
+      "title": "Hugo and the Picnic Blanket River",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "hippo",
+      "heroName": "Hugo",
+      "palette": "meadow",
+      "backgrounds": [
+        "garden",
+        "pond"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-picnic-picnic-27-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-picnic-picnic-27-welcome",
+      "durationSec": 257,
+      "renderedAt": "2026-11-14T11:03:30.460Z",
+      "run": "43586837172"
     }
   ],
   "compilations": []
