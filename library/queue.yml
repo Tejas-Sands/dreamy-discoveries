@@ -352,7 +352,7 @@ items:
     doneAt: 2026-11-14T11:03:30.736Z
   - id: story-spike-paint-painting-28
     status: running
-    slug: spike-paint-painting-28
+    slug: spike-paint-painting-28-welcome
     topic: Spike and the Hedgehog Paintbrush
     type: story
     hero: hedgehog
