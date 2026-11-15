@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 74 available · 34 used**
+**108 stories · 73 available · 35 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -169,7 +169,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Spike and the Hedgehog Paintbrush](standby/spike-paint-painting-28.md) | Bao | kitchen |  | Available |
+| [Spike and the Hedgehog Paintbrush](standby/spike-paint-painting-28.md) | Bao | kitchen |  | Used · 2026-11-15 |
 
 ## Hugo
 

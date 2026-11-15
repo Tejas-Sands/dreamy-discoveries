@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-14T11:02:40.113Z",
+  "updatedAt": "2026-11-15T11:32:15.470Z",
   "counts": {
-    "stories": 42,
+    "stories": 43,
     "rhymes": 4,
-    "episodes": 46,
-    "stars": 114
+    "episodes": 47,
+    "stars": 116
   },
   "usage": {
     "tilly": 3,
@@ -40,7 +40,8 @@
     "bee": 1,
     "fish": 1,
     "frog": 1,
-    "pig": 1
+    "pig": 1,
+    "hedgehog": 1
   },
   "appeared": {
     "tilly": 7,
@@ -55,7 +56,7 @@
     "pig": 3,
     "mouse": 3,
     "squirrel": 4,
-    "panda": 2,
+    "panda": 3,
     "fish": 3,
     "koala": 2,
     "ladybug": 1,
@@ -74,7 +75,8 @@
     "zebra": 1,
     "horse": 1,
     "cow": 1,
-    "chick": 1
+    "chick": 1,
+    "hedgehog": 1
   },
   "canon": [
     {
@@ -236,6 +238,11 @@
       "event": "First appearance: Peep the chick.",
       "story": "peep-shell-tide-21-welcome",
       "at": "2026-11-07"
+    },
+    {
+      "event": "First appearance: Spike the hedgehog.",
+      "story": "spike-paint-painting-28-welcome",
+      "at": "2026-11-15"
     }
   ],
   "stories": [
@@ -2042,6 +2049,42 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-hugo-picnic-picnic-27-welcome",
         "tag": "video-hugo-picnic-picnic-27-welcome"
+      }
+    },
+    {
+      "id": "spike-paint-painting-28-welcome",
+      "revisionOf": "spike-paint-painting-28",
+      "type": "story",
+      "title": "Spike and the Hedgehog Paintbrush",
+      "hero": "hedgehog",
+      "heroName": "Spike",
+      "cast": [
+        "hedgehog",
+        "panda"
+      ],
+      "moral": null,
+      "moralRhyme": null,
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "kitchen"
+      ],
+      "palette": "forest",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-15"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-paint-painting-28-welcome",
+        "tag": "video-spike-paint-painting-28-welcome"
       }
     }
   ]

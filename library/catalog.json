@@ -1189,6 +1189,30 @@
       "durationSec": 257,
       "renderedAt": "2026-11-14T11:03:30.460Z",
       "run": "43586837172"
+    },
+    {
+      "slug": "spike-paint-painting-28-welcome",
+      "revisionOf": "spike-paint-painting-28",
+      "title": "Spike and the Hedgehog Paintbrush",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "hedgehog",
+      "heroName": "Spike",
+      "palette": "forest",
+      "backgrounds": [
+        "kitchen"
+      ],
+      "lines": 52,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-paint-painting-28-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-paint-painting-28-welcome",
+      "durationSec": 228,
+      "renderedAt": "2026-11-15T11:33:00.646Z",
+      "run": "43708499586"
     }
   ],
   "compilations": []

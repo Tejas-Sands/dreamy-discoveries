@@ -1,6 +1,6 @@
 # Spike and the Hedgehog Paintbrush
 
-**Status:** Available
+**Status:** Used · 2026-11-15
 
 **Hero:** Spike
 
@@ -17,6 +17,8 @@
 [Production script](../scripts/spike-paint-painting-28.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `spike-paint-painting-28`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-paint-painting-28-welcome)
 
 ## Read the story
 
