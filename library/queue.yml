@@ -361,13 +361,14 @@ items:
     startedAt: 2026-11-15T11:21:30.984Z
     doneAt: 2026-11-15T11:33:00.891Z
   - id: story-rex-story-story-29
-    status: pending
+    status: running
     slug: rex-story-story-29
     topic: Rex and the Story Cushion Mountain
     type: story
     hero: dinosaur
     minutes: 5.5
     addedAt: 2026-10-08
+    startedAt: 2026-11-16T11:54:10.563Z
   - id: story-spike-watering-garden-30
     status: pending
     slug: spike-watering-garden-30
