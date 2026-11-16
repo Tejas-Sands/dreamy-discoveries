@@ -1213,6 +1213,30 @@
       "durationSec": 228,
       "renderedAt": "2026-11-15T11:33:00.646Z",
       "run": "43708499586"
+    },
+    {
+      "slug": "rex-story-story-29-welcome",
+      "revisionOf": "rex-story-story-29",
+      "title": "Rex and the Story Cushion Mountain",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "dinosaur",
+      "heroName": "Rex",
+      "palette": "ocean",
+      "backgrounds": [
+        "bedroom"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rex-story-story-29-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rex-story-story-29-welcome",
+      "durationSec": 258,
+      "renderedAt": "2026-11-16T12:08:49.404Z",
+      "run": "43861710390"
     }
   ],
   "compilations": []

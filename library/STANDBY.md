@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 73 available · 35 used**
+**108 stories · 72 available · 36 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -118,7 +118,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Rex and the Story Cushion Mountain](standby/rex-story-story-29.md) | Percy | bedroom | Making space for another reader can improve a shared adventure. | Available |
+| [Rex and the Story Cushion Mountain](standby/rex-story-story-29.md) | Percy | bedroom | Making space for another reader can improve a shared adventure. | Used · 2026-11-16 |
 | [Rex and the Not-My-Favorite Bite](standby/rex-and-the-not-my-favorite-bite.md) | Percy | park | You can say what you like without insulting someone else's food. | Available |
 
 ## Buster

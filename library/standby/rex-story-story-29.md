@@ -1,6 +1,6 @@
 # Rex and the Story Cushion Mountain
 
-**Status:** Available
+**Status:** Used · 2026-11-16
 
 **Hero:** Rex
 
@@ -17,6 +17,8 @@ Making space for another reader can improve a shared adventure.
 [Production script](../scripts/rex-story-story-29.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `rex-story-story-29`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rex-story-story-29-welcome)
 
 ## Read the story
 
