@@ -1,6 +1,6 @@
 # Spike and the Too-Helpful Watering Can
 
-**Status:** Available
+**Status:** Used · 2026-11-17
 
 **Hero:** Spike
 
@@ -17,6 +17,8 @@ Asking what help is needed can prevent an unwanted surprise.
 [Production script](../scripts/spike-watering-garden-30.json) · [All standby stories](../STANDBY.md)
 
 To produce this story, run **Make video** with **slug** = `spike-watering-garden-30`.
+
+[Completed video release](https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-watering-garden-30-welcome)
 
 ## Read the story
 

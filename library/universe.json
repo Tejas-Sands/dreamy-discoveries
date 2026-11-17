@@ -1,12 +1,12 @@
 {
   "universe": "Sunny Meadow",
   "version": 1,
-  "updatedAt": "2026-11-16T12:07:46.306Z",
+  "updatedAt": "2026-11-17T12:36:43.010Z",
   "counts": {
-    "stories": 44,
+    "stories": 45,
     "rhymes": 4,
-    "episodes": 48,
-    "stars": 118
+    "episodes": 49,
+    "stars": 120
   },
   "usage": {
     "tilly": 3,
@@ -42,11 +42,12 @@
     "frog": 1,
     "pig": 1,
     "hedgehog": 1,
-    "dinosaur": 1
+    "dinosaur": 1,
+    "dragon": 1
   },
   "appeared": {
     "tilly": 7,
-    "daisy": 10,
+    "daisy": 11,
     "fiona": 6,
     "ozzy": 10,
     "taffy": 9,
@@ -77,8 +78,9 @@
     "horse": 1,
     "cow": 1,
     "chick": 1,
-    "hedgehog": 1,
-    "dinosaur": 1
+    "hedgehog": 2,
+    "dinosaur": 1,
+    "dragon": 1
   },
   "canon": [
     {
@@ -250,6 +252,11 @@
       "event": "First appearance: Rex the dinosaur.",
       "story": "rex-story-story-29-welcome",
       "at": "2026-11-16"
+    },
+    {
+      "event": "First appearance: Spike the dragon.",
+      "story": "spike-watering-garden-30-welcome",
+      "at": "2026-11-17"
     }
   ],
   "stories": [
@@ -2131,6 +2138,46 @@
       "release": {
         "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-rex-story-story-29-welcome",
         "tag": "video-rex-story-story-29-welcome"
+      }
+    },
+    {
+      "id": "spike-watering-garden-30-welcome",
+      "revisionOf": "spike-watering-garden-30",
+      "type": "story",
+      "title": "Spike and the Too-Helpful Watering Can",
+      "hero": "dragon",
+      "heroName": "Spike",
+      "cast": [
+        "dragon",
+        "daisy",
+        "hedgehog"
+      ],
+      "moral": "Asking what help is needed can prevent an unwanted surprise.",
+      "moralRhyme": [
+        "Ask what help a friend might need,",
+        "Then a useful hand can lead!"
+      ],
+      "catchphrases": [],
+      "questions": 2,
+      "stars": 2,
+      "backgrounds": [
+        "garden"
+      ],
+      "palette": "candy",
+      "firsts": [],
+      "status": "released",
+      "template": null,
+      "topic": null,
+      "months": "2026-11",
+      "timeline": {
+        "scripted": null,
+        "voiced": null,
+        "rendered": null,
+        "released": "2026-11-17"
+      },
+      "release": {
+        "url": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-watering-garden-30-welcome",
+        "tag": "video-spike-watering-garden-30-welcome"
       }
     }
   ]

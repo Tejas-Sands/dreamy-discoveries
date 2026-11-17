@@ -1,6 +1,6 @@
 # Sunny Meadow standby story bank
 
-**108 stories · 72 available · 36 used**
+**108 stories · 71 available · 37 used**
 
 Complete scripts for preschool moral-story episodes. Each includes dialogue, narration, two child choices, a visible repair and a moral chant.
 
@@ -132,7 +132,7 @@ node scripts/standby.mjs used --slug <story-slug> --release <video-url>
 
 | Read story | Co-star | Setting | Moral | Status |
 | --- | --- | --- | --- | --- |
-| [Spike and the Too-Helpful Watering Can](standby/spike-watering-garden-30.md) | Daisy | garden | Asking what help is needed can prevent an unwanted surprise. | Available |
+| [Spike and the Too-Helpful Watering Can](standby/spike-watering-garden-30.md) | Daisy | garden | Asking what help is needed can prevent an unwanted surprise. | Used · 2026-11-17 |
 
 ## Eli
 

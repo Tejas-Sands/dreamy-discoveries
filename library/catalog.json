@@ -1237,6 +1237,30 @@
       "durationSec": 258,
       "renderedAt": "2026-11-16T12:08:49.404Z",
       "run": "43861710390"
+    },
+    {
+      "slug": "spike-watering-garden-30-welcome",
+      "revisionOf": "spike-watering-garden-30",
+      "title": "Spike and the Too-Helpful Watering Can",
+      "type": "story",
+      "template": null,
+      "topic": null,
+      "hero": "dragon",
+      "heroName": "Spike",
+      "palette": "candy",
+      "backgrounds": [
+        "garden"
+      ],
+      "lines": 60,
+      "stars": 2,
+      "questions": 2,
+      "status": "released",
+      "months": "2026-11",
+      "releaseUrl": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-watering-garden-30-welcome",
+      "release": "https://github.com/Tejas-Sands/dreamy-discoveries/releases/tag/video-spike-watering-garden-30-welcome",
+      "durationSec": 258,
+      "renderedAt": "2026-11-17T12:37:37.130Z",
+      "run": "44081655049"
     }
   ],
   "compilations": []

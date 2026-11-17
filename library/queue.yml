@@ -371,7 +371,7 @@ items:
     startedAt: 2026-11-16T11:54:10.563Z
     doneAt: 2026-11-16T12:08:49.821Z
   - id: story-spike-watering-garden-30
-    status: running
+    status: done
     slug: spike-watering-garden-30-welcome
     topic: Spike and the Too-Helpful Watering Can
     type: story
@@ -379,6 +379,7 @@ items:
     minutes: 5.5
     addedAt: 2026-10-08
     startedAt: 2026-11-17T12:17:18.832Z
+    doneAt: 2026-11-17T12:37:37.406Z
   - id: story-pip-balloon-party-31
     status: pending
     slug: pip-balloon-party-31
